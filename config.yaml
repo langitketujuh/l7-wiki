@@ -1,0 +1,31 @@
+---
+baseURL: https://docs.langitketujuh.id/
+title: LangitKetujuh ID
+theme: geekdoc
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+timeout: 180000
+
+# Geekdoc configuration
+disablePathToLower: true
+enableGitInfo: true
+
+# Needed for mermaid shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+
+params:
+  geekdocToC: 3
+
+  geekdocRepo: https://gitlab.com/langitketujuh/docs
+  geekdocEditPath: -/blob/master/content
+
+  geekdocSearch: true
+
+  geekdocLegalNotice: /peraturan-layanan
+  geekdocPrivacyPolicy: /kebijakan-privasi
