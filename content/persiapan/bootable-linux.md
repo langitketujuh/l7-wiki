@@ -1,6 +1,6 @@
 ---
 title: Bootable Linux
-weight: 3
+weight: 4
 ---
 
 Unduh aplikasi pembuat bootable USB

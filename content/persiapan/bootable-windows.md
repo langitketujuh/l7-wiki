@@ -1,6 +1,6 @@
 ---
 title: Bootable Windows
-weight: 4
+weight: 5
 ---
 
 ## 1. Rufus
