@@ -1,6 +1,7 @@
 ---
 title: Mengunduh ISO
 weight: 3
+draft: false
 ---
 
 {{< tabs "iso-download" >}}

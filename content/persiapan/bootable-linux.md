@@ -1,6 +1,7 @@
 ---
 title: Bootable Linux
 weight: 5
+draft: false
 ---
 
 {{< hint danger >}}

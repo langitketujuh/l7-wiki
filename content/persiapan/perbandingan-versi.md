@@ -1,6 +1,7 @@
 ---
 title: Perbandingan Versi
 weight: 2
+draft: false
 ---
 
 ## Musl vs Glibc

@@ -1,6 +1,7 @@
 ---
 title: Boot Mode
 weight: 2
+draft: false
 ---
 
 ## UEFI

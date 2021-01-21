@@ -2,6 +2,7 @@
 title: Memasang aplikasi nonfree
 weight: 3
 ---
+draft: false
 
 Khusus untuk glibc
 

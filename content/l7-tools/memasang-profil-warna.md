@@ -1,4 +1,5 @@
----
+
+draft: false---
 title: Memasang profil warna
 weight: 2
 ---

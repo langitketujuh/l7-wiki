@@ -1,6 +1,7 @@
 ---
 title: Single Boot
 weight: 3
+draft: false
 ---
 
 Dengan pemasangan satu sistem operasi maka sistem operasi saat ini akan digantikan dengan LangitKetujuh saja.

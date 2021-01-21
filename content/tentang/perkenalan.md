@@ -1,6 +1,7 @@
 ---
 title: Perkenalan
 weight: 1
+draft: false
 ---
 
 ## Motivasi

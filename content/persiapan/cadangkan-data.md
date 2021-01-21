@@ -1,6 +1,7 @@
 ---
 title: Cadangkan Data
 weight: 1
+draft: false
 ---
 
 {{< tabs "uniqueid" >}}

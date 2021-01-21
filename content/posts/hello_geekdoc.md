@@ -2,6 +2,7 @@
 title: Hello Geekdoc
 type: posts
 date: 2020-01-06
+draft: false
 ---
 
 This is the first release of the Geekdoc theme.

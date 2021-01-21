@@ -1,5 +1,6 @@
 ---
 title: Dokumentasi [Alpha]
+draft: false
 ---
 
 <!-- markdownlint-capture -->

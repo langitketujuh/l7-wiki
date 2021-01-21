@@ -1,6 +1,7 @@
 ---
 title: Disk dan Partisi
 weight: 3
+draft: false
 ---
 
 {{< hint danger >}}

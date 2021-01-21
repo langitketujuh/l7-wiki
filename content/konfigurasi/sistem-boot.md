@@ -1,6 +1,7 @@
 ---
 title: Sistem Boot
 weight: 2
+draft: false
 ---
 
 ## BIOS Menu

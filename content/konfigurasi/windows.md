@@ -1,6 +1,7 @@
 ---
 title: Windows
 weight: 1
+draft: false
 ---
 
 ## Menonaktifkan fast startup

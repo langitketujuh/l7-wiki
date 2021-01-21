@@ -1,6 +1,7 @@
 ---
 title: Fitur Utama
 weight: 2
+draft: false
 ---
 
 {{< columns >}}

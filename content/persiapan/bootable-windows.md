@@ -1,6 +1,7 @@
 ---
 title: Bootable Windows
 weight: 4
+draft: false
 ---
 
 {{< hint danger >}}
