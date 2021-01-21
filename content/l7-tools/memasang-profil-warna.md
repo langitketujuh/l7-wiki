@@ -1,7 +1,7 @@
-
-draft: false---
+---
 title: Memasang profil warna
 weight: 2
+draft: false
 ---
 
 - `l7-tools --adobe-icc`    memasang adobe icc
