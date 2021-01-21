@@ -1,17 +1,19 @@
 ---
 title: Disk dan Partisi
-weight: 6
+weight: 5
 ---
 
 ## Mengerti dengan sistem partisi mesin sendiri
 
-Gunakan `disk` untuk mengetahui sistem partisi. Setidaknya dengan ini dapat mengerti partisi mana yang akan dijadikan partisi sistem, partisi boot, partisi home dan partisi opsional.
+Gunakan `disk` atau `lsblk` untuk mengetahui sistem partisi. Setidaknya dengan ini dapat mengerti partisi mana yang akan dijadikan partisi sistem, partisi boot, partisi home dan partisi opsional.
 
 ## Mengetahui tipe disk MBR atau GPT
 
 Jika disk yang akan digunakan adalah `sda` maka ketik:
 
-`sudo fdisk -l /dev/sda`
+```shell
+sudo fdisk -l /dev/sda
+```
 
 Lihat keluaran bagian `Disklabel type:` jika hasilnya `dos` maka tipe MBR jika `gpt` maka tipe GPT.
 
@@ -19,7 +21,9 @@ Lihat keluaran bagian `Disklabel type:` jika hasilnya `dos` maka tipe MBR jika `
 
 Biasanya migrasi dari Legacy ke UEFI perlu konversi disk. Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Jangan lupa untuk unmount disk yang akan dikonversikan.
 
-`sudo gdisk /dev/sda`
+```shell
+sudo gdisk /dev/sda
+```
 
 Pilih `w` untuk menjadikan ke GPT partisi ke disk. Pilih `y` untuk konfirmasi proses.
 
@@ -27,7 +31,9 @@ Pilih `w` untuk menjadikan ke GPT partisi ke disk. Pilih `y` untuk konfirmasi pr
 
 Kami rasa sangat disayangkan bila disk dikonversi ke MBR, karena seperti mengalami penurunan fitur. Jika terpaksa konversi tetap gunakan `gdisk`. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Jangan lupa untuk unmount disk yang akan dikonversikan.
 
-`sudo gdisk /dev/sda`
+```shell
+sudo gdisk /dev/sda
+```
 
 Pilih `r` untuk recovery dan pilihan tranformasi. Pilih `g` untuk konversi GPT ke MBR.
 
@@ -37,7 +43,9 @@ Pembagian partisi melalui mode pemasangan juga bisa dilakukan. Tetapi agar lebih
 
 Misalnya disk yang digunakan adalah `sda` maka
 
-`sudo cfdisk /dev/sda`
+```shell
+sudo cfdisk /dev/sda
+```
 
 Gunakan navigasi arah panah untuk melakukan eksekusi perintah. Misalnya `new` dan `delete`.
 
