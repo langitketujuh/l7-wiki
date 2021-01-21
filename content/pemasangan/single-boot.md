@@ -12,7 +12,7 @@ Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan 
 Buka aplikasi `konsole` di menu, kemudian ketik perintah berikut untuk menuju pemasang LangitKetujuh OS.
 
 ```shell
-sudo langitKetujuh-install
+sudo langitketujuh-install
 ```
 
 ## Keyboard
@@ -76,7 +76,7 @@ Untuk "group membership" lewati saja dengan memilih `OK`.
 
 ## BootLoader
 
-Jika disk utama menggunakan `sda` maka bootloader menggunakan `/devsda`. Pada dialog `use graphical boot loader` pilih `Yes`.
+Jika disk utama menggunakan `sda` maka bootloader menggunakan `/dev/sda`. Pada dialog `use graphical boot loader` pilih `Yes`.
 
 ## Partition
 
