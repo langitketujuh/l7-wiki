@@ -34,7 +34,7 @@ Glibc direkomendasikan untuk Anda yang memerlukan aplikasi Nonfree seperti drive
 
 ## Tabel Perbandingan
 
-**Fitur** | **Lite - Musl** | **Lite - Glibc** | **Pro - Musl** | **Pro - Glibc**
+**Fitur** | **Lite Musl** | **Lite Glibc** | **Pro Musl** | **Pro Glibc**
 :--- | :---: | :---: | :---: | :---:
 Dukungan instalasi oleh tenaga ahli. | - | -  | **√** | **√**
 Dukungan codec Audio dan Video. | **√** | **√** | **√** | **√**

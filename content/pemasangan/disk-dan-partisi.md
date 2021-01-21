@@ -62,19 +62,19 @@ Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perinta
 {{< tab "BIOS (dos)" >}}
 **Tipe Partisi** | **Jumlah** | **Mount Point**
 :---: | :---: | :---:
-`fat32` | 1G | `/boot`
-`XFS` | 50G | `/`
-`Ext4` | ~G | `/home`
+`Vfat` | `1G` | `/boot`
+`XFS` | `50G` | `/`
+`Ext4` | `~` | `/home`
 {{< /tab >}}
 
 {{< tab "UEFI (gpt)" >}}
 **Tipe Partisi** | **Jumlah** | **Mount Point**
 :---: | :---: | :---:
-`fat32` | 1G | `/boot/efi`
-`XFS` | 50G | `/`
-`Ext4` | ~G | `/home`
+`Vfat` | `1G` | `/boot/efi`
+`XFS` | `50G` | `/`
+`Ext4` | `~` | `/home`
 {{< /tab >}}
 
 {{< /tabs >}}
 
-Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
+Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
