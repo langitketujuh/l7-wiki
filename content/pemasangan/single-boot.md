@@ -1,5 +1,5 @@
 ---
-title: Satu sistem operasi
+title: Single Boot
 weight: 3
 ---
 

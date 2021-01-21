@@ -1,5 +1,5 @@
 ---
-title: Dual Boot dengan Linux
+title: Dual Boot Linux
 weight: 5
 ---
 

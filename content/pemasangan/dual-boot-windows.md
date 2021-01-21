@@ -1,5 +1,5 @@
 ---
-title: Dual Boot dengan Windows
+title: Dual Boot Windows
 weight: 4
 ---
 
