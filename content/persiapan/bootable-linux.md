@@ -79,7 +79,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 ## bootiso (cli)
 
 ```shell
-bootiso -aD langitketujuh*.iso
+bootiso --icopy -aD langitketujuh*.iso
 ```
 
 ## dd (cli)

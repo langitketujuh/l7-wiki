@@ -1,5 +1,5 @@
 ---
-title: BIOS
+title: Sistem Boot
 weight: 2
 ---
 
@@ -26,13 +26,13 @@ Jika Secure boot tidak aktif/muncul, maka buatlah kata sandi bios dahulu. Kata s
 
 ## Boot Order
 
-* Jika menggunakan Legacy pastikan USB berada di posisi paling atas.
+* Jika menggunakan BIOS pastikan USB berada di posisi paling atas.
 * Jika menggunakan UEFI, biasanya muncul 2 boot order Flasdisk di BIOS Menu. Pastikan USB UEFI berada di posisi paling atas.
 
 ## Boot Mode
 
-Jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI Only`
+Jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`. Untuk BIOS sendiri secara otomatis masuk ke boot mode BIOS sendiri.
 
 ## Restart
 
-Jika sudah diatur pengaturan BIOS-nya tekan F10 untuk menyimpan, lalu restart otomatis masuk ke Live USB LangitKetujuh.
+Jika sudah diatur pengaturan BIOS Menu tekan F10 untuk menyimpan, lalu restart otomatis masuk ke Live USB LangitKetujuh.
