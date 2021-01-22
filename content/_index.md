@@ -1,5 +1,5 @@
 ---
-title: Dokumentasi
+title: Panduan
 draft: false
 ---
 
