@@ -1,5 +1,5 @@
 ---
 title: Pemasangan
-weight: 4
+weight: 6
 draft: false
 ---

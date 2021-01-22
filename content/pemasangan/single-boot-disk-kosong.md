@@ -1,14 +1,17 @@
 ---
-title: Single Boot Fresh
+title: Single boot disk kosong
 weight: 3
 draft: false
 ---
 
-Dengan pemasangan satu sistem operasi maka sistem operasi saat ini akan digantikan dengan LangitKetujuh saja.
+{{< hint warning >}}
+**Metode**\
+Dengan pemasangan single boot ini artinya hanya untuk pemasangan satu sistem operasi saja. Pemasangan dengan metode ini ditujukan untuk disk yang benar-benar kosong, aman dipartisi ulang, tidak ada data penting dan aman untuk dihapus semua partisinya.
+{{< /hint >}}
 
 ## Pemasangan
 
-Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Jadi navigasinya menggunakan arah panah (⬆️, ➡️, ⬇️, ⬅️) dan `tab` di keyboard.
+Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Jadi navigasinya menggunakan arah panah (⬆️ ➡️ ⬇️ ⬅️) dan `tab` di keyboard.
 Buka aplikasi `konsole` di menu, kemudian ketik perintah berikut untuk menuju pemasang LangitKetujuh OS.
 
 ```shell

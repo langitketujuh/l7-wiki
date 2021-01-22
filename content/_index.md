@@ -1,5 +1,5 @@
 ---
-title: Dokumentasi [Alpha]
+title: Dokumentasi
 draft: false
 ---
 

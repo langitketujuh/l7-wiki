@@ -25,15 +25,15 @@ Lihat keluaran bagian `Disklabel type:` jika hasilnya `dos` maka tipe MBR jika `
 
 ## Merubah MBR ke GPT tanpa format
 
-Terkadang disk setelah diperiksa ternyata adalah MBR(dos). Padahal saat ini boot mode yang digunakan adalah UEFI, berarti Anda sedang migrasi dari BIOS ke UEFI. Maka disk perlu dikonversi dari MBR ke GPT dengan cara dibawah ini.
+Terkadang disk setelah diperiksa ternyata adalah MBR(dos). Padahal saat ini boot mode yang digunakan adalah UEFI, berarti Anda sedang migrasi dari BIOS ke UEFI. Maka disk perlu dikonversi dari MBR ke GPT.
 
-Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Jangan lupa untuk unmount disk yang akan dikonversikan.
+Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Dan jangan lupa untuk umount disk yang akan dikonversikan.
 
 ```shell
 sudo gdisk /dev/sda
 ```
 
-Pilih `w` untuk menjadikan ke GPT partisi ke disk. Pilih `y` untuk konfirmasi proses.
+Pilih `w` untuk menjadikan disk ke GPT. Pilih `y` untuk konfirmasi proses.
 
 ## Merubah GPT ke MBR tanpa format
 

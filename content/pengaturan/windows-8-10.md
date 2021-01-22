@@ -1,5 +1,5 @@
 ---
-title: Windows
+title: Windows 8/10
 weight: 1
 draft: false
 ---
@@ -13,3 +13,5 @@ draft: false
 - Hapus ceklis "Turn on fast startup (recommended)"
 - Klik "Save changes"
 - Restart komputer
+
+Jika tidak dimatikan fast startupnya maka akan susah masuk ke Bios Menu-nya

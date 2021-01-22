@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-**Jenis Pengguna** | **Nama Pengguna** | **Kata Sandi** 
+**Jenis** | **Nama** | **Kata Sandi** 
 :---: | :---: | :---:
 Normal | `anon` | `langitketujuh`
 Root | `root` | `langitketujuh`
