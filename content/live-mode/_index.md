@@ -1,5 +1,5 @@
 ---
-title: Live Mode
+title: Live mode
 weight: 5
 draft: false
 ---
