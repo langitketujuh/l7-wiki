@@ -13,3 +13,5 @@ draft: false
 ## Pilihan Tepat untuk Desainer dan Pengguna Desktop
 
 Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, update stabil rolling rilis, dan sumber daya yang efisien.
+
+{{< figure src=/media/start-menu-langitketujuh-id.webp alt="Start Menu LangitKetujuh OS">}}
