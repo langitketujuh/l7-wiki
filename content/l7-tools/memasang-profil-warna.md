@@ -4,9 +4,38 @@ weight: 2
 draft: false
 ---
 
-- `l7-tools --adobe-icc`    memasang adobe icc
-- `l7-tools --idea-icc`     memasang idealliance icc
-- `l7-tools --eci-icc`      memasang eci icc
-- `l7-tools --jpma-icc`     memasang jpma icc
-- `l7-tools --vigc-icc`     memasang vigc icc
-- `l7-tools --snap-icc`     memasang snap committee icc
+{{< expand "Adobe icc" >}}
+```shell
+l7-tools --adobe-icc
+```
+{{< /expand >}}
+
+{{< expand "Idealliance icc" >}}
+```shell
+l7-tools --idea-icc
+```
+{{< /expand >}}
+
+{{< expand "ECI icc" >}}
+```shell
+l7-tools --eci-icc
+```
+{{< /expand >}}
+
+{{< expand "JPMA icc" >}}
+```shell
+l7-tools --jpma-icc
+```
+{{< /expand >}}
+
+{{< expand "Vigc icc" >}}
+```shell
+l7-tools --vigc-icc
+```
+{{< /expand >}}
+
+{{< expand "Snap committee icc" >}}
+```shell
+l7-tools --snap-icc
+```
+{{< /expand >}}

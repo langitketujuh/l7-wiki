@@ -1,6 +1,6 @@
 ---
-title: L7-tools
-weight: 8
+title: Flatpak
+weight: 9
 draft: false
 geekdocCollapseSection: true
 ---
