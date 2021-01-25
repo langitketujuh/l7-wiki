@@ -22,13 +22,15 @@ Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan KDE aplikasi s
 ## Perlengkapan perkantoran
 Tersedia LibreOffice sebagai alat produktifitas yang komplit dan handal untuk kebutuhan perkantoran. Writer, Impress, Calc, Base, dan banyak lagi.
 <--->
-## Perlengkapan Desain (Pro)
-Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, dan game kreator. Google fonts sudah masuk di dalamnya.
+## LangitKetujuh Dark Theme
+Secara bawaan tampilan tema menggunakan versi gelap agar membuat nyaman dan menyehatkan mata untuk aktifitas yang lama.
 {{< /columns >}}
 
 {{< columns >}}
+## Perlengkapan Desain (Pro)
+Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, dan game kreator. Google fonts sudah masuk di dalamnya.
+<--->
 ## Dukungan Instalasi (Pro)
 Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui telegram, whatsapp atau surel.
-<--->
 <--->
 {{< /columns >}}
