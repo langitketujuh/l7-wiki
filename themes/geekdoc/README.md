@@ -21,14 +21,15 @@ Due to the fact that `gulp` is used as pre-processor the theme cannot be used fr
 npm install
 
 # run gulp pipeline to build required assets
-gulp default
+npx gulp default
 ```
 
-See the [Getting Started Guide](https://geekdocs.de/usage/getting_started/) for details about the different setup options.
+See the [Getting Started Guide](https://geekdocs.de/usage/getting-started/) for details about the different setup options.
 
 ## Contributors
 
-Special thanks goes to all [contributors](https://github.com/thegeeklab/hugo-geekdoc/graphs/contributors).
+Special thanks goes to all [contributors](https://github.com/thegeeklab/hugo-geekdoc/graphs/contributors). If you would like to contribute,
+please see the [instructions](https://github.com/thegeeklab/hugo-geekdoc/blob/master/CONTRIBUTING.md).
 
 Geekdoc is inspired and partially based on the [hugo-book](https://github.com/alex-shpak/hugo-book) theme, thanks [Alex Shpak](https://github.com/alex-shpak/) for your work.
 
