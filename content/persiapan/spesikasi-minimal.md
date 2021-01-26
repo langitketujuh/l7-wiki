@@ -7,27 +7,29 @@ draft: false
 {{< tabs "uniqueid" >}}
 {{< tab "Lite" >}}
 
-**Tipe**          | **Minimal**
-:---              | :---
-**CPU**           | Dual Core 1 GHz
-**RAM**           | 2 GiB
-**Ruang Disk**    | 8 GiB
-**VGA**           | 1366x768 HD (16:9)
-**Port USB**      | 2.0
-**Internet**      | Tidak harus
+**Tipe**          | **Minimal**         | **Disarankan**
+:---              | :---                | :---
+**CPU**           | Dual Core 1 GHz     | Core i3 atau diatasnya
+**RAM**           | 2 GiB               | 4 Gib
+**Ruang Disk**    | 8 GiB               | 25 Gib
+**VGA**           | 1366x768            | 1920x1280
+**Port USB**      | 2.0                 | 3.0
+**Internet**      | Tidak harus         | Tidak harus
 
 {{< /tab >}}
 
 {{< tab "Pro" >}}
 
-**Tipe**          | **Minimal**
-:---              | :---
-**CPU**           | Dual Core 1 GHz
-**RAM**           | 4 GiB
-**Ruang Disk**    | 17 GiB
-**VGA**           | 1366x768 HD (16:9)
-**Port USB**      | 2.0
-**Internet**      | Harus, jika memerlukan pemasangan via remote
+**Tipe**          | **Minimal**         | **Disarankan**
+:---              | :---                | :---
+**CPU**           | Dual Core 1 GHz     | Core i5 atau diatasnya
+**RAM**           | 4 GiB               | 8 Gib
+**Ruang Disk**    | 17 GiB              | 50 Gib
+**VGA**           | 1366x768            | 1920x1280
+**Port USB**      | 2.0                 | 3.0
+**Internet**      | Harus*              | Harus*
+
+*) Jika membutuhkan dukungan pemasangan via remote
 
 {{< /tab >}}
 
