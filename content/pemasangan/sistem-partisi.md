@@ -1,5 +1,5 @@
 ---
-title: Disk dan Partisi
+title: Sistem partisi
 weight: 3
 draft: false
 ---
@@ -45,7 +45,7 @@ sudo gdisk /dev/sda
 
 Pilih `r` untuk recovery dan pilihan tranformasi. Pilih `g` untuk konversi GPT ke MBR.
 
-## Pembagian partisi diawal lebih baik
+## Pembagian partisi diawal
 
 Pembagian partisi melalui mode pemasangan langsung juga bisa dilakukan. Tetapi agar lebih siap lagi, sebaiknya pembagian partisi dilakukan diawal sehingga lebih mudah dan cepat untuk mounting.
 

@@ -1,5 +1,5 @@
 ---
-title: Tombol Bios
+title: Tombol bios
 weight: 2
 draft: false
 ---

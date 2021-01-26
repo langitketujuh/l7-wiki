@@ -1,6 +1,6 @@
 ---
 title: Dual Boot Windows
-weight: 4
+weight: 6
 draft: true
 ---
 

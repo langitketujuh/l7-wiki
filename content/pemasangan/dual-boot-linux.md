@@ -1,6 +1,6 @@
 ---
 title: Dual Boot Linux
-weight: 5
+weight: 7
 draft: true
 ---
 

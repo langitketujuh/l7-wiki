@@ -1,6 +1,6 @@
 ---
-title: Cadangkan Data
-weight: 1
+title: Cadangkan data
+weight: 2
 draft: false
 ---
 

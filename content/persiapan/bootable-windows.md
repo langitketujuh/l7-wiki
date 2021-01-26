@@ -1,6 +1,6 @@
 ---
-title: Bootable Windows
-weight: 4
+title: Bootable windows
+weight: 3
 draft: false
 ---
 

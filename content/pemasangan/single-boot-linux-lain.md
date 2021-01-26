@@ -1,6 +1,6 @@
 ---
 title: Single boot dari linux lain
-weight: 4
+weight: 5
 draft: false
 ---
 
