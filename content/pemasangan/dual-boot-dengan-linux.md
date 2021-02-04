@@ -6,7 +6,7 @@ draft: false
 
 {{< hint warning >}}
 **Metode**\
-Pemasangan dual boot dengan linux lain adalah menjadikan LangitKetujuh akan menjadi sistem operasi kedua. Dengan syarat memiliki partisi **/boot** atau **/boot/efi** dan partisi **/home** yang ingin dipertahankan tanpa format. Partisi **/home** akan dijadikan satu dengan distro linux sebelumnya sehingga perlu membuat satu partisi baru saja untuk **/** LangitKetujuh. Meskipun partisi **/home** jadi satu, `username` baru untuk LangitKetujuh dibedakan dengan `username` distro linux yang lama agar tidak tumpang tindih. Jika tidak mempunyai partisi **/home** maka Anda bisa membuat dua partisi baru, yaitu **/** dan **/home** untuk LangitKetujuh.
+Pemasangan dual boot dengan linux lain adalah menjadikan LangitKetujuh akan menjadi sistem operasi kedua. Dengan syarat memiliki partisi **/boot** atau **/boot/efi** dan partisi **/home** yang ingin dipertahankan tanpa format. Partisi **/home** akan dijadikan satu dengan distro linux yang lama sehingga perlu membuat satu partisi baru untuk **/** LangitKetujuh. Meskipun partisi **/home** jadi satu, `username` baru untuk LangitKetujuh dibedakan dengan `username` distro linux yang lama agar tidak tumpang tindih. Jika tidak mempunyai partisi **/home** maka Anda bisa membuat dua partisi baru, yaitu **/** dan **/home** untuk LangitKetujuh.
 {{< /hint >}}
 
 ## Menyiapkan partisi baru untuk sistem
@@ -139,7 +139,7 @@ Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi.
 
 ## User Account
 
-Nama pengguna ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb. Gunakan nama pengguna yang berbeda dengan pengguna distro linux sebelumnya agar tidak tumpang tindih.
+Nama pengguna ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb. Gunakan nama pengguna yang berbeda dengan pengguna distro linux yang lama agar tidak tumpang tindih.
 
 Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi dengan benar.
 
@@ -182,7 +182,7 @@ Berdasarkan dari contoh skema diatas, maka partisi yang akan digunakan terlihat 
 
 {{< /tabs >}}
 
-Partisi `/dev/sda3` tidak perlu dibuat, karena sudah ada dari pemartisian linux sebelummnya. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
+Partisi `/dev/sda3` tidak perlu dibuat, karena sudah ada dari pemartisian linux sebelumnya. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
 
 ## Filesystems
 
@@ -196,8 +196,8 @@ Partisi tersebut tidak diformat atau dihapus. Jadi pada bagian "Choose New Files
 Berdasarkan skema partisi diatas maka eksekusi _mounting_ akan seperti berikut ini.
 
 - `sda1` Akan dijadikan partisi boot. Tidak diformat.
-- `sda2` **Dilewati** karena partisi sistem root distro linux sebelumnya.
-- `sda3` Akan dijadikan satu partisi home dengan distro linux sebelumnya. Tidak diformat.
+- `sda2` **Dilewati** karena partisi sistem root distro linux yang lama.
+- `sda3` Akan dijadikan satu partisi home dengan distro linux yang lama. Tidak diformat.
 - `sda4` Sebuah partisi baru. Akan dijadikan partisi sistem LangitKetujuh.
 
 {{< tabs "filesystems" >}}
