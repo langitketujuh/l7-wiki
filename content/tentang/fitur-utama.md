@@ -12,7 +12,7 @@ Tersedia libc modern yang mengutamakan efisiensi sumber daya. Render audio/video
 Keamanan lebih baik. Menggunakan runit karena PID1 harus sederhana, minimalis, dan stabil. Tentunya bebas dari SystemD.
 <--->
 ## Xbps Paket Manajemen
-Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (Rolling Release).
+Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (rilis bergulir).
 {{< /columns >}}
 
 {{< columns >}}
