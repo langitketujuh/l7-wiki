@@ -80,8 +80,13 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 ## bootiso (cli)
 
 ```shell
-bootiso --icopy -aD langitketujuh*.iso
+bootiso --icopy -a langitketujuh*.iso
 ```
+Lalu tunggu sampai proses menyalin selesai.
+
+Video selengkapnya:
+
+{{< video bootiso-bootable-usb-langitketujuh.webm >}}
 
 ## dd (cli)
 Cek letak path flashdisk dengan `lsblk`. Jika `sdb` maka
