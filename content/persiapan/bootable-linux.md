@@ -77,20 +77,40 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 - Klik "Restore"
 - Tunggu sampai selesai
 
-## bootiso (cli)
+## bootiso (cli disarankan)
 
-```shell
-bootiso --icopy -a langitketujuh*.iso
-```
-Lalu tunggu sampai proses menyalin selesai.
+- Buka folder yang berisi iso langitketujuh.
+- Klik kanan, pilih "Actions".
+- Pilih "Open Terminal Here".
+- Pastikan Flasdisk sudah tertancap.
+- Ketik `bootiso langitketujuh[tekan tab]`.
+- Tunggu sampai proses menyalin selesai.
 
-Video selengkapnya:
+Pada video dibawah ini menggunakan Flasdisk `Sandisk` sebagai contoh.
 
-{{< video bootiso-bootable-usb-langitketujuh.webm >}}
+{{< video bootiso-bootable-usb-langitketujuh.webm bootiso-bootable-usb-langitketujuh.webp >}}
 
 ## dd (cli)
-Cek letak path flashdisk dengan `lsblk`. Jika `sdb` maka
+Cek letak path flashdisk dengan `lsblk`.
 
 ```shell
-sudo dd if=langitketujuh*.iso of/dev/sdb bs=1M status=progress oflag=sync
+➜  lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:16   0 149.1G  0 disk 
+├─sda1   8:17   0     1G  0 part /boot
+└─sda2   8:18   0   148G  0 part /
+sdb      8:32   0 465.8G  0 disk 
+└─sdb1   8:33   0 465.8G  0 part /home
+sdc      8:48   1  14.6G  0 disk 
+├─sdc1   8:49   1   2.4G  0 part 
+└─sdc2   8:50   1    32M  0 part
 ```
+
+Pada informasi diatas `sdc` adalah flashdisk dengan ukuran 14.6GB
+
+- Buka folder yang berisi iso langitketujuh.
+- Klik kanan, pilih "Actions".
+- Pilih "Open Terminal Here".
+- Pastikan Flasdisk sudah tertancap.
+- Ketik `sudo dd if=langitketujuh[tekan tab] of=/dev/sdc bs=1M status=progress oflag=sync`.
+- Tunggu sampai proses menyalin selesai.
