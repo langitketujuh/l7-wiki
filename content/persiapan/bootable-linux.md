@@ -23,6 +23,8 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 - Pilih "Create"
 - Tunggu sampai selesai
 
+{{< video isoimagewriter-bootable-usb-langitketujuh.webm isoimagewriter-bootable-usb-langitketujuh.webp >}}
+
 ## ddgtk
 
 - Buka aplikasi ddgtk, biasanya di menu dengan nama "DDgtk Bootable Disk Creator"
