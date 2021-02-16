@@ -34,6 +34,12 @@ l7-tools --cnijfilter2
 ```
 {{< /expand >}}
 
+{{< expand "Discord" >}}
+```shell
+l7-tools --discord
+```
+{{< /expand >}}
+
 {{< expand "Epson inkjet 2 printer driver" >}}
 ```shell
 l7-tools --epson-inkjet2
