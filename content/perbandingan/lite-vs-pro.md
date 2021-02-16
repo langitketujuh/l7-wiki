@@ -10,6 +10,8 @@ Dukungan instalasi oleh tenaga ahli. | - | -  | **√** | **√**
 Dukungan codec Audio dan Video. | **√** | **√** | **√** | **√**
 Libreoffice paket aplikasi perkantoran. | **√** | **√** | **√** | **√**
 Deteksi Printer HP dan Epson. | **√** | **√** | **√** | **√**
+Kalibrasi warna dengan DisplayCAL. | **√** | **√** | **√** | **√**
+Kalibrasi kecerahan otomatis dengan Clight. | **√** | **√** | **√** | **√**
 Gimp manipulasi foto. | **√** | **√** | **√** | **√**
 Inkscape pengolah vektor. | **√** | **√** | **√** | **√**
 Audacity pengolah audio. | - | -  | **√** | **√**
