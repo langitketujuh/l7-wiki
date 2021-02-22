@@ -23,4 +23,5 @@ LangitKetujuh OS digunakan untuk tujuan bidang desain grafis. Baik pengajar desa
 ## Para Tim
 
 - [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa) (Developer & Desainer)
+- [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn) (Teknisi & Pendukung layanan)
 - _(Selanjutnya bisa jadi Anda)_
