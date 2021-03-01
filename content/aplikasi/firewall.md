@@ -1,6 +1,6 @@
 ---
-title: UFW
-weight: 3
+title: Firewall
+weight: 2
 draft: false
 ---
 

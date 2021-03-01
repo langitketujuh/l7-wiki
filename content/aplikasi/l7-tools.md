@@ -1,8 +1,56 @@
 ---
-title: Memasang aplikasi via xbps-src
-weight: 3
+title: L7 Tools
+weight: 5
 draft: false
 ---
+
+{{< toc >}}
+
+### Update sistem
+
+Pembaruan sistem secara menyeluruh dapat mengguanakan `l7-tools`.
+
+`l7-tools --update`
+
+### Memasang profil warna
+
+{{< expand "Adobe icc" >}}
+```shell
+l7-tools --adobe-icc
+```
+{{< /expand >}}
+
+{{< expand "Idealliance icc" >}}
+```shell
+l7-tools --idea-icc
+```
+{{< /expand >}}
+
+{{< expand "ECI icc" >}}
+```shell
+l7-tools --eci-icc
+```
+{{< /expand >}}
+
+{{< expand "JPMA icc" >}}
+```shell
+l7-tools --jpma-icc
+```
+{{< /expand >}}
+
+{{< expand "Vigc icc" >}}
+```shell
+l7-tools --vigc-icc
+```
+{{< /expand >}}
+
+{{< expand "Snap committee icc" >}}
+```shell
+l7-tools --snap-icc
+```
+{{< /expand >}}
+
+### Memasang aplikasi via xbps-src
 
 {{< expand "Microsoft Font" >}}
 ```shell

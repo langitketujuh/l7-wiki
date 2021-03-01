@@ -9,6 +9,8 @@ draft: false
 Pemasangan dual boot dengan linux lain adalah menjadikan LangitKetujuh akan menjadi sistem operasi kedua. Dengan syarat memiliki partisi **/boot** atau **/boot/efi** dan partisi **/home** yang ingin dipertahankan tanpa format. Partisi **/home** akan dijadikan satu dengan distro linux yang lama sehingga perlu membuat satu partisi baru untuk **/** LangitKetujuh. Meskipun partisi **/home** jadi satu, `username` baru untuk LangitKetujuh dibedakan dengan `username` distro linux yang lama agar tidak tumpang tindih. Jika tidak mempunyai partisi **/home** maka Anda bisa membuat dua partisi baru, yaitu **/** dan **/home** untuk LangitKetujuh.
 {{< /hint >}}
 
+{{< toc >}}
+
 ## Menyiapkan partisi baru untuk sistem
 
 Gunakan gparted, gnome-disk, kde partition, cfdisk atau alat pemartisi lainnya. Lalu resize ruang partisi yang ada untuk digunakan partisi sistem LangitKetujuh.

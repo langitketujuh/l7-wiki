@@ -9,6 +9,8 @@ draft: false
 Dengan pemasangan single boot ini artinya hanya untuk pemasangan satu sistem operasi saja. Pemasangan dengan metode ini ditujukan untuk disk yang benar-benar kosong, aman dipartisi ulang, tidak ada data penting dan aman untuk dihapus semua partisinya.
 {{< /hint >}}
 
+{{< toc >}}
+
 ## Pemasangan
 
 Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Jadi navigasinya menggunakan arah panah (⬆️ ➡️ ⬇️ ⬅️) dan `tab` di keyboard.

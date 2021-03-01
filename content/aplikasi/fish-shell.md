@@ -1,8 +1,10 @@
 ---
-title: Perintah dasar
+title: Fish shell
 weight: 1
 draft: false
 ---
+
+### Perintah dasar dengan Fish shell
 
 Perintah            | Contoh          |Fungsi
  :---               | :---            | :---

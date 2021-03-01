@@ -9,6 +9,8 @@ draft: false
 Ketika merubah, mengganti, menambah dan mengurangi partisi. Sebaiknya Anda sudah mencadangkan ke disk eksternal atau cloud agar aman jika terjadi kesalahan teknis. Mohon tidak melanjutkan jika Anda tidak yakin dengan apa yang dilakukan.
 {{< /hint >}}
 
+{{< toc >}}
+
 ## Mengerti dengan sistem partisi sendiri
 
 Gunakan `disk` atau `lsblk` untuk mengetahui sistem partisi. Setidaknya dengan ini dapat mengerti partisi mana yang akan dijadikan partisi sistem, partisi boot, partisi home dan partisi opsional.

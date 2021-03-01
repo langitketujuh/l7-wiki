@@ -9,6 +9,8 @@ draft: false
 Pemasangan single boot dari linux lain adalah pemasangan satu sistem operasi untuk pengguna yang sebelumnya menggunakan sistem operasi GNU/Linux yang sudah memiliki partisi **/home** dan ingin mempertahankannya. Jika tidak mempunyai partisi /home maka Anda cadangkan data dahulu ke disk eksternal atau ke cloud.
 {{< /hint >}}
 
+{{< toc >}}
+
 ## Pemasangan
 
 Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Jadi navigasinya menggunakan arah panah (⬆️ ➡️ ⬇️ ⬅️) dan `tab` di keyboard.

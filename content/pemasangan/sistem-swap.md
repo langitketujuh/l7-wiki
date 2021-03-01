@@ -4,6 +4,8 @@ weight: 2
 draft: false
 ---
 
+{{< toc >}}
+
 ## Tradisional Swapfile
 
 Sistem tradisional swap dengan membuat partisi khusus swapfile sangat tidak disarankan. Alasannya sebagai berikut:

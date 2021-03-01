@@ -1,13 +1,20 @@
 ---
-title: Memasang aplikasi via Flatpak
+title: Flatpak
 weight: 3
 draft: false
 ---
+
+### Memasang aplikasi via Flatpak
 
 Konfigurasi dahulu repositori Flathub di Langitketujuh.
 
 ```shell
 flathub
+```
+atau dengan
+
+```shell
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo 
 ```
 
 Kemudian pasang aplikasi yang Anda butuhkan. Setelah memilih aplikasi ketik `y` untuk melanjutkan pemasangan aplikasi. Aplikasi lainnya bisa Anda dapatkan di website resmi flathub (https://flathub.org/).
