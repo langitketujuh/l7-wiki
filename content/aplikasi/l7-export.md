@@ -59,7 +59,7 @@ l7-export --install
 Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void dan derivatifnya. Jalankan perintah ini
 
 ```shell
-sudo curl "htts://langitketujuh.id/sh/l7-export" | sudo bash
+sudo curl "https://langitketujuh.id/sh/l7-export" | sudo bash
 
 l7-export --install
 ```
