@@ -8,37 +8,37 @@ Firewall adalah suatu sistem perangkat lunak yang mengizinkan lalu lintas jaring
 
 UFW adalah singkatan dari Uncomplicated Firewall sebuah aplikasi front-end dari iptables yang ringan, powerful dan sangat mudah digunakan untuk mengatur firewall. UFW ini adalah front-end dari iptables (pengaturan Firewall tingkat lanjut). Jadi dengan kata lain ketika Anda mengatur firewall dengan UFW maka sama saja mengatur firewall di iptables.
 
-### Mengaktifkan UFW
+## Mengaktifkan UFW
 
 ```shell
 sudo ufw enable
 ```
 
-### Menonaktifkan UFW
+## Menonaktifkan UFW
 
 ```shell
 sudo ufw disable
 ```
 
-### Melihat status dan aplikasi yang difilter
+## Melihat status dan aplikasi yang difilter
 
 ```shell
 sudo ufw status numbered
 ```
 
-### Mengecek aplikasi yang didukung
+## Mengecek aplikasi yang didukung
 
 ```shell
 sudo ufw app list
 ```
 
-### Mengizinkan jaringan aplikasi
+## Mengizinkan jaringan aplikasi
 
 ```shell
 sudo ufw allow 'APLIKASI'
 ```
 
-### Aplikasi yang disarankan untuk diizinkan
+## Aplikasi yang disarankan untuk diizinkan
 
 ```shell
 sudo ufw allow 'CUPS'
@@ -54,13 +54,13 @@ sudo ufw allow 'HPLIP'
 sudo ufw allow 'Ktorrent'
 ```
 
-### Mencegah jaringan aplikasi
+## Mencegah jaringan aplikasi
 
 ```shell
 sudo ufw deny 'APLIKASI'
 ```
 
-### Menghapus daftar aplikasi
+## Menghapus daftar aplikasi
 
 Lihat daftar aplikasi sesuai nomernya
 
@@ -79,7 +79,7 @@ Contoh:
 sudo ufw delete 7
 ```
 
-### Panduan lebih lengkap mengenai UFW
+## Panduan lebih lengkap mengenai UFW
 
 ```shell
 man ufw

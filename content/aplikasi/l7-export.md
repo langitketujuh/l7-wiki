@@ -4,13 +4,11 @@ weight: 6
 draft: false
 ---
 
-{{< toc >}}
-
-### Deskripsi
-
 L7 EXPORT merupakan fork dari [inkporter-cli](https://github.com/raniaamina/inkporter/blob/master/source/inkporter/inkporter) yang berfungsi sebagai pengekspor id objek yang telah ditentukan dari inkscape.
 
-### Fitur
+{{< toc >}}
+
+## Fitur
 
 * Mendukung Ekspor ke marketplace
 * Mendukung Eps rgb/cmyk (baru).
@@ -22,7 +20,7 @@ L7 EXPORT merupakan fork dari [inkporter-cli](https://github.com/raniaamina/inkp
 * Mendukung Png rgb.
 * Mendukung Webp dan Svg.
 
-### Color Profile
+## Color Profile
 
 Profil warna yang didukung:
 
@@ -32,7 +30,7 @@ Profil warna yang didukung:
 * Cmyk > Corel      (Japan Color 2001 Coated)
 * Cmyk > Adobe      (U.S. Web Coated (SWOP) v2)
 
-### Marketplace
+## Ekspor Marketplace
 
 Sederhananya fitur ini mengekspor id objek inkscape menjadi berkas siap upload. Marketplace tersebut antara lain:
 
@@ -48,7 +46,7 @@ In syaa Allah akan ada pembaruan secara berkala.
 
 Tips: untuk ekspor ke marketplace sesuaikan ukuran objek dengan peraturan dan kebijakan marketplace yang berlaku, karena area kanvas setiap marketplace berbeda-beda. Area kanvas yang direkomendasikan sudah ada di kolom "Area (px)" dan Dpi gambar preview sesuai kolom "Image (dpi)". 
 
-### Pemasangan
+## Pemasangan
 
 Secara bawaan sudah ada di Langitketujuh OS tinggal menambah color profile saja
 
@@ -59,12 +57,16 @@ l7-export --install
 Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void dan derivatifnya. Jalankan perintah ini
 
 ```shell
-sudo curl "https://langitketujuh.id/sh/l7-export" | sudo bash
+sudo su
+
+curl "https://langitketujuh.id/sh/l7-export" | bash
+
+exit
 
 l7-export --install
 ```
 
-### Cara penggunaan
+## Penggunaan
 
 - Berikan ID setiap objek di inkscape
 - Buka Konsole (terminal emulator) di direktori yang sama. Dengan cara klik kanan, klik "Open Terminal Here"

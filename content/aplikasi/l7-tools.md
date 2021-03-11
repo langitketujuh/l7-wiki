@@ -4,15 +4,17 @@ weight: 5
 draft: false
 ---
 
+L7-tools merupakan cli tools untuk melakukan konfigurasi sistem seperti pembaruan, memasang aplikasi pihak ketiga dan memasang profil warna.
+
 {{< toc >}}
 
-### Update sistem
+## Update sistem
 
 Pembaruan sistem secara menyeluruh dapat mengguanakan `l7-tools`.
 
 `l7-tools --update`
 
-### Memasang profil warna
+## Memasang profil warna
 
 {{< expand "Adobe icc" >}}
 ```shell
@@ -50,7 +52,7 @@ l7-tools --snap-icc
 ```
 {{< /expand >}}
 
-### Memasang aplikasi via xbps-src
+## Memasang aplikasi via xbps-src
 
 {{< expand "Microsoft Font" >}}
 ```shell

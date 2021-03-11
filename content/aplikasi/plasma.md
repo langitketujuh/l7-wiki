@@ -4,21 +4,21 @@ weight: 4
 draft: false
 ---
 
-### Mengganti tema Terang
+## Mengganti tema Terang
 
 - Buka di menu "Global Theme"
 - Pilih tema "Langitketujuh"
 - Ceklis "Use desktop layout theme"
 - Klik "Apply"
 
-### Mengganti tema Gelap
+## Mengganti tema Gelap
 
 - Buka di menu "Global Theme"
 - Pilih tema "Langitketujuh Dark"
 - Ceklis "Use desktop layout theme"
 - Klik "Apply"
 
-### Mengosongkan sesi awal
+## Mengosongkan sesi awal
 
 - Buka "System Settings"
 - Pilih "Startup and shutdown"
@@ -26,7 +26,7 @@ draft: false
 - Pada pilihan "when logging in", pilih "Start with an empty session"
 - Klik "Apply"
 
-### Mengganti bahasa
+## Mengganti bahasa
 
 - Buka "System Settings"
 - Pilh "Regional Settings"
