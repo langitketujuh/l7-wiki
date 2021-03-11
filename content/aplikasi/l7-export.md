@@ -58,7 +58,7 @@ Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void 
 
 ```shell
 
-curl "https://langitketujuh.id/sh/l7-export" | sudo bash
+sudo curl "https://langitketujuh.id/sh/l7-export" | sudo bash
 
 l7-export --install
 ```
