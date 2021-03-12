@@ -353,7 +353,7 @@ img {
 }
 .gdoc-nav {
   flex: 0 0 16rem;
-  font-size: .875rem
+  font-size: 16px
 }
 .gdoc-nav nav {
   width: 16rem;
