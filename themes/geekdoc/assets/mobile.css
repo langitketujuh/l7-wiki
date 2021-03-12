@@ -1,7 +1,7 @@
 @media screen and (max-width:39rem) {
   .gdoc-nav {
     margin-left: -16rem;
-    font-size: 16px
+    font-size: 18px
   }
   .gdoc-nav__control {
     display: inline-block
