@@ -11,24 +11,25 @@ L7 EXPORT merupakan fork dari [inkporter-cli](https://github.com/raniaamina/inkp
 ## Fitur
 
 * Mendukung Ekspor ke marketplace
-* Mendukung Eps rgb/cmyk (baru).
-* Mendukung Ai rgb/cmyk (baru).
-* Mendukung Psd rgb/cmyk (baru).
-* Mendukung Jpg rgb/cmyk + warna profil.
-* Mendukung Tif rgb/cmyk + warna profil.
-* Mendukung Pdf rgb/cmyk + warna profil.
-* Mendukung Png rgb.
-* Mendukung Webp dan Svg.
+* Terdapat Validator EPS8
+* Ekspor ke berkas Eps rgb.
+* Ekspor ke berkas Ai rgb/cmyk.
+* Ekspor ke berkas Psd rgb/cmyk.
+* Ekspor ke berkas Jpg rgb/cmyk + warna profil.
+* Ekspor ke berkas Tif rgb/cmyk + warna profil.
+* Ekspor ke berkas Pdf rgb/cmyk + warna profil.
+* Ekspor ke berkas Png rgb.
+* Ekspor ke berkas Webp dan Svg.
 
 ## Color Profile
 
 Profil warna yang didukung:
 
-* sRgb > Default    (sRGB)
-* Cmyk > Krita      (Chemical proof)
-* Cmyk > Generic    (SWOP2006 Coated3v2)
-* Cmyk > Corel      (Japan Color 2001 Coated)
-* Cmyk > Adobe      (U.S. Web Coated (SWOP) v2)
+* RGB  > Default    (sRGB)
+* CMYK > Krita      (Chemical proof)
+* CMYK > Generic    (SWOP2006 Coated3v2)
+* CMYK > Corel      (Japan Color 2001 Coated)
+* CMYK > Adobe      (U.S. Web Coated (SWOP) v2)
 
 ## Ekspor Marketplace
 
@@ -44,7 +45,11 @@ Sederhananya fitur ini mengekspor id objek inkscape menjadi berkas siap upload. 
 
 In syaa Allah akan ada pembaruan secara berkala.
 
-Tips: untuk ekspor ke marketplace sesuaikan ukuran objek dengan peraturan dan kebijakan marketplace yang berlaku, karena area kanvas setiap marketplace berbeda-beda. Area kanvas yang direkomendasikan sudah ada di kolom "Area (px)" dan Dpi gambar preview sesuai kolom "Image (dpi)". 
+Tips: untuk ekspor ke marketplace sesuaikan ukuran objek dengan peraturan dan kebijakan marketplace yang berlaku, karena area kanvas setiap marketplace berbeda-beda. Area kanvas yang direkomendasikan sudah ada di kolom "Advice (px)" dan Dpi gambar preview sesuai kolom "Preview (dpi)". 
+
+## Validator EPS8
+
+Fitur ini untuk memeriksa objek-objek yang tidak didukung EPS8. Misalnya transparansi, filter efek, teks, objek dan stroke yang belum dikonversi. Dengan demikian objek yang tersebut dapat direvisi sampai valid untuk di ekspor ke pilihan Marketplace. Pastinya lebih aman dan bebas dari hasil raster EPS.
 
 ## Pemasangan
 
