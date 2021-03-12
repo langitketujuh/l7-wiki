@@ -12,43 +12,43 @@ L7-tools merupakan cli tools untuk melakukan konfigurasi sistem seperti pembarua
 
 Pembaruan sistem secara menyeluruh dapat mengguanakan `l7-tools`.
 
-`l7-tools --update`
+`sudo l7-tools --update`
 
 ## Memasang profil warna
 
 {{< expand "Adobe icc" >}}
 ```shell
-l7-tools --adobe-icc
+sudo l7-tools --adobe-icc
 ```
 {{< /expand >}}
 
 {{< expand "Idealliance icc" >}}
 ```shell
-l7-tools --idea-icc
+sudo l7-tools --idea-icc
 ```
 {{< /expand >}}
 
 {{< expand "ECI icc" >}}
 ```shell
-l7-tools --eci-icc
+sudo l7-tools --eci-icc
 ```
 {{< /expand >}}
 
 {{< expand "JPMA icc" >}}
 ```shell
-l7-tools --jpma-icc
+sudo l7-tools --jpma-icc
 ```
 {{< /expand >}}
 
 {{< expand "Vigc icc" >}}
 ```shell
-l7-tools --vigc-icc
+sudo l7-tools --vigc-icc
 ```
 {{< /expand >}}
 
 {{< expand "Snap committee icc" >}}
 ```shell
-l7-tools --snap-icc
+sudo l7-tools --snap-icc
 ```
 {{< /expand >}}
 

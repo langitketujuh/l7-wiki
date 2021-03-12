@@ -51,7 +51,7 @@ Tips: untuk ekspor ke marketplace sesuaikan ukuran objek dengan peraturan dan ke
 Secara bawaan sudah ada di Langitketujuh OS tinggal menambah color profile saja
 
 ```shell
-l7-export --install
+sudo l7-export --install
 ```
 
 Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void dan derivatifnya. Jalankan perintah ini
@@ -60,7 +60,7 @@ Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void 
 
 sudo curl "https://langitketujuh.id/sh/l7-export" | sudo bash
 
-l7-export --install
+sudo l7-export --install
 ```
 
 ## Penggunaan
