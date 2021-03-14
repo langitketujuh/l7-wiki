@@ -1,9 +1,8 @@
 ---
 title: Perkenalan
-weight: 1
-draft: false
----
+weight: "1"
 
+---
 ## Motivasi
 
 Amar ma’ruf nahi munkar. Mengajak kepada kebaikan, mencegah keburukan (kejahatan).
@@ -22,6 +21,6 @@ LangitKetujuh OS digunakan untuk tujuan bidang desain grafis. Baik pengajar desa
 
 ## Para Tim
 
-- [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa) (Developer & Desainer)
-- [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn) (Teknisi & Pendukung layanan)
-- _(Selanjutnya bisa jadi Anda)_
+* [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa "Developer & Desainer") (Developer & Desainer)
+* [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn "Teknisi & Pendukung layanan") (Teknisi & Pendukung layanan)
+* _(Selanjutnya bisa jadi Anda)_
