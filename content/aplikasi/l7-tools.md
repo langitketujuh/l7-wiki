@@ -15,170 +15,24 @@ Pembaruan sistem secara menyeluruh dapat mengguanakan `l7-tools`.
 
 ## Memasang profil warna
 
-{{< expand "Adobe icc" >}}
+Perintah                    | Color Profile
+ :---                       | :---
+`sudo l7-tools --adobe-icc` | Adobe
+`sudo l7-tools --idea-icc`  | Idealliance
+`sudo l7-tools --eci-icc`   | ECI
+`sudo l7-tools --jpma-icc`  | JPMA
+`sudo l7-tools --scribus-icc`  | Sribus
+`sudo l7-tools --vigc-icc`  | VIGC
+`sudo l7-tools --snap-icc`  | Snap committee
+
+## Memasang Fish Shell
 
 ```shell
-sudo l7-tools --adobe-icc
+sudo l7-tools --fish
 ```
 
-{{< /expand >}}
-
-{{< expand "Idealliance icc" >}}
+## Memasang Wine Emulator
 
 ```shell
-sudo l7-tools --idea-icc
+sudo l7-tools --wine-emu
 ```
-
-{{< /expand >}}
-
-{{< expand "ECI icc" >}}
-
-```shell
-sudo l7-tools --eci-icc
-```
-
-{{< /expand >}}
-
-{{< expand "JPMA icc" >}}
-
-```shell
-sudo l7-tools --jpma-icc
-```
-
-{{< /expand >}}
-
-{{< expand "Vigc icc" >}}
-
-```shell
-sudo l7-tools --vigc-icc
-```
-
-{{< /expand >}}
-
-{{< expand "Snap committee icc" >}}
-
-```shell
-sudo l7-tools --snap-icc
-```
-
-{{< /expand >}}
-
-## Memasang aplikasi via xbps-src
-
-{{< expand "Microsoft Font" >}}
-
-```shell
-l7-tools --msttcorefonts
-```
-
-{{< /expand >}}
-
-{{< hint warning >}}
-**Khusus Glibc**  
-Aplikasi Nonfree dibawah ini khusus pengguna glibc saja. Jika Anda menggunakan musl, memasang aplikasi nonfree dapat dilakukan dengan Flatpak atau kontainer Voidnrun.
-
-{{< /hint >}}
-
-{{< expand "Anydesk" >}}
-
-```shell
-l7-tools --anydesk
-```
-
-{{< /expand >}}
-
-{{< expand "Brother scan driver" >}}
-
-```shell
-l7-tools --brother-brscan4
-```
-
-{{< /expand >}}
-
-{{< expand "Canon printer driver" >}}
-
-```shell
-l7-tools --cnijfilter2
-```
-
-{{< /expand >}}
-
-{{< expand "Discord" >}}
-
-```shell
-l7-tools --discord
-```
-
-{{< /expand >}}
-
-{{< expand "Epson inkjet 2 printer driver" >}}
-
-```shell
-l7-tools --epson-inkjet2
-```
-
-{{< /expand >}}
-
-{{< expand "Google chrome" >}}
-
-```shell
-l7-tools --google-chrome
-```
-
-{{< /expand >}}
-
-{{< expand "Opera browser" >}}
-
-```shell
-l7-tools --opera
-```
-
-{{< /expand >}}
-
-{{< expand "Skype" >}}
-
-```shell
-l7-tools --skype
-```
-
-{{< /expand >}}
-
-{{< expand "Slack-desktop" >}}
-
-```shell
-l7-tools --slack-desktop
-```
-
-{{< /expand >}}
-
-{{< expand "Spotify" >}}
-
-```shell
-l7-tools --spotify
-```
-
-{{< /expand >}}
-
-{{< expand "Microsoft teams" >}}
-
-```shell
-l7-tools --teams-bin
-```
-
-{{< /expand >}}
-
-{{< expand "WPS office" >}}
-
-```shell
-l7-tools --wps-office
-```
-
-{{< /expand >}}
-
-{{< expand "Zoom" >}}
-
-```shell
-l7-tools --zoom
-```
-
-{{< /expand >}}
