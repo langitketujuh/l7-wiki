@@ -1,0 +1,71 @@
+---
+title: Vpsm
+weight: "6"
+
+---
+`VPSM` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu aplikasi, baik yang free maupun yang nonfree restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang aplikasi sesuai readme docs di xbps-src.
+
+{{< toc >}}
+
+## Memasang `vpsm`
+
+```shell
+get vpsm
+```
+
+## Mengatur path void-packages ke .cache
+
+```shell
+set -Ux XBPS_DISTDIR $HOME/.cache/void-packages
+```
+
+## Kloning void-packages.git tanpa histori.
+
+```shell
+git clone --depth 1 git://github.com/void-linux/void-packages.git $XBPS_DISTDIR
+```
+
+## Membangun bootstrap
+
+```shell
+vpsm be
+vpsm bb
+```
+
+Persiapan selesai.
+
+----
+
+## Perintah dasar `vpsm`
+
+Perintah              | Contoh              |Fungsi
+ :---                 | :---                | :---
+`vpsm i <packages>`   | `vpsm i zoom`       | memasang aplikasi (install)
+`vpsm ss <string>`    | `vpsm ss art`       | mencari aplikasi dengan kata kunci
+`vpsm un <packages>`  | `vpsm un zoom`      | menghapus aplikasi (uninstall)
+`vpsm sw <packages>`  | `vpsp sw inkscape`  | mencari informasi aplikasi
+`vpsm upr`            | -                   | update repositori
+`vpsm bu`             | -                   | update bootstrap
+
+Lebih lengkapnya `man vpsm`.
+
+## Daftar aplikasi yang sering diinstall
+
+Perintah                  | Aplikasi
+ :---                     | :--- 
+`vpsm i msttcorefonts`    | Microsoft Font
+`vpsm i anydesk`          | Anydesk
+`vpsm i brother-brscan4`  | Brother scan driver
+`vpsm i cnijfilter2`      | Canon printer driver
+`vpsm i discord`          | Discord
+`vpsm i epson-inkjet2`    | Epson inkjet 2 printer driver
+`vpsm i google-chrome`    | Google chrome
+`vpsm i opera`            | Opera browser
+`vpsm i skype`            | Skype
+`vpsm i slack-desktop`    | Slack-desktop
+`vpsm i spotify`          | Spotify
+`vpsm i teams-bin`        | Microsoft Teams
+`vpsm i wps-office`       | WPS Office
+`vpsm i zoom`             | Zoom
+
+Selebihnya Anda dapat mencari aplikasi lain dengan `vpsm ss katakunci`
