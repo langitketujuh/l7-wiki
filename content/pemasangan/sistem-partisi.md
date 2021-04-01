@@ -45,7 +45,7 @@ Kami rasa sangat disayangkan bila disk dikonversi ke MBR, karena seperti mengala
 sudo gdisk /dev/sda
 ```
 
-Pilih `r` untuk recovery dan pilihan tranformasi. Pilih `g` untuk konversi GPT ke MBR.
+Pilih `r` untuk recovery dan pilihan tranformasi. Pilih `g` untuk konversi GPT ke MBR. Lalu `w` untuk menerapkan konversinya.
 
 ## Pembagian partisi diawal
 
