@@ -64,6 +64,7 @@ Lebih lengkapnya `man vpsm`.
 Perintah                  | Aplikasi
  :---                     | :--- 
 `vpsm i msttcorefonts`    | Microsoft Font
+`vpsm i android-studio`   | Android Studio
 `vpsm i anydesk`          | Anydesk
 `vpsm i brother-brscan4`  | Brother scan driver
 `vpsm i cnijfilter2`      | Canon printer driver
