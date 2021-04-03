@@ -6,6 +6,8 @@ draft: false
 
 ### Perintah dasar dengan Fish shell
 
+Perintah dasar di Langitketujuh menggunakan fitur abbr (singkatan) untuk mempercepat mengetik perintah yang sebenarnya. Misalnya mengetik `sync` akan berubah secara otomatis menjadi `sudo xbps-install -S`. Demikian pula perintah lainnya yang seperti dibawah ini.
+
 Perintah            | Contoh          |Fungsi
  :---               | :---            | :---
 `sync`              | -               | Memperbarui basis data repositori.
