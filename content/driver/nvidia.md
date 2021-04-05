@@ -1,6 +1,6 @@
 ---
 title: Nvidia
-weight: 2
+weight: 1
 draft: false
 ---
 
