@@ -2,7 +2,7 @@
 title: Aplikasi
 weight: 8
 draft: false
-geekdocCollapseSection: false
+geekdocCollapseSection: true
 ---
 <!-- spellchecker-disable -->
 
