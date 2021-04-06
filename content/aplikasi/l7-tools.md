@@ -1,6 +1,6 @@
 ---
 title: L7 Tools
-weight: "5"
+weight: "6"
 
 ---
 L7-tools merupakan alat CLI untuk melakukan konfigurasi sistem seperti pembaruan, memasang aplikasi pihak ketiga, memasang profil warna dan pengaturan lainnya.

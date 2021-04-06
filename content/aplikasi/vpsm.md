@@ -1,6 +1,6 @@
 ---
 title: Vpsm
-weight: "6"
+weight: "8"
 
 ---
 `VPSM` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu aplikasi, baik yang free maupun yang nonfree restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang aplikasi sesuai readme docs di xbps-src.
