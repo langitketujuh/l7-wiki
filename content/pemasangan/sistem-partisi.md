@@ -35,7 +35,8 @@ Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang di
 sudo gdisk /dev/sda
 ```
 
-Pilih `w` untuk menjadikan disk ke GPT. Pilih `y` untuk konfirmasi proses.
+- Ketik `w` untuk menjadikan disk ke GPT.
+- Ketik `y` untuk konfirmasi proses.
 
 ## Merubah GPT ke MBR tanpa format
 
@@ -45,7 +46,10 @@ Kami rasa sangat disayangkan bila disk dikonversi ke MBR, karena seperti mengala
 sudo gdisk /dev/sda
 ```
 
-Pilih `r` untuk recovery dan pilihan tranformasi. Pilih `g` untuk konversi GPT ke MBR. Lalu `w` untuk menerapkan konversinya.
+- Ketik `r` untuk recovery dan pilihan tranformasi, `enter`.
+- Ketik `g` untuk konversi GPT ke MBR, `enter`.
+- Ketik `w` untuk write, `enter`.
+- Ketik `Y`, `enter` untuk menerapkan konversinya.
 
 ## Pembagian partisi diawal
 
