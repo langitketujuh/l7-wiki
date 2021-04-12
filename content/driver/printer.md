@@ -24,6 +24,7 @@ Driver printer HP (hplip) versi CLI sudah terpasang secara otomatis, namun jika 
 
 ```shell
 remove hplip
+
 get hplip-gui
 ```
 
@@ -47,9 +48,9 @@ Pasang Driver printer brother.
 get brother-brlaser
 ```
 
-Beberapa driver hanya tersedia di glibc saja, karena nonfree.
+Beberapa driver hanya tersedia di glibc saja, karena driver yang tidak bebas.
 
-Nama paket                        | Deskripsi
+Perintah                          | Deskripsi
  :---                             | :---
 `get brother-brscan3`             | SANE scanner driver for brscan3-compatible Brother scanners
 `get brother-brscan4`             | SANE scanner driver for brscan4-compatible printers
