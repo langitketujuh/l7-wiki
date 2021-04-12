@@ -82,7 +82,7 @@ Maka akan ada partisi baru yaitu `sda4` dengan ukuran 50G sebagai contoh. Yang n
 
 ## Pemasangan
 
-Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Jadi navigasinya menggunakan arah panah (⬆️ ➡️ ⬇️ ⬅️) dan `tab` di keyboard.
+Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Jadi navigasinya menggunakan arah panah (⬆️ ➡️ ⬇️ ⬅️), `tab` dan `enter` di keyboard.
 Buka aplikasi `konsole` di menu, kemudian ketik perintah berikut untuk menuju pemasang LangitKetujuh OS.
 
 ```shell
@@ -140,12 +140,15 @@ Asia | Jayapura
 Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi.
 
 ## User Account
+{{< hint warning >}}
+**Nama Pengguna (username)**\
+Gunakan nama pengguna yang berbeda dengan pengguna distro linux yang lama agar tidak tumpang tindih, hal ini untuk membuat pengaturan baru untuk distro LangitKetujuh. Jika ingin menimpa, tidak mengapa untuk menggunakan username yang sama.
+{{< /hint >}}
 
-Nama pengguna ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb. Gunakan nama pengguna yang berbeda dengan pengguna distro linux yang lama agar tidak tumpang tindih.
-
+Nama pengguna (username) ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb.
 Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi dengan benar.
 
-Kemudian tulis nama pengguna untuk login. Bisa menggunakan huruf kapital dan spasi. Misalnya `Hervy Qurrotul`, `Muhammad Rizal`, dsb.
+Kemudian tulis nama pengguna untuk login (user login). Bisa menggunakan huruf kapital dan spasi. Misalnya `Hervy Qurrotul`, `Muhammad Rizal`, dsb.
 
 Untuk "group membership" lewati saja dengan memilih `OK`.
 
