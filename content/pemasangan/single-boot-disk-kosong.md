@@ -26,7 +26,7 @@ Pilih `us` untuk jenis papan ketik `QWERTY`
 
 ## Network
 
-Lewati tahap ini karena pemasangan sebaiknya dilakukan secara offline.
+Lewati tahap ini karena pemasangan sebaiknya dilakukan secara offline. Jika terlanjur terklik, pilih `Back` untuk kembali.`
 
 ## Source
 
