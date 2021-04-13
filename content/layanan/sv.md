@@ -8,7 +8,7 @@ SV merupakan salah satu manajemen init dari runit untuk pengganti systemd. Tujua
 
 Sedangkan VSV hampir sama dengan sv namun lebih sederhana.
 
-## Daftar layanan yang sedang aktif
+## Daftar semua layanan
 
 ```shell
 sudo sv status /var/service/*
@@ -26,7 +26,9 @@ sudo vsv
 ls /etc/sv/* -lah
 ```
 
-## Melihat status layanan
+Semua layanan (servis) tersedia didalam direktori `/etc/sv/`.
+
+## Status layanan
 
 ```shell
 sudo sv status <service>
