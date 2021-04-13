@@ -1,6 +1,6 @@
 ---
-title: Pasang Ulang
-weight: 2
+title: Single Boot Pasang Ulang
+weight: 5
 draft: false
 ---
 

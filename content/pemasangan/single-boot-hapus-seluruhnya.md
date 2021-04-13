@@ -1,6 +1,6 @@
 ---
-title: Hapus Seluruhnya
-weight: 1
+title: Single Boot Hapus Seluruhnya
+weight: 4
 draft: false
 ---
 

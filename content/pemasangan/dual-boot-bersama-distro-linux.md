@@ -1,12 +1,16 @@
 ---
-title: Bersama Windows
-weight: 2
+title: Dual Boot Bersama Distro Linux
+weight: 6
 draft: false
 ---
 
 {{< hint warning >}}
 **Metode**\
-Pemasangan dual boot LangitKetujuh bersama Windows adalah sistem operasi windows sudah terpasang dan LangitKetujuh menjadi sistem operasi kedua.
+Pemasangan dual boot dengan linux lain adalah menjadikan LangitKetujuh akan menjadi sistem operasi kedua. Dengan syarat memiliki partisi `/boot` atau `/boot/efi` dan partisi `/home` yang ingin dipertahankan tanpa format. Partisi `/home` akan dijadikan satu dengan distro linux yang lama sehingga perlu membuat satu partisi baru untuk `/` LangitKetujuh.
+
+Meskipun partisi `/home` jadi satu, `username` baru untuk LangitKetujuh dibedakan dengan `username` distro linux yang lama agar tidak tumpang tindih, kecuali jika menginginkannya.
+
+Jika tidak mempunyai partisi `/home` maka Anda bisa membuat dua partisi baru, yaitu `/` dan `/home` untuk LangitKetujuh.
 {{< /hint >}}
 
 {{< toc >}}
@@ -20,34 +24,65 @@ Gunakan KDE Partition, GParted, GNOME Disk, `cfdisk` atau alat pemartisi lainnya
 **Lite**          | 10 GiB              | 25 Gib
 **Pro**           | 20 GiB              | 50 Gib
 
-Berikut ini adalah contoh skema partisi didalam disk yang sudah memiliki partisi Windows.
+Berikut ini adalah contoh skema partisi didalam disk yang sudah memiliki partisi **/boot**, **/**, dan **/home**. Sehingga perlu partisi **/** baru.
 
 ```
-➜  ~ lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL
-
-NAME   TYPE FSTYPE    SIZE LABEL
-sda    disk           498G                 
-├─sdb1 part ntfs       50M System Reserved 
-├─sdb2 part ntfs      498M 
-└─sdb3 part ntfs      497G windows
+lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL,MOUNTPOINT
 ```
+
+{{< tabs "skema" >}}
+
+{{< tab "BIOS (mbr)" >}}
+```
+NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT
+sda    disk           498G                  
+├─sda1 part vfat        1G       /boot      
+├─sda2 part xfs        50G root  /          
+└─sda3 part ext4      438G home  /home      
+```
+{{< /tab >}}
+
+{{< tab "UEFI (gpt)" >}}
+```
+NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT 
+sda    disk           498G                  
+├─sda1 part vfat        1G       /boot/efi  
+├─sda2 part xfs        50G root  /          
+└─sda3 part ext4      438G home  /home      
+```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 Sesudah dipartisi:
 
+{{< tabs "skema-baru" >}}
+
+{{< tab "BIOS (mbr)" >}}
 ```
-NAME   TYPE FSTYPE    SIZE LABEL
+NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT 
+sda    disk           498G                  
+├─sda1 part vfat        1G       /boot      
+├─sda2 part xfs        50G root  /          
+├─sda3 part ext4      388G home  /home      
+└─sda4 part ext4       50G
+```
+{{< /tab >}}
+
+{{< tab "UEFI (gpt)" >}}
+```
+NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT 
 sda    disk           498G
-├─sdb1 part ntfs       50M System Reserved
-├─sdb2 part ntfs      498M 
-├─sdb3 part ntfs      297G windows
-├─sda4 part ext4       50G
-└─sda5 part ext4      150G
+├─sda1 part vfat        1G       /boot/efi  
+├─sda2 part xfs        50G root  /      
+├─sda3 part ext4      388G home  /home
+└─sda4 part ext4       50G
 ```
+{{< /tab >}}
 
-Maka akan ada partisi baru yaitu:
+{{< /tabs >}}
 
-* `sda4` dengan ukuran `50G`, yang akan dijadikan `/`
-* `sda5` dengan ukuran `150G`, yang akan dijadikan `/home`
+Maka akan ada partisi baru yaitu `sda4` dengan ukuran 50G sebagai contoh. Yang nantinya akan dijadikan partisi `/` untuk LangitKetujuh.
 
 ## Pemasangan
 
@@ -141,18 +176,18 @@ Berdasarkan dari contoh skema diatas, maka partisi yang akan digunakan terlihat 
 {{< tabs "partitions" >}}
 
 {{< tab "BIOS (dos)" >}}
-**Nama Disk** | **Jumlah**  | **Tipe** | **Kondisi partisi**
-:---:         | :---:       | :---:    | :---:
-`/dev/sda4`   | `50`        | `linux`  | Baru
-`/dev/sda5`   | `150G`      | `linux`  | Baru
+**Nama Disk** | **Bootable**  | **Jumlah**  | **Tipe** | **Kondisi partisi**
+:---:         | :---:         | :---:       | :---:    | :---:
+`/dev/sda3`   |               | `~`         | `linux`  | Lama
+`/dev/sda4`   |               | `50G`       | `linux`  | Baru
 {{< /tab >}}
 
 {{< tab "UEFI (gpt)" >}}
-**Nama Disk** | **Jumlah**  | **Tipe** | **Kondisi partisi**
-:---:         | :---:       | :---:    | :---:
-`/dev/sda2`   | `498M`      | `linux`  | Lama
-`/dev/sda4`   | `50`        | `linux`  | Baru
-`/dev/sda5`   | `150G`      | `linux`  | Baru
+**Nama Disk** | ~~Bootable~~  | **Jumlah**  | **Tipe** | **Kondisi partisi**
+:---:         | :---:         | :---:       | :---:    | :---:
+`/dev/sda1`   |               | `1G`        | `linux`  | Lama
+`/dev/sda3`   |               | `~`         | `linux`  | Lama
+`/dev/sda4`   |               | `50G`       | `linux`  | Baru
 {{< /tab >}}
 
 {{< /tabs >}}
@@ -160,33 +195,40 @@ Berdasarkan dari contoh skema diatas, maka partisi yang akan digunakan terlihat 
 * Baru = Partisinya diformat
 * Lama = Partisinya tidak diformat
 
-Partisi `/dev/sda3` tidak perlu dibuat, karena sudah ada dari pemartisian linux sebelumnya. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
+Partisi `/dev/sda3` untuk `/home` tidak perlu dibuat, karena sudah ada dari pemartisian linux sebelumnya. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
 
 ## Filesystems
 
-Pilih Nama disk kemudian pilih `Change`, lalu sesuaikan dengan kebutuhan _mount point_-nya. Berdasarkan skema partisi diatas maka eksekusi _mounting_ akan seperti berikut ini.
+Pilih Nama disk kemudian pilih `Change`, lalu sesuaikan dengan kebutuhan _mount point_-nya
 
-- `sda1` **Dilewati** karena partisi system reserved windows. Tidak diformat.
-- `sda2` Khusus UEFI, akan dijadikan partisi `/boot/efi`. Tidak diformat.
-- `sda3` **Dilewati** karena partisi sistem windows (localdisk:C ). Tidak diformat.
-- `sda4` Partisi baru untuk sistem (`/`). Diformat.
-- `sda5` Partisi baru untuk penyimpanan data (`/home`). Diformat.
+{{< hint danger >}}
+**Partisi /boot dan /home**\
+Partisi tersebut tidak diformat atau dihapus. Jadi pada bagian "Choose New Filesystems" pilih "**No**".
+{{< /hint >}}
+
+Berdasarkan skema partisi diatas maka eksekusi _mounting_ akan seperti berikut ini.
+
+- `sda1` Akan dijadikan partisi boot. Tidak diformat.
+- `sda2` **Dilewati** karena partisi sistem root distro linux yang lama.
+- `sda3` Akan dijadikan satu partisi home dengan distro linux yang lama. Tidak diformat.
+- `sda4` Sebuah partisi baru. Akan dijadikan partisi sistem LangitKetujuh.
 
 {{< tabs "filesystems" >}}
 
 {{< tab "BIOS (dos)" >}}
 **Nama Disk**   | **Tipe Partisi**  | **Mount Point**   | **New Filesystems (Format)**
 :---:           | :---:             | :---:             | :---:
+`/dev/sda1`     | `Vfat`            | `/boot`           | **`no`**
+`/dev/sda3`     | `Ext4`            | `/home`           | **`no`**
 `/dev/sda4`     | `Xfs`             | `/`               | **`yes`**
-`/dev/sda5`     | `Ext4`            | `/home`           | **`yes`**
 {{< /tab >}}
 
 {{< tab "UEFI (gpt)" >}}
 **Nama Disk**   | **Tipe Partisi**  | **Mount Point**   | **New Filesystems (Format)**
 :---:           | :---:             | :---:             | :---:
-`/dev/sda2`     | `Vfat`            | `/boot/efi`       | **`no`**
+`/dev/sda1`     | `Vfat`            | `/boot/efi`       | **`no`**
+`/dev/sda3`     | `Ext4`            | `/home`           | **`no`**
 `/dev/sda4`     | `Xfs`             | `/`               | **`yes`**
-`/dev/sda5`     | `Ext4`            | `/home`           | **`yes`**
 {{< /tab >}}
 
 {{< /tabs >}}
