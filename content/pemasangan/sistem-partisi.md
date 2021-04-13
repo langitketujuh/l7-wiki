@@ -1,5 +1,5 @@
 ---
-title: Sistem partisi
+title: Sistem Partisi
 weight: 3
 draft: false
 ---

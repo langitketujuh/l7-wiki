@@ -1,5 +1,5 @@
 ---
-title: Sistem boot
+title: Sistem Boot
 weight: 3
 draft: false
 ---

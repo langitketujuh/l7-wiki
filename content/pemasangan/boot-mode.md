@@ -1,5 +1,5 @@
 ---
-title: Boot mode
+title: Boot Mode
 weight: 1
 draft: false
 ---
