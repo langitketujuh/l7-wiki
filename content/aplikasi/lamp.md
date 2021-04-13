@@ -1,5 +1,5 @@
 ---
-title: LAMP
+title: LAMP DevOps
 weight: "5"
 draft: true
 

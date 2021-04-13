@@ -1,5 +1,5 @@
 ---
-title: Vpsm
+title: VPSM (xbps-src)
 weight: "8"
 
 ---

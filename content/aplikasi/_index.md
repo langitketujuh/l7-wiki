@@ -1,8 +1,8 @@
 ---
 title: Aplikasi
-weight: 8
+weight: 9
 draft: false
-geekdocCollapseSection: true
+geekdocCollapseSection: false
 ---
 <!-- spellchecker-disable -->
 

@@ -1,5 +1,5 @@
 ---
-title: Printer
+title: Printer & Scanner Driver
 weight: 2
 draft: false
 ---

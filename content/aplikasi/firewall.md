@@ -1,5 +1,5 @@
 ---
-title: Firewall
+title: UFW Firewall
 weight: 2
 draft: false
 ---

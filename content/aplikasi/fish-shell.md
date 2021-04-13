@@ -1,5 +1,5 @@
 ---
-title: Fish shell
+title: Perintah Dasar Fish Shell
 weight: 1
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: Dual Boot
-weight: 2
+weight: 5
 draft: false
 ---
 

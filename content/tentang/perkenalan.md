@@ -17,7 +17,7 @@ Berbagai aplikasi desain kebanyakan terbuat dari QT. Seperti krita, kdenlive, sc
 
 ## LangitKetujuh untuk siapa?
 
-LangitKetujuh OS digunakan untuk tujuan bidang desain grafis. Baik pengajar desain grafis, mahasiswa, freelancer, dan yang sedang bealjar desain grafis. Meskipun demikian, LangitKetujuh OS terdapat versi Lite yang digunakan untuk kebutuhan umum dan awam.
+LangitKetujuh OS digunakan untuk tujuan bidang desain grafis. Baik pengajar desain grafis, mahasiswa, freelancer, dan yang sedang bealjar desain grafis. Meskipun demikian, LangitKetujuh OS terdapat versi Lite yang digunakan untuk kebutuhan umum dan pemula.
 
 ## Para Tim
 

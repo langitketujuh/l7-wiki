@@ -1,5 +1,5 @@
 ---
-title: KDE Plasma
+title: KDE Plasma Pengaturan
 weight: 4
 draft: false
 ---

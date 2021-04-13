@@ -1,5 +1,5 @@
 ---
-title: Nvidia
+title: Nvidia GPU Driver
 weight: 1
 draft: false
 ---

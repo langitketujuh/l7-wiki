@@ -1,5 +1,5 @@
 ---
-title: Flatpak
+title: Flatpak Sanboxing
 weight: 3
 draft: false
 ---

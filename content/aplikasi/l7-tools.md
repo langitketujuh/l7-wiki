@@ -1,5 +1,5 @@
 ---
-title: L7 Tools
+title: L7 Tools Pengaturan
 weight: "6"
 
 ---
