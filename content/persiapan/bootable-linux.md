@@ -1,5 +1,5 @@
 ---
-title: Bootable linux
+title: Bootable Linux
 weight: 4
 draft: false
 ---

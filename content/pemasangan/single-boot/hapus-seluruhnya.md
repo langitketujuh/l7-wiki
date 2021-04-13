@@ -1,12 +1,12 @@
 ---
-title: Single boot disk kosong
-weight: 4
+title: Hapus Seluruhnya
+weight: 1
 draft: false
 ---
 
 {{< hint warning >}}
 **Metode**\
-Dengan pemasangan single boot ini artinya hanya untuk pemasangan satu sistem operasi saja. Pemasangan dengan metode ini ditujukan untuk disk yang benar-benar kosong, aman dipartisi ulang, tidak ada data penting dan aman untuk dihapus semua partisinya.
+Pemasangan single boot dengan hapus seluruhnya artinya pemasangan dengan satu sistem operasi saja. Pemasangan dengan metode ini ditujukan untuk disk yang benar-benar kosong, aman dipartisi ulang, tidak ada data penting dan aman untuk dihapus semua partisinya.
 {{< /hint >}}
 
 {{< toc >}}
@@ -34,7 +34,7 @@ Pilih `Local` untuk instalasi offline agar lebih cepat.
 
 ## Hostname
 
-Hostname ditulis dengan huruf kecil. Bisa menggunakan nama brand komputer, nama website, atau nama keluarga. Contohnya `langitketujuh`, `dell`, `librem`, dsb.
+Hostname ditulis dengan huruf kecil. Bisa menggunakan nama brand komputer, nama website, atau nama keluarga. Contohnya `langitketujuh`, `linux`, `studio`, dsb.
 
 ## Locale
 
@@ -72,16 +72,18 @@ Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi.
 
 ## User Account
 
-Nama pengguna ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb.
+Nama pengguna (username) ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb.
 Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi dengan benar.
 
-Kemudian tulis nama pengguna untuk login. Bisa menggunakan huruf kapital dan spasi. Misalnya `Hervy Qurrotul`, `Muhammad Rizal`, dsb.
+Kemudian tulis nama pengguna untuk login (userlogin). Bisa menggunakan huruf kapital dan spasi. Misalnya `Hervy Qurrotul`, `Muhammad Rizal`, dsb.
 
 Untuk "group membership" lewati saja dengan memilih `OK`.
 
 ## BootLoader
 
-Jika disk utama menggunakan `sda` maka bootloader menggunakan `/dev/sda`. Pada dialog `use graphical boot loader` pilih `Yes`.
+Bootloader tergantung dari letak disk yang terdapat partisi **/**. Biasanya menggunakan dari disk utama `/dev/sda`.
+
+Pada dialog `use graphical boot loader` pilih `Yes`.
 
 ## Partition
 
@@ -95,22 +97,25 @@ Abaikan jika sudah melakukan pemartisian diawal, lalu lanjut ke tahap **Filesyst
 {{< tabs "partitions" >}}
 
 {{< tab "BIOS (dos)" >}}
-**Nama Disk** | **Bootable** | **Jumlah** | **Tipe**
-:---: | :---: | :---: | :---: 
-`/dev/sda1` | * | `1G` | `linux`
-`/dev/sda2` |   | `50G` |  `linux`
-`/dev/sda3` |   | `~` |  `linux`
+**Nama Disk**   | **Bootable**  | **Jumlah**  | **Tipe**  | **Kondisi partisi**
+:---:           | :---:         | :---:       | :---:     | :---:
+`/dev/sda1`     | *             | `1G`        | `linux`   | Baru
+`/dev/sda2`     |               | `50G`       | `linux`   | Baru
+`/dev/sda3`     |               | `~`         | `linux`   | Baru
 {{< /tab >}}
 
 {{< tab "UEFI (gpt)" >}}
-**Nama Disk** | ~~Bootable~~ | **Jumlah** | **Tipe**
-:---: | :---: | :---: | :---: 
-`/dev/sda1` |   | `1G` | `linux`
-`/dev/sda2` |   | `50G` |  `linux`
-`/dev/sda3` |   | `~` |  `linux`
+**Nama Disk**   | ~~**Bootable**~~  | **Jumlah**  | **Tipe**  | **Kondisi partisi**
+:---:           | :---:             | :---:       | :---:     | :---:
+`/dev/sda1`     |                   | `1G`        | `linux`   | Baru
+`/dev/sda2`     |                   | `50G`       | `linux`   | Baru
+`/dev/sda3`     |                   | `~`         | `linux`   | Baru
 {{< /tab >}}
 
 {{< /tabs >}}
+
+* Baru = Partisinya diformat
+* Lama = Partisinya tidak diformat
 
 Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
 

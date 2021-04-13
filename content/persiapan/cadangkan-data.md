@@ -1,5 +1,5 @@
 ---
-title: Cadangkan data
+title: Cadangkan Data
 weight: 2
 draft: false
 ---

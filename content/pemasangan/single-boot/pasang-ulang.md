@@ -1,12 +1,12 @@
 ---
-title: Single boot dari linux lain
-weight: 5
+title: Pasang Ulang
+weight: 2
 draft: false
 ---
 
 {{< hint warning >}}
 **Metode**\
-Pemasangan single boot dari linux lain adalah pemasangan satu sistem operasi untuk pengguna yang sebelumnya menggunakan sistem operasi GNU/Linux yang sudah memiliki partisi **/home** dan ingin mempertahankannya. Jika tidak mempunyai partisi /home maka Anda cadangkan data dahulu ke disk eksternal atau ke cloud.
+Pemasangan single boot pasang ulang artinya pemasangan LangitKetujuh yang terdapat partisi `/home` dan ingin mempertahankannya. Jika tidak mempunyai partisi `/home` maka Anda cadangkan data dahulu ke disk eksternal atau ke cloud.
 {{< /hint >}}
 
 {{< toc >}}
@@ -34,7 +34,7 @@ Pilih `Local` untuk instalasi offline agar lebih cepat.
 
 ## Hostname
 
-Hostname ditulis dengan huruf kecil. Bisa menggunakan nama brand komputer, nama website, atau nama keluarga. Contohnya `langitketujuh`, `dell`, `librem`, dsb.
+Hostname ditulis dengan huruf kecil. Bisa menggunakan nama brand komputer, nama website, atau nama keluarga. Contohnya `langitketujuh`, `linux`, `studio`, dsb.
 
 ## Locale
 
@@ -72,16 +72,18 @@ Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi.
 
 ## User Account
 
-Nama pengguna ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb.
+Nama pengguna (username) ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb.
 Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi dengan benar.
 
-Kemudian tulis nama pengguna untuk login. Bisa menggunakan huruf kapital dan spasi. Misalnya `Hervy Qurrotul`, `Muhammad Rizal`, dsb.
+Kemudian tulis nama pengguna untuk login (userlogin). Bisa menggunakan huruf kapital dan spasi. Misalnya `Hervy Qurrotul`, `Muhammad Rizal`, dsb.
 
 Untuk "group membership" lewati saja dengan memilih `OK`.
 
 ## BootLoader
 
-Jika disk utama menggunakan `sda` maka bootloader menggunakan `/dev/sda`. Pada dialog `use graphical boot loader` pilih `Yes`.
+Bootloader tergantung dari letak disk yang terdapat partisi **/**. Biasanya menggunakan dari disk utama `/dev/sda`.
+
+Pada dialog `use graphical boot loader` pilih `Yes`.
 
 ## Partition
 
@@ -95,22 +97,25 @@ Abaikan jika sudah melakukan pemartisian diawal, lalu lanjut ke tahap **Filesyst
 {{< tabs "partitions" >}}
 
 {{< tab "BIOS (dos)" >}}
-**Nama Disk** | **Bootable** | **Jumlah** | **Tipe**
-:---: | :---: | :---: | :---: 
-`/dev/sda1` | * | `1G` | `linux`
-`/dev/sda2` |   | `50G` |  `linux`
-`/dev/sda3` |   | `~` |  `linux`
+**Nama Disk**   | **Bootable**  | **Jumlah**  | **Tipe**  | **Kondisi partisi**
+:---:           | :---:         | :---:       | :---:     | :---:
+`/dev/sda1`     | *             | `1G`        | `linux`   | Baru
+`/dev/sda2`     |               | `50G`       | `linux`   | Baru
+`/dev/sda3`     |               | `~`         | `linux`   | Lama
 {{< /tab >}}
 
 {{< tab "UEFI (gpt)" >}}
-**Nama Disk** | ~~Bootable~~ | **Jumlah** | **Tipe**
-:---: | :---: | :---: | :---: 
-`/dev/sda1` |   | `1G` | `linux`
-`/dev/sda2` |   | `50G` |  `linux`
-`/dev/sda3` |   | `~` |  `linux`
+**Nama Disk**   | ~~**Bootable**~~  | **Jumlah**  | **Tipe**  | **Kondisi partisi**
+:---:           | :---:             | :---:       | :---:     | :---:
+`/dev/sda1`     |                   | `1G`        | `linux`   | Lama
+`/dev/sda2`     |                   | `50G`       | `linux`   | Baru
+`/dev/sda3`     |                   | `~`         | `linux`   | Lama
 {{< /tab >}}
 
 {{< /tabs >}}
+
+* Baru = Partisinya diformat
+* Lama = Partisinya tidak diformat
 
 Partisi `/dev/sda3` tidak perlu dibuat, karena sudah ada dari pemartisian linux sebelumnya. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
 
@@ -126,19 +131,19 @@ Partisi tersebut tidak diformat atau dihapus. Jadi pada bagian "Choose New Files
 {{< tabs "filesystems" >}}
 
 {{< tab "BIOS (dos)" >}}
-**Nama Disk** | **Tipe Partisi** | **Mount Point** | **New Filesystems (Format)**
-:---: | :---: | :---: | :---:
-`/dev/sda1` | `Vfat` | `/boot` | `yes`
-`/dev/sda2` | `XFS` | `/` | `yes`
-`/dev/sda3` | `Ext4` | `/home` | **`no`**
+**Nama Disk**   | **Tipe Partisi**  | **Mount Point**   | **New Filesystems (Format)**
+:---:           | :---:             | :---:             | :---:
+`/dev/sda1`     | `Vfat`            | `/boot`           | `yes`
+`/dev/sda2`     | `XFS`             | `/`               | `yes`
+`/dev/sda3`     | `Ext4`            | `/home`           | **`no`**
 {{< /tab >}}
 
 {{< tab "UEFI (gpt)" >}}
-**Nama Disk** | **Tipe Partisi** | **Mount Point** | **New Filesystems (Format)**
-:---: | :---: | :---: | :---:
-`/dev/sda1` | `Vfat` | `/boot/efi` | `yes`
-`/dev/sda2` | `XFS` | `/` | `yes`
-`/dev/sda3` | `Ext4` | `/home` | **`no`**
+**Nama Disk**   | **Tipe Partisi**  | **Mount Point**   | **New Filesystems (Format)**
+:---:           | :---:             | :---:             | :---:
+`/dev/sda1`     | `Vfat`            | `/boot/efi`       | **`no`**
+`/dev/sda2`     | `XFS`             | `/`               | `yes`
+`/dev/sda3`     | `Ext4`            | `/home`           | **`no`**
 {{< /tab >}}
 
 {{< /tabs >}}

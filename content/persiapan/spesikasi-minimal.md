@@ -1,5 +1,5 @@
 ---
-title: Spesifikasi minimal
+title: Spesifikasi Minimal
 weight: 1
 draft: false
 ---
