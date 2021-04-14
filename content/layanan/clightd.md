@@ -6,7 +6,7 @@ draft: false
 
 Clight untuk mengatur kecerahan layar secara otomatis menggunakan sensor webcam. Secara bawaan sudah aktif.
 
-Biasanya baterai yan ngedrop dan webcam yang tidak terlalu bagus akan mempengaruhi kinerja `clight`. Jika bermasalah dinonaktifkan saja.
+Biasanya baterai yang ngedrop dan webcam yang tidak terlalu bagus akan mempengaruhi kinerja `clight`. Jika bermasalah fitur ini bisa dinonaktifkan saja.
 
 ## Melihat status clightd
 
