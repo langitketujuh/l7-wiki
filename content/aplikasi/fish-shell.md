@@ -22,3 +22,27 @@ Perintah            | Contoh          |Fungsi
 
 
 Gunakan arah panah atas/bawah untuk mencari histori perintah terminal. Dan arah kanan untuk melanjutkan perintah yang sudah pernah diketik sebelumnya.
+
+## Merubah fish-shell ke bash
+
+Jike anda belum terbiasa dengan fish shell, maka jalankan bash shell.
+
+```shell
+bash
+```
+
+Merubah secara bash shell secara permanen:
+
+```shell
+sudo chsh -s /usr/bin/bash $USER
+```
+
+## Dokumentasi dan Tutorial
+
+### Dokumentasi
+
+https://fishshell.com/docs/current/index.html
+
+### Tutorial
+
+https://fishshell.com/docs/current/tutorial.html
