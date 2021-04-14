@@ -31,7 +31,7 @@ Jike anda belum terbiasa dengan fish shell, maka jalankan bash shell.
 bash
 ```
 
-Merubah secara bash shell secara permanen:
+Merubah bash shell secara permanen:
 
 ```shell
 sudo chsh -s /usr/bin/bash $USER
