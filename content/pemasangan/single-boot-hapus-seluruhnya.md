@@ -117,7 +117,7 @@ Abaikan jika sudah melakukan pemartisian diawal, lalu lanjut ke tahap **Filesyst
 * Baru = Partisinya diformat
 * Lama = Partisinya tidak diformat
 
-Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
+Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja. Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk keluar.
 
 ## Filesystems
 

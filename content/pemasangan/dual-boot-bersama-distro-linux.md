@@ -195,7 +195,7 @@ Berdasarkan dari contoh skema diatas, maka partisi yang akan digunakan terlihat 
 * Baru = Partisinya diformat
 * Lama = Partisinya tidak diformat
 
-Partisi `/dev/sda3` untuk `/home` tidak perlu dibuat, karena sudah ada dari pemartisian linux sebelumnya. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
+Partisi `/dev/sda3` untuk `/home` tidak perlu dibuat, karena sudah ada dari pemartisian linux sebelumnya. Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk keluar.
 
 ## Filesystems
 
