@@ -24,6 +24,7 @@
             {{ end }}
             {{ if or .Content .Params.GeekdocFlatSection }}
                 <span class="flex">
+                    <svg class="icon keyborad_arrow_right_thin"><use xlink:href="#keyborad_arrow_right_thin"></use></svg>
                     <a href="{{ .RelPermalink }}" class="gdoc-nav__entry {{ if eq $current . }}is-active{{ end }}">
                         {{ partial "title" . }}
                     </a>
