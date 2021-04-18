@@ -16,7 +16,7 @@ sudo curl -s https://raw.githubusercontent.com/toluschr/xdeb/master/xdeb -o /usr
 
 sudo chmod +x /usr/bin/xdeb
 
-sudo xbps-install xz
+sudo xbps-install -Sy xz
 
 ```
 
