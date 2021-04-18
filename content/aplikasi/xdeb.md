@@ -11,9 +11,13 @@ weight: "9"
 ## Cara Memasang Xdeb
 
 ```shell
-sudo curl -s https://api.github.com/repos/toluschr/xdeb/releases/latest -o /usr/bin/xdeb
+
+sudo curl -s https://raw.githubusercontent.com/toluschr/xdeb/master/xdeb -o /usr/bin/xdeb
 
 sudo chmod +x /usr/bin/xdeb
+
+sudo xbps-install xz
+
 ```
 
 ## Cara Konversi dan Memasang Aplikasi
