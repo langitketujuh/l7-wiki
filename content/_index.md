@@ -7,8 +7,13 @@ draft: false
 
 Distribusi GNU/Linux dengan Musl berdasar pada VoidLinux. Menggunakan KDE lingkungan desktop, update stabil rilis bergulir dan sumber daya yang efisien.
 
-{{< figure src=/media/desktop-langitketujuh-d-1.webp alt="Start Menu LangitKetujuh OS">}}
-{{< figure src=/media/desktop-langitketujuh-d-2.webp alt="Start Menu LangitKetujuh OS">}}
+{{< hint warning >}}
+**Smartphone**\
+Jika Anda mengakses halaman **Panduan** dengan smartphone, klik menu di pojok kiri atas.
+{{< /hint >}}
+
+{{< figure src=/media/desktop-langitketujuh-id-1.webp alt="Start Menu LangitKetujuh OS">}}
+{{< figure src=/media/desktop-langitketujuh-id-2.webp alt="Start Menu LangitKetujuh OS">}}
 
 {{< button href="https://langitketujuh.id/" >}}Ke halaman utama{{< /button >}}
 {{< button href="https://t.me/langitketujuhid" >}}Telegram Channel{{< /button >}}
