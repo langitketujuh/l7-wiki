@@ -8,6 +8,12 @@ Zramen untuk pengatur ZRAM. ZRAM sendiri untuk menambahkan swap di meori fisik s
 
 Jika memori fisik dirasa sudah cuup besar, maka `zramen` dinonaktifkan saja.
 
+## Memasang zramen daemon
+
+```shell
+get zramen
+```
+
 ## Melihat status zramen
 
 ```shell
@@ -32,4 +38,10 @@ sudo rm /var/service/zramen
 
 ```shell
 sudo sv restart zramen
+```
+
+## Menghapus zramen daemon
+
+```shell
+remove zramen
 ```

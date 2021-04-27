@@ -8,6 +8,12 @@ Clight untuk mengatur kecerahan layar secara otomatis menggunakan sensor webcam.
 
 Biasanya baterai yang ngedrop dan webcam yang tidak terlalu bagus akan mempengaruhi kinerja `clight`. Jika bermasalah fitur ini bisa dinonaktifkan saja.
 
+## Memasang clight dan clight daemon
+
+```shell
+get Clight Clightd
+```
+
 ## Melihat status clightd
 
 ```shell
@@ -32,4 +38,10 @@ sudo rm /var/service/clightd
 
 ```shell
 sudo sv restart clightd
+```
+
+## Menghapus clight dan clight daemon
+
+```shell
+remove Clight Clightd
 ```

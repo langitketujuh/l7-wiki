@@ -9,6 +9,12 @@ EarlyOOM berfungsi untuk menghentikan proses yang memungkinkan membuat hang komp
 * Manfaatnya lain untuk menghindari mematikan mesin secara paksa.
 * Menghindari bad sector SSD/HDD
 
+## Memasang earlyoom daemon
+
+```shell
+get earlyoom
+```
+
 ## Melihat status earlyoom
 
 ```shell
@@ -33,4 +39,10 @@ sudo rm /var/service/earlyoom
 
 ```shell
 sudo sv restart earlyoom
+```
+
+## Menghapus earlyoom daemon
+
+```shell
+remove earlyoom
 ```

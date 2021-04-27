@@ -6,6 +6,12 @@ draft: false
 
 TLP Mengatur power management agar penggunaan baterai laptop lebih efisien.
 
+## Memasang TLP daemon
+
+```shell
+get tlp tlp-rdw
+```
+
 ## Melihat status tlp
 
 ```shell
@@ -30,4 +36,10 @@ sudo rm /var/service/tlp
 
 ```shell
 sudo sv restart tlp
+```
+
+## Menghapus TLP daemon
+
+```shell
+remove tlp tlp-rdw
 ```

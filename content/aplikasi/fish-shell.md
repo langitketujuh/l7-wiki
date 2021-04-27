@@ -23,6 +23,14 @@ Perintah            | Contoh          |Fungsi
 
 Gunakan arah panah atas/bawah untuk mencari histori perintah terminal. Dan arah kanan untuk melanjutkan perintah yang sudah pernah diketik sebelumnya.
 
+## Setel ulang pengaturan
+
+Menyetel ulang fish shell bisa menggunakan `l7-tools`.
+
+```shell
+sudo l7-tools --fish
+```
+
 ## Merubah fish-shell ke bash
 
 Jike anda belum terbiasa dengan fish shell, maka jalankan bash shell.

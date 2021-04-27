@@ -1,6 +1,6 @@
 ---
 title: Flatpak Sanboxing
-weight: 3
+weight: 2
 draft: false
 ---
 

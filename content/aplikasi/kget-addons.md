@@ -1,6 +1,6 @@
 ---
 title: Kget Firefox Addons
-weight: "10"
+weight: "4"
 
 ---
 
