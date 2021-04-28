@@ -202,3 +202,15 @@ Pilih `Settings` untuk melihat ringkasan pengaturan pemasangan yang akan dijalan
 Jika sudah yakin, Pilih `Install` dan `OK` untuk melanjutkan operasi pemasangan. Pilih `Yes` untuk memformat partisi sesuai pangaturan yang sudah direview `Settings` sebelumnya.
 
 Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `Yes` untuk reboot. Setelah mesin mati, cabut flasdisk agar tidak kembali ke mode Live USB.
+
+## Deteksi Windows
+
+Setelah di restart kemudian masuk ke desktop LangitKetujuh. Untuk mendeteksi Windows gunakan `os-prober`.
+
+```shell
+sudo os-prober
+
+sudo update-grub
+```
+
+Kemudian restart kembali, maka tampilan grub akan mendeteksi dual boot dengan Windows. Selesai.
