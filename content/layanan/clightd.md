@@ -17,27 +17,27 @@ get Clight Clightd
 ## Melihat status clightd
 
 ```shell
-sudo sv status clightd
+sudo sv status Clightd
 ```
 
 ## Mengaktifkan clightd
 
-Secara bawaan clightd sudah aktif
+Secara bawaan Clightd sudah aktif
 
 ```shell
-sudo ln -s /etc/sv/clightd /var/service/
+sudo ln -s /etc/sv/Clightd /var/service/
 ```
 
 ## Menonaktifkan clightd
 
 ```shell
-sudo rm /var/service/clightd
+sudo rm /var/service/Clightd
 ```
 
 ## Menjalankan ulang clightd
 
 ```shell
-sudo sv restart clightd
+sudo sv restart Clightd
 ```
 
 ## Menghapus clight dan clight daemon
