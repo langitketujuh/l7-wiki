@@ -3,7 +3,7 @@ authors = ["Hervy Qurrotul Ainur Rozi"]
 language = "id"
 multilingual = false
 src = "src"
-title = "Panduan - LangitKetujuh ID"
+title = "Panduan LangitKetujuh ID"
 description = "Panduan dan tutorial menggunakan LangitKetujuh GNU/Linux."
 
 [build]

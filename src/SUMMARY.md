@@ -1,6 +1,6 @@
 # Summary
 
-- [Panduan](./index.md)
+- [Beranda](./index.md)
 - [Tentang](./tentang/index.md)
   - [Perkenalan](./tentang/perkenalan.md)
   - [Fitur Utama](./tentang/fitur-utama.md)
