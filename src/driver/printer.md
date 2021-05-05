@@ -8,7 +8,7 @@ Driver Printer Epson (`epson-inkjet-printer-escpr`) sudah terpasang secara otoma
 
 Driver Epson Scanner dipasang dengan cara:
 
-```shell
+```bash
 get imagescan iscan-data
 ```
 
@@ -16,7 +16,7 @@ get imagescan iscan-data
 
 Driver printer HP (hplip) versi CLI sudah terpasang secara otomatis, namun jika ingin memasang versi GUI maka ketik perintah berikut ini:
 
-```shell
+```bash
 remove hplip
 get hplip-gui
 ```
@@ -27,7 +27,7 @@ Kemudian tambahkan ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
 Driver Printer Canon hanya bisa dipasang untuk edisi `glibc` saja. Karena propietary, sehingga tidak bisa diporting ke musl. Cara memasang driver printer Canon:
 
-```shell
+```bash
 get cnijfilter2
 ```
 
@@ -37,7 +37,7 @@ Kemudian tambahkan ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
 Pasang Driver printer brother.
 
-```shell
+```bash
 get brother-brlaser
 ```
 
@@ -56,7 +56,7 @@ Kemudian tambahkan ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
 Secara bawaan openprinting foomatic sudah terpasang secara otomatis kecuali `db-nonfree`. Untuk memasangnya ketik:
 
-```shell
+```bash
 get foomatic-db-nonfree
 ```
 

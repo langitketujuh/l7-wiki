@@ -12,7 +12,7 @@ Gunakan `disk` atau `lsblk` untuk mengetahui sistem partisi. Setidaknya dengan i
 
 Boot mode UEFI diharuskan menggunakan tipe disk GPT, sedangkan boot mode Legacy/BIOS diharuskan menggunakan tipe disk MBR. Jika disk yang akan digunakan adalah `sda` maka ketik:
 
-```shell
+```bash
 sudo fdisk -l /dev/sda
 ```
 
@@ -24,7 +24,7 @@ Terkadang disk setelah diperiksa ternyata adalah MBR (untuk boot mode Legacy/BIO
 
 Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Dan jangan lupa untuk umount disk yang akan dikonversikan.
 
-```shell
+```bash
 sudo gdisk /dev/sda
 ```
 
@@ -35,7 +35,7 @@ sudo gdisk /dev/sda
 
 Kami rasa sangat disayangkan bila disk dikonversi ke MBR, karena seperti mengalami penurunan fitur. Jika terpaksa konversi tetap gunakan `gdisk`. Pada contoh dibawah ini misalnya disk yang akan dipasang LangitKetujuh adalah `sda`. Jangan lupa untuk unmount disk yang akan dikonversikan.
 
-```shell
+```bash
 sudo gdisk /dev/sda
 ```
 
@@ -50,7 +50,7 @@ Pembagian partisi melalui mode pemasangan langsung juga bisa dilakukan. Tetapi a
 
 Pemartisian sebaiknya menggunakan `cfdisk`. Pemisalan disk yang akan dipasang adalah `sda` maka:
 
-```shell
+```bash
 sudo cfdisk /dev/sda
 ```
 

@@ -47,7 +47,7 @@ Maka akan ada partisi baru yaitu:
 Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Sehingga navigasinya menggunakan arah panah (⬆️ ➡️ ⬇️ ⬅️), `tab` dan `enter` di keyboard.
 Buka aplikasi `konsole` di menu, kemudian ketik perintah berikut untuk menuju pemasang LangitKetujuh OS.
 
-```shell
+```bash
 sudo langitketujuh-install
 ```
 
@@ -184,7 +184,7 @@ Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `
 
 Setelah di restart kemudian masuk ke desktop LangitKetujuh. Untuk mendeteksi Windows gunakan `os-prober`.
 
-```shell
+```bash
 sudo os-prober
 sudo update-grub
 ```

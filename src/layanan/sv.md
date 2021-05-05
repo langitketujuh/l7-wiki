@@ -8,19 +8,19 @@ Sedangkan `vsv` hampir sama dengan `sv` namun lebih sederhana.
 
 ## Daftar semua layanan
 
-```shell
+```bash
 sudo sv status /var/service/*
 ```
 
 Atau
 
-```shell
+```bash
 sudo vsv
 ```
 
 ## Daftar layanan yang tersedia
 
-```shell
+```bash
 ls /etc/sv/* -lah
 ```
 
@@ -28,33 +28,33 @@ Semua layanan tersedia didalam direktori `/etc/sv/`.
 
 ## Status layanan
 
-```shell
+```bash
 sudo sv status <service>
 ```
 
 Contoh:
-```shell
+```bash
 sudo sv status NetwrkManager
 ```
 
 ## Mengaktifkan layanan
 
-```shell
+```bash
 sudo ln -s /etc/sv/<layanan> /var/service/
 ```
 
 Contoh:
-```shell
+```bash
 sudo ln -s /etc/sv/dbus /var/service/
 ```
 
 ## Menonaktifkan layanan
 
-```shell
+```bash
 sudo rm /var/service/<layanan>
 ```
 
 Contoh:
-```shell
+```bash
 sudo rm /var/service/tlp
 ```

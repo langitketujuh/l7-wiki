@@ -8,13 +8,13 @@ Biasanya baterai yang ngedrop dan webcam yang tidak terlalu bagus akan mempengar
 
 ## Memasang clight dan clight daemon
 
-```shell
+```bash
 get Clight Clightd
 ```
 
 ## Melihat status clightd
 
-```shell
+```bash
 sudo sv status Clightd
 ```
 
@@ -22,24 +22,24 @@ sudo sv status Clightd
 
 Secara bawaan Clightd sudah aktif
 
-```shell
+```bash
 sudo ln -s /etc/sv/Clightd /var/service/
 ```
 
 ## Menonaktifkan clightd
 
-```shell
+```bash
 sudo rm /var/service/Clightd
 ```
 
 ## Menjalankan ulang clightd
 
-```shell
+```bash
 sudo sv restart Clightd
 ```
 
 ## Menghapus clight dan clight daemon
 
-```shell
+```bash
 remove Clight Clightd
 ```

@@ -9,13 +9,13 @@ EarlyOOM berfungsi untuk menghentikan proses yang memungkinkan membuat hang komp
 
 ## Memasang earlyoom daemon
 
-```shell
+```bash
 get earlyoom
 ```
 
 ## Melihat status earlyoom
 
-```shell
+```bash
 sudo sv status earlyoom
 ```
 
@@ -23,24 +23,24 @@ sudo sv status earlyoom
 
 Secara bawaan earlyoom sudah aktif
 
-```shell
+```bash
 sudo ln -s /etc/sv/earlyoom /var/service/
 ```
 
 ## Menonaktifkan earlyoom
 
-```shell
+```bash
 sudo rm /var/service/earlyoom
 ```
 
 ## Menjalankan ulang earlyoom
 
-```shell
+```bash
 sudo sv restart earlyoom
 ```
 
 ## Menghapus earlyoom daemon
 
-```shell
+```bash
 remove earlyoom
 ```

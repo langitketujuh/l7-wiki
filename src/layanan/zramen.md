@@ -8,13 +8,13 @@ Jika memori fisik dirasa sudah cuup besar, maka `zramen` dinonaktifkan saja.
 
 ## Memasang zramen daemon
 
-```shell
+```bash
 get zramen
 ```
 
 ## Melihat status zramen
 
-```shell
+```bash
 sudo sv status zramen
 ```
 
@@ -22,24 +22,24 @@ sudo sv status zramen
 
 Secara bawaan zramen sudah aktif
 
-```shell
+```bash
 sudo ln -s /etc/sv/zramen /var/service/
 ```
 
 ## Menonaktifkan zramen
 
-```shell
+```bash
 sudo rm /var/service/zramen
 ```
 
 ## Menjalankan ulang zramen
 
-```shell
+```bash
 sudo sv restart zramen
 ```
 
 ## Menghapus zramen daemon
 
-```shell
+```bash
 remove zramen
 ```

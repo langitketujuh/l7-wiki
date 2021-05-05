@@ -92,7 +92,7 @@ Pada video dibawah ini menggunakan Flasdisk `Sandisk` sebagai contoh.
 Cek letak path flashdisk dengan `lsblk`.
 Contoh keluaran:
 
-```shell
+```bash
 ➜  lsblk
 NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 sda      8:16   0 149.1G  0 disk 

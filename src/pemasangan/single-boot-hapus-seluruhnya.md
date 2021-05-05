@@ -9,7 +9,7 @@ Pemasangan single boot dengan hapus seluruhnya artinya pemasangan dengan satu si
 Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Sehingga navigasinya menggunakan arah panah (⬆️ ➡️ ⬇️ ⬅️), `tab` dan `enter` di keyboard.
 Buka aplikasi `konsole` di menu, kemudian ketik perintah berikut untuk menuju pemasang LangitKetujuh OS.
 
-```shell
+```bash
 sudo langitketujuh-install
 ```
 

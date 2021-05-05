@@ -6,7 +6,7 @@
 
 Cek `driver` kartu grafis Anda dengan inxi
 
-```shell
+```bash
 inxi -G
 ```
 Misalnya `driver:nouveau` maka saat ini kartu grafis yang digunakan adalah nouveau.
@@ -17,7 +17,7 @@ Nvidia (Driver propietary) hanya bisa dipasang oleh sistem [Glibc](/perbandingan
 
 Cara memasang Nvidia, periksa dahulu tipe Nvidia.
 
-```shell
+```bash
 inxi -G
 ```
 
@@ -36,12 +36,12 @@ Hati-hati memilih versi Nvidia, jika salah versi kemungkinan akan blackscreen.
 
 Tambahkan beris berikut ini
 
-```shell
+```bash
 #blacklist nouveau
 ```
 Kedalam salah satu berkas ini
 
-```shell
+```bash
 /etc/modprobe.d/nouveau_blacklist.conf
 /usr/lib/modprobe.d/nvidia.conf
 /usr/lib/modprobe.d/nvidia-dkms.conf

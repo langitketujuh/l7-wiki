@@ -6,13 +6,13 @@ TLP Mengatur power management agar penggunaan baterai laptop lebih efisien. Seca
 
 ## Memasang TLP daemon
 
-```shell
+```bash
 get tlp tlp-rdw
 ```
 
 ## Melihat status tlp
 
-```shell
+```bash
 sudo sv status tlp
 ```
 
@@ -20,24 +20,24 @@ sudo sv status tlp
 
 Secara bawaan tlp sudah aktif
 
-```shell
+```bash
 sudo ln -s /etc/sv/tlp /var/service/
 ```
 
 ## Menonaktifkan tlp
 
-```shell
+```bash
 sudo rm /var/service/tlp
 ```
 
 ## Menjalankan ulang tlp
 
-```shell
+```bash
 sudo sv restart tlp
 ```
 
 ## Menghapus TLP daemon
 
-```shell
+```bash
 remove tlp tlp-rdw
 ```
