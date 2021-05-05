@@ -1,13 +1,2 @@
-/public
-/resources
-Thumbs.db
-.DS_Store
-.dist
-.tmp
-.sass-cache
-npm-debug.log
-node_modules
-yarn-error.log
-builds
-package-lock.json
+public
 *.kate-swp

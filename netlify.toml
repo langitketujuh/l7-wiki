@@ -1,34 +1,5 @@
 [build]
-publish = "public"
-command = "hugo --gc --minify"
-
-[context.production.environment]
-HUGO_VERSION = "0.81.0"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-
-[context.split1]
-command = "hugo --gc --minify --enableGitInfo"
-
-[context.split1.environment]
-HUGO_VERSION = "0.81.0"
-HUGO_ENV = "production"
-
-[context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.81.0"
-
-[context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.81.0"
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
-
+command = "curl -L https://github.com/rust-lang/mdBook/releases/download/v0.4.7/mdbook-v0.4.7-x86_64-unknown-linux-gnu.tar.gz | tar xvz && ./mdbook build"
 
 [[headers]]
   for = "*.js" # js files should be set this way
@@ -44,14 +15,14 @@ HUGO_ENABLEGITINFO = "true"
     Cache-Control = "public, max-age=31536000"
 
 [[redirects]]
-  from = "https://docs.langitketujuh.netlify.app/*"
-  to = "https://docs.langitketujuh.id/:splat"
+  from = "https://inkscape.langitketujuh.netlify.app/*"
+  to = "https://inkscape.langitketujuh.id/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "http://docs.langitketujuh.netlify.app/*"
-  to = "https://docs.langitketujuh.id/:splat"
+  from = "http://inkscape.langitketujuh.netlify.app/*"
+  to = "https://inkscape.langitketujuh.id/:splat"
   status = 301
   force = true
 

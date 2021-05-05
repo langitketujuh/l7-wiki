@@ -1,0 +1,34 @@
+[book]
+authors = ["Hervy Qurrotul Ainur Rozi"]
+language = "id"
+multilingual = false
+src = "src"
+title = "Panduan - LangitKetujuh ID"
+description = "Panduan dan tutorial menggunakan LangitKetujuh GNU/Linux."
+
+[build]
+build-dir = "public"
+create-missing = false
+
+[rust]
+edition = "2021"
+
+[output.html]
+default-theme="light"
+git-repository-url="https://gitlab.com/langitketujuh/panduan"
+edit-url-template ="https://gitlab.com/langitketujuh/panduan/{path}"
+git-repository-icon="fa-gitlab"
+mathjax-support = true
+
+[output.html.playground]
+editable = true
+line-numbers = true
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
