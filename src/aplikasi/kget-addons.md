@@ -10,7 +10,6 @@ Bertujuan untuk mengintegrasikan aplikasi kget dengan Firefox browser.
 sudo curl -s https://raw.githubusercontent.com/NicolasGuilloux/KGet-Integrator/master/kget-integrator -o /usr/bin/kget-integrator
 sudo chmod +x /usr/bin/kget-integrator
 sudo curl -s https://raw.githubusercontent.com/NicolasGuilloux/KGet-Integrator/master/Conf/com.kgetdm.firefox.json -o /usr/lib/mozilla/native-messaging-hosts/com.kgetdm.firefox.json
-
 ```
 
 ## Memasang Addons

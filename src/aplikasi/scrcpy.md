@@ -7,9 +7,7 @@
 ## Cara Memasang Scrcpy
 
 ```bash
-
 get android-udev-rules android-tools scrcpy
-
 ```
 
 ## Mengaktifkan layanan ADB
@@ -30,4 +28,4 @@ Setiap perangkat Android memiliki pengaturan yang berbeda-beda tergantung merekn
 
 Kemudian jalankan `scrcpy` melalui konsole terminal atau krunner (Alt+F2). Selesai.
 
-{{< figure src=/media/scrcpy-langitketujuh-id.webp alt="Scrcpy Mirroring LangitKetujuh OS">}}
+![Scrcpy Mirroring LangitKetujuh OS](/media/image/scrcpy-langitketujuh-id.webp)
