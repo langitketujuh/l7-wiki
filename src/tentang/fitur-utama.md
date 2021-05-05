@@ -25,4 +25,4 @@ Fitur ini memberikan keamanan kepada Motherboard dan Hardisk/SSD dengan menutup 
 Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, dan game kreator. Google fonts sudah masuk di dalamnya.
 
 ## Dukungan Instalasi (Pro)
-Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [telegram live chat](https://t.me/langitketujuh_bot) atau [surel](mailto:langiketujuh.id@pm.me).
+Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [telegram live chat](https://t.me/langitketujuh_bot) atau [surel](mailto:langitketujuh.id@pm.me).
