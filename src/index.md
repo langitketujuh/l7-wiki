@@ -1,4 +1,4 @@
-# 🎨 LangitKetujuh OS?
+# LangitKetujuh OS?
 
 _Bismillahirrohmanirrohim._
 
@@ -11,6 +11,6 @@ Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplika
 * ✨ Website: [https://langitketujuh.id](https://langitketujuh.id)
 * 🚀 Telegram: [LangitKetujuh ID](https://t.me/langitketujuh.id)
 * 🍄 Instagram: [LangitKetujuh ID](https://instagram.com/langitketujuh.id)
-* 🪁 Facebook: [LangitKetujuh ID](https://facebook.com/langitketujuh.id)
+* 🍨 Facebook: [LangitKetujuh ID](https://facebook.com/langitketujuh.id)
 
 > Jika Anda mengakses halaman **Panduan** dengan smartphone, klik menu di pojok kiri atas.
