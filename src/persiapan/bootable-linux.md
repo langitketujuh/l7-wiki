@@ -15,7 +15,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 - Pilih "Create"
 - Tunggu sampai selesai
 
-<video controls poster="/media/image/isoimagewriter-bootable-usb-langitketujuh.webp" style="position: relative; width: 100%; height: auto; border:0;" >
+<video controls poster="/media/video/isoimagewriter-bootable-usb-langitketujuh.webp" style="position: relative; width: 100%; height: auto; border:0;" >
   <source src="/media/video/isoimagewriter-bootable-usb-langitketujuh.webm" type="video/webm">
 </video>
 
@@ -84,7 +84,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 
 Pada video dibawah ini menggunakan Flasdisk `Sandisk` sebagai contoh.
 
-<video controls poster="/media/image/bootiso-bootable-usb-langitketujuh.webp" style="position: relative; width: 100%; height: auto; border:0;" >
+<video controls poster="/media/video/bootiso-bootable-usb-langitketujuh.webp" style="position: relative; width: 100%; height: auto; border:0;" >
   <source src="/media/video/bootiso-bootable-usb-langitketujuh.webm" type="video/webm">
 </video>
 
