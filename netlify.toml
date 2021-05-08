@@ -15,14 +15,14 @@ command = "curl -sL https://github.com/rust-lang/mdBook/releases/download/v0.4.7
     Cache-Control = "public, max-age=31536000"
 
 [[redirects]]
-  from = "https://inkscape.langitketujuh.netlify.app/*"
-  to = "https://inkscape.langitketujuh.id/:splat"
+  from = "https://panduan-langitketujuh.netlify.app/*"
+  to = "https://panduan.langitketujuh.id/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "http://inkscape.langitketujuh.netlify.app/*"
-  to = "https://inkscape.langitketujuh.id/:splat"
+  from = "http://panduan-langitketujuh.netlify.app/*"
+  to = "https://panduan.langitketujuh.id/:splat"
   status = 301
   force = true
 
