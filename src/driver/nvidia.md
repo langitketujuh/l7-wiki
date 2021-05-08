@@ -13,7 +13,7 @@ Misalnya `driver:nouveau` maka saat ini kartu grafis yang digunakan adalah nouve
 
 ## Nvidia
 
-Nvidia (Driver propietary) hanya bisa dipasang oleh sistem [Glibc](/perbandingan/musl-vs-glibc.html#glibc). Sebab driver propietary tidak bisa diporting ke arsitektur libc lain (seperti musl), kecuali vendornya sendiri yang merilisnya. Secara bawaan LangitKetujuh sudah mengaktifkan repositori nonfree namun tidak menambahkan aplikasi nonfree (tidak bebas).
+Nvidia (Driver propietary) hanya bisa dipasang oleh sistem [Glibc](../perbandingan/musl-vs-glibc.html#glibc). Sebab driver propietary tidak bisa diporting ke arsitektur libc lain (seperti musl), kecuali vendornya sendiri yang merilisnya. Secara bawaan LangitKetujuh sudah mengaktifkan repositori nonfree namun tidak menambahkan aplikasi nonfree (tidak bebas).
 
 Cara memasang Nvidia, periksa dahulu tipe Nvidia.
 

@@ -25,7 +25,7 @@ Alasan kedua, nama LangitKetujuh ini diambil karena jarang ada projek free softw
 
 ## Untuk Siapa?
 
-LangitKetujuh OS pada dasarnya ditujukan untuk bidang desain grafis saja. Baik pengajar, mahasiswa, freelancer dan yang sedang belajar desain grafis. Meskipun demikian, LangitKetujuh OS terdapat [versi lite](/perbandingan/lite-vs-pro.md) yang dapat digunakan untuk kebutuhan umum dan tidak spesifik ke bidang desain grafis.
+LangitKetujuh OS pada dasarnya ditujukan untuk bidang desain grafis saja. Baik pengajar, mahasiswa, freelancer dan yang sedang belajar desain grafis. Meskipun demikian, LangitKetujuh OS terdapat [versi lite](../perbandingan/lite-vs-pro.md) yang dapat digunakan untuk kebutuhan umum dan tidak spesifik ke bidang desain grafis.
 
 ## Mengapa KDE Plasma?
 

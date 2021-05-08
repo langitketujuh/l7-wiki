@@ -28,4 +28,4 @@ Setiap perangkat Android memiliki pengaturan yang berbeda-beda tergantung merekn
 
 Kemudian jalankan `scrcpy` melalui konsole terminal atau krunner (Alt+F2). Selesai.
 
-![Scrcpy Mirroring LangitKetujuh OS](/media/image/scrcpy-langitketujuh-id.webp)
+![Scrcpy Mirroring LangitKetujuh OS](../media/image/scrcpy-langitketujuh-id.webp)

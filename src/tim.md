@@ -29,13 +29,13 @@ Keuntungan apa menjadi tim?
 
 Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang Anda inginkan.
 
-## Konten kreator dan Ilustrator [005]
+## Konten kreator dan Ilustrator (005)
 
 * Memahami desain grafis dengan perangkat lunak bebas.
 * Membuat Konten edukasi dan kreatif untuk sosial media.
 * Memahami jenis perangkat lunak bebas dan tidak bebas (propietary).
 
-## Dukungan layanan [006]
+## Dukungan layanan (006)
 
 * Memahami dasar Bash shell.
 * Memahami dasar Fish shell.
@@ -47,7 +47,7 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 * Memahami sistem dan pengaturan KDE plasma.
 * Memahami jenis perangkat lunak bebas dan tidak bebas (propietary).
 
-## Skripter dan Devops [007]
+## Skripter dan Devops (007)
 
 * Memahami dasar Bash shell.
 * Memahami dasar Fish shell.

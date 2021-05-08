@@ -36,13 +36,14 @@ Rawtherapee pengolah foto raw. | - | -  | **√** | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | -  | **√** | **√**
 Produksi Audio dengan Ardour & Cadence. | - | -  | **√** | **√**
 Google Fonts untuk proyek komersil. | - | -  | **√** | **√**
-Akses Update ISO terbaru [*] | -  | - | **√**  | **√**
-Dukungan Aplikasi Appimage | - | **√** | -   | **√**
-Dukungan Nvidia Propietary driver | - | **√** | -   | **√**
-Dukungan Aplikasi Nonfree  | - | **√** | -   | **√**
-Dukungan Wine windows | - | **√** | -  | **√**
+Akses Update ISO terbaru. [^1] | -  | - | **√**  | **√**
+Dukungan Aplikasi Appimage. | - | **√** | -   | **√**
+Dukungan Nvidia Propietary driver. | - | **√** | -   | **√**
+Dukungan Aplikasi Nonfree.  | - | **√** | -   | **√**
+Dukungan Wine windows. [^2] | - | **√** | -  | **√**
 
-**Keterangan:**
+*Catatan:*
 
-- Musl mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
-- [*] Akses Update ISO terbaru untuk pengguna yang telah mendaftar dan [berdonasi](https://langitketujuh.id/donasi).
+[^1] Akses Update ISO terbaru untuk pengguna yang telah mendaftar dan [berdonasi](https://langitketujuh.id/donasi).
+
+[^2] Musl mendukung Wine windows 64 bit saja, sedangkan Glibc mendukung 32 dan 64 bit.
