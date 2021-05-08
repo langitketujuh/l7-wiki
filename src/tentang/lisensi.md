@@ -1,6 +1,6 @@
 # Lisensi
 
-Website panduan ini dan [kode sumbernya](https://gitlab.com/langitketujuh.id/panduan) berada dibawah lisensi [Atribusi-BerbagiSerupa 4.0 Internasional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+Website panduan ini dan [kode sumbernya](https://gitlab.com/langitketujuh.id/book/docs) berada dibawah lisensi [Atribusi-BerbagiSerupa 4.0 Internasional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Maka dengan lisensi ini Anda diperbolehkan untuk:
 

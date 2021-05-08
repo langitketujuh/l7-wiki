@@ -14,8 +14,8 @@ edition = "2021"
 
 [output.html]
 default-theme="light"
-git-repository-url="https://gitlab.com/langitketujuh/panduan"
-edit-url-template ="https://gitlab.com/langitketujuh/panduan/{path}"
+git-repository-url="https://gitlab.com/langitketujuh/book/docs"
+edit-url-template ="https://gitlab.com/langitketujuh/book/docs/{path}"
 git-repository-icon="fa-gitlab"
 mathjax-support = true
 
