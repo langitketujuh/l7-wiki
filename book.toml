@@ -7,7 +7,6 @@ title = "Panduan LangitKetujuh ID"
 description = "Panduan dan tutorial menggunakan LangitKetujuh GNU/Linux."
 
 [build]
-build-dir = "public"
 create-missing = false
 
 [rust]
