@@ -1,8 +1,10 @@
-# Pemasangan
+# Halaman Panduan
+
+Kunjungi <https://panduan.langitketujuh.id>.
 
 ## Memasang depedensi
 
-Template ini menggunakan [mdBook](https://rust-lang.github.io/mdBook/) sebagai generator dokumentasinya.
+Kode sumber dokumentasi ini menggunakan [mdBook](https://rust-lang.github.io/mdBook/) sebagai generatornya.
 
 * Memasang di langitketujuh/voidlinux:
 
@@ -47,7 +49,3 @@ Hasil render berada di `book/html/`.
 ## Template mdbook starter
 
 Template mdbook starter bisa Anda lihat di [template mdbook](https://gitlab.com/langitketujuh/book/mdbook.git). Demontrasinya <https://mdbook.langitketujuh.id>
-
-## Demonstrasi website
-
-Bisa anda kunjungi di <https://panduan.langitketujuh.id>
