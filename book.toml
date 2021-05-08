@@ -33,3 +33,4 @@ expand = true
 heading-split-level = 2
 
 [output.linkcheck]
+optional = true
