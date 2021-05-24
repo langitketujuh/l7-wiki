@@ -13,7 +13,7 @@ get android-udev-rules android-tools scrcpy
 ## Mengaktifkan layanan ADB
 
 ```bash
-sudo ln -s /etc/service/adb /var/service/
+sudo ln -s /etc/sv/adb /var/service/
 ```
 
 ## Aktifkan USB Debug di Android Smartphone
