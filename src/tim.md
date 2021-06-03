@@ -1,6 +1,6 @@
-# ✨ Para Tim
+# Para Tim ✨
 
-* [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa "Developer & Desainer") (Developer & Desainer)
+* [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa "Pengembang, Pemelihara, Pemaket, & Desainer") (Pengembang, Pemelihara, Pemaket, & Desainer)
 * [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn "Teknisi & Pendukung layanan") (Teknisi & Pendukung layanan)
 * (Selanjutnya bisa jadi Anda)
 

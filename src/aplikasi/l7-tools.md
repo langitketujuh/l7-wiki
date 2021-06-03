@@ -22,12 +22,6 @@ Perintah                      | Color Profile
 `sudo l7-tools --vigc-icc`    | VIGC
 `sudo l7-tools --snap-icc`    | Snap committee
 
-## Memasang Fish Shell
-
-```bash
-sudo l7-tools --fish
-```
-
 ## Memasang Wine Emulator
 
 ```bash

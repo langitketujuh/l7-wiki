@@ -9,11 +9,11 @@ Keamanan lebih baik. Menggunakan runit karena PID1 harus sederhana, minimalis, d
 ## Xbps Paket Manajemen
 Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (rilis bergulir).
 
-## KDE Lingkungan Destop
+## KDE Plasma Lingkungan Destop
 Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan KDE aplikasi seperti Krita, Kdenlive dan KDE Connect. KDE Plasma sangat mudah disarankan untuk pemula.
 
 ## Perlengkapan perkantoran
-Tersedia LibreOffice sebagai alat produktifitas yang komplit dan handal untuk kebutuhan perkantoran. Writer, Impress, Calc, Base, dan banyak lagi.
+Tersedia LibreOffice sebagai alat produktifitas yang komplit dan handal untuk kebutuhan perkantoran. LibreOffice Writer, Impress, Calc, Base, dan banyak lagi.
 
 ## LangitKetujuh Dark Theme
 Secara bawaan tampilan tema menggunakan versi gelap agar membuat nyaman dan menyehatkan mata untuk aktifitas yang lama.
@@ -22,7 +22,7 @@ Secara bawaan tampilan tema menggunakan versi gelap agar membuat nyaman dan meny
 Fitur ini memberikan keamanan kepada Motherboard dan Hardisk/SSD dengan menutup paksa jika ada aplikasi yang menggunakan resource yang berlebihan atau dengan batasan yang telah ditentukan.
 
 ## Perlengkapan Desain (Pro)
-Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, dan game kreator. Google fonts sudah masuk di dalamnya.
+Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, dan game kreator. Google fonts sudah masuk di dalamnya. Lihat perbedaan antara [lite dan pro](../perbandingan/lite-vs-pro.md).
 
 ## Dukungan Instalasi (Pro)
-Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [telegram live chat](https://t.me/langitketujuh_bot) atau [surel](mailto:langitketujuh.id@pm.me).
+Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [layanan via Telegram](https://t.me/langitketujuh_bot) atau [surel](mailto:langitketujuh.id@pm.me).

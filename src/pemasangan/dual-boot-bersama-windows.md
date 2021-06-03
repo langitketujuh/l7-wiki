@@ -51,6 +51,8 @@ Buka aplikasi `konsole` di menu, kemudian ketik perintah berikut untuk menuju pe
 sudo langitketujuh-install
 ```
 
+![LangitKetujuh Install](../media/image/langitketujuh-install.webp)
+
 ## Keyboard
 
 Pilih `us` untuk jenis papan ketik `QWERTY`

@@ -2,7 +2,7 @@
 
 ## Boot Menu dan Bios Menu
 
-Setiap manufaktur memiliki tombol BIOS yang berbeda-beda. Berikut ini daftarnya.
+Setiap manufaktur memiliki tombol bios yang berbeda-beda. Berikut ini daftar tombol biosnya.
 
 Manufaktur        |   Boot Menu       | Bios Menu
  :---             | :---              | :---

@@ -15,6 +15,6 @@ sudo curl -s https://raw.githubusercontent.com/NicolasGuilloux/KGet-Integrator/m
 ## Memasang Addons
 
 * Buka firefox
-* Klik tautan ini. https://addons.mozilla.org/en-US/firefox/addon/kget-integration/
+* Klik tautan [Kget Integration](https://addons.mozilla.org/en-US/firefox/addon/kget-integration/).
 * Klik "Add to Firefox"
 * Selesai.

@@ -13,7 +13,7 @@ create-missing = false
 edition = "2021"
 
 [output.html]
-default-theme="light"
+default-theme="coal"
 git-repository-url="https://gitlab.com/langitketujuh/book/docs"
 edit-url-template ="https://gitlab.com/langitketujuh/book/docs/{path}"
 git-repository-icon="fa-gitlab"

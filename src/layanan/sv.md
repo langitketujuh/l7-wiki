@@ -4,9 +4,9 @@
 
 `sv` merupakan salah satu manajemen init dari `runit` untuk pengganti Systemd. Tujuan `sv` untuk mengontrol layanan seperti melihat satus, mengaktifkan, menghapus, memberhentikan dan menyalakan ulang.
 
-Sedangkan `vsv` hampir sama dengan `sv` namun lebih sederhana.
+Sedangkan `vsv` memiliki fungsi yang sama dengan `sv` namun lebih mudah dan sederhana.
 
-## Daftar semua layanan
+## Daftar layanan yang aktif
 
 ```bash
 sudo sv status /var/service/*

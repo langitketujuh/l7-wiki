@@ -3,9 +3,9 @@
 ## Fungsi layanan
 
 EarlyOOM berfungsi untuk menghentikan proses yang memungkinkan membuat hang komputer. Jika sisa memori tinggal 10% maka aplikasi yang sengaja membuat memori penuh akan tereliminasi secara otomatis.
+Secara bawaan layanan EarlyOOM sudah aktf.
 
-* Manfaatnya lain untuk menghindari mematikan mesin secara paksa.
-* Menghindari bad sector SSD/HDD
+Manfaatnya lainnya untuk menghindari mematikan mesin secara paksa ketika PC/Laptop tidak merespon/_hang_. Hal ini juga untuk menghindari bad sector SSD/HDD.
 
 ## Memasang earlyoom daemon
 

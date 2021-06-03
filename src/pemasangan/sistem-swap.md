@@ -22,6 +22,6 @@ ZRAM adalah salah satu fitur dari modul kernel yang bertujuan untuk menggunakan 
 **16 GiB**    | + 4 GiB           | 20 GiB
 **+16 GiB**   | **Nonaktif**    | ~ GiB
 
-Misalnya anda memiliki RAM fisik 8GB, maka akan ditambah 2GB (25%) lagi oleh ZRAM. Maka total memori Anda menjadi 10GB, menarik bukan!
+Misalnya Anda memiliki RAM fisik 8GB, maka akan ditambah 2GB (25%) lagi oleh ZRAM. Maka total memori Anda menjadi 10GB, menarik bukan!
 
 Pengaturan layanan ZRAM dapat dibantu dengan [Zramen](../layanan/zramen.md).

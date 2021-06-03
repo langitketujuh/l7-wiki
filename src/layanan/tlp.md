@@ -2,7 +2,7 @@
 
 ## Fungsi layanan
 
-TLP Mengatur power management agar penggunaan baterai laptop lebih hemat efisien. Anda tidak perlu mengkonfigurasi ulang, cukup pasang dan lupakan. TLP sendiri sudah menggunakan konfigurasi yang sudah diimplementasikan Powertop secara _out of the box_
+TLP Mengatur power management agar penggunaan baterai laptop lebih hemat efisien. Anda tidak perlu mengkonfigurasi ulang, cukup pasang dan lupakan. TLP sendiri sudah menggunakan konfigurasi yang sudah diimplementasikan Powertop secara _out of the box_.
 
 ## Memasang TLP daemon
 

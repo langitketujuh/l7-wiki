@@ -2,7 +2,7 @@
 
 ## Menonaktifkan Fast Startup
 
-Tujuan menonaktifkan adalah memudahkan masuk ke bios menu komputer/laptop. Jika tidak dinonaktifkan fitur _fast startup_ dari windows maka akan susah masuk ke bios menu. Fitur ini hanya tersedia untuk windows 8 dan 10 saja.
+Tujuan menonaktifkan adalah memudahkan masuk ke bios menu komputer/laptop. Jika tidak dinonaktifkan fitur _fast startup_ dari windows maka pengguna akan kesusahan untuk masuk ke bios menu. Fitur fast startup hanya tersedia untuk windows 8 dan 10 saja.
 
 - Klik Start menu, ketik dan cari "Control Panel" lalu klik.
 - Klik "Power Options".

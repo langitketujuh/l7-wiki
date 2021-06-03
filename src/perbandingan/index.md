@@ -1,3 +1,3 @@
 # Perbandingan
 
-Pada bagian ini akan menjelaskan perbedaan edisi lite dan profesional. Serta perbedaan libc `musl` dan `glibc`.
+Pada bagian ini akan dijelaskan perbedaan antara edisi Lite dan Profesional. Serta perbedaan antara `musl` libc dan `glibc`.

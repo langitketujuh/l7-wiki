@@ -32,4 +32,4 @@ Jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`.
 
 ## Restart
 
-Jika sudah diatur pengaturan BIOS Menu tekan F10 untuk menyimpan, lalu restart otomatis masuk ke Live USB LangitKetujuh.
+Jika sudah diatur pengaturan BIOS Menu, pilih **Save** (biasanya tekan F10 untuk menyimpan). Lalu PC/Laptop akan merestart secara otomatis dan masuk ke Live USB LangitKetujuh.

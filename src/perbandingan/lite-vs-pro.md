@@ -1,12 +1,12 @@
 # Lite vs Profesional
 
-## Lite (Gratis)
+## Edisi Lite
 
-Pada dasarnya edisi Lite digunakan untuk rumahan dan tidak difokuskan ke bidang desain grafis, sehingga aplikasinya tidak banyak yang dimasukkan. Edisi Lite dapat di unduh secara gratis.
+Pada dasarnya [Edisi Lite](https://langitketujuh.id/lite) digunakan untuk rumahan dan tidak difokuskan ke bidang desain grafis, sehingga aplikasinya tidak banyak yang dimasukkan. Edisi Lite dapat di unduh secara gratis.
 
-## Profesional (Donasi)
+## Edisi Profesional
 
-Sedangkan Edisi Profesional, terbaik untuk kebutuhan lanjutan. Terdapat Peralatan desain grafis yang lengkap. Termasuk kebutuhan ilustrasi, animasi 2D/3D, video & audio editing, pembuat game, dan desain layout. Untuk mendukung projek edisi profesional ini anda diwajibkan untuk [berdonasi](https://langitketujuh.id/donasi) kepada developer agar projek ini selalu bermanfaat dan berkembang.
+Sedangkan [Edisi Profesional](https://langitketujuh.id/pro), terbaik untuk kebutuhan lanjutan. Terdapat perangkat lunak desain grafis yang lengkap. Seperti ilustrasi, animasi 2D/3D, video & audio editing, pembuat fonta, pembuat game, dan desain layout. Untuk mendukung projek edisi profesional ini Anda diwajibkan untuk [berdonasi](https://langitketujuh.id/donasi) kepada developer agar projek ini selalu bermanfaat dan berkembang.
 
 ## Memilih Libc
 

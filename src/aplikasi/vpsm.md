@@ -4,7 +4,13 @@
 
 `VPSM` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu aplikasi, baik yang free maupun yang nonfree restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang aplikasi sesuai readme docs di xbps-src.
 
-## 1. Vpsm Config
+## 1. Memasang `vpsm`
+
+```bash
+get vpsm
+```
+
+## 2. Vpsm Config
 
 Jika Anda memasang LangitKetujuh diatas versi `20210328` maka cukup konfigurasi dengan perintah
 
@@ -12,13 +18,8 @@ Jika Anda memasang LangitKetujuh diatas versi `20210328` maka cukup konfigurasi 
 vpsm_config
 ```
 
-Kemudian lanjut ke [tahap nomer 6 perintah dasar vpsm](#6-perintah-dasar-vpsm)
+Tunggu sampai proses selesai. Kemudian lanjut ke [tahap nomer 6 perintah dasar vpsm](#6-perintah-dasar-vpsm)
 
-## 2. Memasang `vpsm`
-
-```bash
-get vpsm
-```
 
 ## 3. Mengatur path void-packages ke .cache
 
@@ -69,7 +70,6 @@ Perintah                  | Aplikasi
 `vpsm i epson-inkjet2`    | Epson inkjet 2 printer driver
 `vpsm i google-chrome`    | Google chrome
 `vpsm i opera`            | Opera browser
-`vpsm i skype`            | Skype
 `vpsm i slack-desktop`    | Slack-desktop
 `vpsm i spotify`          | Spotify
 `vpsm i teams-bin`        | Microsoft Teams
