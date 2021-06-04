@@ -14,9 +14,10 @@ Perintah            | Contoh          |Fungsi
 `info <paket>`      | `info gimp`     | Mencari tahu informasi dari aplikasi yang terpasang.
 `filelist`          | `filelist gimp` | daftar isi dari aplikasi/depedensi
 `autoclean`         | -               | Menghapus cache depedensi versi lama.
-`ll`                | -               | Melihat daftar direktori dan berkas
-`disk`              | -               | Melihat sistem partisi
-
+`repolist`          | -               | Melihat daftar repository.
+`ll`                | -               | Melihat daftar direktori dan berkas.
+`ff`                | -               | Membuat ulang cache fonta.
+`disk`              | -               | Melihat struktur sistem partisi.
 
 Gunakan arah panah atas/bawah untuk mencari histori perintah terminal. Dan arah kanan untuk melanjutkan perintah yang sudah pernah diketik sebelumnya.
 
@@ -36,10 +37,5 @@ sudo chsh -s /usr/bin/bash $USER
 
 ## Dokumentasi dan Tutorial
 
-### Dokumentasi
-
-https://fishshell.com/docs/current/index.html
-
-### Tutorial
-
-https://fishshell.com/docs/current/tutorial.html
+- [Dokumentasi](https://fishshell.com/docs/current/index.html)
+- [Tutorial](https://fishshell.com/docs/current/tutorial.html)
