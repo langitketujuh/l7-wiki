@@ -94,7 +94,7 @@ Untuk wilayah Indonesia pilih:
 
 ## Root Password
 
-Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi untuk klasifikasi.
+Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi untuk klarifikasi.
 
 ## User Account
 
@@ -103,7 +103,7 @@ Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi 
 > Gunakan nama pengguna yang berbeda dengan pengguna distro linux yang lama agar tidak tumpang tindih, hal ini untuk membuat pengaturan baru untuk distro LangitKetujuh. Jika ingin menimpa, tidak mengapa untuk menggunakan username yang sama.
 
 Nama pengguna (username) ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb.
-Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi untuk klasifikasi.
+Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi untuk klarifikasi.
 
 Kemudian tulis nama pengguna untuk login (user login). Bisa menggunakan huruf kapital dan spasi. Misalnya `Hervy Qurrotul`, `Muhammad Rizal`, dsb.
 
