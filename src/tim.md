@@ -16,7 +16,7 @@ Persyaratan penting sebagai tim antara lain:
 * Beradab.
 * Murah Senyum.
 * Sholat tepat waktu.
-* Sabar, jujur, bertanggung jawab, amanah dan handal dibidangnya.
+* Jujur, bertanggung jawab, amanah dan handal dibidangnya.
 * Bersedia menggunakan Langitketujuh OS Profesional (tentunya kami beri akses gratis).
 * Suka menulis dan bersedia membuat tips dan trik secara tertulis.
 * Bersedia memberikan evaluasi.
@@ -57,6 +57,7 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 * Memahami CI/CD Netlify.
 * Memahami jenis perangkat lunak bebas dan tidak bebas (propietary).
 * Mengelola dan membantu menjahit kode sumber repositori LangitKetujuh.
+* Dapat membuat paket aplikasi xbps.
 
 # Kirim
 
