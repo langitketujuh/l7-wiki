@@ -42,7 +42,6 @@
   - [Kget Firefox Addons](./aplikasi/kget-addons.md)
   - [L7 Export dari ID Svg](./aplikasi/l7-export.md)
   - [L7 Tools Pemasang](./aplikasi/l7-tools.md)
-  #- [LAMPP Devops](./aplikasi/lamp.md)
   - [KDE Plasma Pengaturan](./aplikasi/plasma.md)
   - [Scrcpy Mirroring](./aplikasi/scrcpy.md)
   - [VPSM Xbps-src Wrapper](./aplikasi/vpsm.md)
