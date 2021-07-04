@@ -18,33 +18,9 @@ Jika Anda memasang LangitKetujuh diatas versi `20210328` maka cukup konfigurasi 
 vpsm_config
 ```
 
-Tunggu sampai proses selesai. Kemudian lanjut ke [tahap nomer 6 perintah dasar vpsm](#6-perintah-dasar-vpsm)
+Tunggu sampai proses selesai.
 
-
-## 3. Mengatur path void-packages ke .cache
-
-```bash
-set -Ux XBPS_DISTDIR $HOME/.cache/void-packages
-```
-
-## 4. Kloning void-packages.git tanpa histori.
-
-```bash
-git clone --depth 1 git://github.com/void-linux/void-packages.git $XBPS_DISTDIR
-```
-
-## 5. Membangun bootstrap
-
-```bash
-vpsm be
-vpsm bb
-```
-
-Persiapan selesai.
-
-----
-
-## 6. Perintah dasar `vpsm`
+## 3. Perintah dasar `vpsm`
 
 Perintah              | Contoh              |Fungsi
  :---                 | :---                | :---
@@ -57,7 +33,7 @@ Perintah              | Contoh              |Fungsi
 
 Lebih lengkapnya `man vpsm`.
 
-## 7. Daftar aplikasi yang sering diinstall
+## 4. Daftar aplikasi yang sering diinstall
 
 Perintah                  | Aplikasi
  :---                     | :--- 
