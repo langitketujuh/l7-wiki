@@ -9,9 +9,6 @@ description = "Panduan dan tutorial menggunakan LangitKetujuh GNU/Linux."
 [build]
 create-missing = false
 
-[rust]
-edition = "2021"
-
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "coal"
