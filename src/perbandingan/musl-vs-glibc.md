@@ -18,4 +18,4 @@ Musl keren dan heboh, tetapi tidak begitu banyak orang yang menggunakannya dan t
 
 > **Rekomendasi**
 >
-> Musl direkomendasikan untuk Anda yang memburu performa dan efisiensi. Render video, animasi, kompil, multitasking, akan terasa perbedaannya. Aplikasi nonfree seperti Zoom, Teams, dan sebagainya bisa dipasang melalui [vpsm](../cli/vpsm.md) dan flatpak namun terbatas. Beberapa aplikasi yang memerlukan `wine-32bit` tidak dapat dijalankan dengan semestinya.
+> Musl direkomendasikan untuk Anda yang memburu performa dan efisiensi. Render video, animasi, kompil, multitasking, akan terasa perbedaannya. Aplikasi nonfree seperti Zoom, Teams, dan sebagainya bisa dipasang melalui flatpak namun terbatas. Beberapa aplikasi yang memerlukan `wine-32bit` tidak dapat dijalankan dengan semestinya.
