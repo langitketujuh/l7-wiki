@@ -10,7 +10,7 @@ Sebagian besar perangkat lunak editing yang dibawa oleh Distribusi LangitKetujuh
 
 Nama LangitKetujuh OS diambil dari peristiwa Isra’ Miraj. Perjalanan Rasulullah dari Al Masjidil Haram ke Al Masjidil Aqsha. Mi’raj ke langit pertama, langit pertama sampai ketujuh hingga ke Sidratul Muntaha, yaitu tempat tertinggi di langit yang menjadi batas ujung pengetahuan dan amal aktifitas para makhluk.
 
-Alasan kedua, nama LangitKetujuh ini dipilih karena jarang ada projek free software yang menggunakan nama tempat yang islami dan istimewa, sehingga developer bertambah yakin dengan nama tersebut. Kita sebut saja L7, yaitu singkatan dari LangitKetujuh.
+Alasan kedua, nama LangitKetujuh ini dipilih karena jarang ada projek free software yang menggunakan nama tempat yang islami dan istimewa, sehingga developer bertambah yakin dengan nama tersebut. Bisa juga disebut dengan L7 yaitu kepanjangan dari LangitKetujuh.
 
 ## Visi dan Misi
 
@@ -20,7 +20,7 @@ Alasan kedua, nama LangitKetujuh ini dipilih karena jarang ada projek free softw
 
 ### Misi
 
-* Membangun sinergi dengan pemerintah dan lembaga-lembaga pendidikan Islam dalam mewujudkan generasi yang berakhlaq mulia.
+* Membangun sinergi dengan pemerintah dan lembaga-lembaga pendidikan Islam dalam mewujudkan generasi yang berakhlaq mulia dan modern.
 * Membentuk media berbasis perangkat lunak terbuka guna melatih generasi muda dibidang industri kreatif.
 
 ## Untuk Siapa?
