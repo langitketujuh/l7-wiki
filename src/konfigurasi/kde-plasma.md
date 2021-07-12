@@ -1,4 +1,12 @@
-# Pengaturan KDE Plasma
+# KDE Plasma
+
+## Mengosongkan sesi awal
+
+- Buka "System Settings"
+- Pilih "Startup and shutdown"
+- Pilh "Desktop session"
+- Pada pilihan "when logging in", pilih "Start with an empty session"
+- Klik "Apply"
 
 ## Mengganti tema Terang
 
@@ -12,14 +20,6 @@
 - Buka di menu "Global Theme"
 - Pilih tema "Langitketujuh Dark"
 - Ceklis "Use desktop layout theme"
-- Klik "Apply"
-
-## Mengosongkan sesi awal
-
-- Buka "System Settings"
-- Pilih "Startup and shutdown"
-- Pilh "Desktop session"
-- Pada pilihan "when logging in", pilih "Start with an empty session"
 - Klik "Apply"
 
 ## Mengganti bahasa

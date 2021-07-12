@@ -2,25 +2,25 @@
 
 ## Motivasi
 
-Amar ma’ruf nahi munkar, mengajak kepada kebaikan dan mencegah keburukan. Dari pada menggunakan perangkat lunak yang tidak bebas yang sebagian besar mahal dan berat. Alangkah baiknya niatan untuk menggunakan/membeli/berlangganan perangkat lunak tersebut ditunda atau dibatalkan, sebab lebih baik untuk disedekahkan kepada yang membutuhkan dan sisanya ditabung.
+Amar ma’ruf nahi munkar, mengajak kepada kebaikan dan mencegah keburukan. Menggunakan perangkat lunak yang tidak bebas yang sebagian besar mahal dan berat, alangkah baiknya niatan untuk menggunakan/membeli/berlangganan perangkat lunak tersebut ditunda atau dibatalkan. Sebab lebih baik untuk ditabung atau disedekahkan kepada yang membutuhkan.
 
 Sebagian besar perangkat lunak editing yang dibawa oleh Distribusi LangitKetujuh 100% bebas. Jadi, Anda tidak perlu berlangganan atau membeli perangkat lunak yang tidak bebas (proprietary).
 
 ## Nama Distribusi
 
-Nama LangitKetujuh OS diambil dari peristiwa Isra’ Miraj. Perjalanan Rasulullah dari Al Masjidil Haram ke Al Masjidil Aqsha. Mi’raj ke langit pertama, langit pertama sampai ketujuh hingga ke Sidratul Muntaha, yaitu tempat tertinggi di langit yang menjadi batas ujung pengetahuan dan amal aktifitas para makhluk.
+Nama LangitKetujuh OS diambil dari peristiwa Isra’ Miraj. Perjalanan Rosulullah dari Al Masjidil Haram ke Al Masjidil Aqsha. Mi’raj ke langit pertama, langit pertama sampai ketujuh hingga ke Sidratul Muntaha, yaitu tempat tertinggi di langit yang menjadi batas ujung pengetahuan dan amal aktifitas para makhluk.
 
-Alasan kedua, nama LangitKetujuh ini dipilih karena jarang ada projek free software yang menggunakan nama tempat yang islami dan istimewa, sehingga developer bertambah yakin dengan nama tersebut. Bisa juga disebut dengan L7 yaitu kepanjangan dari LangitKetujuh.
+Alasan kedua, nama LangitKetujuh ini dipilih karena jarang ada projek free software yang menggunakan nama tempat yang islami dan istimewa, sehingga developer bertambah yakin dengan nama tersebut. Sistem operasi ini bisa juga disebut dengan L7 yaitu kepanjangan dari LangitKetujuh.
 
 ## Visi dan Misi
 
 ### Visi
 
-* Menjadi Distribusi GNU/linux yang dapat memenuhi kebutuhan generasi kreatif dengan perangkat lunak yang bebas, berkah dan bermanfaat bagi masyarakat.
+* Menjadi Distribusi GNU/linux yang dapat memenuhi kebutuhan generasi kreatif dengan perangkat lunak yang bebas, berkah dan bermanfaat bagi masyarakat luas.
 
 ### Misi
 
-* Membangun sinergi dengan pemerintah dan lembaga-lembaga pendidikan Islam dalam mewujudkan generasi yang berakhlaq mulia dan modern.
+* Membangun sinergi dengan pemerintah dan lembaga-lembaga pendidikan islam dalam mewujudkan generasi yang berakhlaq mulia dan modern.
 * Membentuk media berbasis perangkat lunak terbuka guna melatih generasi muda dibidang industri kreatif.
 
 ## Untuk Siapa?

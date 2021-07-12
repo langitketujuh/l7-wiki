@@ -1,4 +1,4 @@
-# LangitKetujuh OS?
+# LangitKetujuh OS
 
 _Bismillahirrohmanirrohim._
 

@@ -2,9 +2,9 @@
 
 ## Glibc
 
-Hampir semua perangkat lunak sudah dibuat dengan Glibc. Glibc memiliki kompatibilitas yang jauh lebih banyak dan memiliki dukungan multilib sehingga menjalankan aplikasi 32-bit tidak masalah. Sedangkan Musl cukup efisien dan keren. Glibc cukup membengkak dalam segi ukuran dan memiliki banyak hal yang tidak digunakan lagi bahkan sudah cukup usang, tetapi memiliki dukungan multilib dan semua yang telah dibangun untuk linux mendukung glibc.
+Glibc (GNU libc) merupakan C library yang hampir digunakan oleh semua perangkat lunak. Glibc memiliki kompatibilitas yang jauh lebih banyak dan memiliki dukungan multilib sehingga dapat menjalankan aplikasi 32-bit. Glibc cukup membengkak dalam segi ukuran dan memiliki banyak hal yang tidak digunakan lagi bahkan sudah cukup usang, tetapi memiliki dukungan multilib dan semua yang telah dibangun untuk linux mendukung glibc.
 
-Glibc sifatnya membengkak tetapi semua orang menggunakannya dan memiliki dukungan untuk semuanya. Kebanyakan perangkat lunak dibuat menggunakan glibc tadi.
+Glibc sifatnya membengkak tetapi semua orang menggunakannya dan memiliki dukungan untuk semuanya.
 
 > **Rekomendasi**
 >
@@ -12,7 +12,7 @@ Glibc sifatnya membengkak tetapi semua orang menggunakannya dan memiliki dukunga
 
 ## Musl
 
-Sedangkan Musl mencoba untuk menjadi kebalikan Glibc. Menghapus semua yang tidak diperlukan dan menggunakan kode assembler untuk mencoba menjadi lebih cepat dalam tugas-tugas tertentu. Musl tidak memiliki multilib (dukungan 32-bit) dan tidak memiliki dukungan hebat seperti Glibc, tetapi ia memiliki footprint dan penggunaan sumber daya yang sangat minimalis.
+Sedangkan Musl libc mencoba untuk menjadi kebalikan Glibc. Menghapus semua yang tidak diperlukan dan menggunakan kode assembler untuk mencoba menjadi lebih cepat dalam tugas-tugas tertentu. Musl tidak memiliki multilib (dukungan 32-bit) dan tidak memiliki dukungan hebat seperti Glibc, tetapi ia memiliki footprint dan penggunaan sumber daya yang sangat minimalis.
 
 Musl keren dan heboh, tetapi tidak begitu banyak orang yang menggunakannya dan tidak memiliki banyak dukungan. Namun ia menggunakan sumber daya yang amat kecil. Kami merekomendasikan menggunakan Musl jika tidak ada kebutuhan aplikasi tidak bebas (nonfree/proprietary).
 

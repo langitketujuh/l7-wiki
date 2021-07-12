@@ -26,6 +26,10 @@
   - [Single Boot Pasang Ulang](./pemasangan/single-boot-pasang-ulang.md)
   - [Dual Boot Bersama Distro Linux](./pemasangan/dual-boot-bersama-distro-linux.md)
   - [Dual Boot Bersama Windows](./pemasangan/dual-boot-bersama-windows.md)
+- [Pengaturan](./konfigurasi/index.md)
+  - [Tanggal dan Waktu](./konfigurasi/tanggal-dan-waktu.md)
+  - [Krunner Bar Pencarian](./konfigurasi/krunner.md)
+  - [KDE Plasma](./konfigurasi/kde-plasma.md)
 - [Perintah Dasar](./cli/index.md)
   - [Fish Shell](./cli/fish-shell.md)
   - [VPSM](./cli/vpsm.md)
@@ -45,7 +49,6 @@
   - [L7 Export dari ID Svg](./aplikasi/l7-export.md)
   - [L7 Tools Pemasang](./aplikasi/l7-tools.md)
   #- [LAMPP Devops](./aplikasi/lamp.md)
-  - [KDE Plasma Pengaturan](./aplikasi/plasma.md)
   - [Scrcpy Mirroring](./aplikasi/scrcpy.md)
   - [XDEB Konverter](./aplikasi/xdeb.md)
 
