@@ -1,4 +1,4 @@
-# Perintah Dasar Fish Shell
+# Fish Shell
 
 ## Perintah dasar dengan Fish shell
 
