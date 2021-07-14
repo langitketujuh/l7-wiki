@@ -1,7 +1,7 @@
 # Para Tim ✨
 
 * [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa "Pengembang, Pemelihara, Pemaket, & Desainer") (Pengembang, Pemelihara, Pemaket, & Desainer)
-* [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn "Administrasi & Pendukung layanan") (Teknisi & Pendukung layanan)
+* [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn "Administrasi & Pendukung layanan") (Administrasi & Pendukung layanan)
 * [Jauzaa Wahyu Prabaswara](https://t.me/JauzaaPrabaswara "Pendukung layanan") (Teknisi & Pendukung layanan)
 * (Selanjutnya bisa jadi Anda)
 
