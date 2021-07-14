@@ -28,19 +28,25 @@ command = "curl -sL https://github.com/rust-lang/mdBook/releases/download/v0.4.1
 
 [[redirects]]
   from = "https://panduan.langitketujuh.id/aplikasi/fish-shell/"
-  to = "https://panduan.langitketujuh.id/cli/fish-shell/"
+  to = "https://panduan.langitketujuh.id/perintah-dasar/fish-shell/"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://panduan.langitketujuh.id/aplikasi/vpsm/"
-  to = "https://panduan.langitketujuh.id/cli/vpsm/"
+  to = "https://panduan.langitketujuh.id/perintah-dasar/vpsm/"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://panduan.langitketujuh.id/layanan/sv/"
-  to = "https://panduan.langitketujuh.id/cli/sv/"
+  to = "https://panduan.langitketujuh.id/perintah-dasar/sv/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "https://panduan.langitketujuh.id/cli/*"
+  to = "https://panduan.langitketujuh.id/perintah-dasar/:splat"
   status = 301
   force = true
 
