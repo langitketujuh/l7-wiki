@@ -34,7 +34,7 @@ Contoh keluarannya seperti berikut ini.
  ✔ virtlogd             run     true      5232     virtlogd          10 seconds
 ```
 
-### Berikan grup pengguna ke kvm
+### Tambahkan pengguna ke grup kvm
 
 ```
 sudo gpasswd -a "$USER" libvirt
