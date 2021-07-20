@@ -21,10 +21,11 @@ sudo ln -s /etc/sv/pipewire /var/service/
 Menambahkan autostart pipewire ke sesi desktop.
 
 ```
-cp -iv /etc/skel/.config/autostart/PipeWire.desktop $HOME/.config/autostart/
+mkdir -pv ~/.config/autostart/
+cp -iv /etc/skel/.config/autostart/PipeWire.desktop ~/.config/autostart/
 ```
 
-Kemudian logout atau reboot mesin Anda.
+Kemudian logout atau reboot PC/laptop Anda.
 
 Cek status pipewire.
 
