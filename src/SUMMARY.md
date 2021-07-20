@@ -49,9 +49,11 @@
   - [L7 Export dari ID Svg](./aplikasi/l7-export.md)
   - [L7 Tools Pemasang](./aplikasi/l7-tools.md)
   #- [LAMPP Devops](./aplikasi/lamp.md)
+  - [PipeWire Audio](./aplikasi/pipewire.md)
+  #- [Samba Windows](./aplikasi/samba.md)
   - [Scrcpy Mirroring](./aplikasi/scrcpy.md)
-  - [XDEB Konverter](./aplikasi/xdeb.md)
   - [Virt Manager KVM](./aplikasi/virt-manager.md)
+  - [XDEB Konverter](./aplikasi/xdeb.md)
 
 ---
 - [Tim Kami](./tim.md)
