@@ -7,7 +7,7 @@ Samba merupakan aplikasi cli untuk berbagi direktori dengan pengguna windows.
 ## Memasang samba
 
 ```
-get samba
+sudo xbps-install samba
 ```
 
 ## Mengaktifkan layanan samba

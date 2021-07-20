@@ -7,7 +7,7 @@
 ## Memasang Virt Manager
 
 ```
-get virt-manager virt-manager-tools qemu
+sudo xbps-install virt-manager virt-manager-tools qemu
 ```
 
 ### Mengaktifkan layanan virtualisasi

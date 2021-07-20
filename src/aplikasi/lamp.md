@@ -5,19 +5,19 @@
 ### PHP
 
 ```bash
-get php
+sudo xbps-install php
 ```
 
 ### Ekstensi PHP
 
 ```bash
-get php-apache php-cgi php-fpm php-gd php-embed php-intl php-snmp
+sudo xbps-install php-apache php-cgi php-fpm php-gd php-embed php-intl php-snmp
 ```
 
 ### PhpMyAdmin
 
 ```bash
-get phpMyAdmin
+sudo xbps-install phpMyAdmin
 ```
 
 ### Web Server
@@ -25,19 +25,19 @@ get phpMyAdmin
 Sebagai web server bisa menggunakan nginx atau apache. Pilih salah satu. Disarankan menggunakan Nginx
 
 ```bash
-get nginx
+sudo xbps-install nginx
 ```
 
 Jika menggunakan apache.
 
 ```bash
-get apache
+sudo xbps-install apache
 ```
 
 ### Memasang MariaDB
 
 ```bash
-get mariadb
+sudo xbps-install mariadb
 ```
 
 ## 2. Mengaktifkan Servis

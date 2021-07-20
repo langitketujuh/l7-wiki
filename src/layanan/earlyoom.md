@@ -10,7 +10,7 @@ Manfaatnya lainnya untuk menghindari mematikan mesin secara paksa ketika PC/Lapt
 ## Memasang earlyoom daemon
 
 ```bash
-get earlyoom
+sudo xbps-install earlyoom
 ```
 
 ## Melihat status earlyoom
@@ -42,5 +42,5 @@ sudo sv restart earlyoom
 ## Menghapus earlyoom daemon
 
 ```bash
-remove earlyoom
+sudo xbps-remove -R earlyoom
 ```

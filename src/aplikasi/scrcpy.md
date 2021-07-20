@@ -9,7 +9,7 @@
 ## Cara Memasang Scrcpy
 
 ```bash
-get android-udev-rules android-tools scrcpy
+sudo xbps-install android-udev-rules android-tools scrcpy
 ```
 
 ## Mengaktifkan layanan ADB

@@ -5,9 +5,7 @@ PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertu
 ## Memasang PipeWire
 
 ```
-sync
-get pipewire alsa-pipewire libjack-pipewire
-get l7-pipewire
+sudo xbps-install -SI pipewire alsa-pipewire libjack-pipewire l7-pipewire
 ```
 
 Agar tidak konflik dengan pipewire, maka layanan pulseaudio dihapus.
@@ -43,7 +41,7 @@ Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
 Apabila ingin menghapus pipewire dan memasang pulseaudio kembali, maka jalankan perintah ini.
 
 ```
-remove pipewire alsa-pipewire libjack-pipewire l7-pipewire
+sudo xbps-remove -R pipewire alsa-pipewire libjack-pipewire l7-pipewire
 ```
 
 Menghapus layanan pipewire.

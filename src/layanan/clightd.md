@@ -9,7 +9,7 @@ Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus a
 ## Memasang clight dan clight daemon
 
 ```bash
-get Clight Clightd
+sudo xbps-install Clight Clightd
 ```
 
 ## Melihat status clightd
@@ -41,5 +41,5 @@ sudo sv restart Clightd
 ## Menghapus clight dan clight daemon
 
 ```bash
-remove Clight Clightd
+sudo xbps-remove -R Clight Clightd
 ```

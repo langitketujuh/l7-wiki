@@ -7,7 +7,7 @@ TLP Mengatur power management agar penggunaan baterai laptop lebih hemat efisien
 ## Memasang TLP daemon
 
 ```bash
-get tlp tlp-rdw
+sudo xbps-install tlp tlp-rdw
 ```
 
 ## Melihat status tlp
@@ -39,5 +39,5 @@ sudo sv restart tlp
 ## Menghapus TLP daemon
 
 ```bash
-remove tlp tlp-rdw
+sudo xbps-remove -R tlp tlp-rdw
 ```

@@ -7,7 +7,7 @@
 ## 1. Memasang `vpsm`
 
 ```bash
-get vpsm
+sudo xbps-install vpsm
 ```
 
 ## 2. Vpsm Config

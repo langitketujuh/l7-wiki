@@ -10,7 +10,7 @@ Jika RAM fisik memiliki ukuran yang cukup besar, maka layanan `zramen` dinonakti
 ## Memasang zramen daemon
 
 ```bash
-get zramen
+sudo xbps-install zramen
 ```
 
 ## Melihat status zramen
@@ -42,5 +42,5 @@ sudo sv restart zramen
 ## Menghapus zramen daemon
 
 ```bash
-remove zramen
+sudo xbps-remove -R zramen
 ```
