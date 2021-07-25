@@ -20,9 +20,9 @@ Berikut ini adalah contoh skema partisi didalam disk yang sudah memiliki partisi
 
 NAME   TYPE FSTYPE    SIZE LABEL
 sda    disk           498G                 
-├─sdb1 part ntfs       50M System Reserved 
-├─sdb2 part ntfs      498M 
-└─sdb3 part ntfs      497G windows
+├─sda1 part ntfs       50M System Reserved
+├─sda2 part ntfs      498M
+└─sda3 part ntfs      497G windows
 ```
 
 Sesudah dipartisi:
@@ -30,9 +30,9 @@ Sesudah dipartisi:
 ```
 NAME   TYPE FSTYPE    SIZE LABEL
 sda    disk           498G
-├─sdb1 part ntfs       50M System Reserved
-├─sdb2 part ntfs      498M 
-├─sdb3 part ntfs      297G windows
+├─sda1 part ntfs       50M System Reserved
+├─sda2 part ntfs      498M
+├─sda3 part ntfs      297G windows
 ├─sda4 part ext4       50G
 └─sda5 part ext4      150G
 ```
