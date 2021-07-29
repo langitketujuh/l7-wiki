@@ -24,7 +24,7 @@ Spesifikasi minimal untuk edisi Profesional memerlukan perangkat keras yang luma
 **Ruang Disk Tersedia** | 20 GiB              | 50 Gib
 **VGA Dislay**          | 1366x768            | 1920x1280
 **Port USB**            | 2.0                 | 3.0
-**USB Bootable**        | 4GB                 | 4GB
+**USB Bootable**        | 8GB                 | 8GB
 **Internet**            | -                   | Harus[^1]
 
 [^1] Jika membutuhkan dukungan pemasangan via remote.
