@@ -151,7 +151,7 @@ Pilih Nama disk kemudian pilih `Change`, lalu sesuaikan dengan kebutuhan _mount 
 
 - `sda1` **Dilewati** karena partisi system reserved windows. Tidak diformat.
 - `sda2` Khusus UEFI, akan dijadikan partisi `/boot/efi`. Tidak diformat.
-- `sda3` **Dilewati** karena partisi sistem windows (localdisk:C ). Tidak diformat.
+- `sda3` **Dilewati** karena partisi sistem windows (localdisk:C). Tidak diformat.
 - `sda4` Partisi baru untuk sistem (`/`). Diformat.
 - `sda5` Partisi baru untuk penyimpanan data (`/home`). Diformat.
 

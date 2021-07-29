@@ -7,11 +7,11 @@ Spesifikasi minimal untuk edisi lite tidak terlalu tinggi, sebab kebutuhannya ya
 **Perangkat keras**     | **Minimal**         | **Disarankan**
 :---                    | :---                | :---
 **CPU**                 | Dual Core 1 GHz     | Quad Core 2 Ghz atau diatasnya
-**RAM**                 | 2 GiB               | 4 Gib
-**Ruang Disk Tersedia** | 10 GiB              | 25 Gib
+**RAM**                 | 2 GB                | 4 GB
+**Ruang Disk Tersedia** | 10 GB               | 25 GB
 **VGA Display**         | 1366x768            | 1920x1280
 **Port USB**            | 2.0                 | 3.0
-**Internet**            | Tidak harus         | Tidak harus
+**USB Bootable**        | 4GB                 | 4GB
 
 ## Edisi Profesional
 
@@ -24,6 +24,7 @@ Spesifikasi minimal untuk edisi Profesional memerlukan perangkat keras yang luma
 **Ruang Disk Tersedia** | 20 GiB              | 50 Gib
 **VGA Dislay**          | 1366x768            | 1920x1280
 **Port USB**            | 2.0                 | 3.0
-**Internet**            | Harus               | Harus[^1]
+**USB Bootable**        | 4GB                 | 4GB
+**Internet**            | -                   | Harus[^1]
 
 [^1] Jika membutuhkan dukungan pemasangan via remote.

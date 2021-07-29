@@ -24,4 +24,4 @@ Anda tidak harus mencadangkan data ke disk eksternal atau ke cloud ketika dalam 
 
 Ketika melakukan pemasangan file sistem yang kurang tepat, maka bisa menimbulkan blok-blok di hardisk kurang efisien dan performanya kurang baik (beda lingkungan file system) dan dapat menimbulkan badblock/badsector.
 
-Jadi, ketika migrasi dari windows kami menyarankan untuk menggunakan file system `XFS` atau `Ext4`. Sebab jika masih ada partisi `NTFS` dengan alasan ada data penting yang tidak bisa dihapus dan dibackup, performanya menjadi kurang baik seperti yang sudah dijelaskan diatas.
+Jadi, ketika migrasi dari windows kami menyarankan untuk menggunakan file system `Btrfs`,`XFS`, `F2fs` atau `Ext4`. Sebab jika masih ada partisi `NTFS` dengan alasan ada data penting yang tidak bisa dihapus dan dibackup, performanya menjadi kurang baik seperti yang sudah dijelaskan diatas.
