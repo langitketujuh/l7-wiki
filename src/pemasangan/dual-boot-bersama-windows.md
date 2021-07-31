@@ -184,7 +184,12 @@ Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `
 
 ## Deteksi Windows
 
-Setelah di restart kemudian masuk ke desktop LangitKetujuh. Untuk mendeteksi Windows gunakan `os-prober`.
+Setelah di restart kemudian masuk ke desktop LangitKetujuh.
+
+Buka `/etc/default/grub`. Tambahkan teks ini diakhir.
+`GRUB_DISABLE_OS_PROBER=false`, Lalu simpan.
+
+Agar mendeteksi distro lain gunakan `os-prober`.
 
 ```bash
 sudo os-prober
