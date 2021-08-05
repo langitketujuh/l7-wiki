@@ -36,15 +36,15 @@ Digikam manajemen foto. | - | -  | **√** | **√**
 Kdenlive pengolah video. | - | -  | **√** | **√**
 HandBrake Media transkoder. | - | -  | **√** | **√**
 Converseen konverter gambar. | - | -  | **√** | **√**
-OpenToonz Animasi Raster 2D. | **√** | **√** | **√** | **√**
-Screenkey Screencast monitor. | **√** | **√** | **√** | **√**
-PulseEffects ekualiser audio. | **√** | **√** | **√** | **√**
+OpenToonz Animasi Raster 2D. | - | -  | **√** | **√**
+Screenkey Screencast monitor. | - | -  | **√** | **√**
+PulseEffects ekualiser audio. | - | -  | **√** | **√**
 Produksi Audio dengan Ardour . | - | -  | **√** | **√**
 Rawtherapee pengolah foto raw. | - | -  | **√** | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | -  | **√** | **√**
 Synfigstudio animasi 2D. | - | -  | **√** | **√**
-Kalibrasi warna dengan DisplayCAL. | **√** | **√** | **√** | **√**
-OBS Perekam desktop dan streaming. | **√** | **√** | **√** | **√**
+Kalibrasi warna dengan DisplayCAL. | - | -  | **√** | **√**
+OBS Perekam desktop dan streaming. | - | -  | **√** | **√**
 Google Fonts untuk proyek komersil. | - | -  | **√** | **√**
 Akses Update ISO terbaru. [^1] | -  | - | **√**  | **√**
 Dukungan Aplikasi Appimage. | - | **√** | -   | **√**
