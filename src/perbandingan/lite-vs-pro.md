@@ -17,28 +17,37 @@ Berikut ini daftar perbandingan fitur setiap edisi Lite dan Profesional serta pe
 **Fitur** | **Lite Musl** | **Lite Glibc** | **Pro Musl** | **Pro Glibc**
 :--- | :---: | :---: | :---: | :---:
 Dukungan instalasi oleh tenaga ahli. | - | -  | **√** | **√**
-Dukungan codec Audio dan Video. | **√** | **√** | **√** | **√**
 Libreoffice paket aplikasi perkantoran. | **√** | **√** | **√** | **√**
+Dukungan codec Audio dan Video. | **√** | **√** | **√** | **√**
+KDE-Connect sinkron perangkat. | **√** | **√** | **√** | **√**
 Deteksi Printer HP dan Epson. | **√** | **√** | **√** | **√**
-Kalibrasi warna dengan DisplayCAL. | **√** | **√** | **√** | **√**
-Gimp manipulasi foto. | **√** | **√** | **√** | **√**
+V4l2loopback Virtual kamera. | **√** | **√** | **√** | **√**
 Inkscape pengolah vektor. | **√** | **√** | **√** | **√**
+Gimp manipulasi foto. | **√** | **√** | **√** | **√**
 Audacity pengolah audio. | - | -  | **√** | **√**
-Blender animasi 2D/3D. | - | -  | **√** | **√**
 Fontforge pembuat font. | - | -  | **√** | **√**
+Blender animasi 2D/3D. | - | -  | **√** | **√**
+Freecad 3D parametric. | - | -  | **√** | **√**
 Godot pembuat game. | - | -  | **√** | **√**
-Kdenlive pengolah video. | - | -  | **√** | **√**
-Krita digital painting. | - | -  | **√** | **√**
+LibreCAD 2D CAD. | - | -  | **√** | **√**
 Scribus publisher. | - | -  | **√** | **√**
-Synfigstudio animasi 2D. | - | -  | **√** | **√**
+Krita digital painting. | - | -  | **√** | **√**
 Digikam manajemen foto. | - | -  | **√** | **√**
+Kdenlive pengolah video. | - | -  | **√** | **√**
+HandBrake Media transkoder. | - | -  | **√** | **√**
+Converseen konverter gambar. | - | -  | **√** | **√**
+OpenToonz Animasi Raster 2D. | **√** | **√** | **√** | **√**
+Screenkey Screencast monitor. | **√** | **√** | **√** | **√**
+PulseEffects ekualiser audio. | **√** | **√** | **√** | **√**
+Produksi Audio dengan Ardour . | - | -  | **√** | **√**
 Rawtherapee pengolah foto raw. | - | -  | **√** | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | -  | **√** | **√**
-Produksi Audio dengan Ardour & Cadence. | - | -  | **√** | **√**
+Synfigstudio animasi 2D. | - | -  | **√** | **√**
+Kalibrasi warna dengan DisplayCAL. | **√** | **√** | **√** | **√**
+OBS Perekam desktop dan streaming. | **√** | **√** | **√** | **√**
 Google Fonts untuk proyek komersil. | - | -  | **√** | **√**
 Akses Update ISO terbaru. [^1] | -  | - | **√**  | **√**
 Dukungan Aplikasi Appimage. | - | **√** | -   | **√**
-Dukungan Nvidia Propietary driver. | - | **√** | -   | **√**
 Dukungan Aplikasi Nonfree.  | - | **√** | -   | **√**
 Dukungan Wine windows. [^2] | - | **√** | -  | **√**
 
