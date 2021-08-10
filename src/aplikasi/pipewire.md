@@ -8,7 +8,7 @@ PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertu
 sudo xbps-install -SI pipewire alsa-pipewire libjack-pipewire libspa-bluetooth l7-pipewire
 ```
 
-Agar tidak konflik dengan pipewire, maka layanan pulseaudio dihapus.
+Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sudah tidak aktif. Hal ini agar tidak konflik antara layanan pipewire dengan pulseaudio.
 ```
 sudo rm -v /var/service/pulseaudio
 ```
