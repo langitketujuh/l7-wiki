@@ -53,7 +53,7 @@
   #- [Samba Windows](./aplikasi/samba.md)
   - [Scrcpy Mirroring](./aplikasi/scrcpy.md)
   - [Virt Manager KVM](./aplikasi/virt-manager.md)
-  - [XDEB Konverter](./aplikasi/xdeb.md)
+  #- [XDEB Konverter](./aplikasi/xdeb.md)
 
 ---
 - [Tim Kami](./tim.md)
