@@ -27,7 +27,7 @@ Perintah              | Contoh              |Fungsi
 `vpsm i <packages>`   | `vpsm i zoom`       | memasang aplikasi (install)
 `vpsm ss <string>`    | `vpsm ss art`       | mencari aplikasi dengan kata kunci
 `vpsm un <packages>`  | `vpsm un zoom`      | menghapus aplikasi (uninstall)
-`vpsm sw <packages>`  | `vpsp sw inkscape`  | mencari informasi aplikasi
+`vpsm sw <packages>`  | `vpsm sw inkscape`  | mencari informasi aplikasi
 `vpsm upr`            | -                   | update repositori
 `vpsm bu`             | -                   | update bootstrap
 

@@ -34,7 +34,7 @@ sudo sv status <service>
 
 Contoh:
 ```bash
-sudo sv status NetwrkManager
+sudo sv status NetworkManager
 ```
 
 ## Mengaktifkan layanan
