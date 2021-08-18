@@ -5,7 +5,7 @@ PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertu
 ## Memasang PipeWire
 
 ```
-sudo xbps-install -SI pipewire alsa-pipewire libjack-pipewire libspa-bluetooth l7-pipewire
+sudo xbps-install -SI pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sudah tidak aktif. Hal ini agar tidak konflik antara layanan pipewire dengan pulseaudio.
