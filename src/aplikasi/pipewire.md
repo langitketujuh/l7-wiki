@@ -43,7 +43,7 @@ Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
 Apabila ingin menghapus pipewire dan memasang pulseaudio kembali, maka jalankan perintah ini.
 
 ```
-sudo xbps-remove -R pipewire alsa-pipewire libjack-pipewire l7-pipewire
+sudo xbps-remove -R pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Menghapus layanan pipewire.
