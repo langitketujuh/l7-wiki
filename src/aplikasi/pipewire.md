@@ -5,8 +5,7 @@ PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertu
 ## Memasang PipeWire
 
 ```
-sudo xbps-install -Sy pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire
-sudo xbps-install -Sy l7-pipewire
+sudo xbps-install -Sy pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sudah tidak aktif. Hal ini agar tidak konflik antara layanan pipewire dengan pulseaudio.
@@ -17,6 +16,7 @@ sudo rm -v /var/service/pulseaudio
 Tambahkan layanan pipewire.
 ```
 sudo ln -s /etc/sv/pipewire /var/service/
+sudo ln -s /etc/sv/pipewire-pulse /var/service/
 ```
 
 Menambahkan autostart pipewire ke sesi desktop.
