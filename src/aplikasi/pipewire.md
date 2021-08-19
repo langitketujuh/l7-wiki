@@ -49,6 +49,7 @@ sudo xbps-remove -R pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gst
 Menghapus layanan pipewire.
 ```
 sudo rm -v /var/service/pipewire
+sudo rm -v /var/service/pipewire-pulse
 ```
 
 Cek status pulseaudio.
