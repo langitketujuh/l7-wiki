@@ -1,11 +1,19 @@
-# PipeWire
+# PipeWire Audio Server
 
 PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertujuan untuk menawarkan pengambilan dan pemutaran audio dan video dengan latensi yang minimal dan dukungan untuk aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer.
 
 ## Memasang PipeWire
 
+Hapus PulseAudio.
+
 ```
-sudo xbps-install -Sy pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
+sudo xbps-remove -R pulseaudio alsa-plugins-pulseaudio
+```
+
+Pasang PipeWire.
+
+```
+sudo xbps-install -S pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sudah tidak aktif. Hal ini agar tidak konflik antara layanan pipewire dengan pulseaudio.
@@ -38,12 +46,17 @@ Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
 
 `Server Name: PulseAudio (on PipeWire [versi])`
 
-## Menghapus PipeWire
+## Mengganti PipeWire dengan PulseAudio
 
-Apabila ingin menghapus pipewire dan memasang pulseaudio kembali, maka jalankan perintah ini.
-
+Menghapus PipeWire.
 ```
 sudo xbps-remove -R pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
+```
+
+Memasang PulseAudio.
+
+```
+sudo xbps-install -S pulseaudio alsa-plugins-pulseaudio
 ```
 
 Menghapus layanan pipewire.
@@ -51,6 +64,8 @@ Menghapus layanan pipewire.
 sudo rm -v /var/service/pipewire
 sudo rm -v /var/service/pipewire-pulse
 ```
+
+Kemudian logout atau reboot PC/laptop Anda.
 
 Cek status pulseaudio.
 
