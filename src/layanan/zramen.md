@@ -2,7 +2,7 @@
 
 ## Fungsi layanan
 
-Zramen untuk pengatur ZRAM. ZRAM sendiri untuk menambahkan swap di meori fisik secara terkompresi. Dengan ZRAM akan menambah memori 25% dari memori fisik.
+Zramen untuk pengatur ZRAM. ZRAM sendiri untuk menambahkan swap di memori fisik secara terkompresi. Dengan ZRAM akan menambah memori 25% dari memori fisik.
 Secara bawaan layanan `zramen` sudah aktf.
 
 Jika RAM fisik memiliki ukuran yang cukup besar, maka layanan `zramen` dinonaktifkan saja dan fokus di RAM fisik.
