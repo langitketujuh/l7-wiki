@@ -54,6 +54,9 @@
   - [Scrcpy Mirroring](./aplikasi/scrcpy.md)
   - [Virt Manager KVM](./aplikasi/virt-manager.md)
   #- [XDEB Konverter](./aplikasi/xdeb.md)
+- [Permasalahan](./permasalahan/index.md)
+  - [Mengatasi dengan Mode Chroot](./permasalahan/chroot.md)
+  - [Mengatasi Grub Hilang](./permasalahan/grub.md)
 
 ---
 - [Tim Kami](./tim.md)
