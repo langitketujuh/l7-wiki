@@ -31,7 +31,7 @@ Menambahkan autostart pipewire ke sesi desktop.
 
 ```
 mkdir -pv ~/.config/autostart/
-cp -iv /etc/skel/.config/autostart/PipeWire.desktop ~/.config/autostart/
+cp -v /etc/skel/.config/autostart/PipeWire* ~/.config/autostart/
 ```
 
 Kemudian logout atau reboot PC/laptop Anda.
