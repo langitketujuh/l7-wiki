@@ -55,7 +55,7 @@
   - [Virt Manager KVM](./aplikasi/virt-manager.md)
   #- [XDEB Konverter](./aplikasi/xdeb.md)
 - [Permasalahan](./permasalahan/index.md)
-  - [Mengatasi dengan Mode Chroot](./permasalahan/chroot.md)
+  - [Mode Chroot](./permasalahan/chroot.md)
   - [Mengatasi Grub Hilang](./permasalahan/grub.md)
 
 ---

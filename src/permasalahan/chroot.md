@@ -68,7 +68,9 @@ sudo mount --rbind /proc /mnt/proc && sudo mount --make-rslave /mnt/proc
 sudo chroot /mnt/ /bin/fish
 ```
 
-Setelah selesai, Anda dapat memodifikasi sistem PC/laptop tersebut.
+Setelah selesai, Anda dapat memodifikasi sistem PC/laptop tersebut seperti:
+
+- [Mengatasi Grub Hilang](grub.md)
 
 ## Keluar dari mode `chroot`
 
