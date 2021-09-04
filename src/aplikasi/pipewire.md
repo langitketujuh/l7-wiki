@@ -34,17 +34,23 @@ mkdir -pv ~/.config/autostart/
 cp -v /etc/skel/.config/autostart/PipeWire* ~/.config/autostart/
 ```
 
+Tambahkan pengguna kedalam grup `PipeWire`.
+
+```
+sudo usermod -aG _pipewire,pulse,pulse-access $USER
+```
+
 Kemudian logout atau reboot PC/laptop Anda.
 
 Cek status pipewire.
 
 ```
-pactl info | grep "Server Name"
+inxi -A
 ```
 
 Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
 
-`Server Name: PulseAudio (on PipeWire [versi])`
+`PipeWire v: [versi] running: yes`
 
 ## Mengganti PipeWire dengan PulseAudio
 
@@ -70,9 +76,9 @@ Kemudian logout atau reboot PC/laptop Anda.
 Cek status pulseaudio.
 
 ```
-pactl info | grep "Server Name"
+inxi -A
 ```
 
 Jika keluarannya seperti dibawah ini maka pulseaudio berjalan tanpa pipewire.
 
-`Server Name: PulseAudio`
+`PulseAudio v: [versi] running: yes`
