@@ -8,9 +8,13 @@ _Bismillahirrohmanirrohim._
 
 Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan aplikasi sesuai kebutuhan spesifik. LangitKetujuh GNU/Linux akan membantu Anda menjadi desainer yang tangguh dengan perangkat lunak terbuka.
 
-* ✨ Website: [https://langitketujuh.id](https://langitketujuh.id)
-* 🚀 Telegram: [LangitKetujuh ID](https://t.me/langitketujuh.id)
-* 🍄 Instagram: [LangitKetujuh ID](https://instagram.com/langitketujuh.id)
-* 🍨 Facebook: [LangitKetujuh ID](https://facebook.com/langitketujuh.id)
+* Website: [https://langitketujuh.id](https://langitketujuh.id)
+* Telegram: [LangitKetujuh ID](https://t.me/langitketujuhid)
+* Instagram: [LangitKetujuh ID](https://instagram.com/langitketujuh.id)
+* Facebook: [LangitKetujuh ID](https://fb.com/langitketujuh.id)
+
+Komunitas:
+* Telegram: [LangitKetujuh Komunitas](https://t.me/langitketujuh_group)
+* Facebook: [LangitKetujuh Komunitas](https://fb.com/groups/langitketujuh.group)
 
 > Jika Anda mengakses halaman **Panduan** dengan smartphone, klik menu di pojok kiri atas.
