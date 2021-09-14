@@ -105,7 +105,7 @@ sdc      8:48   1  14.6G  0 disk
 └─sdc2   8:50   1    32M  0 part
 ```
 
-Pada informasi diatas `sdc` adalah flashdisk dengan ukuran 14.6GB
+Pada informasi diatas `sdc` adalah flashdisk dengan ukuran 14.6GB.
 
 - Buka folder yang berisi iso langitketujuh.
 - Klik kanan, pilih "Actions".
