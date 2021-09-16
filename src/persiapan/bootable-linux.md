@@ -82,12 +82,6 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 - Ketik `bootiso langitketujuh[tekan tab]`.
 - Tunggu sampai proses menyalin selesai.
 
-Pada video dibawah ini menggunakan Flasdisk `Sandisk` sebagai contoh.
-
-<video controls poster="../media/video/bootiso-bootable-usb-langitketujuh.webp" style="position: relative; width: 100%; height: auto; border:0;" >
-  <source src="../media/video/bootiso-bootable-usb-langitketujuh.webm" type="video/webm">
-</video>
-
 ## dd (cli)
 Cek letak path flashdisk dengan `lsblk`.
 Contoh keluaran:
