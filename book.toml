@@ -11,6 +11,7 @@ build-dir = "docs"
 create-missing = false
 
 [output.html]
+theme = "src/theme"
 default-theme = "light"
 preferred-dark-theme = "coal"
 git-repository-url= "https://gitlab.com/langitketujuh/book/docs"
