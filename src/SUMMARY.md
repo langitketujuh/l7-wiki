@@ -55,6 +55,7 @@
   - [Virt Manager KVM](./aplikasi/virt-manager.md)
   #- [XDEB Konverter](./aplikasi/xdeb.md)
 - [Permasalahan](./permasalahan/index.md)
+  - [Gagal Login Setelah Memasang](./permasalahan/login.md)
   - [Mode Chroot](./permasalahan/chroot.md)
   - [Mengatasi Grub Hilang](./permasalahan/grub.md)
 
