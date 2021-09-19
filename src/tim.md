@@ -61,5 +61,5 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 
 # Kirim
 
-Bagikan attachment CV Anda ke surel [langitketujuh@pm.me](mailto:langitketujuh@pm.me) dengan Subject "NAMA - Bidang - Kode".
-Barakallah.
+Bagikan attachment CV Anda ke surel [langitketujuh.id@pm.me](mailto:langitketujuh.id@pm.me) dengan Subject "NAMA - Bidang - Kode".
+Barakallahu fiikum.

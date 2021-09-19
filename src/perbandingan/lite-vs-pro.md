@@ -20,6 +20,7 @@ Dukungan codec Audio dan Video. | **√** | **√**
 KDE-Connect sinkron perangkat. | **√** | **√**
 Deteksi Printer HP dan Epson. | **√** | **√**
 V4l2loopback Virtual kamera. | **√** | **√**
+PipeWire Audio Server. | **√** | **√**
 Inkscape pengolah vektor. | **√** | **√**
 Gimp manipulasi foto. | **√** | **√**
 Audacity pengolah audio. | - | **√**

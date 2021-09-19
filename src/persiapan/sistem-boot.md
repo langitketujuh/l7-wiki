@@ -9,7 +9,7 @@ Nonaktifkan sementara beberapa fitur BIOS dibawah ini. Jika sudah selesai pemasa
 * CSM: `Disabled`
 * Secure Boot: `Disabled`
 
-Jika Secure boot tidak aktif/muncul, maka buatlah kata sandi bios dahulu. Kata sandi yang digunakan misalnya `123`
+Jika Secure boot tidak aktif/muncul, maka buatlah kata sandi bios dahulu. Kata sandi yang digunakan misalnya `123`.
 
 - Ke bagian tab `Security`
 - Pilih `Set supervisor password`
@@ -21,15 +21,18 @@ Jika Secure boot tidak aktif/muncul, maka buatlah kata sandi bios dahulu. Kata s
 - Ke bagian tab `Boot`
 - Pilih `Secure boot: Disabled`
 
-## Boot Order
-
-* Jika menggunakan BIOS pastikan USB berada di posisi paling atas.
-* Jika menggunakan UEFI, biasanya muncul 2 boot order Flasdisk di BIOS Menu. Pastikan USB UEFI berada di posisi paling atas.
-
 ## Boot Mode
 
-Jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`. Untuk BIOS sendiri secara otomatis masuk ke boot mode BIOS sendiri.
+Ada 2 jenis Boot mode, yaitu BIOS (Legacy) dan UEFI.
 
-## Restart
+Jika menggunakan BIOS, secara otomatis masuk ke boot mode BIOS sendiri dan tidak perlu diatur lagi. Sedangkan, jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`.
 
-Jika sudah diatur pengaturan BIOS Menu, pilih **Save** (biasanya tekan F10 untuk menyimpan). Lalu PC/Laptop akan merestart secara otomatis dan masuk ke Live USB LangitKetujuh.
+## Boot Order atau Boot Sequence
+
+Jika menggunakan BIOS pastikan USB berada di posisi paling atas. Sedangkan, jika menggunakan UEFI biasanya muncul 2 boot order Flasdisk di BIOS Menu. Pastikan USB UEFI berada di posisi paling atas.
+
+Cara menaikkan posisi boot order bisa menggunakan `F6` atau `F5` untuk model tertentu.
+
+## Reboot
+
+Jika sudah diatur pengaturan BIOS Menu, pilih **Save** (biasanya tekan `F10` untuk menyimpan). Lalu PC/Laptop akan mereboot secara otomatis dan masuk ke LiveUSB LangitKetujuh.

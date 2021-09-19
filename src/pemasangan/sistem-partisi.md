@@ -10,7 +10,7 @@ Gunakan `disk` atau `lsblk` untuk mengetahui sistem partisi. Setidaknya dengan i
 
 ## Mengetahui tipe disk MBR atau GPT
 
-Boot mode UEFI diharuskan menggunakan tipe disk GPT, sedangkan boot mode Legacy/BIOS diharuskan menggunakan tipe disk MBR. Jika disk yang akan digunakan adalah `sda` maka ketik:
+Boot mode UEFI diharuskan menggunakan tipe disk `GPT`, sedangkan boot mode BIOS/Legacy diharuskan menggunakan tipe disk `DOS` (MBR). Jika disk yang akan digunakan adalah `sda` maka ketik:
 
 ```bash
 sudo fdisk -l /dev/sda
@@ -20,7 +20,7 @@ Lihat keluaran bagian `Disklabel type:` jika hasilnya `dos` maka tipe disk MBR, 
 
 ## Merubah MBR ke GPT tanpa format
 
-Terkadang disk setelah diperiksa ternyata adalah MBR (untuk boot mode Legacy/BIOS). Padahal saat ini boot mode yang digunakan adalah UEFI, berarti Anda sedang migrasi dari BIOS ke UEFI. Maka disk perlu dikonversi dari MBR ke GPT.
+Terkadang disk setelah diperiksa ternyata adalah MBR (untuk boot mode BIOS). Padahal saat ini boot mode yang digunakan adalah UEFI, berarti Anda sedang migrasi dari BIOS ke UEFI. Maka disk perlu dikonversi dari MBR ke GPT.
 
 Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Dan jangan lupa untuk umount disk yang akan dikonversikan.
 

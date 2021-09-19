@@ -25,7 +25,7 @@ Pada `Username:` isikan `root`.
 
 Password, isikan kata sandi yang telah dibuat ketika memasang sebelumnya. Ingat, mengisi sandi ini tidak ditampilkan sehingga wajar akan tampak kosong, padahal sebenarnya sudah terketik.
 
-Jika sudah masuk `root` dengan TTY maka akan terlihat tanpa pagar `#`.
+Jika sudah masuk `root` dengan TTY maka akan terlihat tanda pagar `#`.
 
 ## Membuat pengguna baru
 

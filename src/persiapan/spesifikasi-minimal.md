@@ -15,7 +15,7 @@ Perangkat keras         | Minimal             | Disarankan
 
 ## Edisi Profesional
 
-Spesifikasi minimal untuk edisi Profesional memerlukan perangkat keras yang lumayan tinggi, apalagi jika digunakan untuk kebutuhan spesifik seperti animasi 3D, rendering dan efek partikel pada produksi game & animasi.
+Spesifikasi minimal untuk edisi Profesional memerlukan perangkat keras yang cukup tinggi. Akan tepat sekali jika digunakan untuk kebutuhan multimedia.
 
 Perangkat keras         | Minimal             | Disarankan
 :---                    | :---                | :---

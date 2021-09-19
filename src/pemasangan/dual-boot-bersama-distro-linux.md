@@ -66,7 +66,7 @@ sda    disk           498G
 └─sda4 part ext4       50G
 ```
 
-Maka akan ada partisi baru yaitu `sda4` dengan ukuran 50G sebagai contoh. Yang nantinya akan dijadikan partisi `/` untuk LangitKetujuh.
+Maka akan ada partisi baru yaitu `sda4` dengan ukuran `50G` sebagai contoh. Yang nantinya akan dijadikan partisi `/` untuk LangitKetujuh.
 
 ## Pemasangan
 
@@ -81,15 +81,15 @@ sudo langitketujuh-install
 
 ## Keyboard
 
-Pilih `us` untuk jenis papan ketik `QWERTY`
+Pilih `us` untuk jenis papan ketik `QWERTY`.
 
 ## Network
 
-Lewati tahap ini karena pemasangan sebaiknya dilakukan secara offline. Jika terlanjur terklik, pilih `Back` untuk kembali.`
+Lewati tahap ini karena pemasangan sebaiknya dilakukan secara offline. Jika terlanjur terklik, pilih `Back` untuk kembali.
 
 ## Source
 
-Pilih `Local` untuk instalasi offline agar lebih cepat.
+Pilih `Local` untuk pemasangan offline agar lebih cepat prosesnya.
 
 ## Hostname
 
@@ -120,7 +120,7 @@ Untuk wilayah Indonesia pilih:
 
 ## Root Password
 
-Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi untuk klarifikasi.
+Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi yang sama untuk klarifikasi.
 
 ## User Account
 
@@ -128,10 +128,10 @@ Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi 
 >
 > Gunakan nama pengguna yang berbeda dengan pengguna distro linux yang lama agar tidak tumpang tindih, hal ini untuk membuat pengaturan baru untuk distro LangitKetujuh. Jika ingin menimpa, tidak mengapa untuk menggunakan username yang sama.
 
-Nama pengguna (username) ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `umar`, dsb.
-Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi untuk klarifikasi.
+Nama pengguna (username) ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `aziz`, `aris` dsb.
+Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi yang sama untuk klarifikasi.
 
-Kemudian tulis nama pengguna untuk login (user login). Bisa menggunakan huruf kapital dan spasi. Misalnya `Hervy Qurrotul`, `Muhammad Rizal`, dsb.
+Kemudian tulis nama pengguna untuk login (user login). Bisa menggunakan huruf kapital dan spasi. Misalnya `Hervy Qurrotul`, `LangitKetujuh Studio` dsb.
 
 Untuk "group membership" lewati saja dengan memilih `OK`.
 
@@ -209,6 +209,10 @@ Jika sudah selesai pilih `Done`.
 ## Settings
 
 Pilih `Settings` untuk melihat ringkasan pengaturan pemasangan yang akan dijalankan. Pada bagian partisi, nilai `1` artinya partisi akan diformat dan `0` partisi dibiarkan tetap.
+
+Contoh pengaturan di mode UEFI:
+
+![LangitKetujuh Setting Install](../media/image/setting-dualboot-linux.webp)
 
 ## Install
 
