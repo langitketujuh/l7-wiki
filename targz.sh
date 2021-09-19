@@ -1,7 +1,8 @@
 #!/usr/bin/env sh
 
+readonly PKG=docs
 readonly DATE=$(date "+%Y.%m.%d")
-readonly DIR=docs-$DATE
+readonly DIR=$PKG-$DATE
 
 mkdir $DIR
 cp -r src $DIR
