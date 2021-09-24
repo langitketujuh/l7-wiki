@@ -35,10 +35,16 @@ Misalnya anda ingin membuat pengguna `ridwan` (pakai huruf kecil tanpa spasi) da
 
 `useradd ridwan -c 'Muhammad Ridwan'`
 
-## Menambahkan pengguna ke grup `whell` administrator
+Tambahkan kata sandi ke pengguna.
 
-`chmod -aG whell ridwan`
+`passwd ridwan`
 
-Artinya pengguna `ridwan` ditambahkan ke grup `whell` yang bisa menjalankan perintah root administrator.
+Mengetik kata sandi memang tidak terlihat, tetapi sebenarnya sudah terketik. Lalu ulangi kata sandi untuk klarifikasi.
+
+## Menambahkan pengguna ke grup `wheel` administrator
+
+`usermod -aG wheel ridwan`
+
+Artinya pengguna `ridwan` ditambahkan ke grup `wheel` yang bisa menjalankan perintah root administrator.
 
 Kemudian ketik `reboot` untuk merestart PC/Laptop. Setelah reboot, login dengan pengguna dan kata sandi yang telah dibuat tadi. Selesai.
