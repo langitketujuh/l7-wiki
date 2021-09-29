@@ -24,6 +24,6 @@ Lenovo IdeaPad    | Fn + F12, F8, F10 | F1, F2
 Nec               | F5                | F2
 Packard Bell      | F8                | F1, Del
 Samsung           | F12, Esc          | F2
-Sharp             |                   | F2
+Sharp             | -                 | F2
 Sony              | F10, F11          | F1, F2, F3
 Toshiba           | F12               | Esc, F1, F12
