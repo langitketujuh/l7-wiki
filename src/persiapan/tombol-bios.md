@@ -17,7 +17,7 @@ Compaq Presario   | Esc, F9           | F10
 Dell              | F12               | F2
 Dell Precision    | F12               | F12
 Emachines         | F12               | Del
-HP                | Esc               | F10, Esc
+HP                | F9, Esc           | F10, Esc
 Intel             | F10               |
 Lenovo            | F12, F8, F10      | F1, F2
 Lenovo IdeaPad    | Fn + F12, F8, F10 | F1, F2
