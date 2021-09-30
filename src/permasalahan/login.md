@@ -50,7 +50,10 @@ Mengetik kata sandi memang tidak terlihat, tetapi sebenarnya sudah terketik. Lal
 Tambahkan beberapa grup dasar untuk pengguna baru.
 
 ```
-usermod -aG $USER,wheel,audio,video,floppy,cdrom,optical,kvm,xbuilder,_pipewire $USER
+usermod -aG ridwan,wheel,audio,video,floppy,cdrom,optical,kvm,xbuilder,_pipewire ridwan
 ```
+ganti `ridwan` dengan nama pengguna baru yang telah Anda buat sebelumnya.
 
-Kemudian ketik `reboot` untuk merestart PC/Laptop. Setelah reboot, login dengan pengguna dan kata sandi yang telah dibuat tadi. Selesai.
+Kemudian ketik `reboot` untuk merestart PC/Laptop. Setelah reboot, login dengan pengguna dan kata sandi yang baru.
+
+Selesai.
