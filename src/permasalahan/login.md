@@ -41,10 +41,10 @@ Tambahkan kata sandi ke pengguna.
 
 Mengetik kata sandi memang tidak terlihat, tetapi sebenarnya sudah terketik. Lalu ulangi kata sandi untuk klarifikasi.
 
-## Menambahkan pengguna ke grup `wheel` administrator
+## Menambahkan pengguna ke grup
 
-`usermod -aG wheel ridwan`
+Beberapa grup penting untuk pengguna baru.
 
-Artinya pengguna `ridwan` ditambahkan ke grup `wheel` yang bisa menjalankan perintah root administrator.
+`usermod -aG $USER,wheel,audio,video,floppy,cdrom,optical,kvm,xbuilder,_pipewire $USER`
 
 Kemudian ketik `reboot` untuk merestart PC/Laptop. Setelah reboot, login dengan pengguna dan kata sandi yang telah dibuat tadi. Selesai.
