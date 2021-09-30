@@ -33,18 +33,24 @@ Setelah berhasil masuk ke `root`, maka buatlah pengguna baru.
 
 Misalnya anda ingin membuat pengguna `ridwan` (pakai huruf kecil tanpa spasi) dan nama lengkap Anda `Muhammad Ridwan`. Maka perintah yang digunakan adalah:
 
-`useradd ridwan -c 'Muhammad Ridwan'`
+```
+useradd ridwan -c 'Muhammad Ridwan'
+```
 
 Tambahkan kata sandi ke pengguna.
 
-`passwd ridwan`
+```
+passwd ridwan
+```
 
 Mengetik kata sandi memang tidak terlihat, tetapi sebenarnya sudah terketik. Lalu ulangi kata sandi untuk klarifikasi.
 
 ## Menambahkan pengguna ke grup
 
-Beberapa grup penting untuk pengguna baru.
+Tambahkan beberapa grup dasar untuk pengguna baru.
 
-`usermod -aG $USER,wheel,audio,video,floppy,cdrom,optical,kvm,xbuilder,_pipewire $USER`
+```
+usermod -aG $USER,wheel,audio,video,floppy,cdrom,optical,kvm,xbuilder,_pipewire $USER
+```
 
 Kemudian ketik `reboot` untuk merestart PC/Laptop. Setelah reboot, login dengan pengguna dan kata sandi yang telah dibuat tadi. Selesai.
