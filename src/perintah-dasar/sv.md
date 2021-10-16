@@ -24,7 +24,7 @@ sudo vsv
 ls /etc/sv/* -lah
 ```
 
-Semua layanan tersedia didalam direktori `/etc/sv/`.
+Semua layanan tersedia di dalam direktori `/etc/sv/`.
 
 ## Status layanan
 

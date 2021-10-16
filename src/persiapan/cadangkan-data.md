@@ -4,7 +4,7 @@
 
 Mencadangkan data (backup) bertujuan untuk menyelamatkan data jika terjadi suatu hal yang tidak diinginkan. Mencadangkan data bisa menggunakan disk eksternal (hdd/ssd) atau cloud (Nexclound, Owncloud, Git LFS, GDrive, One Drive, Megasync, dsb).
 
-Jika **tidak ada** data penting didalam partisi Anda maka tidak mengapa untuk diformat semua partisinya. Sehingga pemasangan LangitKetujuh bisa dilanjutkan tanpa menyalin data ke disk eksternal.
+Jika **tidak ada** data penting di dalam partisi Anda maka tidak mengapa untuk diformat semua partisinya. Sehingga pemasangan LangitKetujuh bisa dilanjutkan tanpa menyalin data ke disk eksternal.
 
 ## Dari Windows
 

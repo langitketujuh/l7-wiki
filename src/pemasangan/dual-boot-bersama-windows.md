@@ -13,7 +13,7 @@ Ruang diska       | Minimal         | Disarankan
 **Lite**          | 10 GiB          | 25 Gib
 **Pro**           | 20 GiB          | 50 Gib
 
-Berikut ini adalah contoh skema partisi didalam disk yang sudah memiliki partisi Windows.
+Berikut ini adalah contoh skema partisi di dalam disk yang sudah memiliki partisi Windows.
 
 ```
 ➜  ~ lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL

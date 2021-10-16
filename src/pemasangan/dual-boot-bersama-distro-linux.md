@@ -17,7 +17,7 @@ Ruang diska       | Minimal         | Disarankan
 **Lite**          | 10 GiB          | 25 Gib
 **Pro**           | 20 GiB          | 50 Gib
 
-Berikut ini adalah contoh skema partisi didalam disk yang sudah memiliki partisi **/boot**, **/**, dan **/home**. Sehingga perlu partisi **/** baru.
+Berikut ini adalah contoh skema partisi di dalam disk yang sudah memiliki partisi **/boot**, **/**, dan **/home**. Sehingga perlu partisi **/** baru.
 
 ```
 lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL,MOUNTPOINT
