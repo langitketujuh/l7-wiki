@@ -76,6 +76,10 @@ Setelah selesai, Anda dapat memodifikasi sistem PC/laptop tersebut seperti:
 
 ```
 exit
+```
+
+Unmount semua partisi chroot.
+```
 sudo umount -R /mnt
 ```
 
