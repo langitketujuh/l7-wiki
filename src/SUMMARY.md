@@ -11,6 +11,7 @@
 - [Persiapan](./persiapan/index.md)
   - [Spesifikasi Minimal](./persiapan/spesifikasi-minimal.md)
   - [Cadangkan Data](./persiapan/cadangkan-data.md)
+  - [Verifikasi Berkas](./persiapan/verifikasi-berkas.md)
   - [Bootable Linux](./persiapan/bootable-linux.md)
   - [Bootable Windows](./persiapan/bootable-windows.md)
   - [Windows](./persiapan/windows.md)
