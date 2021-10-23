@@ -31,10 +31,14 @@ sudo os-prober
 sudo update-grub
 ```
 
-## Keluar mode `chroot`
+## Keluar dari mode `chroot`
 
 ```
 exit
+```
+
+Unmount semua partisi chroot.
+```
 sudo umount -R /mnt
 ```
 
