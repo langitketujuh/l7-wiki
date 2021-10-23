@@ -50,7 +50,7 @@ Mengetik kata sandi memang tidak terlihat, tetapi sebenarnya sudah terketik. Lal
 Tambahkan beberapa grup dasar untuk pengguna baru.
 
 ```
-usermod -aG ridwan,wheel,audio,video,floppy,cdrom,optical,kvm,xbuilder,_pipewire ridwan
+usermod -a ridwan -G ridwan,wheel,audio,video,floppy,cdrom,optical,kvm,xbuilder
 ```
 ganti `ridwan` dengan nama pengguna baru yang telah Anda buat sebelumnya.
 
