@@ -34,12 +34,6 @@ mkdir -pv ~/.config/autostart/
 cp -v /etc/skel/.config/autostart/PipeWire* ~/.config/autostart/
 ```
 
-Tambahkan pengguna kedalam grup `PipeWire`.
-
-```
-sudo usermod -aG _pipewire,pulse,pulse-access $USER
-```
-
 Kemudian logout atau reboot PC/laptop Anda.
 
 Cek status pipewire.
