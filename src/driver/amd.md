@@ -4,9 +4,9 @@
 
 LangitKetujuh sudah memasukkan firmware `linux-firmware-amd` sehingga perangkat keras AMD GPU sudah mendukung.
 
-## Xorg
+## Xorg System
 
-LangitKetujuh juga sudah memasukkan meta paket `mesa-ati-dri`.
+LangitKetujuh juga sudah memasukkan meta paket `xf86-video-amdgpu xf86-video-ati mesa-ati-dri` untuk dukungan Xorg system.
 
 ## Vulkan
 
