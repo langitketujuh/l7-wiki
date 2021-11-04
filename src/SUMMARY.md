@@ -35,6 +35,7 @@
   - [Manajemen Paket](./perintah-dasar/manajemen-paket.md)
   - [VPSM Wrapper](./perintah-dasar/vpsm.md)
   - [Pengaturan Layanan](./perintah-dasar/sv.md)
+  - [Jenis Shell](./perintah-dasar/jenis-shell.md)
 - [Jenis Layanan](./layanan/index.md)
   #- [Clight Kecerahan Otomatis](./layanan/clightd.md)
   - [Earlyoom Anti Hang](./layanan/earlyoom.md)

@@ -40,17 +40,3 @@ l7-pkg-wine       | Wine penggerak aplikasi Windows
 Contoh penggunaan:
 - Memasang wine :`sudo xbps-install l7-pkg-wine`
 - Memasang beberapa paket: `sudo xbps-install l7-pkg-{codec,kde,kde-apps}`
-
-## Merubah fish shell ke bash
-
-Shell yang digunakan LangitKetujuh OS yaitu fish shell, jika ingin bash shell maka jalankan perintah ini.
-
-```bash
-bash
-```
-
-Menggunakan bash shell secara permanen:
-
-```bash
-sudo chsh -s /usr/bin/bash $USER
-```
