@@ -12,7 +12,7 @@ Sedangkan Edisi Profesional, terbaik untuk kebutuhan lanjutan. Terdapat perangka
 
 Berikut ini daftar perbandingan fitur setiap edisi Lite dan Profesional.
 
-**Fitur** | **Lite** | **Pro**
+Fitur | Lite | Pro
 :--- | :---: | :---:
 Dukungan instalasi oleh tenaga ahli. | - | **√**
 Libreoffice paket aplikasi perkantoran. | **√** | **√**
@@ -29,23 +29,24 @@ Blender animasi 2D/3D. | - | **√**
 Freecad 3D parametric. | - | **√**
 Godot pembuat game. | - | **√**
 LibreCAD 2D CAD. | - | **√**
-Scribus publisher. | - | **√**
+Scribus Publisher. | - | **√**
 Krita digital painting. | - | **√**
 Digikam manajemen foto. | - | **√**
 Kdenlive pengolah video. | - | **√**
+LMMS produksi suara efek. | - | **√**
 HandBrake Media transkoder. | - | **√**
 Converseen konverter gambar. | - | **√**
 OpenToonz Animasi Raster 2D. | - | **√**
 Screenkey Screencast monitor. | - | **√**
-Produksi Audio dengan Ardour . | - | **√**
+Produksi Audio dengan Ardour. | - | **√**
 Rawtherapee pengolah foto raw. | - | **√**
 Plugin GMIC Qt Gimp dan Krita. | - | **√**
-Synfigstudio animasi 2D. | - | **√**
+Synfigstudio Animasi Vector 2D. | - | **√**
 Kalibrasi warna dengan DisplayCAL. | - | **√**
 OBS Perekam desktop dan streaming. | - | **√**
 Google Fonts untuk proyek komersil. | - | **√**
-Akses Update ISO terbaru. [^1] | -  | **√**
+Akses ISO terbaru _[^1]_ | -  | **√**
 
 *Catatan:*
 
-[^1] Akses Update ISO terbaru untuk pengguna yang telah mendaftar dan [berdonasi](https://langitketujuh.id/donasi).
+[^1] Akses ISO terbaru untuk [pengguna profesional](https://langitketujuh.id/pro/).

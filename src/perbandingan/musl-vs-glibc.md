@@ -24,12 +24,17 @@ Musl keren dan heboh, tetapi tidak begitu banyak orang yang menggunakannya dan t
 
 Pada dasarnya `glibc` merupakan libc yang paling umum dan paling kompatible, sehinga disarankan untuk memilih `glibc`. Namun jika tidak ketergantungan dengan aplikasi nonfree maka sebaiknya menggunakan `musl`.
 
-**Fitur** | **x86_64-musl** | **x86_64** | **i686**
+Fitur | x86_64-musl | x86_64 | i686
 :--- | :---: | :---: | :---:
-Arsitektur 64-bit. | **√** | **√** | -
-Dukungan Aplikasi Appimage. | - | **√** | **√**
-Dukungan Aplikasi Nonfree.  | - | **√** | **√**
-Dukungan Wine windows. | 64bit[^1] | **√** | 32bit[^2]
+Dukungan Aplikasi Appimage _[^1]_ | - | **√** | **√**
+Dukungan Aplikasi dan Driver Propietary _[^2]_ | - | **√** | **√**
+Dukungan Wine windows _[^3]_ | **√** | **√** | **√** |
 
-- [^1] x64_86-musl hanya mendukung wine 64 bit.
-- [^2] i686 hanya mendukung wine 32 bit.
+*Catatan:*
+
+[^1] Tergantung dari penyedia aplikasinya, tidak semua aplikasi AppImage menyediakan versi arsitektur 32bit (`i686`). Umumnya hanya mendukung 64bit (`x86_64`) saja.
+
+[^2] Aplikasi tidak bebas (Nonfree) seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung di arsitektur `x86_64-musl` dan hanya tersedia di versi `x86_64` saja. Namun di `x86_64-musl` aplikasi tidak bebas tersebut masih bisa dipasang melalui [Flatpak](../aplikasi/flatpak.md).
+
+[^3] `x86_64-musl` hanya mendukung wine windows 64bit dan `i686` hanya mendukung 32bit. Sedangkan `x86_64` mendukung keduanya (32bit dan 64bit).
+
