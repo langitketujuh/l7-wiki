@@ -9,13 +9,13 @@ Sedangkan `vsv` memiliki fungsi yang sama dengan `sv` namun lebih mudah dan sede
 ## Daftar layanan yang aktif
 
 ```bash
-sudo sv status /var/service/*
+sudo vsv
 ```
 
 Atau
 
 ```bash
-sudo vsv
+sudo sv status /var/service/*
 ```
 
 ## Daftar layanan yang tersedia

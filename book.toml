@@ -18,6 +18,7 @@ git-repository-url= "https://gitlab.com/langitketujuh/book/docs"
 edit-url-template = "https://gitlab.com/langitketujuh/book/docs/-/edit/master/{path}"
 git-repository-icon= "fa-gitlab"
 mathjax-support = true
+input-404 = "404.md"
 
 [output.html.playground]
 editable = true

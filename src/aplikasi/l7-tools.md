@@ -4,26 +4,34 @@
 
 L7-tools merupakan alat CLI untuk melakukan konfigurasi sistem seperti pembaruan, memasang aplikasi pihak ketiga, memasang profil warna dan pengaturan lainnya.
 
-## Update sistem
+Misalnya:
 
-Pembaruan sistem secara menyeluruh dapat mengguanakan `l7-tools`.
+- Memperbarui sistem: `sudo l7-tools --update`
+- Downgrade aplikasi sistem: `sudo l7-tools --downgrade`
+- Memasang profil warna Adobe ICC: `sudo l7-tools --adobe-icc`
 
-`sudo l7-tools --update`
+Selengkapnya `l7-tools -h`.
 
-## Memasang profil warna
+```
+➜  ~ l7-tools -h
 
-Perintah                      | Color Profile
- :---                         | :---
-`sudo l7-tools --adobe-icc`   | Adobe
-`sudo l7-tools --idea-icc`    | Idealliance
-`sudo l7-tools --eci-icc`     | ECI
-`sudo l7-tools --jpma-icc`    | JPMA
-`sudo l7-tools --scribus-icc` | Sribus
-`sudo l7-tools --vigc-icc`    | VIGC
-`sudo l7-tools --snap-icc`    | Snap committee
+LangitKetujuh Tools
+Configuring tool and installing third-party
 
-## Memasang Wine Emulator
+license : GPL-2.0-only
+usage   : l7-tools [option]
+option  :
+          --update      -u    update system
+          --remote      -r    remote from terminal
+          --downgrade   -d    downgrade & uninstall program
+          --help        -h    show this help
+          --version     -v    show l7-tools version
 
-```bash
-sudo l7-tools --wine-emu
+        color profile:
+          --adobe-icc   -a    install adobe icc
+          --idea-icc    -i    install idealliance icc
+          --eci-icc     -e    install eci icc
+          --jpma-icc    -j    install jpma icc
+          --vigc-icc    -g    install vigc icc
+          --snap-icc    -g    install snap committee icc
 ```
