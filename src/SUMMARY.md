@@ -57,6 +57,7 @@
   - [Scrcpy Mirroring](./aplikasi/scrcpy.md)
   - [Virt Manager KVM](./aplikasi/virt-manager.md)
   #- [XDEB Konverter](./aplikasi/xdeb.md)
+  - [WineHQ Windows](./aplikasi/winehq.md)
 - [Permasalahan](./permasalahan/index.md)
   - [Gagal Login Setelah Memasang](./permasalahan/login.md)
   - [Mode Chroot](./permasalahan/chroot.md)
