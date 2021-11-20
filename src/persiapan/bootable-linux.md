@@ -26,7 +26,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 ## imagewriter
 
 - Buka aplikasi imagewriter, biasanya di menu dengan nama "SUSE Studio Imagewriter".
-- Klik pada area tengah,p ilih iso langitketujuh.
+- Klik pada area tengah, pilih berkas iso langitketujuh yang telah Anda unduh sebelumnya.
 - Dikolom bawah, pilih flashdisk yang akan dijadikan bootable.
 - Klik "Write" dan tunggu sampai proses selesai.
 
