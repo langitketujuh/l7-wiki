@@ -23,7 +23,9 @@ Berikut ini adalah contoh skema partisi di dalam disk yang sudah memiliki partis
 lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL,MOUNTPOINT
 ```
 
-### Skema BIOS (mbr)
+### Skema partisi lama
+
+Contoh model BIOS (mbr):
 
 ```
 NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT
@@ -33,7 +35,7 @@ sda    disk           498G
 └─sda3 part ext4      438G home  /home      
 ```
 
-### Skema UEFI (gpt)
+Contoh skema UEFI (gpt):
 
 ```
 NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT 
@@ -43,9 +45,10 @@ sda    disk           498G
 └─sda3 part ext4      438G home  /home      
 ```
 
-Sesudah dipartisi:
+### Skema partisi baru
 
-### Skema BIOS (mbr) Baru
+Contoh model BIOS (mbr):
+
 ```
 NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT 
 sda    disk           498G                  
@@ -55,7 +58,7 @@ sda    disk           498G
 └─sda4 part ext4       50G
 ```
 
-### Skema UEFI (gpt) Baru
+Contoh skema UEFI (gpt):
 
 ```
 NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT 
@@ -222,6 +225,8 @@ Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `
 
 ## Deteksi Distro Linux lain
 
+> Cara dibawah ini tidak perlu dilakukan sebab LangitKetujuh OS akan mendeteksi sistem operasi lain secara otomatis jika proses update sistem selesai dijalankan.
+
 Setelah di restart kemudian masuk ke desktop LangitKetujuh.
 
 Buka `/etc/default/grub`. Tambahkan teks ini diakhir.
@@ -234,4 +239,6 @@ sudo os-prober
 sudo update-grub
 ```
 
-Kemudian restart kembali, maka tampilan grub akan mendeteksi dual boot dengan distro linux lain. Selesai.
+Kemudian restart kembali, maka tampilan grub akan mendeteksi dual boot dengan distro linux lain.
+
+Selesai.

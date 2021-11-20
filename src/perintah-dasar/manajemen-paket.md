@@ -35,7 +35,7 @@ l7-pkg-kde-apps   | Aplikasi KDE Plasma Lingkungan desktop
 l7-pkg-lamp       | LAMP Web server
 l7-pkg-rust       | Pemrograman Rust dan kompiler
 l7-pkg-xorg       | X.org Window System
-l7-pkg-wine       | Wine penggerak aplikasi Windows
+l7-pkg-wine       | Wine penggerak aplikasi Windows. [Lebih lanjut.](../aplikasi/winehq.md)
 
 Contoh penggunaan:
 - Memasang wine :`sudo xbps-install l7-pkg-wine`

@@ -98,10 +98,6 @@ Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi 
 
 ## User Account
 
-> **Nama Pengguna (username)**
->
-> Gunakan nama pengguna yang berbeda dengan pengguna distro linux yang lama agar tidak tumpang tindih, hal ini untuk membuat pengaturan baru untuk distro LangitKetujuh. Jika ingin menimpa, tidak mengapa untuk menggunakan username yang sama.
-
 Nama pengguna (username) ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `aziz`, `aris` dsb.
 Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi yang sama untuk klarifikasi.
 
@@ -188,6 +184,8 @@ Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `
 
 ## Deteksi Windows
 
+> Cara dibawah ini tidak perlu dilakukan sebab LangitKetujuh OS akan mendeteksi sistem operasi lain secara otomatis jika proses update sistem selesai dijalankan.
+
 Setelah di restart kemudian masuk ke desktop LangitKetujuh.
 
 Buka `/etc/default/grub`. Tambahkan teks ini diakhir.
@@ -200,4 +198,6 @@ sudo os-prober
 sudo update-grub
 ```
 
-Kemudian restart kembali, maka tampilan grub akan mendeteksi dual boot dengan Windows. Selesai.
+Kemudian restart kembali, maka tampilan grub akan mendeteksi dual boot dengan Windows.
+
+Selesai.
