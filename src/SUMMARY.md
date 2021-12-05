@@ -62,6 +62,7 @@
   - [Gagal Login Setelah Memasang](./permasalahan/login.md)
   - [Mode Chroot](./permasalahan/chroot.md)
   - [Mengatasi Grub Hilang](./permasalahan/grub.md)
+  - [Masalah Umum XBPS](./permasalahan/xbps.md)
 
 ---
 - [Tim Kami](./tim.md)
