@@ -44,6 +44,7 @@
 - [Driver](./driver/index.md)
   - [AMD](./driver/amd.md)
   - [Nvidia](./driver/nvidia.md)
+  - [Broadcom](./driver/broadcom.md)
   - [Printer](./driver/printer.md)
 - [Aplikasi](./aplikasi/index.md)
   - [Firewall UFW](./aplikasi/firewall.md)
