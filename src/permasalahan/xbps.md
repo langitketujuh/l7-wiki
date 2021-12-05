@@ -12,8 +12,8 @@ Jika Anda ketika memperbarui sistem mendapatkan pemberitahuan `ERROR: bluez ... 
 
 Solusinya dengan menjalankan `sudo rm -rf /etc/sv/bluetoothd/log/supervise` untuk mengosongkan kembali log supervise bluetoothd yang lama.
 
-## Error `shlib`
+## Unresolvable `shlib`
 
-Jika ada pemberitahuan yang mirip seperti ini `libllvm8-8.0.1_2: broken, unresolvable shlib 'libffi.so.6'`.
+Jika ada pemberitahuan yang mirip seperti ini `xxxxxxx-x.x_1: broken, unresolvable shlib 'xxxxxx.so.x'`.
 
 Solusinya dengan memperbarui sistem `Update System` yang ada di menu. Atau dengan menjalankan `sudo l7-tools --update`. Lalu hapus paket lama dengan menjalankan `autoclean`.
