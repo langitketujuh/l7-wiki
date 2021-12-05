@@ -1,4 +1,4 @@
-# Masalah umum XBPS
+# Masalah Umum XBPS
 
 ## Transaction breaks
 
