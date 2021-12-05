@@ -8,7 +8,7 @@ inxi -Nxxx
 
 Jika keluaran yang dihasilkan adalah seperti ini ` Network: Device 1: Broadcom BCMxxx ...` untuk beberapa tipe [Broadcom](https://www.broadcom.com/) tertentu terkadang tidak dapat terdeteksi.
 
-Untuk mengatasi hal tersebut, di dalam repositori voidlinux sudah menyediakan driver Broadcom versi dkms kemudian dipasang. Namun sebelum memasang driver broadcom dkms Anda perlu menggunakan koneksi tethring hotspot melalui kabel USB atau dengan menggunakan kabel jaringan LAN jika ada.
+Untuk mengatasi hal tersebut, di dalam repositori voidlinux sudah menyediakan driver Broadcom versi dkms kemudian dipasang. Namun sebelum memasang driver broadcom dkms Anda perlu menggunakan koneksi tethering melalui kabel USB atau dengan menggunakan kabel jaringan LAN jika ada.
 
 Setelah ada koneksi internet untuk sementara, jalankan perintah dibawah ini.
 
