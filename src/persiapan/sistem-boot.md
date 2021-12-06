@@ -31,7 +31,9 @@ Jika menggunakan BIOS, secara otomatis masuk ke boot mode BIOS sendiri dan tidak
 
 Jika menggunakan BIOS pastikan USB berada di posisi paling atas. Sedangkan, jika menggunakan UEFI biasanya muncul 2 boot order Flasdisk di BIOS Menu. Pastikan Flasdisk sudah tertancap dan USB UEFI berada di posisi paling atas.
 
-Sebagai contoh, di mesin PC atau laptop Anda memiliki boot order seperti ini.
+Kami menyarankan menggunakan boot mode UEFI jika bios Anda mendukung. Jika mendukung UEFI, letakkan UEFI USB paling atas. Tetapi jika bios Anda hanya mendukung Legacy, USB biasa yang diposisikan paling atas.
+
+Sebagai contoh di mesin PC atau laptop Anda memiliki boot order yang seperti ini.
 
 * SSD: Adata SU128
 * HDD: Seagate 1 TB
@@ -42,8 +44,8 @@ Sebagai contoh, di mesin PC atau laptop Anda memiliki boot order seperti ini.
 
 Menjadi seperti ini:
 
-* UEFI: USB Sandisk (posisi paling atas)
-* USB Sandisk (posisi kedua)
+* **UEFI: USB Sandisk** (posisi paling atas)
+* **USB Sandisk** (posisi kedua)
 * SSD: Adata SU128
 * HDD: Seagate 1 TB
 * Network:
