@@ -2,7 +2,7 @@
 
 ## Wacom Driver
 
-Secara bawaan LangitKetujuh sudah memasukkan driver wacom. Anda hanya perlu menancapkan saja ke port USB. Hanya saja untuk pen tablet Wacom memiliki fitur lebih, yaitu dapat terintegrasi langsung dengan pengaturan KDE. Buka bagian `System Settings` > Bagian Hardware `Input Device` > `Graphic Tablet`. Dengan pengaturan tersebut, Anda dapat memodifikasi tombol dan mengatur sensitifitas (pressure) pen tablet.
+Secara bawaan LangitKetujuh sudah memasukkan driver [Wacom](https://www.wacom.com/). Anda hanya perlu menancapkan saja ke port USB. Pen tablet Wacom memiliki fitur lebih, yaitu dapat diintegrasikan langsung dengan pengaturan KDE. Buka bagian `System Settings` > Bagian Hardware `Input Device` > `Graphic Tablet`. Dengan pengaturan tersebut, Anda dapat memodifikasi tombol dan mengatur sensitifitas (pressure) pen tablet.
 
 ![Pen Tablet LangitKetujuh OS](../media/image/graphic-pen-tablet-kde-langitketujuh-id.webp)
 
