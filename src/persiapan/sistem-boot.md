@@ -27,11 +27,9 @@ Ada 2 jenis Boot mode, yaitu BIOS (Legacy) dan UEFI.
 
 Jika menggunakan BIOS, secara otomatis masuk ke boot mode BIOS sendiri dan tidak perlu diatur lagi. Sedangkan, jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`.
 
-## Boot Order atau Boot Sequence
+## Boot Order/Sequence
 
-Jika menggunakan BIOS pastikan USB berada di posisi paling atas. Sedangkan, jika menggunakan UEFI biasanya muncul 2 boot order Flasdisk di BIOS Menu. Pastikan Flasdisk sudah tertancap dan USB UEFI berada di posisi paling atas.
-
-Kami menyarankan menggunakan boot mode UEFI jika bios Anda mendukung. Jika mendukung UEFI, letakkan UEFI USB paling atas. Tetapi jika bios Anda hanya mendukung Legacy, USB biasa yang diposisikan paling atas.
+Kami menyarankan menggunakan boot mode UEFI jika bios Anda mendukung. Jika mendukung UEFI, letakkan UEFI USB paling atas (biasanya muncul 2 boot order flasdisk di bios menu). Tetapi jika bios Anda hanya mendukung Legacy, USB biasa yang diposisikan paling atas.
 
 Sebagai contoh di mesin PC atau laptop Anda memiliki boot order yang seperti ini.
 
