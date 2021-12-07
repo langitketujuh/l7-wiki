@@ -81,7 +81,7 @@ Pada dialog `use graphical boot loader` pilih `Yes`.
 
 Abaikan jika sudah melakukan pemartisian diawal, lalu lanjut ke tahap **Filesystems**. Jika belum diatur partisinya, pilih `/dev/sda` (disk saat ini). Modifikasi pilih `OK`. Pilih `cfdisk` lalu sesuaikan dengan kebutuhan partisi yang Anda inginkan. Misalnya seperti partisi dibawah ini.
 
-### BIOS (dos)
+### Legacy (dos/mbr)
 
 Nama Disk     | Bootable      | Jumlah    | Tipe    | Kondisi partisi
 :---:         | :---:         | :---:     | :---:   | :---:
@@ -111,7 +111,7 @@ Pilih Nama disk kemudian pilih `Change`, lalu sesuaikan dengan kebutuhan _mount 
 >
 > Partisi tersebut tidak diformat atau dihapus. Jadi pada bagian "Choose New Filesystems" pilih "**No**".
 
-### BIOS (dos)
+### Legacy (dos/mbr)
 
 Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
 :---:       | :---:         | :---:         | :---:

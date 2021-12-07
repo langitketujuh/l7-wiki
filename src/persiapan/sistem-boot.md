@@ -2,7 +2,7 @@
 
 ## Bios Menu
 
-Nonaktifkan sementara beberapa fitur BIOS dibawah ini. Jika sudah selesai pemasangan LangitKetujuh maka bisa dikembalikan seperti semula.
+Nonaktifkan sementara beberapa fitur bios dibawah ini. Jika sudah selesai pemasangan LangitKetujuh maka bisa dikembalikan seperti semula.
 
 * Quick Boot: `Disabled`
 * Fast Boot: `Disabled`
@@ -23,13 +23,13 @@ Jika Secure boot tidak aktif/muncul, maka buatlah kata sandi bios dahulu. Kata s
 
 ## Boot Mode
 
-Ada 2 jenis Boot mode, yaitu BIOS (Legacy) dan UEFI.
+Ada 2 jenis Boot mode, yaitu Legacy dan UEFI.
 
-Jika menggunakan BIOS, secara otomatis masuk ke boot mode BIOS sendiri dan tidak perlu diatur lagi. Sedangkan, jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`.
+Jika menggunakan legacy, secara otomatis masuk ke boot mode legacyS sendiri dan tidak perlu diatur lagi. Sedangkan, jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`.
 
 ## Boot Order/Sequence
 
-Kami menyarankan menggunakan boot mode UEFI jika bios Anda mendukung. Jika mendukung UEFI, letakkan UEFI USB paling atas (biasanya muncul 2 boot order flasdisk di bios menu). Tetapi jika bios Anda hanya mendukung Legacy, USB biasa yang diposisikan paling atas.
+Kami menyarankan menggunakan boot mode UEFI jika bios Anda mendukung. Jika mendukung UEFI, letakkan UEFI USB paling atas (biasanya muncul 2 boot order flasdisk di bios menu). Tetapi jika bios Anda hanya mendukung legacy, USB biasa yang diposisikan paling atas.
 
 Sebagai contoh di mesin PC atau laptop Anda memiliki boot order yang seperti ini.
 
@@ -53,4 +53,4 @@ Cara menaikkan posisi boot order bisa menggunakan `F6` atau `F5` untuk model ter
 
 ## Reboot
 
-Jika sudah diatur pengaturan BIOS Menu, pilih **Save** (biasanya tekan `F10` untuk menyimpan). Lalu PC/Laptop akan mereboot secara otomatis dan masuk ke LiveUSB LangitKetujuh.
+Jika sudah diatur pengaturan bios menu, pilih **Save** (biasanya tekan `F10` untuk menyimpan). Lalu PC/Laptop akan mereboot secara otomatis dan masuk ke LiveUSB LangitKetujuh.)

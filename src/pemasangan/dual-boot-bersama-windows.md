@@ -121,7 +121,7 @@ Abaikan jika sudah melakukan pemartisian diawal, lalu lanjut ke tahap **Filesyst
 
 Berdasarkan dari contoh skema diatas, maka partisi yang akan digunakan terlihat seperti ini.
 
-### BIOS (dos)
+### Legacy (dos/mbr)
 
 Nama Disk     | Bootable      | Jumlah    | Tipe    | Kondisi partisi
 :---:         | :---:         | :---:     | :---:   | :---:
@@ -151,7 +151,7 @@ Pilih Nama disk kemudian pilih `Change`, lalu sesuaikan dengan kebutuhan _mount 
 - `sda4` Partisi baru untuk sistem (`/`). Diformat.
 - `sda5` Partisi baru untuk penyimpanan data (`/home`). Diformat.
 
-### BIOS (dos)
+### Legacy (dos/mbr)
 
 Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
 :---:       | :---:         | :---:         | :---:

@@ -25,7 +25,7 @@ lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL,MOUNTPOINT
 
 ### Skema partisi lama
 
-Contoh model BIOS (mbr):
+Contoh model legacy (dos/mbr):
 
 ```
 NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT
@@ -47,7 +47,7 @@ sda    disk           498G
 
 ### Skema partisi baru
 
-Contoh model BIOS (mbr):
+Contoh model legacy (dos/mbr):
 
 ```
 NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT 
@@ -154,7 +154,7 @@ Abaikan jika sudah melakukan pemartisian diawal, lalu lanjut ke tahap **Filesyst
 
 Berdasarkan dari contoh skema diatas, maka partisi yang akan digunakan terlihat seperti ini.
 
-### BIOS (dos)
+### Legacy (dos/mbr)
 
 Nama Disk     | Bootable      | Jumlah    | Tipe    | Kondisi partisi
 :---:         | :---:         | :---:     | :---:   | :---:
@@ -172,7 +172,7 @@ Nama Disk     | ~~Bootable~~  | Jumlah    | Tipe    | Kondisi partisi
 * Baru = Partisinya diformat
 * Lama = Partisinya tidak diformat
 * Partisi untuk `/home` tidak perlu dibuat, karena sudah ada dari pemartisian linux sebelumnya.
-* Partisi untuk `/boot` untuk BIOS tidak perlu dibuat. Karena tipenya MBR.
+* Partisi untuk `/boot` untuk legacy tidak perlu dibuat. Karena tipenya MBR.
 * Partisi untuk `/boot/efi` untuk UEFI perlu dibuat. Karena tipenya GPT.
 
 Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk keluar.
@@ -192,7 +192,7 @@ Berdasarkan skema partisi diatas maka eksekusi _mounting_ akan seperti berikut i
 - `sda3` Akan dijadikan satu partisi home dengan distro linux yang lama. Tidak diformat.
 - `sda4` Sebuah partisi baru. Akan dijadikan partisi sistem LangitKetujuh.
 
-### BIOS (dos)
+### Legacy (dos/mbr)
 
 Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
 :---:       | :---:         | :---:         | :---:

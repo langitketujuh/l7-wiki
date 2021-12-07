@@ -18,7 +18,7 @@ Kami menyarankan menggunakan tipe disk GPT agar dapat memiliki fitur lebih jika 
 
 ## Mengetahui tipe disk MBR atau GPT
 
-Boot mode UEFI diharuskan menggunakan tipe disk `GPT`, sedangkan boot mode BIOS/Legacy diharuskan menggunakan tipe disk `DOS` (MBR). Jika disk yang akan digunakan adalah `sda` maka ketik:
+Boot mode UEFI diharuskan menggunakan tipe disk `GPT`, sedangkan boot mode legacy diharuskan menggunakan tipe disk `DOS`. Jika disk yang akan digunakan adalah `sda` maka ketik:
 
 ```bash
 sudo fdisk -l /dev/sda
@@ -28,7 +28,7 @@ Lihat keluaran bagian `Disklabel type:` jika hasilnya `dos` maka tipe disk MBR, 
 
 ## Merubah MBR ke GPT tanpa format
 
-Terkadang disk setelah diperiksa ternyata adalah MBR (untuk boot mode BIOS). Padahal saat ini boot mode yang digunakan adalah UEFI, berarti Anda sedang migrasi dari BIOS ke UEFI. Maka disk perlu dikonversi dari MBR ke GPT.
+Terkadang disk setelah diperiksa ternyata adalah MBR (untuk boot mode legacy). Padahal saat ini boot mode yang digunakan adalah UEFI, berarti Anda sedang migrasi dari legacy ke UEFI. Maka disk perlu dikonversi dari MBR ke GPT.
 
 Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Dan jangan lupa untuk umount disk yang akan dikonversikan.
 
@@ -64,7 +64,7 @@ sudo cfdisk /dev/sda
 
 Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perintah `new` dan `delete`. Kemudian atur partisi yang akan digunakan sesuai kebutuhan. Agar optimal penggunaan partisinya untuk instalasi satu sistem operasi sebaiknya menggunakan 3 jenis partisi, yaitu antara lain:
 
-### BIOS (dos)
+### Legacy (dos/mbr)
 
 **Tipe Partisi** | **Jumlah** | **Mount Point**
 :---: | :---: | :---:
