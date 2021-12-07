@@ -25,7 +25,7 @@ Jika Secure boot tidak aktif/muncul, maka buatlah kata sandi bios dahulu. Kata s
 
 Ada 2 jenis Boot mode, yaitu Legacy dan UEFI.
 
-Jika menggunakan legacy, secara otomatis masuk ke boot mode legacyS sendiri dan tidak perlu diatur lagi. Sedangkan, jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`.
+Jika menggunakan legacy, secara otomatis masuk ke boot mode legacy sendiri dan tidak perlu diatur lagi. Sedangkan, jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`.
 
 ## Boot Order/Sequence
 
