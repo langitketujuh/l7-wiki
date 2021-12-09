@@ -67,4 +67,5 @@
   - [Masalah Umum XBPS](./permasalahan/xbps.md)
 
 ---
+- [Para Pendukung](./supporter.md)
 - [Tim Kami](./tim.md)
