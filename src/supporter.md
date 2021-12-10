@@ -7,6 +7,7 @@
 **Hendra Abu Zaid (Abu Zaid Tutorial)**,
 **Endi Suwandi (Bisa Website)**,
 Abdul Jalil,
+Abinya Sufyan,
 Abu Aqeelah,
 Acep Rahmat,
 Adam Rizky Pratama,
