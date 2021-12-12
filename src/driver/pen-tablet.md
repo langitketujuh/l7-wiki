@@ -20,4 +20,4 @@ Untuk kedepannya, LangitKetujuh diatas versi `20210921` sudah memasukkan Digimen
 
 ## Kompatibilitas
 
-Kami menyarankan sebelum menggunakan atau membeli produk pen tablet, lebih baik menggunakan pen tablet yang memiliki kompatibilitas yang tinggi. Seperti pen tablet wacom yang mudah digunakan, tinggal colok ke port usb dan langsung tersambung secara otomatis. Terlebih lagi memiliki integrasi dengan pengaturan sistem di KDE Plasma.
+Kami menyarankan sebelum menggunakan/membeli produk pen tablet, lebih baik menggunakan pen tablet yang memiliki kompatibilitas yang tinggi. Seperti memilih pen tablet merek wacom yang mudah digunakan, tinggal dicolokkan ke port usb dan langsung tersambung secara otomatis. Terlebih lagi memiliki integrasi dengan pengaturan sistem di KDE Plasma.
