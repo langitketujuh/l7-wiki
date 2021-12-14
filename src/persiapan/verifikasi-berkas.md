@@ -8,7 +8,7 @@ Jika Anda menggunakan windows, gunakan aplikasi [Hash Tools](https://www.binaryf
 
 - Unduh dan pasang.
 - Klik "Add File" untuk menambahkan iso LangitKetujuh OS.
-- Pilih `SHA256`.
+- Ceklis `SHA256` di hash tools.
 - Klik 2 kali buka berkas `.sha256` dengan notepad, cocokkan dengan isi kode `SHA256` milik LangitKetujuh OS. Jika hasil kodenya sama, maka berkas iso aman untuk digunakan sebagai USB bootable.
 
 ## GNU/Linux
