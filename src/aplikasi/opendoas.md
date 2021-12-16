@@ -1,8 +1,10 @@
-# OpenDoas Alternatif `sudo`
+# OpenDoas Alternatif sudo
 
-OpenDoas (lebih dikenal dengan doas) merupakan porting `doas` dari OpenBSD yang digunakan sebagai alternatif sudo. Kode dasarnya pun 95% berfungsi seperti sudo. Dengan doas pengeksekusi perintah di sistem bisa lebih cepat dan sederhana.
+OpenDoas (lebih dikenal dengan doas) merupakan porting `doas` dari OpenBSD yang digunakan sebagai alternatif sudo. 95% kode sumber dasar, berfungsi selayaknya sudo. Dengan doas pengeksekusi perintah di sistem bisa lebih cepat dan sederhana.
 
-Didalam paket `l7-opendoas` sebagai konfigurasi tambahan yang siap pakai. Manfaatnya untuk mempercepat alur kerja xbps seperti memperbarui, memasang dan menghapus aplikasi. Kini kami menggunakan doas sebagai alternatif sudo.
+Di dalam paket `l7-opendoas` terdapat konfigurasi tambahan yang siap pakai (/etc/doas.conf). Manfaat doas tentunya untuk mempercepat alur kerja xbps seperti memperbarui, memasang dan menghapus aplikasi. Kini kami menggunakan doas sebagai alternatif sudo.
+
+Hal pertama untuk pemasangan doas adalah dengan memperbarui l7-tools.
 
 ```
 get -S l7-tools
