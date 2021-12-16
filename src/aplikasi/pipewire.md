@@ -7,24 +7,24 @@ PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertu
 Hapus PulseAudio.
 
 ```
-sudo xbps-remove -R pulseaudio alsa-plugins-pulseaudio
+doas xbps-remove -R pulseaudio alsa-plugins-pulseaudio
 ```
 
 Pasang PipeWire.
 
 ```
-sudo xbps-install -S pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
+doas xbps-install -S pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sudah tidak aktif. Hal ini agar tidak konflik antara layanan pipewire dengan pulseaudio.
 ```
-sudo rm -v /var/service/pulseaudio
+doas rm -v /var/service/pulseaudio
 ```
 
 Tambahkan layanan pipewire.
 ```
-sudo ln -s /etc/sv/pipewire /var/service/
-sudo ln -s /etc/sv/pipewire-pulse /var/service/
+doas ln -s /etc/sv/pipewire /var/service/
+doas ln -s /etc/sv/pipewire-pulse /var/service/
 ```
 
 Menambahkan autostart pipewire ke sesi desktop.
@@ -50,19 +50,19 @@ Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
 
 Menghapus PipeWire.
 ```
-sudo xbps-remove -R pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
+doas xbps-remove -R pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Memasang PulseAudio.
 
 ```
-sudo xbps-install -S pulseaudio alsa-plugins-pulseaudio
+doas xbps-install -S pulseaudio alsa-plugins-pulseaudio
 ```
 
 Menghapus layanan pipewire.
 ```
-sudo rm -v /var/service/pipewire
-sudo rm -v /var/service/pipewire-pulse
+doas rm -v /var/service/pipewire
+doas rm -v /var/service/pipewire-pulse
 ```
 
 Kemudian logout atau reboot PC/laptop Anda.

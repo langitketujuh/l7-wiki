@@ -9,13 +9,13 @@ Kode sumber dokumentasi ini menggunakan [mdBook](https://rust-lang.github.io/mdB
 * Memasang di langitketujuh/voidlinux:
 
 ```bash
-sudo xbps-install -S mdBook mdbook-linkcheck
+doas xbps-install -S mdBook mdbook-linkcheck
 ```
 
 * Memasang di Archlinux atau manjaro
 
 ```bash
-sudo pacman -Syy mdbook
+doas pacman -Syy mdbook
 ```
 
 * Memasang via cargo (hal ini mengkompil dari source code, tentu lumayan lama prosesnya)

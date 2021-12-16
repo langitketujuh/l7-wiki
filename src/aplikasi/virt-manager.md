@@ -7,26 +7,26 @@
 ## Memasang Virt Manager
 
 ```
-sudo xbps-install virt-manager virt-manager-tools qemu
+doas xbps-install virt-manager virt-manager-tools qemu
 ```
 
 ### Mengaktifkan layanan virtualisasi
 
 ```
-sudo ln -s /etc/sv/libvirtd /var/service
-sudo ln -s /etc/sv/virtlockd /var/service
-sudo ln -s /etc/sv/virtlogd /var/service
+doas ln -s /etc/sv/libvirtd /var/service
+doas ln -s /etc/sv/virtlockd /var/service
+doas ln -s /etc/sv/virtlogd /var/service
 ```
 
 Gunakan vsv untuk melihat layanan yang berjalan.
 
 ```
-sudo vsv status virt
+doas vsv status virt
 ```
 
 Contoh keluarannya seperti berikut ini.
 ```
-➜  ~ sudo vsv status virt
+➜  ~ doas vsv status virt
 
    SERVICE              STATE   ENABLED   PID      COMMAND           TIME
  ✔ libvirtd             run     true      5079     libvirtd          22 seconds
@@ -37,8 +37,8 @@ Contoh keluarannya seperti berikut ini.
 ### Tambahkan pengguna ke grup kvm
 
 ```
-sudo gpasswd -a "$USER" libvirt
-sudo usermod -aG kvm "$USER"
+doas gpasswd -a "$USER" libvirt
+doas usermod -aG kvm "$USER"
 ```
 
 Modprobe untuk mesin 32-bit (i686)

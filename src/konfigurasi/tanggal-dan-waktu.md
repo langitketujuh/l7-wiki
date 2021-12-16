@@ -4,7 +4,7 @@
 
 LangitKetujuh secara bawaan mengaktifkan layanan ntpd untuk sinkronisasi waktu secara otomatis sesuai dengan zona waktu setempat ketika tersambung dengan internet.
 
-Cek layanan ntpd: `sudo vsv status ntpd`
+Cek layanan ntpd: `doas vsv status ntpd`
 
 ## Dual Boot Windows
 
@@ -15,4 +15,4 @@ Untuk mengatasi konflik, yaitu dengan menyamakan semua sistem waktu menggunakan 
 Buka berkas `/etc/rc.conf` dengan teks editor (misalnya kate).
 Ganti `#HARDWARECLOCK=UTC`. Menjadi `HARDWARECLOCK=localtime` (hapus tanda pagarnya).
 
-Selanjutnya menonaktifkan fitur layanan ntpd dengan cara: `sudo rm /var/service/ntpd`.
+Selanjutnya menonaktifkan fitur layanan ntpd dengan cara: `doas rm /var/service/ntpd`.

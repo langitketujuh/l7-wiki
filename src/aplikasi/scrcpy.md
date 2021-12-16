@@ -9,7 +9,7 @@
 ## Cara Memasang Scrcpy
 
 ```bash
-sudo xbps-install android-udev-rules android-tools scrcpy
+doas xbps-install android-udev-rules android-tools scrcpy
 ```
 
 ## Mengaktifkan layanan ADB
@@ -17,13 +17,13 @@ sudo xbps-install android-udev-rules android-tools scrcpy
 Pastikan layanan adb sudah aktif. Cek dengan perintah ini:
 
 ```bash
-sudo vsv status adb
+doas vsv status adb
 ```
 
 Apabila bewarna hijau dan telah (`run`) maka adb sedang berjalan. Jika belum berjalan maka aktifkan dengan perintah ini:
 
 ```bash
-sudo ln -s /etc/sv/adb /var/service/
+doas ln -s /etc/sv/adb /var/service/
 ```
 
 ## Aktifkan USB Debug di Android Smartphone

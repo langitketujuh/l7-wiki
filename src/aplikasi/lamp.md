@@ -5,19 +5,19 @@
 ### PHP
 
 ```bash
-sudo xbps-install php
+doas xbps-install php
 ```
 
 ### Ekstensi PHP
 
 ```bash
-sudo xbps-install php-apache php-cgi php-fpm php-gd php-embed php-intl php-snmp
+doas xbps-install php-apache php-cgi php-fpm php-gd php-embed php-intl php-snmp
 ```
 
 ### PhpMyAdmin
 
 ```bash
-sudo xbps-install phpMyAdmin
+doas xbps-install phpMyAdmin
 ```
 
 ### Web Server
@@ -25,19 +25,19 @@ sudo xbps-install phpMyAdmin
 Sebagai web server bisa menggunakan nginx atau apache. Pilih salah satu. Disarankan menggunakan Nginx
 
 ```bash
-sudo xbps-install nginx
+doas xbps-install nginx
 ```
 
 Jika menggunakan apache.
 
 ```bash
-sudo xbps-install apache
+doas xbps-install apache
 ```
 
 ### Memasang MariaDB
 
 ```bash
-sudo xbps-install mariadb
+doas xbps-install mariadb
 ```
 
 ## 2. Mengaktifkan Servis
@@ -45,13 +45,13 @@ sudo xbps-install mariadb
 ```bash
 # Webserver pilih salah satu, apache atau nginx
 
-sudo ln -s /etc/sv/nginx /var/service/    #nginx
-sudo ln -s /etc/sv/php-fpm /var/service/  #php-fpm
+doas ln -s /etc/sv/nginx /var/service/    #nginx
+doas ln -s /etc/sv/php-fpm /var/service/  #php-fpm
 
-sudo ln -s /etc/sv/apache /var/service/   #apache (jika menggunakan nginx lewati langkah ini)
+doas ln -s /etc/sv/apache /var/service/   #apache (jika menggunakan nginx lewati langkah ini)
 
 # Database
-sudo ln -s /etc/sv/mysqld /var/service/   #mariadb
+doas ln -s /etc/sv/mysqld /var/service/   #mariadb
 ```
 
 ## 3. Konfigurasi
@@ -67,8 +67,8 @@ ss -plt4
 Berikan izin untuk port http dan https
 
 ```bash
-sudo ufw allow http
-sudo ufw allow https
+doas ufw allow http
+doas ufw allow https
 ```
 
 Mengaktifkan dan melihat status firewall
@@ -89,7 +89,7 @@ ufw status numbered
 Jika menggunakan apache. Buka pengaturan `httpd.conf`.
 
 ```bash
-sudo nano /etc/apache/httpd.conf
+doas nano /etc/apache/httpd.conf
 ```
 
 Hapus tanda pagar
@@ -105,7 +105,7 @@ Menjadi
 Untuk mengaktifkan PHP7 memerlukan modul tambahan. Caranya:
 
 ```bash
-sudo nano /etc/apache/httpd.conf
+doas nano /etc/apache/httpd.conf
 ```
 
 Tambahkan baris berikut ini di akhir `LoadModule`. (sekitar baris 184)
@@ -125,14 +125,14 @@ Include /etc/apache/extra/php7_module.conf
 Kemudian restart web servis
 
 ```bash
-sudo sv restart apache
-sudo sv restart nginx
+doas sv restart apache
+doas sv restart nginx
 ```
 
 ### MariaDB
 
 ```bash
-sudo nano /etc/php/php.ini
+doas nano /etc/php/php.ini
 ```
 
 Hapus tanda pagar `#extension=mysqli` Menjadi `extension=mysqli`.
@@ -142,7 +142,7 @@ Hapus tanda pagar `#extension=mysqli` Menjadi `extension=mysqli`.
 ### PhpMyAdmin
 
 ```bash
-sudo nano /etc/apache/extra/phpmyadmin.conf
+doas nano /etc/apache/extra/phpmyadmin.conf
 ```
 
 Tambahkan teks berikut ini.
@@ -160,7 +160,7 @@ Alias /phpmyadmin "/usr/share/webapps/phpMyAdmin"
 `ctrl+x`. Save, Yes.
 
 ```bash
-sudo nano /etc/apache/httpd.conf
+doas nano /etc/apache/httpd.conf
 ```
 
 Tambahkan teks berikut ini di akhir baris.

@@ -10,7 +10,7 @@ Aplikasi pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan 
 Buka aplikasi `konsole` di menu, kemudian ketik perintah berikut untuk menuju pemasang LangitKetujuh OS.
 
 ```bash
-sudo langitketujuh-install
+doas langitketujuh-install
 ```
 
 ![LangitKetujuh Install](../media/image/langitketujuh-install.webp)

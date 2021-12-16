@@ -35,7 +35,7 @@ Maka perintah yang dijalankan adalah berikut ini.
 Mounting partisi root `sda2`
 
 ```
-sudo mount /dev/sda2 /mnt/
+doas mount /dev/sda2 /mnt/
 ```
 
 Mounting partisi boot `sda1`.
@@ -43,29 +43,29 @@ Mounting partisi boot `sda1`.
 Jika menggunakan mode Legacy:
 
 ```
-sudo mkdir -p /mnt/boot
-sudo mount /dev/sda1 /mnt/boot
+doas mkdir -p /mnt/boot
+doas mount /dev/sda1 /mnt/boot
 ```
 
 Jika menggunakan mode UEFI:
 
 ```
-sudo mkdir -p /mnt/boot/efi
-sudo mount /dev/sda1 /mnt/boot/efi
+doas mkdir -p /mnt/boot/efi
+doas mount /dev/sda1 /mnt/boot/efi
 ```
 
 Mounting `/sys` `/dev` dan `/proc`
 
 ```
-sudo mount --rbind /sys /mnt/sys && sudo mount --make-rslave /mnt/sys
-sudo mount --rbind /dev /mnt/dev && sudo mount --make-rslave /mnt/dev
-sudo mount --rbind /proc /mnt/proc && sudo mount --make-rslave /mnt/proc
+doas mount --rbind /sys /mnt/sys && doas mount --make-rslave /mnt/sys
+doas mount --rbind /dev /mnt/dev && doas mount --make-rslave /mnt/dev
+doas mount --rbind /proc /mnt/proc && doas mount --make-rslave /mnt/proc
 ```
 
 ### Masuk ke mode chroot
 
 ```
-sudo chroot /mnt/ /bin/fish
+doas chroot /mnt/ /bin/fish
 ```
 
 Setelah selesai, Anda dapat memodifikasi sistem PC/laptop tersebut seperti:
@@ -80,11 +80,11 @@ exit
 
 Unmount semua partisi chroot.
 ```
-sudo umount -R /mnt
+doas umount -R /mnt
 ```
 
 ## Restart PC/Laptop
 
 ```
-sudo shutdown -r now
+doas shutdown -r now
 ```

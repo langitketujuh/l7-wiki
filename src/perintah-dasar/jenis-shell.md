@@ -13,5 +13,5 @@ bash
 Menggunakan bash shell secara permanen.
 
 ```bash
-sudo chsh -s /usr/bin/bash $USER
+doas chsh -s /usr/bin/bash $USER
 ```

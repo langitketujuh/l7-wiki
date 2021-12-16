@@ -10,13 +10,13 @@ Jika RAM fisik memiliki ukuran yang cukup besar, maka layanan `zramen` dinonakti
 ## Memasang zramen daemon
 
 ```bash
-sudo xbps-install zramen
+doas xbps-install zramen
 ```
 
 ## Melihat status zramen
 
 ```bash
-sudo sv status zramen
+doas sv status zramen
 ```
 
 ## Mengaktifkan zramen
@@ -24,23 +24,23 @@ sudo sv status zramen
 Secara bawaan zramen sudah aktif
 
 ```bash
-sudo ln -s /etc/sv/zramen /var/service/
+doas ln -s /etc/sv/zramen /var/service/
 ```
 
 ## Menonaktifkan zramen
 
 ```bash
-sudo rm /var/service/zramen
+doas rm /var/service/zramen
 ```
 
 ## Menjalankan ulang zramen
 
 ```bash
-sudo sv restart zramen
+doas sv restart zramen
 ```
 
 ## Menghapus zramen daemon
 
 ```bash
-sudo xbps-remove -R zramen
+doas xbps-remove -R zramen
 ```

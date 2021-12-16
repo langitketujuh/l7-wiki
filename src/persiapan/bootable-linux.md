@@ -89,5 +89,5 @@ Pada informasi diatas `sdc` adalah flashdisk dengan ukuran 14.6GB (16GB).
 - Klik kanan, pilih "Actions".
 - Pilih "Open Terminal Here".
 - Pastikan Flasdisk sudah tertancap.
-- Ketik `sudo dd if=langitketujuh[tekan tab] of=/dev/sdc bs=1M status=progress oflag=sync`.
+- Ketik `doas dd if=langitketujuh[tekan tab] of=/dev/sdc bs=1M status=progress oflag=sync`.
 - Tunggu sampai proses menyalin selesai.

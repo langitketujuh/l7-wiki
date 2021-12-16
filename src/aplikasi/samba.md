@@ -7,20 +7,20 @@ Samba merupakan aplikasi cli untuk berbagi direktori dengan pengguna windows.
 ## Memasang samba
 
 ```
-sudo xbps-install samba
+doas xbps-install samba
 ```
 
 ## Mengaktifkan layanan samba
 
 ```
-sudo ln -s /etc/sv/smbd /var/service
-sudo ln -s /etc/sv/nmbd /var/service
+doas ln -s /etc/sv/smbd /var/service
+doas ln -s /etc/sv/nmbd /var/service
 ```
 
 Cek layanan tersebut sudah berjalan atau tidaknya.
 
 ```
-sudo vsv status mbd
+doas vsv status mbd
 ```
 
 ## Nama Pengguna, Grup dan Tempat berbagi
@@ -36,7 +36,7 @@ Pada panduan ini akan membuat pengguna dan grup baru khusus samba. Sebagai conto
 Menambahkan pengguna baru.
 
 ```
-sudo useradd --system userberbagi
+doas useradd --system userberbagi
 ```
 
 ## Pengaturan grup berbagi
@@ -44,8 +44,8 @@ sudo useradd --system userberbagi
 Tujuannya untuk memasukkan `userberbagi` kedalam kelompok `grupberbagi`.
 
 ```
-sudo groupadd grupberbagi
-sudo usermod -aG grupberbagi userberbagi
+doas groupadd grupberbagi
+doas usermod -aG grupberbagi userberbagi
 ```
 
 ## Pengaturan direktori tempat berbagi
@@ -53,20 +53,20 @@ sudo usermod -aG grupberbagi userberbagi
 Membuat direktori untuk tempat berbagi.
 
 ```
-sudo mkdir /media/berbagi
+doas mkdir /media/berbagi
 ```
 
 Memberikan izin pengguna untuk mengakses direktori berbagi.
 
 ```
-sudo chown -R userberbagi /media/berbagi
+doas chown -R userberbagi /media/berbagi
 ```
 
 Sebagai pilihan saja, jika berkas baru yang dibuat menjadi milik dari spesifik grup.
 
 ```
-sudo chgrp -R grupberbagi /media/berbagi
-sudo chmod g+s /media/berbagi
+doas chgrp -R grupberbagi /media/berbagi
+doas chmod g+s /media/berbagi
 ```
 
 ## Pengaturan `samba.conf`
@@ -109,7 +109,7 @@ Tambahkan ke `/etc/samba/smb.conf` di akhir dokumen.
 Jalankan perintah ini untuk menambahkan pengguna samba.
 
 ```
-sudo smbpasswd -a userberbagi
+doas smbpasswd -a userberbagi
 ```
 
 Tambahkan ke `/etc/samba/smb.conf` di akhir dokumen.
@@ -129,5 +129,5 @@ Tambahkan ke `/etc/samba/smb.conf` di akhir dokumen.
 ## Menyalakan ulang layanan samba untuk memperbarui pengaturan.
 
 ```
-sudo vsv restart smbd nmbd
+doas vsv restart smbd nmbd
 ```

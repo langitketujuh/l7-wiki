@@ -21,7 +21,7 @@ Kami menyarankan menggunakan tipe disk GPT agar dapat memiliki fitur lebih jika 
 Boot mode UEFI diharuskan menggunakan tipe disk `GPT`, sedangkan boot mode legacy diharuskan menggunakan tipe disk `DOS`. Jika disk yang akan digunakan adalah `sda` maka ketik:
 
 ```bash
-sudo fdisk -l /dev/sda
+doas fdisk -l /dev/sda
 ```
 
 Lihat keluaran bagian `Disklabel type:` jika hasilnya `dos` maka tipe disk MBR, sedangkan `gpt` maka tipe disk GPT.
@@ -33,7 +33,7 @@ Terkadang disk setelah diperiksa ternyata adalah MBR (untuk boot mode legacy). P
 Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Dan jangan lupa untuk umount disk yang akan dikonversikan.
 
 ```bash
-sudo gdisk /dev/sda
+doas gdisk /dev/sda
 ```
 
 - Ketik `w` untuk menjadikan disk ke GPT.
@@ -44,7 +44,7 @@ sudo gdisk /dev/sda
 Kami rasa sangat disayangkan bila disk dikonversi ke MBR, karena seperti mengalami penurunan fitur. Jika terpaksa konversi tetap gunakan `gdisk`. Pada contoh dibawah ini misalnya disk yang akan dipasang LangitKetujuh adalah `sda`. Jangan lupa untuk unmount disk yang akan dikonversikan.
 
 ```bash
-sudo gdisk /dev/sda
+doas gdisk /dev/sda
 ```
 
 - Ketik `r` untuk recovery dan pilihan tranformasi, `enter`.
@@ -59,7 +59,7 @@ Pembagian partisi melalui mode pemasangan langsung juga bisa dilakukan. Tetapi a
 Pemartisian sebaiknya menggunakan `cfdisk`. Pemisalan disk yang akan dipasang adalah `sda` maka:
 
 ```bash
-sudo cfdisk /dev/sda
+doas cfdisk /dev/sda
 ```
 
 Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perintah `new` dan `delete`. Kemudian atur partisi yang akan digunakan sesuai kebutuhan. Agar optimal penggunaan partisinya untuk instalasi satu sistem operasi sebaiknya menggunakan 3 jenis partisi, yaitu antara lain:

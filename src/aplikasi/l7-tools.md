@@ -6,9 +6,9 @@ L7-tools merupakan alat CLI untuk melakukan konfigurasi sistem seperti pembaruan
 
 Misalnya:
 
-- Memperbarui sistem: `sudo l7-tools --update`
-- Downgrade aplikasi sistem: `sudo l7-tools --downgrade`
-- Memasang profil warna Adobe ICC: `sudo l7-tools --adobe-icc`
+- Memperbarui sistem: `doas l7-tools --update`
+- Downgrade aplikasi sistem: `doas l7-tools --downgrade`
+- Memasang profil warna Adobe ICC: `doas l7-tools --adobe-icc`
 
 Selengkapnya `l7-tools -h`.
 

@@ -13,7 +13,7 @@ LangitKetujuh juga sudah memasukkan meta paket `xf86-video-amdgpu xf86-video-ati
 Pemasangan Vulkan sebagai berikut.
 
 ```
-sudo xbps-install -S Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk
+doas xbps-install -S Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vkd3d amdvlk
 ```
 
 Cek informasi vulkan dengan sistem saat ini.
@@ -29,11 +29,11 @@ Vulkan secara bawaan belum terpasang untuk LangitKetujuh versi `20210921` ke baw
 Jika ingin menambahkan vulkan 32bit khusus untuk arsitektur `x86_64`, aktifkan dahulu repositori multilib `void-repo-multilib`.
 
 ```
-sudo xbps-install void-repo-multilib
+doas xbps-install void-repo-multilib
 ```
 
 Kemudian pasang mesa vulkan-loader dan mesa-vulkan 32bit.
 
 ```
-sudo xbps-install -S vulkan-loader-32bit mesa-vulkan-intel-32bit mesa-vulkan-radeon-32bit
+doas xbps-install -S vulkan-loader-32bit mesa-vulkan-intel-32bit mesa-vulkan-radeon-32bit
 ```

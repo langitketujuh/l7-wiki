@@ -9,13 +9,13 @@ Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus a
 ## Memasang clight dan clight daemon
 
 ```bash
-sudo xbps-install Clight Clightd
+doas xbps-install Clight Clightd
 ```
 
 ## Melihat status clightd
 
 ```bash
-sudo sv status Clightd
+doas sv status Clightd
 ```
 
 ## Mengaktifkan clightd
@@ -23,23 +23,23 @@ sudo sv status Clightd
 Secara bawaan Clightd sudah aktif
 
 ```bash
-sudo ln -s /etc/sv/Clightd /var/service/
+doas ln -s /etc/sv/Clightd /var/service/
 ```
 
 ## Menonaktifkan clightd
 
 ```bash
-sudo rm /var/service/Clightd
+doas rm /var/service/Clightd
 ```
 
 ## Menjalankan ulang clightd
 
 ```bash
-sudo sv restart Clightd
+doas sv restart Clightd
 ```
 
 ## Menghapus clight dan clight daemon
 
 ```bash
-sudo xbps-remove -R Clight Clightd
+doas xbps-remove -R Clight Clightd
 ```

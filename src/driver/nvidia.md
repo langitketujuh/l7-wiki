@@ -25,8 +25,8 @@ Pasang dengan menyesuaikan tipe kartu grafis Nvidia
 
 **Perintah** | **Nvidia Versi**
 :--- | :---
-`sudo xbps-install nvidia390` | Nvidia Seri 400/500
-`sudo xbps-install nvidia` | Nvidia Seri 600 keatas
+`doas xbps-install nvidia390` | Nvidia Seri 400/500
+`doas xbps-install nvidia` | Nvidia Seri 600 keatas
 
 Jika Driver Nvidia Anda termasuk driver legacy maka gunakan `nvidia390`. Jenis-jenis driver Nvidia legacy bisa dilihat di tautan [Driver Nvidia Legacy](https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/) ini.
 

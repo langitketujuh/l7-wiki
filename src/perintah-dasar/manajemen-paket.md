@@ -2,7 +2,7 @@
 
 ## Perintah dasar
 
-Perintah dasar di Langitketujuh memanfaatkan fitur singkatan (abbreviations) pada fish shell untuk mempercepat mengetik perintah yang sebenarnya. Misalnya, ketika mengetik `sync` akan berubah secara otomatis menjadi `sudo xbps-install -S`. Demikian pula perintah lainnya yang seperti dibawah ini.
+Perintah dasar di Langitketujuh memanfaatkan fitur singkatan (abbreviations) pada fish shell untuk mempercepat mengetik perintah yang sebenarnya. Misalnya, ketika mengetik `sync` akan berubah secara otomatis menjadi `doas xbps-install -S`. Demikian pula perintah lainnya yang seperti dibawah ini.
 
 Perintah            | Contoh          |Fungsi
  :---               | :---            | :---
@@ -38,5 +38,5 @@ l7-pkg-xorg       | X.org Window System
 l7-pkg-wine       | Wine penggerak aplikasi Windows. [Lebih lanjut.](../aplikasi/winehq.md)
 
 Contoh penggunaan:
-- Memasang wine :`sudo xbps-install l7-pkg-wine`
-- Memasang beberapa paket: `sudo xbps-install l7-pkg-{codec,kde,kde-apps}`
+- Memasang wine :`doas xbps-install l7-pkg-wine`
+- Memasang beberapa paket: `doas xbps-install l7-pkg-{codec,kde,kde-apps}`

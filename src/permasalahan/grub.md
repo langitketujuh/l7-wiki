@@ -27,8 +27,8 @@ Perintah tersebut untuk mengizinkan `os-prober` untuk mendeteksi sistem operasi 
 Lalu update grub.
 
 ```
-sudo os-prober
-sudo update-grub
+doas os-prober
+doas update-grub
 ```
 
 ## Keluar dari mode `chroot`
@@ -39,18 +39,18 @@ exit
 
 Unmount semua partisi chroot.
 ```
-sudo umount -R /mnt
+doas umount -R /mnt
 ```
 
 ## Restart PC/Laptop
 
 ```
-sudo shutdown -r now
+doas shutdown -r now
 ```
 
 Setelah direstart tetapi tidak terdeteksi sistem operasi lain, ulangi update grub.
 
 ```
-sudo os-prober
-sudo update-grub
+doas os-prober
+doas update-grub
 ```

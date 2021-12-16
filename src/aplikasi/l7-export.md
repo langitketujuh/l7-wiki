@@ -52,7 +52,7 @@ Fitur ini untuk memeriksa objek-objek yang tidak didukung EPS8. Misalnya transpa
 Secara bawaan sudah ada di Langitketujuh OS tinggal menambah color profile saja
 
 ```bash
-sudo l7-export --install
+doas l7-export --install
 ```
 
 Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void dan derivatifnya. Jalankan perintah ini

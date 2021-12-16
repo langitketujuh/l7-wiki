@@ -7,9 +7,9 @@
 ## Cara Memasang Xdeb
 
 ```bash
-sudo curl -s https://raw.githubusercontent.com/toluschr/xdeb/master/xdeb -o /usr/bin/xdeb
-sudo chmod +x /usr/bin/xdeb
-sudo xbps-install -Sy xz
+doas curl -s https://raw.githubusercontent.com/toluschr/xdeb/master/xdeb -o /usr/bin/xdeb
+doas chmod +x /usr/bin/xdeb
+doas xbps-install -Sy xz
 ```
 
 ## Cara Konversi dan Memasang Aplikasi
@@ -26,7 +26,7 @@ xdeb -Sed aplikasi-1.2.3.deb
 * Memasang aplikasi. Biasanya ada petunjuk nama paket di akhir baris (misalnya `aplikasi-1.2.3_1`) setelah sukses mengkonversi `.deb`
 
 ```bash
-# sudo xbps-install -R binpkgs <nama aplikasi xbps>
-sudo xbps-install -R binpkgs aplikasi-1.2.3_1
+# doas xbps-install -R binpkgs <nama aplikasi xbps>
+doas xbps-install -R binpkgs aplikasi-1.2.3_1
 ```
 * Selesai.

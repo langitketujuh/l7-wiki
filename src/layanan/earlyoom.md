@@ -10,13 +10,13 @@ Manfaat lainnya untuk menghindari mematikan mesin secara paksa ketika PC/Laptop 
 ## Memasang earlyoom daemon
 
 ```bash
-sudo xbps-install earlyoom
+doas xbps-install earlyoom
 ```
 
 ## Melihat status earlyoom
 
 ```bash
-sudo sv status earlyoom
+doas sv status earlyoom
 ```
 
 ## Mengaktifkan earlyoom
@@ -24,23 +24,23 @@ sudo sv status earlyoom
 Secara bawaan earlyoom sudah aktif
 
 ```bash
-sudo ln -s /etc/sv/earlyoom /var/service/
+doas ln -s /etc/sv/earlyoom /var/service/
 ```
 
 ## Menonaktifkan earlyoom
 
 ```bash
-sudo rm /var/service/earlyoom
+doas rm /var/service/earlyoom
 ```
 
 ## Menjalankan ulang earlyoom
 
 ```bash
-sudo sv restart earlyoom
+doas sv restart earlyoom
 ```
 
 ## Menghapus earlyoom daemon
 
 ```bash
-sudo xbps-remove -R earlyoom
+doas xbps-remove -R earlyoom
 ```

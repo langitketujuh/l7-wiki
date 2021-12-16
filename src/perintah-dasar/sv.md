@@ -9,13 +9,13 @@ Sedangkan `vsv` memiliki fungsi yang sama dengan `sv` namun lebih mudah dan sede
 ## Daftar layanan yang aktif
 
 ```bash
-sudo vsv
+doas vsv
 ```
 
 Atau
 
 ```bash
-sudo sv status /var/service/*
+doas sv status /var/service/*
 ```
 
 ## Daftar layanan yang tersedia
@@ -29,32 +29,32 @@ Semua layanan tersedia di dalam direktori `/etc/sv/`.
 ## Status layanan
 
 ```bash
-sudo sv status <service>
+doas sv status <service>
 ```
 
 Contoh:
 ```bash
-sudo sv status NetworkManager
+doas sv status NetworkManager
 ```
 
 ## Mengaktifkan layanan
 
 ```bash
-sudo ln -s /etc/sv/<layanan> /var/service/
+doas ln -s /etc/sv/<layanan> /var/service/
 ```
 
 Contoh:
 ```bash
-sudo ln -s /etc/sv/dbus /var/service/
+doas ln -s /etc/sv/dbus /var/service/
 ```
 
 ## Menonaktifkan layanan
 
 ```bash
-sudo rm /var/service/<layanan>
+doas rm /var/service/<layanan>
 ```
 
 Contoh:
 ```bash
-sudo rm /var/service/tlp
+doas rm /var/service/tlp
 ```

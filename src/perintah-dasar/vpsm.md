@@ -1,18 +1,12 @@
 # VPSM Xbps-src Wrapper
 
-## Fungsi Aplikasi
+VPSM pada umumnya digunakan untuk memasang aplikasi nonfree saja, jika aplikasi yang Anda maksud ada di dalam repo utama maka sebaiknya jangan pakai VPSM. Cek aplikasi Anda dengan `search namaaplikasi`. Jika tersedia, gunakan `get namaaplikasi` untuk memasangnya.
 
 `VPSM` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu aplikasi, baik yang free maupun yang nonfree restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang aplikasi sesuai readme docs di xbps-src.
 
-## 1. Memasang `vpsm`
+## Vpsm Config
 
-```bash
-sudo xbps-install vpsm
-```
-
-## 2. Vpsm Config
-
-Jika Anda memasang LangitKetujuh diatas versi `20210328` maka cukup konfigurasi dengan perintah
+Jalankan perintah ini untuk membuat boostrap vpsm. Anda diharuskan melakukan ini untuk awal pemasangan.
 
 ```bash
 vpsm_config
@@ -20,7 +14,7 @@ vpsm_config
 
 Tunggu sampai proses selesai.
 
-## 3. Perintah dasar `vpsm`
+## Perintah dasar `vpsm`
 
 Perintah              | Contoh              |Fungsi
  :---                 | :---                | :---
@@ -33,7 +27,7 @@ Perintah              | Contoh              |Fungsi
 
 Lebih lengkapnya `man vpsm`.
 
-## 4. Daftar aplikasi yang sering diinstall
+## Daftar aplikasi yang sering dipasang
 
 Perintah                  | Aplikasi
  :---                     | :--- 
