@@ -1,4 +1,4 @@
-# OpenDoas Eksekutor Perintah
+# OpenDoas Alternatif `sudo`
 
 OpenDoas (lebih dikenal dengan doas) merupakan porting `doas` dari OpenBSD yang digunakan sebagai alternatif sudo. Kode dasarnya pun 95% berfungsi seperti sudo. Dengan doas pengeksekusi perintah di sistem bisa lebih cepat dan sederhana.
 
@@ -28,10 +28,15 @@ Perintah yang sebelumnya pernah dieksekusi atau history yang menggunakan sudo, d
 
 ```
 abbr --erase su
+```
+
+Sebagai opsional, jika ingin mengganti teks sudo menjadi doas.
+
+```
 abbr --add sudo 'doas'
 ```
 
-Lalu ganti history sudo menjadi doas.
+Lalu ganti history sudo menjadi doas secara menyeluruh.
 
 ```
 sed -i 's/sudo/doas/' ~/.local/share/fish/fish_history
