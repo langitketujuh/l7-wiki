@@ -54,6 +54,7 @@
   - [L7 Tools Pemasang](./aplikasi/l7-tools.md)
   - [L7 Export dari ID Svg](./aplikasi/l7-export.md)
   #- [LAMPP Devops](./aplikasi/lamp.md)
+  - [OpenDoas Alternatif sudo](./aplikasi/opendoas.md)
   - [PipeWire Audio](./aplikasi/pipewire.md)
   #- [Samba Windows](./aplikasi/samba.md)
   - [Scrcpy Mirroring](./aplikasi/scrcpy.md)
