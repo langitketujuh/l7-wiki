@@ -2,7 +2,7 @@
 
 OpenDoas (lebih dikenal dengan doas) merupakan porting `doas` dari OpenBSD yang digunakan sebagai alternatif sudo. 95% kode sumber dasar, berfungsi selayaknya sudo. Dengan doas pengeksekusi perintah di sistem bisa lebih cepat dan sederhana.
 
-Di dalam paket `l7-opendoas` terdapat konfigurasi tambahan yang siap pakai (/etc/doas.conf). Manfaat doas tentunya untuk mempercepat alur kerja xbps seperti memperbarui, memasang dan menghapus aplikasi. Kini kami menggunakan doas sebagai alternatif sudo.
+Di dalam paket `l7-opendoas` terdapat konfigurasi tambahan yang siap pakai (/etc/doas.conf). Manfaat doas tentunya untuk melewati kata sandi dan mempercepat alur kerja xbps seperti memperbarui, mengkonfigurasi, memasang dan menghapus aplikasi. Kini kami menggunakan doas sebagai alternatif sudo.
 
 Hal pertama untuk pemasangan doas adalah dengan memperbarui l7-tools.
 
@@ -12,11 +12,11 @@ get -S l7-tools
 
 Kemudian reboot.
 
-Dengan `l7-tools` terbaru secara otomatis sudah menerapkan doas sebagai eksekutornya dan doas dan konfigurasinya akan terpasang juga. Namun autokomplit fish masih belum terupdate untuk LangitKetujuh OS versi 20210921 dan sebelumnya. Anda sebaiknya mengikuti juga panduan dibawah ini.
+Dengan `l7-tools` terbaru secara otomatis sudah menerapkan doas sebagai eksekutornya dan doas serta konfigurasinya akan terpasang juga. Namun autokomplit fish masih belum terupdate untuk LangitKetujuh OS 20210921 dan versi sebelumnya. Anda sebaiknya mengikuti juga panduan dibawah ini.
 
 ## Memperbarui autokomplit `doas`
 
-Jika setelah memperbarui sistem perintah yang digunakan masih sudo, maka Anda perlu menggantinya dengan doas di variabel autokomplit Fish shell.
+Jika autokomplit yang digunakan masih sudo, maka Anda perlu menggantinya dengan doas di variabel autokomplit Fish shell.
 
 ```
 cd ~/.config/fish/
