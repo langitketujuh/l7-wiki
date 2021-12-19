@@ -9,9 +9,9 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 [Unduh Ventoy](https://github.com/ventoy/Ventoy/releases)
 
 - Unduh Ventoy terbaru. Misalnya `ventoy-1.0.46-windows.zip`.
-- Setelah selesai mengunduh, klik kakan pilih `Extract Here`.
+- Setelah selesai mengunduh, klik kanan pilih `Extract Here`.
 - Masuk ke folder `ventoy-1.0.46` (versi `1.0.46` hanya sebagai contoh).
-- Jalankan aplikasi via Administrator `Ventoy2Disk.exe` dengan mengklik dua kali.
+- Jalankan aplikasi via Administrator `Ventoy2Disk.exe` dengan mengeklik dua kali.
 - Pada bagian Device pilih nama flasdisk. Misalnya `F: [4GB] Sandisk`.
 - Klik `Install`.
 - Jika muncul peringatan, klik `Yes` dua kali.
@@ -39,7 +39,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 [Unduh Rosa Image](http://wiki.rosalab.ru/en/index.php/ROSA_ImageWriter)
 
 - Klik `for Windows` untuk mengunduh versi windows.
-- Setelah selesai mengunduh, klik kakan pilih `Extract Here`.
+- Setelah selesai mengunduh, klik kanan pilih `Extract Here`.
 - Jalankan aplikasi via Administrator `RosaImageWriter.exe`, klik 2 kali.
 - Klik pada kolom `Image`.
 - Pilih iso langitketujuh.
