@@ -13,52 +13,46 @@ Buka aplikasi `konsole` di menu, kemudian ketik perintah berikut untuk menuju pe
 doas langitketujuh-install
 ```
 
-![LangitKetujuh Install](../media/image/langitketujuh-install.webp)
+![LangitKetujuh Install](../media/image/langitketujuh-install-step-1.webp)
 
-## Keyboard
+Tekan `Enter` untuk melanjutkan ke pemasangan. Anda akan melihat langkah demi langkah tahapan yang harus diselesaikan. Seperti `Keyboard`, `Network`, `Source`, `Hostname` hingga ke `Install`.
+
+![LangitKetujuh Install](../media/image/langitketujuh-install-step-2.webp)
+
+### Keyboard
 
 Pilih `us` untuk jenis papan ketik `QWERTY`.
 
-## Network
+### Network
 
 Lewati tahap ini karena pemasangan sebaiknya dilakukan secara offline. Jika terlanjur terklik, pilih `Back` untuk kembali.
 
-## Source
+### Source
 
 Pilih `Local` untuk pemasangan offline agar lebih cepat prosesnya.
 
-## Hostname
+### Hostname
 
 Hostname ditulis dengan huruf kecil. Bisa menggunakan nama brand komputer, nama website, atau nama keluarga. Contohnya `langitketujuh`, `linux`, `studio`, dsb.
 
-## Locale
+### Locale
 
 Pilih `en_US.UTF-8` untuk menggunakan Bahasa Inggris. Atau `id_ID.UTF-8` untuk menggunakan Bahasa Indonesia.
 
-## Timezone
+### Timezone
 
 Untuk wilayah Indonesia pilih:
 
-### WIB
+| WIB       | WITA      | WIT       |
+| :---:     | :---:     | :---:     |
+| Asia      | Asia      | Asia      |
+| Jakarta   | Makassar  | Jayapura  |
 
-* Benua: `Asia`
-* Kota: `Jakarta`
-
-### WITA
-
-* Benua: `Asia`
-* Kota: `Makassar`
-
-### WIT
-
-* Benua: `Asia`
-* Kota: `Jayapura`
-
-## Root Password
+### Root Password
 
 Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi yang sama untuk klarifikasi.
 
-## User Account
+### User Account
 
 Nama pengguna (username) ditulis dengan huruf kecil. Bisa menggunakan nama panggilan. Contohnya `hervy`, `aziz`, `aris` dsb.
 Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi yang sama untuk klarifikasi.
@@ -67,13 +61,13 @@ Kemudian tulis nama pengguna untuk login (userlogin). Bisa menggunakan huruf kap
 
 Untuk "group membership" lewati saja dengan memilih `OK`.
 
-## BootLoader
+### BootLoader
 
 Bootloader tergantung dari letak disk yang terdapat partisi **/**. Biasanya menggunakan dari disk utama `/dev/sda`.
 
 Pada dialog `use graphical boot loader` pilih `Yes`.
 
-## Partition
+### Partition
 
 > **Cadangkan data Hardisk Anda**
 >
@@ -81,7 +75,7 @@ Pada dialog `use graphical boot loader` pilih `Yes`.
 
 Abaikan jika sudah melakukan pemartisian diawal, lalu lanjut ke tahap **Filesystems**. Jika belum diatur partisinya, pilih `/dev/sda` (disk saat ini). Modifikasi pilih `OK`. Pilih `cfdisk` lalu sesuaikan dengan kebutuhan partisi yang Anda inginkan. Misalnya seperti partisi dibawah ini.
 
-### Legacy (dos/mbr)
+#### A. Legacy (dos/mbr)
 
 Nama Disk     | Bootable      | Jumlah    | Tipe    | Kondisi partisi
 :---:         | :---:         | :---:     | :---:   | :---:
@@ -89,7 +83,7 @@ Nama Disk     | Bootable      | Jumlah    | Tipe    | Kondisi partisi
 `/dev/sda2`   |               | `50G`     | `linux` | Baru
 `/dev/sda3`   |               | `~`       | `linux` | Baru
 
-### UEFI (gpt)
+#### B. UEFI (gpt)
 
 Nama Disk     | ~~Bootable~~  | Jumlah    | Tipe    | Kondisi partisi
 :---:         | :---:         | :---:     | :---:   | :---:
@@ -102,11 +96,11 @@ Nama Disk     | ~~Bootable~~  | Jumlah    | Tipe    | Kondisi partisi
 
 Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja. Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk keluar.
 
-## Filesystems
+### Filesystems
 
 Pilih Nama disk kemudian pilih `Change`, lalu sesuaikan dengan kebutuhan _mount point_-nya
 
-### Legacy (dos/mbr)
+#### A. Legacy (dos/mbr)
 
 Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
 :---:       | :---:         | :---:         | :---:
@@ -114,7 +108,7 @@ Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
 `/dev/sda2` | `XFS`         | `/`           | `yes`
 `/dev/sda3` | `Ext4`        | `/home`       | `yes`
 
-### UEFI (gpt)
+#### B. UEFI (gpt)
 
 Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
 :---:       | :---:         | :---:         | :---:
@@ -124,7 +118,7 @@ Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
 
 Jika sudah selesai pilih `Done`.
 
-## Settings
+### Settings
 
 Pilih `Settings` untuk melihat ringkasan pengaturan pemasangan yang akan dijalankan. Pada bagian partisi, nilai `1` artinya partisi akan diformat dan `0` partisi dibiarkan tetap.
 
@@ -132,7 +126,7 @@ Contoh pengaturan di mode UEFI:
 
 ![LangitKetujuh Setting Install](../media/image/setting-single-install.webp)
 
-## Install
+### Install
 
 Jika sudah yakin, Pilih `Install` dan `OK` untuk melanjutkan operasi pemasangan. Pilih `Yes` untuk memformat partisi sesuai pangaturan yang sudah direview `Settings` sebelumnya.
 
