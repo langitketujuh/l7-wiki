@@ -79,6 +79,7 @@ Buka aplikasi `konsole` di menu, kemudian ketik perintah berikut untuk menuju pe
 ```bash
 doas langitketujuh-install
 ```
+Kata sandinya: `langitketujuh`
 
 ![LangitKetujuh Install](../media/image/langitketujuh-install-step-1.webp)
 
@@ -88,7 +89,7 @@ Tekan `Enter` untuk melanjutkan ke pemasangan. Anda akan melihat langkah demi la
 
 ### Keyboard
 
-Pilih `us` untuk jenis papan ketik `QWERTY`.
+Pilih `us` untuk jenis papan ketik qwerty.
 
 ### Network
 
@@ -108,16 +109,17 @@ Pilih `en_US.UTF-8` untuk menggunakan Bahasa Inggris. Atau `id_ID.UTF-8` untuk m
 
 ### Timezone
 
-Untuk wilayah Indonesia pilih:
+Jika berada di daerah zona waktu WIB, pilih `Asia` lalu `Jakarta`. Anda juga dapat memilih zona waktu lain seperti Makassar atau Jayapura.
 
 | WIB       | WITA      | WIT       |
 | :---:     | :---:     | :---:     |
 | Asia      | Asia      | Asia      |
 | Jakarta   | Makassar  | Jayapura  |
 
+
 ### Root Password
 
-Masukkan kata sandi yang unik dan mudah diingat. Kemudian ketik lagi kata sandi yang sama untuk klarifikasi.
+Masukkan kata sandi yang unik dan mudah diingat. Mengetik kata sandi memang tidak terlihat, tetapi sebenarnya sudah terketik. Kemudian ulangi lagi kata sandi yang sama untuk klarifikasi.
 
 ### User Account
 
