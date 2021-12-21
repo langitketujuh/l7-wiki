@@ -21,6 +21,9 @@ Secara bawaan tampilan tema menggunakan versi gelap agar membuat nyaman dan meny
 ## Anti Out Of Memory
 Fitur ini memberikan keamanan kepada Motherboard dan Hardisk/SSD dengan menutup paksa jika ada aplikasi yang menggunakan resource yang berlebihan atau dengan batasan yang telah ditentukan.
 
+## Dukungan Vulkan
+Fitur ini memberikan akselesari API grafik terbaru untuk sistem linux. Vulkan setara dengan DirextX 12 dan mampu digunakan untuk menjalankan grafis melalui wine dengan vulkan multilib.
+
 ## Perlengkapan Desain (Pro)
 Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara lite dan pro? Anda bisa memgunjungi [tautan ini](../perbandingan/lite-vs-pro.md).
 

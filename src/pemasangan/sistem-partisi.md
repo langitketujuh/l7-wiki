@@ -21,10 +21,10 @@ Kami menyarankan menggunakan tipe disk GPT agar dapat memiliki fitur lebih jika 
 Boot mode UEFI diharuskan menggunakan tipe disk `GPT`, sedangkan boot mode legacy diharuskan menggunakan tipe disk `DOS`. Jika disk yang akan digunakan adalah `sda` maka ketik:
 
 ```bash
-doas fdisk -l /dev/sda
+doas fdisk -l /dev/sda | grep type
 ```
 
-Lihat keluaran bagian `Disklabel type:` jika hasilnya `dos` maka tipe disk MBR, sedangkan `gpt` maka tipe disk GPT.
+Jika hasilnya `Disklabel type: dos` maka tipe disk MBR, sedangkan `Disklabel type: gpt` maka tipe disk GPT.
 
 ## Merubah MBR ke GPT tanpa format
 
@@ -64,20 +64,22 @@ doas cfdisk /dev/sda
 
 Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perintah `new` dan `delete`. Kemudian atur partisi yang akan digunakan sesuai kebutuhan. Agar optimal penggunaan partisinya untuk instalasi satu sistem operasi sebaiknya menggunakan 3 jenis partisi, yaitu antara lain:
 
+> 🔔 Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS` atau `Ext4`.
+
 ### Legacy (dos/mbr)
 
-**Tipe Partisi** | **Jumlah** | **Mount Point**
-:---: | :---: | :---:
-`Vfat` | `1G` | `/boot`
-`XFS` | `50G` | `/`
-`Ext4` | `~` | `/home`
+**Tipe Partisi**    | **Jumlah**    | **Mount Point**
+:---:               | :---:         | :---:
+`Vfat`              | `512M`        | `/boot`
+`F2fs`              | `40G`         | `/`
+`F2fs`              | `~`           | `/home`
 
 ### UEFI (gpt)
 
-**Tipe Partisi** | **Jumlah** | **Mount Point**
-:---: | :---: | :---:
-`Vfat` | `1G` | `/boot/efi`
-`XFS` | `50G` | `/`
-`Ext4` | `~` | `/home`
+**Tipe Partisi**    | **Jumlah**    | **Mount Point**
+:---:               | :---:         | :---:
+`Vfat`              | `512M`        | `/boot/efi`
+`F2fs`              | `40G`         | `/`
+`F2fs`              | `~`           | `/home`
 
 Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
