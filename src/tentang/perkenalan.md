@@ -29,4 +29,4 @@ Distribusi LangitKetujuh pada dasarnya ditujukan untuk perorangan atau lembaga y
 
 ## KDE Plasma
 
-Berbagai aplikasi desain kebanyakan menggunakan QT framework. Seperti krita, kdenlive, scribus, fontforge, synfigstudio, opentoonz, dan masih banyak lagi. Namun beberapa aplikasi desain gtk juga sudah dimasukkan seperti Inkscape dan GIMP. Terlebih lagi tampilan antarmuka [KDE Plasma](https://kde.org/plasma-desktop/) lebih familiar oleh pengguna yang baru mengenal distribusi linux.
+Berbagai aplikasi desain kebanyakan menggunakan QT framework. Seperti krita, kdenlive, scribus, fontforge, synfigstudio, opentoonz, dan masih banyak lagi. Namun beberapa aplikasi desain gtk juga sudah dimasukkan seperti Inkscape dan GIMP. Terlebih lagi tampilan antarmuka <a href="https://kde.org/plasma-desktop" target="_blank">KDE Plasma</a> lebih familiar oleh pengguna yang baru mengenal distribusi linux.

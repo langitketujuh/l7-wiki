@@ -28,4 +28,4 @@ Fitur ini memberikan akselesari API grafik terbaru untuk sistem linux. Vulkan se
 Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara lite dan pro? Anda bisa memgunjungi [tautan ini](../perbandingan/lite-vs-pro.md).
 
 ## Dukungan Instalasi (Pro)
-Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [layanan via Telegram](https://t.me/langitketujuh_bot) atau [surel](mailto:langitketujuh.id@pm.me).
+Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui <a href="https://t.me/langitketujuh_bot" target="_blank">layanan via Telegram</a> atau [surel](mailto:langitketujuh.id@pm.me).

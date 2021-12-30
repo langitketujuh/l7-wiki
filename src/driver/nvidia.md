@@ -28,7 +28,7 @@ Pasang dengan menyesuaikan tipe kartu grafis Nvidia
 `doas xbps-install nvidia390` | Nvidia Seri 400/500
 `doas xbps-install nvidia` | Nvidia Seri 600 keatas
 
-Jika Driver Nvidia Anda termasuk driver legacy maka gunakan `nvidia390`. Jenis-jenis driver Nvidia legacy bisa dilihat di tautan [Driver Nvidia Legacy](https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/) ini.
+Jika Driver Nvidia Anda termasuk driver legacy maka gunakan `nvidia390`. Jenis-jenis driver Nvidia legacy bisa dilihat di tautan <a href="https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/" target="_blank">Driver Nvidia Legacy</a> ini.
 
 Hati-hati memilih versi Nvidia, jika salah versi kemungkinan akan blackscreen.
 

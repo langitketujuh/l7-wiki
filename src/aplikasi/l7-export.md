@@ -2,7 +2,7 @@
 
 ## Fungsi aplikasi
 
-L7 Export merupakan fork dari [inkporter-cli](https://github.com/raniaamina/inkporter/blob/master/source/inkporter/inkporter) yang berfungsi sebagai pengekspor id objek yang telah ditentukan dari inkscape.
+L7 Export merupakan fork dari <a href="https://github.com/raniaamina/inkporter/blob/master/source/inkporter/inkporter" target="_blank">inkporter-cli</a> yang berfungsi sebagai pengekspor id objek yang telah ditentukan dari inkscape.
 
 ## Fitur
 

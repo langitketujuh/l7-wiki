@@ -27,8 +27,8 @@ Perintah tersebut untuk mengizinkan `os-prober` untuk mendeteksi sistem operasi 
 Lalu update grub.
 
 ```
-doas os-prober
-doas update-grub
+os-prober
+update-grub
 ```
 
 ## Keluar dari mode `chroot`

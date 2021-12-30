@@ -14,7 +14,7 @@ doas xbps-install imagescan iscan-data
 
 ## HP Printer
 
-Anda dapat melihat model printer HP yang didukung oleh `hplip` di [tautan ini](https://developers.hp.com/hp-linux-imaging-and-printing/supported_devices/index). Driver printer HP versi cli sudah terpasang secara otomatis, namun jika ingin memasang versi GUI maka ketik perintah berikut ini:
+Anda dapat melihat model printer HP yang didukung oleh `hplip` di <a href="https://developers.hp.com/hp-linux-imaging-and-printing/supported_devices/index" target="_blank">tautan ini</a>. Driver printer HP versi cli sudah terpasang secara otomatis, namun jika ingin memasang versi GUI maka ketik perintah berikut ini:
 
 Menghapus versi cli.
 

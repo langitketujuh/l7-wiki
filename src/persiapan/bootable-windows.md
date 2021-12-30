@@ -6,7 +6,8 @@ Ketika membuat bootable USB pastikan data penting di dalam flasdisk sudah dicada
 Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 
 ## Ventoy
-[Unduh Ventoy](https://github.com/ventoy/Ventoy/releases)
+
+<a href="https://github.com/ventoy/Ventoy/releases" target="_blank">Unduh Ventoy</a>
 
 - Unduh Ventoy terbaru. Misalnya `ventoy-1.0.46-windows.zip`.
 - Setelah selesai mengunduh, klik kanan pilih `Extract Here`.
@@ -21,7 +22,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 
 ## Rufus
 
-[Unduh Rufus](https://rufus.ie)
+<a href="https://rufus.ie" target="_blank">Unduh Rufus</a>
 
 - Pilih versi terbaru. Misalnya `Rufus 3.xx`.
 - Jalankan aplikasi via Administrator `rufus-x.x.exe`, klik 2 kali.
@@ -36,7 +37,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 
 ## Rosa images
 
-[Unduh Rosa Image](http://wiki.rosalab.ru/en/index.php/ROSA_ImageWriter)
+<a href="https://wiki.rosalab.ru/en/index.php/ROSA_ImageWriter" target="_blank">Unduh Rosa Image</a>
 
 - Klik `for Windows` untuk mengunduh versi windows.
 - Setelah selesai mengunduh, klik kanan pilih `Extract Here`.
