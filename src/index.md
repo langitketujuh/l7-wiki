@@ -1,6 +1,5 @@
-<video autoplay="autoplay" loop>
-			<source src="media/video/langitketujuh-preview.webm" type="video/webm"/>
-		Your Browser does not support the video element
+<video autoplay loop muted playsinline poster="../media/video/langitketujuh-preview.webp" style="position: relative; width: 100%; height: auto; border:0;" >
+  <source src="../media/video/langitketujuh-preview.webm" type="video/webm">
 </video>
 
 # LangitKetujuh OS
