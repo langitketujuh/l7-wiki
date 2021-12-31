@@ -1,4 +1,7 @@
-![Start Menu LangitKetujuh OS](media/image/desktop-langitketujuh-id-1.webp)
+<video autoplay="autoplay" loop>
+			<source src="media/video/langitketujuh-preview.webm" type="video/webm"/>
+		Your Browser does not support the video element
+</video>
 
 # LangitKetujuh OS
 
