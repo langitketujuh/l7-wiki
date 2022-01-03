@@ -1,6 +1,6 @@
 # Lisensi
 
-Website panduan ini dan <a href="https://gitlab.com/langitketujuh.id/book/docs" target="_blank">kode sumbernya</a> berada dibawah lisensi <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.id" target="_blank">Atribusi-BerbagiSerupa 4.0 Internasional (CC BY-SA 4.0)</a>.
+Website panduan ini dan <a href="https://gitlab.com/langitketujuh/book/docs" target="_blank">kode sumbernya</a> berada dibawah lisensi <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.id" target="_blank">Atribusi-BerbagiSerupa 4.0 Internasional (CC BY-SA 4.0)</a>.
 
 Maka dengan lisensi ini Anda diperbolehkan untuk:
 
