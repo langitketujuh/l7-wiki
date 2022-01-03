@@ -34,12 +34,12 @@ Hati-hati memilih versi Nvidia, jika salah versi kemungkinan akan blackscreen.
 
 ## Blacklist nouveau
 
-Tambahkan beris berikut ini
+Tambahkan baris dibawah ini.
 
 ```bash
 #blacklist nouveau
 ```
-Kedalam salah satu berkas ini
+Masukkan ke dalam berkas:
 
 ```bash
 /etc/modprobe.d/nouveau_blacklist.conf
