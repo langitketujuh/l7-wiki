@@ -1,5 +1,8 @@
 # Fitur Utama
 
+## Rilis Bergulir
+Berisi perangkat lunak rilis bergulir _(<a href="https://id.wikipedia.org/wiki/Rilis_bergulir" target="_blank">rolling release</a>)_ dengan versi stabil terbaru. Setiap rilis terbaru tidak diharuskan untuk memasang ulang, hanya memerlukan pembaruan seperti biasanya secara otomatis menggunakan versi yang terbaru.
+
 ## Musl Libc
 Tersedia libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil aplikasi semakin cepat. Perbedaan antara musl dan glibc bisa Anda simak di [tautan ini](../perbandingan/musl-vs-glibc.md).
 
