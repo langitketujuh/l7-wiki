@@ -12,10 +12,6 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 - Klik pada kolom `To this USB Drive`, pilih flashdisk yang akan dijadikan bootable.
 - Pilih `Create` dan Tunggu sampai proses selesai.
 
-<video controls poster="../media/video/isoimagewriter-bootable-usb-langitketujuh.webp" style="position: relative; width: 100%; height: auto; border:0;" >
-  <source src="../media/video/isoimagewriter-bootable-usb-langitketujuh.webm" type="video/webm">
-</video>
-
 ## ddgtk
 
 - Buka aplikasi `ddgtk`, biasanya di menu dengan nama **DDgtk Bootable Disk Creator**.
