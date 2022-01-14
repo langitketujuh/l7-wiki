@@ -28,7 +28,7 @@ cargo install mdbook mdbook-linkcheck
 ## Kloning kode sumber
 
 ```bash
-git clone --depth 1 https://gitlab.com/langitketujuh/book/docs.git
+git clone --depth 1 https://gitlab.com/langitketujuh/l7-docs.git
 cd docs
 ```
 
@@ -48,4 +48,4 @@ Hasil render berada di `book/html/`.
 
 ## Template mdbook starter
 
-Template mdbook starter bisa Anda lihat di <a href="https://gitlab.com/langitketujuh/book/mdbook.git" target="_blank">template mdbook</a>. Demontrasinya <https://mdbook.langitketujuh.id>
+Template mdbook starter bisa Anda lihat di <a href="https://gitlab.com/langitketujuh/mdbook.git" target="_blank">template mdbook</a>. Demontrasinya <https://mdbook.langitketujuh.id>
