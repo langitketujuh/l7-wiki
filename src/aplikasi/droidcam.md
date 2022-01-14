@@ -24,9 +24,12 @@ doas xbps-reconfigure -v linux5.15 -f
 
 Kemudian reboot.
 
-## Mengaktifkan audio
+## Mengaktifkan audio (opsional)
 
-Jika ingin mengaktifkan audio (sebagai opsional saja) di droidcam, maka pengaturan Audio ganti profil `Analog Stereo Duplex` menjadi `Pro Audio`. Perlu diketahui, pergantian profil `Pro Audio` volumenya menjadi sedikit lebih rendah dari sebelumnya.
+Mengaktifkan audio di droidcam sepertinya tidak perlu karena biasanya sudah ada microphone untuk pengguna laptop, maka sebaiknya diabaikan saja. Tetapi jika Anda pengguna PC yang memiliki microphone dan ingin mengaktifkan audio di droidcam, maka aktifkan modul `snd-aloop`. Caranya sebagai berikut:
+
+- Buka berkas `/etc/modules-load.d/snd-aloop.conf` kemudian ganti `#snd-aloop` menjadi `snd-aloop` (hapus tanda pagarnya). Kemudian reboot kembali. Khusus pengguna `nvidia` kadang kala mengaktifkan modul `snd-aloop` audionya malah tidak keluar suaranya, tetapi untuk `intel` atau `amd` tidak ada masalah.
+- Selanjutnya, buka pengaturan sistem `Audio`, ganti profil `Analog Stereo Duplex` menjadi `Pro Audio`. Perlu diketahui, pergantian profil `Pro Audio` volumenya menjadi sedikit lebih rendah dari sebelumnya.
 
 ![PRO Audio Pipewire LangitKetujuh](../media/image/audio-settings-langitketujuh-id.webp)
 
@@ -34,7 +37,7 @@ Jika ingin mengaktifkan audio (sebagai opsional saja) di droidcam, maka pengatur
 
 Jalankan aplikasi android `DroidCam` atau `DroidCamX` (berbayar). Anda dapat mengunduh aplikasi ini di Google Play atau App Store.
 
-Kemudian jalankan DroidCam di komputer. Samakan alamat IP dan port di smartphone, misalnya `192.168.0.100` port `4747`. Aktifkan `Enable Video` dan `Enable Audio`, Lalu klik `Connect`.
+Kemudian jalankan DroidCam di komputer. Samakan alamat IP dan port di smartphone, misalnya `192.168.0.100` port `4747`. Aktifkan `Enable Video` dan `Enable Audio` (opsional), Lalu klik `Connect`.
 
 ![DroidCAM LangitKetujuh](../media/image/droidcam-langitketujuh-id.webp)
 
