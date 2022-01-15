@@ -2,19 +2,24 @@
 
 Pastikan Anda masih di mode `chroot`. Langkah-langkahnya ada di [panduan sebelumnya](chroot.md).
 
-Jika Anda memasang GRUB di boot mode Legacy/DOS:
+## Memasang grub
 
-```
-xbps-install grub
-grub-install /dev/sda
-```
+Pilih boot mode sesuai sistem mesin Anda.
 
-Jika Anda memasang GRUB di boot mode UEFI:
+- **Boot mode UEFI:**
 
-```
-xbps-install grub-x86_64-efi
-grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id="LangitKetujuh"
-```
+  ```
+  xbps-install grub-x86_64-efi
+  grub-install --target=x86_64-efi \
+  --efi-directory=/boot/efi --bootloader-id="LangitKetujuh"
+  ```
+
+- **Boot mode Legacy:**
+
+  ```
+  xbps-install grub
+  grub-install /dev/sda
+  ```
 
 Khusus untuk dualboot. Jalankan perintah dibawah ini 1 kali saja.
 
@@ -31,7 +36,7 @@ os-prober
 update-grub
 ```
 
-## Keluar dari mode `chroot`
+## Keluar dari mode chroot
 
 ```
 exit

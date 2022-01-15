@@ -21,40 +21,35 @@ Misalnya:
 - `/dev/sda1` sebagai `/boot`
 - `/dev/sda2` sebagai `/`
 
-Anda bisa partisinya melalui perintah `disk` atau `lsblk`.
+`sda1` atau `sda2` bersifat relatif dan tergantung dari letak partisinya. Anda bisa melihat partisi melalui perintah `disk` atau `lsblk`.
 
-## Masuk ke sistem (Mode chroot)
+## Masuk ke sistem mode chroot
 
-Dari contoh partisi tersebut yaitu:
+Dari contoh partisi diatas `sda1` sebagai `/boot` dan `sda2` sebagai `/`, maka perintah yang dijalankan adalah sebagai berikut.
 
-- `/dev/sda1` sebagai `/boot`
-- `/dev/sda2` sebagai `/`
-
-Maka perintah yang dijalankan adalah berikut ini.
-
-Mounting partisi root `sda2`
+Pertama, partisi `sda2` kaitkan sebagai sistem root.
 
 ```
 doas mount /dev/sda2 /mnt/
 ```
 
-Mounting partisi boot `sda1`.
+Selanjutnya pilih boot mode sesuai sistem mesin. Kemudian partisi `sda1` kaitkan sebagai boot.
 
-Jika menggunakan mode Legacy:
+- **Boot mode UEFI:**
 
-```
-doas mkdir -p /mnt/boot
-doas mount /dev/sda1 /mnt/boot
-```
+  ```
+  doas mkdir -p /mnt/boot/efi
+  doas mount /dev/sda1 /mnt/boot/efi
+  ```
 
-Jika menggunakan mode UEFI:
+- **Boot mode Legacy:**
 
-```
-doas mkdir -p /mnt/boot/efi
-doas mount /dev/sda1 /mnt/boot/efi
-```
+  ```
+  doas mkdir -p /mnt/boot
+  doas mount /dev/sda1 /mnt/boot
+  ```
 
-Mounting `/sys` `/dev` dan `/proc`
+Kemudian kaitkan `/sys` `/dev` dan `/proc`.
 
 ```
 doas mount --rbind /sys /mnt/sys && doas mount --make-rslave /mnt/sys
@@ -62,7 +57,7 @@ doas mount --rbind /dev /mnt/dev && doas mount --make-rslave /mnt/dev
 doas mount --rbind /proc /mnt/proc && doas mount --make-rslave /mnt/proc
 ```
 
-### Masuk ke mode chroot
+## Masuk ke mode chroot
 
 ```
 doas chroot /mnt/ /bin/fish
@@ -78,7 +73,8 @@ Setelah selesai, Anda dapat memodifikasi sistem PC/laptop tersebut seperti:
 exit
 ```
 
-Unmount semua partisi chroot.
+Lepaskan semua kait partisi chroot.
+
 ```
 doas umount -R /mnt
 ```
