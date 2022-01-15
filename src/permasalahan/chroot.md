@@ -15,17 +15,17 @@ Sebelum melakukan `chroot` anda diharuskan membuat liveusb jika permasalahan yan
 
 ## Mengetahui partisi sendiri
 
-Setelah membuat bootable dan masuk ke desktop, Anda diharuskan tahu partisi mana yang sebagai boot (`/boot` atau `/boot/efi`) di PC/Laptop Anda.
+Setelah membuat bootable dan masuk ke desktop, periksa nama dan lokasi partisinya yang Anda gunakan sebelumnya (bukan partisi livecd). Anda bisa melihat partisi melalui perintah `disk` atau `lsblk`.
 
-Misalnya:
+Contoh partisi:
 - `/dev/sda1` sebagai `/boot`
 - `/dev/sda2` sebagai `/`
 
-`sda1` atau `sda2` bersifat relatif dan tergantung dari letak partisinya. Anda bisa melihat partisi melalui perintah `disk` atau `lsblk`.
+`sda1` atau `sda2` bersifat relatif dan tergantung dari letak partisinya.
 
 ## Masuk ke sistem mode chroot
 
-Dari contoh partisi diatas `sda1` sebagai `/boot` dan `sda2` sebagai `/`, maka perintah yang dijalankan adalah sebagai berikut.
+Dari contoh partisi diatas `sda1` sebagai `/boot` dan `sda2` sebagai `/` maka perintah yang dijalankan adalah sebagai berikut.
 
 Pertama, partisi `sda2` kaitkan sebagai sistem root.
 
