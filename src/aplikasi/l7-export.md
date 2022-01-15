@@ -31,17 +31,15 @@ Profil warna yang didukung:
 
 Sederhananya fitur ini mengekspor id objek inkscape menjadi berkas siap upload. Marketplace tersebut antara lain:
 
-* Pngtree
-* Freepik
-* Adobe stock
-* Vectorstock
-* Vecteezy
-* Shutterstock
-* Flaticon / Iconfinder.
+- (EPS + PNG).zip
+- (EPS + JPG).zip
+- EPS.zip + JPG
+- EPS.zip + PNG
+- EPS + JPG
+- EPS
+- SVG
 
 In syaa Allah akan ada pembaruan secara berkala.
-
-Tips: untuk ekspor ke marketplace sesuaikan ukuran objek dengan peraturan dan kebijakan marketplace yang berlaku, karena area kanvas setiap marketplace berbeda-beda. Area kanvas yang direkomendasikan sudah ada di kolom "Advice (px)" dan Dpi gambar preview sesuai kolom "Preview (dpi)". 
 
 ## Validator EPS8
 
