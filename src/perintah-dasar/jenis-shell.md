@@ -4,14 +4,15 @@ LangitKetujuh untuk pengguna normal secara bawaan menggunakan `fish-shell` sebag
 
 Periksa shell apa yang Anda gunakan dengan `echo $SHELL`. Cek ketersediaan shell yang ada di sistem dengan `chsh -l`.
 
-Merubah fish shell ke bash, jalankan perintah ini.
+### Menjalankan bash
 
 ```bash
 bash
 ```
 
-Menggunakan bash shell secara permanen.
+### Mengganti fish-shell ke bash secara permanen
 
 ```bash
 doas chsh -s /usr/bin/bash $USER
 ```
+Kemudian logout atau reboot.
