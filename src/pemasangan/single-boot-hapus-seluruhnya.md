@@ -124,28 +124,28 @@ Dengan `cfdisk`, Anda dapat mengatur partisinya seperti menambah partisi dengan 
 
 Berikut ini adalah contoh skema partisi yang kami sarankan.
 
-#### A. Legacy (dos/mbr)
+- **Legacy (dos/mbr)**
 
-Jika Anda menggunakan legacy, pastikan partisi boot sudah mengaktifkan tanda bintang `*` sebagai tanda bootable. Khusus untuk legacy saja.
+  Jika Anda menggunakan legacy, pastikan partisi boot sudah mengaktifkan tanda bintang `*` sebagai tanda bootable. Khusus untuk legacy saja.
 
-Nama Disk     | Bootable      | Jumlah    | Tipe    | Kondisi partisi
-:---:         | :---:         | :---:     | :---:   | :---:
-`/dev/sda1`   | *             | `512M`      | `linux` | Baru
-`/dev/sda2`   |               | `40G`     | `linux` | Baru
-`/dev/sda3`   |               | `~`       | `linux` | Baru
+  Nama Disk     | Bootable      | Jumlah    | Tipe    | Kondisi partisi
+  :---:         | :---:         | :---:     | :---:   | :---:
+  `/dev/sda1`   | *             | `512M`      | `linux` | Baru
+  `/dev/sda2`   |               | `40G`     | `linux` | Baru
+  `/dev/sda3`   |               | `~`       | `linux` | Baru
 
-#### B. UEFI (gpt)
+- **UEFI (gpt)**
 
-Jika menggunakan UEFI, maka langsung saja membuat partisinya seperti contoh berikut ini.
+  Jika menggunakan UEFI, maka langsung saja membuat partisinya seperti contoh berikut ini.
 
-Nama Disk     | Jumlah    | Tipe    | Kondisi partisi
-:---:         | :---:     | :---:   | :---:
-`/dev/sda1`   | `512M`      | `linux` | Baru
-`/dev/sda2`   | `40G`     | `linux` | Baru
-`/dev/sda3`   | `~`       | `linux` | Baru
+  Nama Disk     | Jumlah    | Tipe    | Kondisi partisi
+  :---:         | :---:     | :---:   | :---:
+  `/dev/sda1`   | `512M`      | `linux` | Baru
+  `/dev/sda2`   | `40G`     | `linux` | Baru
+  `/dev/sda3`   | `~`       | `linux` | Baru
 
-* Baru = Partisinya diformat
-* Lama = Partisinya tidak diformat
+  - Baru = Partisinya diformat
+  - Lama = Partisinya tidak diformat
 
 Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja.
 
@@ -157,89 +157,83 @@ Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk ke
 
 ### Filesystems
 
-> 🔔 Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS` atau `Ext4`.
+> 🔔 Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS`, `Btrfs` atau `Ext4`.
 
 Berikut ini adalah contoh skema filesystem yang kami sarankan.
 
-#### A. Legacy (dos/mbr)
+- **Legacy (dos/mbr)**
 
-Jika menggunakan legacy maka menggunakan `/boot`.
+  Jika menggunakan legacy maka menggunakan `/boot`.
 
-Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
-:---:       | :---:         | :---:         | :---:
-`/dev/sda1` | `Vfat`        | `/boot`       | `yes`
-`/dev/sda2` | `F2fs`        | `/`           | `yes`
-`/dev/sda3` | `Ext4`        | `/home`       | `yes`
+  Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
+  :---:       | :---:         | :---:         | :---:
+  `/dev/sda1` | `Vfat`        | `/boot`       | `yes`
+  `/dev/sda2` | `F2fs`        | `/`           | `yes`
+  `/dev/sda3` | `Ext4`        | `/home`       | `yes`
 
-#### B. UEFI (gpt)
+- **UEFI (gpt)**
 
-Jika menggunakan UEFI maka menggunakan `/efi/boot`.
+  Jika menggunakan UEFI maka menggunakan `/efi/boot`.
 
-Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
-:---:       | :---:         | :---:         | :---:
-`/dev/sda1` | `Vfat`        | `/boot/efi`   | `yes`
-`/dev/sda2` | `F2fs`        | `/`           | `yes`
-`/dev/sda3` | `Ext4`        | `/home`       | `yes`
+  Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
+  :---:       | :---:         | :---:         | :---:
+  `/dev/sda1` | `Vfat`        | `/boot/efi`   | `yes`
+  `/dev/sda2` | `F2fs`        | `/`           | `yes`
+  `/dev/sda3` | `Ext4`        | `/home`       | `yes`
 
 Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunakan SSD di mode UEFI.
 
-#### Bagian #1 Partisi `/dev/sda1`
+- **Bagian 1** Partisi `/dev/sda1`. Pilih partisi pertama untuk boot.
 
-Pilih partisi pertama untuk boot.
+  ![LangitKetujuh Install](../media/image/install-filesystem-boot-efi.webp)
 
-![LangitKetujuh Install](../media/image/install-filesystem-boot-efi.webp)
+  Pilih tipe `vfat` untuk dijadikan partisi boot `/boot/efi`.
 
-Pilih tipe `vfat` untuk dijadikan partisi boot `/boot/efi`.
+  ![LangitKetujuh Install](../media/image/install-filesystem-boot-vfat.webp)
 
-![LangitKetujuh Install](../media/image/install-filesystem-boot-vfat.webp)
+  Ketik mount point yang dikehendaki, yaitu `/boot/efi`.
 
-Ketik mount point yang dikehendaki, yaitu `/boot/efi`.
+  ![LangitKetujuh Install](../media/image/install-filesystem-mount-boot-efi.webp)
 
-![LangitKetujuh Install](../media/image/install-filesystem-mount-boot-efi.webp)
+  Pilih untuk membuat file system boot baru. Hal ini akan menghapus partisi tersebut.
 
-Pilih untuk membuat file system boot baru. Hal ini akan menghapus partisi tersebut.
+  ![LangitKetujuh Install](../media/image/install-filesystem-sda1-format-yes.webp)
 
-![LangitKetujuh Install](../media/image/install-filesystem-sda1-format-yes.webp)
+- **Bagian 2** Partisi `/dev/sda2`. Pilih partisi kedua untuk dijadikan sistem root `/`.
 
-#### Bagian #2 Partisi `/dev/sda2`
+  ![LangitKetujuh Install](../media/image/install-filesystem-root.webp)
 
-Pilih partisi kedua untuk dijadikan sistem root `/`.
+  Pilih tipe `f2fs` untuk SSD di partisi root.
 
-![LangitKetujuh Install](../media/image/install-filesystem-root.webp)
+  ![LangitKetujuh Install](../media/image/install-filesystem-root-f2fs.webp)
 
-Pilih tipe `f2fs` untuk SSD di partisi root.
+  Ketik mount point yang dikehendaki, yaitu `/`.
 
-![LangitKetujuh Install](../media/image/install-filesystem-root-f2fs.webp)
+  ![LangitKetujuh Install](../media/image/install-filesystem-mount-root.webp)
 
-Ketik mount point yang dikehendaki, yaitu `/`.
+  Pilih untuk membuat file system root baru. Hal ini akan menghapus partisi tersebut.
 
-![LangitKetujuh Install](../media/image/install-filesystem-mount-root.webp)
+  ![LangitKetujuh Install](../media/image/install-filesystem-sda2-format-yes.webp)
 
-Pilih untuk membuat file system root baru. Hal ini akan menghapus partisi tersebut.
+- **Bagian 3** Partisi `/dev/sda3`. Pilih partisi ketiga untuk dijadikan `/home`.
 
-![LangitKetujuh Install](../media/image/install-filesystem-sda2-format-yes.webp)
+  ![LangitKetujuh Install](../media/image/install-filesystem-home.webp)
 
-#### Bagian #3 Partisi `/dev/sda3`
+  Pilih tipe `f2fs` untuk SSD di partisi home.
 
-Pilih partisi ketiga untuk dijadikan `/home`.
+  ![LangitKetujuh Install](../media/image/install-filesystem-home-f2fs.webp)
 
-![LangitKetujuh Install](../media/image/install-filesystem-home.webp)
+  Ketik mount point yang dikehendaki, yaitu `/home`.
 
-Pilih tipe `f2fs` untuk SSD di partisi home.
+  ![LangitKetujuh Install](../media/image/install-filesystem-mount-home.webp)
 
-![LangitKetujuh Install](../media/image/install-filesystem-home-f2fs.webp)
+  Pilih untuk membuat file system home baru. Hal ini akan menghapus partisi tersebut.
 
-Ketik mount point yang dikehendaki, yaitu `/home`.
+  ![LangitKetujuh Install](../media/image/install-filesystem-sda3-format-yes.webp)
 
-![LangitKetujuh Install](../media/image/install-filesystem-mount-home.webp)
+  Jika sudah selesai pilih `Done`.
 
-Pilih untuk membuat file system home baru. Hal ini akan menghapus partisi tersebut.
-
-![LangitKetujuh Install](../media/image/install-filesystem-sda3-format-yes.webp)
-
-Jika sudah selesai pilih `Done`.
-
-![LangitKetujuh Install](../media/image/install-filesystem-done.webp)
+  ![LangitKetujuh Install](../media/image/install-filesystem-done.webp)
 
 ### Settings
 
