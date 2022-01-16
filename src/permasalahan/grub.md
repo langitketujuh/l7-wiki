@@ -8,7 +8,7 @@ Pastikan Anda masih di mode `chroot`. Langkah-langkahnya ada di [panduan sebelum
 l7-tools --grub
 ```
 
-- `Boot mode UEFI:`, ketik `y` jika menggunakan uefi, ketik `n` jika menggunakan legacy.
+- `Boot mode UEFI:` ketik `y` jika menggunakan uefi, ketik `n` jika menggunakan legacy.
 - Khusus legacy diharuskan memilih bootloader, misalnya `sda`.
 - `Continue install grub:`, ketik `y` untuk melanjutkan.
 
