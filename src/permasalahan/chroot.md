@@ -8,79 +8,27 @@ Contoh kasus, ketika PC Anda tidak bisa masuk ke grafis _display manager_ atau t
 
 ## Persiapan chroot
 
-Sebelum melakukan `chroot` anda diharuskan membuat liveusb jika permasalahan yang anda hadapi yaitu gagal booting. Anda bisa merujuk tautan ini untuk membuat bootable.
+Sebelum melakukan `chroot` anda harus menyiapkan sistem operasi LangitKetujuh lain yang sudah terpasang atau menggunakan bootable liveusb. Anda bisa merujuk tautan ini untuk membuat bootable.
 
 - [Bootable Flasdisk di GNU/Linux](http://../persiapan/bootable-linux.md)
 - [Bootable Flasdisk di Windows](http://../persiapan/windows.md)
 
-## Mengetahui partisi sendiri
+## Mode chroot
 
-Setelah membuat bootable dan masuk ke desktop, periksa nama dan lokasi partisinya yang Anda gunakan sebelumnya (bukan partisi livecd). Anda bisa melihat partisi melalui perintah `disk` atau `lsblk`.
-
-Contoh partisi:
-- `/dev/sda1` sebagai `/boot`
-- `/dev/sda2` sebagai `/`
-
-`sda1` atau `sda2` bersifat relatif dan tergantung dari letak partisinya.
-
-## Masuk ke sistem mode chroot
-
-Dari contoh partisi diatas `sda1` sebagai `/boot` dan `sda2` sebagai `/` maka perintah yang dijalankan adalah sebagai berikut.
-
-Pertama, partisi `sda2` kaitkan sebagai sistem root.
+Setelah masuk ke liveusb, pastikan sudah memasang `l7-tools` versi terbaru `1.18.10+`. Jika belum terbaru, jalankan perintah ini.
 
 ```
-doas mount /dev/sda2 /mnt/
+doas xbps-install -Sy l7-tools
 ```
 
-Selanjutnya pilih boot mode sesuai sistem mesin. Kemudian partisi `sda1` kaitkan sebagai boot.
-
-- **Boot mode UEFI:**
-
-  ```
-  doas mkdir -p /mnt/boot/efi
-  doas mount /dev/sda1 /mnt/boot/efi
-  ```
-
-- **Boot mode Legacy:**
-
-  ```
-  doas mkdir -p /mnt/boot
-  doas mount /dev/sda1 /mnt/boot
-  ```
-
-Kemudian kaitkan `/sys` `/dev` dan `/proc`.
+Kemudian jalankan chroot.
 
 ```
-doas mount --rbind /sys /mnt/sys && doas mount --make-rslave /mnt/sys
-doas mount --rbind /dev /mnt/dev && doas mount --make-rslave /mnt/dev
-doas mount --rbind /proc /mnt/proc && doas mount --make-rslave /mnt/proc
+doas l7-tools --chroot
 ```
 
-## Masuk ke mode chroot
+- `Boot mode UEFI:` ketik `y` jika menggunakan uefi, ketik `n` jika menggunakan legacy.
+- `Root partition:` pilih partisi root, misalnya `sda2`.
+- `Boot partition:` pilih partisi boot, misalnya `sda1`.
 
-```
-doas chroot /mnt/ /bin/fish
-```
-
-Setelah selesai, Anda dapat memodifikasi sistem PC/laptop tersebut seperti:
-
-- [Mengatasi Grub Hilang](grub.md)
-
-## Keluar dari mode `chroot`
-
-```
-exit
-```
-
-Lepaskan semua kait partisi chroot.
-
-```
-doas umount -R /mnt
-```
-
-## Restart PC/Laptop
-
-```
-doas shutdown -r now
-```
+Secara otomatis akan masuk ke mode chroot. Kemudian Anda dapat memodifikasi sistem PC/laptop tersebut seperti [mengatasi grub hilang](grub.md).

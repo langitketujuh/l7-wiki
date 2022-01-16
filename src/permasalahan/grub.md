@@ -1,61 +1,15 @@
-# Mengatasi GRUB Hilang
+# Mengatasi Grub Hilang
 
 Pastikan Anda masih di mode `chroot`. Langkah-langkahnya ada di [panduan sebelumnya](chroot.md).
 
 ## Memasang grub
 
-Pilih boot mode sesuai sistem mesin Anda.
-
-- **Boot mode UEFI:**
-
-  ```
-  xbps-install grub-x86_64-efi
-  grub-install --target=x86_64-efi \
-  --efi-directory=/boot/efi --bootloader-id="LangitKetujuh"
-  ```
-
-- **Boot mode Legacy:**
-
-  ```
-  xbps-install grub
-  grub-install /dev/sda
-  ```
-
-Khusus untuk dualboot. Jalankan perintah dibawah ini 1 kali saja.
-
 ```
-echo 'GRUB_DISABLE_OS_PROBER=false' >> /etc/default/grub
+l7-tools --grub
 ```
 
-Perintah tersebut untuk mengizinkan `os-prober` untuk mendeteksi sistem operasi di partisi lain.
+- `Boot mode UEFI:`, ketik `y` jika menggunakan uefi, ketik `n` jika menggunakan legacy.
+- Khusus legacy diharuskan memilih bootloader, misalnya `sda`.
+- `Continue install grub:`, ketik `y` untuk melanjutkan.
 
-Lalu update grub.
-
-```
-os-prober
-update-grub
-```
-
-## Keluar dari mode chroot
-
-```
-exit
-```
-
-Unmount semua partisi chroot.
-```
-doas umount -R /mnt
-```
-
-## Restart PC/Laptop
-
-```
-doas shutdown -r now
-```
-
-Setelah direstart tetapi tidak terdeteksi sistem operasi lain, ulangi update grub.
-
-```
-doas os-prober
-doas update-grub
-```
+Secara otomatis grub akan terpasang sesuai bootmode yang digunakan.
