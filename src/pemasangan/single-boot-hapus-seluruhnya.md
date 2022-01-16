@@ -159,6 +159,12 @@ Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk ke
 
 > 🔔 Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS`, `Btrfs` atau `Ext4`.
 
+Filesystem akan menentukan setiap partisi untuk digunakan dalam mountpoint hirarki sistem operasi. Umumnya terdiri dari 3 mountpoint, yaitu:
+
+  1. `/boot` atau `/boot/efi`
+  2. `/`
+  3. `/home`
+
 Berikut ini adalah contoh skema filesystem yang kami sarankan.
 
 - **Legacy (dos/mbr)**
@@ -183,7 +189,7 @@ Berikut ini adalah contoh skema filesystem yang kami sarankan.
 
 Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunakan SSD di mode UEFI.
 
-- **Bagian 1** Partisi `/dev/sda1`. Pilih partisi pertama untuk boot.
+- **Bagian 1**, partisi `/dev/sda1`. Pilih partisi pertama untuk boot.
 
   ![LangitKetujuh Install](../media/image/install-filesystem-boot-efi.webp)
 
@@ -199,7 +205,7 @@ Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunak
 
   ![LangitKetujuh Install](../media/image/install-filesystem-sda1-format-yes.webp)
 
-- **Bagian 2** Partisi `/dev/sda2`. Pilih partisi kedua untuk dijadikan sistem root `/`.
+- **Bagian 2**, partisi `/dev/sda2`. Pilih partisi kedua untuk dijadikan sistem root `/`.
 
   ![LangitKetujuh Install](../media/image/install-filesystem-root.webp)
 
@@ -215,7 +221,7 @@ Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunak
 
   ![LangitKetujuh Install](../media/image/install-filesystem-sda2-format-yes.webp)
 
-- **Bagian 3** Partisi `/dev/sda3`. Pilih partisi ketiga untuk dijadikan `/home`.
+- **Bagian 3**, partisi `/dev/sda3`. Pilih partisi ketiga untuk dijadikan `/home`.
 
   ![LangitKetujuh Install](../media/image/install-filesystem-home.webp)
 

@@ -188,7 +188,13 @@ Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk ke
 
 ### Filesystems
 
-> 🔔 Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS` atau `Ext4`.
+> 🔔 Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS`, `Btrfs` atau `Ext4`.
+
+Filesystem akan menentukan setiap partisi untuk digunakan dalam mountpoint hirarki sistem operasi. Umumnya terdiri dari 3 mountpoint, yaitu:
+
+  1. `/boot` atau `/boot/efi`
+  2. `/`
+  3. `/home`
 
 Berdasarkan skema partisi diatas maka mountpoint filesystem akan seperti berikut ini.
 
@@ -217,7 +223,7 @@ Sedangkan untuk pemilihan mountpoint akan terlihat seperti berikut ini.
 
 Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunakan SSD di mode UEFI.
 
-- **Bagian 1** Partisi `/dev/sda2`. Pilih partisi pertama untuk boot. Kemudian pilih tipe `vfat` untuk dijadikan partisi boot `/boot/efi`.
+- **Bagian 1**, partisi `/dev/sda2`. Pilih partisi pertama untuk boot. Kemudian pilih tipe `vfat` untuk dijadikan partisi boot `/boot/efi`.
 
   ![LangitKetujuh Install](../media/image/install-filesystem-boot-vfat.webp)
 
@@ -229,7 +235,7 @@ Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunak
 
   ![LangitKetujuh Install](../media/image/install-filesystem-sda1-format-no.webp)
 
-- **Bagian #2** Partisi `/dev/sda4`. Pilih partisi keempat untuk dijadikan sistem root `/`. Kemudian pilih tipe `f2fs` untuk SSD di partisi root.
+- **Bagian 2**, partisi `/dev/sda4`. Pilih partisi keempat untuk dijadikan sistem root `/`. Kemudian pilih tipe `f2fs` untuk SSD di partisi root.
 
   ![LangitKetujuh Install](../media/image/install-filesystem-root-f2fs.webp)
 
@@ -241,7 +247,7 @@ Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunak
 
   ![LangitKetujuh Install](../media/image/install-filesystem-sda2-format-yes.webp)
 
-- **Bagian 3** Partisi `/dev/sda5`. Pilih partisi kelima untuk dijadikan `/home`. Kemudian pilih tipe `f2fs` untuk SSD di partisi root.
+- **Bagian 3**, partisi `/dev/sda5`. Pilih partisi kelima untuk dijadikan `/home`. Kemudian pilih tipe `f2fs` untuk SSD di partisi root.
 
   ![LangitKetujuh Install](../media/image/install-filesystem-home-f2fs.webp)
 
