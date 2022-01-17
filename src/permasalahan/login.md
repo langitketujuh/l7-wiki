@@ -12,7 +12,7 @@ Jika sudah terlanjur memasang sistem operasi tetapi gagal login, maka Anda dihar
 
 ## Masuk ke mode TTY
 
-Pastikan Anda masih ingat kata sandi `root` nya. Ini penting, karena akan masuk ke dalam pengguna `root`. Ketika dalam tampilan login manager masuk ke mode tty. Misalnya menggunakan TTY2 (mulai 2 sampai 6).
+Pastikan Anda masih ingat kata sandi `root` nya. Ini penting, karena akan masuk ke dalam pengguna `root`. Ketika dalam tampilan login manager masuk ke mode tty. Misalnya menggunakan TTY2 (mulai dari 2-6).
 
 Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika Anda menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+`.
 
@@ -29,31 +29,13 @@ Jika sudah masuk `root` dengan TTY maka akan terlihat tanda pagar `#`.
 
 ## Membuat pengguna baru
 
-Setelah berhasil masuk ke `root`, maka buatlah pengguna baru.
-
-Misalnya anda ingin membuat pengguna `ridwan` (pakai huruf kecil tanpa spasi) dan nama lengkap Anda `Muhammad Ridwan`. Maka perintah yang digunakan adalah:
+Setelah berhasil masuk ke `root`, maka buatlah pengguna baru dengan cara:
 
 ```
-useradd ridwan -c 'Muhammad Ridwan'
+l7-tools --user
 ```
 
-Tambahkan kata sandi ke pengguna.
-
-```
-passwd ridwan
-```
-
-Mengetik kata sandi memang tidak terlihat, tetapi sebenarnya sudah terketik. Lalu ulangi kata sandi untuk klarifikasi.
-
-## Menambahkan pengguna ke grup
-
-Tambahkan beberapa grup dasar untuk pengguna baru.
-
-```
-usermod -a ridwan -G ridwan,wheel,audio,video,floppy,cdrom,optical,kvm,xbuilder
-```
-ganti `ridwan` dengan nama pengguna baru yang telah Anda buat sebelumnya.
-
-Kemudian ketik `reboot` untuk merestart PC/Laptop. Setelah reboot, login dengan pengguna dan kata sandi yang baru.
-
-Selesai.
+- `User name:` masukkan nama pengguna tanpa spasi, misalnya `myusuf`.
+- `Full name:` masukkan nama pengguna tanpa spasi, misalnya `Muhammad Yusuf`.
+- `As Administrator:` jika akun baru sebagai administrator, ketik `y`.
+- `Continue create user:` ketik `y` untuk melanjutkan membuat akun pengguna baru.
