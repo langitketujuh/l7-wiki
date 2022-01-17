@@ -36,6 +36,6 @@ l7-tools --user
 ```
 
 - `User name:` masukkan nama pengguna tanpa spasi, misalnya `myusuf`.
-- `Full name:` masukkan nama pengguna tanpa spasi, misalnya `Muhammad Yusuf`.
+- `Full name:` masukkan nama lengkap pengguna, misalnya `Muhammad Yusuf`.
 - `As Administrator:` jika akun baru sebagai administrator, ketik `y`.
 - `Continue create user:` ketik `y` untuk melanjutkan membuat akun pengguna baru.
