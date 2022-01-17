@@ -26,10 +26,14 @@ Kemudian reboot.
 
 ## Mengaktifkan audio (opsional)
 
-Mengaktifkan audio di droidcam sepertinya tidak perlu karena biasanya sudah ada microphone untuk pengguna laptop, maka sebaiknya diabaikan saja. Tetapi jika Anda pengguna PC yang memiliki microphone dan ingin mengaktifkan audio di droidcam, maka aktifkan modul `snd-aloop`. Caranya sebagai berikut:
+Mengaktifkan audio di droidcam sepertinya tidak perlu karena biasanya sudah ada microphone untuk pengguna laptop, maka sebaiknya diabaikan saja. Tetapi jika Anda pengguna PC yang tidak memiliki microphone dan ingin mengaktifkan audio di droidcam, maka aktifkan modul `snd-aloop`dengan cara sebagai berikut:
 
-- Buka berkas `/etc/modules-load.d/snd-aloop.conf` kemudian ganti `#snd-aloop` menjadi `snd-aloop` (hapus tanda pagarnya). Kemudian reboot kembali. Khusus pengguna `nvidia` kadang kala mengaktifkan modul `snd-aloop` audionya malah tidak keluar suaranya, tetapi untuk `intel` atau `amd` tidak ada masalah.
-- Selanjutnya, buka pengaturan sistem `Audio`, ganti profil `Analog Stereo Duplex` menjadi `Pro Audio`. Perlu diketahui, pergantian profil `Pro Audio` volumenya menjadi sedikit lebih rendah dari sebelumnya.
+```
+echo "snd-aloop" | doas tee /etc/modules-load.d/snd-aloop.conf
+```
+Kemudian reboot. Khusus pengguna `nvidia` kadang kala mengaktifkan modul `snd-aloop` audionya malah tidak keluar suaranya, tetapi untuk `intel` atau `amd` tidak ada masalah.
+
+Selanjutnya, buka pengaturan sistem `Audio`, ganti profil `Analog Stereo Duplex` menjadi `Pro Audio`. Perlu diketahui, pergantian profil `Pro Audio` volumenya menjadi sedikit lebih rendah dari sebelumnya.
 
 ![PRO Audio Pipewire LangitKetujuh](../media/image/audio-settings-langitketujuh-id.webp)
 
