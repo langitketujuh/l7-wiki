@@ -15,7 +15,7 @@ Sebelum melakukan `chroot` anda harus menyiapkan sistem operasi LangitKetujuh la
 
 ## Mode chroot
 
-Setelah masuk ke liveusb, pastikan sudah memasang `l7-tools` versi terbaru `1.18.10+`. Jika belum terbaru, jalankan perintah ini.
+Setelah masuk ke liveusb, pastikan sudah memasang `l7-tools` versi terbaru `1.18.10+`. Jika belum terbaru jalankan perintah ini.
 
 ```
 doas xbps-install -Sy l7-tools
@@ -27,8 +27,9 @@ Kemudian jalankan chroot.
 doas l7-tools --chroot
 ```
 
-- `Boot mode UEFI:` ketik `y` jika menggunakan uefi, ketik `n` jika menggunakan legacy.
 - `Root partition:` pilih partisi root, misalnya `sda2`.
-- `Boot partition:` pilih partisi boot, misalnya `sda1`.
+- `Boot mode uefi:` ketik `y` jika menggunakan uefi, ketik `n` jika menggunakan legacy.
+- `Separate boot bios partition:` ketik `y` jika partisi boot terpisah, ketik `n` jika gabung dengan root.
+- `Boot efi/bios partition:` pilih partisi boot efi atau bios yang terpisah, misalnya `sda1`.
 
 Secara otomatis akan masuk ke mode chroot. Kemudian Anda dapat memodifikasi sistem PC/laptop tersebut seperti [mengatasi grub hilang](grub.md).
