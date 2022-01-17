@@ -31,7 +31,7 @@ Mengaktifkan audio di droidcam sepertinya tidak perlu karena biasanya sudah ada 
 ```
 echo "snd-aloop" | doas tee /etc/modules-load.d/snd-aloop.conf
 ```
-Kemudian reboot. Khusus pengguna `nvidia` kadang kala mengaktifkan modul `snd-aloop` audionya malah tidak keluar suaranya, tetapi untuk `intel` atau `amd` tidak ada masalah.
+Kemudian reboot. Khusus pengguna `nvidia` terkadang mengaktifkan modul `snd-aloop` volume suaranya tidak berfungsi, tetapi untuk `intel` atau `amd` tidak ada masalah.
 
 Selanjutnya, buka pengaturan sistem `Audio`, ganti profil `Analog Stereo Duplex` menjadi `Pro Audio`. Perlu diketahui, pergantian profil `Pro Audio` volumenya menjadi sedikit lebih rendah dari sebelumnya.
 

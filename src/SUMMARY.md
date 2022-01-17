@@ -63,6 +63,7 @@
   #- [XDEB Konverter](./aplikasi/xdeb.md)
   - [WineHQ Windows](./aplikasi/winehq.md)
 - [Permasalahan](./permasalahan/index.md)
+  - [Audio Tidak Terdeteksi](./permasalahan/audio.md)
   - [Gagal Login Setelah Memasang](./permasalahan/login.md)
   - [Mode Chroot](./permasalahan/chroot.md)
   - [Mengatasi Grub Hilang](./permasalahan/grub.md)
