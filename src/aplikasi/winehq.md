@@ -14,7 +14,7 @@ doas xbps-install -S void-repo-multilib
 
 ## Memasang WineHQ
 
-Cara termudahnya dengan memasang [meta paket](../perintah-dasar/manajemen-paket.html#meta-paket) WineHQ yang sudah disediakan.
+Cara termudahnya dengan memasang [meta paket](../konfigurasi/manajemen-paket/xbps.html#meta-paket) WineHQ yang sudah disediakan.
 
 ```
 doas xbps-install -S l7-pkg-wine

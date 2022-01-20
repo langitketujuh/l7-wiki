@@ -2,7 +2,7 @@
 
 ## Gunakan pipewire server
 
-Saat ini LangitKetujuh OS telah menggunakan Pipewire sebagai server audio, jika sebelumnya menggunakan pulseaudio maka ikuti panduan pemasangan pipewire [di halaman ini](../aplikasi/pipewire.html#memasang-pipewire).
+Saat ini LangitKetujuh OS telah menggunakan Pipewire sebagai server audio, jika sebelumnya menggunakan pulseaudio maka ikuti panduan pemasangan pipewire [di halaman ini](../konfigurasi/multimedia/pipewire.html#memasang-pipewire).
 
 ## Nonaktifkan snd-aloop modul
 

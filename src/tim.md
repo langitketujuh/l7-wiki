@@ -17,7 +17,7 @@ Persyaratan penting sebagai tim antara lain:
 * Murah Senyum.
 * Sholat tepat waktu.
 * Jujur, bertanggung jawab, amanah dan handal dibidangnya.
-* Bersedia menggunakan Langitketujuh OS Profesional (tentunya kami beri akses gratis).
+* Bersedia menggunakan Langitketujuh OS Studio (tentunya kami beri akses gratis).
 * Suka menulis dan bersedia membuat tips dan trik secara tertulis.
 * Bersedia memberikan evaluasi.
 

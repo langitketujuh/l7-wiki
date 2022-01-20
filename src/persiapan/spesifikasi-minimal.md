@@ -13,9 +13,9 @@ Perangkat keras         | Minimal             | Disarankan
 **Port USB**            | 2.0                 | 3.0
 **USB Bootable**        | 4GB                 | 4GB
 
-## Edisi Profesional
+## Edisi Studio
 
-Spesifikasi minimal untuk edisi Profesional memerlukan perangkat keras yang cukup tinggi. Akan tepat sekali jika digunakan untuk kebutuhan multimedia.
+Spesifikasi minimal untuk edisi Studio memerlukan perangkat keras yang cukup tinggi. Akan tepat sekali jika digunakan untuk kebutuhan multimedia.
 
 Perangkat keras         | Minimal             | Disarankan
 :---                    | :---                | :---

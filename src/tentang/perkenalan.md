@@ -25,7 +25,7 @@ Alasan kedua, nama LangitKetujuh ini dipilih karena jarang ada projek perangkat 
 
 ## Untuk siapa saja
 
-Distribusi LangitKetujuh pada dasarnya ditujukan untuk perorangan atau lembaga yang bergerak dalam bidang desain grafis. Baik pengajar, mahasiswa, pekerja kreatif (freelancer) dan yang sedang belajar desain grafis. Meskipun demikian, LangitKetujuh OS terdapat [versi lite](../perbandingan/lite-vs-pro.md) yang dapat digunakan untuk kebutuhan umum dan tidak spesifik ke bidang desain grafis saja. Seperti programmer, akuntan, dan bahkan untuk pendidikan dasar.
+Distribusi LangitKetujuh pada dasarnya ditujukan untuk perorangan atau lembaga yang bergerak dalam bidang desain grafis. Baik pengajar, mahasiswa, pekerja kreatif (freelancer) dan yang sedang belajar desain grafis. Meskipun demikian, LangitKetujuh OS terdapat [versi lite](../perbandingan/edisi.md) yang dapat digunakan untuk kebutuhan umum dan tidak spesifik ke bidang desain grafis saja. Seperti programmer, akuntan, dan bahkan untuk pendidikan dasar.
 
 ## KDE Plasma
 

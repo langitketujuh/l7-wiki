@@ -84,7 +84,7 @@ flatpak install flathub org.zulip.Zulip
 
 ## Mengatasi aplikasi tidak muncul di menu
 
-Hal ini disebabkan karena LangitKetujuh menggunakan fish-shell sebagai shell bawaan. Sedangkan Flatpak belum mendukung untuk fish-shell, sehingga `$XDG_DATA_DIR` tidak terdeteksi oleh flatpak. Solusi pertama bisa mengganti shell ke [`bash` secara permanen](../perintah-dasar/jenis-shell.html#mengganti-fish-shell-ke-bash-secara-permanen). Solusi kedua yang kami sarankan yaitu dengan menyalin berkas desktop yang seperti dibawah ini.
+Hal ini disebabkan karena LangitKetujuh menggunakan fish-shell sebagai shell bawaan. Sedangkan Flatpak belum mendukung untuk fish-shell, sehingga `$XDG_DATA_DIR` tidak terdeteksi oleh flatpak. Solusi pertama bisa mengganti shell ke [`bash` secara permanen](../konfigurasi/perintah-dasar/fish-shell.html#mengganti-fish-shell-ke-bash-secara-permanen). Solusi kedua yang kami sarankan yaitu dengan menyalin berkas desktop yang seperti dibawah ini.
 
 Salin berkas `<Aplikasi>.desktops` dari sini:
 ```
