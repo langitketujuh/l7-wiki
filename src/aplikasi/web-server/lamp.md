@@ -1,6 +1,6 @@
-# LAMPP Devops
+# LAMPP Server
 
-## 1. Memasang depedensi
+## Memasang depedensi
 
 ### PHP
 

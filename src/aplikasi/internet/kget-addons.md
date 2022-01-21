@@ -1,4 +1,6 @@
-# Kget Firefox Addons
+# Kget Addons
+
+## Deskripsi
 
 Bertujuan untuk mengintegrasikan aplikasi kget dengan Firefox browser.
 
