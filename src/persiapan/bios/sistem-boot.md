@@ -2,7 +2,7 @@
 
 ## Bios menu
 
-Nonaktifkan sementara beberapa fitur bios dibawah ini. Jika sudah selesai pemasangan LangitKetujuh maka bisa dikembalikan seperti semula.
+Saat masuk ke bios menu, akan ada beberapa pengaturan di bios menu dan boot mode yang akan digunakan. Nonaktifkan sementara beberapa fitur bios dibawah ini. Jika sudah selesai pemasangan LangitKetujuh maka bisa dikembalikan seperti semula.
 
 * Quick Boot: `Disabled`
 * Fast Boot: `Disabled`

@@ -8,4 +8,4 @@ Fast startup di Windows perlu dinonaktifkan. Tujuannya untuk memudahkan masuk ke
 - Klik "Change settings that are currently unavailable".
 - Hapus ceklis "Turn on fast startup (recommended)".
 - Klik "Save changes".
-- Restart komputer.
+- reboot komputer.

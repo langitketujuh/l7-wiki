@@ -1,7 +1,5 @@
 # XDEB Konverter
 
-## Fungsi Aplikasi
-
 `XDEB` merupakan perkakas CLI sederhana untuk mengkonversi berkas `.deb` ke `.xbps`.
 
 ## Cara Memasang Xdeb

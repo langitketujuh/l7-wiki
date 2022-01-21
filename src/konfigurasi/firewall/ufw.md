@@ -1,6 +1,6 @@
 # Uncomplicated Firewall (UFW)
 
-`UFW` adalah singkatan dari Uncomplicated Firewall sebuah aplikasi front-end dari iptables yang ringan, powerful dan sangat mudah digunakan untuk mengatur firewall. UFW ini adalah front-end dari iptables (pengaturan Firewall tingkat lanjut). Jadi dengan kata lain ketika Anda mengatur firewall dengan UFW maka sama saja mengatur firewall di iptables.
+`UFW` adalah kepanjangan dari Uncomplicated Firewall sebuah aplikasi front-end dari iptables yang ringan, powerful dan sangat mudah digunakan untuk mengatur firewall. UFW ini adalah front-end dari iptables (pengaturan Firewall tingkat lanjut). Jadi dengan kata lain ketika Anda mengatur firewall dengan UFW maka sama saja mengatur firewall di iptables.
 
 ## Mengaktifkan UFW
 
@@ -32,7 +32,7 @@ doas ufw app list
 doas ufw allow 'APLIKASI'
 ```
 
-## Aplikasi yang disarankan untuk diizinkan
+## Mengizinkan aplikasi
 
 ```bash
 doas ufw allow 'CUPS'
@@ -73,7 +73,7 @@ Contoh:
 doas ufw delete 7
 ```
 
-## Panduan lebih lengkap mengenai UFW
+## Manual UFW
 
 ```bash
 man ufw

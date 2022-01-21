@@ -1,6 +1,4 @@
-# Virt-Manager
-
-## Fungsi Aplikasi
+# Virt Manager
 
 `virt-manager` merupakan aplikasi untuk mengatur virtualisasi secara mudah dengan GUI. Teknologi virtualisasi menggunakan KVM (Kernel Vital Machine) di kernel linux.
 
@@ -10,7 +8,7 @@
 doas xbps-install virt-manager virt-manager-tools qemu
 ```
 
-### Mengaktifkan layanan virtualisasi
+## Mengaktifkan layanan virtualisasi
 
 ```
 doas ln -s /etc/sv/libvirtd /var/service
@@ -34,7 +32,7 @@ Contoh keluarannya seperti berikut ini.
  ✔ virtlogd             run     true      5232     virtlogd          10 seconds
 ```
 
-### Tambahkan pengguna ke grup kvm
+## Tambahkan pengguna ke grup kvm
 
 ```
 doas gpasswd -a "$USER" libvirt

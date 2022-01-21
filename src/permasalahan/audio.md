@@ -19,3 +19,7 @@ echo "#snd-aloop" | doas tee /etc/modules-load.d/snd-aloop.conf
 ```
 
 Kemudian reboot agar terjadi perubahannya.
+
+## Driver Nvidia
+
+Jika Anda menggunakan GPU Nvidia, maka pasang driver yang proprietary agar audio dapat berjalan dengan semestinya. Panduannya ada di [halaman Nvidia](../konfigurasi/driver/grafis/nvidia.html#nvidia)

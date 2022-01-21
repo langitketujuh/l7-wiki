@@ -299,22 +299,12 @@ Jika sudah yakin, Pilih `Install` dan `OK` untuk melanjutkan operasi pemasangan.
 
 Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `Yes` untuk reboot. Setelah mesin mati, cabut flasdisk agar tidak kembali ke mode Live USB.
 
-## Deteksi Distro Linux lain
+## Deteksi distro linux lain
 
-> Cara dibawah ini tidak perlu dilakukan sebab LangitKetujuh OS akan mendeteksi sistem operasi lain secara otomatis jika proses update sistem selesai dijalankan.
+Untuk mendeteksi grub menu agar menampilkan distribusi GNU/Linux lain dapat dilakukan dengan cara [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md), maka secara otomatis akan menampilkan daftar grub sistem operasi lainnya ketika direboot kembali.
 
-Setelah di restart kemudian masuk ke desktop LangitKetujuh.
+Cara lainnya dengan menjalankan perintah dibawah ini di konsole.
 
-Buka `/etc/default/grub`. Tambahkan teks ini diakhir.
-`GRUB_DISABLE_OS_PROBER=false`, Lalu simpan.
-
-Agar mendeteksi distro lain gunakan `os-prober`.
-
-```bash
-doas os-prober
-doas update-grub
 ```
-
-Kemudian restart kembali, maka tampilan grub akan mendeteksi dual boot dengan distro linux lain.
-
-Selesai.
+doas l7-tools --patch
+```

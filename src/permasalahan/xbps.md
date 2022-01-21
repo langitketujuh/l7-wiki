@@ -2,7 +2,7 @@
 
 ## Transaction breaks
 
-Jika Anda ketika memasang aplikasi (`get aplikasi`) dan menemui error `in transaction breaks installed pkgs ...`.
+Jika Anda ketika memasang aplikasi dengan `get aplikasi` dan menemui error `in transaction breaks installed pkgs`.
 
 Solusinya dengan memperbarui sistem `Update System` yang ada di menu. Atau dengan menjalankan:
 
@@ -12,7 +12,7 @@ doas l7-tools --update
 
 ## ERROR: bluez
 
-Jika Anda ketika memperbarui sistem mendapatkan pemberitahuan `ERROR: bluez ... '/etc/sv/bluetoothd/log/supervise': Directory not empty`.
+Jika Anda ketika memperbarui sistem mendapatkan pemberitahuan `ERROR: bluez '/etc/sv/bluetoothd/log/supervise': Directory not empty`.
 
 Solusinya dengan menjalankan:
 ```

@@ -1,7 +1,5 @@
 # Bootable di GNU/Linux
 
-## Cadangkan data Flasdisk Anda
-
 Ketika membuat bootable USB pastikan data penting di dalam flasdisk sudah dicadangkan ke disk eksternal atau cloud agar aman.
 Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 

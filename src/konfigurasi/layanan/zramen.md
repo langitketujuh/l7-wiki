@@ -1,7 +1,5 @@
 # Zramen Pengatur ZRAM
 
-## Fungsi layanan
-
 Zramen untuk pengatur ZRAM. ZRAM sendiri untuk menambahkan swap di memori fisik secara terkompresi. Dengan ZRAM akan menambah memori 25% dari memori fisik.
 Secara bawaan layanan `zramen` sudah aktf.
 

@@ -7,29 +7,29 @@
 - Pada pilihan `when logging in`, pilih `Start with an empty session`.
 - Klik `Apply`.
 
-## Mengganti Tema Plasma
+## Mengganti tema Plasma
 
 - Buka di menu `Global Theme`.
 - Pilih tema `Langitketujuh` atau tema yang diinginkan.
 - Klik `Apply`.
 
-## Mengganti Tema GTK
+## Mengganti tema GTK
 - Buka di menu `Global Theme`.
 - Pilih `Application Style`
 - Klik `Configure GNOME/GTK Application Style`.
 - Pilih GTK Theme `Breeze` atau tema yang Anda inginkan.
 - Klik `Apply`.
 
-## Mengganti Bahasa
+## Mengganti bahasa
 
 - Buka `System Settings`.
 - Pilh `Regional Settings` > Pilih `Languages`.
 - Klik `Add Languages`, tambahkan Bahasa yang diinginkan.
 - Klik bahasa yang dipilih, klik ikon `Promote to default`.
 - Klik `Apply`.
-- Efek pindah bahasa akan tampak setelah logout atau restart.
+- Efek pindah bahasa akan tampak setelah logout atau reboot.
 
-## Menambahkan Layout Bahasa
+## Menambahkan layout bahasa
 
 - Buka `System Settings`.
 - Pilih `Input Devices` > `Keyboard` > Pilih tab `Layout`.

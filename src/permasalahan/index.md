@@ -1,3 +1,3 @@
 # Permasalahan
 
-Pada bagian ini akan menjelaskan berbagai permasalahan dan cara mengatasinya.
+Pada bagian ini akan menjelaskan tentang permasalahan di sistem operasi LangitKetujuh dan cara mengatasinya.

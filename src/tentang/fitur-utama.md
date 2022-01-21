@@ -18,7 +18,7 @@ Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan KDE aplikasi s
 ## Perlengkapan perkantoran
 Tersedia LibreOffice sebagai alat produktifitas yang komplit dan handal untuk kebutuhan perkantoran. LibreOffice Writer, Impress, Calc, Base, dan masih banyak lagi.
 
-## LangitKetujuh Theme
+## LangitKetujuh tema
 Secara bawaan tampilan tema menggunakan versi gelap agar membuat nyaman dan menyehatkan mata untuk aktifitas yang lama.
 
 ## Anti Out Of Memory
@@ -28,7 +28,7 @@ Fitur ini memberikan keamanan kepada Motherboard dan Hardisk/SSD dengan menutup 
 Fitur ini memberikan akselesari API grafik terbaru untuk sistem linux. Vulkan setara dengan DirextX 12 dan mampu digunakan untuk menjalankan grafis melalui wine dengan vulkan multilib.
 
 ## Perlengkapan Desain (Studio)
-Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara lite dan pro? Anda bisa memgunjungi [tautan ini](../perbandingan/edisi.md).
+Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara lite dan pro? Anda bisa mengunjungi [tautan ini](../perbandingan/edisi.md).
 
 ## Dukungan Instalasi (Studio)
 Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui <a href="https://t.me/langitketujuh_bot" target="_blank">layanan via Telegram</a> atau [surel](mailto:langitketujuh.id@pm.me).

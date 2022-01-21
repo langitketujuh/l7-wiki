@@ -1,6 +1,6 @@
-# Mengatasi gagal login ketika selesai memasang OS
+# Gagal Login
 
-## Penyebab gagal login
+## Penyebab
 
 Terkadang setelah memasang LangitKetujuh OS Anda tidak bisa login dengan pengguna yang telah dibuat. Hal ini disebabkan karena sebelumnya mengalami error ketika selesai memasang sistem operasi, lalu belum di *reboot* (restart). Jadi, setelah gagal memasang sistem operasi diharuskan untuk di*reboot*.
 

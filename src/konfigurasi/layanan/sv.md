@@ -1,6 +1,4 @@
-# Manajemen Layanan
-
-## Fungsi layanan
+# Runit Init
 
 `sv` merupakan salah satu manajemen init dari `runit` untuk pengganti Systemd. Tujuan `sv` untuk mengontrol layanan seperti melihat satus, mengaktifkan, menghapus, memberhentikan dan menyalakan ulang.
 

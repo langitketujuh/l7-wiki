@@ -1,3 +1,3 @@
 # Pemasangan
 
-Pada bagian ini menjelaskan tentang bagaimana cara masuk boot mode dengan baik dan benar (jika salah boot mode akan gagal memasang grub), sistem pemartisian, sistem partisi SWAP, cara pemasangan single boot dan pemasangan dual boot baik dengan Windows atau distro Linux lainnya.
+Pada bagian ini menjelaskan tentang bagaimana cara untuk membagi, mengkonversi dan menyiapkan partisi, mengecek bootmode yang sedang digunakan, memasang sistem operasi secara tunggal maupun dual boot.

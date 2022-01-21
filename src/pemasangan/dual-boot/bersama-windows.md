@@ -289,20 +289,10 @@ Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `
 
 ## Deteksi Windows
 
-> Cara dibawah ini tidak perlu dilakukan sebab LangitKetujuh OS akan mendeteksi sistem operasi lain secara otomatis jika proses update sistem selesai dijalankan.
+Untuk mendeteksi grub menu agar menampilkan Windows dapat dilakukan dengan [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md), maka secara otomatis akan menampilkan daftar grub sistem operasi lainnya ketika direboot kembali.
 
-Setelah di restart kemudian masuk ke desktop LangitKetujuh.
+Cara lainnya dengan menjalankan perintah dibawah ini di konsole.
 
-Buka `/etc/default/grub`. Tambahkan teks ini diakhir.
-`GRUB_DISABLE_OS_PROBER=false`, Lalu simpan.
-
-Agar mendeteksi distro lain gunakan `os-prober`.
-
-```bash
-doas os-prober
-doas update-grub
 ```
-
-Kemudian restart kembali, maka tampilan grub akan mendeteksi dual boot dengan Windows.
-
-Selesai.
+doas l7-tools --patch
+```

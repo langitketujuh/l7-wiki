@@ -2,9 +2,9 @@
 
 ![Scrcpy Mirroring LangitKetujuh OS](../../media/image/scrcpy-langitketujuh-id.webp)
 
-## Fungsi Aplikasi
+## Deskripsi
 
-`scrcpy` berguna untuk melihat dan mengontrol perangkat android melalui komputer.
+`scrcpy` berguna untuk melihat dan mengontrol perangkat dengan pencerminan layar perangkat smartphone ke layar monitor desktop.
 
 ## Cara Memasang Scrcpy
 

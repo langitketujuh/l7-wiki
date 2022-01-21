@@ -1,7 +1,5 @@
 # EarlyOOM Anti Hang
 
-## Fungsi layanan
-
 EarlyOOM berfungsi untuk menghentikan paksa proses yang memungkinkan membuat hang komputer. Jika sisa memori bebas sekitar 10% maka aplikasi yang sengaja membuat memori penuh akan tereliminasi secara otomatis.
 Secara bawaan layanan EarlyOOM sudah aktf.
 

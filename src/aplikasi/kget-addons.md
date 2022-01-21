@@ -1,7 +1,5 @@
 # Kget Firefox Addons
 
-## Fungsi plugin
-
 Bertujuan untuk mengintegrasikan aplikasi kget dengan Firefox browser.
 
 ## Memasang Kget Integrator

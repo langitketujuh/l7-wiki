@@ -1,5 +1,7 @@
 # PipeWire Audio Server
 
+## Deskripsi
+
 PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertujuan untuk menawarkan pengambilan dan pemutaran audio dan video dengan latensi yang minimal dan dukungan untuk aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer.
 
 ## Memasang PipeWire
@@ -13,7 +15,8 @@ doas xbps-remove -R pulseaudio alsa-plugins-pulseaudio
 Pasang PipeWire.
 
 ```
-doas xbps-install -S pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
+doas xbps-install -S pipewire alsa-pipewire libjack-pipewire \
+libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sudah tidak aktif. Hal ini agar tidak konflik antara layanan pipewire dengan pulseaudio.
@@ -27,11 +30,10 @@ doas ln -s /etc/sv/pipewire /var/service/
 doas ln -s /etc/sv/pipewire-pulse /var/service/
 ```
 
-Menambahkan autostart pipewire ke sesi desktop.
+Menambahkan pengguna ke grup `_pipewire` dan `bluetoothd` agar dapat menjalankan bluetooth audio.
 
 ```
-mkdir -pv ~/.config/autostart/
-cp -v /etc/skel/.config/autostart/PipeWire* ~/.config/autostart/
+doas usermod -aG bluetooth,_pipewire $USER
 ```
 
 Kemudian logout atau reboot PC/laptop Anda.
@@ -50,7 +52,8 @@ Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
 
 Menghapus PipeWire.
 ```
-doas xbps-remove -R pipewire alsa-pipewire libjack-pipewire libspa-bluetooth gstreamer1-pipewire l7-pipewire
+doas xbps-remove -R pipewire alsa-pipewire libjack-pipewire \
+libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Memasang PulseAudio.
