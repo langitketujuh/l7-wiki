@@ -16,40 +16,40 @@ Tahukah Anda, bahwa Indonesia merupakan negara yang cukup tinggi atas penggunaan
 
 Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
 
-Fitur | Lite | Studio
-:--- | :---: | :---:
-Dukungan pemasangan oleh tenaga ahli. | - | **√**
-Libreoffice paket aplikasi perkantoran. | **√** | **√**
-Dukungan codec Audio dan Video. | **√** | **√**
-KDE-Connect sinkron perangkat. | **√** | **√**
-Deteksi Printer HP dan Epson. | **√** | **√**
-V4l2loopback Virtual kamera. | **√** | **√**
-PipeWire Audio Server. | **√** | **√**
-Inkscape pengolah vektor. | **√** | **√**
-Gimp manipulasi foto. | **√** | **√**
-Audacity pengolah audio. | - | **√**
-Fontforge pembuat font. | - | **√**
-Blender animasi 2D/3D. | - | **√**
-Freecad 3D parametric. | - | **√**
-Godot pembuat game. | - | **√**
-LibreCAD 2D CAD. | - | **√**
-Scribus Publisher. | - | **√**
-Krita digital painting. | - | **√**
-Digikam manajemen foto. | - | **√**
-Kdenlive pengolah video. | - | **√**
-LMMS produksi suara efek. | - | **√**
-HandBrake Media transkoder. | - | **√**
-Converseen konverter gambar. | - | **√**
-OpenToonz Animasi Raster 2D. | - | **√**
-Screenkey Screencast monitor. | - | **√**
-Produksi Audio dengan Ardour. | - | **√**
-Rawtherapee pengolah foto raw. | - | **√**
-Plugin GMIC Qt Gimp dan Krita. | - | **√**
-Synfigstudio Animasi Vector 2D. | - | **√**
-Kalibrasi warna dengan DisplayCAL. | - | **√**
-OBS Perekam desktop dan streaming. | - | **√**
-Google Fonts untuk proyek komersil. | - | **√**
-Akses ISO terbaru _[^1]_ | -  | **√**
+| Fitur                                   | Lite  | Studio |
+| :-------------------------------------- | :---: | :----: |
+| Dukungan pemasangan oleh tenaga ahli.   |   -   | **√**  |
+| Deteksi Printer HP dan Epson.           | **√** | **√**  |
+| Dukungan codec Audio dan Video.         | **√** | **√**  |
+| Gimp manipulasi foto.                   | **√** | **√**  |
+| Inkscape pengolah vektor.               | **√** | **√**  |
+| KDE-Connect sinkron perangkat.          | **√** | **√**  |
+| Libreoffice paket aplikasi perkantoran. | **√** | **√**  |
+| PipeWire Audio Server.                  | **√** | **√**  |
+| V4l2loopback Virtual kamera.            | **√** | **√**  |
+| Akses ISO terbaru _[^1]_                |   -   | **√**  |
+| Audacity pengolah audio.                |   -   | **√**  |
+| Blender animasi 2D/3D.                  |   -   | **√**  |
+| Converseen konverter gambar.            |   -   | **√**  |
+| Digikam manajemen foto.                 |   -   | **√**  |
+| Fontforge pembuat font.                 |   -   | **√**  |
+| Freecad 3D parametric.                  |   -   | **√**  |
+| Godot pembuat game.                     |   -   | **√**  |
+| Google Fonts untuk proyek komersil.     |   -   | **√**  |
+| HandBrake Media transkoder.             |   -   | **√**  |
+| Kalibrasi warna dengan DisplayCAL.      |   -   | **√**  |
+| Kdenlive pengolah video.                |   -   | **√**  |
+| Krita digital painting.                 |   -   | **√**  |
+| LibreCAD 2D CAD.                        |   -   | **√**  |
+| LMMS produksi suara efek.               |   -   | **√**  |
+| OBS Perekam desktop dan streaming.      |   -   | **√**  |
+| OpenToonz Animasi Raster 2D.            |   -   | **√**  |
+| Plugin GMIC Qt Gimp dan Krita.          |   -   | **√**  |
+| Produksi Audio dengan Ardour.           |   -   | **√**  |
+| Rawtherapee pengolah foto raw.          |   -   | **√**  |
+| Screenkey Screencast monitor.           |   -   | **√**  |
+| Scribus Publisher.                      |   -   | **√**  |
+| Synfigstudio Animasi Vector 2D.         |   -   | **√**  |
 
 *Catatan:*
 

@@ -12,10 +12,10 @@ Jika tidak mempunyai partisi `/home` maka Anda bisa membuat dua partisi baru, ya
 
 Gunakan KDE Partition, GParted, GNOME Disk, `cfdisk` atau alat pemartisi lainnya. Lalu resize ruang partisi yang ada untuk digunakan partisi sistem LangitKetujuh.
 
-Ruang diska       | Minimal         | Disarankan
-:---              | :---            | :---
-**Lite**          | 10 GiB          | 25 Gib
-**Studio**           | 20 GiB          | 40 Gib
+| Ruang diska | Minimal | Disarankan |
+| :---------- | :------ | :--------- |
+| **Lite**    | 10 GiB  | 25 Gib     |
+| **Studio**  | 20 GiB  | 40 Gib     |
 
 Berikut ini adalah contoh skema partisi di dalam disk yang sudah memiliki partisi **/boot**, **/**, dan **/home**. Sehingga perlu partisi **/** baru.
 
@@ -172,19 +172,19 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
 - **Legacy (dos/mbr)**
 
-  Nama Disk     | Bootable      | Jumlah    | Tipe    | Kondisi partisi
-  :---:         | :---:         | :---:     | :---:   | :---:
-  `/dev/sda1`   | *             | `512M`    | `linux` | Lama
-  `/dev/sda3`   |               | `~`       | `linux` | Lama
-  `/dev/sda4`   |               | `40G`     | `linux` | Baru
+  |  Nama Disk  | Bootable | Jumlah |  Tipe   | Kondisi partisi |
+  | :---------: | :------: | :----: | :-----: | :-------------: |
+  | `/dev/sda1` |    *     | `512M` | `linux` |      Lama       |
+  | `/dev/sda3` |          |  `~`   | `linux` |      Lama       |
+  | `/dev/sda4` |          | `40G`  | `linux` |      Baru       |
 
 - **UEFI (gpt)**
 
-  Nama Disk     | Jumlah    | Tipe    | Kondisi partisi
-  :---:         | :---:     | :---:   | :---:
-  `/dev/sda1`   | `512M`    | `Efi`   | Lama
-  `/dev/sda3`   | `~`       | `linux` | Lama
-  `/dev/sda4`   | `40G`     | `linux` | Baru
+  |  Nama Disk  | Jumlah |  Tipe   | Kondisi partisi |
+  | :---------: | :----: | :-----: | :-------------: |
+  | `/dev/sda1` | `512M` |  `Efi`  |      Lama       |
+  | `/dev/sda3` |  `~`   | `linux` |      Lama       |
+  | `/dev/sda4` | `40G`  | `linux` |      Baru       |
 
   * Baru = Partisinya diformat
   * Lama = Partisinya tidak diformat
@@ -216,18 +216,18 @@ Sedangkan untuk pemilihan mountpoint akan terlihat seperti berikut ini.
 
 - **Legacy (dos/mbr)**
 
-  Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
-  :---:       | :---:         | :---:         | :---:
-  `/dev/sda3` | `F2fs`        | `/home`       | `no`
-  `/dev/sda4` | `F2fs`        | `/`           | `yes`
+  |  Nama Disk  | Tipe Partisi | Mount Point | New Filesystems (Format) |
+  | :---------: | :----------: | :---------: | :----------------------: |
+  | `/dev/sda3` |    `F2fs`    |   `/home`   |           `no`           |
+  | `/dev/sda4` |    `F2fs`    |     `/`     |          `yes`           |
 
 - **UEFI (gpt)**
 
-  Nama Disk   | Tipe Partisi  | Mount Point   | New Filesystems (Format)
-  :---:       | :---:         | :---:         | :---:
-  `/dev/sda1` | `Vfat`        | `/boot/efi`   | `no`
-  `/dev/sda3` | `F2fs`        | `/home`       | `no`
-  `/dev/sda4` | `F2fs`        | `/`           | `yes`
+  |  Nama Disk  | Tipe Partisi | Mount Point | New Filesystems (Format) |
+  | :---------: | :----------: | :---------: | :----------------------: |
+  | `/dev/sda1` |    `Vfat`    | `/boot/efi` |           `no`           |
+  | `/dev/sda3` |    `F2fs`    |   `/home`   |           `no`           |
+  | `/dev/sda4` |    `F2fs`    |     `/`     |          `yes`           |
 
 Untuk partisi `/home` sendiri tergantung tipe partisinya. Bisa jadi Anda menggunakan `F2fs` atau `Ext4` sebelumnya.
 

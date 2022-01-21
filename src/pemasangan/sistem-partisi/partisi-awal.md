@@ -18,18 +18,18 @@ Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perinta
 
 - **Legacy (dos/mbr)**
 
-  **Tipe Partisi**    | **Jumlah**    | **Mount Point**
-  :---:               | :---:         | :---:
-  `Vfat`              | `512M`        | `/boot`
-  `F2fs`              | `40G`         | `/`
-  `F2fs`              | `~`           | `/home`
+  | **Tipe Partisi** | **Jumlah** | **Mount Point** |
+  | :--------------: | :--------: | :-------------: |
+  |      `Vfat`      |   `512M`   |     `/boot`     |
+  |      `F2fs`      |   `40G`    |       `/`       |
+  |      `F2fs`      |    `~`     |     `/home`     |
 
 - **UEFI (gpt)**
 
-  **Tipe Partisi**    | **Jumlah**    | **Mount Point**
-  :---:               | :---:         | :---:
-  `Vfat`              | `512M`        | `/boot/efi`
-  `F2fs`              | `40G`         | `/`
-  `F2fs`              | `~`           | `/home`
+  | **Tipe Partisi** | **Jumlah** | **Mount Point** |
+  | :--------------: | :--------: | :-------------: |
+  |      `Vfat`      |   `512M`   |   `/boot/efi`   |
+  |      `F2fs`      |   `40G`    |       `/`       |
+  |      `F2fs`      |    `~`     |     `/home`     |
 
 Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
