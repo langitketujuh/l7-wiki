@@ -2,7 +2,7 @@
 
 ## Edisi Lite
 
-Spesifikasi minimal untuk edisi lite tidak terlalu tinggi, sebab kebutuhannya yang umum dan tidak selalu digunakan untuk desain grafis.
+Spesifikasi minimal untuk edisi lite tidak terlalu tinggi, sebab kebutuhannya yang umum dan tidak selalu digunakan untuk multimedia.
 
 | Perangkat keras         | Minimal           | Disarankan                     |
 | :---------------------- | :---------------- | :----------------------------- |
@@ -29,4 +29,4 @@ Spesifikasi minimal untuk edisi Studio memerlukan perangkat keras yang cukup tin
 
 [^1] Jika membutuhkan dukungan pemasangan via remote.
 
-Spesifikasi diatas yang kami jelaskan merupakan spesifikasi minimal untuk menjalankan sistem operasi LangitKetujuh. Spesifikasi tersebut akan bergantung dengan spesifikasi perangkat lunak yang digunakan. Misalnya saat Anda menjalankan Blender3D akan membutuhkan grafis yang tinggi dan memori setidaknya minimal 8GB agar berjalan dengan normal.
+Spesifikasi diatas yang kami jelaskan merupakan spesifikasi minimal untuk menjalankan sistem operasi LangitKetujuh. Spesifikasi tersebut akan bergantung pada spesifikasi perangkat lunak yang digunakan. Misalnya saat Anda menjalankan Blender3D akan membutuhkan grafis yang tinggi dan memori yang setidaknya minimal 8GB agar berjalan dengan baik.

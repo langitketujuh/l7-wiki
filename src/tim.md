@@ -34,7 +34,7 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 
 * Memahami desain grafis dengan perangkat lunak bebas.
 * Membuat Konten edukasi dan kreatif untuk sosial media.
-* Memahami jenis perangkat lunak bebas dan tidak bebas (propietary).
+* Memahami jenis perangkat lunak bebas dan tidak bebas (proprietary).
 
 ## Dukungan layanan (006)
 
@@ -46,7 +46,7 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 * Memahami pemartisian dan jenis file system.
 * Memahami desain grafis dengan perangkat lunak bebas.
 * Memahami sistem dan pengaturan KDE plasma.
-* Memahami jenis perangkat lunak bebas dan tidak bebas (propietary).
+* Memahami jenis perangkat lunak bebas dan tidak bebas (proprietary).
 
 ## Skripter dan Devops (007)
 
@@ -55,7 +55,7 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 * Memahami dasar Markdown.
 * Memahami Git dan Gitlab.
 * Memahami CI/CD Netlify.
-* Memahami jenis perangkat lunak bebas dan tidak bebas (propietary).
+* Memahami jenis perangkat lunak bebas dan tidak bebas (proprietary).
 * Mengelola dan membantu menjahit kode sumber repositori LangitKetujuh.
 * Dapat membuat paket aplikasi xbps.
 

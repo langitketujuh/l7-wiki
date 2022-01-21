@@ -1,11 +1,13 @@
 # Pengguna
 
-Ada dua pengguna ketika memasuki liveusb langitketujuh, yaitu pengguna normal dan root.
+Ada dua pengguna ketika memasuki liveusb LangitKetujuh, yaitu pengguna `anon` dan `root`.
 
-* Pengguna: `anon`
-* Kata sandi: `langitketujuh`
+- Untuk pengguna normal.
 
-Sedangkan untuk pengguna akses root.
+  * Pengguna: `anon`
+  * Kata sandi: `langitketujuh`
 
-* Pengguna: `root`
-* Kata sandi: `langitketujuh`
+- Sedangkan untuk pengguna dengan akses root.
+
+  * Pengguna: `root`
+  * Kata sandi: `langitketujuh`

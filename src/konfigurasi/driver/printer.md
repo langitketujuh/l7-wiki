@@ -32,7 +32,7 @@ Kemudian tambahkan ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
 ## Canon Printer
 
-Driver Printer Canon hanya bisa dipasang untuk edisi `glibc` saja. Karena propietary, sehingga tidak bisa diporting ke musl. Cara memasang driver printer Canon:
+Driver Printer Canon hanya bisa dipasang untuk edisi `glibc` saja. Karena proprietary, sehingga tidak bisa diporting ke musl. Cara memasang driver printer Canon:
 
 ```bash
 doas xbps-install cnijfilter2

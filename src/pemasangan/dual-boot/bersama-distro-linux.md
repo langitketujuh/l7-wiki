@@ -299,9 +299,9 @@ Jika sudah yakin, Pilih `Install` dan `OK` untuk melanjutkan operasi pemasangan.
 
 Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `Yes` untuk reboot. Setelah mesin mati, cabut flasdisk agar tidak kembali ke mode Live USB.
 
-## Deteksi distro linux lain
+## Mendeteksi distribusi linux lain
 
-Untuk mendeteksi grub menu agar menampilkan distribusi GNU/Linux lain dapat dilakukan dengan cara [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md), maka secara otomatis akan menampilkan daftar grub sistem operasi lainnya ketika direboot kembali.
+Untuk menampilkan distribusi GNU/Linux lain di grub menu dapat dilakukan dengan cara [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md), maka secara otomatis akan menampilkan daftar grub LangitKetujuh dengan distribusi lain ketika direboot kembali.
 
 Cara lainnya dengan menjalankan perintah dibawah ini di konsole.
 

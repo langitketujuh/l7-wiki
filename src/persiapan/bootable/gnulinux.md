@@ -51,7 +51,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 - Klik `Start Restoring...`.
 - Klik `Restore` dan tunggu sampai proses selesai.
 
-## bootiso (cli disarankan)
+## bootiso (cli)
 
 - Buka folder yang berisi iso langitketujuh.
 - Klik kanan, pilih `Actions`.

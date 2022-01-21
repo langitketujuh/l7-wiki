@@ -1,8 +1,8 @@
 # VPSM Xbps-src Wrapper
 
-VPSM pada umumnya digunakan untuk memasang aplikasi nonfree saja, jika aplikasi yang Anda maksud ada di dalam repo utama maka sebaiknya jangan pakai VPSM. Cek aplikasi Anda dengan `search namaaplikasi`. Jika tersedia, gunakan `get namaaplikasi` untuk memasangnya.
+VPSM pada umumnya digunakan untuk memasang perangkat lunak nonfree saja, jika aplikasi yang Anda maksud ada di dalam repo utama maka sebaiknya jangan pakai VPSM. Cek aplikasi Anda dengan `search <pkg>`. Jika tersedia, gunakan `get <pkg>` untuk memasangnya.
 
-`VPSM` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu aplikasi, baik yang free maupun yang nonfree restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang aplikasi sesuai readme docs di xbps-src.
+`VPSM` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu aplikasi, baik yang free maupun yang nonfree restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang perangkat lunak sesuai panduan di <a href="https://github.com/void-linux/void-packages/blob/master/README.md" target="_blank">void-packages</a>.
 
 ## Vpsm Config
 
@@ -16,14 +16,14 @@ Tunggu sampai proses selesai.
 
 ## Perintah dasar `vpsm`
 
-| Perintah             | Contoh             | Fungsi                             |
-| :------------------- | :----------------- | :--------------------------------- |
-| `vpsm i <packages>`  | `vpsm i zoom`      | memasang aplikasi (install)        |
-| `vpsm ss <string>`   | `vpsm ss art`      | mencari aplikasi dengan kata kunci |
-| `vpsm un <packages>` | `vpsm un zoom`     | menghapus aplikasi (uninstall)     |
-| `vpsm sw <packages>` | `vpsm sw inkscape` | mencari informasi aplikasi         |
-| `vpsm upr`           | -                  | update repositori                  |
-| `vpsm bu`            | -                  | update bootstrap                   |
+| Perintah           | Contoh             | Fungsi                                    |
+| :----------------- | :----------------- | :---------------------------------------- |
+| `vpsm i <pkg>`     | `vpsm i zoom`      | memasang aplikasi (install)               |
+| `vpsm ss <string>` | `vpsm ss art`      | mencari aplikasi dengan kata kunci/string |
+| `vpsm un <pkg>`    | `vpsm un zoom`     | menghapus aplikasi (uninstall)            |
+| `vpsm sw <pkg>`    | `vpsm sw inkscape` | mencari informasi aplikasi                |
+| `vpsm upr`         | -                  | update repositori                         |
+| `vpsm bu`          | -                  | update bootstrap                          |
 
 Lebih lengkapnya `man vpsm`.
 
@@ -49,4 +49,4 @@ Lebih lengkapnya `man vpsm`.
 | `vpsm i vivaldi`           | Vivaldi Browser               |
 | `vpsm i zoom`              | Zoom                          |
 
-Selebihnya Anda dapat mencari aplikasi lain dengan `vpsm ss katakunci`
+Selebihnya Anda dapat mencari perangkat lunak lain dengan `vpsm ss <string>`.

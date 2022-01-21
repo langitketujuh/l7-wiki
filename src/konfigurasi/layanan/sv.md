@@ -27,7 +27,7 @@ Semua layanan tersedia di dalam direktori `/etc/sv/`.
 ## Status layanan
 
 ```bash
-doas sv status <service>
+doas sv status <layanan>
 ```
 
 Contoh:

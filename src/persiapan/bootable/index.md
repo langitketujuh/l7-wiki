@@ -1,12 +1,11 @@
 # Bootable
 
-Cara membuat bootable dengan media penyimpanan Flashdisk atau DVD/CD yang berisi sistem operasi LangitKetujuh.
-Sangat banyak manfaat dan fungsi dari bootable, diantaranya:
+Pada bagian ini menjelaskan tentang cara membuat bootable dengan media penyimpanan Flashdisk yang berisi sistem operasi LangitKetujuh. Fungsi dari membuat bootable, diantaranya:
 
-- Pemasangan sistem Operasi.
+- Sebagai pemasang sistem operasi.
 - Demontrasi sistem operasi dan perangkat lunaknya.
 - Pemulihan dan pembersihan data.
-- Pemecahan masalah perangkat lunak ketika kernel panic.
-- Mengubah lingkungan operasi.
+- Pemecahan masalah perangkat lunak ketika terjadi kernel panic.
+- Mengubah lingkungan sistem operasi.
 - Memasang grub yang hilang.
-- Membagi partisi dan lain-lain.
+- Membagi partisi dan lain sebagainya.

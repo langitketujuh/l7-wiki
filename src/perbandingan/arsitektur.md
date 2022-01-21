@@ -1,6 +1,6 @@
 # Arsitektur
 
-Pada dasarnya glibc merupakan libc yang paling umum dan paling kompatible, sehinga disarankan untuk memilih glibc. Namun jika tidak ketergantungan dengan aplikasi nonfree maka sebaiknya menggunakan musl.
+Pada dasarnya glibc merupakan libc yang paling umum dan paling kompatible, sehingga disarankan untuk memilih glibc. Namun jika tidak ketergantungan dengan aplikasi nonfree maka sebaiknya menggunakan musl.
 
 LangitKetujuh saat ini menyediakan 3 jenis arsitektur, antara lain:
 
@@ -13,7 +13,7 @@ Secara ringkas perbedaannya adalah sebagai berikut.
 | Fitur                                          | x86_64-musl | x86_64 | i686  |
 | :--------------------------------------------- | :---------: | :----: | :---: |
 | Dukungan Aplikasi Appimage _[^1]_              |      -      | **√**  | **√** |
-| Dukungan Aplikasi dan Driver Propietary _[^2]_ |      -      | **√**  | **√** |
+| Dukungan Aplikasi dan Driver Proprietary _[^2]_ |      -      | **√**  | **√** |
 | Dukungan Wine windows _[^3]_                   |    **√**    | **√**  | **√** |
 
 *Catatan:*

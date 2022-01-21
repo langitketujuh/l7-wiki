@@ -14,9 +14,9 @@ Musl keren dan heboh, tetapi tidak begitu banyak orang yang menggunakannya dan t
 
 Musl direkomendasikan untuk Anda yang memburu performa dan efisiensi. Render video, animasi, kompil, multitasking, akan terasa perbedaannya. Aplikasi nonfree seperti Zoom, Teams, dan sebagainya bisa dipasang melalui flatpak namun terbatas. Beberapa aplikasi yang memerlukan `wine-32bit` tidak dapat dijalankan dengan semestinya.
 
-## Mengecek libc
+## Mengetahui jenis libc
 
-Anda dapat mengetahui jenis libc yang digunakan dengan perintah ini
+Anda dapat mengetahui jenis libc yang digunakan dengan perintah ini.
 
 ```
 ldd --version

@@ -36,5 +36,4 @@ Setiap perangkat Android memiliki pengaturan yang berbeda-beda tergantung merekn
 
 ## Menjalankan `scrcpy`
 
-Kemudian jalankan `scrcpy` melalui konsole terminal atau krunner (Alt+F2). Selesai.
-
+Kemudian jalankan `scrcpy` melalui konsole terminal atau krunner (Alt+F2).

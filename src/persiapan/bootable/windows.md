@@ -3,19 +3,19 @@
 Ketika membuat bootable USB pastikan data penting di dalam flasdisk sudah dicadangkan ke disk eksternal atau cloud agar aman.
 Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 
-## Ventoy
+## Ventoy (disarankan)
 
 <a href="https://github.com/ventoy/Ventoy/releases" target="_blank">Unduh Ventoy</a>
 
-- Unduh Ventoy terbaru. Misalnya `ventoy-1.0.46-windows.zip`.
+- Unduh Ventoy terbaru versi windows. Misalnya `ventoy-1.0.46-windows.zip`.
 - Setelah selesai mengunduh, klik kanan pilih `Extract Here`.
 - Masuk ke folder `ventoy-1.0.46` (versi `1.0.46` hanya sebagai contoh).
-- Jalankan aplikasi via Administrator `Ventoy2Disk.exe` dengan mengeklik dua kali.
+- Jalankan aplikasi via Administrator `Ventoy2Disk.exe` dengan mengklik dua kali.
 - Pada bagian Device pilih nama flasdisk. Misalnya `F: [4GB] Sandisk`.
 - Klik `Install`.
 - Jika muncul peringatan, klik `Yes` dua kali.
 - Jika sukses, klik `OK`.
-- Copy iso langitketujuh yang sudah diunduh, lalu paste ke Flasdisk yang berlabel `Ventoy`.
+- Salin (copy) iso langitketujuh yang sudah diunduh, lalu tempel (paste) ke Flasdisk yang berlabel `Ventoy`.
 - Selesai.
 
 ## Rufus
@@ -30,7 +30,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 - Klik pada kolom `Partition Scheme`, pilih `MBR`.
 - Klik pada kolom `Target system`, pilih `BIOS or UEFI`.
 - Klik `START` untuk memulai proses bootable.
-- Muncul dialog `ISOHybrid image detected`, klik `Write in DD image mode` (**Penting**, agar tidak terjadi galat saat boot ke desktop), klik `OK` dan muncul peringatan format flashdisk klik `OK` sekali lagi.
+- Muncul dialog `ISOHybrid image detected`, klik `Write in DD image mode` (**Penting**), agar tidak terjadi galat saat boot ke desktop), klik `OK` dan muncul peringatan format flashdisk klik `OK` sekali lagi.
 - Tunggu sampai selesai. Jika sudah menampilkan status `READY`, klik `CLOSE`.
 
 ## Rosa images

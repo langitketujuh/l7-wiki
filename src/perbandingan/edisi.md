@@ -53,4 +53,4 @@ Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
 
 *Catatan:*
 
-[^1] Akses ISO terbaru untuk <a href="https://langitketujuh.id/pro" target="_blank">pengguna Studio</a>.
+[^1] Akses ISO terbaru untuk [pengguna Studio](edisi.html#studio).
