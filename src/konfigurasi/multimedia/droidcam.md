@@ -41,11 +41,11 @@ Selanjutnya, buka pengaturan sistem `Audio`, ganti profil `Analog Stereo Duplex`
 
 Jalankan aplikasi android `DroidCam` atau `DroidCamX` (berbayar). Anda dapat mengunduh aplikasi ini di Google Play atau App Store.
 
-Kemudian jalankan DroidCam di komputer. Samakan alamat IP dan port di smartphone, misalnya `192.168.0.100` port `4747`. Aktifkan `Enable Video` dan `Enable Audio` (opsional), Lalu klik `Connect`.
+Kemudian jalankan DroidCam di komputer. Samakan alamat IP dan port di smartphone, misalnya `192.168.0.100` port `4747`. Aktifkan `Enable Video`, Lalu klik `Connect`.
 
 ![DroidCAM LangitKetujuh](../../media/image/droidcam-langitketujuh-id.webp)
 
-Pastikan video dan audionya sudah terdeteksi di statusbar bawah, sebagai contoh: `Video: /dev/video10, Audio: hw:0,1,0`.
+Pastikan video dan audionya sudah terdeteksi di statusbar bawah, sebagai contoh: `Video: /dev/video10, Audio:`.
 
 ## Menghubungkan dengan OBS Studio
 
