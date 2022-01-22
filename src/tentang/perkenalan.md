@@ -1,4 +1,4 @@
-# Perkenalan
+# Tentang Kami
 
 ## Motivasi
 

@@ -1,7 +1,6 @@
 # Summary
 
 - [Beranda](./index.md)
-- [Tentang](./tentang/index.md)
   - [Perkenalan](./tentang/perkenalan.md)
   - [Fitur Utama](./tentang/fitur-utama.md)
   - [Lisensi](./tentang/lisensi.md)
@@ -49,7 +48,7 @@
     - [Pen Tablet](./konfigurasi/driver/pen-tablet/index.md)
       - [Wacom](./konfigurasi/driver/pen-tablet/wacom.md)
       - [Digimend](./konfigurasi/driver/pen-tablet/digimend.md)
-    - [Printer](./konfigurasi/driver/printer.md)
+    - [Printer](./konfigurasi/driver/printer/index.md)
   - [Firewall](./konfigurasi/firewall/index.md)
     - [UFW](./konfigurasi/firewall/ufw.md)
   - [GRUB](./konfigurasi/grub/index.md)
@@ -103,5 +102,5 @@
   #- [XDEB Konverter](./aplikasi/xdeb.md)
 
 ---
-- [Para Pendukung](./supporter.md)
-- [Tim Kami](./tim.md)
+- [Para Pendukung](./pendukung/index.md)
+- [Tim Kami](./tim/index.md)
