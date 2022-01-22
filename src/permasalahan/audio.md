@@ -24,9 +24,9 @@ Kemudian reboot agar terjadi perubahannya.
 
 Jika Anda menggunakan GPU Nvidia, maka pasang driver yang proprietary agar audio dapat berjalan dengan semestinya. Panduannya ada di [halaman Nvidia](../konfigurasi/driver/grafis/nvidia.html#nvidia).
 
-## Speaker/headset bluetooth
+## Audio bluetooth
 
-Biasanya bluetooth tidak otomatis menerima audio dari laptop/konputer untuk pertama kalinya. Sebab, secara bawaan output audio ke `builtin analog audio` bukan ke audio bluetooth.
+Biasanya bluetooth tidak otomatis menerima audio dari komputer untuk pertama kalinya. Sebab, secara bawaan output audio ke `builtin analog audio` bukan ke audio bluetooth.
 
 Kendala lainnya yaitu bluetooth tidak berhasil disambungkan. Solusinya dengan menambahkan grup pengguna ke bluetooth.
 
@@ -34,7 +34,7 @@ Kendala lainnya yaitu bluetooth tidak berhasil disambungkan. Solusinya dengan me
 doas usermod -aG bluetooth,_pipewire $USER
 ```
 
-Kemudian reboot laptop/komputer Anda. Cara diatas hanya untuk iso rilis `20210923` dan sebelumnya, untuk iso versi terbaru sudah terkonfigurasi.
+Kemudian reboot komputer Anda. Cara diatas hanya untuk iso rilis `20210923` dan sebelumnya, untuk iso versi terbaru sudah terkonfigurasi.
 
 Selanjutnya, hapus daftar speaker/headset yang sebelumnya sudah pernah tersambung di pengaturan `Bluetooth` dengan mengklik ikon tong sampah.
 
@@ -51,3 +51,16 @@ Kemudian sambungkan kembali bluetoothnya ke speaker/headset. Secara sepintas aka
 Jika belum tersambung, ulangi lagi perintah `doas sv restart bluetoothd` seperti diatas. Gambar dibawah ini kami menggunakan TWS `L21 Pro`.
 
 ![Audio Bluetooth Connect LangitKetujuh](../media/image/connect-bluetooth-audio-langitketujuh.webp)
+
+## Perangkat audio tidak terdeteksi
+
+Ada beberapa faktor jika terjadi demikian, diantaranya:
+
+- Komputer tidak ada sound card, solusinya pasang dan periksa sound card.
+- Komputer belum tersambung dengan headset atau speaker, solusinya cek perangkatnya tersambung ke port usb atau tidak.
+- Perangkat audio yang tidak didukung oleh kernel linux, solusinya ganti kernel sebelumnya atau memasang kernel lts (cara ini belum tentu berhasil, tergantung dari sound card).
+  - Pasang kernel lts.
+  ```
+  doas xbps-install linux-lts{,-headers}
+  ```
+  - Nyalakan ulang komputer. Pilih `Advanced Option`. Pilih versi kernel linux lts, misalnya `linux5.10`.
