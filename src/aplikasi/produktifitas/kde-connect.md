@@ -1,8 +1,10 @@
-# KDE Coneect
+# KDE Connect
 
 ## Deskripsi
 
-Banyak fitur yang luar biasa dari kde-connect. Tidak hanya berbagi berkas saja, tetapi bisa untuk mengontrol presentasi, multimedia (audio, video, dan volume), mengontrol input, membuka sms melalui kde-connect sms dan menjalankan perintah-perintah tertentu. Pastinya kde-connect adalah perangkat lunak yang bebas iklan.
+Banyak fitur yang luar biasa dari kde-connect. Tidak hanya berbagi berkas saja, tetapi bisa untuk mengontrol presentasi, multimedia (audio, video, dan volume), mengontrol input, membuka sms melalui kde-connect sms dan menjalankan perintah-perintah tertentu. Tentu, kde-connect adalah perangkat lunak yang bebas iklan.
+
+![KDE-Connect LangitKetujuh OS](../../media/image/kde-connect-langitketujuh-id.webp)
 
 ## Pemasangan
 

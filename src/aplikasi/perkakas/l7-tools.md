@@ -1,4 +1,4 @@
-# Perkakas l7-tools
+# L7 Tools
 
 `l7-tools` merupakan perkakas cli untuk melakukan konfigurasi sistem seperti pembaruan, chroot mode, memasang grub, memperbaiki boot order, memasang pengguna baru dan lain-lain.
 

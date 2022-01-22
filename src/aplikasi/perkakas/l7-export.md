@@ -1,4 +1,4 @@
-# L7 Export SVG
+# L7 Export
 
 ## Deskripsi
 

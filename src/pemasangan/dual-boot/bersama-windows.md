@@ -201,8 +201,8 @@ Berdasarkan skema partisi diatas maka mountpoint filesystem akan seperti berikut
 - `sda1` **Dilewati** karena partisi system reserved windows. Tidak diformat.
 - `sda2` Khusus UEFI, akan dijadikan partisi `/boot/efi`. Tidak diformat.
 - `sda3` **Dilewati** karena partisi sistem windows (localdisk:C). Tidak diformat.
-- `sda4` Partisi baru untuk sistem (`/`). Diformat.
-- `sda5` Partisi baru untuk penyimpanan data (`/home`). Diformat.
+- `sda4` Partisi baru untuk sistem `/`. Diformat.
+- `sda5` Partisi baru untuk penyimpanan data `/home`. Diformat.
 
 Sedangkan untuk pemilihan mountpoint akan terlihat seperti berikut ini.
 

@@ -18,7 +18,7 @@ Secara ringkas perbedaannya adalah sebagai berikut.
 
 *Catatan:*
 
-[^1] Tergantung dari penyedia aplikasinya, tidak semua aplikasi AppImage menyediakan versi arsitektur 32bit (`i686`). Umumnya hanya mendukung 64bit (`x86_64`) saja.
+[^1] Tergantung dari penyedia aplikasinya, tidak semua aplikasi AppImage menyediakan versi arsitektur `i686` (32bit). Umumnya hanya mendukung `x86_64` (64bit) saja.
 
 [^2] Aplikasi tidak bebas (Nonfree) seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung di arsitektur `x86_64-musl` dan hanya tersedia di versi `x86_64` saja. Namun di `x86_64-musl` aplikasi tidak bebas tersebut masih bisa dipasang melalui [Flatpak](../konfigurasi/paket/flatpak.md).
 

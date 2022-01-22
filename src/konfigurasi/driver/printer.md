@@ -2,7 +2,7 @@
 
 ## Epson Printer
 
-Driver Printer Epson (`epson-inkjet-printer-escpr`) sudah terpasang secara otomatis, ditancapkan kabel port USB printer kemudian tambahkan ke [pengaturan sistem printer](#pengaturan-sistem-printer).
+Driver Printer Epson `epson-inkjet-printer-escpr` sudah terpasang secara otomatis. Anda hanya memasukkan kabel printer ke port USB. Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
 ## Epson Scanner
 
@@ -28,7 +28,7 @@ Memasang versi gui.
 doas xbps-install hplip-gui
 ```
 
-Kemudian tambahkan ke [pengaturan sistem printer](#pengaturan-sistem-printer).
+Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
 ## Canon Printer
 
@@ -38,7 +38,7 @@ Driver Printer Canon hanya bisa dipasang untuk edisi `glibc` saja. Karena propri
 doas xbps-install cnijfilter2
 ```
 
-Kemudian tambahkan ke [pengaturan sistem printer](#pengaturan-sistem-printer).
+Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
 ## Brother Printer
 
@@ -57,7 +57,7 @@ Perintah                          | Deskripsi
 `doas xbps-install brother-dcp197c-cupswrapper` | CUPS wrapper driver for the brother DCP-197C printer/scanner
 `doas xbps-install brother-dcp197c-lpr`         | LPR driver for the brother DCP-197C printer/scanner
 
-Kemudian tambahkan ke [pengaturan sistem printer](#pengaturan-sistem-printer).
+Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
 ## Open Printing
 

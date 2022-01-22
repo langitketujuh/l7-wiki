@@ -20,7 +20,7 @@ Pastikan layanan adb sudah aktif. Cek dengan perintah ini:
 doas vsv status adb
 ```
 
-Apabila bewarna hijau dan telah (`run`) maka adb sedang berjalan. Jika belum berjalan maka aktifkan dengan perintah ini:
+Apabila bewarna hijau dengan label `run` maka adb sedang berjalan. Jika belum berjalan maka aktifkan dengan perintah ini:
 
 ```bash
 doas ln -s /etc/sv/adb /var/service/
