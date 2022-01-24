@@ -1,6 +1,6 @@
 # Arsitektur
 
-Pada dasarnya glibc merupakan libc yang paling umum dan paling kompatible, sehingga disarankan untuk memilih glibc. Namun jika tidak ketergantungan dengan aplikasi nonfree maka sebaiknya menggunakan musl.
+Pada dasarnya glibc merupakan libc yang paling umum dan paling kompatibel, sehingga disarankan untuk memilih glibc. Namun jika tidak ketergantungan dengan aplikasi nonfree maka sebaiknya menggunakan musl.
 
 LangitKetujuh saat ini menyediakan 3 jenis arsitektur, antara lain:
 
