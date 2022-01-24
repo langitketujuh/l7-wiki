@@ -10,11 +10,11 @@ LangitKetujuh saat ini menyediakan 3 jenis arsitektur, antara lain:
 
 Secara ringkas perbedaannya adalah sebagai berikut.
 
-| Fitur                                          | x86_64-musl | x86_64 | i686  |
-| :--------------------------------------------- | :---------: | :----: | :---: |
-| Dukungan Aplikasi Appimage _[^1]_              |      -      | **√**  | **√** |
+| Fitur                                           | x86_64-musl | x86_64 | i686  |
+| :---------------------------------------------- | :---------: | :----: | :---: |
+| Dukungan Aplikasi Appimage _[^1]_               |      -      | **√**  | **√** |
 | Dukungan Aplikasi dan Driver Proprietary _[^2]_ |      -      | **√**  | **√** |
-| Dukungan Wine windows _[^3]_                   |    **√**    | **√**  | **√** |
+| Dukungan Wine windows _[^3]_                    |    **√**    | **√**  | **√** |
 
 *Catatan:*
 
