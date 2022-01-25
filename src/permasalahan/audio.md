@@ -28,9 +28,10 @@ Jika Anda menggunakan GPU Nvidia, maka pasang driver yang proprietary agar audio
 
 Biasanya bluetooth tidak otomatis menerima audio dari komputer untuk pertama kalinya. Sebab, secara bawaan output audio ke `builtin analog audio` bukan ke audio bluetooth.
 
-Kendala lainnya yaitu bluetooth tidak berhasil disambungkan. Solusinya dengan menambahkan grup pengguna ke bluetooth.
+Kendala lainnya yaitu bluetooth tidak berhasil disambungkan. Solusinya dengan memasang `libspa-bluetooth` dan menambahkan grup pengguna ke bluetooth.
 
 ```
+doas xbps-install libspa-bluetooth
 doas usermod -aG bluetooth,_pipewire $USER
 ```
 
