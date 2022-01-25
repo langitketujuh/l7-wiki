@@ -287,6 +287,10 @@ Jika sudah yakin, Pilih `Install` dan `OK` untuk melanjutkan operasi pemasangan.
 
 Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `Yes` untuk reboot. Setelah mesin mati, cabut flasdisk agar tidak kembali ke mode Live USB.
 
+## Pasca pemasangan
+
+Setelah berhasil memasang sistem operasi LangitKetujuh, disarankan untuk [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md) agar memperoleh versi yang terbaru.
+
 ## Mendeteksi Windows
 
 Untuk menampilkan Windows di grub menu dapat dilakukan dengan cara [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md), maka secara otomatis akan menampilkan daftar grub LangitKetujuh dengan Windows ketika direboot kembali.

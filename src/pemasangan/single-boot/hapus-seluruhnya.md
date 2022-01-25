@@ -264,3 +264,7 @@ Jika sudah yakin, Pilih `Install` dan `OK` untuk melanjutkan operasi pemasangan.
 ![LangitKetujuh Install](../../media/image/install-install-1-1-1.webp)
 
 Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `Yes` untuk reboot. Setelah mesin mati, cabut flasdisk agar tidak kembali ke mode Live USB.
+
+## Pasca pemasangan
+
+Setelah berhasil memasang sistem operasi LangitKetujuh, disarankan untuk [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md) agar memperoleh versi yang terbaru.
