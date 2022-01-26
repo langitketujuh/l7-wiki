@@ -1,0 +1,46 @@
+# Vulkan API
+
+## Pemasangan
+
+Vulkan secara bawaan belum terpasang untuk LangitKetujuh versi `20210921` dan sebelumnya, sedangkan versi di selanjutnya sudah terpasang otomatis.
+
+  - AMD/ATI
+
+  ```
+  doas xbps-install -S Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
+  libspa-vulkan mesa-vulkan-overlay-layer mesa-vulkan-radeon vkBasalt vkd3d amdvlk
+  ```
+
+  - Intel
+
+  ```
+  doas xbps-install -S Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
+  libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vulkan-loader mesa-vulkan-intel mesa-intel-dri
+  ```
+
+## Informasi
+
+Cek informasi vulkan dengan sistem saat ini.
+
+```
+vulkaninfo
+```
+
+Anda juga dapat melihat informasi vulkan di `Info Center` > `Graphics` > `Vulkan`
+
+![Vulkan Info Center LangitKetujuh OS](../../../media/image/vulkan-info-center-langitketujuh-id.webp)
+
+## Vulkan multilib
+
+Jika ingin menambahkan vulkan 32bit khusus untuk arsitektur `x86_64`, aktifkan dahulu repositori multilib `void-repo-multilib`.
+
+```
+doas xbps-install void-repo-multilib
+```
+
+Kemudian pasang mesa vulkan-loader dan mesa-vulkan 32bit.
+
+```
+doas xbps-install -S vulkan-loader-32bit mesa-vulkan-intel-32bit \
+mesa-vulkan-radeon-32bit
+```

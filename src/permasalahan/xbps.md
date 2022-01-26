@@ -4,7 +4,7 @@
 
 Jika Anda ketika memasang aplikasi dengan `get aplikasi` dan menemui error `in transaction breaks installed pkgs`.
 
-Solusinya dengan memperbarui sistem `Update System` yang ada di menu. Atau dengan menjalankan:
+Solusinya dengan [memperbarui sistem operasi](../konfigurasi/pembaruan/index.md) di menu update system. Atau dengan menjalankan:
 
 ```
 doas l7-tools --update
@@ -25,7 +25,7 @@ Tujuannya untuk mengosongkan kembali log supervise bluetoothd yang lama.
 
 Jika ada pemberitahuan yang mirip seperti ini `xxxxxxx-x.x_1: broken, unresolvable shlib 'xxxxxx.so.x'`.
 
-Solusinya dengan memperbarui sistem `Update System` yang ada di menu. Atau dengan menjalankan:
+Solusinya dengan [memperbarui sistem operasi](../konfigurasi/pembaruan/index.md) di menu update system. Atau dengan menjalankan:
 
 ```
 doas l7-tools --update

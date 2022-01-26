@@ -1,4 +1,4 @@
-# Nvidia GPU Driver
+# NVIDIA GPU Driver
 
 ## Nouveau
 
@@ -13,7 +13,7 @@ Misalnya `driver:nouveau` maka saat ini kartu grafis yang digunakan adalah nouve
 
 ## Nvidia
 
-Nvidia (Driver proprietary) hanya bisa dipasang oleh sistem [Glibc](../../../perbandingan/libc.html#glibc). Sebab driver proprietary tidak bisa diporting ke arsitektur libc lain (seperti musl), kecuali vendornya sendiri yang merilisnya. Secara bawaan LangitKetujuh sudah mengaktifkan repositori nonfree namun tidak menambahkan aplikasi nonfree (tidak bebas).
+Nvidia (Driver proprietary) hanya bisa dipasang oleh sistem [Glibc](../../../perbandingan/libc.html#glibc). Sebab driver proprietary tidak bisa diporting ke arsitektur pustaka c lain (seperti musl), kecuali vendornya sendiri yang merilisnya. Secara bawaan LangitKetujuh sudah mengaktifkan repositori nonfree namun tidak menambahkan perangkat lunak nonfree sama sekali.
 
 Cara memasang Nvidia, periksa dahulu tipe Nvidia.
 
@@ -21,14 +21,14 @@ Cara memasang Nvidia, periksa dahulu tipe Nvidia.
 inxi -G
 ```
 
-Pasang dengan menyesuaikan tipe kartu grafis Nvidia
+Pasang dengan menyesuaikan nomer seri driver kartu grafis.
 
-| **Perintah**                  | **Nvidia Versi**       |
-| :---------------------------- | :--------------------- |
-| `doas xbps-install nvidia390` | Nvidia Seri 400/500    |
-| `doas xbps-install nvidia`    | Nvidia Seri 600 keatas |
+| **Perintah**                  | **Seri Driver** |
+| :---------------------------- | :-------------- |
+| `doas xbps-install nvidia390` | 400/500         |
+| `doas xbps-install nvidia`    | 600 keatas      |
 
-Jika Driver Nvidia Anda termasuk driver legacy maka gunakan `nvidia390`. Jenis-jenis driver Nvidia legacy bisa dilihat di tautan <a href="https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/" target="_blank">Driver Nvidia Legacy</a> ini.
+Jika driver Nvidia Anda termasuk driver legacy maka gunakan `nvidia390`. Jenis-jenis driver Nvidia legacy bisa dilihat di tautan <a href="https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/" target="_blank">Driver Nvidia Legacy</a> ini.
 
 Hati-hati memilih versi Nvidia, jika salah versi kemungkinan akan blackscreen.
 

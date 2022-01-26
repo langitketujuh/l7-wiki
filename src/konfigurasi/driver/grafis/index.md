@@ -1,3 +1,3 @@
 # Grafis
 
-Pada bagian ini membahas tentang pemasangan driver sebagai penunjang grafis.
+Pada bagian ini membahas tentang pemasangan driver sebagai akselerasi dan penunjang grafis.
