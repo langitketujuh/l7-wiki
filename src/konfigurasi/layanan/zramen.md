@@ -1,4 +1,4 @@
-# ZRAMEN Pengatur ZRAM
+# ZRAMEN
 
 ZRAMEN untuk pengatur [zram](../../pemasangan/sistem-swap/zram.md), secara bawaan layanan `zramen` sudah aktf. Jika RAM fisik memiliki ukuran yang cukup besar, maka layanan `zramen` dinonaktifkan saja dan fokus di RAM fisik.
 
