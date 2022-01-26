@@ -29,6 +29,8 @@ Lebih lengkapnya `man vpsm`.
 
 ## Daftar aplikasi yang sering dipasang
 
+Ingat, sebelum memasang perangkat lunak jalankan `vpsm upr` terlebih dahulu untuk mendapatkan versi terbaru. Jika tidak, maka pemasangan akan mengkompilasi depedensi versi lama dan prosesnya akan lebih lama dari biasanya.
+
 | Perintah                   | Aplikasi                      |
 | :------------------------- | :---------------------------- |
 | `vpsm i msttcorefonts`     | Microsoft Font                |
