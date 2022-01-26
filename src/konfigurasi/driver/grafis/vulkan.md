@@ -8,14 +8,14 @@ Vulkan secara bawaan belum terpasang untuk LangitKetujuh versi `20210921` dan se
 
   ```
   doas xbps-install -S Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
-  libspa-vulkan mesa-vulkan-overlay-layer mesa-vulkan-radeon vkBasalt vkd3d amdvlk
+  libspa-vulkan mesa-vulkan-overlay-layer vkBasalt mesa-vulkan-radeon vkd3d amdvlk
   ```
 
   - Intel
 
   ```
   doas xbps-install -S Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
-  libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vulkan-loader mesa-vulkan-intel mesa-intel-dri
+  libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vulkan-loader mesa-vulkan-intel
   ```
 
 ## Informasi
