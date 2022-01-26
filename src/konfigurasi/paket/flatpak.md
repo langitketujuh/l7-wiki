@@ -14,18 +14,25 @@ https://dl.flathub.org/repo/flathub.flatpakrepo
 
 ## Memasang perangkat lunak
 
-Pasanglah perangkat lunak yang Anda butuhkan. Ketik `y` untuk melanjutkan pemasangan aplikasi. Aplikasi lainnya bisa Anda dapatkan di website resmi flathub (https://flathub.org/).
+Pasanglah perangkat lunak yang Anda butuhkan. Ketik `y` untuk melanjutkan pemasangan aplikasi. Aplikasi lainnya bisa Anda dapatkan di <a href="https://flathub.org/" target="_blank">website resmi flathub</a>.
 
 | Perangkat lunak   | Perintah memasang                                               |
 | :---------------- | :-------------------------------------------------------------- |
 | Discord           | `flatpak install flathub com.discordapp.Discord`                |
+| Draw.io           | `flatpak install flathub com.jgraph.drawio.desktop`             |
+| Enve              | `flatpak install flathub io.github.maurycyliebner.enve`         |
+| Figma for Linux   | `flatpak install flathub io.github.Figma_Linux.figma_linux`     |
 | Gravit Designer   | `flatpak install flathub io.designer.GravitDesigner`            |
 | Jitsi             | `flatpak install flathub org.jitsi.jitsi-meet`                  |
+| LeoCAD            | `flatpak install flathub org.leocad.LeoCAD`                     |
 | Mendeley Desktop  | `flatpak install flathub com.elsevier.MendeleyDesktop`          |
+| MeshLab           | `flatpak install flathub net.meshlab.MeshLab`                   |
 | Microsoft Teams   | `flatpak install flathub com.microsoft.Teams`                   |
+| Minecraft         | `flatpak install flathub com.mojang.Minecraft`                  |
 | Natron            | `flatpak install flathub fr.natron.Natron`                      |
 | NextCloud Desktop | `flatpak install flathub com.nextcloud.desktopclient.nextcloud` |
 | Olive Editor      | `flatpak install flathub org.olivevideoeditor.Olive`            |
+| Photophea         | `flatpak install flathub com.github.vikdevelop.photopea_app`    |
 | Qgis Desktop      | `flatpak install flathub org.qgis.qgis`                         |
 | Rocket.Chat       | `flatpak install flathub chat.rocket.RocketChat`                |
 | Signal Desktop    | `flatpak install flathub org.signal.Signal`                     |
