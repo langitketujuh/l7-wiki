@@ -2,7 +2,7 @@
 
 ## Transaction breaks
 
-Jika Anda ketika memasang aplikasi dengan `get aplikasi` dan menemui error `in transaction breaks installed pkgs`.
+Jika Anda ketika memasang perangkat lunak dengan `get <pkg>` dan menemui error `in transaction breaks installed pkgs`.
 
 Solusinya dengan [memperbarui sistem operasi](../konfigurasi/pembaruan/index.md) di menu update system. Atau dengan menjalankan:
 
