@@ -9,7 +9,7 @@ Jika Anda menggunakan windows, gunakan aplikasi <a href="https://www.binaryfortr
 - Unduh dan pasang.
 - Klik "Add File" untuk menambahkan iso LangitKetujuh OS.
 - Ceklis `SHA256` di hash tools.
-- Klik 2 kali buka berkas `.sha256` dengan notepad, cocokkan dengan isi kode `SHA256` milik LangitKetujuh OS. Jika hasil kodenya sama, maka berkas iso aman untuk digunakan sebagai USB bootable.
+- Cocokkan dengan kode `SHA256` milik LangitKetujuh OS. Jika hasil kodenya sama, maka berkas iso aman untuk digunakan sebagai USB bootable.
 
 ## GNU/Linux
 
