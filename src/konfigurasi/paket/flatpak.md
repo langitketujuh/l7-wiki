@@ -25,6 +25,7 @@ Pasanglah perangkat lunak yang Anda butuhkan. Ketik `y` untuk melanjutkan pemasa
 | Gravit Designer   | `flatpak install flathub io.designer.GravitDesigner`            |
 | Jitsi             | `flatpak install flathub org.jitsi.jitsi-meet`                  |
 | LeoCAD            | `flatpak install flathub org.leocad.LeoCAD`                     |
+| LibreSprite       | `flatpak install flathub com.github.libresprite.LibreSprite`    |
 | Mendeley Desktop  | `flatpak install flathub com.elsevier.MendeleyDesktop`          |
 | MeshLab           | `flatpak install flathub net.meshlab.MeshLab`                   |
 | Microsoft Teams   | `flatpak install flathub com.microsoft.Teams`                   |
