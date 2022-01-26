@@ -64,7 +64,7 @@
   - [Manajemen Layanan](./konfigurasi/layanan/index.md)
     - [Runit Init](./konfigurasi/layanan/sv.md)
     #- [Clight](./konfigurasi/layanan/clightd.md)
-    - [Earlyoom](./konfigurasi/layanan/earlyoom.md)
+    - [EarlyOOM](./konfigurasi/layanan/earlyoom.md)
     - [TLP](./konfigurasi/layanan/tlp.md)
     - [ZRAMEN](./konfigurasi/layanan/zramen.md)
   - [Manajemen Paket](./konfigurasi/paket/index.md)
