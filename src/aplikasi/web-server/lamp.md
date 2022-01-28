@@ -1,6 +1,6 @@
 # LAMPP Server
 
-## Memasang depedensi
+## Memasang dependensi
 
 ### PHP
 

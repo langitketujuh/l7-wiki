@@ -2,7 +2,7 @@
 
 Kunjungi <https://panduan.langitketujuh.id>.
 
-## Memasang depedensi
+## Memasang dependensi
 
 Kode sumber dokumentasi ini menggunakan <a href="https://rust-lang.github.io/mdBook/" target="_blank">mdBook</a> sebagai generatornya.
 

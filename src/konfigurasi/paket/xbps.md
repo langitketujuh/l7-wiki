@@ -7,13 +7,13 @@ Perintah dasar di Langitketujuh memanfaatkan fitur singkatan (abbreviations) pad
 | Perintah         | Contoh          | Fungsi                                   |
 | :--------------- | :-------------- | :--------------------------------------- |
 | `sync`           |                 | Memperbarui basis data repositori.       |
-| `update`         |                 | Memperbarui aplikasi dan depedensi.      |
+| `update`         |                 | Memperbarui aplikasi dan dependensi.     |
 | `get <pkg>`      | `get gimp`      | Memasang aplikasi.                       |
 | `search <pkg>`   | `search gimp`   | Mencari aplikasi berdasarkan basis data. |
 | `remove <pkg>`   | `remove gimp`   | Menghapus aplikasi.                      |
 | `info <pkg>`     | `info gimp`     | Informasi dari aplikasi yang terpasang.  |
-| `filelist <pkg>` | `filelist gimp` | Daftar isi dari aplikasi/depedensi       |
-| `autoclean`      |                 | Menghapus cache depedensi versi lama.    |
+| `filelist <pkg>` | `filelist gimp` | Daftar isi dari dependensi               |
+| `autoclean`      |                 | Menghapus cache dependensi kedaluwarsa.  |
 | `repolist`       |                 | Melihat daftar repository.               |
 | `ll`             |                 | Melihat daftar direktori dan berkas.     |
 | `ff`             |                 | Membuat ulang cache fonta.               |
