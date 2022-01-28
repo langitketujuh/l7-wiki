@@ -48,7 +48,7 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 * Memahami sistem dan pengaturan KDE plasma.
 * Memahami jenis perangkat lunak bebas dan tidak bebas (proprietary).
 
-## Skripter dan Devops (007)
+## Maintener (007)
 
 * Memahami dasar Bash shell.
 * Memahami dasar Fish shell.
@@ -57,7 +57,7 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 * Memahami CI/CD Netlify.
 * Memahami jenis perangkat lunak bebas dan tidak bebas (proprietary).
 * Mengelola dan membantu menjahit kode sumber repositori LangitKetujuh.
-* Dapat membuat paket aplikasi xbps.
+* Dapat memaketkan aplikasi ke xbps.
 
 # Kirim
 
