@@ -83,6 +83,7 @@
     - [Localtime](./konfigurasi/tanggal/localtime.md)
 - [Aplikasi](./aplikasi/index.md)
   - [Perkakas](./aplikasi/perkakas/index.md)
+    - [OctoXBPS](./aplikasi/perkakas/octoxbps.md)
     - [L7 Tools](./aplikasi/perkakas/l7-tools.md)
     - [L7 Export](./aplikasi/perkakas/l7-export.md)
   - [Multimedia](./aplikasi/multimedia/index.md)
