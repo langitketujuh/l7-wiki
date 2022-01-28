@@ -4,7 +4,7 @@
 
 Sistem operasi LangitKetujuh menggunakan rilis bergulir (rolling release) untuk memperbarui setiap paket, sehingga perangkat lunak yang digunakan relatif terbaru dan lebih sering update. Meskipun demikian, ukuran dependensi lebih kecil dari pada distro pada umumnya.
 
-## Memperbarui sistem
+## Update System
 
 Sebelum memperbarui sistem pastikan sudah terhubung dengan jaringan internet. Kemudian perbarui sistem dengan cara mengklik **Update System** di menu favorit seperti dibawah ini.
 
@@ -19,3 +19,7 @@ Ada 5 tahapan yang dilakukan oleh Update System.
 5. `Remove obsolete and orphans packages?`proses untuk menghapus dependensi kedaluwarsa yang tidak digunakan. `Do you want to continue?` pilih `y` untuk memproses. Secara bawaan memilih `n` untuk tidak memproses.
 
 Pembaruan dapat dilakukan saat memiliki waktu senggang saja, atau ketika ingin menggunakan perangkat lunak versi terbaru.
+
+## OctoXBPS
+
+Pembaruan dapat dilakukan juga melalui octoxbps dengan mengklik "Install" di bagian panel bawah. Adanya paket terbaru ditandai dengan kotak warna merah seperti dibawah ini.

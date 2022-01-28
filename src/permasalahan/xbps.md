@@ -4,7 +4,7 @@
 
 Jika Anda ketika memasang perangkat lunak dengan `get <pkg>` dan menemui error `in transaction breaks installed pkgs`.
 
-Solusinya dengan [memperbarui sistem operasi](../konfigurasi/pembaruan/index.md) di menu update system. Atau dengan menjalankan:
+Solusinya dengan [memperbarui sistem operasi](../konfigurasi/pembaruan/index.md) atau dengan menjalankan:
 
 ```
 doas l7-tools --update
@@ -19,13 +19,17 @@ Solusinya dengan menjalankan:
 doas rm -rf /etc/sv/bluetoothd/log/supervise
 ```
 
-Tujuannya untuk mengosongkan kembali log supervise bluetoothd yang lama.
+Tujuannya untuk mengosongkan kembali log supervise bluetoothd yang lama. Kemudian ulangi [memperbarui sistem operasi](../konfigurasi/pembaruan/index.md) atau dengan menjalankan:
+
+```
+doas l7-tools --update
+```
 
 ## Unresolvable `shlib`
 
 Jika ada pemberitahuan yang mirip seperti ini `xxxxxxx-x.x_1: broken, unresolvable shlib 'xxxxxx.so.x'`.
 
-Solusinya dengan [memperbarui sistem operasi](../konfigurasi/pembaruan/index.md) di menu update system. Atau dengan menjalankan:
+Solusinya dengan [memperbarui sistem operasi](../konfigurasi/pembaruan/index.md) atau dengan menjalankan:
 
 ```
 doas l7-tools --update
