@@ -7,9 +7,9 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 
 <a href="https://github.com/ventoy/Ventoy/releases" target="_blank">Unduh Ventoy</a>
 
-- Unduh Ventoy terbaru versi windows. Misalnya `ventoy-1.0.46-windows.zip`.
+- Unduh Ventoy versi windows, misalnya `ventoy-x.x.x-windows.zip`.
 - Setelah selesai mengunduh, klik kanan pilih `Extract Here`.
-- Masuk ke folder `ventoy-1.0.46` (versi `1.0.46` hanya sebagai contoh).
+- Masuk ke folder `ventoy-x.x.x`.
 - Jalankan aplikasi via Administrator `Ventoy2Disk.exe` dengan mengklik dua kali.
 - Pada bagian Device pilih nama flasdisk. Misalnya `F: [4GB] Sandisk`.
 - Klik `Install`.
@@ -20,9 +20,9 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 
 ## Rufus
 
-<a href="https://rufus.ie" target="_blank">Unduh Rufus</a>
+<a href="https://rufus.ie/en/#download" target="_blank">Unduh Rufus</a>
 
-- Pilih versi terbaru. Misalnya `Rufus 3.xx`.
+- Pilih versi terbaru. Misalnya `Rufus x.xx`.
 - Jalankan aplikasi via Administrator `rufus-x.x.exe`, klik 2 kali.
 - Klik pada kolom `Device`, pilih flashdisk yang akan dijadikan bootable.
 - Klik pada kolom `Boot Selection`, pilih `Disk or ISO Image`.
