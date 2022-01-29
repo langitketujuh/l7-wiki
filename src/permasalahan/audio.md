@@ -41,10 +41,11 @@ Selanjutnya, hapus daftar speaker/headset yang sebelumnya sudah pernah tersambun
 
 ![Remove Audio Bluetooth LangitKetujuh](../media/image/remove-bluetooth-langitketujuh-id.webp)
 
-Lalu muat ulang layanan bluetoothd dengan menjalankan:
+Hentikan sementara dan aktifkan kembali layanan bluetoothd dengan menjalankan:
 
 ```
-doas sv restart bluetoothd
+doas sv stop bluetoothd
+doas sv start bluetoothd
 ```
 
 Kemudian sambungkan kembali bluetoothnya ke speaker/headset. Secara sepintas akan terlihat notifikasi perpindahan ke audio bluetooth. Setelah tersambung, besarnya suara dapat diatur di volume sistem tray.
