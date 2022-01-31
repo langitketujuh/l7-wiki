@@ -25,4 +25,4 @@ Beberapa pengaturan inkscape yang ditambahkan di sistem operasi LangitKetujuh ad
 
 ## Dokumentasi
 
-Anda dapat belajar dan menjelajahi fitur inkscape melalui halaman [ReadTheDocs](https://inkscape-manuals.readthedocs.io/en/latest) dan di [Wiki inkscape](https://wiki.inkscape.org/wiki/index.php/Inkscape).
+Pengguna dapat belajar dan menjelajahi fitur inkscape melalui halaman [ReadTheDocs](https://inkscape-manuals.readthedocs.io/en/latest) dan di [Wiki inkscape](https://wiki.inkscape.org/wiki/index.php/Inkscape).
