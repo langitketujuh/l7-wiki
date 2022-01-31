@@ -20,6 +20,10 @@ git-repository-icon= "fa-gitlab"
 mathjax-support = true
 input-404 = "404.md"
 
+[output.html.fold]
+enable = false
+level = 1
+
 [output.html.playground]
 editable = true
 line-numbers = true
