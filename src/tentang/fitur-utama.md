@@ -7,22 +7,22 @@ Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil 
 Berisi perangkat lunak rilis bergulir _(<a href="https://id.wikipedia.org/wiki/Rilis_bergulir" target="_blank">rolling release</a>)_ dengan versi stabil terbaru. Setiap rilis terbaru tidak diharuskan untuk memasang ulang, hanya memerlukan pembaruan seperti biasanya secara otomatis menggunakan versi yang terbaru.
 
 ## Musl Libc
-Tersedia libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil aplikasi semakin cepat. Perbedaan antara musl dan glibc bisa Anda simak di [tautan ini](../perbandingan/libc.md).
+Tersedia libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil perangkat lunak semakin cepat. Perbedaan antara musl dan glibc bisa Anda simak di [tautan ini](../perbandingan/libc.md).
 
 ## Runit Init
 Keamanan lebih baik. Menggunakan runit karena PID1 harus sederhana, minimalis, dan stabil. Tentunya bebas dari SystemD. Dengan runit init booting semakin cepat.
 
 ## KDE Plasma
-Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan KDE aplikasi seperti Krita, Kdenlive dan KDE Connect. KDE Plasma sangat mudah disarankan untuk pemula.
+Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan KDE perangkat lunak seperti Krita, Kdenlive dan KDE Connect. KDE Plasma sangat mudah disarankan untuk pemula.
 
 ## EarlyOOM
-Fitur ini memberikan keamanan kepada Motherboard dan Hardisk/SSD dengan menutup paksa jika ada aplikasi yang menggunakan resource yang berlebihan atau dengan batasan yang telah ditentukan.
+Fitur ini memberikan keamanan kepada Motherboard dan Hardisk/SSD dengan menutup paksa jika ada perangkat lunak yang menggunakan resource yang berlebihan atau dengan batasan yang telah ditentukan.
 
 ## Vulkan API
 Fitur ini memberikan akselesari API grafik terbaru untuk sistem linux. Vulkan setara dengan DirextX 12 dan mampu digunakan untuk menjalankan grafis melalui wine dengan vulkan multilib.
 
 ## PipeWire
-Pemutaran multimedia dengan minimal latensi dan dukungan aplikasi yang berbasis PulseAudio, JACK, ALSA dan GStreamer.
+Pemutaran multimedia dengan minimal latensi dan dukungan perangkat lunak yang berbasis PulseAudio, JACK, ALSA dan GStreamer.
 
 ## ZRAM
 RAM virtual terkompresi dengan tingkat I/O disk yang rendah dan penambahan ruang memori 25% lebih dari RAM fisik.

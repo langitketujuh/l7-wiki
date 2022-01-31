@@ -8,7 +8,7 @@ Setiap manufaktur memiliki tombol bios yang berbeda-beda. Berikut ini daftar tom
 | :---------------- | :------------------------ | :----------------- |
 | Acer              | `Esc`, `F9`, `F12`        | `Del`, `F2`        |
 | Acer Aspire       | `F12`                     | `F2`               |
-| Apple             | `Option`                  |
+| Apple             | `Option`                  | -                  |
 | Asus desktop      | `F8`                      | `F9`               |
 | Asus laptop       | `Esc`                     | `F9`               |
 | Asus laptop r5035 | `F8`                      | `Del`              |
@@ -18,7 +18,7 @@ Setiap manufaktur memiliki tombol bios yang berbeda-beda. Berikut ini daftar tom
 | Dell Precision    | `F12`                     | `F12`              |
 | Emachines         | `F12`                     | `Del`              |
 | HP                | `F9`, `Esc`               | `F10`, `Esc`       |
-| Intel             | `F10`                     |
+| Intel             | `F10`                     | -                  |
 | Lenovo            | `F12`, `F8`, `F10`        | `F1`, `F2`         |
 | Lenovo IdeaPad    | `Fn` + `F12`, `F8`, `F10` | `F1`, `F2`         |
 | Nec               | `F5`                      | `F2`               |

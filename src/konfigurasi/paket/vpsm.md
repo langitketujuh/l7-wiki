@@ -1,8 +1,8 @@
 # VPSM Xbps-src Wrapper
 
-VPSM pada umumnya digunakan untuk memasang perangkat lunak nonfree saja, jika aplikasi yang Anda maksud ada di dalam repo utama maka sebaiknya jangan pakai VPSM. Cek aplikasi Anda dengan `search <pkg>`. Jika tersedia, gunakan `get <pkg>` untuk memasangnya.
+VPSM pada umumnya digunakan untuk memasang perangkat lunak tidak bebas saja, jika perangkat lunak yang Anda maksud ada di dalam repo utama maka sebaiknya jangan pakai VPSM. Cek perangkat lunak Anda dengan `search <pkg>`. Jika tersedia, gunakan `get <pkg>` untuk memasangnya.
 
-`VPSM` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu aplikasi, baik yang free maupun yang nonfree restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang perangkat lunak sesuai panduan di <a href="https://github.com/void-linux/void-packages/blob/master/README.md" target="_blank">void-packages</a>.
+`VPSM` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu perangkat lunak, baik yang free maupun yang tidak bebas restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang perangkat lunak sesuai panduan di <a href="https://github.com/void-linux/void-packages/blob/master/README.md" target="_blank">void-packages</a>.
 
 ## Vpsm Config
 
@@ -16,22 +16,22 @@ Tunggu sampai proses selesai.
 
 ## Perintah dasar `vpsm`
 
-| Perintah           | Contoh             | Fungsi                                    |
-| :----------------- | :----------------- | :---------------------------------------- |
-| `vpsm i <pkg>`     | `vpsm i zoom`      | memasang aplikasi (install)               |
-| `vpsm ss <string>` | `vpsm ss art`      | mencari aplikasi dengan kata kunci/string |
-| `vpsm un <pkg>`    | `vpsm un zoom`     | menghapus aplikasi (uninstall)            |
-| `vpsm sw <pkg>`    | `vpsm sw inkscape` | mencari informasi aplikasi                |
-| `vpsm upr`         | -                  | update repositori                         |
-| `vpsm bu`          | -                  | update bootstrap                          |
+| Perintah           | Contoh             | Fungsi                                           |
+| :----------------- | :----------------- | :----------------------------------------------- |
+| `vpsm i <pkg>`     | `vpsm i zoom`      | memasang perangkat lunak (install)               |
+| `vpsm ss <string>` | `vpsm ss art`      | mencari perangkat lunak dengan kata kunci/string |
+| `vpsm un <pkg>`    | `vpsm un zoom`     | menghapus perangkat lunak (uninstall)            |
+| `vpsm sw <pkg>`    | `vpsm sw inkscape` | mencari informasi perangkat lunak                |
+| `vpsm upr`         | -                  | update repositori                                |
+| `vpsm bu`          | -                  | update bootstrap                                 |
 
 Lebih lengkapnya `man vpsm`.
 
-## Daftar aplikasi yang sering dipasang
+## Daftar perangkat lunak yang sering dipasang
 
 Ingat, sebelum memasang perangkat lunak jalankan `vpsm upr` terlebih dahulu untuk mendapatkan versi terbaru. Jika tidak, maka pemasangan akan mengkompilasi dependensi versi lama dan prosesnya akan lebih lama dari biasanya.
 
-| Perintah                   | Aplikasi                      |
+| Perintah                   | Perangkat lunak               |
 | :------------------------- | :---------------------------- |
 | `vpsm i msttcorefonts`     | Microsoft Font                |
 | `vpsm i android-studio`    | Android Studio                |

@@ -14,7 +14,7 @@ https://dl.flathub.org/repo/flathub.flatpakrepo
 
 ## Memasang perangkat lunak
 
-Pasanglah perangkat lunak yang Anda butuhkan. Ketik `y` untuk melanjutkan pemasangan aplikasi. Aplikasi lainnya bisa Anda dapatkan di <a href="https://flathub.org/" target="_blank">website resmi flathub</a>.
+Pasanglah perangkat lunak yang Anda butuhkan. Ketik `y` untuk melanjutkan pemasangan perangkat lunak. perangkat lunak lainnya bisa Anda dapatkan di <a href="https://flathub.org/" target="_blank">website resmi flathub</a>.
 
 | Perangkat lunak   | Perintah memasang                                               |
 | :---------------- | :-------------------------------------------------------------- |
@@ -43,19 +43,19 @@ Pasanglah perangkat lunak yang Anda butuhkan. Ketik `y` untuk melanjutkan pemasa
 | Steam             | `flatpak install flathub com.valvesoftware.Steam`               |
 | VScodium          | `flatpak install flathub com.vscodium.codium`                   |
 | WPS Office        | `flatpak install flathub com.wps.Office`                        |
-| WhatsApps QT      | `flatpak install flathub io.bit3.WhatsAppQT`                    |
+| WhatsApps Qt      | `flatpak install flathub io.bit3.WhatsAppQT`                    |
 | Zoom              | `flatpak install flathub us.zoom.Zoom`                          |
 | Zotero            | `flatpak install flathub org.zotero.Zoter`                      |
 | Zulip Desktop     | `flatpak install flathub org.zulip.Zulip`                       |
 
-## Menu aplikasi tidak tampil
+## Menu perangkat lunak tidak tampil
 
 Hal ini disebabkan karena LangitKetujuh menggunakan fish-shell sebagai shell bawaan. Sedangkan Flatpak belum mendukung untuk fish-shell, sehingga `$XDG_DATA_DIR` tidak terdeteksi oleh flatpak.
 
-- Solusi pertama yang kami sarankan yaitu dengan menyalin berkas desktop`<Aplikasi>.desktops` dari sini:
+- Solusi pertama yang kami sarankan yaitu dengan menyalin berkas desktop`<Perangkat lunak>.desktops` dari sini:
 
   ```
-  /var/lib/flatpak/app/<Aplikasi>/current/active/export/share/applications/
+  /var/lib/flatpak/app/<Perangkat lunak>/current/active/export/share/applications/
   ```
 
   Kemudian tempelkan ke `~/.local/share/applications/`.

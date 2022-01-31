@@ -4,7 +4,7 @@ Sebelum Anda membuat bootable, disarankan untuk melakukan verifikasi berkas. Tuj
 
 ## Windows
 
-Jika Anda menggunakan windows, gunakan aplikasi <a href="https://www.binaryfortress.com/Data/Download/?Package=hashtools&Log=100" target="_blank">Hash Tools</a>.
+Jika Anda menggunakan windows, gunakan perangkat lunak <a href="https://www.binaryfortress.com/Data/Download/?Package=hashtools&Log=100" target="_blank">Hash Tools</a>.
 
 - Unduh dan pasang.
 - Klik "Add File" untuk menambahkan iso LangitKetujuh OS.

@@ -1,6 +1,6 @@
 # Arsitektur
 
-Pada dasarnya glibc merupakan libc yang paling umum dan paling kompatibel, sehingga disarankan untuk memilih glibc. Namun jika tidak ketergantungan dengan aplikasi nonfree maka sebaiknya menggunakan musl.
+Pada dasarnya glibc merupakan libc yang paling umum dan paling kompatibel, sehingga disarankan untuk memilih glibc. Namun jika tidak ketergantungan dengan perangkat lunak tidak bebas maka sebaiknya menggunakan musl.
 
 LangitKetujuh saat ini menyediakan 3 jenis arsitektur, antara lain:
 
@@ -10,16 +10,16 @@ LangitKetujuh saat ini menyediakan 3 jenis arsitektur, antara lain:
 
 Secara ringkas perbedaannya adalah sebagai berikut.
 
-| Fitur                                           | x86_64-musl | x86_64 | i686  |
-| :---------------------------------------------- | :---------: | :----: | :---: |
-| Dukungan Aplikasi Appimage _[^1]_               |      -      | **√**  | **√** |
-| Dukungan Aplikasi dan Driver Proprietary _[^2]_ |      -      | **√**  | **√** |
-| Dukungan Wine windows _[^3]_                    |    **√**    | **√**  | **√** |
+| Fitur                                                  | x86_64-musl | x86_64 | i686  |
+| :----------------------------------------------------- | :---------: | :----: | :---: |
+| Dukungan Perangkat lunak Appimage _[^1]_               |      -      | **√**  | **√** |
+| Dukungan Perangkat lunak dan Driver Proprietary _[^2]_ |      -      | **√**  | **√** |
+| Dukungan Wine windows _[^3]_                           |    **√**    | **√**  | **√** |
 
 *Catatan:*
 
-[^1] Tergantung dari penyedia aplikasinya, tidak semua aplikasi AppImage menyediakan versi arsitektur `i686` (32bit). Umumnya hanya mendukung `x86_64` (64bit) saja.
+[^1] Tergantung dari penyedia perangkat lunaknya, tidak semua perangkat lunak AppImage menyediakan versi arsitektur `i686` (32bit). Umumnya hanya mendukung `x86_64` (64bit) saja.
 
-[^2] Aplikasi tidak bebas (Nonfree) seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung di arsitektur `x86_64-musl` dan hanya tersedia di versi `x86_64` saja. Namun di `x86_64-musl` aplikasi tidak bebas tersebut masih bisa dipasang melalui [Flatpak](../konfigurasi/paket/flatpak.md).
+[^2] Perangkat lunak tidak terbuka seperti driver gpu Nvidia, Spotify, Steam, Skype, Printer Canon, Pycharm, Mendeley tidak mendukung di arsitektur `x86_64-musl` dan hanya tersedia di versi `x86_64` saja. Namun di `x86_64-musl` perangkat lunak tidak terbuka tersebut masih bisa dipasang melalui [Flatpak](../konfigurasi/paket/flatpak.md).
 
 [^3] `x86_64-musl` hanya mendukung wine windows 64bit dan `i686` hanya mendukung 32bit. Sedangkan `x86_64` mendukung keduanya (32bit dan 64bit).

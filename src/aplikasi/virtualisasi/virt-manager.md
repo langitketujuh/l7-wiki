@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-`virt-manager` merupakan aplikasi untuk mengatur virtualisasi secara mudah dengan GUI. Teknologi virtualisasi menggunakan KVM (Kernel Vital Machine) di kernel linux.
+`virt-manager` merupakan perangkat lunak untuk mengatur virtualisasi secara mudah dengan GUI. Teknologi virtualisasi menggunakan KVM (Kernel Vital Machine) di kernel linux.
 
 ## Memasang Virt Manager
 

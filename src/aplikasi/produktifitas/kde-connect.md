@@ -10,7 +10,7 @@ Banyak fitur yang luar biasa dari kde-connect. Tidak hanya berbagi berkas saja, 
 
 - Unduh aplikasi kde-connect di <a href="https://f-droid.org/en/packages/org.kde.kdeconnect_tp/" target="_blank">F-Droid</a> atau di <a href="https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp" target="_blank">PlayStore</a>.
 - Jika menggunakan wifi, gunakan jaringan yang sama. Tetapi jika tidak ada jaringan wifi, aktifkan hotspot smartphone. kemudian aktifkan wifi komputer lalu sambungkan ke smartphone.
-- Buka aplikasi kde-connect di komputer dan di smartphone.
+- Buka perangkat lunak kde-connect di komputer dan di smartphone.
 
 ## Penggunaan
 

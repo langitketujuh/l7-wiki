@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Bertujuan untuk mengintegrasikan aplikasi kget dengan Firefox browser.
+Bertujuan untuk mengintegrasikan perangkat lunak kget dengan Firefox browser.
 
 ## Memasang Kget Integrator
 

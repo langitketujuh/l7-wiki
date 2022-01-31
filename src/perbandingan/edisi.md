@@ -2,7 +2,7 @@
 
 ## Lite
 
-Pada dasarnya Edisi Lite digunakan untuk rumahan dan tidak difokuskan ke bidang desain grafis, sehingga aplikasinya tidak banyak yang diikutsertakan. Edisi Lite dapat di unduh secara gratis di halaman <a href="https://langitketujuh.id/os/unduh" target="_blank">unduh OS</a>.
+Pada dasarnya Edisi Lite digunakan untuk rumahan dan tidak difokuskan ke bidang desain grafis, sehingga perangkat lunaknya tidak banyak yang diikutsertakan. Edisi Lite dapat di unduh secara gratis di halaman <a href="https://langitketujuh.id/os/unduh" target="_blank">unduh OS</a>.
 
 ## Studio
 
@@ -10,7 +10,7 @@ Sedangkan Edisi Studio, ditujukan untuk kebutuhan profesional dan lanjutan. Terd
 
 Yuk dukung terus projek LangitKetujuh OS dengan menggunakan edisi studio dan <a href="https://langitketujuh.id/donasi" target="_blank">membantu kami melalui donasi</a> agar projek ini selalu bermanfaat dan berkembang.
 
-Tahukah Anda, bahwa Indonesia merupakan negara yang cukup tinggi atas penggunaan perangkat lunak ilegal. Jika Anda menggunakan perangkat lunak bebas seperti LangitKetujuh OS berarti Anda ikut serta dalam meningkatkan penggunaan perangkat lunak yang aman dan legal.
+Tahukah Anda, bahwa Indonesia merupakan negara yang cukup tinggi atas penggunaan perangkat lunak ilegal. Jika Anda menggunakan perangkat lunak terbuka seperti LangitKetujuh OS berarti Anda ikut serta dalam meningkatkan penggunaan perangkat lunak yang aman dan legal.
 
 ## Tabel Perbandingan
 
@@ -24,7 +24,7 @@ Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
 | Gimp manipulasi foto.                   | **√** | **√**  |
 | Inkscape pengolah vektor.               | **√** | **√**  |
 | KDE-Connect sinkron perangkat.          | **√** | **√**  |
-| Libreoffice paket aplikasi perkantoran. | **√** | **√**  |
+| Libreoffice paket perangkat lunak perkantoran. | **√** | **√**  |
 | PipeWire Audio Server.                  | **√** | **√**  |
 | V4l2loopback Virtual kamera.            | **√** | **√**  |
 | Akses ISO terbaru _[^1]_                |   -   | **√**  |

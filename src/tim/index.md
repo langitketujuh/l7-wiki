@@ -32,9 +32,9 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 
 ## Konten kreator dan Ilustrator (005)
 
-* Memahami desain grafis dengan perangkat lunak bebas.
+* Memahami desain grafis dengan perangkat lunak terbuka.
 * Membuat Konten edukasi dan kreatif untuk sosial media.
-* Memahami jenis perangkat lunak bebas dan tidak bebas (proprietary).
+* Memahami jenis perangkat lunak terbuka dan tidak terbuka (proprietary).
 
 ## Dukungan layanan (006)
 
@@ -44,9 +44,9 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 * Memahami mbr dan gpt.
 * Memahami legacy dan UEFI.
 * Memahami pemartisian dan jenis file system.
-* Memahami desain grafis dengan perangkat lunak bebas.
+* Memahami desain grafis dengan perangkat lunak terbuka.
 * Memahami sistem dan pengaturan KDE plasma.
-* Memahami jenis perangkat lunak bebas dan tidak bebas (proprietary).
+* Memahami jenis perangkat lunak terbuka dan tidak terbuka (proprietary).
 
 ## Maintener (007)
 
@@ -55,9 +55,9 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 * Memahami dasar Markdown.
 * Memahami Git dan Gitlab.
 * Memahami CI/CD Netlify.
-* Memahami jenis perangkat lunak bebas dan tidak bebas (proprietary).
+* Memahami jenis perangkat lunak terbuka dan tidak terbuka (proprietary).
 * Mengelola dan membantu menjahit kode sumber repositori LangitKetujuh.
-* Dapat memaketkan aplikasi ke xbps.
+* Dapat memaketkan perangkat lunak ke xbps.
 
 # Kirim
 

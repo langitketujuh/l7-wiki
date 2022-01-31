@@ -1,7 +1,7 @@
 # Bootable di Windows
 
 Ketika membuat bootable USB pastikan data penting di dalam flasdisk sudah dicadangkan ke disk eksternal atau cloud agar aman.
-Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
+Anda dapat membuat bootable USB dengan salah satu perangkat lunak dibawah ini.
 
 ## Ventoy (disarankan)
 
@@ -10,7 +10,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 - Unduh Ventoy versi windows, misalnya `ventoy-x.x.x-windows.zip`.
 - Setelah selesai mengunduh, klik kanan pilih `Extract Here`.
 - Masuk ke folder `ventoy-x.x.x`.
-- Jalankan aplikasi via Administrator `Ventoy2Disk.exe` dengan mengklik dua kali.
+- Jalankan perangkat lunak via Administrator `Ventoy2Disk.exe` dengan mengklik dua kali.
 - Pada bagian Device pilih nama flasdisk. Misalnya `F: [4GB] Sandisk`.
 - Klik `Install`.
 - Jika muncul peringatan, klik `Yes` dua kali.
@@ -23,7 +23,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 <a href="https://rufus.ie/en/#download" target="_blank">Unduh Rufus</a>
 
 - Pilih versi terbaru. Misalnya `Rufus x.xx`.
-- Jalankan aplikasi via Administrator `rufus-x.x.exe`, klik 2 kali.
+- Jalankan perangkat lunak via Administrator `rufus-x.x.exe`, klik 2 kali.
 - Klik pada kolom `Device`, pilih flashdisk yang akan dijadikan bootable.
 - Klik pada kolom `Boot Selection`, pilih `Disk or ISO Image`.
 - Klik `SELECT`, pilih iso langitketujuh.
@@ -39,7 +39,7 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 
 - Klik `for Windows` untuk mengunduh versi windows.
 - Setelah selesai mengunduh, klik kanan pilih `Extract Here`.
-- Jalankan aplikasi via Administrator `RosaImageWriter.exe`, klik 2 kali.
+- Jalankan perangkat lunak via Administrator `RosaImageWriter.exe`, klik 2 kali.
 - Klik pada kolom `Image`.
 - Pilih iso langitketujuh.
 - Klik pada kolom `USB Device`.
@@ -49,4 +49,4 @@ Anda dapat membuat bootable USB dengan salah satu aplikasi dibawah ini.
 
 ## Balena Etcher
 
-Ukuran berkas Etcher terlalu besar, kami tidak direkomendasikannya karena ukuran aplikasi melebihi 100Mb.
+Ukuran berkas Etcher terlalu besar, kami tidak direkomendasikannya karena ukuran perangkat lunak melebihi 100Mb.

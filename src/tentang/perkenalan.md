@@ -2,9 +2,9 @@
 
 ## Motivasi
 
-Amar ma’ruf nahi munkar, mengajak kepada kebaikan dan mencegah keburukan. Menggunakan perangkat lunak yang tidak bebas yang sebagian besar mahal dan berat, alangkah baiknya niatan untuk menggunakan, membeli atau berlangganan perangkat lunak tersebut ditunda atau dibatalkan. Sebab lebih baik untuk ditabung atau disedekahkan kepada yang lebih membutuhkan. Tetapi itu kembali kepada kebutuhan pribadi masing-masing.
+Amar ma’ruf nahi munkar, mengajak kepada kebaikan dan mencegah keburukan. Menggunakan perangkat lunak yang tidak terbuka yang sebagian besar mahal dan berat, alangkah baiknya niatan untuk menggunakan, membeli atau berlangganan perangkat lunak tersebut ditunda atau dibatalkan. Sebab lebih baik untuk ditabung atau disedekahkan kepada yang lebih membutuhkan. Tetapi itu kembali kepada kebutuhan pribadi masing-masing.
 
-Sebagian besar perangkat lunak editing yang dibawa oleh Distribusi LangitKetujuh adalah 100% bebas. Sehingga Anda tidak perlu berlangganan atau membeli perangkat lunak yang tidak bebas atau yang kita kenal dengan istilah proprietary.
+Sebagian besar perangkat lunak editing yang dibawa oleh Distribusi LangitKetujuh adalah 100% bebas. Sehingga Anda tidak perlu berlangganan atau membeli perangkat lunak yang tidak terbuka atau yang kita kenal dengan istilah proprietary.
 
 ## Nama Distribusi
 
@@ -31,4 +31,4 @@ Distribusi LangitKetujuh pada dasarnya ditujukan untuk perorangan atau lembaga y
 
 Kami menggunakan tampilan antarmuka <a href="https://kde.org/plasma-desktop" target="_blank">KDE Plasma</a> yang lebih familiar oleh pengguna yang baru mengenal distribusi linux.
 
-Berbagai aplikasi desain kebanyakan menggunakan QT framework. Seperti krita, kdenlive, scribus, fontforge, synfigstudio, opentoonz, dan masih banyak lagi yang mendukung KDE Plasma (Qt). Namun beberapa aplikasi desain gtk juga sudah dimasukkan seperti Inkscape dan GIMP.
+Berbagai perangkat lunak desain kebanyakan menggunakan Qt framework. Seperti krita, kdenlive, scribus, fontforge, synfigstudio, opentoonz, dan masih banyak lagi yang mendukung KDE Plasma (Qt). Namun beberapa perangkat lunak desain gtk juga sudah dimasukkan seperti Inkscape dan GIMP.

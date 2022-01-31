@@ -1,8 +1,8 @@
-# WineHQ Penggerak Aplikasi Windows
+# WineHQ Penggerak Perangkat Lunak Windows
 
 ## Deskripsi
 
-<a href="https://www.winehq.org/" target="_blank">WineHQ</a> adalah lapisan kompatibilitas yang mampu menjalankan aplikasi Windows pada beberapa sistem operasi yang sesuai dengan POSIX, seperti Linux, macOS, & BSD. Cara kerjanya yaitu dengan mensimulasikan logika Windows internal seperti mesin virtual atau emulator, Wine menerjemahkan panggilan API Windows ke panggilan POSIX saat itu juga, menghilangkan penalti kinerja dan memori dari metode lain dan memungkinkan pengguna untuk mengintegrasikan aplikasi Windows ke desktop dengan rapi.
+<a href="https://www.winehq.org/" target="_blank">WineHQ</a> adalah lapisan kompatibilitas yang mampu menjalankan perangkat lunak Windows pada beberapa sistem operasi yang sesuai dengan POSIX, seperti Linux, macOS, & BSD. Cara kerjanya yaitu dengan mensimulasikan logika Windows internal seperti mesin virtual atau emulator, Wine menerjemahkan panggilan API Windows ke panggilan POSIX saat itu juga, menghilangkan penalti kinerja dan memori dari metode lain dan memungkinkan pengguna untuk mengintegrasikan perangkat lunak Windows ke desktop dengan rapi.
 
 ## Memasang repositori multilib
 

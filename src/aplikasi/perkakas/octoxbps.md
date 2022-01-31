@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Perangkat lunak berbasis QT5 untuk memasang dan menghapus paket dengan tampilan visual GUI, sehingga memudahkan pengguna dalam mengelola paketnya. Selain itu, pengguna juga dapat melihat informasi dan daftar isi berkas dari paket yang dipilih serta menghapus cache paket yang telah kedaluwarsa.
+Perangkat lunak berbasis Qt5 untuk memasang dan menghapus paket dengan tampilan visual GUI, sehingga memudahkan pengguna dalam mengelola paketnya. Selain itu, pengguna juga dapat melihat informasi dan daftar isi berkas dari paket yang dipilih serta menghapus cache paket yang telah kedaluwarsa.
 
 ![OctoXBPS LangitKetujuh OS](../../media/image/octoxbps-langitketujuh-id.webp)
 

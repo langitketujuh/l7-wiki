@@ -48,14 +48,14 @@ Pasang Driver printer brother.
 doas xbps-install brother-brlaser
 ```
 
-Beberapa driver hanya tersedia di glibc saja, karena driver yang tidak bebas.
+Beberapa driver hanya tersedia di glibc saja, karena driver yang tidak terbuka.
 
-Perintah                          | Deskripsi
- :---                             | :---
-`doas xbps-install brother-brscan3`             | SANE scanner driver for brscan3-compatible Brother scanners
-`doas xbps-install brother-brscan4`             | SANE scanner driver for brscan4-compatible printers
-`doas xbps-install brother-dcp197c-cupswrapper` | CUPS wrapper driver for the brother DCP-197C printer/scanner
-`doas xbps-install brother-dcp197c-lpr`         | LPR driver for the brother DCP-197C printer/scanner
+| Perintah                                        | Deskripsi                                                    |
+| :---------------------------------------------- | :----------------------------------------------------------- |
+| `doas xbps-install brother-brscan3`             | SANE scanner driver for brscan3-compatible Brother scanners  |
+| `doas xbps-install brother-brscan4`             | SANE scanner driver for brscan4-compatible printers          |
+| `doas xbps-install brother-dcp197c-cupswrapper` | CUPS wrapper driver for the brother DCP-197C printer/scanner |
+| `doas xbps-install brother-dcp197c-lpr`         | LPR driver for the brother DCP-197C printer/scanner          |
 
 Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 

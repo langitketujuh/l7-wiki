@@ -2,7 +2,7 @@
 
 ## Pengertian
 
-Samba merupakan aplikasi cli untuk berbagi direktori dengan pengguna windows.
+Samba merupakan perangkat lunak cli untuk berbagi direktori dengan pengguna windows.
 
 ## Memasang samba
 
