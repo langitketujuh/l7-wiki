@@ -1,10 +1,11 @@
 # Scrcpy Mirroring
 
-![Scrcpy Mirroring LangitKetujuh OS](../../media/image/scrcpy-langitketujuh-id.webp)
 
 ## Deskripsi
 
 `scrcpy` berguna untuk melihat dan mengontrol perangkat dengan pencerminan layar perangkat smartphone ke layar monitor desktop.
+
+![Scrcpy Mirroring LangitKetujuh OS](../../media/image/scrcpy-langitketujuh-id.webp)
 
 ## Cara Memasang Scrcpy
 
@@ -20,7 +21,7 @@ Pastikan layanan adb sudah aktif. Cek dengan perintah ini:
 doas vsv status adb
 ```
 
-Apabila bewarna hijau dengan label `run` maka adb sedang berjalan. Jika belum berjalan maka aktifkan dengan perintah ini:
+Apabila bewarna hijau dengan label `run` maka adb sedang berjalan. Jika belum berjalan, maka aktifkan dengan perintah ini:
 
 ```bash
 doas ln -s /etc/sv/adb /var/service/
@@ -31,8 +32,8 @@ doas ln -s /etc/sv/adb /var/service/
 Setiap perangkat Android memiliki pengaturan yang berbeda-beda tergantung mereknya. Tetapi biasanya masuk di pengaturan developer.
 
 - More Options
-- Developer Options
-- Aktifkan "USB Debugging"
+- Developer `Options`.
+- Aktifkan `USB Debugging`.
 
 ## Menjalankan `scrcpy`
 

@@ -2,7 +2,7 @@
 
 ## Ilustrasi dengan vektor
 
-Inkscape merupakan salah satu perangkat lunak pengolah vektor yang memiliki banyak fitur. Sebagai perangkat lunak cross platform yang dimana tersedia untuk Windows, Mac, BSD, dan Linux (flatpak, appimage, snap) serta tersedia dalam kode sumber. perangkat lunak terbuka ini dikembangkan dari GTK+3 menggunakan bahasa C++ dan Python sebagai program ekstensi tambahan.
+Inkscape merupakan salah satu perangkat lunak pengolah vektor yang memiliki banyak fitur. Sebagai perangkat lunak cross platform yang dimana tersedia untuk Windows, Mac, BSD, dan GNU/Linux (flatpak, appimage, snap) serta tersedia dalam kode sumber. Perangkat lunak terbuka ini dikembangkan dari GTK+3 menggunakan bahasa C++ dan Python sebagai program ekstensi tambahan.
 
 ## Pengaturan tambahan
 
@@ -25,4 +25,4 @@ Beberapa pengaturan inkscape yang ditambahkan di sistem operasi LangitKetujuh ad
 
 ## Dokumentasi
 
-Pengguna dapat belajar dan menjelajahi fitur inkscape melalui halaman [ReadTheDocs](https://inkscape-manuals.readthedocs.io/en/latest) dan di [Wiki inkscape](https://wiki.inkscape.org/wiki/index.php/Inkscape).
+Pengguna dapat belajar dan menjelajahi fitur inkscape melalui halaman [dokumentasi](https://inkscape-manuals.readthedocs.io/en/latest) dan [wiki inkscape](https://wiki.inkscape.org/wiki/index.php/Inkscape).
