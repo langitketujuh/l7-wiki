@@ -17,4 +17,4 @@ Untuk menyesuaikan dengan visual tema dan mempercepat alur kerja, di sistem oper
 
 ## Dokumentasi
 
-Anda dapat belajar dan menjelajahi fitur Blender 3D melalui halaman dokumentasi resminya <https://docs.blender.org>. Anda juga dapat berlangganan konten kreatif para pengembangnya di <https://studio.blender.org>
+Pengguna dapat belajar dan menjelajahi fitur Blender 3D melalui halaman [dokumentasi resmi](https://docs.blender.org) dan dapat berlangganan konten kreatif di [Blender Studio](https://studio.blender.org) untuk mengetahui alur kerja selayaknya profesional.
