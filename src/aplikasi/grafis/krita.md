@@ -4,7 +4,7 @@
 
 Krita merupakan salah satu perangkat lunak yang dikembangkan oleh KDE sebagai pengolah raster yang memiliki banyak fitur. Krita tersedia untuk platform Windows, Mac, BSD, dan GNU/Linux (flatpak, appimage, snap) serta tersedia dalam kode sumber.
 
-Krita pada umumnya digunakan untuk kebutuhan sketsa maupun ilustrasi. Meskipun krita pada dasarnya sebagai pengolah raster, tetapi dapat menangani vektor secara terbatas.
+Krita digunakan untuk kebutuhan sketsa, ilustrasi, komik, tekstur, dan animasi. Meskipun krita pada dasarnya sebagai pengolah raster, tetapi mampu menangani vektor secara terbatas.
 
 ![Krita LangitKetujuh OS](../../media/image/krita-langitketujuh-id.webp)
 
@@ -20,5 +20,7 @@ Beberapa pengaturan krita yang ditambahkan di sistem operasi LangitKetujuh adala
 - Penggulir (scrollbar) disembunyikan.
 
 ## Dokumentasi
+
+Sebelum pengguna belajar krita, pastikan terlebih dahulu bahwa krita bukanlah pengganti perangkat lunak untuk manipulasi grafik. Tetapi sebagai perangkat lunak untuk sketsa, ilustrasi dan pembuat tektur. Dengan demikian, krita ideal untuk pengguna tersebut.
 
 Pengguna dapat belajar dan menjelajahi fitur krita melalui halaman [dokumentasi](https://docs.krita.org/en/index.html).
