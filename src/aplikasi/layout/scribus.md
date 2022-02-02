@@ -1,6 +1,6 @@
 # Scribus
 
-## Desain tata letak
+## Deskripsi
 
 [Scribus](https://www.scribus.net/) merupakan perangkat lunak yang digunakan untuk penerbitan rancangan tata letak pada buku, brosur, poster, kalender, majalah dan bahkan dapat digunakan untuk perindustrian manufaktur. Scribus lebih dikenal sebagai DTP (_desktop publishing_) sebagai keperluan layout halaman profesional. Dari sekian banyaknya perangkat lunak DTP, dapat dikatakan scribus sebagai satu-satunya DTP yang dapat didapatkan secara cuma-cuma.
 
