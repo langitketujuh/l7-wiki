@@ -1,6 +1,6 @@
 # SoundKonverter
 
-## Konversi suara
+## Deskripsi
 
 SoundKonverter merupakan perangkat lunak yang bertujuan mengkonversi format ekstensi audio. Ekstensi yang didukung diantaranya `ogg`, `m4a`, `mp3`, `acc`, `opus`, `ra`, dan lain-lain.
 

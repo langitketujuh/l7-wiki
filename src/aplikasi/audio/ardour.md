@@ -1,6 +1,6 @@
 # Ardour
 
-## Digital audio profesional
+## Deskripsi
 
 [Ardour](https://www.ardour.org/) merupakan perangkat bebas yang digunakan untuk _digital audio workstation_ (DAW) secara profesional dan dibawah lisensi GNU GPLv2.
 

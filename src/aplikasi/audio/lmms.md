@@ -1,6 +1,6 @@
 # LMMS
 
-## Pembuat nada dan efek suara
+## Deskripsi
 
 [LMMS](https://lmms.io/) (Linux Multimedia Studio) adalah perangkat lunak yang memungkinkan pengguna untuk membuat efek ketukan dan campuran suara dengan digital. LMMS tersedia sebagai perangkat lunak cross platform dan berbagai macam instrument plugins yang dapat digunakan oleh pengguna secara bebas.
 

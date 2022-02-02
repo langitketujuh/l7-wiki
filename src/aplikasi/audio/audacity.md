@@ -1,6 +1,6 @@
 # Audacity
 
-## Penyunting sederhana
+## Deskripsi
 
 [Audacity](https://audacityteam.org/) memungkin pengguna untuk memperbaiki kualitas audio. Seperti normalisasi, pengaturan echo, noise reduction dan pengoreksi audio lainnya. Pengguna juga dapat berkreasi dengan suara yang dimiliki sendiri dan ditambahkan efek yang tersedia.
 
