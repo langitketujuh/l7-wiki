@@ -1,6 +1,6 @@
 # DisplayCAL
 
-## Kalibrator warna layar
+## Deskripsi
 
 [DisplayCAL](https://displaycal.net/) merupakan perangkat lunak bebas untuk kalibrasi warna dan profil tampilan yang berfokus pada tingkat akurasi dan keserbagunaan. DisplayCAL menggunakan program adalah [Argyll CMS](http://www.argyllcms.com/) yang merupakan sistem manajemen warna sumber terbuka yang digunakan untuk melakukan pengukuran, membuat profil dan kalibrasi dan melakukan fungsi terkait warna yang lebih maju.
 

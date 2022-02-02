@@ -1,6 +1,5 @@
 # Scrcpy Mirroring
 
-
 ## Deskripsi
 
 `scrcpy` berguna untuk melihat dan mengontrol perangkat dengan pencerminan layar perangkat smartphone ke layar monitor desktop.
