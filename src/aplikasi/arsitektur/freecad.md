@@ -1,6 +1,6 @@
 # FreeCAD
 
-## Desain parametrik 3D
+## Deskripsi
 
 Perangkat lunak [FreeCAD](https://freecadweb.org) merupakan perangkat lunak desain parametrik (ukuran terperinci) 3D yang sepenuhnya terbuka, dibawah lisensi GPL dan LGPL. FreeCAD digunakan untuk teknik mesin, desain produk, keperluan arsitek dan bidang teknik parametrik lainnya.
 

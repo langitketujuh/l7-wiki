@@ -1,6 +1,6 @@
 # LibreCAD
 
-## Menggambar teknik
+## Deskripsi
 
 [LibreCAD](https://librecad.org/) merupakan perangkat lunak pendukung desain 2D untuk menggambar teknik isometrik 3D. Desain antarmuka LibreCAD menggunakan konsep dan analogi dari AutoCAD perangkat lunak komersil.
 
