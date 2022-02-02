@@ -12,4 +12,4 @@ Kdenlive memang sangat direkomendasikan untuk pengguna yang memiliki kreatifitas
 
 ## Dokumentasi
 
-Pengguna dapat menjelajahi setiap fitur dan panduan kdenlive di [dokumentasi manual](https://docs.kdenlive.org/).
+Pengguna dapat menjelajahi setiap fitur dan mempelajari kdenlive di [dokumentasi manual](https://docs.kdenlive.org/).

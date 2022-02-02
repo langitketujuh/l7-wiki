@@ -10,4 +10,4 @@ LibreCAD menggunakan `.dxf` sebagai format utama untuk mengimpor dan mengekspor 
 
 ## Dokumentasi
 
-Pengguna dapat mempelajari lebih lanjut melalui [LibreCAD Wiki](https://dokuwiki.librecad.org/doku.php), sebuah panduan manual dan tutorial bagaimana LibreCAD digunakan.
+Pengguna dapat mempelajari lebih lanjut melalui [LibreCAD wiki](https://dokuwiki.librecad.org/doku.php), sebuah panduan manual dan tutorial bagaimana LibreCAD digunakan.

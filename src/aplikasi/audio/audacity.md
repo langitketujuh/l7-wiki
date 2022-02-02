@@ -10,4 +10,4 @@ Di LangitKetujuh, Audacity menggunakan tema gelap untuk disesuaikan dengan tema 
 
 ## Dokumentasi
 
-Panduan dan tutorial tentang audacity lebih lanjut dapat dipelajari di [Audacity Manual](https://manual.audacityteam.org/) dan [Wiki](https://wiki.audacityteam.org/wiki/Audacity_Wiki_Home_Page).
+Panduan dan tutorial tentang audacity lebih lanjut dapat dipelajari di [dokumentasi manual](https://manual.audacityteam.org/) dan [wiki](https://wiki.audacityteam.org/wiki/Audacity_Wiki_Home_Page) yang sudah disediakan.
