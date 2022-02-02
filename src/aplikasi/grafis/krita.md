@@ -21,6 +21,6 @@ Beberapa pengaturan krita yang ditambahkan di sistem operasi LangitKetujuh adala
 
 ## Dokumentasi
 
-Sebelum pengguna belajar krita, pastikan terlebih dahulu bahwa krita bukanlah pengganti perangkat lunak untuk manipulasi grafik. Tetapi sebagai perangkat lunak untuk sketsa, ilustrasi dan pembuat tektur. Dengan demikian, krita ideal untuk pengguna tersebut.
+Sebagai pengguna awam sebelum mempelajari krita, sebaiknya tanamkan terlebih dahulu ke dalam pola pikir bahwa krita bukanlah pengganti perangkat lunak untuk manipulasi grafik. Melainkan sebagai perangkat lunak untuk sketsa, ilustrasi dan pembuat tektur. Dengan demikian, krita ideal untuk setiap pengguna.
 
 Pengguna dapat belajar dan menjelajahi fitur krita melalui halaman [dokumentasi](https://docs.krita.org/en/index.html).
