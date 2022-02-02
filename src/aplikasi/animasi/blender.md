@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Blender 3D merupakan perangkat lunak yang menggunakan teknik diagonal 3 dimensi yang penuh fitur. Bertujuan untuk membuat objek/aset, hingga produksi animasi yang sederhana maupun realistis.
+Blender 3D merupakan perangkat lunak yang menggunakan teknik diagonal 3 dimensi yang penuh fitur. Bertujuan untuk membuat objek/aset, hingga produksi animasi yang sederhana maupun kompleks dan realistis.
 
 ## Pengaturan tambahan
 
@@ -17,4 +17,4 @@ Untuk menyesuaikan dengan visual tema dan mempercepat alur kerja, di sistem oper
 
 ## Dokumentasi
 
-Pengguna dapat belajar dan menjelajahi fitur Blender 3D melalui halaman [dokumentasi resmi](https://docs.blender.org) dan dapat berlangganan konten kreatif di [Blender Studio](https://studio.blender.org) untuk mengetahui alur kerja selayaknya profesional.
+Pengguna dapat belajar dan menjelajahi fitur Blender 3D melalui halaman [dokumentasi resmi](https://docs.blender.org) dan dapat berlangganan konten kreatif di [Blender Studio](https://studio.blender.org) untuk mengetahui alur kerja selayaknya animator profesional.

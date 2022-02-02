@@ -6,13 +6,13 @@
 
 ![Scrcpy Mirroring LangitKetujuh OS](../../media/image/scrcpy-langitketujuh-id.webp)
 
-## Cara Memasang Scrcpy
+## Cara memasang scrcpy
 
 ```bash
 doas xbps-install android-udev-rules android-tools scrcpy
 ```
 
-## Mengaktifkan layanan ADB
+## Mengaktifkan layanan adb
 
 Pastikan layanan adb sudah aktif. Cek dengan perintah ini:
 
@@ -26,7 +26,7 @@ Apabila bewarna hijau dengan label `run` maka adb sedang berjalan. Jika belum be
 doas ln -s /etc/sv/adb /var/service/
 ```
 
-## Aktifkan USB Debug di Android Smartphone
+## Aktifkan usb debug di android smartphone
 
 Setiap perangkat Android memiliki pengaturan yang berbeda-beda tergantung mereknya. Tetapi biasanya masuk di pengaturan developer.
 

@@ -270,4 +270,4 @@ Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `
 
 ## Pasca pemasangan
 
-Setelah berhasil memasang sistem operasi LangitKetujuh, disarankan untuk [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md) agar memperoleh versi yang terbaru.
+Setelah berhasil memasang sistem operasi LangitKetujuh, disarankan untuk [memperbarui sistem operasi](../../konfigurasi/pembaruan.md) agar memperoleh versi yang terbaru.

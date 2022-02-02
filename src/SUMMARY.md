@@ -75,7 +75,7 @@
     - [AppImage](./konfigurasi/paket/appimage.md)
   - [Multimedia](./konfigurasi/multimedia/index.md)
     - [PipeWire Audio](./konfigurasi/multimedia/pipewire.md)
-  - [Pembaruan Sistem](./konfigurasi/pembaruan/index.md)
+  - [Pembaruan Sistem](./konfigurasi/pembaruan.md)
   - [Shell](./konfigurasi/shell/index.md)
     - [Fish Shell](./konfigurasi/shell/fish.md)
   - [Sistem Tanggal](./konfigurasi/tanggal/index.md)

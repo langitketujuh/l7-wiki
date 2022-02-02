@@ -1,10 +1,10 @@
 # Verifikasi Berkas
 
-Sebelum Anda membuat bootable, disarankan untuk melakukan verifikasi berkas. Tujuannya untuk mengetahui berkas iso yang telah diunduh sudah aman atau tidak. LangitKetujuh telah menyediakan kode hash `SHA256` di <a href="https://langitketujuh.id/os/verifikasi" target="_blank">halaman verifikasi berkas</a>, pastikan kode hash yang di dalamnya sama seperti hasil keluaran hash.
+Sebelum Anda membuat bootable, disarankan untuk melakukan verifikasi berkas. Tujuannya untuk mengetahui berkas iso yang telah diunduh sudah aman atau tidak. LangitKetujuh telah menyediakan kode hash `SHA256` di [halaman verifikasi berkas](https://langitketujuh.id/os/verifikasi), pastikan kode hash yang di dalamnya sama seperti hasil keluaran hash.
 
 ## Windows
 
-Jika Anda menggunakan windows, gunakan perangkat lunak <a href="https://www.binaryfortress.com/Data/Download/?Package=hashtools&Log=100" target="_blank">Hash Tools</a>.
+Jika Anda menggunakan windows, gunakan perangkat lunak [Hash Tools](https://www.binaryfortress.com/Data/Download/?Package=hashtools&Log=100).
 
 - Unduh dan pasang.
 - Klik "Add File" untuk menambahkan iso LangitKetujuh OS.

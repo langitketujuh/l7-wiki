@@ -10,4 +10,4 @@ FontForge mendukung semua format font yang umum seperti TrueType, Bitmap dan Pos
 
 ## Dokumentasi
 
-Pengguna dapat menjelajahi fitur FontForge lebih lanjut di [Dokumentasi](https://fontforge.org/en-US/documentation/) dan [Ebook](http://designwithfontforge.com/) yang tersedia.
+Pengguna dapat menjelajahi fitur FontForge lebih lanjut di [dokumentasi](https://fontforge.org/en-US/documentation/) dan [Ebook](http://designwithfontforge.com/) yang tersedia.

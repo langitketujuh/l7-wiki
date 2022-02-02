@@ -8,7 +8,7 @@ Sistem operasi LangitKetujuh menggunakan rilis bergulir (rolling release) untuk 
 
 Sebelum memperbarui sistem pastikan sudah terhubung dengan jaringan internet. Kemudian perbarui sistem dengan cara mengklik **Update System** di menu favorit seperti dibawah ini.
 
-![Update System LangitKetujuh OS](../../media/image/update-system-langitketujuh-id.webp)
+![Update System LangitKetujuh OS](../media/image/update-system-langitketujuh-id.webp)
 
 Ada 5 tahapan yang dilakukan oleh Update System.
 
@@ -22,9 +22,9 @@ Pembaruan dapat dilakukan saat memiliki waktu senggang saja, atau ketika ingin m
 
 ## OctoXBPS
 
-Pembaruan dapat dilakukan juga melalui [octoxbps](../../aplikasi/perkakas/octoxbps.md) dengan mengklik `Install` di bagian status bar. Adanya paket yang perlu diperbarui terlihat dengan tanda warna merah seperti dibawah ini.
+Pembaruan dapat dilakukan juga melalui [octoxbps](../aplikasi/perkakas/octoxbps.md) dengan mengklik `Install` di bagian status bar. Adanya paket yang perlu diperbarui terlihat dengan tanda warna merah seperti dibawah ini.
 
-![OctoXBPS Update LangitKetujuh OS](../../media/image/octoxbps-update-langitketujuh-id.webp)
+![OctoXBPS Update LangitKetujuh OS](../media/image/octoxbps-update-langitketujuh-id.webp)
 
 Kemudian klik `Yes` untuk menjalankan proses pembaruan sistem.
-![OctoXBPS Update Confirmation LangitKetujuh OS](../../media/image/octoxbps-confirmation-langitketujuh-id.webp)
+![OctoXBPS Update Confirmation LangitKetujuh OS](../media/image/octoxbps-confirmation-langitketujuh-id.webp)

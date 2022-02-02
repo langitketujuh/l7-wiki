@@ -2,13 +2,13 @@
 
 ## Deskripsi
 
-Banyak fitur yang luar biasa dari kde-connect. Tidak hanya berbagi berkas saja, tetapi bisa untuk mengontrol presentasi, multimedia (audio, video, dan volume), mengontrol input, membuka sms melalui kde-connect sms dan menjalankan perintah-perintah tertentu. Tentu, kde-connect adalah perangkat lunak yang bebas iklan.
+Banyak fitur yang luar biasa dari [KDE Connect](https://kdeconnect.kde.org/). Tidak hanya berbagi berkas saja, tetapi bisa untuk mengontrol presentasi, multimedia (audio, video, dan volume), mengontrol input, membuka sms melalui kde-connect sms dan menjalankan perintah-perintah tertentu. Tentu, kde-connect adalah perangkat lunak yang bebas iklan.
 
 ![KDE-Connect LangitKetujuh OS](../../media/image/kde-connect-langitketujuh-id.webp)
 
 ## Pemasangan
 
-- Unduh aplikasi kde-connect di <a href="https://f-droid.org/en/packages/org.kde.kdeconnect_tp/" target="_blank">F-Droid</a> atau di <a href="https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp" target="_blank">PlayStore</a>.
+- Unduh aplikasi kde-connect di [F-Droid](https://f-droid.org/en/packages/org.kde.kdeconnect_tp/) atau di [PlayStore](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp).
 - Jika menggunakan wifi, gunakan jaringan yang sama. Tetapi jika tidak ada jaringan wifi, aktifkan hotspot smartphone. kemudian aktifkan wifi komputer lalu sambungkan ke smartphone.
 - Buka perangkat lunak kde-connect di komputer dan di smartphone.
 

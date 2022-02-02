@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-[OpenToonz](https://opentoonz.github.io/e/) merupakan perangkat lunak terbuka yang digunakan sebagai pengolah animasi dua dimensi berbasis raster. Perangkat lunak OpenToonz berbasis dari perangkat lunak [Toonz](http://www.toonz.com/) yang dikembangkan di italia oleh [Digital Video S.p.A](https://www.digitalvideo.biz). Serta dikembangkan oleh [Studio Ghibli jepang](https://www.ghibli.jp/) dan digunakan bertahun-tahun. Kemudian [Dwango](http://dwango.co.jp/english/) merilis proyek OpenToonz dengan kontribusi dari Digital Video dan Studio Ghibli.
+[OpenToonz](https://opentoonz.github.io/e/) merupakan perangkat lunak terbuka yang digunakan sebagai pengolah animasi dua dimensi berbasis raster. OpenToonz berbasis dari perangkat lunak [Toonz](http://www.toonz.com/) yang dikembangkan di italia oleh [Digital Video S.p.A](https://www.digitalvideo.biz) serta dikembangkan oleh [Studio Ghibli jepang](https://www.ghibli.jp/) yang sudah digunakannya bertahun-tahun. Kemudian [Dwango](http://dwango.co.jp/english/) merilis proyek OpenToonz dengan kontribusi dari Digital Video dan Studio Ghibli.
 
 Meskipun berbasis raster, OpenToonz juga kompatibel dengan animasi vektor. Kode sumber OpenToonz dapat dimodifikasi secara bebas, pengguna dapat menggunakannya baik untuk keperluan personal dan proyek komersil. OpenToonz juga dapat digunakan oleh studio indi, studio profesional, dan untuk keperluan edukasi multimedia.
 

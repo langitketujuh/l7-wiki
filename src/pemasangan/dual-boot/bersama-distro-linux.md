@@ -301,11 +301,11 @@ Tunggu proses hingga selesai hingga ada perintah untuk melakukan reboot. Pilih `
 
 ## Pasca pemasangan
 
-Setelah berhasil memasang sistem operasi LangitKetujuh, disarankan untuk [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md) agar memperoleh versi yang terbaru.
+Setelah berhasil memasang sistem operasi LangitKetujuh, disarankan untuk [memperbarui sistem operasi](../../konfigurasi/pembaruan.md) agar memperoleh versi yang terbaru.
 
 ## Mendeteksi distribusi GNU/linux lain
 
-Untuk menampilkan distribusi GNU/Linux lain di grub menu dapat dilakukan dengan cara [memperbarui sistem operasi](../../konfigurasi/pembaruan/index.md), maka secara otomatis akan menampilkan daftar grub LangitKetujuh dengan distribusi lain ketika direboot kembali.
+Untuk menampilkan distribusi GNU/Linux lain di grub menu dapat dilakukan dengan cara [memperbarui sistem operasi](../../konfigurasi/pembaruan.md), maka secara otomatis akan menampilkan daftar grub LangitKetujuh dengan distribusi lain ketika direboot kembali.
 
 Cara lainnya dengan menjalankan perintah dibawah ini di konsole.
 

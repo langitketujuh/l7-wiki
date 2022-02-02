@@ -29,6 +29,6 @@ Distribusi LangitKetujuh pada dasarnya ditujukan untuk perorangan atau lembaga y
 
 ## Tampilan yang familiar
 
-Kami menggunakan tampilan antarmuka <a href="https://kde.org/plasma-desktop" target="_blank">KDE Plasma</a> yang lebih familiar oleh pengguna yang baru mengenal distribusi linux.
+Kami menggunakan tampilan antarmuka [KDE Plasma](https://kde.org/plasma-desktop) yang lebih familiar oleh pengguna yang baru mengenal distribusi linux.
 
 Berbagai perangkat lunak desain kebanyakan menggunakan Qt framework. Seperti krita, kdenlive, scribus, fontforge, synfigstudio, opentoonz, dan masih banyak lagi yang mendukung KDE Plasma (Qt). Namun beberapa perangkat lunak desain gtk juga sudah dimasukkan seperti Inkscape dan GIMP.

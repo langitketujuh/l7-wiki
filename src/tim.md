@@ -1,8 +1,8 @@
 # Para Tim ✨
 
-* <a href="https://t.me/hervyqa" target="_blank">Hervy Qurrotul Ainur Rozi</a> (Pengembang, Pemelihara, Pemaket, & Desainer)
-* <a href="https://t.me/ihsansyauqiadn" target="_blank">Ihsan Syauqi Adn</a> (Administrasi & Pendukung layanan)
-* <a href="https://t.me/JauzaaPrabaswara" target="_blank">Jauzaa Wahyu Prabaswara</a> (Teknisi & Pendukung layanan)
+* [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa) (Pengembang, Pemelihara, Pemaket, & Desainer)
+* [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn) (Administrasi & Pendukung layanan)
+* [Jauzaa Wahyu Prabaswara](https://t.me/JauzaaPrabaswara) (Teknisi & Pendukung layanan)
 * (Selanjutnya bisa jadi Anda)
 
 # Mau bergabung?

@@ -27,4 +27,14 @@ Kami menyarankan jika sistem bios Anda mendukung UEFI maka gunakanlah UEFI, kare
 
 ## Legacy
 
-Jika keluaran dari `efibootmgr` adalah `EFI variables are not supported on this system.` Maka bootmode menggunakan legacy dan itu sudah benar. Secara bawaan legacy tidak perlu memeriksa boot mode, karena pemeriksaan boot mode pada tahap ini digunakan untuk UEFI saja.
+Periksa boot mode di `konsole`.
+
+```
+efibootmgr
+```
+
+Jika hasilnya ada keluaran seperti dibawah ini, maka bootmode menggunakan mode legacy dan itu sudah benar.
+
+```
+EFI variables are not supported on this system
+```

@@ -4,7 +4,7 @@ Kunjungi <https://panduan.langitketujuh.id>.
 
 ## Memasang dependensi
 
-Kode sumber dokumentasi ini menggunakan <a href="https://rust-lang.github.io/mdBook/" target="_blank">mdBook</a> sebagai generatornya.
+Kode sumber dokumentasi ini menggunakan [mdBook](https://rust-lang.github.io/mdBook/) sebagai generatornya.
 
 * Memasang di langitketujuh/voidlinux:
 
@@ -48,4 +48,4 @@ Hasil render berada di `book/html/`.
 
 ## Template mdbook starter
 
-Template mdbook starter bisa Anda lihat di <a href="https://gitlab.com/langitketujuh/mdbook.git" target="_blank">template mdbook</a>. Demontrasinya <https://mdbook.langitketujuh.id>
+Template mdbook starter bisa Anda lihat di [template mdbook](https://gitlab.com/langitketujuh/mdbook.git). Demontrasinya <https://mdbook.langitketujuh.id>

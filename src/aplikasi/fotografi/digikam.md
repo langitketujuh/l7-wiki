@@ -14,4 +14,4 @@ Dukungan 110 perangkat lebih, dukungan 900 format RAW, dan fitur lainnya, digiKa
 
 ## Dokumentasi
 
-Pengguna dapat mempelajari digiKam lebih lanjut melalui [Dokumentasi](https://www.digikam.org/documentation/) dan [Ebook Profesional](https://www.digikam.org/recipes_book/).
+Pengguna dapat mempelajari digiKam lebih lanjut melalui [dokumentasi](https://www.digikam.org/documentation/) dan [Ebook Profesional](https://www.digikam.org/recipes_book/).

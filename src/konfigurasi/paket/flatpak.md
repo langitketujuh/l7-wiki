@@ -14,7 +14,7 @@ https://dl.flathub.org/repo/flathub.flatpakrepo
 
 ## Memasang perangkat lunak
 
-Pasanglah perangkat lunak yang Anda butuhkan. Ketik `y` untuk melanjutkan pemasangan perangkat lunak. perangkat lunak lainnya bisa Anda dapatkan di <a href="https://flathub.org/" target="_blank">website resmi flathub</a>.
+Pasanglah perangkat lunak yang Anda butuhkan. Ketik `y` untuk melanjutkan pemasangan perangkat lunak. perangkat lunak lainnya bisa Anda dapatkan di [website resmi flathub](https://flathub.org/).
 
 | Perangkat lunak   | Perintah memasang                                               |
 | :---------------- | :-------------------------------------------------------------- |

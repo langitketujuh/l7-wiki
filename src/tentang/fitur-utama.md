@@ -4,7 +4,7 @@
 Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (rilis bergulir).
 
 ## Rilis Bergulir
-Berisi perangkat lunak rilis bergulir _(<a href="https://id.wikipedia.org/wiki/Rilis_bergulir" target="_blank">rolling release</a>)_ dengan versi stabil terbaru. Setiap rilis terbaru tidak diharuskan untuk memasang ulang, hanya memerlukan pembaruan seperti biasanya secara otomatis menggunakan versi yang terbaru.
+Berisi perangkat lunak rilis bergulir _([rolling release](https://id.wikipedia.org/wiki/Rilis_bergulir))_ dengan versi stabil terbaru. Setiap rilis terbaru tidak diharuskan untuk memasang ulang, hanya memerlukan pembaruan seperti biasanya secara otomatis menggunakan versi yang terbaru.
 
 ## Musl Libc
 Tersedia libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil perangkat lunak semakin cepat. Perbedaan antara musl dan glibc bisa Anda simak di [tautan ini](../perbandingan/libc.md).
@@ -37,4 +37,4 @@ Secara bawaan tampilan tema menggunakan versi gelap agar membuat nyaman dan meny
 Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara lite dan pro? Anda bisa mengunjungi [tautan ini](../perbandingan/edisi.md).
 
 ## Dukungan Instalasi (Studio)
-Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui <a href="https://t.me/langitketujuh_bot" target="_blank">layanan via Telegram</a> atau [surel](mailto:langitketujuh.id@pm.me).
+Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [layanan via Telegram](https://t.me/langitketujuh_bot) atau [surel](mailto:langitketujuh.id@pm.me).
