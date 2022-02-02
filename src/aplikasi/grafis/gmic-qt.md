@@ -1,6 +1,6 @@
 # GMIC-Qt
 
-## Plugin pengolah gambar
+## Deskripsi
 
 [GMIC](https://gmic.eu/download.html) berasal dari akronim _GREYC's Magic for Image Computing_ merupakan program tambahan sebagai pengolah dan pemroses gambar raster secara instan. Sedangkan Qt merupakan teknologi tampilan antarmuka modern yang digunakan oleh KDE. GMIC-Qt dapat diintegrasikan dengan perangkat lunak editor gambar lainnya seperti [GIMP](gimp.md) dan [Krita](krita.md).
 

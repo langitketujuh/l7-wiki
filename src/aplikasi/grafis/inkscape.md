@@ -1,6 +1,6 @@
 # Inkscape
 
-## Ilustrasi dengan vektor
+## Deskripsi
 
 Inkscape merupakan salah satu perangkat lunak pengolah vektor yang memiliki banyak fitur. Sebagai perangkat lunak cross platform yang dimana tersedia untuk Windows, Mac, BSD, dan GNU/Linux (flatpak, appimage, snap) serta tersedia dalam kode sumber. Perangkat lunak terbuka ini dikembangkan dari GTK+3 menggunakan bahasa C++ dan Python sebagai program ekstensi tambahan.
 

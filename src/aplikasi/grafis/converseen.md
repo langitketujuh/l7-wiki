@@ -1,6 +1,6 @@
 # Converseen
 
-## Konversi gambar
+## Deskripsi
 
 [Converseen](https://converseen.fasterland.net/) merupakan perangkat lunak untuk mengkonversi gambar secara satuan atau bersamaan (batch). Converseen dikembangkan dengan bahasa C++ dan pustaka Qt5 untuk tampilan desktopnya.
 

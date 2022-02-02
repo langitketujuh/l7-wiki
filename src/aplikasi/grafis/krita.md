@@ -1,6 +1,6 @@
 # Krita
 
-## Ilustrasi dengan raster
+## Deskripsi
 
 Krita merupakan salah satu perangkat lunak yang dikembangkan oleh KDE sebagai pengolah raster yang memiliki banyak fitur. Krita tersedia untuk platform Windows, Mac, BSD, dan GNU/Linux (flatpak, appimage, snap) serta tersedia dalam kode sumber.
 

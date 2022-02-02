@@ -1,6 +1,6 @@
 # GIMP
 
-## Manipulasi grafik berbasis raster
+## Deskripsi
 
 [GIMP](https://www.gimp.org/) merupakan akronim dari GNU Image Manipulation Program yang dikembangkan dan didistribusikan secara bebas ke berbagai platform. Seperti GNU/Linux, Windows, MacOS dan BSD. GIMP sangat diminati oleh praktisi desain grafis sebagai pengolah grafis berbasis raster.
 

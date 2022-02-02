@@ -1,6 +1,6 @@
 # Hugin Panorama Creator
 
-## Digital foto panorama
+## Deskripsi
 
 [Hugin](http://hugin.sourceforge.net/) merupakan perangkat lunak terbuka untuk distribusi _cross platform_, seperti GNU/Linux, MacOS, Windows, dan BSD. Hugin digunakan untuk membuat foto panorama hingga foto 360°. Tekniknya seperti menambal/menjahit foto sehingga tampak foto yang menyambung.
 
