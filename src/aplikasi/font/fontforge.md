@@ -1,6 +1,6 @@
 # FontForge
 
-## Font editor handal
+## Deskripsi
 
 [FontForge](https://fontforge.org/) merupakan perangkat lunak terbuka untuk menyunting, memodifikasi, mengkonversi dan merancang font yang sesuai dengan kreatifitas pengguna.
 
