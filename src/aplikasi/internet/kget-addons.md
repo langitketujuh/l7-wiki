@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Bertujuan untuk mengintegrasikan perangkat lunak kget dengan Firefox browser.
+Program tambahan ini bertujuan untuk mengintegrasikan perangkat lunak kget dengan Firefox browser, sehingga berkas yang diunduh melalui firefox akan terunduh otomatis dengan kget.
 
 ## Memasang Kget Integrator
 
