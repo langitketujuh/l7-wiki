@@ -1,6 +1,6 @@
 # DigiKam
 
-## Manajemen foto
+## Deskripsi
 
 [DigiKam](https://www.digikam.org/) merupakan perangkat lunak terbuka yang digunakan untuk mengelola, menyunting dan berbagi berkas foto. Dengan digiKam memungkinkan pengguna untuk mentransfer dan memproses berkas foto dari kamera dengan lebih cepat.
 

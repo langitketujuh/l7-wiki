@@ -1,6 +1,6 @@
 # RawTherapee
 
-## Pemroses foto RAW
+## Deskripsi
 
 [RawTherapee](https://rawtherapee.com/) merupakan perangkat lunak terbuka yang digunakan untuk mengelola foto RAW (mentah), termasuk memperbaiki pencahayaan, warna, kontras, kedalaman, dan bayangan dalam foto.
 
