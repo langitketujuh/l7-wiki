@@ -1,6 +1,6 @@
 # Godot
 
-## Mesin permainan multi platform
+## Deskripsi
 
 [Godot](https://godotengine.org) merupakan perangkat lunak untuk merancang dan mengembangkan video game 2D dan 3D, dibawah lisensi MIT dan tersedia untuk berbagai platform. Godot dikembangkan oleh komunitas yang antusias dari berbegai negara.
 
