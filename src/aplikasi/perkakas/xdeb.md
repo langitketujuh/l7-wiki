@@ -1,8 +1,12 @@
 # XDEB Konverter
 
-`XDEB` merupakan perkakas CLI sederhana untuk mengkonversi berkas `.deb` ke `.xbps`.
+[XDEB](https://github.com/toluschr/xdeb) merupakan perkakas CLI sederhana untuk mengkonversi berkas `.deb` ke `.xbps`. Tetapi kami tidak menyarankan memasang suatu perangkat lunak yang terdapat pustaka systemd init, bisa berakibat fatal jika dipasang ke sistem operasi dengan runit init ini seperti di LangitKetujuh.
 
-## Cara Memasang Xdeb
+Sebelum memasang dari `deb`, pastikan terlebih dahulu perangkat lunak tersebut tidak ada di [xbps](../../konfigurasi/paket/xbps.md), [vpsm](../../konfigurasi/paket/vpsm.md) dan [flatpak](../../konfigurasi/paket/flatpak.md). Jika ada, sebaiknya memasang dari paket manajer tersebut.
+
+XDEB sendiri hanya bisa dipasang untuk arsitektur [x86_64](../../perbandingan/arsitektur.md) saja.
+
+## Cara memasang
 
 ```bash
 doas curl -s https://raw.githubusercontent.com/toluschr/xdeb/master/xdeb -o /usr/bin/xdeb
@@ -10,21 +14,20 @@ doas chmod +x /usr/bin/xdeb
 doas xbps-install -Sy xz
 ```
 
-## Cara Konversi dan Memasang perangkat lunak
+## Cara konversi
 
-* Unduh dahulu berkas `aplikasi-1.2.3.deb` (sebagai contoh), Lalu cut aplikasinya.
-* Buat direktori baru dengan nama `Deb` (sebagai contoh) dan buka direktorinya.
-* Letakkan (paste) file `aplikasi-1.2.3.deb` ke dalam direktori `Deb`.
-* Klik kanan `Open Terminal Here` untuk membuka terminal di direktori saat ini.
-* Konversi perangkat lunak `deb` ke `xbps`
+- Buat direktori baru dengan nama `XBPS` (sebagai contoh).
+- Pindahkan berkas `.deb` yang diinginkan ke direktori tersebut, lalu masuk ke `XBPS`.
+- Klik kanan `Open Terminal Here` untuk membuka terminal di direktori saat ini.
+- Kemudian konversi berkas deb.
 ```bash
 # xdeb -Sed <nama berkas perangkat lunak deb>
-xdeb -Sed aplikasi-1.2.3.deb
+xdeb -Sed aplikasi-1.2.deb
 ```
-* Memasang perangkat lunak. Biasanya ada petunjuk nama paket di akhir baris (misalnya `aplikasi-1.2.3_1`) setelah sukses mengkonversi `.deb`
+- Setelah berhasil konversi ada petunjuk nama paket di akhir baris, misalnya `aplikasi-1.2_1`. Kemudian pasang perangkat lunak tersebut.
 
 ```bash
 # doas xbps-install -R binpkgs <nama perangkat lunak xbps>
-doas xbps-install -R binpkgs aplikasi-1.2.3_1
+doas xbps-install -R binpkgs aplikasi-1.2_1
 ```
-* Selesai.
+- Proses pemasangan telah selesai.
