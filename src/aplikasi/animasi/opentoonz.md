@@ -1,6 +1,6 @@
 # Opentoonz
 
-## Animasi berbasis raster
+## Deskripsi
 
 [OpenToonz](https://opentoonz.github.io/e/) merupakan perangkat lunak terbuka yang digunakan sebagai pengolah animasi dua dimensi berbasis raster. Perangkat lunak OpenToonz berbasis dari perangkat lunak [Toonz](http://www.toonz.com/) yang dikembangkan di italia oleh [Digital Video S.p.A](https://www.digitalvideo.biz). Serta dikembangkan oleh [Studio Ghibli jepang](https://www.ghibli.jp/) dan digunakan bertahun-tahun. Kemudian [Dwango](http://dwango.co.jp/english/) merilis proyek OpenToonz dengan kontribusi dari Digital Video dan Studio Ghibli.
 
