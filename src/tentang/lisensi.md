@@ -1,6 +1,6 @@
 # Lisensi
 
-Situs web panduan ini dan <a href="https://gitlab.com/langitketujuh/l7-docs" target="_blank">kode sumbernya</a> berada dibawah lisensi <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.id" target="_blank">Atribusi-BerbagiSerupa 4.0 Internasional (CC BY-SA 4.0)</a>.
+[Kode sumber](https://gitlab.com/langitketujuh/l7-docs) dari situs panduan ini berada dibawah lisensi [GNU General Public License v3.0](https://gitlab.com/langitketujuh/l7-docs/-/blob/master/LICENSE) dan semua kontennya berada dibawah lisensi [Atribusi-BerbagiSerupa 4.0 Internasional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.id).
 
 Maka dengan lisensi ini Anda diperbolehkan untuk:
 
