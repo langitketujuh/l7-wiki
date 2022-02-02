@@ -144,5 +144,5 @@
   - [Masalah Umum XBPS](./permasalahan/xbps.md)
 
 ---
-- [Para Pendukung](./pendukung/index.md)
-- [Tim Kami](./tim/index.md)
+- [Para Pendukung](./pendukung.md)
+- [Tim Kami](./tim.md)
