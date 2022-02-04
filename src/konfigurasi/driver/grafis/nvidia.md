@@ -23,10 +23,11 @@ inxi -G
 
 Pasang dengan menyesuaikan nomer seri driver kartu grafis.
 
-| **Perintah**                  | **Seri Driver** |
-| :---------------------------- | :-------------- |
-| `doas xbps-install nvidia390` | 400/500         |
-| `doas xbps-install nvidia`    | 600 keatas      |
+| **Perintah**                  | **Seri Driver**   |
+| :---------------------------- | :---------------- |
+| `doas xbps-install nvidia470` | Seri GKxxx Kepler |
+| `doas xbps-install nvidia`    | 600 keatas        |
+| `doas xbps-install nvidia390` | 400/500           |
 
 Jika driver Nvidia Anda termasuk driver legacy maka gunakan `nvidia390`. Jenis-jenis driver Nvidia legacy bisa dilihat di tautan [Driver Nvidia Legacy](https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/) ini.
 
