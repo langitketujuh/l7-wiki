@@ -2,7 +2,7 @@
 
 ## Boot menu dan bios menu
 
-Setiap manufaktur memiliki tombol bios yang berbeda-beda. Berikut ini daftar tombol biosnya. Disarankan untuk memasuki bios menu terlebih dahulu. Saat PC/Laptop masih mati, tekan tombol power dan langsung tekan tombol bios menu berkali-kali sampai muncul tampilan bios.
+Setiap manufaktur memiliki tombol bios yang berbeda-beda. Berikut ini daftar tombol biosnya. Disarankan untuk memasuki bios menu terlebih dahulu. Saat komputer masih mati, tekan tombol power dan langsung tekan tombol bios menu berkali-kali sampai muncul tampilan bios.
 
 | Manufaktur        | Boot menu                 | Bios menu          |
 | :---------------- | :------------------------ | :----------------- |

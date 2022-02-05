@@ -2,7 +2,7 @@
 
 EarlyOOM (Early Out of Memory) berfungsi untuk menghentikan paksa perangkat lunak dengan proses memori yang tinggi dan memungkinkan untuk membuat hang komputer. Jika sisa memori yang bebas sekitar 10% maka perangkat lunak yang sengaja membuat memori penuh akan tereliminasi secara otomatis. Secara bawaan layanan EarlyOOM sudah aktf.
 
-Manfaat lainnya untuk menghindari mematikan mesin secara paksa ketika PC/Laptop tidak merespon/_hang_. Hal ini juga untuk menghindari bad sector SSD/HDD.
+Manfaat lainnya untuk menghindari mematikan mesin secara paksa ketika komputer tidak merespon/_hang_. Hal ini juga untuk menghindari bad sector SSD/HDD.
 
 ## Memasang earlyoom daemon
 

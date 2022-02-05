@@ -53,4 +53,4 @@ Cara menaikkan posisi boot order bisa menggunakan `F6` atau `F5` untuk model ter
 
 ## Reboot
 
-Jika sudah diatur pengaturan bios menu, pilih **Save** (biasanya tekan `F10` untuk menyimpan). Lalu PC/Laptop akan mereboot secara otomatis dan masuk ke LiveUSB LangitKetujuh.)
+Jika sudah diatur pengaturan bios menu, pilih **Save** (biasanya tekan `F10` untuk menyimpan). Lalu komputer akan mereboot secara otomatis dan masuk ke LiveUSB LangitKetujuh.)

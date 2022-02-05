@@ -12,7 +12,7 @@ Gunakan `disk` atau `lsblk` untuk mengetahui sistem partisi. Setidaknya dengan i
 
 Tipe disk mbr atau yang dikenal tipe dos memiliki fitur yang tidak terlalu banyak dan sistem partisi primer juga maksimalnya 4 partisi. Sedangkan tipe disk GPT dapat membuat partisi primer tak terhingga (semampunya penyimpanan disk), memiliki dukungan partisi lebih dari 2Tib dan proses booting yang cepat.
 
-Ciri khas MBR biasanya digunakan oleh PC/Laptop yang low-end (spesifikasi rendah) dan keluaran sebelum 2015. Sedangkan GPT sebaliknya, digunakan oleh PC/Laptop keluaran terbaru.
+Ciri khas MBR biasanya digunakan oleh komputer yang low-end (spesifikasi rendah) dan keluaran sebelum 2015. Sedangkan GPT sebaliknya, digunakan oleh komputer keluaran terbaru.
 
 Kami menyarankan menggunakan tipe disk GPT agar dapat memiliki fitur lebih jika biosnya mendukung boot mode UEFI. Dan gunakan tipe disk MBR jika biosnya hanya mendukung boot mode Legacy saja.
 
