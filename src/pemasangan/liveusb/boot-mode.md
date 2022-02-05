@@ -23,7 +23,7 @@ Boot9999* USB Drive (UEFI)
 
 Namun jika hasil keluarannya `EFI variables are not supported on this system.` maka salah masuk boot mode ke legacy. Pengguna perlu mengatur kembali boot order di bios menu agar masuk kedalam mode UEFI.
 
-Kami menyarankan jika sistem bios mendukung UEFI maka gunakanlah UEFI, karena UEFI lebih modern dari Legacy. Tetapi jika LangitKetujuh tidak mendukung sistem UEFI, maka boleh menggunakan mode legacy. Tetapi diharuskan mengkonversi tipe disk GPT ke MBR agar mendukung legacy (_cara konversi ada di halaman [sistem partisi](../sistem-partisi/konversi.html#merubah-gpt-ke-mbr-tanpa-format)_).
+Kami menyarankan jika sistem bios mendukung UEFI maka gunakanlah UEFI, karena UEFI lebih modern dari Legacy. Tetapi jika LangitKetujuh tidak mendukung sistem UEFI, maka boleh menggunakan mode legacy. Tetapi diharuskan mengkonversi tipe disk GPT ke MBR agar mendukung legacy (_cara konversi ada di [halaman ini](../sistem-partisi/konversi.html#merubah-gpt-ke-mbr-tanpa-format)_).
 
 ## Legacy
 

@@ -12,7 +12,7 @@ Jenis libc untuk arsitektur `x64_86-musl`. Berbeda dengan Glibc, Musl libc menco
 
 Musl keren dan heboh, tetapi tidak begitu banyak orang yang menggunakannya dan tidak memiliki banyak dukungan. Namun ia menggunakan sumber daya yang amat kecil. Kami merekomendasikan menggunakan Musl jika tidak ada kebutuhan perangkat lunak tidak terbuka (proprietary).
 
-Musl direkomendasikan untuk pengguna yang memburu performa dan efisiensi. Render video, animasi, kompil, multitasking, akan terasa perbedaannya. perangkat lunak tidak bebas seperti Zoom, Teams, dan sebagainya bisa dipasang melalui flatpak namun terbatas. Beberapa perangkat lunak yang memerlukan `wine-32bit` tidak dapat dijalankan dengan semestinya.
+Musl direkomendasikan untuk pengguna yang memburu performa dan efisiensi. Render video, animasi, kompil, multitasking, akan terasa perbedaannya. Perangkat lunak tidak bebas seperti Zoom, Teams, dan sebagainya bisa dipasang melalui flatpak namun terbatas. Beberapa perangkat lunak yang memerlukan `wine-32bit` tidak dapat dijalankan dengan semestinya.
 
 ## Mengetahui jenis libc
 
