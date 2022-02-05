@@ -29,4 +29,4 @@ Spesifikasi minimal untuk edisi Studio memerlukan perangkat keras yang cukup tin
 
 [^1] Jika membutuhkan dukungan pemasangan via remote.
 
-Spesifikasi diatas yang kami jelaskan merupakan spesifikasi minimal untuk menjalankan sistem operasi LangitKetujuh. Spesifikasi tersebut akan bergantung pada spesifikasi perangkat lunak yang digunakan. Misalnya saat Anda menjalankan [Blender 3D](../aplikasi/animasi/blender.md) akan membutuhkan grafis yang tinggi dan memori yang setidaknya minimal 8GB agar berjalan dengan baik.
+Spesifikasi diatas yang kami jelaskan merupakan spesifikasi minimal untuk menjalankan sistem operasi LangitKetujuh. Spesifikasi tersebut akan bergantung pada spesifikasi perangkat lunak yang digunakan. Misalnya saat menjalankan [Blender 3D](../aplikasi/animasi/blender.md) akan membutuhkan grafis yang tinggi dan memori yang setidaknya minimal 8GB agar berjalan dengan baik.

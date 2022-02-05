@@ -4,7 +4,7 @@
 
 `nouveau` (Open Source Nvidia Driver) di maintenance oleh komunitas dengan dokumentasi yang disediakan oleh Nvidia. Secara bawaan sistem LangitKetujuh sudah memasang driver nouveau.
 
-Cek `driver` kartu grafis Anda dengan inxi
+Cek `driver` kartu grafisnya dengan inxi.
 
 ```bash
 inxi -G
@@ -29,7 +29,7 @@ Pasang dengan menyesuaikan nomer seri driver kartu grafis.
 | `doas xbps-install nvidia`    | 600 keatas        |
 | `doas xbps-install nvidia390` | 400/500           |
 
-Jika driver Nvidia Anda termasuk driver legacy maka gunakan `nvidia390`. Jenis-jenis driver Nvidia legacy bisa dilihat di tautan [Driver Nvidia Legacy](https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/) ini.
+Jika driver Nvidia yang digunakan driver legacy maka gunakan `nvidia390`. Jenis-jenis driver Nvidia legacy bisa dilihat di tautan [Driver Nvidia Legacy](https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/) ini.
 
 Hati-hati memilih versi Nvidia, jika salah versi kemungkinan akan blackscreen.
 

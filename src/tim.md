@@ -3,7 +3,7 @@
 * [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa) (Pengembang, Pemelihara, Pemaket, & Desainer)
 * [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn) (Administrasi & Pendukung layanan)
 * [Jauzaa Wahyu Prabaswara](https://t.me/JauzaaPrabaswara) (Teknisi & Pendukung layanan)
-* (Selanjutnya bisa jadi Anda)
+* ...
 
 # Mau bergabung?
 
@@ -28,7 +28,7 @@ Keuntungan apa menjadi tim?
 * Mendapat buku gratis dari program buku setiap bulan.
 * Ikut menyalurkan bantuan 20% ke Yatim Gaza.
 
-Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang Anda inginkan.
+Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bidang yang diinginkan.
 
 ## Konten kreator dan Ilustrator (005)
 
@@ -61,5 +61,5 @@ Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bisang yang A
 
 # Kirim
 
-Bagikan attachment CV Anda ke surel [langitketujuh.id@pm.me](mailto:langitketujuh.id@pm.me) dengan Subject "NAMA - Bidang - Kode".
+Bagikan lampiran CV ke surel [langitketujuh.id@pm.me](mailto:langitketujuh.id@pm.me) dengan Subject "NAMA - Bidang - Kode".
 Barakallahu fiikum.

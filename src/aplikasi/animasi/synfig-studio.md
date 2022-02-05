@@ -8,4 +8,4 @@ Synfig Studio merupakan perangkat lunak berbasis Qt untuk animasi dua dimensi be
 
 ## Dokumentasi
 
-Anda dapat belajar dan menjelajahi fitur synfig studio melalui halaman [dokumentasi resmi](https://synfig.readthedocs.io/en/latest/index.html) dan di [wiki](https://wiki.synfig.org).
+Pengguna dapat belajar dan menjelajahi fitur synfig studio melalui halaman [dokumentasi resmi](https://synfig.readthedocs.io/en/latest/index.html) dan di [wiki](https://wiki.synfig.org).

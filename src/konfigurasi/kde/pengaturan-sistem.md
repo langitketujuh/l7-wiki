@@ -17,7 +17,7 @@
 - Buka di menu `Global Theme`.
 - Pilih `Application Style`
 - Klik `Configure GNOME/GTK Application Style`.
-- Pilih GTK Theme `Breeze` atau tema yang Anda inginkan.
+- Pilih GTK Theme `Breeze` atau tema yang diinginkan.
 - Klik `Apply`.
 
 ## Mengganti bahasa
@@ -38,4 +38,4 @@
 - Pilih `Preview` untuk melihat tata letak.
 - Jika sudah sesuai, klik `OK` dan `Apply`.
 
-Anda akan melihat layout bahasa di bagian panel bawah. Untuk mengganti antar layout, tekan `ctrl+alt+k`.
+Pengguna akan melihat layout bahasa di bagian panel bawah. Untuk mengganti antar layout, tekan `ctrl+alt+k`.

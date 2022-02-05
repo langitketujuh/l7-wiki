@@ -6,7 +6,7 @@ Pemasangan dual boot dengan linux lain adalah menjadikan LangitKetujuh akan menj
 
 Meskipun partisi `/home` jadi satu, `username` baru untuk LangitKetujuh dibedakan dengan `username` distro linux yang lama agar tidak tumpang tindih, kecuali jika menginginkannya.
 
-Jika tidak mempunyai partisi `/home` maka Anda bisa membuat dua partisi baru, yaitu `/` dan `/home` untuk LangitKetujuh.
+Jika tidak mempunyai partisi `/home` maka pengguna membuat dua partisi baru, yaitu `/` dan `/home` untuk LangitKetujuh.
 
 ## Menyiapkan partisi baru
 
@@ -58,7 +58,7 @@ Kata sandinya: `langitketujuh`
 
 ![LangitKetujuh Install](../../media/image/install-splash.webp)
 
-Tekan `Enter` untuk melanjutkan ke pemasangan. Anda akan melihat langkah demi langkah tahapan yang harus diselesaikan. Seperti `Keyboard`, `Network`, `Source`, `Hostname` hingga ke `Install`.
+Tekan `Enter` untuk melanjutkan ke pemasangan. Pengguna akan melihat langkah demi langkah tahapan yang harus diselesaikan. Seperti `Keyboard`, `Network`, `Source`, `Hostname` hingga ke `Install`.
 
 ![LangitKetujuh Install](../../media/image/install-step.webp)
 
@@ -96,7 +96,7 @@ Pilih zona waktu benua yang dikehendaki, misalnya `Asia`.
 
 ![LangitKetujuh Install](../../media/image/install-timezone-asia.webp)
 
-Selanjutnya pilih zona waktu kota, misalnya `Jakarta` untuk zona waktu WIB. Anda juga dapat memilih zona waktu lainnya seperti `Makassar` untuk WITA atau `Jayapura` untuk WIT.
+Selanjutnya pilih zona waktu kota, misalnya `Jakarta` untuk zona waktu WIB. Pengguna juga dapat memilih zona waktu lainnya seperti `Makassar` untuk WITA atau `Jayapura` untuk WIT.
 
 ![LangitKetujuh Install](../../media/image/install-timezone-jakarta.webp)
 
@@ -150,9 +150,9 @@ Pada dialog `use graphical boot loader` pilih `Yes`.
 
 ### Partition
 
-> ⚠️ **Cadangkan data Hardisk Anda**
+> ⚠️ **Cadangkan data Hardisk**
 >
-> Ketika merubah, mengganti, menambah dan mengurangi partisi. Sebaiknya Anda sudah mencadangkan ke disk eksternal atau cloud agar aman jika terjadi kesalahan teknis. Mohon tidak melanjutkan jika Anda tidak yakin dengan apa yang dilakukan.
+> Ketika merubah, mengganti, menambah dan mengurangi partisi. Sebaiknya sudah mencadangkan ke disk eksternal atau cloud agar aman jika terjadi kesalahan teknis. Mohon tidak melanjutkan jika tidak yakin dengan apa yang dilakukan.
 
 Abaikan jika sudah melakukan pemartisian diawal, lalu lanjut ke tahap **Filesystems**. Jika belum diatur partisinya, pilih `/dev/sda` (disk saat ini). Kemudian pilih `OK`.
 
@@ -166,7 +166,7 @@ Muncul peringatan pemilihan file system untuk partisi boot, `Enter` untuk melanj
 
 ![LangitKetujuh Install](../../media/image/install-partition-cfdisk.webp)
 
-Dengan `cfdisk`, Anda dapat mengatur partisinya seperti menambah partisi dengan memilih `New`, menghapus dengan memilih `Delete`, merubah ukuran dengan `Resize` dan lain sebagainya. Sesuaikanlah dengan kebutuhan partisi yang Anda inginkan.
+Dengan `cfdisk`, pengguna dapat mengatur partisinya seperti menambah partisi dengan memilih `New`, menghapus dengan memilih `Delete`, merubah ukuran dengan `Resize` dan lain sebagainya. Sesuaikanlah dengan kebutuhan partisi yang diinginkan.
 
 Berikut ini adalah contoh skema partisi yang kami sarankan.
 
@@ -229,7 +229,7 @@ Sedangkan untuk pemilihan mountpoint akan terlihat seperti berikut ini.
   | `/dev/sda3` |    `F2fs`    |   `/home`   |           `no`           |
   | `/dev/sda4` |    `F2fs`    |     `/`     |          `yes`           |
 
-Untuk partisi `/home` sendiri tergantung tipe partisinya. Bisa jadi Anda menggunakan `F2fs` atau `Ext4` sebelumnya.
+Untuk partisi `/home` sendiri tergantung tipe partisinya. Bisa jadi menggunakan `F2fs` atau `Ext4` sebelumnya.
 
 Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunakan SSD di mode UEFI dan kami sudah menggunakan `F2fs` untuk partisi `/home`.
 

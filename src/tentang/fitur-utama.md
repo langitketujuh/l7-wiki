@@ -7,7 +7,7 @@ Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil 
 Berisi perangkat lunak rilis bergulir _([rolling release](https://id.wikipedia.org/wiki/Rilis_bergulir))_ dengan versi stabil terbaru. Setiap rilis terbaru tidak diharuskan untuk memasang ulang, hanya memerlukan pembaruan seperti biasanya secara otomatis menggunakan versi yang terbaru.
 
 ## Musl Libc
-Tersedia libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil perangkat lunak semakin cepat. Perbedaan antara musl dan glibc bisa Anda simak di [tautan ini](../perbandingan/libc.md).
+Tersedia libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil perangkat lunak semakin cepat. Perbedaan antara musl dan glibc bisa merujuk ke [tautan ini](../perbandingan/libc.md).
 
 ## Runit Init
 Keamanan lebih baik. Menggunakan runit karena PID1 harus sederhana, minimalis, dan stabil. Tentunya bebas dari SystemD. Dengan runit init booting semakin cepat.
@@ -34,7 +34,7 @@ Tersedia LibreOffice sebagai alat produktifitas yang komplit dan handal untuk ke
 Secara bawaan tampilan tema menggunakan versi gelap agar membuat nyaman dan menyehatkan mata untuk aktifitas yang lama.
 
 ## Perlengkapan Desain (Studio)
-Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara lite dan pro? Anda bisa mengunjungi [tautan ini](../perbandingan/edisi.md).
+Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara lite dan studio? Pengguna dapat mengunjungi [tautan ini](../perbandingan/edisi.md).
 
 ## Dukungan Instalasi (Studio)
-Anda akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [layanan via Telegram](https://t.me/langitketujuh_bot) atau [surel](mailto:langitketujuh.id@pm.me).
+Pengguna akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [layanan via Telegram](https://t.me/langitketujuh_bot) atau [surel](mailto:langitketujuh.id@pm.me).

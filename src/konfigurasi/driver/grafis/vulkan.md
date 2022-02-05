@@ -26,7 +26,7 @@ Cek informasi vulkan dengan sistem saat ini.
 vulkaninfo
 ```
 
-Anda juga dapat melihat informasi vulkan di `Info Center` > `Graphics` > `Vulkan`
+Pengguna juga dapat melihat informasi vulkan di `Info Center` > `Graphics` > `Vulkan`
 
 ![Vulkan Info Center LangitKetujuh OS](../../../media/image/vulkan-info-center-langitketujuh-id.webp)
 

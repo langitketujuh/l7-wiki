@@ -22,7 +22,7 @@ Kemudian reboot agar terjadi perubahannya.
 
 ## Driver Nvidia
 
-Jika Anda menggunakan GPU Nvidia, maka pasang driver yang proprietary agar audio dapat berjalan dengan semestinya. Panduannya ada di [halaman Nvidia](../konfigurasi/driver/grafis/nvidia.html#nvidia).
+Jika menggunakan GPU Nvidia, maka pasang driver yang proprietary agar audio dapat berjalan dengan semestinya. Panduannya ada di [halaman Nvidia](../konfigurasi/driver/grafis/nvidia.html#nvidia).
 
 ## Audio bluetooth
 
@@ -35,7 +35,7 @@ doas xbps-install libspa-bluetooth
 doas usermod -aG bluetooth,_pipewire $USER
 ```
 
-Kemudian reboot komputer Anda. Cara diatas hanya untuk iso rilis `20210923` dan sebelumnya, untuk iso versi terbaru sudah terkonfigurasi.
+Kemudian reboot komputernya. Cara diatas hanya untuk iso rilis `20210923` dan sebelumnya, untuk iso versi terbaru sudah terkonfigurasi.
 
 Selanjutnya, hapus daftar speaker/headset yang sebelumnya sudah pernah tersambung di pengaturan `Bluetooth` dengan mengklik ikon tong sampah.
 

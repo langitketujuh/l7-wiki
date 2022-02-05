@@ -48,4 +48,4 @@ Hasil render berada di `book/html/`.
 
 ## Template mdbook starter
 
-Template mdbook starter bisa Anda lihat di [template mdbook](https://gitlab.com/langitketujuh/mdbook.git). Demontrasinya <https://mdbook.langitketujuh.id>
+Template mdbook starter tersedia di [repositori gitlab](https://gitlab.com/langitketujuh/mdbook.git). Demontrasinya <https://mdbook.langitketujuh.id>

@@ -10,7 +10,7 @@ Sedangkan Edisi Studio, ditujukan untuk kebutuhan profesional dan lanjutan. Terd
 
 Yuk dukung terus projek LangitKetujuh OS dengan menggunakan edisi studio dan [membantu kami melalui donasi](https://langitketujuh.id/donasi) agar projek ini selalu bermanfaat dan berkembang.
 
-Tahukah Anda, bahwa Indonesia merupakan negara yang cukup tinggi atas penggunaan perangkat lunak ilegal. Jika Anda menggunakan perangkat lunak terbuka seperti LangitKetujuh OS berarti Anda ikut serta dalam meningkatkan penggunaan perangkat lunak yang aman dan legal.
+Mayoritas di indonesia penggunaan atas perangkat lunak ilegal masih cukup tinggi. Jika pengguna menggunakan perangkat lunak terbuka seperti LangitKetujuh OS berarti pengguna ikut serta dalam meningkatkan penggunaan perangkat lunak yang aman dan legal.
 
 ## Tabel Perbandingan
 

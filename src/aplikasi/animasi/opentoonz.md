@@ -18,4 +18,4 @@ Beberapa pengaturan tambahan opentoonz di LangitKetujuh antara lain:
 
 ## Dokumentasi
 
-Anda dapat belajar dan menjelajahi fitur opentoonz melalui halaman [dokumentasi resmi](https://opentoonz.readthedocs.io/en/latest).
+Pengguna dapat belajar dan menjelajahi fitur opentoonz melalui halaman [dokumentasi resmi](https://opentoonz.readthedocs.io/en/latest).

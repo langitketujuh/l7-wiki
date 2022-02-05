@@ -2,19 +2,19 @@
 
 ## Penyebab
 
-Terkadang setelah memasang LangitKetujuh OS Anda tidak bisa login dengan pengguna yang telah dibuat. Hal ini disebabkan karena sebelumnya mengalami error ketika selesai memasang sistem operasi, lalu belum di *reboot* (restart). Jadi, setelah gagal memasang sistem operasi diharuskan untuk di*reboot*.
+Terkadang setelah memasang LangitKetujuh, tidak dapat login dengan pengguna yang telah dibuat. Hal ini disebabkan karena sebelumnya mengalami error ketika selesai memasang sistem operasi, lalu belum di *reboot* (restart). Jadi, setelah gagal memasang sistem operasi diharuskan untuk di*reboot*.
 
-Reboot ini bertujuan untuk menyegarkan pengaturan file sementara installer-nya. Jika Anda mengalami kegagalan ketika memasang sistem operasi dan melanjutkan pemasangan OS, kemungkinan besar akan gagal login.
+Reboot ini bertujuan untuk menyegarkan pengaturan file sementara installer-nya. Jika mengalami kegagalan ketika memasang sistem operasi dan melanjutkan pemasangan OS, kemungkinan besar akan gagal login.
 
 Intinya, satu kali memasang sistem operasi harus berhasil agar dapat membuat pengguna baru. Jika proses pemasangan tidak berhasil, maka harus di reboot *liveusb*-nya.
 
-Jika sudah terlanjur memasang sistem operasi tetapi gagal login, maka Anda diharuskan mengikuti panduan dibawah ini.
+Jika sudah terlanjur memasang sistem operasi tetapi gagal login, maka diharuskan mengikuti panduan dibawah ini.
 
 ## Masuk ke mode TTY
 
-Pastikan Anda masih ingat kata sandi `root` nya. Ini penting, karena akan masuk ke dalam pengguna `root`. Ketika dalam tampilan login manager masuk ke mode tty. Misalnya menggunakan TTY2 (mulai dari 2-6).
+Pastikan masih ingat kata sandi `root` nya. Ini penting, karena akan masuk ke dalam pengguna `root`. Ketika dalam tampilan login manager masuk ke mode tty. Misalnya menggunakan TTY2 (atau bisa menggunakan TTY3 hingga TTY6).
 
-Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika Anda menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+`.
+Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+`.
 
 ```
 Username: root

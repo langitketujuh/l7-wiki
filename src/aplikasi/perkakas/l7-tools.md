@@ -37,4 +37,4 @@
   l7-tools --downgrade
   ```
 
-Anda memerlukan akses root (doas) untuk menjalankan perintah diatas. Lebih jelasnya jalankan `l7-tools --help`.
+Untuk menjalankan perintah diatas memerlukan akses root (doas). Lebih jelasnya jalankan `l7-tools --help`.

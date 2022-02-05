@@ -1,7 +1,7 @@
 # Bootable di Windows
 
 Ketika membuat bootable USB pastikan data penting di dalam flasdisk sudah dicadangkan ke disk eksternal atau cloud agar aman.
-Anda dapat membuat bootable USB dengan salah satu perangkat lunak dibawah ini.
+Pengguna dapat membuat bootable USB dengan salah satu perangkat lunak dibawah ini.
 
 ## Ventoy (disarankan)
 

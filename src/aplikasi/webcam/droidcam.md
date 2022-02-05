@@ -26,7 +26,7 @@ Kemudian reboot.
 
 ## Mengaktifkan audio (opsional)
 
-Mengaktifkan audio di droidcam sepertinya tidak perlu karena biasanya sudah ada microphone untuk pengguna laptop, maka sebaiknya diabaikan saja. Tetapi jika Anda pengguna PC yang tidak memiliki microphone dan ingin mengaktifkan audio di droidcam, maka aktifkan modul `snd-aloop`dengan cara sebagai berikut:
+Mengaktifkan audio di droidcam sepertinya tidak perlu karena biasanya sudah ada microphone untuk pengguna laptop, maka sebaiknya diabaikan saja. Tetapi jika menggunakan komputer yang tidak memiliki microphone dan ingin mengaktifkan audio di droidcam, maka aktifkan modul `snd-aloop`dengan cara sebagai berikut:
 
 ```
 echo "snd-aloop" | doas tee /etc/modules-load.d/snd-aloop.conf
@@ -39,7 +39,7 @@ Selanjutnya, buka pengaturan sistem `Audio`, ganti profil `Analog Stereo Duplex`
 
 ## Menjalankan DroidCam
 
-Jalankan aplikasi android `DroidCam` atau `DroidCamX` (berbayar). Anda dapat mengunduh aplikasi ini di Google Play atau App Store.
+Jalankan aplikasi android `DroidCam` atau `DroidCamX` (berbayar). Pengguna dapat mengunduh aplikasi ini di Google Play atau App Store.
 
 Kemudian jalankan DroidCam di komputer. Samakan alamat IP dan port di smartphone, misalnya `192.168.0.100` port `4747`. Aktifkan `Enable Video`, Lalu klik `Connect`.
 
@@ -61,6 +61,6 @@ Pada bagian Device, pilih `Video Source`. Klik OK.
 
 ![DroidCAM OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-3.webp)
 
-Hasil dari kamera wireless droidcam akan tampil. Anda dapat menambahkan ornamen dan gambar (`+` > `Image`) di bagian source agar lebih dekoratif.
+Hasil dari kamera wireless droidcam akan tampil. Pengguna dapat menambahkan ornamen dan gambar (`+` > `Image`) di bagian source agar lebih dekoratif.
 
 ![DroidCAM OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-4.webp)

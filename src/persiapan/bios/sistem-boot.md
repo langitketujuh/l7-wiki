@@ -29,9 +29,9 @@ Jika menggunakan legacy, secara otomatis masuk ke boot mode legacy sendiri dan t
 
 ## Boot Order/Sequence
 
-Kami menyarankan menggunakan boot mode UEFI jika bios Anda mendukung. Jika mendukung UEFI, letakkan UEFI USB paling atas (biasanya muncul 2 boot order flasdisk di bios menu). Tetapi jika bios Anda hanya mendukung legacy, USB biasa yang diposisikan paling atas.
+Kami menyarankan menggunakan boot mode UEFI jika bios mendukung. Jika mendukung UEFI, letakkan UEFI USB paling atas (biasanya muncul 2 boot order flasdisk di bios menu). Tetapi jika bios hanya mendukung legacy saja, maka USB biasa yang diposisikan paling atas.
 
-Sebagai contoh di mesin PC atau laptop Anda memiliki boot order yang seperti ini.
+Sebagai contoh, di komputer yang memiliki boot order yang seperti ini.
 
 * SSD: Adata SU128
 * HDD: Seagate 1 TB

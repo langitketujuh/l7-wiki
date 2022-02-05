@@ -1,12 +1,12 @@
 # Digimend Driver
 
-Beberapa vendor pen tablet memerlukan driver khusus yang menggunakan [Digimend Driver](http://digimend.github.io). Seperti Huion, KYE, Polostar, UC-Logic, UGTizer, Ugee, ViewSonic, Waltop, XP-Pen, dan Yiynova. Untuk mendukung pen tablet tersebut, Anda harus memasangnya dengan menjalankan perintah ini.
+Beberapa vendor pen tablet memerlukan driver khusus yang menggunakan [Digimend Driver](http://digimend.github.io). Seperti Huion, KYE, Polostar, UC-Logic, UGTizer, Ugee, ViewSonic, Waltop, XP-Pen, dan Yiynova. Untuk mendukung pen tablet tersebut, pengguna harus memasangnya dengan menjalankan perintah ini.
 
 ```
 doas xbps-install -S digimend-kernel-drivers
 ```
 
-Tipe pen tablet yang didukung oleh Digimend Anda dapat melihatnya di [daftar pen tablet Digimend](https://digimend.github.io/tablets). Namun ada beberapa tipe pen tablet tidak didukung sepenuhnya seperti VEIKK (A30) dan Huion tipe tertentu (G10T & GC610).
+Tipe pen tablet yang didukung oleh Digimend dapat dicek melalui [daftar pen tablet](https://digimend.github.io/tablets). Namun ada beberapa tipe pen tablet tidak didukung sepenuhnya seperti VEIKK (A30) dan Huion tipe tertentu (G10T & GC610).
 
 Untuk kedepannya, LangitKetujuh diatas versi `20210921` sudah mengikutsertakan Digimend driver.
 

@@ -2,7 +2,7 @@
 
 ## UEFI
 
-Setelah reboot kemudian masuk ke Live USB, selanjutnya periksa jenis boot mode Anda. Jika menggunakan UEFI maka pastikan masuk kedalam mode UEFI, dan sebaliknya jika menggunakan legacy maka pastikan masuk kedalam mode legacy.
+Setelah reboot kemudian masuk ke Live USB, selanjutnya periksa jenis boot mode yang digunakan saat ini. Jika menggunakan UEFI maka pastikan masuk kedalam mode UEFI. Dan sebaliknya, jika menggunakan legacy maka pastikan masuk kedalam mode legacy.
 
 Cara memeriksa boot mode yaitu dengan mengetik perintah ini di `konsole`.
 
@@ -10,7 +10,7 @@ Cara memeriksa boot mode yaitu dengan mengetik perintah ini di `konsole`.
 efibootmgr
 ```
 
-Jika hasilnya ada keluaran daftar EFI `Boot0000`, `Boot9999`, dan seterusnya. Maka boot mode Anda sudah benar menggunakan boot UEFI.
+Jika hasilnya ada keluaran daftar EFI `Boot0000`, `Boot9999`, dan seterusnya. Maka boot mode sudah benar dengan menggunakan boot UEFI.
 
 ```
 ➜  ~ efibootmgr
@@ -21,9 +21,9 @@ Boot9999* USB Drive (UEFI)
 ➜  ~
 ```
 
-Namun jika hasil keluarannya `EFI variables are not supported on this system.` maka Anda salah masuk boot mode ke legacy. Anda perlu mengatur kembali boot order di bios menu agar masuk kedalam mode UEFI.
+Namun jika hasil keluarannya `EFI variables are not supported on this system.` maka salah masuk boot mode ke legacy. Pengguna perlu mengatur kembali boot order di bios menu agar masuk kedalam mode UEFI.
 
-Kami menyarankan jika sistem bios Anda mendukung UEFI maka gunakanlah UEFI, karena UEFI lebih modern dari Legacy. Tetapi jika LangitKetujuh tidak mendukung sistem UEFI mesin Anda maka boleh menggunakan mode legacy di mesin UEFI, tetapi Anda diharuskan mengkonversi tipe disk GPT ke MBR agar mendukung legacy (_cara konversi ada di halaman [sistem partisi](../sistem-partisi/konversi.html#merubah-gpt-ke-mbr-tanpa-format)_).
+Kami menyarankan jika sistem bios mendukung UEFI maka gunakanlah UEFI, karena UEFI lebih modern dari Legacy. Tetapi jika LangitKetujuh tidak mendukung sistem UEFI, maka boleh menggunakan mode legacy. Tetapi diharuskan mengkonversi tipe disk GPT ke MBR agar mendukung legacy (_cara konversi ada di halaman [sistem partisi](../sistem-partisi/konversi.html#merubah-gpt-ke-mbr-tanpa-format)_).
 
 ## Legacy
 

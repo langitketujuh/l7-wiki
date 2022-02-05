@@ -2,7 +2,7 @@
 
 ## Merubah MBR ke GPT tanpa format
 
-Terkadang disk setelah diperiksa ternyata adalah MBR (untuk boot mode legacy). Padahal saat ini boot mode yang digunakan adalah UEFI, berarti Anda sedang migrasi dari legacy ke UEFI. Maka disk perlu dikonversi dari MBR ke GPT.
+Terkadang disk setelah diperiksa ternyata adalah MBR (untuk boot mode legacy). Padahal saat ini boot mode yang digunakan adalah UEFI, berarti saat ini sedang migrasi dari legacy ke UEFI. Maka disk perlu dikonversi dari MBR ke GPT.
 
 Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Dan jangan lupa untuk umount disk yang akan dikonversikan.
 

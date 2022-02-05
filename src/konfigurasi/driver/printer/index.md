@@ -2,7 +2,7 @@
 
 ## Epson Printer
 
-Driver Printer Epson `epson-inkjet-printer-escpr` sudah terpasang secara otomatis. Anda hanya memasukkan kabel printer ke port USB. Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
+Driver Printer Epson `epson-inkjet-printer-escpr` sudah terpasang secara otomatis. Pengguna hanya memasukkan kabel printer ke port USB. Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
 ## Epson Scanner
 
@@ -14,7 +14,7 @@ doas xbps-install imagescan iscan-data
 
 ## HP Printer
 
-Anda dapat melihat model printer HP yang didukung oleh `hplip` di [daftar ini](https://developers.hp.com/hp-linux-imaging-and-printing/supported_devices/index). Driver printer HP versi cli sudah terpasang secara otomatis, namun jika ingin memasang versi GUI maka ketik perintah berikut ini:
+Pengguna dapat melihat model printer HP yang didukung oleh `hplip` di [daftar ini](https://developers.hp.com/hp-linux-imaging-and-printing/supported_devices/index). Driver printer HP versi cli sudah terpasang secara otomatis, namun jika ingin memasang versi GUI maka ketik perintah berikut ini:
 
 Menghapus versi cli.
 

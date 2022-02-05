@@ -1,8 +1,8 @@
 # Tipe Disk
 
-## Cadangkan data hardisk Anda
+## Cadangkan data hardisk
 
-Ketika merubah, mengganti, menambah dan mengurangi partisi. Sebaiknya Anda sudah mencadangkan ke disk eksternal atau cloud agar aman jika terjadi kesalahan teknis. Mohon tidak melanjutkan jika Anda tidak yakin dengan apa yang dilakukan.
+Ketika merubah, mengganti, menambah dan mengurangi partisi. Sebaiknya sudah mencadangkan ke disk eksternal atau cloud agar aman jika terjadi kesalahan teknis. Mohon tidak melanjutkan jika tidak yakin dengan apa yang dilakukan.
 
 ## Mengerti dengan sistem partisi sendiri
 
@@ -14,7 +14,7 @@ Tipe disk mbr atau yang dikenal tipe dos memiliki fitur yang tidak terlalu banya
 
 Ciri khas MBR biasanya digunakan oleh PC/Laptop yang low-end (spesifikasi rendah) dan keluaran sebelum 2015. Sedangkan GPT sebaliknya, digunakan oleh PC/Laptop keluaran terbaru.
 
-Kami menyarankan menggunakan tipe disk GPT agar dapat memiliki fitur lebih jika bios Anda mendukung boot mode UEFI. Dan gunakan tipe disk MBR jika biosnya hanya mendukung boot mode Legacy saja.
+Kami menyarankan menggunakan tipe disk GPT agar dapat memiliki fitur lebih jika biosnya mendukung boot mode UEFI. Dan gunakan tipe disk MBR jika biosnya hanya mendukung boot mode Legacy saja.
 
 ## Mengetahui tipe disk MBR atau GPT
 

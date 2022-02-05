@@ -1,10 +1,10 @@
 # Verifikasi Berkas
 
-Sebelum Anda membuat bootable, disarankan untuk melakukan verifikasi berkas. Tujuannya untuk mengetahui berkas iso yang telah diunduh sudah aman atau tidak. LangitKetujuh telah menyediakan kode hash `SHA256` di [halaman verifikasi berkas](https://langitketujuh.id/os/verifikasi), pastikan kode hash yang di dalamnya sama seperti hasil keluaran hash.
+Sebelum membuat bootable, disarankan untuk melakukan verifikasi berkas. Tujuannya untuk mengetahui berkas iso yang telah diunduh sudah aman atau tidak. LangitKetujuh telah menyediakan kode hash `SHA256` di [halaman verifikasi berkas](https://langitketujuh.id/os/verifikasi), pastikan kode hash yang di dalamnya sama seperti hasil keluaran hash.
 
 ## Windows
 
-Jika Anda menggunakan windows, gunakan perangkat lunak [Hash Tools](https://www.binaryfortress.com/Data/Download/?Package=hashtools&Log=100).
+Jika menggunakan windows, gunakan perangkat lunak [Hash Tools](https://www.binaryfortress.com/Data/Download/?Package=hashtools&Log=100).
 
 - Unduh dan pasang.
 - Klik "Add File" untuk menambahkan iso LangitKetujuh OS.
@@ -15,7 +15,7 @@ Jika Anda menggunakan windows, gunakan perangkat lunak [Hash Tools](https://www.
 
 - **KDE Plasma**
 
-  Jika Anda menggunakan KDE Plasma, lebih mudah untuk mengecek hasil kode hash.
+  Jika menggunakan KDE Plasma, lebih mudah untuk mengecek hasil kode hash melalui dolphin file manager.
 
   - Klik kanan berkas isonya. Pilih "Properties"
   - Pilih tab "Checksums".
@@ -24,7 +24,7 @@ Jika Anda menggunakan windows, gunakan perangkat lunak [Hash Tools](https://www.
 
 - **Terminal**
 
-  Anda bisa juga menggunakan `sha256sum` melalui perintah terminal.
+  Pengguna dapat menggunakan perintah `sha256sum` di terminal.
 
   ```
   cd lokasi/folder/iso/

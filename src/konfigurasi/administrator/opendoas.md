@@ -12,11 +12,11 @@ sudo xbps-install -S l7-tools
 
 Kemudian reboot.
 
-Dengan `l7-tools` terbaru secara otomatis sudah menerapkan doas sebagai eksekutornya dan doas serta konfigurasinya akan terpasang juga. Namun autokomplit fish masih belum terupdate untuk LangitKetujuh OS 20210921 dan versi sebelumnya. Anda sebaiknya mengikuti juga panduan dibawah ini.
+Dengan `l7-tools` terbaru secara otomatis sudah menerapkan doas sebagai eksekutornya dan doas serta konfigurasinya akan terpasang juga. Namun autokomplit fish masih belum terupdate untuk LangitKetujuh `20210921` dan versi sebelumnya. Pengguna sebaiknya mengikuti juga panduan dibawah ini.
 
 ## Memperbarui autokomplit `doas`
 
-Jika autokomplit yang digunakan masih sudo, maka Anda perlu menggantinya dengan doas di variabel autokomplit Fish shell.
+Jika autokomplit yang digunakan masih sudo, maka perlu menggantinya dengan doas di variabel autokomplit Fish shell.
 
 ```
 cd ~/.config/fish/

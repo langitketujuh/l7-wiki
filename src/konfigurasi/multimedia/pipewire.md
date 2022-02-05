@@ -36,7 +36,7 @@ Menambahkan pengguna ke grup `_pipewire` dan `bluetoothd` agar dapat menjalankan
 doas usermod -aG bluetooth,_pipewire $USER
 ```
 
-Kemudian logout atau reboot PC/laptop Anda.
+Kemudian logout atau reboot komputernya.
 
 Cek status pipewire.
 
@@ -68,7 +68,7 @@ doas rm -v /var/service/pipewire
 doas rm -v /var/service/pipewire-pulse
 ```
 
-Kemudian logout atau reboot PC/laptop Anda.
+Kemudian logout atau reboot komputernya.
 
 Cek status pulseaudio.
 
