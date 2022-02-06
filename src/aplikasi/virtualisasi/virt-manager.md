@@ -10,6 +10,20 @@
 doas xbps-install virt-manager virt-manager-tools qemu
 ```
 
+## Tambahkan pengguna ke grup kvm
+
+```
+doas gpasswd -a "$USER" libvirt
+doas usermod -aG kvm "$USER"
+```
+
+Modprobe untuk mesin 32-bit (i686)
+
+```
+modprobe kvm-intel  # untuk Intel CPUs
+modprobe kvm-amd    # untuk AMD CPUs
+```
+
 ## Mengaktifkan layanan virtualisasi
 
 ```
@@ -32,20 +46,6 @@ Contoh keluarannya seperti berikut ini.
  ✔ libvirtd             run     true      5079     libvirtd          22 seconds
  ✔ virtlockd            run     true      5217     virtlockd         16 seconds
  ✔ virtlogd             run     true      5232     virtlogd          10 seconds
-```
-
-## Tambahkan pengguna ke grup kvm
-
-```
-doas gpasswd -a "$USER" libvirt
-doas usermod -aG kvm "$USER"
-```
-
-Modprobe untuk mesin 32-bit (i686)
-
-```
-modprobe kvm-intel  # untuk Intel CPUs
-modprobe kvm-amd    # untuk AMD CPUs
 ```
 
 Pemasangan virt-manager sudah selesai.
