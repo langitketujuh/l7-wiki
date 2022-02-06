@@ -6,7 +6,7 @@ Program tambahan ini bertujuan untuk mengintegrasikan perangkat lunak kget denga
 
 ## Memasang kget integrator
 
-```bash
+```sh
 doas curl -s https://raw.githubusercontent.com/NicolasGuilloux/KGet-Integrator/master/kget-integrator -o /usr/bin/kget-integrator
 doas chmod +x /usr/bin/kget-integrator
 doas curl -s https://raw.githubusercontent.com/NicolasGuilloux/KGet-Integrator/master/Conf/com.kgetdm.firefox.json -o /usr/lib/mozilla/native-messaging-hosts/com.kgetdm.firefox.json

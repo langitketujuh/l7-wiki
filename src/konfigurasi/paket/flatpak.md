@@ -2,12 +2,12 @@
 
 ## Konfigurasi flathub
 
-```bash
+```sh
 flathub
 ```
 Atau dengan perintah ini
 
-```bash
+```sh
 flatpak remote-add --if-not-exists flathub \
 https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
@@ -54,7 +54,7 @@ Hal ini disebabkan karena LangitKetujuh menggunakan fish-shell sebagai shell baw
 
 - Solusi pertama yang kami sarankan yaitu dengan menyalin berkas desktop`<Perangkat lunak>.desktops` dari sini:
 
-  ```
+  ```sh
   /var/lib/flatpak/app/<Perangkat lunak>/current/active/export/share/applications/
   ```
 
@@ -62,6 +62,6 @@ Hal ini disebabkan karena LangitKetujuh menggunakan fish-shell sebagai shell baw
 
 - Solusi kedua bisa mengganti fish-shell ke bash secara permanen, tetapi cara ini tidak kami sarankan karena [fish-shell](../../konfigurasi/shell/fish.md) memiliki fitur yang lebih baik dengan autokomplitnya.
 
-  ```
+  ```sh
   doas chsh -s /usr/bin/bash
   ```

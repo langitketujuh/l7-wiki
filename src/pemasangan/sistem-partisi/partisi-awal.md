@@ -8,7 +8,7 @@ Pembagian partisi melalui mode pemasangan langsung juga bisa dilakukan. Tetapi a
 
 Pemartisian sebaiknya menggunakan `cfdisk`. Sebagai contoh, disk yang akan dipasang adalah `sda`. Maka perintah yang dijalankan adalah:
 
-```bash
+```sh
 doas cfdisk /dev/sda
 ```
 

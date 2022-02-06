@@ -64,7 +64,7 @@ Pengguna dapat membuat bootable USB dengan salah satu perangkat lunak dibawah in
 Cek letak path flashdisk dengan `lsblk`.
 Contoh keluaran:
 
-```bash
+```sh
 ➜  lsblk
 NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 sda      8:16   0 149.1G  0 disk 

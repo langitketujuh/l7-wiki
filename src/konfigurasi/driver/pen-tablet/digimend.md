@@ -2,7 +2,7 @@
 
 Beberapa vendor pen tablet memerlukan driver khusus yang menggunakan [Digimend Driver](http://digimend.github.io). Seperti Huion, KYE, Polostar, UC-Logic, UGTizer, Ugee, ViewSonic, Waltop, XP-Pen, dan Yiynova. Untuk mendukung pen tablet tersebut, pengguna harus memasangnya dengan menjalankan perintah ini.
 
-```
+```sh
 doas xbps-install -S digimend-kernel-drivers
 ```
 

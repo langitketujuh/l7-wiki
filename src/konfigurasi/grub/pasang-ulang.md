@@ -2,13 +2,13 @@
 
 Pastikan sedang berada di mode `chroot`. Langkah-langkahnya ada di [panduan chroot](../chroot/index.md). Setelah masuk ke chroot, pastikan `l7-tools` di liveusb sudah menggunakan versi terbaru `1.18.10+`. Jika belum terbaru jalankan perintah ini.
 
-```
+```sh
 doas xbps-install -Sy l7-tools
 ```
 
 Kemudian jalankan l7-tools.
 
-```
+```sh
 l7-tools --grub
 ```
 

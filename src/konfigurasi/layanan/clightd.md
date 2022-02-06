@@ -6,13 +6,13 @@ Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus a
 
 ## Memasang clight dan clight daemon
 
-```bash
+```sh
 doas xbps-install Clight Clightd
 ```
 
 ## Melihat status clightd
 
-```bash
+```sh
 doas sv status Clightd
 ```
 
@@ -20,24 +20,24 @@ doas sv status Clightd
 
 Secara bawaan clightd sudah aktif
 
-```bash
+```sh
 doas ln -s /etc/sv/Clightd /var/service/
 ```
 
 ## Menonaktifkan clightd
 
-```bash
+```sh
 doas rm /var/service/Clightd
 ```
 
 ## Menjalankan ulang clightd
 
-```bash
+```sh
 doas sv restart Clightd
 ```
 
 ## Menghapus clight dan clight daemon
 
-```bash
+```sh
 doas xbps-remove -R Clight Clightd
 ```

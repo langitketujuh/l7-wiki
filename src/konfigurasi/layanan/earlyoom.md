@@ -6,13 +6,13 @@ Manfaat lainnya untuk menghindari mematikan mesin secara paksa ketika komputer t
 
 ## Memasang earlyoom daemon
 
-```bash
+```sh
 doas xbps-install earlyoom
 ```
 
 ## Melihat status earlyoom
 
-```bash
+```sh
 doas sv status earlyoom
 ```
 
@@ -20,24 +20,24 @@ doas sv status earlyoom
 
 Secara bawaan earlyoom sudah aktif
 
-```bash
+```sh
 doas ln -s /etc/sv/earlyoom /var/service/
 ```
 
 ## Menonaktifkan earlyoom
 
-```bash
+```sh
 doas rm /var/service/earlyoom
 ```
 
 ## Menjalankan ulang earlyoom
 
-```bash
+```sh
 doas sv restart earlyoom
 ```
 
 ## Menghapus earlyoom daemon
 
-```bash
+```sh
 doas xbps-remove -R earlyoom
 ```

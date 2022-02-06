@@ -8,7 +8,7 @@
 
 ## Cara memasang scrcpy
 
-```bash
+```sh
 doas xbps-install android-udev-rules android-tools scrcpy
 ```
 
@@ -16,13 +16,13 @@ doas xbps-install android-udev-rules android-tools scrcpy
 
 Pastikan layanan adb sudah aktif. Cek dengan perintah ini:
 
-```bash
+```sh
 doas vsv status adb
 ```
 
 Apabila bewarna hijau dengan label `run` maka adb sedang berjalan. Jika belum berjalan, maka aktifkan dengan perintah ini:
 
-```bash
+```sh
 doas ln -s /etc/sv/adb /var/service/
 ```
 

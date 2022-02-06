@@ -18,7 +18,7 @@ Musl direkomendasikan untuk pengguna yang memburu performa dan efisiensi. Render
 
 Pengguna dapat mengetahui jenis libc yang digunakan dengan perintah ini.
 
-```
+```sh
 ldd --version
 ```
 

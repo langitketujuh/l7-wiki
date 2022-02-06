@@ -4,37 +4,37 @@
 
 ## Mengaktifkan UFW
 
-```bash
+```sh
 doas ufw enable
 ```
 
 ## Menonaktifkan UFW
 
-```bash
+```sh
 doas ufw disable
 ```
 
 ## Melihat status dan perangkat lunak yang difilter
 
-```bash
+```sh
 doas ufw status numbered
 ```
 
 ## Mengecek perangkat lunak yang didukung
 
-```bash
+```sh
 doas ufw app list
 ```
 
 ## Mengizinkan jaringan perangkat lunak
 
-```bash
+```sh
 doas ufw allow 'APLIKASI'
 ```
 
 ## Mengizinkan perangkat lunak
 
-```bash
+```sh
 doas ufw allow 'CUPS'
 doas ufw allow 'KDE Connect'
 doas ufw allow 'SSH'
@@ -43,14 +43,14 @@ doas ufw allow 'VNC'
 
 Opsional
 
-```bash
+```sh
 doas ufw allow 'HPLIP'
 doas ufw allow 'Ktorrent'
 ```
 
 ## Mencegah jaringan perangkat lunak
 
-```bash
+```sh
 doas ufw deny 'APLIKASI'
 ```
 
@@ -58,23 +58,23 @@ doas ufw deny 'APLIKASI'
 
 Lihat daftar perangkat lunak sesuai nomernya
 
-```bash
+```sh
 doas ufw status numbered
 ```
 
 Pilih perangkat lunak yang akan dihapus berdasarkan nomernya
 
-```bash
+```sh
 doas ufw delete NOMER
 ```
 
 Contoh:
-```bash
+```sh
 doas ufw delete 7
 ```
 
 ## Manual UFW
 
-```bash
+```sh
 man ufw
 ```

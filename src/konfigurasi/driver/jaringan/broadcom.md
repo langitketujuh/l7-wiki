@@ -2,7 +2,7 @@
 
 Cek kartu jaringan wifi dengan menjalankan konsole perintah ini.
 
-```
+```sh
 inxi -Nxxx
 ```
 
@@ -12,7 +12,7 @@ Untuk mengatasi hal tersebut, di dalam repositori voidlinux sudah menyediakan dr
 
 Setelah ada koneksi internet untuk sementara, jalankan perintah dibawah ini.
 
-```
+```sh
 doas xbps-install -S broadcom-wl-dkms
 ```
 

@@ -8,39 +8,39 @@ Kode sumber dokumentasi ini menggunakan [mdBook](https://rust-lang.github.io/mdB
 
 * Memasang di langitketujuh/voidlinux:
 
-```bash
+```sh
 doas xbps-install -S mdBook mdbook-linkcheck
 ```
 
 * Memasang di Archlinux atau manjaro
 
-```bash
+```sh
 doas pacman -Syy mdbook
 ```
 
 * Memasang via cargo (hal ini mengkompil dari source code, tentu lumayan lama prosesnya)
 
-```bash
+```sh
 export PATH="$PATH:~/.cargo/bin"
 cargo install mdbook mdbook-linkcheck
 ```
 
 ## Kloning kode sumber
 
-```bash
+```sh
 git clone --depth 1 https://gitlab.com/langitketujuh/l7-docs.git
 cd docs
 ```
 
 ## Menjalankan secara realtime
 
-```bash
+```sh
 mdbook serve
 ```
 
 ## Membangun html
 
-```bash
+```sh
 mdbook build
 ```
 

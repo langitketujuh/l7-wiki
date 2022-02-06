@@ -6,27 +6,27 @@
 
 ## Memasang Virt Manager
 
-```
+```sh
 doas xbps-install virt-manager virt-manager-tools qemu
 ```
 
 ## Tambahkan pengguna ke grup kvm
 
-```
+```sh
 doas gpasswd -a "$USER" libvirt
 doas usermod -aG kvm "$USER"
 ```
 
 Modprobe untuk mesin 32-bit (i686)
 
-```
+```sh
 modprobe kvm-intel  # untuk Intel CPUs
 modprobe kvm-amd    # untuk AMD CPUs
 ```
 
 ## Mengaktifkan layanan virtualisasi
 
-```
+```sh
 doas ln -s /etc/sv/libvirtd /var/service
 doas ln -s /etc/sv/virtlockd /var/service
 doas ln -s /etc/sv/virtlogd /var/service
@@ -34,12 +34,13 @@ doas ln -s /etc/sv/virtlogd /var/service
 
 Gunakan vsv untuk melihat layanan yang berjalan.
 
-```
+```sh
 doas vsv status virt
 ```
 
 Contoh keluarannya seperti berikut ini.
-```
+
+```sh
 ➜  ~ doas vsv status virt
 
    SERVICE              STATE   ENABLED   PID      COMMAND           TIME

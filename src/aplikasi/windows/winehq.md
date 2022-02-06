@@ -8,7 +8,7 @@
 
 Sebelum memasang WineHQ pastikan sudah memasang paket `void-repo-multilib`. Untuk arsitektur `x86_64-musl` dan `i686` tidak perlu dilakukan, karena paketnya tidak tersedia untuk arsitektur tersebut.
 
-```
+```sh
 doas xbps-install -S void-repo-multilib
 ```
 
@@ -16,7 +16,7 @@ doas xbps-install -S void-repo-multilib
 
 Cara termudahnya dengan memasang [meta paket](../../konfigurasi/paket/xbps.html#meta-paket) WineHQ yang sudah disediakan.
 
-```
+```sh
 doas xbps-install -S l7-pkg-wine
 ```
 

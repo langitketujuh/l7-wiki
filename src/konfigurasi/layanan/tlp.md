@@ -4,13 +4,13 @@ TLP sebagai manajemen baterai laptop agar penggunaannya lebih hemat dan efisien.
 
 ## Memasang tlp daemon
 
-```bash
+```sh
 doas xbps-install tlp tlp-rdw
 ```
 
 ## Melihat status tlp
 
-```bash
+```sh
 doas sv status tlp
 ```
 
@@ -18,24 +18,24 @@ doas sv status tlp
 
 Secara bawaan tlp sudah aktif
 
-```bash
+```sh
 doas ln -s /etc/sv/tlp /var/service/
 ```
 
 ## Menonaktifkan tlp
 
-```bash
+```sh
 doas rm /var/service/tlp
 ```
 
 ## Menjalankan ulang tlp
 
-```bash
+```sh
 doas sv restart tlp
 ```
 
 ## Menghapus tlp daemon
 
-```bash
+```sh
 doas xbps-remove -R tlp tlp-rdw
 ```

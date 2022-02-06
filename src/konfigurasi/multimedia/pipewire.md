@@ -8,31 +8,33 @@ PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertu
 
 Hapus pulseaudio.
 
-```
+```sh
 doas xbps-remove -R pulseaudio alsa-plugins-pulseaudio
 ```
 
 Pasang pipewire.
 
-```
+```sh
 doas xbps-install -S pipewire alsa-pipewire libjack-pipewire \
 libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sudah tidak aktif. Hal ini agar tidak konflik antara layanan pipewire dengan pulseaudio.
-```
+
+```sh
 doas rm -v /var/service/pulseaudio
 ```
 
 Tambahkan layanan pipewire.
-```
+
+```sh
 doas ln -s /etc/sv/pipewire /var/service/
 doas ln -s /etc/sv/pipewire-pulse /var/service/
 ```
 
 Menambahkan pengguna ke grup `_pipewire` dan `bluetoothd` agar dapat menjalankan bluetooth audio.
 
-```
+```sh
 doas usermod -aG bluetooth,_pipewire $USER
 ```
 
@@ -40,7 +42,7 @@ Kemudian logout atau reboot komputernya.
 
 Cek status pipewire.
 
-```
+```sh
 inxi -A
 ```
 
@@ -51,19 +53,21 @@ Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
 ## Mengganti pipewire dengan pulseaudio
 
 Menghapus pipewire.
-```
+
+```sh
 doas xbps-remove -R pipewire alsa-pipewire libjack-pipewire \
 libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
 Memasang pulseaudio.
 
-```
+```sh
 doas xbps-install -S pulseaudio alsa-plugins-pulseaudio
 ```
 
 Menghapus layanan pipewire.
-```
+
+```sh
 doas rm -v /var/service/pipewire
 doas rm -v /var/service/pipewire-pulse
 ```
@@ -72,7 +76,7 @@ Kemudian logout atau reboot komputernya.
 
 Cek status pulseaudio.
 
-```
+```sh
 inxi -A
 ```
 

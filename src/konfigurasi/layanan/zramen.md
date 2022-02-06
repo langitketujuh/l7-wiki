@@ -4,13 +4,13 @@ ZRAMEN untuk pengatur [zram](../../pemasangan/sistem-swap/zram.md), secara bawaa
 
 ## Memasang zramen daemon
 
-```bash
+```sh
 doas xbps-install zramen
 ```
 
 ## Melihat status zramen
 
-```bash
+```sh
 doas sv status zramen
 ```
 
@@ -18,24 +18,24 @@ doas sv status zramen
 
 Secara bawaan zramen sudah aktif
 
-```bash
+```sh
 doas ln -s /etc/sv/zramen /var/service/
 ```
 
 ## Menonaktifkan zramen
 
-```bash
+```sh
 doas rm /var/service/zramen
 ```
 
 ## Menjalankan ulang zramen
 
-```bash
+```sh
 doas sv restart zramen
 ```
 
 ## Menghapus zramen daemon
 
-```bash
+```sh
 doas xbps-remove -R zramen
 ```

@@ -4,7 +4,7 @@ OpenDoas (lebih dikenal dengan doas) merupakan porting `doas` dari OpenBSD yang 
 
 Di dalam paket `l7-opendoas` terdapat konfigurasi tambahan yang siap pakai (/etc/doas.conf). Manfaat doas tentunya untuk melewati kata sandi dan mempercepat alur kerja xbps seperti memperbarui, mengkonfigurasi, memasang dan menghapus perangkat lunak. Kini kami menggunakan doas sebagai alternatif sudo.
 
-```
+```sh
 sudo xbps-install -Sf l7-tools l7-opendoas l7-fish-shell
 ```
 
@@ -14,7 +14,7 @@ Autokomplit fish masih belum terupdate untuk LangitKetujuh `20210921` dan versi 
 
 Jika autokomplit yang digunakan masih sudo, maka perlu menggantinya dengan doas di variabel autokomplit Fish shell.
 
-```
+```sh
 cd ~/.config/fish/
 mv fish_variables fish_variables.bak # untuk backup
 cp -iv /etc/skel/.config/fish/fish_variables ~/.config/fish/
@@ -24,19 +24,19 @@ cp -iv /etc/skel/.config/fish/fish_variables ~/.config/fish/
 
 Perintah yang sebelumnya pernah dieksekusi atau history yang menggunakan sudo, disarankan diganti menjadi doas. Sekalian hapus juga singkatan yang tidak diperlukan.
 
-```
+```sh
 abbr --erase su
 ```
 
 Sebagai opsional, jika ingin mengganti teks sudo menjadi doas.
 
-```
+```sh
 abbr --add sudo 'doas'
 ```
 
 Lalu ganti history sudo menjadi doas secara menyeluruh.
 
-```
+```sh
 sed -i 's/sudo/doas/' ~/.local/share/fish/fish_history
 sed -i 's/sudo/doas/' ~/.bash_history
 ```

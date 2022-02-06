@@ -6,7 +6,7 @@ Terkadang disk setelah diperiksa ternyata adalah MBR (untuk boot mode legacy). P
 
 Gunakan `gdisk` untuk konversinya. Pada contoh dibawah ini misalnya disk yang digunakan adalah `sda`. Dan jangan lupa untuk umount disk yang akan dikonversikan.
 
-```bash
+```sh
 doas gdisk /dev/sda
 ```
 
@@ -17,7 +17,7 @@ doas gdisk /dev/sda
 
 Kami rasa sangat disayangkan bila disk dikonversi ke MBR, karena seperti mengalami penurunan fitur. Jika terpaksa konversi tetap gunakan `gdisk`. Pada contoh dibawah ini misalnya disk yang akan dipasang LangitKetujuh adalah `sda`. Jangan lupa untuk unmount disk yang akan dikonversikan.
 
-```bash
+```sh
 doas gdisk /dev/sda
 ```
 

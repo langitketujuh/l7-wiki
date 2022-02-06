@@ -49,13 +49,13 @@ Fitur ini untuk memeriksa objek-objek yang tidak didukung EPS8. Misalnya transpa
 
 Secara bawaan sudah ada di Langitketujuh OS tinggal menambah color profile saja
 
-```bash
+```sh
 doas l7-export --install
 ```
 
 Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void dan derivatifnya. Jalankan perintah ini
 
-```bash
+```sh
 sudo curl "https://langitketujuh.id/sh/l7-export" | sudo bash
 sudo l7-export --install
 ```
@@ -66,6 +66,6 @@ sudo l7-export --install
 - Buka Konsole (terminal emulator) di direktori yang sama. Dengan cara klik kanan, klik "Open Terminal Here"
 - Masukkan perintah dibawah ini
 
-```bash
+```sh
 l7-export namaberkas.svg namaID
 ```
