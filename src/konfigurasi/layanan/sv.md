@@ -1,6 +1,10 @@
 # Runit init
 
-[Runit](http://smarden.org/runit/) merupakan salah satu manajemen init pengganti [systemd](https://systemd.io/). Tujuan `sv` (salah satu perkakas runit) untuk mengontrol layanan seperti melihat satus, mengaktifkan, menghapus, memberhentikan dan menyalakan ulang.
+Init merupakan daemon proses yang terus berjalan hingga sistem dimatikan. Sedangkan [Runit](http://smarden.org/runit/) sendiri merupakan salah satu manajemen init pengganti [systemd](https://systemd.io/). Proses booting runit terlihat saat pertama kali menyalakan komputer.
+
+![Runit LangitKetujuh OS](../../media/image/runit-langitketujuh-id.webp)
+
+Runit menggunakan perkakas `sv` untuk mengontrol layanan seperti melihat satus, mengaktifkan, menghapus, memberhentikan dan menyalakan ulang.
 
 Sedangkan `vsv` memiliki fungsi yang sama dengan `sv` namun lebih mudah dan sederhana.
 
