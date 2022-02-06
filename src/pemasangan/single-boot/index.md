@@ -1,4 +1,4 @@
-# Single Boot
+# Single boot
 
 Pemasangan dengan satu sistem operasi saja (tunggal). Sebisa mungkin menggunakan sistem operasi tunggal agar maksimal, fokus dan lebih produktif. Manfaat dari menggunakan sistem operasi tunggal, antara lain:
 

@@ -1,4 +1,4 @@
-# Audio Hilang
+# Audio hilang
 
 ## Gunakan pipewire server
 

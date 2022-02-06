@@ -1,4 +1,4 @@
-# Pengguna
+# Akun pengguna
 
 Ada dua pengguna ketika memasuki liveusb LangitKetujuh, yaitu pengguna `anon` dan `root`.
 

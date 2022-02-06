@@ -1,4 +1,4 @@
-# Broadcom Driver
+# Broadcom
 
 Cek kartu jaringan wifi dengan menjalankan konsole perintah ini.
 

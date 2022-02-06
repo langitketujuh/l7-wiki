@@ -1,4 +1,4 @@
-# Tipe Disk
+# Tipe disk
 
 ## Cadangkan data hardisk
 

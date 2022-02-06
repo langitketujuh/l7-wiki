@@ -1,4 +1,4 @@
-# Pengaturan Sistem
+# Pengaturan sistem
 
 ## Mengosongkan sesi awal
 

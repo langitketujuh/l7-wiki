@@ -1,4 +1,4 @@
-# Printer & Scanner Driver
+# Printer & scanner
 
 ## Epson Printer
 

@@ -1,4 +1,4 @@
-# Para Pendukung 🚀
+# Para pendukung 🚀
 
 **Aldhi Mandiri (Solusi Media Digital)**,
 **Setia Budi (Indonesia Belajar)**,

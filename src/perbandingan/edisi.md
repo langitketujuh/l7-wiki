@@ -12,7 +12,7 @@ Yuk dukung terus projek LangitKetujuh OS dengan menggunakan edisi studio dan [me
 
 Mayoritas di indonesia penggunaan atas perangkat lunak ilegal masih cukup tinggi. Jika pengguna menggunakan perangkat lunak terbuka seperti LangitKetujuh OS berarti pengguna ikut serta dalam meningkatkan penggunaan perangkat lunak yang aman dan legal.
 
-## Tabel Perbandingan
+## Perbandingan
 
 Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
 

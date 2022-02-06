@@ -1,8 +1,8 @@
-# TLP Power Manajemen
+# TLP
 
-TLP Mengatur power management agar penggunaan baterai laptop lebih hemat efisien. Pengguna tidak perlu mengkonfigurasi ulang, cukup pasang dan lupakan. TLP sendiri sudah menggunakan konfigurasi yang sudah diimplementasikan Powertop secara _out of the box_.
+TLP sebagai manajemen baterai laptop agar penggunaannya lebih hemat dan efisien. Pengguna tidak perlu mengkonfigurasi ulang, cukup pasang dan lupakan. TLP sendiri sudah menggunakan konfigurasi yang sudah diimplementasikan Powertop secara _out of the box_.
 
-## Memasang TLP daemon
+## Memasang tlp daemon
 
 ```bash
 doas xbps-install tlp tlp-rdw
@@ -34,7 +34,7 @@ doas rm /var/service/tlp
 doas sv restart tlp
 ```
 
-## Menghapus TLP daemon
+## Menghapus tlp daemon
 
 ```bash
 doas xbps-remove -R tlp tlp-rdw

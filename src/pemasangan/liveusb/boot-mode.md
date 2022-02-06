@@ -1,4 +1,4 @@
-# Boot Mode
+# Boot mode
 
 ## UEFI
 

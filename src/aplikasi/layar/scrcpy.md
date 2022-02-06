@@ -1,4 +1,4 @@
-# Scrcpy Mirroring
+# Scrcpy mirroring
 
 ## Deskripsi
 

@@ -1,4 +1,4 @@
-# Tombol Bios
+# Tombol bios
 
 ## Boot menu dan bios menu
 

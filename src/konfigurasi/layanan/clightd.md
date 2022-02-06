@@ -1,4 +1,4 @@
-# Kecerahan Otomatis dengan Clight
+# Clight
 
 Clight untuk mengatur kecerahan layar secara otomatis menggunakan sensor webcam.
 
@@ -18,7 +18,7 @@ doas sv status Clightd
 
 ## Mengaktifkan clightd
 
-Secara bawaan Clightd sudah aktif
+Secara bawaan clightd sudah aktif
 
 ```bash
 doas ln -s /etc/sv/Clightd /var/service/

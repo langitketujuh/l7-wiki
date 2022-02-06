@@ -1,6 +1,6 @@
-# Flatpak Sanboxing
+# Flatpak sanboxing
 
-## Konfigurasi Flathub
+## Konfigurasi flathub
 
 ```bash
 flathub

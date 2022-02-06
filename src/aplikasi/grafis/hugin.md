@@ -1,4 +1,4 @@
-# Hugin Panorama Creator
+# Hugin panorama creator
 
 ## Deskripsi
 

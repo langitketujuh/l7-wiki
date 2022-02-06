@@ -1,4 +1,4 @@
-# DroidCam Wireless Webcam
+# DroidCam
 
 ## Deskripsi
 

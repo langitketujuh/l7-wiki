@@ -12,9 +12,9 @@ Di LangitKetujuh sendiri dengan paket `l7-octoxbps` sudah menonaktifkan pencaria
 
 Ada beberapa warna sebagai tanda informasi paket.
 
-- ⬜ > Tidak terpasang.
-- 🟩 > Sudah terpasang.
-- 🟥 > Memerlukan pembaruan.
+- ⬜ (putih) = Tidak terpasang.
+- 🟩 (hijau) = Sudah terpasang.
+- 🟥 (merah) = Memerlukan pembaruan.
 
 Sedangkan cara penggunaannya sebagai berikut.
 

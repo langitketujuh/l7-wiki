@@ -1,4 +1,4 @@
-# Tentang Kami
+# Tentang kami
 
 ## Motivasi
 
@@ -6,13 +6,13 @@ Amar ma’ruf nahi munkar, mengajak kepada kebaikan dan mencegah keburukan. Meng
 
 Sebagian besar perangkat lunak editing yang dibawa oleh Distribusi LangitKetujuh adalah 100% bebas. Sehingga tidak perlu berlangganan atau membeli perangkat lunak yang tidak terbuka atau yang kita kenal dengan istilah proprietary.
 
-## Nama Distribusi
+## Nama distribusi
 
 Nama LangitKetujuh diambil dari peristiwa Isra’ Miraj. Perjalanan Rosulullah dari Al Masjidil Haram ke Al Masjidil Aqsha. Mi’raj dari langit pertama sampai langit ketujuh, hingga ke Sidratul Muntaha yaitu tempat tertinggi di langit yang menjadi batas ujung pengetahuan dan amal aktifitas para makhluk.
 
 Alasan kedua, nama LangitKetujuh ini dipilih karena jarang ada projek perangkat lunak yang menggunakan nama tempat yang islami dan istimewa. Sehingga tim pengembang (developer) bertambah yakin dengan nama "LangitKetujuh" adalah nama yang tepat dan memiliki keistimewaan. Sistem operasi ini bisa juga disebut dengan "L7" yaitu kepanjangan dari LangitKetujuh.
 
-## Visi dan Misi
+## Visi dan misi
 
 - Visi
 

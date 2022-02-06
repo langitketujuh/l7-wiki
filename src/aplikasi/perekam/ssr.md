@@ -1,4 +1,4 @@
-# Simple Screen Recorder
+# Simple screen recorder
 
 ## Deskripsi
 

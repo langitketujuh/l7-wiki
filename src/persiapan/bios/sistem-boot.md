@@ -1,4 +1,4 @@
-# Sistem Boot
+# Sistem boot
 
 ## Bios menu
 
@@ -21,13 +21,13 @@ Jika Secure boot tidak aktif/muncul, maka buatlah kata sandi bios dahulu. Kata s
 - Ke bagian tab `Boot`
 - Pilih `Secure boot: Disabled`
 
-## Boot Mode
+## Boot mode
 
 Ada 2 jenis Boot mode, yaitu Legacy dan UEFI.
 
 Jika menggunakan legacy, secara otomatis masuk ke boot mode legacy sendiri dan tidak perlu diatur lagi. Sedangkan, jika menggunakan UEFI pastikan `Boot mode:` menggunakan `UEFI` atau `UEFI Only`.
 
-## Boot Order/Sequence
+## Boot order/sequence
 
 Kami menyarankan menggunakan boot mode UEFI jika bios mendukung. Jika mendukung UEFI, letakkan UEFI USB paling atas (biasanya muncul 2 boot order flasdisk di bios menu). Tetapi jika bios hanya mendukung legacy saja, maka USB biasa yang diposisikan paling atas.
 

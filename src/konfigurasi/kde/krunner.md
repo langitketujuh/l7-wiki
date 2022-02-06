@@ -1,6 +1,6 @@
 # Krunner Bar
 
-## Mengurangi Addons
+## Mengurangi addons
 
 Beberapa plugins tambahan di launcher menu KDE Plasma rasanya terlalu banyak, sehingga ketika membuka menu lebih lama munculnya. Agar lebih ringan, solusinya yaitu dengan menonaktifkan plugin tambahan yang tidak diperlukan di pengaturan `Krunner`.
 

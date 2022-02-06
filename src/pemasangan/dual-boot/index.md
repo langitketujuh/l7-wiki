@@ -1,4 +1,4 @@
-# Dual Boot
+# Dual boot
 
 Pemasangan dengan dua sistem operasi atau lebih. Manfaat dari dual boot antara lain:
 

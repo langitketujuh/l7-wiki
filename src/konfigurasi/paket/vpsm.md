@@ -1,10 +1,10 @@
-# VPSM Xbps-src Wrapper
+# VPSM xbps-src wrapper
 
 VPSM pada umumnya digunakan untuk memasang perangkat lunak tidak bebas saja, jika perangkat lunak yang dimaksud ada di dalam repo utama maka sebaiknya jangan pakai VPSM. Cek perangkat lunaknya dengan `search <pkg>`. Jika tersedia, gunakan `get <pkg>` untuk memasangnya.
 
 `VPSM` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu perangkat lunak, baik yang free maupun yang tidak bebas restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang perangkat lunak sesuai panduan di [void-packages](https://github.com/void-linux/void-packages/blob/master/README.md).
 
-## Vpsm Config
+## Konfigurasi vpsm
 
 Jalankan perintah ini untuk membuat boostrap vpsm. Pengguna diharuskan melakukan ini untuk awal pemasangan.
 

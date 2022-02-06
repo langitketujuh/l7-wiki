@@ -1,4 +1,4 @@
-# Konversi Tipe Disk
+# Konversi tipe disk
 
 ## Merubah MBR ke GPT tanpa format
 

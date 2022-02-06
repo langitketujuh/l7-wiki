@@ -1,4 +1,4 @@
-# XBPS Paket Manajer
+# XBPS paket manajer
 
 ## Perintah dasar
 

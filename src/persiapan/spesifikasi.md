@@ -1,4 +1,4 @@
-# Spesifikasi Minimal
+# Spesifikasi minimal
 
 ## Edisi Lite
 

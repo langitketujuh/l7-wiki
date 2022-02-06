@@ -1,4 +1,4 @@
-# Verifikasi Berkas
+# Verifikasi berkas
 
 Sebelum membuat bootable, disarankan untuk melakukan verifikasi berkas. Tujuannya untuk mengetahui berkas iso yang telah diunduh sudah aman atau tidak. LangitKetujuh telah menyediakan kode hash `SHA256` di [halaman verifikasi berkas](https://langitketujuh.id/os/verifikasi), pastikan kode hash yang di dalamnya sama seperti hasil keluaran hash.
 

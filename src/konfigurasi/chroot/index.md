@@ -1,4 +1,4 @@
-# Chroot Mode
+# Chroot mode
 
 ## Pengertian chroot
 

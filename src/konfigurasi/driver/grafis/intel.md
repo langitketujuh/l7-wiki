@@ -1,4 +1,4 @@
-# Intel GPU Driver
+# Intel
 
 ## Firmware
 

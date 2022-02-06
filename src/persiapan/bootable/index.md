@@ -1,6 +1,6 @@
 # Bootable
 
-Pada bagian ini menjelaskan tentang cara membuat bootable dengan media penyimpanan Flashdisk yang berisi sistem operasi LangitKetujuh. Manfaat dari membuat bootable, diantaranya:
+Pada bagian ini menjelaskan tentang cara membuat bootable dengan media penyimpanan flashdisk yang berisi sistem operasi LangitKetujuh. Manfaat dari membuat bootable, diantaranya:
 
 - Sebagai pemasang sistem operasi.
 - Demontrasi sistem operasi dan perangkat lunaknya.

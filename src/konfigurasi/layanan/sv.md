@@ -1,6 +1,6 @@
-# Runit Init
+# Runit init
 
-`sv` merupakan salah satu manajemen init dari `runit` untuk pengganti Systemd. Tujuan `sv` untuk mengontrol layanan seperti melihat satus, mengaktifkan, menghapus, memberhentikan dan menyalakan ulang.
+[Runit](http://smarden.org/runit/) merupakan salah satu manajemen init pengganti [systemd](https://systemd.io/). Tujuan `sv` (salah satu perkakas runit) untuk mengontrol layanan seperti melihat satus, mengaktifkan, menghapus, memberhentikan dan menyalakan ulang.
 
 Sedangkan `vsv` memiliki fungsi yang sama dengan `sv` namun lebih mudah dan sederhana.
 

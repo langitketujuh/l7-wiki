@@ -1,18 +1,18 @@
-# PipeWire Audio Server
+# PipeWire audio server
 
 ## Deskripsi
 
 PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertujuan untuk menawarkan pengambilan dan pemutaran audio dan video dengan latensi yang minimal dan dukungan untuk aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer. Secara bawaan LangitKetujuh sudah menggunakan pipewire.
 
-## Memasang PipeWire
+## Memasang pipewire
 
-Hapus PulseAudio.
+Hapus pulseaudio.
 
 ```
 doas xbps-remove -R pulseaudio alsa-plugins-pulseaudio
 ```
 
-Pasang PipeWire.
+Pasang pipewire.
 
 ```
 doas xbps-install -S pipewire alsa-pipewire libjack-pipewire \
@@ -48,15 +48,15 @@ Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
 
 `PipeWire v: [versi] running: yes`
 
-## Mengganti PipeWire dengan PulseAudio
+## Mengganti pipewire dengan pulseaudio
 
-Menghapus PipeWire.
+Menghapus pipewire.
 ```
 doas xbps-remove -R pipewire alsa-pipewire libjack-pipewire \
 libspa-bluetooth gstreamer1-pipewire l7-pipewire
 ```
 
-Memasang PulseAudio.
+Memasang pulseaudio.
 
 ```
 doas xbps-install -S pulseaudio alsa-plugins-pulseaudio

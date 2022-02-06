@@ -1,4 +1,4 @@
-# AMD/ATI GPU Driver
+# AMD/ATI
 
 ## Firmware
 

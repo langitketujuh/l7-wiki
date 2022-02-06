@@ -1,4 +1,4 @@
-# Dual Boot Bersama Windows
+# Dual boot bersama windows
 
 ## Metode
 
@@ -99,7 +99,9 @@ Selanjutnya pilih zona waktu kota, misalnya `Jakarta` untuk zona waktu WIB. Peng
 
 Masukkan kata sandi yang unik dan mudah diingat.
 
-> 🔔 Gunakan kata sandi dengan kombinasi angka dan huruf sekitar 5 karakter.
+> 🔔 **Tips**
+>
+> Gunakan kata sandi dengan kombinasi angka dan huruf sekitar 5 karakter.
 
 ![LangitKetujuh Install](../../media/image/install-password-root.webp)
 
@@ -141,7 +143,7 @@ Pada dialog `use graphical boot loader` pilih `Yes`.
 
 ### Partition
 
-> ⚠️ **Cadangkan data Hardisk**
+> ⚠️ **Peringatan**
 >
 > Ketika merubah, mengganti, menambah dan mengurangi partisi. Sebaiknya sudah mencadangkan ke disk eksternal atau cloud agar aman jika terjadi kesalahan teknis. Mohon tidak melanjutkan jika tidak yakin dengan apa yang dilakukan.
 
@@ -188,7 +190,9 @@ Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk ke
 
 ### Filesystems
 
-> 🔔 Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS`, `Btrfs` atau `Ext4`.
+> 🔔 **Tips**
+>
+> Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS`, `Btrfs` atau `Ext4`.
 
 Filesystem akan menentukan setiap partisi untuk digunakan dalam mountpoint hirarki sistem operasi. Umumnya terdiri dari 3 mountpoint, yaitu:
 
@@ -281,7 +285,9 @@ Tekan `Exit` untuk keluar dari ringkasan pengaturan.
 
 Jika sudah yakin, Pilih `Install` dan `OK` untuk melanjutkan operasi pemasangan. Pilih `Yes` untuk memformat partisi sesuai pangaturan yang sudah diringkas pengaturan `Settings` sebelumnya.
 
-> ⚠️ Adanya penghapusan partisi jika tertulis NEW FILESYSTEM
+> ⚠️ **Peringatan**
+>
+> Adanya penghapusan partisi jika tertulis NEW FILESYSTEM.
 
 <!--![LangitKetujuh Install](../../media/image/install-install-0-1-0.webp)-->
 

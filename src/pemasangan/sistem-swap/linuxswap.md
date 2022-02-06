@@ -1,4 +1,4 @@
-# Partisi linux swap
+# Linux swap
 
 Sistem tradisional linux swap dengan membuat partisi khusus swap sangat tidak disarankan. Alasannya sebagai berikut:
 

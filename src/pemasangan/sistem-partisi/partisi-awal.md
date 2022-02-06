@@ -1,4 +1,4 @@
-# Partisi Awal
+# Partisi awal
 
 ## Tujuan
 
@@ -14,7 +14,9 @@ doas cfdisk /dev/sda
 
 Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perintah `new` dan `delete`. Kemudian atur partisi yang akan digunakan sesuai kebutuhan. Agar optimal penggunaan partisinya untuk instalasi satu sistem operasi sebaiknya menggunakan 3 jenis partisi, yaitu antara lain:
 
-> 🔔 Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs` atau `Btrfs`, sedangkan HDD menggunakan `XFS` atau `Ext4`.
+> 🔔 **Tips**
+>
+> Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS`, `Btrfs` atau `Ext4`.
 
 - **Legacy (dos/mbr)**
 

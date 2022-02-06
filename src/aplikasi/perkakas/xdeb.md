@@ -1,4 +1,4 @@
-# XDEB Konverter
+# XDEB konverter
 
 [XDEB](https://github.com/toluschr/xdeb) merupakan perkakas CLI sederhana untuk mengkonversi berkas `.deb` ke `.xbps`. Tetapi kami tidak menyarankan memasang suatu perangkat lunak yang terdapat pustaka systemd init, bisa berakibat fatal jika dipasang ke sistem operasi dengan runit init ini seperti di LangitKetujuh.
 

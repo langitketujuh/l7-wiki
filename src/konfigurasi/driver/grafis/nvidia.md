@@ -1,4 +1,4 @@
-# NVIDIA GPU Driver
+# NVIDIA
 
 ## Nouveau
 

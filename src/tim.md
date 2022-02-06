@@ -1,4 +1,4 @@
-# Para Tim ✨
+# Para tim ✨
 
 * [Hervy Qurrotul Ainur Rozi](https://t.me/hervyqa) (Pengembang, Pemelihara, Pemaket, & Desainer)
 * [Ihsan Syauqi Adn](https://t.me/ihsansyauqiadn) (Administrasi & Pendukung layanan)
@@ -30,7 +30,7 @@ Keuntungan apa menjadi tim?
 
 Jika sudah sesuai klasifikasi diatas maka silakan bergabung sesuai bidang yang diinginkan.
 
-## Konten kreator dan Ilustrator (005)
+## Konten kreator dan ilustrator (005)
 
 * Memahami desain grafis dengan perangkat lunak terbuka.
 * Membuat Konten edukasi dan kreatif untuk sosial media.

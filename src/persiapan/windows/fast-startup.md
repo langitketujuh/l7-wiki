@@ -1,4 +1,4 @@
-# Fast Startup
+# Fast startup
 
 Fast startup di Windows perlu dinonaktifkan. Tujuannya untuk memudahkan masuk ke bios menu komputer. Jika tidak dinonaktifkan fitur _fast startup_ dari windows maka pengguna akan kesusahan untuk masuk ke bios menu, biasanya berulang-ulang masuk ke windows. Fitur fast startup hanya tersedia untuk windows 8 dan 10 saja.
 

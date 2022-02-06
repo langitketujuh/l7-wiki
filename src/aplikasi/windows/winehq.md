@@ -1,4 +1,4 @@
-# WineHQ Penggerak Perangkat Lunak Windows
+# WineHQ
 
 ## Deskripsi
 

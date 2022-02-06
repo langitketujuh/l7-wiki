@@ -1,10 +1,10 @@
-# Pembaruan Sistem
+# Pembaruan sistem
 
 ## Rilis bergulir
 
 Sistem operasi LangitKetujuh menggunakan rilis bergulir (rolling release) untuk memperbarui setiap paket, sehingga perangkat lunak yang digunakan relatif terbaru dan lebih sering update. Meskipun demikian, ukuran dependensi lebih kecil dari pada distro pada umumnya.
 
-## Update System
+## Update system
 
 Sebelum memperbarui sistem pastikan sudah terhubung dengan jaringan internet. Kemudian perbarui sistem dengan cara mengklik **Update System** di menu favorit seperti dibawah ini.
 

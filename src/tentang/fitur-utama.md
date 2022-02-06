@@ -1,15 +1,15 @@
-# Fitur Utama
+# Fitur utama
 
 ## XBPS
 Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (rilis bergulir).
 
-## Rilis Bergulir
+## Rilis bergulir
 Berisi perangkat lunak rilis bergulir _([rolling release](https://id.wikipedia.org/wiki/Rilis_bergulir))_ dengan versi stabil terbaru. Setiap rilis terbaru tidak diharuskan untuk memasang ulang, hanya memerlukan pembaruan seperti biasanya secara otomatis menggunakan versi yang terbaru.
 
-## Musl Libc
+## Musl libc
 Tersedia libc modern yang mengutamakan efisiensi sumber daya. Render audio/video dan kompil perangkat lunak semakin cepat. Perbedaan antara musl dan glibc bisa merujuk ke [tautan ini](../perbandingan/libc.md).
 
-## Runit Init
+## Runit init
 Keamanan lebih baik. Menggunakan runit karena PID1 harus sederhana, minimalis, dan stabil. Tentunya bebas dari SystemD. Dengan runit init booting semakin cepat.
 
 ## KDE Plasma

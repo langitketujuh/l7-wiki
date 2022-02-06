@@ -17,7 +17,7 @@ L7 Export merupakan fork dari [inkporter-cli](https://github.com/raniaamina/inkp
 * Ekspor ke berkas Png rgb.
 * Ekspor ke berkas Webp dan Svg.
 
-## Color Profile
+## Color profile
 
 Profil warna yang didukung:
 
@@ -27,7 +27,7 @@ Profil warna yang didukung:
 * CMYK > Corel      (Japan Color 2001 Coated)
 * CMYK > Adobe      (U.S. Web Coated (SWOP) v2)
 
-## Ekspor Marketplace
+## Ekspor marketplace
 
 Sederhananya fitur ini mengekspor id objek inkscape menjadi berkas siap upload. Marketplace tersebut antara lain:
 

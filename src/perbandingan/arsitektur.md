@@ -1,4 +1,4 @@
-# Arsitektur
+# Arsitektur mesin
 
 Pada dasarnya glibc merupakan libc yang paling umum dan paling kompatibel, sehingga disarankan untuk memilih glibc. Namun jika tidak ketergantungan dengan perangkat lunak tidak bebas maka sebaiknya menggunakan musl.
 
