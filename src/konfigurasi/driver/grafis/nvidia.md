@@ -21,17 +21,23 @@ Cara memasang Nvidia, periksa dahulu tipe Nvidia.
 inxi -G
 ```
 
-Pasang dengan menyesuaikan nomer seri driver kartu grafis.
+Pasang dengan menyesuaikan nomer versi driver kartu grafis.
 
-| **Perintah**                  | **Seri Driver**   |
+| **Perintah**                  | **Versi**   |
 | :---------------------------- | :---------------- |
-| `doas xbps-install nvidia470` | Seri GKxxx Kepler |
-| `doas xbps-install nvidia`    | 600 keatas        |
-| `doas xbps-install nvidia390` | 400/500           |
+| `doas xbps-install nvidia`    | 800 keatas        |
+| `doas xbps-install nvidia470` | 600 atau 700      |
+| `doas xbps-install nvidia390` | 400 atau 500      |
 
-Jika driver Nvidia yang digunakan driver legacy maka gunakan `nvidia390`. Jenis-jenis driver Nvidia legacy bisa dilihat di tautan [Driver Nvidia Legacy](https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/) ini.
+Jika driver Nvidia yang digunakan termasuk driver [legacy gpu](https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/) maka gunakan `nvidia390` atau `nvidia470`.
 
-Hati-hati memilih versi Nvidia, jika salah versi kemungkinan akan blackscreen.
+![Nvidia Search LangitKetujuh OS](../../../media/image/nvidia-driver-langitketujuh-id-1.webp)
+
+Lebih jelasnya pengguna dapat menggunakan [pencarian driver](https://www.nvidia.com/Download/index.aspx?lang=en-us) dengan memilih `Operating System: Linux 64-bit`, tentunya untuk mencari nomer versi saja bukan untuk diunduh. Sedangkan pemasangan driver tetap menggunakan perintah dari tabel diatas.
+
+![Nvidia Search LangitKetujuh OS](../../../media/image/nvidia-driver-langitketujuh-id-2.webp)
+
+Dari contoh diatas, Nvidia yang digunakan adalah `nvidia390` sebab menggunakan versi 500 (510.x.x). Hati-hati memilih dan memasang versi driver. Jika salah versi kemungkinannya akan blackscreen, tetapi masalah tersebut dapat diatasi dengan [chroot mode](../../chroot/index.md) dan menghapus drivernya.
 
 ## Blacklist nouveau
 
