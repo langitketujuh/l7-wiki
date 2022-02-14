@@ -38,5 +38,5 @@ Beberapa paket sudah kami kategorikan dengan meta paket seperti kompiler, codec 
 | `l7-pkg-wine`     | Wine penggerak perangkat lunak Windows.        |
 
 Contoh penggunaan:
-- Memasang wine :`doas xbps-install l7-pkg-rust`
+- Memasang rust :`doas xbps-install l7-pkg-rust`
 - Memasang beberapa paket: `doas xbps-install l7-pkg-{rust,lamp}`
