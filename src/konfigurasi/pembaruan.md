@@ -22,9 +22,14 @@ Pembaruan dapat dilakukan saat memiliki waktu senggang saja, atau ketika ingin m
 
 ## OctoXBPS
 
-Pembaruan dapat dilakukan juga melalui [octoxbps](../aplikasi/perkakas/octoxbps.md) dengan mengklik `Install` di bagian status bar. Adanya paket yang perlu diperbarui terlihat dengan tanda warna merah seperti dibawah ini.
+Pembaruan dapat dilakukan juga melalui [octoxbps](../aplikasi/perkakas/octoxbps.md). Sebelum memperbarui sistem, pastikan sudah melakukan sinkronisasi database repositori dengan mengklik `Sync database`.
+
+![Refresh database OctoXBPS LangitKetujuh OS](../media/image/octoxbps-refresh-database-langitketujuh-id.webp)
+
+Kemudian klik `Install` di bagian status bar. Adanya paket yang perlu diperbarui terlihat dengan tanda warna merah seperti dibawah ini.
 
 ![OctoXBPS Update LangitKetujuh OS](../media/image/octoxbps-update-langitketujuh-id.webp)
 
-Kemudian klik `Yes` untuk menjalankan proses pembaruan sistem.
+Klik `Yes` untuk menjalankan proses pembaruan sistem.
+
 ![OctoXBPS Update Confirmation LangitKetujuh OS](../media/image/octoxbps-confirmation-langitketujuh-id.webp)
