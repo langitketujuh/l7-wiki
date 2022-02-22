@@ -10,6 +10,12 @@ Hugin memudahkan untuk membuat dari 2 gambar (ada fitur otomatis sebagai opsiona
 
 ![Hugin LangitKetujuh OS](../../media/image/hugin-langitketujuh-id-2.webp)
 
+## Cara memasang
+
+```sh
+doas xbps-install -S hugin
+```
+
 ## Dokumentasi
 
 Pengguna dapat belajar dan menjelajahi fitur Hugin melalui halaman [wiki](https://wiki.panotools.org/Hugin) yang telah disediakan.

@@ -10,4 +10,10 @@ Untuk pemrosesan gambar, converseen menggunakan ImageMagick++ sehingga mendukung
 
 Penggunaannya juga sangat sederhana. Tambahkan gambar, ceklis gambar yang akan dikonversi, dan klik _Convert_. Semua gambar akan terkonversi dengan cepat.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S Converseen
+```
+
 Jika pengguna memerlukan konversi video, dapat menggunakan [HandBrake](../video/handbrake.md). Sedangkan untuk konversi audio dapat menggunakan [soundKonverter](../audio/soundkonverter.md).

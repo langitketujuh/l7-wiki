@@ -4,7 +4,7 @@
 
 Program tambahan ini bertujuan untuk mengintegrasikan perangkat lunak kget dengan Firefox browser, sehingga berkas yang diunduh melalui firefox akan terunduh otomatis dengan kget.
 
-## Memasang kget integrator
+## Cara memasang
 
 ```sh
 doas curl -s https://raw.githubusercontent.com/NicolasGuilloux/KGet-Integrator/master/kget-integrator -o /usr/bin/kget-integrator

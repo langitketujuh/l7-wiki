@@ -4,7 +4,7 @@
 
 Perangkat lunak ini bertujuan untuk menghubungkan kamera di smartphone/tablet melalui jaringan untuk dijadikan kamera utama untuk perangkat lunak desktop, misalnya untuk OBS Studio dan perangkat lunak konferensi. Ini memudahkan pengguna agar menggunakan kamera yang lebih jernih dari pada kamera Webcam sendiri atau untuk menggantikan webcam di komputer.
 
-## Pemasangan
+## Cara memasang
 
 ```sh
 doas xbps-install -S droidcam l7-v4l2loopback

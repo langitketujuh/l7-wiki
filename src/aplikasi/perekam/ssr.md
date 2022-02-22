@@ -20,3 +20,9 @@ Output:
 - Lighweight (WebM)
 
 ![Simple Screen Recorder LangitKetujuh OS](../../media/image/simplescreenrecorder-langitketujuh-id-3.webp)
+
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}ssr
+```

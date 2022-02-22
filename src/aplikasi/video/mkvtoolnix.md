@@ -6,6 +6,12 @@
 
 ![MKVToolkit LangitKetujuh OS](../../media/image/mkvtoolkit-langitketujuh-id.webp)
 
+## Cara memasang
+
+```sh
+doas xbps-install -S mkvtoolnix-gui
+```
+
 ## Dokumentasi
 
 Pengguna dapat menjelajahi setiap fitur dan panduan mkvtoolkit di [dokumentasi](https://mkvtoolnix.download/docs.html) yang tersedia.

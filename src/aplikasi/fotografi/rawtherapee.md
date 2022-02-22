@@ -12,6 +12,12 @@ Berkas mentah dari kamera atau yang lebih dikenal dengan RAW memerlukan pengolah
 
 Pengoreksian pencahayaan dari RawTherapee ada beberapa macam, seperti Luminance Recovery, CIELab Blending, dan Color Propagation. Tentu dengan pengoreksian ini, foto lebih seimbang pencahayaannya dan terlebih lagi terdapat noise reduction untuk mengurangi bercak foto yang berlebihan.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S rawtherapee
+```
+
 ## Dokumentasi
 
 Pengguna dapat mempelajari dan menjelajahi fitur apa saja yang ada di RawTherapee dengan [RawPedia](https://rawpedia.rawtherapee.com/).

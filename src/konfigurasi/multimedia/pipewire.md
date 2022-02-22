@@ -4,7 +4,7 @@
 
 PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertujuan untuk menawarkan pengambilan dan pemutaran audio dan video dengan latensi yang minimal dan dukungan untuk aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer. Secara bawaan LangitKetujuh sudah menggunakan pipewire.
 
-## Memasang pipewire
+## Cara memasang
 
 ```sh
 doas xbps-install -S pipewire alsa-pipewire libjack-pipewire \

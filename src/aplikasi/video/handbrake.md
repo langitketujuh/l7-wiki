@@ -14,6 +14,12 @@ Beberapa keluaran codec yang dihasilkan dari HandBrake:
 - Audio Encoder: AAC / HE-AAC, MP3, FLAC, AC3, E-AC3, Opus dan Vorbis.
 - Audio Pass-thru: AC-3, E-AC3, FLAC, DTS, DTS-HD, TrueHD, AAC, MP3 dan MP2 tracks.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S handbrake
+```
+
 ## Dokumentasi
 
 Pengguna dapat mempelajari HandBrake lebih lanjut di [dokumentasi](https://handbrake.fr/docs) yang telah disediakan.

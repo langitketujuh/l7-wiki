@@ -9,3 +9,9 @@
 DisplayCAL sangat berguna untuk kalibrasi layar yang sesuai dengan profil warna aslinya. DisplayCAL membutuhkan kolorimeter (perangkat keras kalibrasi warna). Kolorimeter yang mendukung DisplayCAL seperti [Datacolor SpyderX](https://spyderx.datacolor.com/) (Pro, ellite, studio) dan [X-Rite](https://www.xrite.com/) (i1 Studio, i1 Pro, i1 Display Pro). Kedua vendor tersebut memiliki dukungan dengan DisplayCAL dan argyllcms.
 
 ![DisplayCAL LangitKetujuh OS](../../media/image/displaycal-langitketujuh-id-2.webp)
+
+## Cara memasang
+
+```sh
+doas xbps-install -S dispcalGUI
+```

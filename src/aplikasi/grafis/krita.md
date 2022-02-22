@@ -8,6 +8,15 @@ Krita digunakan untuk kebutuhan sketsa, ilustrasi, komik, tekstur, dan animasi. 
 
 ![Krita LangitKetujuh OS](../../media/image/krita-langitketujuh-id.webp)
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}krita
+cp -rfv /etc/skel/.config/kritarc ~/.config/
+```
+
+Jika ingin menambahkan plugin krita gmic, bisa merujuk ke [halaman GMIC-Qt](gmic-qt.md).
+
 ## Pengaturan tambahan
 
 Beberapa pengaturan krita yang ditambahkan di sistem operasi LangitKetujuh adalah sebagai berikut:

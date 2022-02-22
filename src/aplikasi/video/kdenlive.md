@@ -10,6 +10,12 @@ Kdenlive memang sangat direkomendasikan untuk pengguna yang memiliki kreatifitas
 
 ![KDEnlive LangitKetujuh OS](../../media/image/kdenlive-langitketujuh-id-2.webp)
 
+## Cara memasang
+
+```sh
+doas xbps-install -S kdenlive
+```
+
 ## Dokumentasi
 
 Pengguna dapat menjelajahi setiap fitur dan mempelajari kdenlive di [dokumentasi manual](https://docs.kdenlive.org/).

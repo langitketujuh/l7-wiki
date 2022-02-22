@@ -8,6 +8,12 @@
 
 FontForge mendukung semua format font yang umum seperti TrueType, Bitmap dan PostScript. FontForge juga memiliki dukungan untuk mengimpor dari berkas editor perangkat lunak lain seperti di `.svg` [Inkscape](../grafis/inkscape.md).
 
+## Cara memasang
+
+```sh
+doas xbps-install -S fontforge
+```
+
 ## Dokumentasi
 
 Pengguna dapat menjelajahi fitur FontForge lebih lanjut di [dokumentasi](https://fontforge.org/en-US/documentation/) dan [Ebook](http://designwithfontforge.com/) yang tersedia.

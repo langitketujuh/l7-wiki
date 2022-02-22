@@ -10,6 +10,12 @@ Ardour memiliki kemudahan dalam penyuntingan, seperti menggabungkan, memotong, _
 
 Ardour memiliki banyak program tambahan dan fitur seperti audio efek pemroses kontrol dinamis, itu memungkinkan untuk mengkombinasikan antar platform. Bahkan sejak versi 6.5 sudah mendukung VST3 untuk mendukung semua platform. Dari segi tampilan antarmuka, Ardour menggunakan tema gelap untuk menyesuaikan global tema.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}ardour
+```
+
 ## Dokumentasi
 
 Pengguna dapat menjelajahi fitur Ardour lebih lanjut di [Ardour Manual](https://manual.ardour.org/).

@@ -4,6 +4,13 @@
 
 Blender 3D merupakan perangkat lunak yang menggunakan teknik diagonal 3 dimensi yang penuh fitur. Bertujuan untuk membuat objek/aset, hingga produksi animasi yang sederhana maupun kompleks dan realistis.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}blender
+cp -rfv /etc/skel/.config/blender ~/.config/
+```
+
 ## Pengaturan tambahan
 
 Untuk menyesuaikan dengan visual tema dan mempercepat alur kerja, di sistem operasi LangitKetujuh beberapa pengaturan ada yang diganti, seperti:

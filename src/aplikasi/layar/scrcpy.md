@@ -6,7 +6,7 @@
 
 ![Scrcpy Mirroring LangitKetujuh OS](../../media/image/scrcpy-langitketujuh-id.webp)
 
-## Cara memasang scrcpy
+## Cara memasang
 
 ```sh
 doas xbps-install android-udev-rules android-tools scrcpy

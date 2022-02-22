@@ -6,6 +6,18 @@
 
 ![GMIC-Qt LangitKetujuh OS](../../media/image/gmic-langitketujuh-id.webp)
 
+## Cara memasang
+
+```sh
+doas xbps-install -S gmic
+```
+
+Jika ingin menambahkan beberapa plugin (opsional):
+
+```sh
+doas xbps-install -S gmic-{krita,gimp,zart}
+```
+
 ## Cara penggunaan
 
 Penggunaan GMIC-Qt di Krita dan GIMP relatif sama.

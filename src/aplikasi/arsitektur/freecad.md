@@ -10,6 +10,12 @@ FreeCAD dibekali pemodelan berbasis parametrik dengan sistem modul sehingga memu
 
 FreeCAD mendukung multi-platform, artinya dapat digunakan pada sistem Windows, Linux, dan MacOS. Perangkat lunak ini dikembangkan oleh para pengembang, relawan yang antusias dan komunitas yang hebat. Pengguna dapat bergabung di [FreeCAD forum](http://forum.freecadweb.org/) agar saling berbagi ide dan inspirasi.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S freecad
+```
+
 ## Dokumentasi
 
 Pengguna dapat memulai belajar dan menjelajahi fitur di [FreeCAD wiki](https://wiki.freecadweb.org/index.php?title=Getting_started).

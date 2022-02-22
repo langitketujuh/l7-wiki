@@ -4,7 +4,7 @@ EarlyOOM (Early Out of Memory) berfungsi untuk menghentikan paksa perangkat luna
 
 Manfaat lainnya untuk menghindari mematikan mesin secara paksa ketika komputer tidak merespon/_hang_. Hal ini juga untuk menghindari bad sector SSD/HDD.
 
-## Memasang earlyoom daemon
+## Cara memasang
 
 ```sh
 doas xbps-install earlyoom

@@ -6,6 +6,15 @@
 
 Banyak fitur dan efek yang disediakan oleh GIMP. Di LangitKetujuh [Edisi Studio](../../perbandingan/edisi.md#studio) sudah terintegrasi dengan [GMIC-Qt](gmic-qt.md) untuk mengatur efek gambar dengan instan dan mudah.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}gimp
+cp -rfv /etc/skel/.config/GIMP/ ~/.config/
+```
+
+Jika ingin menambahkan plugin gimp gmic, bisa merujuk ke [halaman GMIC-Qt](gmic-qt.md).
+
 ## Pengaturan tambahan
 
 Beberapa pengaturan GIMP di LangitKetujuh yang ditambahkan diantaranya:

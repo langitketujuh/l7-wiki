@@ -6,6 +6,12 @@
 
 ![LMMS LangitKetujuh OS](../../media/image/lmms-langitketujuh-id.webp)
 
+## Cara memasang
+
+```sh
+doas xbps-install -S lmms
+```
+
 ## Dokumentasi
 
 Pengguna dapat menjelajahi fitur dan mempelajari lebih lanjut di [LMMS Manual](https://docs.lmms.io/user-manual). Forum berbagi setiap pengguna, dapat mengunjungi [LMMS LSP](https://lmms.io/lsp/).

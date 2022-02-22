@@ -6,7 +6,7 @@ Sebelum memasang dari `deb`, pastikan terlebih dahulu perangkat lunak tersebut t
 
 XDEB sendiri hanya bisa dipasang untuk arsitektur [x86_64](../../perbandingan/arsitektur.md) saja.
 
-## Cara memasang
+## ## Memasang
 
 ```sh
 doas curl -s https://raw.githubusercontent.com/toluschr/xdeb/master/xdeb -o /usr/bin/xdeb

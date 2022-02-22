@@ -8,6 +8,13 @@
 
 Di LangitKetujuh, Audacity menggunakan tema gelap untuk disesuaikan dengan tema globalnya meskipun dari penampilan antarmuka masih cenderung kaku.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}audacity
+cp -rfv /etc/skel/.audacity-data ~/
+```
+
 ## Dokumentasi
 
 Panduan dan tutorial tentang audacity lebih lanjut dapat dipelajari di [dokumentasi manual](https://manual.audacityteam.org/) dan [wiki](https://wiki.audacityteam.org/wiki/Audacity_Wiki_Home_Page) yang sudah disediakan.

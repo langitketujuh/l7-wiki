@@ -6,6 +6,12 @@
 
 Meskipun berbasis raster, OpenToonz juga kompatibel dengan animasi vektor. Kode sumber OpenToonz dapat dimodifikasi secara bebas, pengguna dapat menggunakannya baik untuk keperluan personal dan proyek komersil. OpenToonz juga dapat digunakan oleh studio indi, studio profesional, dan untuk keperluan edukasi multimedia.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}opentoonz
+```
+
 ## Pengaturan tambahan
 
 Beberapa pengaturan tambahan opentoonz di LangitKetujuh antara lain:

@@ -4,6 +4,27 @@
 
 Inkscape merupakan salah satu perangkat lunak pengolah vektor yang memiliki banyak fitur. Sebagai perangkat lunak cross platform yang dimana tersedia untuk Windows, Mac, BSD, dan GNU/Linux (flatpak, appimage, snap) serta tersedia dalam kode sumber. Perangkat lunak terbuka ini dikembangkan dari GTK+3 menggunakan bahasa C++ dan Python sebagai program ekstensi tambahan.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}inkscape
+cp -rfv /etc/skel/.config/inkscape/ ~/.config/
+```
+
+Plugin tambahan (opsional):
+
+- `inkscape-generate-palette` Menciptakan palet warna.
+- `inkscape-inx-pathops` Operasi path secara bersamaan.
+- `inkscape-multicalendar` Versi extend dari svgcalendar.
+- `inkscape-nextgenerator` Pengganti string dalam berkas svg.
+
+Memasang plugin:
+
+```sh
+doas xbps-install -S \
+inkscape-{generate-palette,inx-pathops,multicalendar,nextgenerator}
+```
+
 ## Pengaturan tambahan
 
 Beberapa pengaturan inkscape yang ditambahkan di sistem operasi LangitKetujuh adalah sebagai berikut:

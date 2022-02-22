@@ -13,6 +13,13 @@ Scribus dirancang sebagai alat bantu tata letak yang fleksibel, mudah digunakan 
 
 Secara bawaan, scribus di sistem operasi LangitKetujuh sudah terpasang ghostscript sehingga scribus dapat berjalan dengan semestinya, baik untuk ekspor ke PDF maupun Postscript.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}scribus
+cp -rfv /etc/skel/.config/scribus/ ~/.config/
+```
+
 ## Dokumentasi
 
 Pengguna dapat mempelajari scribus di [halaman wiki](https://wiki.scribus.net/) yang telah disediakan.

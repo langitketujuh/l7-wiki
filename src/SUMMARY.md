@@ -109,6 +109,8 @@
     - [Inkscape](./aplikasi/grafis/inkscape.md)
     - [Krita](./aplikasi/grafis/krita.md)
   - [Internet](./aplikasi/internet/index.md)
+    - [Falkon](./aplikasi/internet/falkon.md)
+    - [Kget](./aplikasi/internet/kget.md)
     - [Kget addons](./aplikasi/internet/kget-addons.md)
   - [Layar](./aplikasi/layar/index.md)
     - [DisplayCAL](./aplikasi/layar/displaycal.md)

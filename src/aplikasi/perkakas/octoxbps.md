@@ -8,13 +8,20 @@ Perangkat lunak berbasis Qt5 untuk memasang dan menghapus paket dengan tampilan 
 
 Di LangitKetujuh sendiri dengan paket `l7-octoxbps` sudah menonaktifkan pencarian instan (instant search) agar tidak terjeda saat melakukan pencarian.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}octoxbps
+cp -rfv /etc/skel/.config/octoxbps/ ~/.config/
+```
+
 ## Penggunaan
 
 Ada beberapa warna sebagai tanda informasi paket.
 
-- ⬜ (putih) = Tidak terpasang.
-- 🟩 (hijau) = Sudah terpasang.
-- 🟥 (merah) = Memerlukan pembaruan.
+- 📃 (putih) = Tidak terpasang.
+- 📗 (hijau) = Sudah terpasang.
+- 📕 (merah) = Memerlukan pembaruan.
 
 Sedangkan cara penggunaannya sebagai berikut.
 

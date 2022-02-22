@@ -12,6 +12,12 @@ Meskipun untuk menejemen foto, digiKam juga dilengkapi alat dasar penyesuaian wa
 
 Dukungan 110 perangkat lebih, dukungan 900 format RAW, dan fitur lainnya, digiKam sudah sangat mendukung untuk mengelola foto untuk semua kalangan. Baik untuk awam maupun profesional.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S digikam
+```
+
 ## Dokumentasi
 
 Pengguna dapat mempelajari digiKam lebih lanjut melalui [dokumentasi](https://www.digikam.org/documentation/) dan [Ebook Profesional](https://www.digikam.org/recipes_book/).

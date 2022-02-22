@@ -2,7 +2,7 @@
 
 TLP sebagai manajemen baterai laptop agar penggunaannya lebih hemat dan efisien. Pengguna tidak perlu mengkonfigurasi ulang, cukup pasang dan lupakan. TLP sendiri sudah menggunakan konfigurasi yang sudah diimplementasikan Powertop secara _out of the box_.
 
-## Memasang tlp daemon
+## Cara memasang
 
 ```sh
 doas xbps-install tlp tlp-rdw

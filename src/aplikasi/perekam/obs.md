@@ -10,6 +10,13 @@ LangitKetujuh juga mengikutsertakan v4l2loopback untuk secara bawaan agar penggu
 
 OBS Studio juga memiliki kontrol audio yang intuitif, penyaringan audio dengan noise gate dan noise suppression untuk mengurangi bercak audio (suara semut). Bahkan pengguna dapat mengendalikan sepenuhnya dengan program tambahan VST.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}obs
+cp -rfv /etc/skel/.config/obs-studio/ ~/.config/
+```
+
 ## Dokumentasi
 
 OBS Studio dibuat dengan sesederhana mungkin agar mudah digunakan. Pengguna dapat mempelajari fitur lebih lanjut di [wiki](https://obsproject.com/wiki/) yang telah disediakan.

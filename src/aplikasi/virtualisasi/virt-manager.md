@@ -4,7 +4,7 @@
 
 `virt-manager` merupakan perangkat lunak untuk mengatur virtualisasi secara mudah dengan GUI. Teknologi virtualisasi menggunakan KVM (Kernel Vital Machine) di kernel linux.
 
-## Memasang Virt Manager
+## Cara memasang
 
 ```sh
 doas xbps-install virt-manager virt-manager-tools qemu

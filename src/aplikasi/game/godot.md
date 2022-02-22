@@ -15,6 +15,13 @@ func _ready():
 
 Godot memiliki built-in script editor dengan indentasi otomatis, syntax highlighting dan pelengkap kode. Serta memiliki _physics engine_ tersendiri untuk aspek 2D/3D. Kami yakin bahwa godot mampu membuat video game dengan visual yang menjanjikan.
 
+## Cara memasang
+
+```sh
+doas xbps-install -S {,l7-}godot
+cp -rfv /etc/skel/.config/godot/ ~/.config/
+```
+
 ## Pengaturan tambahan
 
 Beberapa pengaturan godot yang ditambahkan di LangitKetujuh  seperti menggunakan tema gelap  yang serupa dengan `Breeze`. Ukuran font utama `12px` dan font koding `13px`.
