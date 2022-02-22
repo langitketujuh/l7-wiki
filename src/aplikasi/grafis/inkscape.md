@@ -4,6 +4,8 @@
 
 Inkscape merupakan salah satu perangkat lunak pengolah vektor yang memiliki banyak fitur. Sebagai perangkat lunak cross platform yang dimana tersedia untuk Windows, Mac, BSD, dan GNU/Linux (flatpak, appimage, snap) serta tersedia dalam kode sumber. Perangkat lunak terbuka ini dikembangkan dari GTK+3 menggunakan bahasa C++ dan Python sebagai program ekstensi tambahan.
 
+![Inkscape LangitKetujuh OS](../../media/image/inkscape-langitketujuh-id-1.webp)
+
 ## Cara memasang
 
 ```sh
@@ -31,9 +33,6 @@ Beberapa pengaturan inkscape yang ditambahkan di sistem operasi LangitKetujuh ad
 
 - Menggunakan latar belakang gelap transparan (dark-check).
 - Dari segi tampilannya, tidak mengaktifkan `ruller`, `command bar`, dan `scrool bar`. Ini bertujuan untuk melebarkan area kerja.
-
-![Inkscape LangitKetujuh OS](../../media/image/inkscape-langitketujuh-id-1.webp)
-
 - Tidak mengaktifkan `font samples`, sehingga tidak memerlukan rendering dan lebih cepat menampilkan font.
 
 ![Inkscape LangitKetujuh OS](../../media/image/inkscape-langitketujuh-id-2.webp)

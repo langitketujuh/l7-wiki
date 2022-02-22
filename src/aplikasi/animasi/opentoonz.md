@@ -6,6 +6,8 @@
 
 Meskipun berbasis raster, OpenToonz juga kompatibel dengan animasi vektor. Kode sumber OpenToonz dapat dimodifikasi secara bebas, pengguna dapat menggunakannya baik untuk keperluan personal dan proyek komersil. OpenToonz juga dapat digunakan oleh studio indi, studio profesional, dan untuk keperluan edukasi multimedia.
 
+![OpenToonz LangitKetujuh OS](../../media/image/opentoonz-langitketujuh-id.webp)
+
 ## Cara memasang
 
 ```sh
@@ -19,8 +21,6 @@ Beberapa pengaturan tambahan opentoonz di LangitKetujuh antara lain:
 - Font yang digunakan `Noto Sans [MONO]`.
 - Tampilan area kerja fullscreen.
 - Path ffmpeg untuk rendering animasi `/usr/bin`.
-
-![OpenToonz LangitKetujuh OS](../../media/image/opentoonz-langitketujuh-id.webp)
 
 ## Dokumentasi
 

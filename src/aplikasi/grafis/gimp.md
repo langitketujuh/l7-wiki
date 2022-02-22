@@ -6,6 +6,8 @@
 
 Banyak fitur dan efek yang disediakan oleh GIMP. Di LangitKetujuh [Edisi Studio](../../perbandingan/edisi.md#studio) sudah terintegrasi dengan [GMIC-Qt](gmic-qt.md) untuk mengatur efek gambar dengan instan dan mudah.
 
+![GIMP LangitKetujuh OS](../../media/image/gimp-langitketujuh-id-2.webp)
+
 ## Cara memasang
 
 ```sh
@@ -25,8 +27,6 @@ Beberapa pengaturan GIMP di LangitKetujuh yang ditambahkan diantaranya:
 - Menggunakan profil warna CMYK `Chemical Proof` krita.
 - Sisi sebelah kanan digunakan hanya panel layer saja, agar manajemen layer lebih leluasa.
 - Sisi sebelah kiri digunakan untuk panel properti dan warna.
-
-![GIMP LangitKetujuh OS](../../media/image/gimp-langitketujuh-id-2.webp)
 
 ## Dokumentasi
 

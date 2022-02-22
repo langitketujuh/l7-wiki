@@ -12,7 +12,13 @@
 doas xbps-install -S gmic
 ```
 
-Jika ingin menambahkan beberapa plugin (opsional):
+Plugin tambahan (opsional):
+
+- `gmic-gimp` Plugin tambahan untuk gimp.
+- `gmic-krita` Plugin tambahan untuk krita.
+- `gmic-zart` Plugin tambahan untuk zart.
+
+Memasang plugin:
 
 ```sh
 doas xbps-install -S gmic-{krita,gimp,zart}
