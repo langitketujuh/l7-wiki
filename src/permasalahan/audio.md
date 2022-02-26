@@ -32,10 +32,10 @@ Kendala lainnya yaitu bluetooth tidak berhasil disambungkan. Solusinya dengan me
 
 ```sh
 doas xbps-install libspa-bluetooth
-doas usermod -aG bluetooth,_pipewire $USER
+doas usermod -aG bluetooth $USER
 ```
 
-Kemudian reboot komputernya. Cara diatas hanya untuk iso rilis `20210923` dan sebelumnya, untuk iso versi terbaru sudah terkonfigurasi.
+Kemudian logout komputernya. Cara diatas hanya untuk iso rilis `20210923` dan sebelumnya, untuk iso versi terbaru sudah terkonfigurasi.
 
 Selanjutnya, hapus daftar speaker/headset yang sebelumnya sudah pernah tersambung di pengaturan `Bluetooth` dengan mengklik ikon tong sampah.
 
@@ -44,13 +44,12 @@ Selanjutnya, hapus daftar speaker/headset yang sebelumnya sudah pernah tersambun
 Hentikan sementara dan aktifkan kembali layanan bluetoothd dengan menjalankan:
 
 ```sh
-doas sv stop bluetoothd
-doas sv start bluetoothd
+doas sv stop bluetoothd; sleep 3; doas sv start bluetoothd
 ```
 
 Kemudian sambungkan kembali bluetoothnya ke speaker/headset. Secara sepintas akan terlihat notifikasi perpindahan ke audio bluetooth. Setelah tersambung, besarnya suara dapat diatur di volume sistem tray.
 
-Jika belum tersambung, ulangi lagi perintah `doas sv restart bluetoothd` seperti diatas. Gambar dibawah ini kami menggunakan TWS `L21 Pro`.
+Jika belum tersambung, ulangi lagi perintah seperti diatas. Gambar dibawah ini kami menggunakan TWS `L21 Pro`.
 
 ![Audio Bluetooth Connect LangitKetujuh](../media/image/connect-bluetooth-audio-langitketujuh.webp)
 
