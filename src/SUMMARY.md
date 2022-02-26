@@ -73,6 +73,7 @@
     - [Flatpak](./konfigurasi/paket/flatpak.md)
     - [Snap](./konfigurasi/paket/snap.md)
     - [AppImage](./konfigurasi/paket/appimage.md)
+  - [Mirror repositori](./konfigurasi/mirror.md)
   - [Multimedia](./konfigurasi/multimedia/index.md)
     - [PipeWire](./konfigurasi/multimedia/pipewire.md)
   - [Pembaruan sistem](./konfigurasi/pembaruan.md)

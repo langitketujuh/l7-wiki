@@ -6,10 +6,10 @@
 
 ## Repositori multilib
 
-Sebelum memasang WineHQ pastikan sudah memasang paket `void-repo-multilib`. Untuk arsitektur `x86_64-musl` dan `i686` tidak perlu dilakukan, karena paketnya tidak tersedia untuk arsitektur tersebut.
+Sebelum memasang WineHQ pastikan sudah memasang paket `l7-repo-multilib`. Untuk arsitektur `x86_64-musl` dan `i686` tidak perlu dilakukan, karena paketnya tidak tersedia untuk arsitektur tersebut.
 
 ```sh
-doas xbps-install -S void-repo-multilib
+doas xbps-install -S l7-repo-multilib
 ```
 
 ## Cara memasang
