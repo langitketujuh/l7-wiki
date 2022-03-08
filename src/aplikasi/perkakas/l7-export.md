@@ -6,8 +6,8 @@ L7 Export merupakan fork dari [inkporter-cli](https://github.com/raniaamina/inkp
 
 ## Fitur
 
-* Mendukung Ekspor ke marketplace
-* Terdapat Validator EPS8
+* Mendukung Ekspor ke marketplace.
+* Terdapat Validator EPS8.
 * Ekspor ke berkas Eps rgb.
 * Ekspor ke berkas Ai rgb/cmyk.
 * Ekspor ke berkas Psd rgb/cmyk.
@@ -21,11 +21,13 @@ L7 Export merupakan fork dari [inkporter-cli](https://github.com/raniaamina/inkp
 
 Profil warna yang didukung:
 
-* RGB  > Default    (sRGB)
-* CMYK > Krita      (Chemical proof)
-* CMYK > Generic    (SWOP2006 Coated3v2)
-* CMYK > Corel      (Japan Color 2001 Coated)
-* CMYK > Adobe      (U.S. Web Coated (SWOP) v2)
+* RGB   : Colord - sRGB (default)
+* RGB   : Ghostscript - Artifex sRGB Profile
+* RGB   : Krita - scRGB (lcms internal)
+* RGB   : Scribus- sRGB display profile (ICC v2.2)
+* CMYK  : Ghostscript - Artifex CMYK SWOP Profile
+* CMYK  : Krita - Chemical proof
+* CMYK  : Scribus - ISO Coated v2 300% (basICColor)
 
 ## Ekspor marketplace
 
@@ -47,18 +49,16 @@ Fitur ini untuk memeriksa objek-objek yang tidak didukung EPS8. Misalnya transpa
 
 ## Pemasangan
 
-Secara bawaan sudah ada di Langitketujuh OS tinggal menambah color profile saja
+Secara bawaan sudah ada di Langitketujuh OS. Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void dan derivatifnya jalankan perintah dibawah ini.
 
-```sh
-doas l7-export --install
-```
-
-Sedangkan untuk linux lain seperti Ubuntu, Debian, openSUSE, Arch, Fedora, Void dan derivatifnya. Jalankan perintah ini
-
-```sh
-sudo curl "https://langitketujuh.id/sh/l7-export" | sudo bash
+```bash
+git clone --depth 1 https://gitlab.com/langitketujuh/l7-export
+cd l7-export/
+sudo make install
 sudo l7-export --install
 ```
+
+Catatan: L7 Export akan berjalan di ubuntu dengan inkscape diatas versi 1.0.
 
 ## Penggunaan
 
