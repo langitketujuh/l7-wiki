@@ -184,7 +184,7 @@ Berikut ini adalah contoh skema filesystem yang kami sarankan.
 
 - **UEFI (gpt)**
 
-  Jika menggunakan UEFI maka menggunakan `/efi/boot`.
+  Jika menggunakan UEFI maka menggunakan `/boot/efi`.
 
   |  Nama Disk  | Tipe Partisi | Mount Point | New Filesystems (Format) |
   | :---------: | :----------: | :---------: | :----------------------: |
