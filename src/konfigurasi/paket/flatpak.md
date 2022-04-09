@@ -54,11 +54,11 @@ Hal ini disebabkan karena LangitKetujuh menggunakan fish-shell sebagai shell baw
 
 - Solusi pertama yang kami sarankan yaitu dengan menyalin berkas desktop`<Perangkat lunak>.desktops` dari sini:
 
-  ```sh
+  ```
   /var/lib/flatpak/app/<Perangkat lunak>/current/active/export/share/applications/
   ```
 
-  Kemudian tempelkan ke `~/.local/share/applications/`.
+  Kemudian tempelkan ke `~/.local/share/applications/`. Jika menggunakan file manager, maka harus menekan `ctrl+h` untuk menampilkan direktori `.local` di halaman utama pengguna (Home).
 
 - Solusi kedua bisa mengganti fish-shell ke bash secara permanen, tetapi cara ini tidak kami sarankan karena [fish-shell](../../konfigurasi/shell/fish.md) memiliki fitur yang lebih baik dengan autokomplitnya.
 
