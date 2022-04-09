@@ -29,7 +29,7 @@ Sedangkan cara penggunaannya sebagai berikut.
 - Klik kanan, pilih `Install` untuk memasang, `Remove` untuk menghapus.
 - Klik ikon ceklis (ctrl+m) untuk mengeksekusinya, atau membatalkannya (ctrl+e).
 
-## Eksekusi sh
+<!--## Eksekusi sh
 
 Biasanya octoxbps memerlukan kata sandi untuk sinkronisasi. Hal ini dikarenakan octoxbps membutuhkan eksekusi `sh` dengan pengguna root. Dengan demikian, sebagai pengguna dalam kategori wheel (administrator) agar dapat menjalankan octoxbps tanpa kata sandi, maka berikan akses tanpa kata sandi untuk `sh` di sudoers dengan menjalankan perintah dibawah ini (sekali saja).
 
@@ -37,4 +37,4 @@ Biasanya octoxbps memerlukan kata sandi untuk sinkronisasi. Hal ini dikarenakan 
 doas sh -c "echo '%wheel ALL=(ALL) NOPASSWD: /bin/sh' >> /etc/sudoers"
 ```
 
-Untuk versi rilis setelah `20210921`, perintah tersebut sudah terkonfigurasi.
+Untuk versi rilis setelah `20210921`, perintah tersebut sudah terkonfigurasi.-->

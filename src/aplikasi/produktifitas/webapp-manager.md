@@ -1,14 +1,14 @@
 # WebApp Manager
 
-Web Apps atau yang disebut dengan `webapp-manager` adalah perangkat lunak yang digunakan untuk membuat aplikasi web seperti native dengan dukungan browser. Tujuannya lainnya untuk membuat pintasan aplikasi web dengan profil terisolasi. Seperti membuat aplikasi web WhatsApp, Facebook, Reddit, Instagram, Twitter dan lain sebagainya.
+[Web Apps Manager](https://github.com/linuxmint/webapp-manager) atau yang disebut dengan `webapp-manager` adalah perangkat lunak yang digunakan untuk membuat aplikasi web seperti native dengan dukungan browser. Tujuannya lainnya untuk membuat pintasan aplikasi web dengan profil terisolasi. Seperti membuat aplikasi web WhatsApp, Facebook, Reddit, Instagram, Twitter dan lain sebagainya.
 
-![KDE-Connect LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-1.webp)
+![Web Apps LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-1.webp)
 
 Hasilnya adalah Anda dapat membuat di pintasan menu dan ditempatkan di task manager.
 
-![KDE-Connect LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-3.webp)
+![Web Apps LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-3.webp)
 
-![KDE-Connect LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-4.webp)
+![Web Apps LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-4.webp)
 
 ## Cara pemasangan
 
@@ -27,7 +27,7 @@ doas xbps-install -Sy webapp-manager
 - Pilih browser, misalnya `Firefox`.
 - Klik OK.
 
-![KDE-Connect LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-2.webp)
+![Web Apps LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-2.webp)
 
 ## Contoh web aplikasi
 
