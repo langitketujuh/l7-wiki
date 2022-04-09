@@ -29,7 +29,8 @@ cp -ffv /etc/skel/.config/autostart/org.keepassxc.KeePassXC.desktop ~/.config/au
     - [Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser/)
     - [Chrome, chromium, vivaldi, brave](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
     ![KeePassXC LangitKetujuh OS](../../media/image/keepassxc-langitketujuh-id-2.webp)
-    - Tampilan ekstensi akan terlihat seperti ini setelah dihubungkan.
+    - Buka browser, klik bagian addons keepassxc.
+    - Klik `Setting` > `Connected Databases` > klik `Connect`. Akan muncul dialog, isikan nama komputer misalnya `studio`.
     ![KeePassXC LangitKetujuh OS](../../media/image/keepassxc-langitketujuh-id-3.webp)
 - KeePassXC sudah dapat digunakan. Biasanya ketika menyalakan komputer akan meminta kata sandi keepassxc untuk mengambil data dari database.
 - Setiap halaman dengan inbox nama pengguna dan kata sandi akan terlihat ikon keepassxc.
