@@ -128,6 +128,7 @@
     #- [XDEB](./aplikasi/perkakas/xdeb.md)
   - [Produktifitas](./aplikasi/produktifitas/index.md)
     - [KDE Connect](./aplikasi/produktifitas/kde-connect.md)
+    - [Web Apps](./aplikasi/produktifitas/webapp-manager.md)
   - [Virtualisasi](./aplikasi/virtualisasi/index.md)
     - [Virt Manager](./aplikasi/virtualisasi/virt-manager.md)
   - [Video editor](./aplikasi/video/index.md)
@@ -141,7 +142,8 @@
 - [Permasalahan](./permasalahan/index.md)
   - [Audio hilang](./permasalahan/audio.md)
   - [Gagal login](./permasalahan/login.md)
-  - [Masalah umum xbps](./permasalahan/xbps.md)
+  - [Masalah XBPS](./permasalahan/xbps.md)
+  - [Masalah VPSM](./permasalahan/vpsm.md)
 
 ---
 - [Para pendukung](./pendukung.md)
