@@ -2,13 +2,14 @@
 
 ## Autentifikasi git protocol
 
-Jika Anda menemui peringatan:
+Jika Anda menemui peringatan seperti ini.
+
 ```
 fatal: remote error:
    The unauthenticated git protocol on port 9418 is no longor supported.
 ```
 
-Maka jalankan perintah ini:
+Maka jalankan perintah dibawah ini.
 
 ```
 ~/.cache/void-packages/
