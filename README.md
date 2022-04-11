@@ -9,7 +9,7 @@ Kode sumber dokumentasi ini menggunakan [mdBook](https://rust-lang.github.io/mdB
 * Memasang di langitketujuh/voidlinux:
 
 ```sh
-doas xbps-install -S mdBook mdbook-linkcheck
+doas xbps-install -Sy mdBook mdbook-linkcheck
 ```
 
 * Memasang di Archlinux atau manjaro

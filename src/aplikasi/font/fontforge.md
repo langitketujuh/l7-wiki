@@ -11,7 +11,7 @@ FontForge mendukung semua format font yang umum seperti TrueType, Bitmap dan Pos
 ## Cara memasang
 
 ```sh
-doas xbps-install -S fontforge
+doas xbps-install -Sy fontforge
 ```
 
 ## Dokumentasi

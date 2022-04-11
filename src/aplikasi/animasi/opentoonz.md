@@ -11,7 +11,7 @@ Meskipun berbasis raster, OpenToonz juga kompatibel dengan animasi vektor. Kode 
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}opentoonz
+doas xbps-install -Sy {,l7-}opentoonz
 ```
 
 ## Pengaturan tambahan

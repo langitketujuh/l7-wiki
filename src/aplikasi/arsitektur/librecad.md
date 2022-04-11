@@ -11,7 +11,7 @@ LibreCAD menggunakan `.dxf` sebagai format utama untuk mengimpor dan mengekspor 
 ## Cara memasang
 
 ```sh
-doas xbps-install -S LibreCAD
+doas xbps-install -Sy LibreCAD
 ```
 
 ## Dokumentasi

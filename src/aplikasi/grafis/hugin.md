@@ -13,7 +13,7 @@ Hugin memudahkan untuk membuat dari 2 gambar (ada fitur otomatis sebagai opsiona
 ## Cara memasang
 
 ```sh
-doas xbps-install -S hugin
+doas xbps-install -Sy hugin
 ```
 
 ## Dokumentasi

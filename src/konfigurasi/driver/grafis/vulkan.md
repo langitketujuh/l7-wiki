@@ -7,14 +7,14 @@ Vulkan secara bawaan belum terpasang untuk LangitKetujuh versi `20210921` dan se
   - AMD/ATI
 
   ```sh
-  doas xbps-install -S Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
+  doas xbps-install -Sy Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
   libspa-vulkan mesa-vulkan-overlay-layer vkBasalt mesa-vulkan-radeon vkd3d amdvlk
   ```
 
   - Intel
 
   ```sh
-  doas xbps-install -S Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
+  doas xbps-install -Sy Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
   libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vulkan-loader mesa-vulkan-intel
   ```
 
@@ -41,6 +41,6 @@ doas xbps-install l7-repo-multilib
 Kemudian pasang mesa vulkan-loader dan mesa-vulkan 32bit.
 
 ```sh
-doas xbps-install -S vulkan-loader-32bit mesa-vulkan-intel-32bit \
+doas xbps-install -Sy vulkan-loader-32bit mesa-vulkan-intel-32bit \
 mesa-vulkan-radeon-32bit
 ```

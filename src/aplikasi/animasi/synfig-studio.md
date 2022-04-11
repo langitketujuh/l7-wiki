@@ -9,7 +9,7 @@ Synfig Studio merupakan perangkat lunak berbasis Qt untuk animasi dua dimensi be
 ## Cara memasang
 
 ```sh
-doas xbps-install -S synfig-studio
+doas xbps-install -Sy synfig-studio
 ```
 
 ## Dokumentasi

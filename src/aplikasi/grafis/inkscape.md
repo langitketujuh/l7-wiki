@@ -9,7 +9,7 @@ Inkscape merupakan salah satu perangkat lunak pengolah vektor yang memiliki bany
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}inkscape
+doas xbps-install -Sy {,l7-}inkscape
 cp -rfv /etc/skel/.config/inkscape/ ~/.config/
 ```
 
@@ -23,7 +23,7 @@ Plugin tambahan (opsional):
 Memasang plugin:
 
 ```sh
-doas xbps-install -S \
+doas xbps-install -Sy \
 inkscape-{generate-palette,inx-pathops,multicalendar,nextgenerator}
 ```
 

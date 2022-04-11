@@ -9,7 +9,7 @@ Blender 3D merupakan perangkat lunak yang menggunakan teknik diagonal 3 dimensi 
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}blender
+doas xbps-install -Sy {,l7-}blender
 cp -rfv /etc/skel/.config/blender ~/.config/
 ```
 

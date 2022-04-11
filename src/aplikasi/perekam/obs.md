@@ -13,7 +13,7 @@ OBS Studio juga memiliki kontrol audio yang intuitif, penyaringan audio dengan n
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}obs
+doas xbps-install -Sy {,l7-}obs
 cp -rfv /etc/skel/.config/obs-studio/ ~/.config/
 ```
 

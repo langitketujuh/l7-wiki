@@ -13,7 +13,7 @@ FreeCAD mendukung multi-platform, artinya dapat digunakan pada sistem Windows, L
 ## Cara memasang
 
 ```sh
-doas xbps-install -S freecad
+doas xbps-install -Sy freecad
 ```
 
 ## Dokumentasi

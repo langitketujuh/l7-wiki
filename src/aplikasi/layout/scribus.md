@@ -16,7 +16,7 @@ Secara bawaan, scribus di sistem operasi LangitKetujuh sudah terpasang ghostscri
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}scribus
+doas xbps-install -Sy {,l7-}scribus
 cp -rfv /etc/skel/.config/scribus/ ~/.config/
 ```
 

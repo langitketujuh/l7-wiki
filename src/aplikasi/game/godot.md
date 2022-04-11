@@ -20,7 +20,7 @@ Godot memiliki built-in script editor dengan indentasi otomatis, syntax highligh
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}godot
+doas xbps-install -Sy {,l7-}godot
 cp -rfv /etc/skel/.config/godot/ ~/.config/
 ```
 

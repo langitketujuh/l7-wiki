@@ -24,5 +24,5 @@ Output:
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}ssr
+doas xbps-install -Sy {,l7-}ssr
 ```

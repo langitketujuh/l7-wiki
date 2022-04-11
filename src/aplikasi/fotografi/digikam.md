@@ -15,7 +15,7 @@ Dukungan 110 perangkat lebih, dukungan 900 format RAW, dan fitur lainnya, digiKa
 ## Cara memasang
 
 ```sh
-doas xbps-install -S digikam
+doas xbps-install -Sy digikam
 ```
 
 ## Dokumentasi

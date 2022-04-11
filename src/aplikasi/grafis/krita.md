@@ -11,7 +11,7 @@ Krita digunakan untuk kebutuhan sketsa, ilustrasi, komik, tekstur, dan animasi. 
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}krita
+doas xbps-install -Sy {,l7-}krita
 cp -rfv /etc/skel/.config/kritarc ~/.config/
 ```
 

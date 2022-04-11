@@ -13,7 +13,7 @@ Kdenlive memang sangat direkomendasikan untuk pengguna yang memiliki kreatifitas
 ## Cara memasang
 
 ```sh
-doas xbps-install -S kdenlive
+doas xbps-install -Sy kdenlive
 ```
 
 ## Dokumentasi

@@ -9,7 +9,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -S mkvtoolnix-gui
+doas xbps-install -Sy mkvtoolnix-gui
 ```
 
 ## Dokumentasi

@@ -7,7 +7,7 @@
 ## Cara pemasangan
 
 ```
-doas xbps-install -S {,l7-}flameshot
+doas xbps-install -Sy {,l7-}flameshot
 ```
 
 Gunakan konfigurasi tambahan.

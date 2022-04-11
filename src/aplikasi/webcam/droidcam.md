@@ -7,7 +7,7 @@ Perangkat lunak ini bertujuan untuk menghubungkan kamera di smartphone/tablet me
 ## Cara memasang
 
 ```sh
-doas xbps-install -S droidcam l7-v4l2loopback
+doas xbps-install -Sy droidcam l7-v4l2loopback
 ```
 
 Cek versi kernel linux yang digunakan.

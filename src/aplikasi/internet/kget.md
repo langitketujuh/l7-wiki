@@ -9,7 +9,7 @@ Kget merupakan perangkat lunak bebas sebagai pengelola unduhan. Manfaatnya, peng
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}kget
+doas xbps-install -Sy {,l7-}kget
 cp -fv /etc/skel/.config/kgetrc ~/.config/
 cp -fv /etc/skel/.config/autostart/org.kde.kget.desktop ~/.config/autostart/
 ```

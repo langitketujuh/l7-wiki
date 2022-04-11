@@ -13,7 +13,7 @@ Ardour memiliki banyak program tambahan dan fitur seperti audio efek pemroses ko
 ## Cara memasang
 
 ```sh
-doas xbps-install -S {,l7-}ardour
+doas xbps-install -Sy {,l7-}ardour
 ```
 
 ## Dokumentasi
