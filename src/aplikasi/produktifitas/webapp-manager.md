@@ -43,12 +43,22 @@ doas xbps-install -Sy webapp-manager
     - Address: `https://instagram.com`
     - Icon: `instagram`
 
-3. Spotify
+3. Twitter
+    - Name: `Twitter`
+    - Address: `https://twitter.com`
+    - Icon: `twitter`
+
+4. Spotify
     - Name: `Spotify`
     - Address: `https://open.spotify.com`
     - Icon: `spotify`
 
-4. WhatsApp
+5. WhatsApp
     - Name: `WhatsApp`
     - Address: `https://web.whatsapp.com/`
     - Icon: `whatsapp`
+
+6. Youtube Music
+    - Name: `Youtube Music`
+    - Address: `https://music.youtube.com/`
+    - Icon: `youtube`
