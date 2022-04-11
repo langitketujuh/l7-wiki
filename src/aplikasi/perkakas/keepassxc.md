@@ -7,7 +7,7 @@
 ## Cara pemasangan
 
 ```
-doas xbps-install keepassxc l7-keepassxc
+doas xbps-install -S {,l7-}keepassxc
 ```
 
 Gunakan konfigurasi tambahan.
@@ -16,6 +16,12 @@ Gunakan konfigurasi tambahan.
 cp -rfv /etc/skel/.config/keepassxc/ ~/.config/
 cp -ffv /etc/skel/.config/autostart/org.keepassxc.KeePassXC.desktop ~/.config/autostart/
 ```
+
+Konfigurasi tersebut berisi pengaturan:
+- Menggunakan ikon `monocrome-light`.
+- Menggunakan tema `classic` agar mengikuti tema sistem.
+- Mimimize ketika ditutup.
+- Berjalan otomatis saat awal booting.
 
 ## Pengaturan awal
 
