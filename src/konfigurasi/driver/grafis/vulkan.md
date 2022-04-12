@@ -32,10 +32,10 @@ Pengguna juga dapat melihat informasi vulkan di `Info Center` > `Graphics` > `Vu
 
 ## Vulkan multilib
 
-Jika ingin menambahkan vulkan 32bit khusus untuk arsitektur `x86_64`, aktifkan dahulu repositori multilib `l7-repo-multilib`.
+Jika ingin menambahkan vulkan 32bit khusus untuk arsitektur `x86_64`, aktifkan dahulu repositori multilib `void-repo-multilib`.
 
 ```sh
-doas xbps-install l7-repo-multilib
+doas xbps-install void-repo-multilib
 ```
 
 Kemudian pasang mesa vulkan-loader dan mesa-vulkan 32bit.
