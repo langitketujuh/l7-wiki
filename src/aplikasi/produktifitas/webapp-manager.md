@@ -4,7 +4,7 @@
 
 ![Web Apps LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-1.webp)
 
-## Cara pemasangan
+## Cara memasang
 
 Cara memasangnya buka di konsole atau melalui [octoxbps](../perkakas/octoxbps.md).
 

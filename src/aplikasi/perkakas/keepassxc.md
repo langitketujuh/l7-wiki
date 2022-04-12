@@ -4,7 +4,7 @@
 
 ![KeePassXC LangitKetujuh OS](../../media/image/keepassxc-langitketujuh-id-1.webp)
 
-## Cara pemasangan
+## Cara memasang
 
 ```
 doas xbps-install -Sy {,l7-}keepassxc

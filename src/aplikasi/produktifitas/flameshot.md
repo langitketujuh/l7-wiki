@@ -4,7 +4,7 @@
 
 ![Flameshot LangitKetujuh OS](../../media/image/flameshot-langitketujuh-id-1.webp)
 
-## Cara pemasangan
+## Cara memasang
 
 ```
 doas xbps-install -Sy {,l7-}flameshot
