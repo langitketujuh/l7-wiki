@@ -20,10 +20,8 @@ Pasang konfigurasi tambahan.
 
 ```
 doas xbps-install -Sy l7-kmail l7-korganizer l7-akregator
-
-cp -rfv /etc/skel/.config/kmail2rc ~/.config/
-cp -rfv /etc/skel/.config/korgacrc ~/.config/
-cp -rfv /etc/skel/.config/akregatorrc ~/.config/
+cp -rfv /etc/skel/.config/{kmail2rc,korgacrc,akregatorrc} ~/.config/
+cp -rfv /etc/skel/.local/share/akregator/ ~/.local/share/
 ```
 
 Konfigurasi tersebut yaitu menambahkan beberapa pengaturan dasar:
@@ -33,7 +31,8 @@ Konfigurasi tersebut yaitu menambahkan beberapa pengaturan dasar:
 - Mode membaca email disebelah kanan.
 - Mengaktifkan **batal kirim** email selama 10 detik pertama.
 - Mengaktifkan autostart untuk KOrganizer.
-- Menambahkan ukuran font untuk akregator.
+- Memperbesar ukuran font untuk akregator.
+- Menambahkan daftar feed yang relevan.
 
 ## Integrasi aplikasi
 
