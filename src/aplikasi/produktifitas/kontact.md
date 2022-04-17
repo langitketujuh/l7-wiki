@@ -19,10 +19,11 @@ doas xbps-install -Sy bogofilter spamassassin
 Pasang konfigurasi tambahan.
 
 ```
-doas xbps-install -Sy l7-kmail l7-korganizer
+doas xbps-install -Sy l7-kmail l7-korganizer l7-akregator
 
 cp -rfv /etc/skel/.config/kmail2rc ~/.config/
 cp -rfv /etc/skel/.config/korgacrc ~/.config/
+cp -rfv /etc/skel/.config/akregatorrc ~/.config/
 ```
 
 Konfigurasi tersebut yaitu menambahkan beberapa pengaturan dasar:
@@ -32,6 +33,7 @@ Konfigurasi tersebut yaitu menambahkan beberapa pengaturan dasar:
 - Mode membaca email disebelah kanan.
 - Mengaktifkan **batal kirim** email selama 10 detik pertama.
 - Mengaktifkan autostart untuk KOrganizer.
+- Menambahkan ukuran font untuk akregator.
 
 ## Integrasi aplikasi
 
@@ -51,6 +53,6 @@ Korganizer juga mendukung perkakas todo untuk membuat perencanaan dan merancang 
 
 ![KOrganizer todolist LangitKetujuh OS](../../media/image/kontact-langitketujuh-id-5.webp)
 
-[Akregrator](https://kontact.kde.org/components/akregator/) berfungsi untuk membaca dan mendapatkan berita informasi dari feed rss situs favorit, seperti di KDE Dot dan planet KDE.
+[Akregator](https://kontact.kde.org/components/akregator/) berfungsi untuk membaca dan mendapatkan berita informasi dari feed rss situs favorit, seperti di KDE Dot dan planet KDE.
 
-![Akregrator LangitKetujuh OS](../../media/image/kontact-langitketujuh-id-6.webp)
+![Akregator LangitKetujuh OS](../../media/image/kontact-langitketujuh-id-6.webp)
