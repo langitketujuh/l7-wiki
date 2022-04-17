@@ -22,4 +22,20 @@ Pengguna dapat mengetahui jenis libc yang digunakan dengan perintah ini.
 ldd --version
 ```
 
-Hasil keluaran akan menampilkan GNU Libc atau Musl libc.
+Contoh hasil keluaran dengan Gnu libc.
+
+```
+ldd (GNU libc) 2.32
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Written by Roland McGrath and Ulrich Drepper.
+```
+
+Sedangkan hasil keluaran dengan Musl libc.
+
+```
+musl libc (x86_64)
+Version 1.1.24
+Dynamic Program Loader
+```
