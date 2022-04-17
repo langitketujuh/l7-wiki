@@ -130,6 +130,7 @@
   - [Produktifitas](./aplikasi/produktifitas/index.md)
     - [Flameshot](./aplikasi/produktifitas/flameshot.md)
     - [KDE Connect](./aplikasi/produktifitas/kde-connect.md)
+    - [Kontact](./aplikasi/produktifitas/kontact.md)
     - [Web Apps](./aplikasi/produktifitas/webapp-manager.md)
   - [Virtualisasi](./aplikasi/virtualisasi/index.md)
     - [Virt Manager](./aplikasi/virtualisasi/virt-manager.md)
@@ -146,6 +147,7 @@
   - [Gagal login](./permasalahan/login.md)
   - [Masalah XBPS](./permasalahan/xbps.md)
   - [Masalah VPSM](./permasalahan/vpsm.md)
+  - [Partisi terkunci](./permasalahan/partisi.md)
 
 ---
 - [Para pendukung](./pendukung.md)
