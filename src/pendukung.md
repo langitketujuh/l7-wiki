@@ -105,7 +105,6 @@
 - Heri Setiawan.
 - Heriyanto.
 - Hermawan.
-- Hermawan.
 - Herru Pratomo.
 - Heru Santoso.
 - Huda.
@@ -184,6 +183,7 @@
 - Prawita Mepilianti.
 - Rahmad Arifin.
 - Rakha Ash Shadiq.
+- Rama Dwi Putro.
 - Reska Anita Putri.
 - Rian Firmandes.
 - Ricki Julianto.
@@ -201,6 +201,7 @@
 - Rohmana.
 - Saelani.
 - Sakti Nurrahman.
+- Setiyo budi.
 - Shahrizan.
 - Sidiq Adi Nugroho.
 - Sigit Dwi Pamungkas.
@@ -234,7 +235,7 @@
 - Yogi Tri Widodo.
 - Yudi Pratama.
 - Yunus Ahmad.
-- Yusuf Almalik Saputra. Md.
+- Yusuf Almalik Saputra, Md.
 - Yusuf Isna Hanif.
 - Zainal.
 - Zakki Mubarak.
