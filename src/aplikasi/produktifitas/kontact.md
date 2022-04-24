@@ -10,12 +10,6 @@
 doas xbps-install -Sy kontact korganizer kmail kaddressbook akregator kdepim-addons
 ```
 
-Pasang juga anti-spam untuk Kmail.
-
-```
-doas xbps-install -Sy bogofilter spamassassin
-```
-
 Pasang konfigurasi tambahan.
 
 ```
