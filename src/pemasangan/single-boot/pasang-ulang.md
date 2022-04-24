@@ -7,12 +7,17 @@ Pemasangan single boot pasang ulang artinya pemasangan LangitKetujuh yang terdap
 ## Pemasangan
 
 Perangkat lunak pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Sehingga navigasinya menggunakan arah panah ⬆️ ➡️ ⬇️ ⬅️, `tab` dan `enter` di keyboard.
-Buka perangkat lunak `konsole` di menu, kemudian ketik perintah berikut untuk menuju pemasang LangitKetujuh OS.
+
+Buka menu `LangitKetujuh` > `Install to Disk`.
+
+![LangitKetujuh Install](../../media/image/install-menu.webp)
+
+Atau menggunakan `konsole` di menu, kemudian ketik perintah berikut untuk menuju pemasang LangitKetujuh OS.
 
 ```sh
 doas langitketujuh-install
 ```
-Kata sandinya: `langitketujuh`
+Kata sandi: `langitketujuh`
 
 ![LangitKetujuh Install](../../media/image/install-splash.webp)
 
