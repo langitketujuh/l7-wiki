@@ -1,4 +1,4 @@
-# SDDM Error
+# Masalah SDDM
 
 ## Unlock Session
 

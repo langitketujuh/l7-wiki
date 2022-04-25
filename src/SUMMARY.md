@@ -145,10 +145,10 @@
 - [Permasalahan](./permasalahan/index.md)
   - [Audio hilang](./permasalahan/audio.md)
   - [Gagal login](./permasalahan/login.md)
+  - [Masalah SDDM](./permasalahan/sddm.md)
   - [Masalah XBPS](./permasalahan/xbps.md)
   - [Masalah VPSM](./permasalahan/vpsm.md)
   - [Partisi terkunci](./permasalahan/partisi.md)
-  - [SDDM Error](./permasalahan/sddm-error.md)
 
 ---
 - [Para pendukung](./pendukung.md)
