@@ -49,7 +49,7 @@ Buka menu `LangitKetujuh` > `Install to Disk`.
 
 ![LangitKetujuh Install](../../media/image/install-menu.webp)
 
-Atau menggunakan `konsole` di menu, kemudian ketik perintah berikut untuk menuju pemasang LangitKetujuh OS.
+Atau menggunakan `Konsole` di menu, kemudian ketik perintah berikut ini.
 
 ```sh
 doas langitketujuh-install
