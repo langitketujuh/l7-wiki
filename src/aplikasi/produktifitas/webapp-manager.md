@@ -1,12 +1,12 @@
 # WebApp Manager
 
-[Web Apps Manager](https://github.com/linuxmint/webapp-manager) atau yang disebut dengan `webapp-manager` adalah perangkat lunak yang digunakan untuk membuat web aplikasi seperti native dengan dukungan browser. Tujuannya lainnya untuk membuat pintasan web aplikasi dengan profil terisolasi. Seperti membuat web aplikasi WhatsApp, Facebook, Reddit, Instagram, Twitter dan lain sebagainya.
+[Web Apps Manager] atau yang disebut dengan `webapp-manager` adalah perangkat lunak yang digunakan untuk membuat web aplikasi seperti native dengan dukungan browser. Tujuannya lainnya untuk membuat pintasan web aplikasi dengan profil terisolasi. Seperti membuat web aplikasi WhatsApp, Facebook, Reddit, Instagram, Twitter dan lain sebagainya.
 
 ![Web Apps LangitKetujuh OS](../../media/image/webapp-manager-langitketujuh-id-1.webp)
 
 ## Cara memasang
 
-Cara memasangnya buka di konsole atau melalui [octoxbps](../perkakas/octoxbps.md).
+Cara memasangnya buka di konsole atau melalui [OctoXBPS].
 
 ```sh
 doas xbps-install -Sy webapp-manager
@@ -62,3 +62,6 @@ doas xbps-install -Sy webapp-manager
     - Name: `Youtube Music`
     - Address: `https://music.youtube.com/`
     - Icon: `youtube`
+
+[Web Apps Manager]:https://github.com/linuxmint/webapp-manager
+[OctoXBPS]:../perkakas/octoxbps.md

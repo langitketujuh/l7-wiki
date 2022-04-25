@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Perangkat lunak ini bertujuan untuk menghubungkan kamera di smartphone/tablet melalui jaringan untuk dijadikan kamera utama untuk perangkat lunak desktop, misalnya untuk OBS Studio dan perangkat lunak konferensi. Ini memudahkan pengguna agar menggunakan kamera yang lebih jernih dari pada kamera Webcam sendiri atau untuk menggantikan webcam di komputer.
+[DroidCam] merupakan perangkat lunak yang bertujuan untuk menghubungkan kamera di smartphone/tablet melalui jaringan untuk dijadikan kamera utama untuk perangkat lunak desktop, misalnya untuk OBS Studio dan perangkat lunak konferensi. Ini memudahkan pengguna agar menggunakan kamera yang lebih jernih dari pada kamera Webcam sendiri atau untuk menggantikan webcam di komputer.
 
 ## Cara memasang
 
@@ -41,9 +41,9 @@ Selanjutnya, buka pengaturan sistem `Audio`, ganti profil `Analog Stereo Duplex`
 
 Jalankan aplikasi android `DroidCam` atau `DroidCamX` (berbayar). Pengguna dapat mengunduh aplikasi ini di Google Play atau App Store.
 
-Kemudian jalankan DroidCam di komputer. Samakan alamat IP dan port di smartphone, misalnya `192.168.0.100` port `4747`. Aktifkan `Enable Video`, Lalu klik `Connect`.
+Kemudian jalankan [DroidCam] di komputer. Samakan alamat IP dan port di smartphone, misalnya `192.168.0.100` port `4747`. Aktifkan `Enable Video`, Lalu klik `Connect`.
 
-![DroidCAM LangitKetujuh](../../media/image/droidcam-langitketujuh-id.webp)
+![DroidCam LangitKetujuh](../../media/image/droidcam-langitketujuh-id.webp)
 
 Pastikan video dan audionya sudah terdeteksi di statusbar bawah, sebagai contoh: `Video: /dev/video10, Audio:`.
 
@@ -51,16 +51,18 @@ Pastikan video dan audionya sudah terdeteksi di statusbar bawah, sebagai contoh:
 
 Buka OBS Studio di menu. Klik ikon `+` dibagian Source.
 
-![DroidCAM OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-1.webp)
+![DroidCam OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-1.webp)
 
 Pilih `Video Capture Device (V4L2)`. Kemudian klik OK.
 
-![DroidCAM OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-2.webp)
+![DroidCam OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-2.webp)
 
 Pada bagian Device, pilih `Video Source`. Klik OK.
 
-![DroidCAM OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-3.webp)
+![DroidCam OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-3.webp)
 
-Hasil dari kamera wireless droidcam akan tampil. Pengguna dapat menambahkan ornamen dan gambar (`+` > `Image`) di bagian source agar lebih dekoratif.
+Hasil dari kamera wireless [DroidCam] akan tampil. Pengguna dapat menambahkan ornamen dan gambar (`+` > `Image`) di bagian source agar lebih dekoratif.
 
-![DroidCAM OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-4.webp)
+![DroidCam OBS LangitKetujuh](../../media/image/droidcam-obs-langitketujuh-id-4.webp)
+
+[DroidCam]:https://www.dev47apps.com/

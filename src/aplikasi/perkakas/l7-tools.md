@@ -1,6 +1,6 @@
 # L7 Tools
 
-`l7-tools` merupakan perkakas cli untuk melakukan konfigurasi sistem seperti pembaruan, chroot mode, memasang grub, memperbaiki boot order, memasang pengguna baru dan lain-lain.
+[L7 Tools] merupakan perkakas cli untuk melakukan konfigurasi sistem seperti pembaruan, chroot mode, memasang grub, memperbaiki boot order, memasang pengguna baru dan lain-lain.
 
 - Memperbarui sistem agar menjadi lebih baru.
 
@@ -37,4 +37,6 @@
   l7-tools --downgrade
   ```
 
-Untuk menjalankan perintah diatas memerlukan akses root (doas). Lebih jelasnya jalankan `l7-tools --help`.
+Untuk menjalankan perintah diatas memerlukan akses root (doas/sudo). Lebih jelasnya jalankan `l7-tools --help`.
+
+[L7 Tools]:https://gitlab.com/langitketujuh/l7-tools/

@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Perangkat lunak berbasis Qt5 untuk memasang dan menghapus paket dengan tampilan visual GUI, sehingga memudahkan pengguna dalam mengelola paketnya. Selain itu, pengguna juga dapat melihat informasi dan daftar isi berkas dari paket yang dipilih serta menghapus cache paket yang telah kedaluwarsa.
+[OctoXBPS] merupakan perangkat lunak berbasis Qt5 untuk memasang dan menghapus paket dengan tampilan visual GUI, sehingga memudahkan pengguna dalam mengelola paketnya. Selain itu, pengguna juga dapat melihat informasi dan daftar isi berkas dari paket yang dipilih serta menghapus cache paket yang telah kedaluwarsa.
 
 ![OctoXBPS LangitKetujuh OS](../../media/image/octoxbps-langitketujuh-id.webp)
 
@@ -38,3 +38,5 @@ doas sh -c "echo '%wheel ALL=(ALL) NOPASSWD: /bin/sh' >> /etc/sudoers"
 ```
 
 Untuk versi rilis setelah `20210921`, perintah tersebut sudah terkonfigurasi.-->
+
+[OctoXBPS]:https://github.com/aarnt/octoxbps

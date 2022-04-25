@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-`virt-manager` merupakan perangkat lunak untuk mengatur virtualisasi secara mudah dengan GUI. Teknologi virtualisasi menggunakan KVM (Kernel Vital Machine) di kernel linux.
+[Virtual Manager] merupakan perangkat lunak untuk mengatur virtualisasi secara mudah dengan GUI. Teknologi virtualisasi menggunakan KVM (Kernel Vital Machine) di kernel linux.
 
 ## Cara memasang
 
@@ -49,7 +49,7 @@ Contoh keluarannya seperti berikut ini.
  ✔ virtlogd             run     true      5232     virtlogd          10 seconds
 ```
 
-Pemasangan virt-manager sudah selesai.
+Pemasangan [Virtual Manager] sudah selesai.
 
 ## Penggunaan Virt Manager
 
@@ -97,4 +97,6 @@ Proses booting sedang berjalan hingga masuk ke desktop mesin virtual. Selesai.
 
 ![Virt Manager LangitKetujuh OS](../../media/image/virt-manager-langitketujuh-id-11.webp)
 
-Dikarenakan virt-manager menggunakan KVM di kernel linux, maka proses layanan cenderung lebih ringan dari pada mesin virtual lainnya.
+Dikarenakan [Virtual Manager] menggunakan KVM di kernel linux, maka proses layanan cenderung lebih ringan dari pada mesin virtual lainnya.
+
+[Virtual Manager]:https://virt-manager.org/

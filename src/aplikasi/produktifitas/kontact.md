@@ -1,6 +1,6 @@
 # Kontact
 
-[Kontact](https://kontact.kde.org/components/kontact/) merupakan perangkat lunak bebas untuk manajemen personal informasi (PIM) yang terintegrasi dengan perangkat lunak KDE lainnya. Seperti KMail, KAddressBook, KOrganizer, dan Agregrator. Tujuannya untuk memudahkan pengelolaan surel dan informasi kontak dalam satu jendela saja.
+[Kontact] merupakan perangkat lunak bebas untuk manajemen personal informasi (PIM) yang terintegrasi dengan perangkat lunak KDE lainnya. Seperti KMail, KAddressBook, KOrganizer, dan Agregrator. Tujuannya untuk memudahkan pengelolaan surel dan informasi kontak dalam satu jendela saja.
 
 ![KontactLangitKetujuh OS](../../media/image/kontact-langitketujuh-id-1.webp)
 
@@ -30,22 +30,28 @@ Konfigurasi tersebut yaitu menambahkan beberapa pengaturan dasar:
 
 ## Integrasi aplikasi
 
-[KMail](https://kontact.kde.org/components/kmail/) memiliki fungsi sebagai email klien yang mendukung POP3 dan IMAP. Seperti gmail, yahoo, outlook dan sebagainya. Pengguna dapat langsung menggunakannya dengan memilih tab **Mail**, lalu masuk ke menu `Settings` > pilih `Add Account` untuk menambahkan akun baru.
+[KMail] memiliki fungsi sebagai email klien yang mendukung POP3 dan IMAP. Seperti gmail, yahoo, outlook dan sebagainya. Pengguna dapat langsung menggunakannya dengan memilih tab **Mail**, lalu masuk ke menu `Settings` > pilih `Add Account` untuk menambahkan akun baru.
 
 ![KMail LangitKetujuh OS](../../media/image/kontact-langitketujuh-id-2.webp)
 
-[KAddressBook](https://kontact.kde.org/components/kaddressbook/) memudahkan memanajemen kontak dengan mudah, misalnya mengirim ajakan pertemuan atau rapat dengan email kontak yang sudah dimasukkan sebelumnya.
+[KAddressBook] memudahkan memanajemen kontak dengan mudah, misalnya mengirim ajakan pertemuan atau rapat dengan email kontak yang sudah dimasukkan sebelumnya.
 
 ![Kontact LangitKetujuh OS](../../media/image/kontact-langitketujuh-id-3.webp)
 
-[KOrganizer](https://kontact.kde.org/components/korganizer/) memiliki fungsi untuk mengatur kalender, penjadwalan, jurnal dan event.
+[KOrganizer] memiliki fungsi untuk mengatur kalender, penjadwalan, jurnal dan event.
 
 ![KOrganizer calendar LangitKetujuh OS](../../media/image/kontact-langitketujuh-id-4.webp)
 
-Korganizer juga mendukung perkakas todo untuk membuat perencanaan dan merancang daftar kerja.
+[Korganizer] juga mendukung perkakas todo untuk membuat perencanaan dan merancang daftar kerja.
 
 ![KOrganizer todolist LangitKetujuh OS](../../media/image/kontact-langitketujuh-id-5.webp)
 
-[Akregator](https://kontact.kde.org/components/akregator/) berfungsi untuk membaca dan mendapatkan berita informasi dari feed rss situs favorit, seperti di KDE Dot dan planet KDE.
+[Akregator] berfungsi untuk membaca dan mendapatkan berita informasi dari feed rss situs favorit, seperti di KDE Dot dan planet KDE.
 
 ![Akregator LangitKetujuh OS](../../media/image/kontact-langitketujuh-id-6.webp)
+
+[Kontact]:https://kontact.kde.org/components/kontact/
+[KMail]:https://kontact.kde.org/components/kmail/
+[KAddressBook]:https://kontact.kde.org/components/kaddressbook/
+[KOrganizer]:https://kontact.kde.org/components/korganizer/
+[Akregator]:https://kontact.kde.org/components/akregator/

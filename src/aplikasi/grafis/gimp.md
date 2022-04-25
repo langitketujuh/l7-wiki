@@ -2,9 +2,9 @@
 
 ## Deskripsi
 
-[GIMP](https://www.gimp.org/) merupakan akronim dari GNU Image Manipulation Program yang dikembangkan dan didistribusikan secara bebas ke berbagai platform. Seperti GNU/Linux, Windows, MacOS dan BSD. GIMP sangat diminati oleh praktisi desain grafis sebagai pengolah grafis berbasis raster.
+[GIMP] merupakan akronim dari _GNU Image Manipulation Program_ yang dikembangkan dan didistribusikan secara bebas ke berbagai platform. Seperti GNU/Linux, Windows, MacOS dan BSD. [GIMP] sangat diminati oleh praktisi desain grafis sebagai pengolah grafis berbasis raster.
 
-Banyak fitur dan efek yang disediakan oleh GIMP. Di LangitKetujuh [Edisi Studio](../../perbandingan/edisi.md#studio) sudah terintegrasi dengan [GMIC-Qt](gmic-qt.md) untuk mengatur efek gambar dengan instan dan mudah.
+Banyak fitur dan efek yang disediakan oleh [GIMP]. Di LangitKetujuh [Edisi Studio] sudah terintegrasi dengan [GMIC-Qt] untuk mengatur efek gambar dengan instan dan mudah.
 
 ![GIMP LangitKetujuh OS](../../media/image/gimp-langitketujuh-id-2.webp)
 
@@ -15,7 +15,7 @@ doas xbps-install -Sy {,l7-}gimp
 cp -rfv /etc/skel/.config/GIMP/ ~/.config/
 ```
 
-Jika ingin menambahkan plugin gimp gmic, bisa merujuk ke [halaman GMIC-Qt](gmic-qt.md).
+Jika ingin menambahkan plugin gimp gmic, bisa merujuk ke halaman [GMIC-Qt].
 
 ## Pengaturan tambahan
 
@@ -30,4 +30,10 @@ Beberapa pengaturan GIMP di LangitKetujuh yang ditambahkan diantaranya:
 
 ## Dokumentasi
 
-Setiap pengguna dapat memepelajari dan menjelajahi fitur GIMP melalui halaman [dokumentasi](https://www.gimp.org/docs/) dan di [ebook](https://www.gimp.org/books/) yang tersedia.
+Setiap pengguna dapat memepelajari dan menjelajahi fitur GIMP melalui halaman [dokumentasi resmi] dan di [ebook] yang tersedia.
+
+[GIMP]:https://www.gimp.org/
+[Edisi Studio]:../../perbandingan/edisi.md#studio
+[GMIC-Qt]:gmic-qt.md
+[dokumentasi resmi]:https://www.gimp.org/docs/
+[ebook]:https://www.gimp.org/books/

@@ -2,9 +2,9 @@
 
 ## Deskripsi
 
-Falkon merupakan perangkat lunak bebas untuk menjelajahi web, atau yang lebih dikenal sebagai _web browser_. Falkon berbasis Qt dan menggunakan QTWebEngine sebagai pemroses bagian _backend_ serta terintegrasi dengan lingkungan desktop kde plasma. Kami menyarankan untuk menggunakan falkon, sebab daya memori yang digunakan cukup rendah dan secara bawaan sudah memiliki pemblokir iklan.
+[Falkon] merupakan perangkat lunak bebas untuk menjelajahi web, atau yang lebih dikenal sebagai _web browser_. [Falkon] berbasis Qt dan menggunakan QTWebEngine sebagai pemroses bagian _backend_ serta terintegrasi dengan lingkungan desktop kde plasma. Kami menyarankan untuk menggunakan falkon, sebab daya memori yang digunakan cukup rendah dan secara bawaan sudah memiliki pemblokir iklan.
 
-Hal menarik dari falkon adalah memiliki pengelola sesi setiap pengguna sehingga lebih aman dalam menyimpan data lokal internet (cache, kuki dan basisdata). Selain itu, setiap kata sandi yang tersimpan dalam falkon akan disimpan melalui KDE Wallet. Pengguna dapat mengelola dan mengekspornya jika sewaktu-waktu dibutuhkan.
+Hal menarik dari [Falkon] adalah memiliki pengelola sesi setiap pengguna sehingga lebih aman dalam menyimpan data lokal internet (cache, kuki dan basisdata). Selain itu, setiap kata sandi yang tersimpan dalam falkon akan disimpan melalui KDE Wallet. Pengguna dapat mengelola dan mengekspornya jika sewaktu-waktu dibutuhkan.
 
 ![Falkon Browser LangitKetujuh OS](../../media/image/falkon-langitketujuh-id.webp)
 
@@ -26,3 +26,6 @@ Beberapa pengaturan tambahan dengan `l7-falkon`:
 - Mengaktifkan dukungan screen capture.
 - Mengaktifkan penyaringan kuki pihak ketiga.
 - Mengaktifkan penyaringan pelacak kuki.
+- Menggunakan user agent Mozilla.
+
+[Falkon]:https://falkon.org/

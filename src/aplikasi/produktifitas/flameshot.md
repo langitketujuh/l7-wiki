@@ -1,6 +1,6 @@
 # Flameshot
 
-[Flameshot](https://flameshot.org/) merupakan perangkat lunak untuk mengambil gambar layar monitor dengan menambahkan fitur editing yang sederhana tetapi sangat efektif. Seperti menambahkan persegi, lingkaran, arah panah, garis, efek pixelate dan blur, upload ke penyedia gambar dan lain-lain.
+[Flameshot] merupakan perangkat lunak untuk mengambil gambar layar monitor dengan menambahkan fitur editing yang sederhana tetapi sangat efektif. Seperti menambahkan persegi, lingkaran, arah panah, garis, efek pixelate dan blur, upload ke penyedia gambar dan lain-lain.
 
 ![Flameshot LangitKetujuh OS](../../media/image/flameshot-langitketujuh-id-1.webp)
 
@@ -24,7 +24,7 @@ Konfigurasi tersebut berisi pengaturan:
 - Berjalan otomatis saat awal booting.
 - Menonaktifkan cek update.
 
-Pengguna dapat menggunakan flameshot dengan langsung mengklik ikon dibagian panel kanan bawah.
+Pengguna dapat menggunakan [Flameshot] dengan langsung mengklik ikon dibagian panel kanan bawah.
 
 ![Flameshot LangitKetujuh OS](../../media/image/flameshot-langitketujuh-id-2.webp)
 
@@ -37,3 +37,5 @@ Pengguna dapat menggunakan flameshot dengan langsung mengklik ikon dibagian pane
 - `Scroll` = Mengganti nilai ketebalan garis/efek.
 - `Spasi` = Menampilkan pengaturan.
 - `Esc` = Keluar.
+
+[Flameshot]:https://flameshot.org/

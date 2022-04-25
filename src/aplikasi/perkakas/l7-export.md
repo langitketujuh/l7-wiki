@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-L7 Export merupakan fork dari [inkporter-cli](https://github.com/raniaamina/inkporter) yang berfungsi sebagai pengekspor id objek yang telah ditentukan dari inkscape.
+[L7 Export] merupakan fork dari [inkporter-cli](https://github.com/raniaamina/inkporter) yang berfungsi sebagai pengekspor id objek yang telah ditentukan dari inkscape.
 
 ## Fitur
 
@@ -31,7 +31,7 @@ Profil warna yang didukung:
 
 ## Ekspor marketplace
 
-Sederhananya fitur ini mengekspor id objek inkscape menjadi berkas siap upload. Marketplace tersebut antara lain:
+Sederhananya fitur ini mengekspor id objek inkscape menjadi berkas siap upload dengan format ekstensi sebagai berikut:
 
 - (EPS + PNG).zip
 - (EPS + JPG).zip
@@ -40,8 +40,6 @@ Sederhananya fitur ini mengekspor id objek inkscape menjadi berkas siap upload. 
 - EPS + JPG
 - EPS
 - SVG
-
-In syaa Allah akan ada pembaruan secara berkala.
 
 ## Validator EPS8
 
@@ -69,3 +67,5 @@ Catatan: L7 Export akan berjalan di ubuntu dengan inkscape diatas versi 1.0.
 ```sh
 l7-export namaberkas.svg namaID
 ```
+
+[L7 Export]:https://gitlab.com/langitketujuh/l7-export/

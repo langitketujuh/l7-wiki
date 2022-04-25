@@ -2,9 +2,9 @@
 
 ## Deskripsi
 
-[HandBrake](https://handbrake.fr/) merupakan perangkat lunak untuk memodifikasi codec dalam video, seperti mengganti kualitas fps, kontainer yang digunakan, dan codec yang disesuaikan dengan perangkat tertentu.
+[HandBrake] merupakan perangkat lunak untuk memodifikasi codec dalam video, seperti mengganti kualitas fps, kontainer yang digunakan, dan codec yang disesuaikan dengan perangkat tertentu.
 
-HandBrake dioptimalkan dengan profil perangkat yang pengguna butuhkan, memilih profil yang umum yang standar atau dengan kualitas konversi yang tinggi. Hal ini memungkinkan untuk transformasi codec semakin mudah dan cepat tanpa perlu mengatur konfigurasi khusus.
+[HandBrake] dioptimalkan dengan profil perangkat yang pengguna butuhkan, memilih profil yang umum yang standar atau dengan kualitas konversi yang tinggi. Hal ini memungkinkan untuk transformasi codec semakin mudah dan cepat tanpa perlu mengatur konfigurasi khusus.
 
 ![HandBrake LangitKetujuh OS](../../media/image/handbrake-langitketujuh-id.webp)
 
@@ -22,4 +22,7 @@ doas xbps-install -Sy handbrake
 
 ## Dokumentasi
 
-Pengguna dapat mempelajari HandBrake lebih lanjut di [dokumentasi](https://handbrake.fr/docs) yang telah disediakan.
+Pengguna dapat mempelajari [HandBrake] lebih lanjut di halaman [dokumentasi] yang telah disediakan.
+
+[HandBrake]:https://handbrake.fr/
+[dokumentasi]:https://handbrake.fr/docs

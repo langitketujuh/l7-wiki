@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Inkscape merupakan salah satu perangkat lunak pengolah vektor yang memiliki banyak fitur. Sebagai perangkat lunak cross platform yang dimana tersedia untuk Windows, Mac, BSD, dan GNU/Linux (flatpak, appimage, snap) serta tersedia dalam kode sumber. Perangkat lunak terbuka ini dikembangkan dari GTK+3 menggunakan bahasa C++ dan Python sebagai program ekstensi tambahan.
+[Inkscape] merupakan salah satu perangkat lunak pengolah vektor yang memiliki banyak fitur. Sebagai perangkat lunak cross platform yang dimana tersedia untuk Windows, Mac, BSD, dan GNU/Linux (flatpak, appimage, snap) serta tersedia dalam kode sumber. Perangkat lunak terbuka ini dikembangkan dari GTK+3 menggunakan bahasa C++ dan Python sebagai program ekstensi tambahan.
 
 ![Inkscape LangitKetujuh OS](../../media/image/inkscape-langitketujuh-id-1.webp)
 
@@ -39,10 +39,15 @@ Beberapa pengaturan inkscape yang ditambahkan di sistem operasi LangitKetujuh ad
 
 - Menggunakan 8 thread.
 - Autosave dengan durasi setiap 2 menit.
-- Profil tampilan menggunakan `sRGB-elle-V2-srgbtrc` dan proofing CMYK menggunakan `Chemical Proof` krita, sehingga kompatibel dengan profil warna yang ada di [krita](krita.md).
+- Profil tampilan menggunakan `sRGB-elle-V2-srgbtrc` dan proofing CMYK menggunakan `Chemical Proof` krita, sehingga kompatibel dengan profil warna yang ada di [Krita].
 
 ![Inkscape LangitKetujuh OS](../../media/image/inkscape-langitketujuh-id-3.webp)
 
 ## Dokumentasi
 
-Pengguna dapat belajar dan menjelajahi fitur inkscape melalui halaman [dokumentasi](https://inkscape-manuals.readthedocs.io/en/latest) dan [wiki inkscape](https://wiki.inkscape.org/wiki/index.php/Inkscape).
+Pengguna dapat belajar dan menjelajahi fitur [Inkscape] melalui halaman [dokumentasi] dan [wiki inkscape].
+
+[Inkscape]:https://inkscape.org/
+[dokumentasi]:https://inkscape-manuals.readthedocs.io/en/latest
+[wiki inkscape]:https://wiki.inkscape.org/wiki/index.php/Inkscape
+[Krita]:krita.md

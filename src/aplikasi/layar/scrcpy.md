@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-`scrcpy` berguna untuk melihat dan mengontrol perangkat dengan pencerminan layar perangkat smartphone ke layar monitor desktop.
+Screen Copy atau yang lebih dikenal dengan [scrcpy] berguna untuk melihat dan mengontrol perangkat dengan pencerminan layar perangkat smartphone ke layar monitor desktop.
 
 ![Scrcpy Mirroring LangitKetujuh OS](../../media/image/scrcpy-langitketujuh-id.webp)
 
@@ -34,6 +34,8 @@ Setiap perangkat Android memiliki pengaturan yang berbeda-beda tergantung merekn
 - Developer `Options`.
 - Aktifkan `USB Debugging`.
 
-## Menjalankan `scrcpy`
+## Cara penggunaan
 
-Kemudian jalankan `scrcpy` melalui konsole terminal atau krunner (Alt+F2).
+Jalankan [scrcpy] melalui konsole terminal atau menggunakan krunner (Alt+F2).
+
+[scrcpy]:https://github.com/Genymobile/scrcpy
