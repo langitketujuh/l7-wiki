@@ -112,7 +112,7 @@
   - [Internet](./aplikasi/internet/index.md)
     - [Falkon](./aplikasi/internet/falkon.md)
     - [Kget](./aplikasi/internet/kget.md)
-    - [Kget addons](./aplikasi/internet/kget-addons.md)
+    #- [Kget addons](./aplikasi/internet/kget-addons.md)
   - [Layar](./aplikasi/layar/index.md)
     - [DisplayCAL](./aplikasi/layar/displaycal.md)
     - [Scrcpy](./aplikasi/layar/scrcpy.md)
@@ -148,6 +148,7 @@
   - [Masalah XBPS](./permasalahan/xbps.md)
   - [Masalah VPSM](./permasalahan/vpsm.md)
   - [Partisi terkunci](./permasalahan/partisi.md)
+  - [SDDM Error](./permasalahan/sddm-error.md)
 
 ---
 - [Para pendukung](./pendukung.md)
