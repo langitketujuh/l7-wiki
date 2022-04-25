@@ -57,6 +57,12 @@ command = "curl -sL https://github.com/rust-lang/mdBook/releases/download/v0.4.1
   force = true
 
 [[redirects]]
+  from = "https://panduan.langitketujuh.id/permasalahan/login.html"
+  to = "https://panduan.langitketujuh.id/permasalahan/user.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/404/"
   status = 404

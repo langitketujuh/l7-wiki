@@ -1,6 +1,6 @@
-# Gagal login
+# Akun Pengguna
 
-## Penyebab
+## Akun hilang
 
 Terkadang setelah memasang LangitKetujuh, tidak dapat login dengan pengguna yang telah dibuat. Hal ini disebabkan karena sebelumnya mengalami error ketika selesai memasang sistem operasi, lalu belum di *reboot* (restart). Jadi, setelah gagal memasang sistem operasi diharuskan untuk di*reboot*.
 
@@ -10,7 +10,7 @@ Intinya, satu kali memasang sistem operasi harus berhasil agar dapat membuat pen
 
 Jika sudah terlanjur memasang sistem operasi tetapi gagal login, maka diharuskan mengikuti panduan dibawah ini.
 
-## Masuk ke mode TTY
+### Masuk ke mode TTY
 
 Pastikan masih ingat kata sandi `root` nya. Ini penting, karena akan masuk ke dalam pengguna `root`. Ketika dalam tampilan login manager masuk ke mode tty. Misalnya menggunakan TTY2 (atau bisa menggunakan TTY3 hingga TTY6).
 
@@ -27,7 +27,7 @@ Password, isikan kata sandi yang telah dibuat ketika memasang sebelumnya. Ingat,
 
 Jika sudah masuk `root` dengan TTY maka akan terlihat tanda pagar root `root@host /#`.
 
-## Membuat pengguna baru
+### Membuat pengguna baru
 
 Setelah berhasil masuk ke `root`, maka buatlah pengguna baru dengan cara:
 
