@@ -32,7 +32,7 @@ sda      8:0    0 119.2G  0 disk
 └─sda3   8:3    0  78.7G  0 part (HARUS KOSONG)
 ```
 
-Jangan mengakses partisi yang akan di fiksasi dengan `ntfsfix`, pada bagian `MOUNTPOINTS` harus kosong. Lepaskan dahulu dengan `unmount` jika telah mengakses. Jika tidak dilepaskan, sudah pasti gagal di proses berikutnya.
+Jangan mengakses partisi yang akan ditangani dengan `ntfsfix`, pada bagian `MOUNTPOINTS` harus kosong. Lepaskan dahulu dengan `unmount` jika telah mengakses. Jika tidak dilepaskan, sudah pasti gagal di proses berikutnya.
 
 Misalnya partisi yang bermasalah di `sda3`, unmount dahulu.
 

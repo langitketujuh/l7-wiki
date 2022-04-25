@@ -14,7 +14,7 @@ Jika sudah terlanjur memasang sistem operasi tetapi gagal login, maka diharuskan
 
 Pastikan masih ingat kata sandi `root` nya. Ini penting, karena akan masuk ke dalam pengguna `root`. Ketika dalam tampilan login manager masuk ke mode tty. Misalnya menggunakan TTY2 (atau bisa menggunakan TTY3 hingga TTY6).
 
-Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+`.
+Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+` menjadi `Fn+Ctrl+Alt+F2`.
 
 ```sh
 Username: root

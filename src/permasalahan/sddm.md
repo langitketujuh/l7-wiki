@@ -8,7 +8,7 @@ Pengguna tiba-tiba menemui error seperti ini saat memperbarui sistem yang sedang
 
 Ini terjadi ketika terjadi perubahan sesi login dan saat update dengan ukuran yang cukup besar, sehingga sesi sddm harus dibuka kembali. Biasanya muncul karena sistemnya jarang diperbarui atau masih baru pertama kali install. Maka solusinya adalah sebagai berikut.
 
-Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+`.
+Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+` menjadi `Fn+Ctrl+Alt+F2`.
 
 ```sh
 Username: pengguna
@@ -34,9 +34,9 @@ Pengguna menemui error seperti ini ketika baru menyalakan komputer:
 
 Hal ini terjadi karena sebelumnya sedang pembaruan sistem, tetapi pembaruan tersebut belum selesai lalu di reboot. Biasanya terjadi error seperti diatas.
 
-Penyebab utamanya karena pembaruan belum selesai, sehingga harus dilanjutkan proses pembaruan sistemnya dengan mode TTY
+Penyebab utamanya karena pembaruan belum selesai, sehingga harus dilanjutkan proses pembaruan sistemnya dengan mode TTY.
 
-Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+`.
+Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+` menjadi `Fn+Ctrl+Alt+F2`.
 
 ```sh
 Username: pengguna
