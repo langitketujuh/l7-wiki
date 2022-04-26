@@ -4,13 +4,13 @@
 
 Sistem operasi LangitKetujuh menggunakan rilis bergulir (rolling release) untuk memperbarui setiap paket, sehingga perangkat lunak yang digunakan relatif terbaru dan lebih sering update. Meskipun demikian, ukuran dependensi lebih kecil dari pada distro pada umumnya.
 
-## Update system
+## Upgrade system
 
-Sebelum memperbarui sistem pastikan sudah terhubung dengan jaringan internet. Kemudian perbarui sistem dengan cara mengklik **Update System** di menu favorit seperti dibawah ini.
+Sebelum memperbarui sistem pastikan sudah terhubung dengan jaringan internet. Kemudian perbarui sistem dengan cara mengklik **Upgrade system** di menu favorit seperti dibawah ini.
 
-![Update System LangitKetujuh OS](../media/image/update-system-langitketujuh-id.webp)
+![Upgrade system LangitKetujuh OS](../media/image/update-system-langitketujuh-id.webp)
 
-Ada 5 tahapan yang dilakukan oleh Update System.
+Ada 5 tahapan yang dilakukan oleh Upgrade system.
 
 1. `Synchronization`, untuk sinkronisasi basis data yang terbaru dari server repositori.
 2. `Full system upgrade`, proses mengunduh dan memasang dependensi yang terbaru. Ketik `y` untuk mengeksekusi.
@@ -20,17 +20,3 @@ Ada 5 tahapan yang dilakukan oleh Update System.
 6. `Remove obsolete and orphans packages?`proses untuk menghapus dependensi kedaluwarsa yang tidak digunakan. `Do you want to continue?` pilih `y` untuk memproses. Secara bawaan memilih `n` untuk tidak memproses.
 
 Pembaruan dapat dilakukan saat memiliki waktu senggang saja, atau ketika ingin menggunakan perangkat lunak versi terbaru.
-
-## OctoXBPS
-
-Pembaruan dapat dilakukan juga melalui [octoxbps](../aplikasi/perkakas/octoxbps.md). Sebelum memperbarui sistem, pastikan sudah melakukan sinkronisasi database repositori dengan mengklik `Sync database`.
-
-![Refresh database OctoXBPS LangitKetujuh OS](../media/image/octoxbps-refresh-database-langitketujuh-id.webp)
-
-Kemudian klik `Install` di bagian status bar. Adanya paket yang perlu diperbarui terlihat dengan tanda warna merah seperti dibawah ini.
-
-![OctoXBPS Update LangitKetujuh OS](../media/image/octoxbps-update-langitketujuh-id.webp)
-
-Klik `Yes` untuk menjalankan proses pembaruan sistem.
-
-![OctoXBPS Update Confirmation LangitKetujuh OS](../media/image/octoxbps-confirmation-langitketujuh-id.webp)

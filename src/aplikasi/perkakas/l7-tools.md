@@ -5,7 +5,13 @@
 - Memperbarui sistem agar menjadi lebih baru.
 
   ```sh
-  l7-tools --upgrade
+  doas l7-tools --upgrade
+  ```
+
+  Atau menjalankan
+
+  ```sh
+  upgrade
   ```
 
 - Memasang grub.
