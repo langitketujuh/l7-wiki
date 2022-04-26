@@ -5,7 +5,7 @@
 - Memperbarui sistem agar menjadi lebih baru.
 
   ```sh
-  l7-tools --update
+  l7-tools --upgrade
   ```
 
 - Memasang grub.

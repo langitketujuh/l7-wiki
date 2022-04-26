@@ -57,7 +57,7 @@ Lalu koneksikan ke jaringan yang tersedia. Gunakan arah panah ⬆️ ➡️ ⬇�
 Kemudian lanjutkan proses pembaruan sistem yang belum selesai.
 
 ```
-doas l7-tools --update
+doas l7-tools --upgrade
 ```
 
 Jika sudah selesai, maka reboot untuk menyalakan kembali komputernya.
