@@ -9,7 +9,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}kget
+get {,l7-}kget
 cp -fv /etc/skel/.config/kgetrc ~/.config/
 cp -fv /etc/skel/.config/autostart/org.kde.kget.desktop ~/.config/autostart/
 ```

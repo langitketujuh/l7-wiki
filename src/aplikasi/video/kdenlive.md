@@ -13,7 +13,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy kdenlive
+get kdenlive
 ```
 
 ## Dokumentasi

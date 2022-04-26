@@ -5,7 +5,7 @@ TLP sebagai manajemen baterai laptop agar penggunaannya lebih hemat dan efisien.
 ## Cara memasang
 
 ```sh
-doas xbps-install tlp tlp-rdw
+get tlp tlp-rdw
 ```
 
 ## Melihat status tlp
@@ -37,5 +37,5 @@ doas sv restart tlp
 ## Menghapus tlp daemon
 
 ```sh
-doas xbps-remove -R tlp tlp-rdw
+remove tlp tlp-rdw
 ```

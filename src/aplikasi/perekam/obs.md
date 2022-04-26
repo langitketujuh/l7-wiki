@@ -13,7 +13,7 @@ LangitKetujuh juga mengikutsertakan v4l2loopback untuk secara bawaan agar penggu
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}obs
+get {,l7-}obs
 cp -rfv /etc/skel/.config/obs-studio/ ~/.config/
 ```
 

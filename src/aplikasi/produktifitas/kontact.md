@@ -7,13 +7,13 @@
 ## Cara memasang
 
 ```
-doas xbps-install -Sy kontact korganizer kmail kaddressbook akregator kdepim-addons
+get kontact korganizer kmail kaddressbook akregator kdepim-addons
 ```
 
 Pasang konfigurasi tambahan.
 
 ```
-doas xbps-install -Sy l7-kmail l7-korganizer l7-akregator
+get l7-kmail l7-korganizer l7-akregator
 cp -rfv /etc/skel/.config/{kmail2rc,korgacrc,akregatorrc} ~/.config/
 cp -rfv /etc/skel/.local/share/akregator/ ~/.local/share/
 ```

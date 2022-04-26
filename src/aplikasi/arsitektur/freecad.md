@@ -13,7 +13,7 @@ Perangkat lunak [FreeCAD] merupakan perangkat lunak desain parametrik (ukuran te
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy freecad
+get freecad
 ```
 
 ## Dokumentasi

@@ -11,7 +11,7 @@ XDEB sendiri hanya bisa dipasang untuk arsitektur [x86_64](../../perbandingan/ar
 ```sh
 doas curl -s https://raw.githubusercontent.com/toluschr/xdeb/master/xdeb -o /usr/bin/xdeb
 doas chmod +x /usr/bin/xdeb
-doas xbps-install -Sy xz
+get xz
 ```
 
 ## Cara konversi
@@ -27,7 +27,7 @@ xdeb -Sed aplikasi-1.2.deb
 - Setelah berhasil konversi ada petunjuk nama paket di akhir baris, misalnya `aplikasi-1.2_1`. Kemudian pasang perangkat lunak tersebut.
 
 ```sh
-# doas xbps-install -R binpkgs <nama perangkat lunak xbps>
-doas xbps-install -R binpkgs aplikasi-1.2_1
+# get -R binpkgs <nama perangkat lunak xbps>
+get -R binpkgs aplikasi-1.2_1
 ```
 - Proses pemasangan telah selesai.

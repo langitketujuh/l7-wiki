@@ -9,7 +9,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy gmic
+get gmic
 ```
 
 Plugin tambahan (opsional):
@@ -21,7 +21,7 @@ Plugin tambahan (opsional):
 Memasang plugin:
 
 ```sh
-doas xbps-install -Sy gmic-{krita,gimp,zart}
+get gmic-{krita,gimp,zart}
 ```
 
 ## Cara penggunaan

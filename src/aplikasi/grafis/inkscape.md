@@ -9,7 +9,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}inkscape
+get {,l7-}inkscape
 cp -rfv /etc/skel/.config/inkscape/ ~/.config/
 ```
 
@@ -23,7 +23,7 @@ Plugin tambahan (opsional):
 Memasang plugin:
 
 ```sh
-doas xbps-install -Sy \
+get \
 inkscape-{generate-palette,inx-pathops,multicalendar,nextgenerator}
 ```
 

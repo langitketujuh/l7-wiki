@@ -7,7 +7,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install virt-manager virt-manager-tools qemu
+get virt-manager virt-manager-tools qemu
 ```
 
 ## Tambahkan pengguna ke grup kvm

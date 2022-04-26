@@ -20,7 +20,7 @@ func _ready():
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}godot
+get {,l7-}godot
 cp -rfv /etc/skel/.config/godot/ ~/.config/
 ```
 

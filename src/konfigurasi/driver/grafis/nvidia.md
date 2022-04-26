@@ -25,9 +25,9 @@ Pasang dengan menyesuaikan nomer versi driver kartu grafis.
 
 | **Perintah**                  | **Versi**   |
 | :---------------------------- | :---------------- |
-| `doas xbps-install nvidia`    | 800 keatas        |
-| `doas xbps-install nvidia470` | 600 atau 700      |
-| `doas xbps-install nvidia390` | 400 atau 500      |
+| `get nvidia`    | 800 keatas        |
+| `get nvidia470` | 600 atau 700      |
+| `get nvidia390` | 400 atau 500      |
 
 Jika driver Nvidia yang digunakan termasuk driver [legacy gpu](https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/) maka gunakan `nvidia390` atau `nvidia470`.
 

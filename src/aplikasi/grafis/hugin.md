@@ -13,7 +13,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy hugin
+get hugin
 ```
 
 ## Dokumentasi

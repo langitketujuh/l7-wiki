@@ -7,7 +7,7 @@ PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertu
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy pipewire alsa-pipewire libjack-pipewire \
+get pipewire alsa-pipewire libjack-pipewire \
 gstreamer1-pipewire l7-pipewire
 ```
 
@@ -40,14 +40,14 @@ Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
 Menghapus pipewire.
 
 ```sh
-doas xbps-remove -R pipewire alsa-pipewire libjack-pipewire \
+remove pipewire alsa-pipewire libjack-pipewire \
 gstreamer1-pipewire l7-pipewire
 ```
 
 Memasang pulseaudio.
 
 ```sh
-doas xbps-install -Sy pulseaudio alsa-plugins-pulseaudio
+get pulseaudio alsa-plugins-pulseaudio
 ```
 
 Kemudian logout atau reboot komputernya.

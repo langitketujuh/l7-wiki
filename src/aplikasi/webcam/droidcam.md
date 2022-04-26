@@ -7,7 +7,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy droidcam l7-v4l2loopback
+get droidcam l7-v4l2loopback
 ```
 
 Cek versi kernel linux yang digunakan.

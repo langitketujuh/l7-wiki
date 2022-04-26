@@ -9,7 +9,7 @@ Driver Printer Epson `epson-inkjet-printer-escpr` sudah terpasang secara otomati
 Driver Epson Scanner dipasang dengan cara:
 
 ```sh
-doas xbps-install imagescan iscan-data
+get imagescan iscan-data
 ```
 
 ## HP Printer
@@ -19,13 +19,13 @@ Pengguna dapat melihat model printer HP yang didukung oleh `hplip` di [daftar in
 Menghapus versi cli.
 
 ```sh
-doas xbps-remove -R hplip
+remove hplip
 ```
 
 Memasang versi gui.
 
 ```sh
-doas xbps-install hplip-gui
+get hplip-gui
 ```
 
 Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
@@ -35,7 +35,7 @@ Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sis
 Driver Printer Canon hanya bisa dipasang untuk edisi `glibc` saja. Karena proprietary, sehingga tidak bisa diporting ke musl. Cara memasang driver printer Canon:
 
 ```sh
-doas xbps-install cnijfilter2
+get cnijfilter2
 ```
 
 Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
@@ -45,17 +45,17 @@ Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sis
 Pasang Driver printer brother.
 
 ```sh
-doas xbps-install brother-brlaser
+get brother-brlaser
 ```
 
 Beberapa driver hanya tersedia di glibc saja, karena driver yang tidak terbuka.
 
-| Perintah                                        | Deskripsi                                                    |
-| :---------------------------------------------- | :----------------------------------------------------------- |
-| `doas xbps-install brother-brscan3`             | SANE scanner driver for brscan3-compatible Brother scanners  |
-| `doas xbps-install brother-brscan4`             | SANE scanner driver for brscan4-compatible printers          |
-| `doas xbps-install brother-dcp197c-cupswrapper` | CUPS wrapper driver for the brother DCP-197C printer/scanner |
-| `doas xbps-install brother-dcp197c-lpr`         | LPR driver for the brother DCP-197C printer/scanner          |
+| Perintah                          | Deskripsi                                                    |
+| :-------------------------------- | :----------------------------------------------------------- |
+| `get brother-brscan3`             | SANE scanner driver for brscan3-compatible Brother scanners  |
+| `get brother-brscan4`             | SANE scanner driver for brscan4-compatible printers          |
+| `get brother-dcp197c-cupswrapper` | CUPS wrapper driver for the brother DCP-197C printer/scanner |
+| `get brother-dcp197c-lpr`         | LPR driver for the brother DCP-197C printer/scanner          |
 
 Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sistem-printer).
 
@@ -64,7 +64,7 @@ Kemudian tambahkan daftar printer ke [pengaturan sistem printer](#pengaturan-sis
 Secara bawaan openprinting foomatic sudah terpasang secara otomatis kecuali `db-nonfree`. Untuk memasangnya ketik:
 
 ```sh
-doas xbps-install foomatic-db-nonfree
+get foomatic-db-nonfree
 ```
 
 ## Pengaturan Sistem Printer

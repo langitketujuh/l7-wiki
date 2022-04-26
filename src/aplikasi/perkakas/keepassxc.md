@@ -7,7 +7,7 @@
 ## Cara memasang
 
 ```
-doas xbps-install -Sy {,l7-}keepassxc
+get {,l7-}keepassxc
 ```
 
 Gunakan konfigurasi tambahan.

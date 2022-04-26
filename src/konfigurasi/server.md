@@ -23,13 +23,13 @@ Alamat repositori dapat ditemukan didalam direktori `/usr/share/xbps.d` dan `/et
 Jika ingin memasang repo multilib 32bit, pengguna dapat memasang `void-repo-multilib`.
 
 ```sh
-doas xbps-install -Sy void-repo-multilib
+get void-repo-multilib
 ```
 
 Jika membutuhkan multilib nonfree, pasang depedensi `void-repo-multilib-nonfree`.
 
 ```sh
-doas xbps-install -Sy void-repo-multilib-nonfree
+get void-repo-multilib-nonfree
 ```
 
 ## Cek alamat repositori

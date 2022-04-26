@@ -15,7 +15,7 @@ Pengoreksian pencahayaan dari [RawTherapee] ada beberapa macam, seperti Luminanc
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy rawtherapee
+get rawtherapee
 ```
 
 ## Dokumentasi

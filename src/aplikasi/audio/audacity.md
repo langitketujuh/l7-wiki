@@ -11,7 +11,7 @@ Di LangitKetujuh, [Audacity] menggunakan tema gelap untuk disesuaikan dengan tem
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}audacity
+get {,l7-}audacity
 cp -rfv /etc/skel/.audacity-data ~/
 ```
 

@@ -11,7 +11,7 @@ Hal menarik dari [Falkon] adalah memiliki pengelola sesi setiap pengguna sehingg
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}falkon
+get {,l7-}falkon
 cp -fv /etc/skel/.config/falkon/ ~/.config/
 ```
 

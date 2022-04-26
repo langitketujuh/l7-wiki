@@ -7,7 +7,7 @@ Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus a
 ## Cara memasang
 
 ```sh
-doas xbps-install Clight Clightd
+get Clight Clightd
 ```
 
 ## Melihat status clightd
@@ -39,5 +39,5 @@ doas sv restart Clightd
 ## Menghapus clight dan clight daemon
 
 ```sh
-doas xbps-remove -R Clight Clightd
+remove Clight Clightd
 ```

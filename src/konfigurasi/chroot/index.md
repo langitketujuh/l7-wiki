@@ -18,7 +18,7 @@ Sebelum melakukan `chroot` anda harus menyiapkan sistem operasi LangitKetujuh la
 Setelah masuk ke liveusb, pastikan sudah memasang `l7-tools` versi terbaru `1.18.10+`. Jika belum terbaru jalankan perintah ini.
 
 ```sh
-doas xbps-install -Sy l7-tools
+get l7-tools
 ```
 
 Kemudian jalankan chroot.

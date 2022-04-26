@@ -11,7 +11,7 @@ Kami menyarankan menggunakan ekstensi `ogg`, sebab legal dan bebas dari pembatas
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy soundkonverter
+get soundkonverter
 ```
 
 Jika pengguna memerlukan konversi video, dapat menggunakan [HandBrake]. Sedangkan untuk konversi gambar dapat menggunakan [Converseen].

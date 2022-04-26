@@ -7,7 +7,7 @@ Manfaat lainnya untuk menghindari mematikan mesin secara paksa ketika komputer t
 ## Cara memasang
 
 ```sh
-doas xbps-install earlyoom
+get earlyoom
 ```
 
 ## Melihat status earlyoom
@@ -39,5 +39,5 @@ doas sv restart earlyoom
 ## Menghapus earlyoom daemon
 
 ```sh
-doas xbps-remove -R earlyoom
+remove earlyoom
 ```

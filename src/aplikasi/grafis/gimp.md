@@ -11,7 +11,7 @@ Banyak fitur dan efek yang disediakan oleh [GIMP]. Di LangitKetujuh [Edisi Studi
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}gimp
+get {,l7-}gimp
 cp -rfv /etc/skel/.config/GIMP/ ~/.config/
 ```
 

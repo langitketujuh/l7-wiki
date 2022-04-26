@@ -9,7 +9,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}blender
+get {,l7-}blender
 cp -rfv /etc/skel/.config/blender ~/.config/
 ```
 

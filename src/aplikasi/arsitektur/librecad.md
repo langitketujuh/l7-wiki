@@ -11,7 +11,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy LibreCAD
+get LibreCAD
 ```
 
 ## Dokumentasi

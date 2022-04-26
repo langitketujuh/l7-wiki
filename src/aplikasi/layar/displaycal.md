@@ -13,7 +13,7 @@ DisplayCAL sangat berguna untuk kalibrasi layar yang sesuai dengan profil warna 
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy dispcalGUI
+get dispcalGUI
 ```
 
 [DisplayCAL]:https://displaycal.net/

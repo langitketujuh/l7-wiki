@@ -5,7 +5,7 @@ ZRAMEN untuk pengatur [zram](../../pemasangan/sistem-swap/zram.md), secara bawaa
 ## Cara memasang
 
 ```sh
-doas xbps-install zramen
+get zramen
 ```
 
 ## Melihat status zramen
@@ -37,5 +37,5 @@ doas sv restart zramen
 ## Menghapus zramen daemon
 
 ```sh
-doas xbps-remove -R zramen
+remove zramen
 ```

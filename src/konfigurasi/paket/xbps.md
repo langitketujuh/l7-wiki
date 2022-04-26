@@ -2,22 +2,21 @@
 
 ## Perintah dasar
 
-Perintah dasar di Langitketujuh memanfaatkan fitur singkatan (abbreviations) pada [fish-shell](../shell/fish.md) untuk mempercepat mengetik perintah yang sebenarnya. Misalnya, ketika mengetik `sync` akan berubah secara otomatis menjadi `doas xbps-install -S`. Demikian pula perintah lainnya yang seperti dibawah ini.
+Perintah dasar di Langitketujuh memanfaatkan fitur fungsi pada [fish-shell](../shell/fish.md) untuk mempercepat menyingkat perintah yang sebenarnya. Misalnya, ketika mengetik `update` pada dasarnya menjalankan `get -S`. Jika berjalan diatas user root akan menjalankan `xbps-install -S` saja tanpa doas. Demikian pula perintah lainnya yang seperti dibawah ini.
 
 | Perintah         | Contoh          | Fungsi                                          |
 | :--------------- | :-------------- | :---------------------------------------------- |
-| `sync`           |                 | Memperbarui basis data repositori.              |
-| `update`         |                 | Memperbarui perangkat lunak dan dependensi.     |
+| `update`         |                 | Memperbarui basis data repositori.              |
+| `upgrade`        |                 | Memperbarui perangkat lunak dan dependensi.     |
 | `get <pkg>`      | `get gimp`      | Memasang perangkat lunak.                       |
 | `search <pkg>`   | `search gimp`   | Mencari perangkat lunak berdasarkan basis data. |
 | `remove <pkg>`   | `remove gimp`   | Menghapus perangkat lunak.                      |
 | `info <pkg>`     | `info gimp`     | Informasi dari perangkat lunak yang terpasang.  |
-| `filelist <pkg>` | `filelist gimp` | Daftar isi dari dependensi                      |
+| `list <pkg>`     | `list gimp`     | Daftar isi dari dependensi                      |
 | `autoclean`      |                 | Menghapus cache dependensi kedaluwarsa.         |
-| `repolist`       |                 | Melihat daftar repository.                      |
-| `ll`             |                 | Melihat daftar direktori dan berkas.            |
-| `ff`             |                 | Membuat ulang cache fonta.                      |
 | `disk`           |                 | Melihat struktur sistem partisi.                |
+| `list    `       |                 | Melihat daftar repository.                      |
+| `ll`             |                 | Melihat daftar direktori dan berkas.            |
 
 Gunakan arah panah atas/bawah untuk mencari histori perintah terminal. Dan arah kanan untuk melanjutkan perintah yang sudah pernah diketik sebelumnya.
 
@@ -38,5 +37,5 @@ Beberapa paket sudah kami kategorikan dengan meta paket seperti kompiler, codec 
 | `l7-pkg-wine`     | Wine penggerak perangkat lunak Windows.        |
 
 Contoh penggunaan:
-- Memasang rust :`doas xbps-install l7-pkg-rust`
-- Memasang beberapa paket: `doas xbps-install l7-pkg-{rust,lamp}`
+- Memasang rust :`get l7-pkg-rust`
+- Memasang beberapa paket: `get l7-pkg-{rust,lamp}`

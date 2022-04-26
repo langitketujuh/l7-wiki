@@ -13,7 +13,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}ardour
+get {,l7-}ardour
 ```
 
 ## Dokumentasi

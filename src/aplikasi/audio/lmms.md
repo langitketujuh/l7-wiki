@@ -9,7 +9,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy lmms
+get lmms
 ```
 
 ## Dokumentasi

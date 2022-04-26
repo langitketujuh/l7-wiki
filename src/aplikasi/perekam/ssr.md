@@ -24,7 +24,7 @@ Output:
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}ssr
+get {,l7-}ssr
 ```
 
 [SSR]:https://www.maartenbaert.be/simplescreenrecorder/

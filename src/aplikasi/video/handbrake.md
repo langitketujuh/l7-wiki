@@ -17,7 +17,7 @@ Beberapa keluaran codec yang dihasilkan dari HandBrake:
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy handbrake
+get handbrake
 ```
 
 ## Dokumentasi

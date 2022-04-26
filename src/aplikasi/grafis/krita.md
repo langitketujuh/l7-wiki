@@ -11,7 +11,7 @@
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy {,l7-}krita
+get {,l7-}krita
 cp -rfv /etc/skel/.config/kritarc ~/.config/
 ```
 

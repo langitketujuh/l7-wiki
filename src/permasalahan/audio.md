@@ -31,7 +31,7 @@ Biasanya bluetooth tidak otomatis menerima audio dari komputer untuk pertama kal
 Kendala lainnya yaitu bluetooth tidak berhasil disambungkan. Solusinya dengan memasang `libspa-bluetooth` dan menambahkan grup pengguna ke bluetooth.
 
 ```sh
-doas xbps-install libspa-bluetooth
+get libspa-bluetooth
 doas usermod -aG bluetooth $USER
 ```
 
@@ -62,6 +62,6 @@ Ada beberapa faktor jika terjadi demikian, diantaranya:
 - Perangkat audio yang tidak didukung oleh kernel linux, solusinya ganti kernel sebelumnya atau memasang kernel lts (cara ini belum tentu berhasil, tergantung dari sound card).
   - Pasang kernel lts.
   ```sh
-  doas xbps-install linux-lts{,-headers}
+  get linux-lts{,-headers}
   ```
   - Nyalakan ulang komputer. Pilih `Advanced Option`. Pilih versi kernel linux lts, misalnya `linux5.10`.

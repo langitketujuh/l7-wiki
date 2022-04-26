@@ -9,7 +9,7 @@
 Cara memasangnya buka di konsole atau melalui [OctoXBPS].
 
 ```sh
-doas xbps-install -Sy webapp-manager
+get webapp-manager
 ```
 
 ## Cara penggunaan

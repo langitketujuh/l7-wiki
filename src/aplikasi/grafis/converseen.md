@@ -13,7 +13,7 @@ Penggunaannya juga sangat sederhana. Tambahkan gambar, ceklis gambar yang akan d
 ## Cara memasang
 
 ```sh
-doas xbps-install -Sy Converseen
+get Converseen
 ```
 
 Jika pengguna memerlukan konversi video, dapat menggunakan [HandBrake]. Sedangkan untuk konversi audio dapat menggunakan [soundKonverter].
