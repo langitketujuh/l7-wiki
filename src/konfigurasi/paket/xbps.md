@@ -2,7 +2,7 @@
 
 ## Perintah dasar
 
-Perintah dasar di Langitketujuh memanfaatkan fitur fungsi pada [fish-shell](../shell/fish.md) untuk mempercepat menyingkat perintah yang sebenarnya. Misalnya, ketika mengetik `update` pada dasarnya menjalankan perintah `xbps-install -S`. Jika berjalan diatas user root akan menjalankan `xbps-install -S` saja tanpa doas. Demikian pula perintah lainnya yang seperti dibawah ini.
+Perintah dasar di Langitketujuh memanfaatkan fitur fungsi pada [fish-shell](../shell/fish.md) untuk mempercepat menyingkat perintah yang sebenarnya. Misalnya, ketika mengetik `update` pada dasarnya menjalankan perintah `doas xbps-install -S`. Jika berjalan diatas user root akan menjalankan `xbps-install -S` saja tanpa doas. Demikian pula perintah lainnya yang seperti dibawah ini.
 
 | Perintah              | Contoh                | Fungsi                                          |
 | :-------------------- | :-------------------- | :---------------------------------------------- |
