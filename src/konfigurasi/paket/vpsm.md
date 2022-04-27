@@ -9,7 +9,7 @@ VPSM pada umumnya digunakan untuk memasang perangkat lunak tidak bebas saja, jik
 Jalankan perintah ini untuk membuat boostrap vpsm. Pengguna diharuskan melakukan ini untuk awal pemasangan.
 
 ```sh
-vpsm_config
+vpsmconf
 ```
 
 Tunggu sampai proses selesai.
