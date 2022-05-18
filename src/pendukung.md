@@ -53,6 +53,8 @@
 - Bayu Tri Susilo.
 - Bilal Barnabas.
 - Bima Mulyanto.
+- Bony Prabowo.
+- Budi Irawan.
 - Budi Suzaldi.
 - Cecep Wahidin.
 - Chairuddinsyah Harahap.
@@ -141,6 +143,7 @@
 - Moh. Yanuar Ramadhan.
 - Mohammad Qowaidul Umam.
 - Mohammad Rizki Aiman.
+- Mohammad Shodiq.
 - Moja Mojafat.
 - Monsky.
 - Mr. Smith.
@@ -201,7 +204,7 @@
 - Rohmana.
 - Saelani.
 - Sakti Nurrahman.
-- Setiyo budi.
+- Setiyo Budi.
 - Shahrizan.
 - Sidiq Adi Nugroho.
 - Sigit Dwi Pamungkas.
@@ -237,6 +240,7 @@
 - Yunus Ahmad.
 - Yusuf Almalik Saputra, Md.
 - Yusuf Isna Hanif.
+- Yuukio Fuyu.
 - Zainal.
 - Zakki Mubarak.
 - Zulkarnain Alfan.
