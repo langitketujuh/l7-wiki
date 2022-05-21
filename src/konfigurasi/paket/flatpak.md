@@ -42,20 +42,18 @@ Pasanglah perangkat lunak yang dibutuhkan. Ketik `y` untuk melanjutkan pemasanga
 | Zotero            | `flatpak install org.zotero.Zoter`                      |
 | Zulip Desktop     | `flatpak install org.zulip.Zulip`                       |
 
-## Menu perangkat lunak tidak tampil
+## Menu tidak tampil
 
-Hal ini disebabkan karena LangitKetujuh menggunakan fish-shell sebagai shell bawaan. Sedangkan Flatpak belum mendukung untuk fish-shell, sehingga `$XDG_DATA_DIR` tidak terdeteksi oleh flatpak.
+Perbarui l7-fish-shell dengan cara:
 
-- Solusi pertama yang kami sarankan yaitu dengan menyalin berkas desktop`<Perangkat lunak>.desktops` dari sini:
+```
+get -Sy l7-fish-shell
+```
 
-  ```
-  /var/lib/flatpak/app/<Perangkat lunak>/current/active/export/share/applications/
-  ```
+Pasang konfigurasi tambahannya.
 
-  Kemudian tempelkan ke `~/.local/share/applications/`. Jika menggunakan file manager, maka harus menekan `ctrl+h` untuk menampilkan direktori `.local` di halaman utama pengguna (Home).
+```
+cp -rfv /etc/skel/.config/fish/ ~/.config/
+```
 
-- Solusi kedua bisa mengganti fish-shell ke bash secara permanen, tetapi cara ini tidak kami sarankan karena [fish-shell](../../konfigurasi/shell/fish.md) memiliki fitur yang lebih baik dengan autokomplitnya.
-
-  ```sh
-  doas chsh -s /usr/bin/bash
-  ```
+Lalu logout atau reboot.
