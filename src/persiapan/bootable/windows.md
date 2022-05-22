@@ -3,9 +3,9 @@
 Ketika membuat bootable USB pastikan data penting di dalam flasdisk sudah dicadangkan ke disk eksternal atau cloud agar aman.
 Pengguna dapat membuat bootable USB dengan salah satu perangkat lunak dibawah ini.
 
-## Ventoy (disarankan)
+## Ventoy
 
-<a href="https://github.com/ventoy/Ventoy/releases" target="_blank">Unduh Ventoy</a>
+<a href="https://github.com/ventoy/Ventoy/releases" target="_blank">Unduh Ventoy</a> (disarankan)
 
 - Unduh Ventoy versi windows, misalnya `ventoy-x.x.x-windows.zip`.
 - Setelah selesai mengunduh, klik kanan pilih `Extract Here`.
