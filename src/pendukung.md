@@ -18,6 +18,7 @@
 - Aditiya.
 - Admaja.
 - Adzka Muhammad Mumtaz.
+- Afif Maulana Malik Ibrahim.
 - Agung Bahtiar.
 - Agus Haryanto Catur Prayitno.
 - Agus Zakariya.
@@ -80,6 +81,7 @@
 - Ermin Dwi Alita.
 - Esya Firman F.
 - Fahmi8902.
+- Fahrul Ibnu Ahmad.
 - Faisal Rosady.
 - Fajar Sidik.
 - Faruq M.
@@ -221,9 +223,9 @@
 - Suyono.
 - Syaikhoni.
 - Syamsur Ramdhan Firdaus.
-- T. Fauzan.
 - Teguh Prihatin.
 - Teguh Ryt12.
+- Teuku Fauzan.
 - Tohir.
 - Tukiyo.
 - Tun Rahmat Reformasi.
