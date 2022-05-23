@@ -1,5 +1,17 @@
 # Pengaturan sistem
 
+## Mengaktifkan tap to click
+
+Jika pengguna menggunakan laptop, kami sarankan untuk mengaktifkan tap-to-click agar dapat meng-tap touchpad. Hal ini diperlukan sebab jika menggunakan Wayland secara bawaan tidak mengaktifkan tap-to-click.
+
+- Buka `System Settings`.
+- Pada bagian `Hardware` pilih `Input Devices`.
+- Pilih `Touchpad`.
+- Pada bagian Tapping, beri ceklis `Tap-to-click`.
+- Klik `Apply`.
+
+![LangitKetujuh Krunner](../../media/image/tap-to-click-langitketujuh-id.webp)
+
 ## Mengosongkan sesi awal
 
 - Buka `System Settings`.
@@ -7,18 +19,28 @@
 - Pada pilihan `when logging in`, pilih `Start with an empty session`.
 - Klik `Apply`.
 
-## Mengganti tema Plasma
+![LangitKetujuh Krunner](../../media/image/empty-session-langitketujuh-id-1.webp)
+
+## Mengganti global tema
 
 - Buka di menu `Global Theme`.
 - Pilih tema `Langitketujuh` atau tema yang diinginkan.
+- Jika panel dan layout berantakan, serta ingin mengembalikan layout seperti semula. Maka berikan ceklis `Use layout desktop from theme`. Ini akan merubah panel, widget, dan wallpaper menjadi pengaturan layout awal.
 - Klik `Apply`.
 
+![LangitKetujuh Krunner](../../media/image/global-theme-langitketujuh-id-1.webp)
+
 ## Mengganti tema GTK
+
+Beberapa perangkat lunak dibangun dengan `GTK+3` seperti inkscape dan GIMP. Tema keduanya tidak dipengaruhi oleh global tema plasma, melainkan melalui pengaturan style gtk. Untuk menggantinya melalui cara dibawah ini, tetapi kami tetap menyarankan untuk tetap menggunakan tema bawaan saja yaitu `Breeze`.
+
 - Buka di menu `Global Theme`.
 - Pilih `Application Style`
 - Klik `Configure GNOME/GTK Application Style`.
 - Pilih GTK Theme `Breeze` atau tema yang diinginkan.
 - Klik `Apply`.
+
+![LangitKetujuh Krunner](../../media/image/gtk-style-langitketujuh-id.webp)
 
 ## Mengganti bahasa
 
@@ -28,6 +50,8 @@
 - Klik bahasa yang dipilih, klik ikon `Promote to default`.
 - Klik `Apply`.
 - Efek pindah bahasa akan tampak setelah logout atau reboot.
+
+![LangitKetujuh Krunner](../../media/image/languages-langitketujuh-id.webp)
 
 ## Menambahkan layout bahasa
 
@@ -39,3 +63,5 @@
 - Jika sudah sesuai, klik `OK` dan `Apply`.
 
 Pengguna akan melihat layout bahasa di bagian panel bawah. Untuk mengganti antar layout, tekan `ctrl+alt+k`.
+
+![LangitKetujuh Krunner](../../media/image/layout-kb-langitketujuh-id.webp)
