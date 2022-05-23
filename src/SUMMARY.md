@@ -85,6 +85,7 @@
 - [Aplikasi](./aplikasi/index.md)
   - [Animasi](./aplikasi/animasi/index.md)
     - [Blender 3D](./aplikasi/animasi/blender.md)
+    - [Goxel](./aplikasi/animasi/goxel.md)
     - [OpenToonz](./aplikasi/animasi/opentoonz.md)
     - [Synfig studio](./aplikasi/animasi/synfig-studio.md)
   - [Arsitektur](./aplikasi/arsitektur/index.md)
