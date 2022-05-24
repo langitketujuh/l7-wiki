@@ -30,18 +30,22 @@ Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
 | Akses ISO terbaru _[^1]_                |   -   | **√**  |
 | Audacity pengolah audio.                |   -   | **√**  |
 | Blender animasi 2D/3D.                  |   -   | **√**  |
+| Cadence JACK Toolbox.                   |   -   | **√**  |
+| Carla plugin audio host.                |   -   | **√**  |
 | Converseen konverter gambar.            |   -   | **√**  |
 | Digikam manajemen foto.                 |   -   | **√**  |
 | Fontforge pembuat font.                 |   -   | **√**  |
 | Freecad 3D parametric.                  |   -   | **√**  |
 | Godot pembuat game.                     |   -   | **√**  |
+| Goxel 3D voxel editor.                  |   -   | **√**  |
 | Google Fonts untuk proyek komersil.     |   -   | **√**  |
 | HandBrake Media transkoder.             |   -   | **√**  |
-| Kalibrasi warna dengan DisplayCAL.      |   -   | **√**  |
 | Kdenlive pengolah video.                |   -   | **√**  |
+| Kid3 audio tagger.                      |   -   | **√**  |
 | Krita digital painting.                 |   -   | **√**  |
 | LibreCAD 2D CAD.                        |   -   | **√**  |
 | LMMS produksi suara efek.               |   -   | **√**  |
+| MKVToolnix editor dan pengolah mkv.     |   -   | **√**  |
 | OBS Perekam desktop dan streaming.      |   -   | **√**  |
 | OpenToonz Animasi Raster 2D.            |   -   | **√**  |
 | Plugin GMIC Qt Gimp dan Krita.          |   -   | **√**  |
