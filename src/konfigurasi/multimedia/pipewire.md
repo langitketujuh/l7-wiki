@@ -4,7 +4,7 @@
 
 PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertujuan untuk menawarkan pengambilan dan pemutaran audio dan video dengan latensi yang minimal dan dukungan untuk aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer. Secara bawaan LangitKetujuh sudah menggunakan pipewire.
 
-Pipewire di langitketujuh sudah menggunakan `wireplumber` sesi media sebagai pengganti `pipewire-media-session` setelah memasang `l7-pipewire` yang terbaru. Baik pipewire dan wireplumber keduanya berjalan diatas pengguna, sehingga tidak akan perdampak ke sistem.
+Pipewire di LangitKetujuh sudah menggunakan `wireplumber` sesi media sebagai pengganti `pipewire-media-session` setelah memasang `l7-pipewire` yang terbaru. Baik pipewire dan wireplumber keduanya berjalan diatas pengguna, sehingga tidak akan perdampak ke sistem.
 
 ## Cara memasang
 
@@ -19,14 +19,14 @@ Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sud
 doas rm -v /var/service/pulseaudio
 ```
 
-Jika sebelumnya mengaktifkan layanan pipewire di sistem (untuk versi langitketujuh sebelumnya), maka kali ini nonaktifkan layanan pipewire di sistem, sebab pipewire akan berjalan di sisi user saja. Tentu hal ini lebih disarankan.
+Jika sebelumnya mengaktifkan layanan pipewire di sistem (untuk versi LangitKetujuh sebelumnya), maka kali ini nonaktifkan layanan pipewire di sistem, sebab pipewire akan berjalan di sisi user saja. Tentu hal ini lebih disarankan.
 
 ```sh
 doas rm -v /var/service/pipewire
 doas rm -v /var/service/pipewire-pulse
 ```
 
-Salin autostart pipewire agar berjalan saat komputer baru dinyalakan.
+Salin autostart pipewire agar berjalan saat komputer dinyalakan.
 
 ```sh
 cp -fv /etc/skel/.config/autostart/PipeWire* ~/.config/autostart/

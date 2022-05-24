@@ -15,7 +15,7 @@ Pengguna dapat membuat bootable USB dengan salah satu perangkat lunak dibawah in
 - Klik `Install`.
 - Jika muncul peringatan, klik `Yes` dua kali.
 - Jika sukses, klik `OK`.
-- Salin (copy) iso langitketujuh yang sudah diunduh, lalu tempel (paste) ke Flasdisk yang berlabel `Ventoy`.
+- Salin (copy) iso LangitKetujuh yang sudah diunduh, lalu tempel (paste) ke Flasdisk yang berlabel `Ventoy`.
 - Selesai.
 
 ## Rufus

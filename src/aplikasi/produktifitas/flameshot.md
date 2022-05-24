@@ -19,7 +19,7 @@ cp -rfv /etc/skel/.config/autostart/Flameshot.desktop ~/.config/autostart/
 ```
 
 Konfigurasi tersebut berisi pengaturan:
-- Warna UI diganti agar senada dengan warna utama langitketujuh OS.
+- Warna UI diganti agar senada dengan warna utama LangitKetujuh OS.
 - Keluaran nama berkas `Screenshot_%Y%m%d_%H%M%S.png` sama seperti nama berkas spectacle.
 - Berjalan otomatis saat awal booting.
 - Menonaktifkan cek update.
