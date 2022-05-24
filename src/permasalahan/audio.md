@@ -1,8 +1,10 @@
 # Audio hilang
 
-## Gunakan pipewire server
+## Memasang ulang pipewire audio server
 
-Saat ini LangitKetujuh OS telah menggunakan Pipewire sebagai server audio, jika sebelumnya menggunakan pulseaudio maka ikuti panduan pemasangan pipewire [di halaman ini](../konfigurasi/multimedia/pipewire.html#memasang-pipewire).
+Saat ini LangitKetujuh OS telah menggunakan Pipewire sebagai audio server. Tetapi jika sudah menggunakan pipewire audio server tetapi audio tetap tidak berbunyi maka pasang-ulang pipewirenya [di halaman ini](../konfigurasi/multimedia/pipewire.html#cara-memasang).
+
+Jika saat ini masih menggunakan pulseaudio, kami sarankan juga untuk segera mengganti ke pipewire. Sebab pipewire lebih rendah latensinya, ini bermanfaat saat live streaming dan recording agar tidak patah-patah saat performa cpu sedang tinggi.
 
 ## Nonaktifkan snd-aloop modul
 
