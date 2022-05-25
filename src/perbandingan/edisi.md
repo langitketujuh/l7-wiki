@@ -51,7 +51,6 @@ Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
 | Plugin GMIC Qt Gimp dan Krita.          |   -   | **√**  |
 | Produksi Audio dengan Ardour.           |   -   | **√**  |
 | Rawtherapee pengolah foto raw.          |   -   | **√**  |
-| Screenkey Screencast monitor.           |   -   | **√**  |
 | Scribus Publisher.                      |   -   | **√**  |
 | Synfigstudio Animasi Vector 2D.         |   -   | **√**  |
 
