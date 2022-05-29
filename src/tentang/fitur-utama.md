@@ -27,9 +27,6 @@ Fitur ini memberikan akselesari API grafik terbaru untuk sistem linux. Vulkan se
 ## PipeWire
 Pemutaran multimedia dengan minimal latensi dan dukungan perangkat lunak yang berbasis PulseAudio, JACK, ALSA dan GStreamer.
 
-## WirePlumber
-Media sesi modular untuk PipeWire dan pustaka tingkat tinggi berbasis GObject yang membungkus API PipeWire.
-
 ## ZRAM
 RAM virtual terkompresi dengan tingkat I/O disk yang rendah dan penambahan ruang memori 25% lebih dari RAM fisik.
 

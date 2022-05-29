@@ -4,13 +4,11 @@
 
 PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertujuan untuk menawarkan pengambilan dan pemutaran audio dan video dengan latensi yang minimal dan dukungan untuk aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer. Secara bawaan LangitKetujuh sudah menggunakan pipewire.
 
-Pipewire di LangitKetujuh sudah menggunakan `wireplumber` sesi media sebagai pengganti `pipewire-media-session` setelah memasang `l7-pipewire` yang terbaru. Baik pipewire dan wireplumber keduanya berjalan diatas pengguna, sehingga tidak akan perdampak ke sistem.
-
 ## Cara memasang
 
 ```sh
 get pipewire alsa-pipewire libjack-pipewire \
-gstreamer1-pipewire l7-pipewire wireplumber
+gstreamer1-pipewire l7-pipewire
 ```
 
 Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sudah tidak aktif. Hal ini agar tidak konflik antara layanan pipewire dengan pulseaudio.
@@ -57,7 +55,7 @@ Menghapus pipewire dan dependensinya.
 
 ```sh
 remove pipewire alsa-pipewire libjack-pipewire \
-gstreamer1-pipewire l7-pipewire wireplumber
+gstreamer1-pipewire l7-pipewire
 ```
 
 Hapus autostart pipewire.

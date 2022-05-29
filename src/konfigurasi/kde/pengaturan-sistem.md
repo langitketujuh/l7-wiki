@@ -2,7 +2,7 @@
 
 ## Mengaktifkan tap to click
 
-Jika pengguna menggunakan laptop, kami sarankan untuk mengaktifkan tap-to-click agar dapat meng-tap touchpad. Hal ini diperlukan sebab jika menggunakan Wayland secara bawaan tidak mengaktifkan tap-to-click.
+Jika pengguna menggunakan laptop, kami sarankan untuk mengaktifkan tap-to-click agar dapat meng-tap touchpad. Hal ini diperlukan sebab jika menggunakan sesi Wayland secara bawaan tidak mengaktifkan tap-to-click.
 
 - Buka `System Settings`.
 - Pada bagian `Hardware` pilih `Input Devices`.
