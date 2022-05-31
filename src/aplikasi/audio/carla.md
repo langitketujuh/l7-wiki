@@ -20,5 +20,14 @@ Banyak plugin yang tersedia, seperti `abGate`, `calf`, `invada-studio-plugins`, 
 
 ![Carla LangitKetujuh OS](../../media/image/carla-langitketujuh-id-4.webp)
 
+## Cara memasang
+
+Carla tersedia di repositori dan dapat dipasang melalui [octoxbps] atau konsole.
+
+```sh
+get Carla l7-carla
+```
+
 [Carla]:https://kx.studio/Applications:Carla
 [Cadence]:cadence.md
+[octoxbps]:../perkakas/octoxbps.md
