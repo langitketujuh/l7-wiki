@@ -60,7 +60,7 @@
     - [Pasang ulang](./konfigurasi/grub/pasang-ulang.md)
   - [KDE Plasma](./konfigurasi/kde/index.md)
     - [Pengaturan sistem](./konfigurasi/kde/pengaturan-sistem.md)
-    - [Krunner](./konfigurasi/kde/krunner.md)
+    - [Plasma pencarian](./konfigurasi/kde/plasma-pencarian.md)
   - [Manajemen layanan](./konfigurasi/layanan/index.md)
     - [Runit init](./konfigurasi/layanan/sv.md)
     #- [Clight](./konfigurasi/layanan/clightd.md)
@@ -94,6 +94,8 @@
   - [Audio editor](./aplikasi/audio/index.md)
     - [Audacity](./aplikasi/audio/audacity.md)
     - [Ardour](./aplikasi/audio/ardour.md)
+    - [Cadence](./aplikasi/audio/cadence.md)
+    - [Carla](./aplikasi/audio/carla.md)
     - [LMMS](./aplikasi/audio/lmms.md)
     - [SoundKonverter](./aplikasi/audio/soundkonverter.md)
   - [Font Editor](./aplikasi/font/index.md)
@@ -153,4 +155,3 @@
 
 ---
 - [Para pendukung](./pendukung.md)
-- [Tim kami](./tim.md)
