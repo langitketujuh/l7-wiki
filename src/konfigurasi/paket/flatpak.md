@@ -2,6 +2,8 @@
 
 ## Konfigurasi flathub
 
+Diharuskan menjalankan perintah ini saat pertama kali menggunakan flatpak atar tidak galat saat melakukan pemasangan aplikasi.
+
 ```sh
 flathub
 ```
@@ -12,48 +14,36 @@ Pasanglah perangkat lunak yang dibutuhkan. Ketik `y` untuk melanjutkan pemasanga
 
 | Perangkat lunak   | Perintah memasang                                       |
 | :---------------- | :------------------------------------------------------ |
-| Discord           | `flatpak install com.discordapp.Discord`                |
-| Draw.io           | `flatpak install com.jgraph.drawio.desktop`             |
-| Enve              | `flatpak install io.github.maurycyliebner.enve`         |
-| Figma for Linux   | `flatpak install io.github.Figma_Linux.figma_linux`     |
-| Gravit Designer   | `flatpak install io.designer.GravitDesigner`            |
-| Jitsi             | `flatpak install org.jitsi.jitsi-meet`                  |
-| LeoCAD            | `flatpak install org.leocad.LeoCAD`                     |
-| LibreSprite       | `flatpak install com.github.libresprite.LibreSprite`    |
-| Mendeley Desktop  | `flatpak install com.elsevier.MendeleyDesktop`          |
-| MeshLab           | `flatpak install net.meshlab.MeshLab`                   |
-| Microsoft Teams   | `flatpak install com.microsoft.Teams`                   |
-| Minecraft         | `flatpak install com.mojang.Minecraft`                  |
-| Natron            | `flatpak install fr.natron.Natron`                      |
-| NextCloud Desktop | `flatpak install com.nextcloud.desktopclient.nextcloud` |
-| Olive Editor      | `flatpak install org.olivevideoeditor.Olive`            |
-| Photophea         | `flatpak install com.github.vikdevelop.photopea_app`    |
-| Qgis Desktop      | `flatpak install org.qgis.qgis`                         |
-| Rocket.Chat       | `flatpak install chat.rocket.RocketChat`                |
-| Signal Desktop    | `flatpak install org.signal.Signal`                     |
-| Slack Desktop     | `flatpak install com.slack.Slack`                       |
-| SparkleShare      | `flatpak install org.sparkleshare.SparkleShare`         |
-| Spotify           | `flatpak install com.spotify.Client`                    |
-| Steam             | `flatpak install com.valvesoftware.Steam`               |
-| VScodium          | `flatpak install com.vscodium.codium`                   |
-| WPS Office        | `flatpak install com.wps.Office`                        |
-| WhatsApps Qt      | `flatpak install io.bit3.WhatsAppQT`                    |
-| Zoom              | `flatpak install us.zoom.Zoom`                          |
-| Zotero            | `flatpak install org.zotero.Zoter`                      |
-| Zulip Desktop     | `flatpak install org.zulip.Zulip`                       |
+| Discord           | `flatpak install discordapp`      |
+| Draw.io           | `flatpak install drawio`          |
+| Enve              | `flatpak install enve`            |
+| Figma for Linux   | `flatpak install figma`           |
+| Gravit Designer   | `flatpak install gravit`          |
+| Jitsi             | `flatpak install jitsi`           |
+| LeoCAD            | `flatpak install leocad`          |
+| LibreSprite       | `flatpak install libresprite`     |
+| Mendeley Desktop  | `flatpak install mendeley`        |
+| MeshLab           | `flatpak install meshlab`         |
+| Microsoft Teams   | `flatpak install teams`           |
+| Minecraft         | `flatpak install minecraft`       |
+| Natron            | `flatpak install natron`          |
+| NextCloud Desktop | `flatpak install nextcloud`       |
+| Olive Editor      | `flatpak install olive`           |
+| Photophea         | `flatpak install photopea`        |
+| Qgis Desktop      | `flatpak install qgis`            |
+| Rocket.Chat       | `flatpak install rocketchat`      |
+| Signal Desktop    | `flatpak install signal`          |
+| Slack Desktop     | `flatpak install slack`           |
+| SparkleShare      | `flatpak install sparkleshare`    |
+| Spotify           | `flatpak install spotify`         |
+| Steam             | `flatpak install steam`           |
+| VScodium          | `flatpak install vscodium`        |
+| WPS Office        | `flatpak install wps`             |
+| WhatsApps Qt      | `flatpak install whatsappqt`      |
+| Zoom              | `flatpak install zoom`            |
+| Zotero            | `flatpak install zotero`          |
+| Zulip Desktop     | `flatpak install zulip`           |
 
 ## Menu tidak tampil
 
-Perbarui l7-fish-shell dengan cara:
-
-```
-get -Sy l7-fish-shell
-```
-
-Pasang konfigurasi tambahannya.
-
-```
-cp -rfv /etc/skel/.config/fish/ ~/.config/
-```
-
-Lalu logout atau reboot.
+Solusinya dengan memasang kembali konfigurasi fish-shell yang terbaru. Panduannya di [halaman ini](../shell/fish.html#memasang-ulang-konfigurasi).

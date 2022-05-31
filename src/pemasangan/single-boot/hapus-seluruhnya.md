@@ -8,7 +8,7 @@ Pemasangan single boot dengan hapus seluruhnya artinya pemasangan dengan satu si
 
 Perangkat lunak pemasang di LangitKetujuh OS tidak menggunakan GUI, tetapi menggunakan Ncurses CLI. Sehingga navigasinya menggunakan arah panah ⬆️ ➡️ ⬇️ ⬅️, `tab` dan `enter` di keyboard.
 
-Buka menu `LangitKetujuh` > `Install to Disk`.
+Buka menu, pilih `Install to Disk`.
 
 ![LangitKetujuh Install](../../media/image/install-menu.webp)
 

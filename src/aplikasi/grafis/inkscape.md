@@ -39,7 +39,7 @@ Beberapa pengaturan inkscape yang ditambahkan di sistem operasi LangitKetujuh ad
 
 - Menggunakan 8 thread.
 - Autosave dengan durasi setiap 2 menit.
-- Profil tampilan menggunakan `sRGB-elle-V2-srgbtrc` dan proofing CMYK menggunakan `Chemical Proof` krita, sehingga kompatibel dengan profil warna yang ada di [Krita].
+- Profil tampilan menggunakan `Artifex Software sRGB ICC Profile` dan proofing CMYK menggunakan `Artifex CMYK SWOP Profile` dari bawaan ghostscript.
 
 ![Inkscape LangitKetujuh OS](../../media/image/inkscape-langitketujuh-id-3.webp)
 

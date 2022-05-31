@@ -65,3 +65,10 @@ Beberapa perangkat lunak dibangun dengan `GTK+3` seperti inkscape dan GIMP. Tema
 Pengguna akan melihat layout bahasa di bagian panel bawah. Untuk mengganti antar layout, tekan `ctrl+alt+k`.
 
 ![LangitKetujuh Krunner](../../media/image/layout-kb-langitketujuh-id.webp)
+
+## Mengganti sesi desktop
+
+- Buka menu, pilih `Restart`.
+- Sebelum login, lihat dibagian pojok kiri bawah terdapat `Desktop session`.
+- Ganti `Plasma Wayland`, menjadi `Plasma (X11)`. Atau sebaliknya.
+- Kemudian login.

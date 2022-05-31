@@ -13,3 +13,17 @@ fish_config
 ![Fish Shell LangitKetujuh OS](../../media/image/fish-shell-langitketujuh-id.webp)
 
 Untuk menghentikan proses, tekan enter di konsolenya.
+
+## Memasang ulang konfigurasi
+
+```
+get -Sy l7-fish-shell
+```
+
+Pasang konfigurasi tambahannya.
+
+```
+cp -rfv /etc/skel/.config/fish/ ~/.config/
+```
+
+Lalu logout atau reboot.

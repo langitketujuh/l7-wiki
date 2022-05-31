@@ -24,30 +24,29 @@ Contoh keluarannya.
 
 ```sh
    SERVICE              STATE   ENABLED   PID      COMMAND           TIME
- ✔ NetworkManager       run     true      837      NetworkManager    36 minutes
- ✔ acpid                run     true      843      acpid             36 minutes
- ✔ adb                  run     true      832      adb               36 minutes
- ✔ agetty-tty1          run     true      777      agetty            36 minutes
- ✔ agetty-tty2          run     true      772      agetty            36 minutes
- ✔ backlight            run     true      854      backlight         36 minutes
- ✔ bluetoothd           run     true      831      bluetoothd        36 minutes
- ✔ bluez-alsa           run     true      848      bluealsa          36 minutes
- ✔ colord               run     true      821      colord            36 minutes
- ✔ cupsd                run     true      817      cupsd             36 minutes
- ✔ dbus                 run     true      811      dbus-daemon       36 minutes
- ✔ earlyoom             run     true      816      earlyoom          36 minutes
- ✔ libvirtd             run     true      856      libvirtd          36 minutes
- ✔ ntpd                 run     true      809      isc-ntpd          36 minutes
- ✔ pipewire-pulse       run     true      803      pipewire-pulse    36 minutes
- ✔ pipewire             run     true      798      pipewire          36 minutes
- ✔ sddm                 run     true      884      sddm              36 minutes
- ✔ udevd                run     true      776      udevd             36 minutes
- ✔ ufw                  run     true      792      ufw               36 minutes
- ✔ usbmuxd              run     true      790      usbmuxd           36 minutes
- ✔ uuidd                run     true      785      uuidd             36 minutes
- ✔ virtlockd            run     true      862      virtlockd         36 minutes
- ✔ virtlogd             run     true      865      virtlogd          36 minutes
- ✔ zramen               run     true      783      pause             36 minutes
+ ✔ NetworkManager       run     true      828      NetworkManager    1 hour
+ ✔ acpid                run     true      823      acpid             1 hour
+ ✔ adb                  run     true      817      adb               1 hour
+ ✔ agetty-tty1          run     true      766      agetty            1 hour
+ ✔ agetty-tty2          run     true      767      agetty            1 hour
+ ✔ agetty-tty3          run     true      773      agetty            1 hour
+ ✔ agetty-tty4          run     true      772      agetty            1 hour
+ ✔ agetty-tty5          run     true      769      agetty            1 hour
+ ✔ agetty-tty6          run     true      764      agetty            1 hour
+ ✔ backlight            run     true      833      backlight         1 hour
+ ✔ bluetoothd           run     true      816      bluetoothd        1 hour
+ ✔ bluez-alsa           run     true      809      bluealsa          1 hour
+ ✔ colord               run     true      805      colord            1 hour
+ ✔ cupsd                run     true      801      cupsd             1 hour
+ ✔ dbus                 run     true      798      dbus-daemon       1 hour
+ ✔ earlyoom             run     true      802      earlyoom          1 hour
+ ✔ ntpd                 run     true      791      isc-ntpd          1 hour
+ ✔ sddm                 run     true      787      sddm              1 hour
+ ✔ udevd                run     true      765      udevd             1 hour
+ ✔ ufw                  run     true      782      ufw               1 hour
+ ✔ usbmuxd              run     true      780      usbmuxd           1 hour
+ ✔ uuidd                run     true      778      uuidd             1 hour
+ ✔ zramen               run     true      776      pause             1 hour
 ```
 
 ## Daftar layanan yang tersedia
@@ -59,22 +58,18 @@ ls /etc/sv/
 Semua layanan tersedia di dalam direktori `/etc/sv/`.
 
 ```sh
-NetworkManager  agetty-ttyUSB0  elogind          pipewire-pulse  virtlxcd
-acpid           alsa            fancontrol       polkitd         virtnetworkd
-adb             backlight       gpsd             rsyncd          virtnodedevd
-agetty-console  bluetoothd      hddtemp          sddm            virtnwfilterd
-agetty-generic  bluez-alsa      ip6tables        slapd           virtproxyd
-agetty-hvc0     bmc-watchdog    ipmidetectd      smartd          virtqemud
-agetty-hvsi0    boltd           ipmiseld         sshd            virtsecretd
-agetty-serial   colord          iptables         sulogin         virtstoraged
-agetty-tty1     cups-browsed    isc-ntpd         tcsd            virtvboxd
-agetty-tty2     cupsd           libvirt-generic  udevd           virtxend
-agetty-tty3     dbus            libvirtd         ufw             wpa_supplicant
-agetty-tty4     dhcpcd          lsyncd           usbmuxd         zramen
-agetty-tty5     dhcpcd-eth0     lvmetad          uuidd
-agetty-tty6     dmeventd        mdadm            virtinterfaced
-agetty-ttyAMA0  dnsmasq         ntpd             virtlockd
-agetty-ttyS0    earlyoom        pipewire         virtlogd
+NetworkManager/  agetty-tty5/     cupsd/        mdadm/           sulogin/
+acpid/           agetty-tty6/     dbus/         mysqld/          tcsd/
+adb/             agetty-ttyAMA0/  dhcpcd/       ntpd@            udevd/
+agetty-console/  agetty-ttyS0/    dhcpcd-eth0/  pipewire/        ufw/
+agetty-generic/  agetty-ttyUSB0/  dmeventd/     pipewire-pulse/  usbmuxd/
+agetty-hvc0/     alsa/            earlyoom/     polkitd/         uuidd/
+agetty-hvsi0/    backlight/       elogind/      privoxy/         wpa_supplicant/
+agetty-serial/   bluetoothd/      gpsd/         rsyncd/          zramen/
+agetty-tty1/     bluez-alsa/      ip6tables/    sddm/
+agetty-tty2/     boltd/           iptables/     slapd/
+agetty-tty3/     colord/          isc-ntpd/     smartd/
+agetty-tty4/     cups-browsed/    lvmetad/      sshd/
 ```
 
 ## Status layanan
@@ -107,5 +102,5 @@ doas rm /var/service/<layanan>
 
 Contoh:
 ```sh
-doas rm /var/service/tlp
+doas rm /var/service/ufw
 ```
