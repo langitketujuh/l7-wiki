@@ -27,7 +27,8 @@ doas rm -v /var/service/pipewire-pulse
 Salin autostart pipewire agar berjalan saat komputer dinyalakan.
 
 ```sh
-cp -fv /etc/skel/.config/autostart/PipeWire* ~/.config/autostart/
+mkdir -pv ~/.config/autostart/
+cp -rfv /etc/skel/.config/autostart/PipeWire* ~/.config/autostart/
 ```
 
 Kemudian logout atau reboot komputernya.
