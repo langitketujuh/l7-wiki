@@ -24,6 +24,12 @@ doas rm -v /var/service/pipewire
 doas rm -v /var/service/pipewire-pulse
 ```
 
+Hapus konfigurasi kustom jika ada, karena akan menggunakan pengaturan bawaan pipewire.
+
+```sh
+doas rm -rv /etc/pipewire/pipewire.conf
+```
+
 Salin autostart pipewire agar berjalan saat komputer dinyalakan.
 
 ```sh
