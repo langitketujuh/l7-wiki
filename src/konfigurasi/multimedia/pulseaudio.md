@@ -7,35 +7,36 @@ PulseAudio menghadirkan lebih banyak peningkatan, berbagai fitur audio dan perba
 
 ## Cara memasang
 
-Secara bawaan LangitKetujuh menggunakan [PipeWire] sebagai audio servernya. Tahapan dibawah ini menjelaskan menghapus PipeWire terlebih dahulu lalu memasang PulseAudio.
+Secara bawaan LangitKetujuh menggunakan [PipeWire] sebagai audio servernya. Tahapan dibawah ini menjelaskan tentang proses penghapusan PipeWire terlebih dahulu lalu memasang PulseAudio.
 
-Pertama, nonaktifkan layanan pipewire jika ada.
+Nonaktifkan layanan audio server di sistem root. Sebab pemasangan ini akan berjalan atas pengguna.
 
 ```sh
+doas rm -v /var/service/pulseaudio
 doas rm -v /var/service/pipewire
 doas rm -v /var/service/pipewire-pulse
 ```
 
-Menghapus pipewire dan dependensinya.
+Menghapus PipeWire dan dependensinya.
 
 ```sh
 remove pipewire alsa-pipewire libjack-pipewire \
 gstreamer1-pipewire l7-pipewire
 ```
 
-Hapus autostart pipewire.
+Hapus autostart PipeWire.
 
 ```sh
 rm -rfv ~/.config/autostart/PipeWire*
 ```
 
-Selanjutnya memasang pulseaudio.
+Selanjutnya memasang PulseAudio.
 
 ```sh
 get pulseaudio alsa-plugins-pulseaudio l7-pulseaudio
 ```
 
-Pasang autostart pulseaudio.
+Pasang autostart PulseAudio.
 
 ```sh
 mkdir -pv ~/.config/autostart/
@@ -44,13 +45,13 @@ cp -rfv /etc/skel/.config/autostart/Pulseaudio* ~/.config/autostart/
 
 Kemudian logout atau reboot komputernya.
 
-Cek status pulseaudio.
+Cek status PulseAudio.
 
 ```sh
 inxi -A
 ```
 
-Jika keluarannya seperti dibawah ini maka pulseaudio berjalan tanpa pipewire.
+Jika keluarannya seperti dibawah ini maka PulseAudio berjalan tanpa PipeWire.
 
 `PulseAudio v: [versi] running: yes`
 

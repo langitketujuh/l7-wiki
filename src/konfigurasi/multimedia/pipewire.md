@@ -2,41 +2,38 @@
 
 ## Deskripsi
 
-PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertujuan untuk menawarkan pengambilan dan pemutaran audio dan video dengan latensi yang minimal dan dukungan untuk aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer. Secara bawaan LangitKetujuh sudah menggunakan pipewire.
+PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertujuan untuk menawarkan pengambilan dan pemutaran audio dan video dengan latensi yang minimal dan dukungan untuk aplikasi berbasis PulseAudio, JACK, ALSA dan GStreamer. Secara bawaan LangitKetujuh sudah menggunakan PipeWire.
 
 ## Cara memasang
+
+Tahapan dibawah ini menjelaskan tentang proses penghapusan PulseAudio terlebih dahulu lalu memasang PipeWire.
+
+```sh
+remove pulseaudio alsa-plugins-pulseaudio l7-pulseaudio
+```
+
+Pasang PipeWire dan dependensi.
 
 ```sh
 get pipewire alsa-pipewire libjack-pipewire \
 gstreamer1-pipewire l7-pipewire
 ```
 
-Jika mengaktifkan layanan pulseaudio maka hapus dahulu, tetapi secara bawaan sudah tidak aktif. Hal ini agar tidak konflik antara layanan pipewire dengan pulseaudio.
+Nonaktifkan layanan audio server di sistem root. Sebab pemasangan ini akan berjalan atas pengguna.
 
 ```sh
 doas rm -v /var/service/pulseaudio
-```
-
-Jika sebelumnya mengaktifkan layanan pipewire di sistem (untuk versi LangitKetujuh sebelumnya), maka kali ini nonaktifkan layanan pipewire di sistem, sebab pipewire akan berjalan di sisi user saja. Tentu hal ini lebih disarankan.
-
-```sh
 doas rm -v /var/service/pipewire
 doas rm -v /var/service/pipewire-pulse
 ```
 
-Hapus konfigurasi kustom jika ada, karena akan menggunakan pengaturan bawaan pipewire.
+Hapus konfigurasi kustom dan autostart PulseAudio jika ada.
 
 ```sh
-doas rm -rv /etc/pipewire/pipewire.conf
+doas rm -rv /etc/pipewire/pipewire.conf ~/.config/autostart/Pulseaudio*
 ```
 
-Hapus autostart PulseAudio jika ada.
-
-```sh
-rm -rfv ~/.config/autostart/Pulseaudio*
-```
-
-Salin autostart pipewire agar berjalan saat komputer dinyalakan.
+Salin autostart PipeWire agar berjalan saat komputer dinyalakan.
 
 ```sh
 mkdir -pv ~/.config/autostart/
@@ -45,12 +42,12 @@ cp -rfv /etc/skel/.config/autostart/PipeWire* ~/.config/autostart/
 
 Kemudian logout atau reboot komputernya.
 
-Cek status pipewire.
+Cek status PipeWire.
 
 ```sh
 inxi -A
 ```
 
-Jika keluarannya seperti dibawah ini maka pipewire sudah berjalan.
+Jika keluarannya seperti dibawah ini maka PipeWire sudah berjalan.
 
 `PipeWire v: [versi] running: yes`
