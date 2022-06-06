@@ -18,7 +18,7 @@ Alamat repositori dapat ditemukan didalam direktori `/usr/share/xbps.d` dan `/et
 
 ## Repo tembahan
 
-Repositori tambahan perlu dipasang jika memerlukan paket yang tidak ada di repo utama. Misalnya, paket wine 32bit yang memerlukan repo multilib sehingga perlu memasang `void-repo-multilib`.
+Repositori tambahan perlu dipasang jika memerlukan paket yang tidak ada di repo utama. Misalnya, memasang driver nvidia memerlukan `void-repo-nonfree` dan wine-32bit memerlukan `void-repo-multilib`.
 
 | Nama repositori       | Cara memasang                     |
 | :-------------------- | :-------------------------------- |
@@ -26,6 +26,12 @@ Repositori tambahan perlu dipasang jika memerlukan paket yang tidak ada di repo 
 | Void Multilib         | `get void-repo-multilib`          |
 | Void Multilib Nonfree | `get void-repo-multilib-nonfree`  |
 | Void Debug            | `get void-repo-debug`             |
+
+Lalu perbarui repodata.
+
+```sh
+update
+```
 
 ## Cek alamat repositori
 
