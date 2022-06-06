@@ -21,10 +21,22 @@ Cara memasang Nvidia, periksa dahulu tipe Nvidia.
 inxi -G
 ```
 
+Pasang repositori [nonfree]. Sebab nvidia merupakan perangkat lunak proprietary (tidak terbuka).
+
+```sh
+get void-repo-nonfree
+```
+
+Lalu perbarui repodata.
+
+```sh
+update
+```
+
 Pasang dengan menyesuaikan nomer versi driver kartu grafis.
 
-| **Perintah**                  | **Versi**   |
-| :---------------------------- | :---------------- |
+| **Perintah**    | **Versi**         |
+| :-------------- | :---------------- |
 | `get nvidia`    | 800 keatas        |
 | `get nvidia470` | 600 atau 700      |
 | `get nvidia390` | 400 atau 500      |
@@ -53,3 +65,5 @@ Masukkan ke dalam berkas:
 /usr/lib/modprobe.d/nvidia.conf
 /usr/lib/modprobe.d/nvidia-dkms.conf
 ```
+
+[nonfree]:../../server.html#repo-tembahan
