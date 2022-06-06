@@ -76,6 +76,7 @@
     - [AppImage](./konfigurasi/paket/appimage.md)
   - [Multimedia](./konfigurasi/multimedia/index.md)
     - [PipeWire](./konfigurasi/multimedia/pipewire.md)
+    - [PulseAudio](./konfigurasi/multimedia/pulseaudio.md)
   - [Pembaruan sistem](./konfigurasi/pembaruan.md)
   - [Server repositori](./konfigurasi/server.md)
   - [Shell](./konfigurasi/shell/index.md)
