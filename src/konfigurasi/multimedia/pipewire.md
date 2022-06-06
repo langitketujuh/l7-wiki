@@ -30,6 +30,12 @@ Hapus konfigurasi kustom jika ada, karena akan menggunakan pengaturan bawaan pip
 doas rm -rv /etc/pipewire/pipewire.conf
 ```
 
+Hapus autostart PulseAudio jika ada.
+
+```sh
+rm -rfv ~/.config/autostart/Pulseaudio*
+```
+
 Salin autostart pipewire agar berjalan saat komputer dinyalakan.
 
 ```sh

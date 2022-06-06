@@ -39,7 +39,7 @@ Pasang autostart pulseaudio.
 
 ```sh
 mkdir -pv ~/.config/autostart/
-cp -rfv /etc/skel/.config/autostart/Pulseaudio.desktop ~/.config/autostart/
+cp -rfv /etc/skel/.config/autostart/Pulseaudio* ~/.config/autostart/
 ```
 
 Kemudian logout atau reboot komputernya.
