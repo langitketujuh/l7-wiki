@@ -10,7 +10,7 @@ Jika pengguna menggunakan laptop, kami sarankan untuk mengaktifkan tap-to-click 
 - Pada bagian Tapping, beri ceklis `Tap-to-click`.
 - Klik `Apply`.
 
-![LangitKetujuh Krunner](../../media/image/tap-to-click-langitketujuh-id.webp)
+![Tap to click LangitKetujuh](../../media/image/tap-to-click-langitketujuh-id.webp)
 
 ## Mengosongkan sesi awal
 
@@ -19,7 +19,7 @@ Jika pengguna menggunakan laptop, kami sarankan untuk mengaktifkan tap-to-click 
 - Pada pilihan `when logging in`, pilih `Start with an empty session`.
 - Klik `Apply`.
 
-![LangitKetujuh Krunner](../../media/image/empty-session-langitketujuh-id-1.webp)
+![Session LangitKetujuh](../../media/image/empty-session-langitketujuh-id-1.webp)
 
 ## Mengganti global tema
 
@@ -28,7 +28,7 @@ Jika pengguna menggunakan laptop, kami sarankan untuk mengaktifkan tap-to-click 
 - Jika panel dan layout berantakan, serta ingin mengembalikan layout seperti semula. Maka berikan ceklis `Use layout desktop from theme`. Ini akan merubah panel, widget, dan wallpaper menjadi pengaturan layout awal.
 - Klik `Apply`.
 
-![LangitKetujuh Krunner](../../media/image/global-theme-langitketujuh-id-1.webp)
+![Global theme plasma LangitKetujuh](../../media/image/global-theme-langitketujuh-id-1.webp)
 
 ## Mengganti tema GTK
 
@@ -40,7 +40,7 @@ Beberapa perangkat lunak dibangun dengan `GTK+3` seperti inkscape dan GIMP. Tema
 - Pilih GTK Theme `Breeze` atau tema yang diinginkan.
 - Klik `Apply`.
 
-![LangitKetujuh Krunner](../../media/image/gtk-style-langitketujuh-id.webp)
+![Global theme gtk LangitKetujuh](../../media/image/gtk-style-langitketujuh-id.webp)
 
 ## Mengganti bahasa
 
@@ -51,7 +51,7 @@ Beberapa perangkat lunak dibangun dengan `GTK+3` seperti inkscape dan GIMP. Tema
 - Klik `Apply`.
 - Efek pindah bahasa akan tampak setelah logout atau reboot.
 
-![LangitKetujuh Krunner](../../media/image/languages-langitketujuh-id.webp)
+![Change language Krunner](../../media/image/languages-langitketujuh-id.webp)
 
 ## Menambahkan layout bahasa
 
@@ -64,11 +64,4 @@ Beberapa perangkat lunak dibangun dengan `GTK+3` seperti inkscape dan GIMP. Tema
 
 Pengguna akan melihat layout bahasa di bagian panel bawah. Untuk mengganti antar layout, tekan `ctrl+alt+k`.
 
-![LangitKetujuh Krunner](../../media/image/layout-kb-langitketujuh-id.webp)
-
-## Mengganti sesi desktop
-
-- Buka menu, pilih `Restart`.
-- Sebelum login, lihat dibagian pojok kiri bawah terdapat `Desktop session`.
-- Ganti `Plasma Wayland`, menjadi `Plasma (X11)`. Atau sebaliknya.
-- Kemudian login.
+![Keyboard Layout LangitKetujuh](../../media/image/layout-kb-langitketujuh-id.webp)

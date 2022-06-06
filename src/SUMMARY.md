@@ -62,6 +62,7 @@
   - [KDE Plasma](./konfigurasi/kde/index.md)
     - [Pengaturan sistem](./konfigurasi/kde/pengaturan-sistem.md)
     - [Plasma pencarian](./konfigurasi/kde/plasma-pencarian.md)
+    - [Sesi desktop](./konfigurasi/kde/sesi-desktop.md)
   - [Manajemen layanan](./konfigurasi/layanan/index.md)
     - [Runit init](./konfigurasi/layanan/sv.md)
     #- [Clight](./konfigurasi/layanan/clightd.md)
