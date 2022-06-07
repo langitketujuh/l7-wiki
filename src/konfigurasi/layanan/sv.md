@@ -24,29 +24,26 @@ Contoh keluarannya.
 
 ```sh
    SERVICE              STATE   ENABLED   PID      COMMAND           TIME
- ✔ NetworkManager       run     true      828      NetworkManager    1 hour
- ✔ acpid                run     true      823      acpid             1 hour
- ✔ adb                  run     true      817      adb               1 hour
- ✔ agetty-tty1          run     true      766      agetty            1 hour
- ✔ agetty-tty2          run     true      767      agetty            1 hour
- ✔ agetty-tty3          run     true      773      agetty            1 hour
- ✔ agetty-tty4          run     true      772      agetty            1 hour
- ✔ agetty-tty5          run     true      769      agetty            1 hour
- ✔ agetty-tty6          run     true      764      agetty            1 hour
- ✔ backlight            run     true      833      backlight         1 hour
- ✔ bluetoothd           run     true      816      bluetoothd        1 hour
- ✔ bluez-alsa           run     true      809      bluealsa          1 hour
- ✔ colord               run     true      805      colord            1 hour
- ✔ cupsd                run     true      801      cupsd             1 hour
- ✔ dbus                 run     true      798      dbus-daemon       1 hour
- ✔ earlyoom             run     true      802      earlyoom          1 hour
- ✔ ntpd                 run     true      791      isc-ntpd          1 hour
- ✔ sddm                 run     true      787      sddm              1 hour
- ✔ udevd                run     true      765      udevd             1 hour
- ✔ ufw                  run     true      782      ufw               1 hour
- ✔ usbmuxd              run     true      780      usbmuxd           1 hour
- ✔ uuidd                run     true      778      uuidd             1 hour
- ✔ zramen               run     true      776      pause             1 hour
+ ✔ NetworkManager       run     true      817      NetworkManager    50 minutes
+ ✔ agetty-tty1          run     true      770      agetty            50 minutes
+ ✔ agetty-tty2          run     true      3010     agetty            24 minutes
+ ✔ agetty-tty3          run     true      767      agetty            50 minutes
+ ✔ agetty-tty4          run     true      772      agetty            50 minutes
+ ✔ agetty-tty5          run     true      775      agetty            50 minutes
+ ✔ agetty-tty6          run     true      776      agetty            50 minutes
+ ✔ backlight            run     true      827      backlight         50 minutes
+ ✔ bluetoothd           run     true      816      bluetoothd        50 minutes
+ ✔ bluez-alsa           run     true      809      bluealsa          50 minutes
+ ✔ cupsd                run     true      803      cupsd             50 minutes
+ ✔ dbus                 run     true      801      dbus-daemon       50 minutes
+ ✔ earlyoom             run     true      806      earlyoom          50 minutes
+ ✔ ntpd                 run     true      794      isc-ntpd          50 minutes
+ ✔ sddm                 run     true      788      sddm              50 minutes
+ ✔ udevd                run     true      769      udevd             50 minutes
+ ✔ ufw                  run     true      786      ufw               50 minutes
+ ✔ usbmuxd              run     true      783      usbmuxd           50 minutes
+ ✔ uuidd                run     true      781      uuidd             50 minutes
+ ✔ zramen               run     true      779      pause             50 minutes
 ```
 
 ## Daftar layanan yang tersedia
