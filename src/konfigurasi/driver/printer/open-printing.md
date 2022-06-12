@@ -6,9 +6,7 @@ Secara bawaan openprinting foomatic sudah terpasang secara otomatis kecuali `db-
 get foomatic-db-nonfree
 ```
 
-## Pengaturan Sistem Printer
-
-Setelah driver terpasang, langkah selanjutnya konfigurasi printer di pengaturan sistem.
+Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 
 * Tancapkan kabel printer ke port USB.
 * Buka menu `Printers`.

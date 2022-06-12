@@ -24,7 +24,7 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 * Isikan Nama dan deskripsi, atau biarkan saja sesuai bawaannya. Kemudian klik `Finish`.
 
 <details>
-  <summary><i>Lihat daftar dukungan printer HP</i></summary>
+  <summary><i>Lihat daftar dukungan driver printer HP</i></summary>
 
     - HP-Fax-hpcups
     - HP-Fax-hpijs

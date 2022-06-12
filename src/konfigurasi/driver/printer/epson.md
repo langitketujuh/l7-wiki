@@ -14,7 +14,7 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 * Isikan Nama dan deskripsi, atau biarkan saja sesuai bawaannya. Kemudian klik `Finish`.
 
 <details>
-  <summary><i>Lihat daftar dukungan printer Epson</i></summary>
+  <summary><i>Lihat daftar dukungan driver printer Epson</i></summary>
 
     - Epson-Artisan_1430
     - Epson-Artisan_630

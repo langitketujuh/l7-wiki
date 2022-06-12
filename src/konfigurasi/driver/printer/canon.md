@@ -18,7 +18,7 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 * Isikan Nama dan deskripsi, atau biarkan saja sesuai bawaannya. Kemudian klik `Finish`.
 
 <details>
-  <summary><i>Lihat daftar dukungan printer Canon</i></summary>
+  <summary><i>Lihat daftar dukungan driver printer Canon</i></summary>
 
     - canone200
     - canone300
