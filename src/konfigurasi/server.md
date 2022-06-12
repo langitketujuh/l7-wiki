@@ -16,7 +16,7 @@ Jika menggunakan arsitektur `x86_64-musl` akan menggunakan repositori:
 
 Alamat repositori dapat ditemukan didalam direktori `/usr/share/xbps.d` dan `/etc/xbps.d`, pengguna dapat menggantinya sesuai kebutuhan. Daftar mirror repositori dapat merujuk ke [repositori voidlinux](https://docs.voidlinux.org/xbps/repositories/mirrors/index.html).
 
-## Repo tembahan
+## Repo tambahan
 
 Repositori tambahan perlu dipasang jika memerlukan paket yang tidak ada di repo utama. Misalnya, memasang driver nvidia memerlukan `void-repo-nonfree` dan wine-32bit memerlukan `void-repo-multilib`.
 
