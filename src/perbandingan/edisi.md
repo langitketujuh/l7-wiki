@@ -8,7 +8,7 @@ Pada dasarnya Edisi Lite digunakan untuk rumahan dan tidak difokuskan ke bidang 
 
 Edisi Studio ditujukan untuk kebutuhan profesional dan lanjutan. Terdapat perangkat lunak desain grafis yang lengkap. Seperti kebutuhan ilustrasi, animasi 2D/3D, video & audio editing, pembuat fonta, pembuat game dan desain layout dan bidang kreatif lainnya.
 
-Yuk dukung terus projek LangitKetujuh OS dengan menggunakan edisi studio dan [membantu kami melalui donasi](https://langitketujuh.id/donasi) agar projek ini selalu bermanfaat dan berkembang.
+Yuk dukung terus projek LangitKetujuh OS dengan menggunakan edisi studio dan [membantu kami melalui donasi](https://langitketujuh.id/kontribusi) agar projek ini selalu bermanfaat dan berkembang.
 
 Mayoritas di indonesia penggunaan atas perangkat lunak ilegal masih cukup tinggi. Jika pengguna menggunakan perangkat lunak terbuka seperti LangitKetujuh OS berarti pengguna ikut serta dalam meningkatkan penggunaan perangkat lunak yang aman dan legal.
 
