@@ -83,6 +83,7 @@
 - Fahmi8902.
 - Fahrul Ibnu Ahmad.
 - Faisal Rosady.
+- Fajar Dwi Saputro.
 - Fajar Sidik.
 - Faruq M.
 - Fernanda Rizky Sanjaya.
@@ -134,6 +135,7 @@
 - Khairul Arief Rahman.
 - Khairullah.
 - Kresna Kusuma Negara.
+- Kustiono.
 - Linuxscoop.
 - M. Iqbal Bustam.
 - M. Naufal Pikri.
@@ -246,3 +248,4 @@
 - Zainal.
 - Zakki Mubarak.
 - Zulkarnain Alfan.
+
