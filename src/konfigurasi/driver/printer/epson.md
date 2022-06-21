@@ -592,5 +592,3 @@ Driver Epson Scanner dipasang dengan cara:
 ```sh
 get imagescan iscan-data
 ```
-
-[void nonfree]:../../server.html#repo-tambahan

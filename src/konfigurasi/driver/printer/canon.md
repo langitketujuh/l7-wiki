@@ -1,11 +1,15 @@
 # Canon Printer
 
-Driver Printer Canon hanya bisa dipasang untuk edisi glibc saja (i686 dan x86_64) karena proprietary. Serta membutuhkan repo tambahan [void nonfree].
+Driver Printer Canon hanya bisa dipasang untuk edisi glibc saja (i686 dan x86_64) karena proprietary. Serta membutuhkan repo tambahan [nonfree].
+
+```sh
+get void-repo-nonfree
+```
 
 Meskipun tersedia driver untuk linux, tidak semua tipe printer berhasil untuk mencetak. Canon hanya merilis driver linux beberapa tipe tertentu saja, tidak semua jenis tipe.
 
 ```sh
-get cnijfilter2
+get -S cnijfilter2
 ```
 
 Langkah selanjutnya konfigurasi printer di pengaturan sistem.
@@ -90,4 +94,4 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 
 </details>
 
-[void nonfree]:../../server.html#repo-tambahan
+[nonfree]:../../server.html#repo-tambahan

@@ -1292,5 +1292,3 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
     - hp-tango
 
 </details>
-
-[void nonfree]:../../server.html#repo-tambahan
