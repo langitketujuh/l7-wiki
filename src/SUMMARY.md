@@ -99,6 +99,7 @@
   - [Arsitektur](./aplikasi/arsitektur/index.md)
     - [FreeCAD](./aplikasi/arsitektur/freecad.md)
     - [LibreCAD](./aplikasi/arsitektur/librecad.md)
+    - [OpensCAD](./aplikasi/arsitektur/openscad.md)
   - [Audio editor](./aplikasi/audio/index.md)
     - [Audacity](./aplikasi/audio/audacity.md)
     - [Ardour](./aplikasi/audio/ardour.md)
