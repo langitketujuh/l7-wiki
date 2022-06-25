@@ -8,7 +8,7 @@ Pemasangan dual boot dengan windows adalah menjadikan LangitKetujuh akan menjadi
 
 Gunakan KDE Partition, GParted, GNOME Disk, `cfdisk` atau alat pemartisi lainnya. Lalu resize ruang partisi yang ada untuk digunakan partisi sistem LangitKetujuh.
 
-| Ruang diska | Minimal | Disarankan |
+| Edisi       | Minimal | Disarankan |
 | :---------- | :------ | :--------- |
 | **Lite**    | 10 GiB  | 25 Gib     |
 | **Studio**  | 20 GiB  | 40 Gib     |
@@ -35,8 +35,8 @@ lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL
   ├─sda1 part ntfs       50M System Reserved
   ├─sda2 part ntfs      498M
   ├─sda3 part ntfs      297G windows
-  ├─sda4 part ext4       40G
-  └─sda5 part ext4      160G
+  ├─sda4 part f2fs       40G
+  └─sda5 part f2fs      160G
   ```
 
 Sebagai contoh, terdapat partisi baru yaitu `sda4` dengan ukuran `40G` yang nantinya akan dijadikan partisi `/` untuk LangitKetujuh. Sedangkan partisi `/home` menggunakan `sda5` dengan partisi baru jika memungkinkan.
@@ -170,18 +170,22 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
 - **Legacy (dos/mbr)**
 
-  |  Nama Disk  | Bootable | Jumlah |  Tipe   | Kondisi partisi |
-  | :---------: | :------: | :----: | :-----: | :-------------: |
-  | `/dev/sda4` |    *     |  `40`  | `linux` |      Baru       |
-  | `/dev/sda5` |          | `160G` | `linux` |      Baru       |
+  Jika menggunakan legacy, pastikan partisi boot sudah mengaktifkan tanda bintang `*` sebagai tanda bootable. Khusus untuk legacy saja.
+
+  |   Partisi   | Bootable | Jumlah |  Tipe              | Kondisi partisi |
+  | :---------: | :------: | :----: | :----------------: | :-------------: |
+  | `/dev/sda4` |    *     | `512M` | `BIOS boot`        |      Baru       |
+  | `/dev/sda5` |          | `40G`  | `Linux filesystem` |      Baru       |
 
 - **UEFI (gpt)**
 
-  |  Nama Disk  | Jumlah |  Tipe   | Kondisi partisi |
-  | :---------: | :----: | :-----: | :-------------: |
-  | `/dev/sda2` | `512M` |  `Efi`  |      Lama       |
-  | `/dev/sda4` |  `40`  | `linux` |      Baru       |
-  | `/dev/sda5` | `160G` | `linux` |      Baru       |
+  Jika menggunakan UEFI, maka langsung saja membuat partisinya seperti contoh berikut ini.
+
+  |   Partisi   | Jumlah |  Tipe              | Kondisi partisi |
+  | :---------: | :----: | :----------------: | :-------------: |
+  | `/dev/sda2` | `512M` | `EFI Boot`         |      Lama       |
+  | `/dev/sda4` | `40G`  | `Linux filesystem` |      Baru       |
+  | `/dev/sda5` | `160G` | `Linux filesystem` |      Baru       |
 
   * Baru = Partisinya diformat
   * Lama = Partisinya tidak diformat
@@ -197,7 +201,7 @@ Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk ke
 
 > 🔔 **Tips**
 >
-> Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS`, `Btrfs` atau `Ext4`.
+> Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`/`Btrfs` sedangkan HDD menggunakan `XFS`/`Ext4`.
 
 Filesystem akan menentukan setiap partisi untuk digunakan dalam mountpoint hirarki sistem operasi. Umumnya terdiri dari 3 mountpoint, yaitu:
 
@@ -217,18 +221,22 @@ Sedangkan untuk pemilihan mountpoint akan terlihat seperti berikut ini.
 
 - **Legacy (dos/mbr)**
 
-  |  Nama Disk  | Tipe Partisi | Mount Point | New Filesystems (Format) |
-  | :---------: | :----------: | :---------: | :----------------------: |
-  | `/dev/sda4` |    `Xfs`     |     `/`     |          `yes`           |
-  | `/dev/sda5` |    `Ext4`    |   `/home`   |          `yes`           |
+  Jika menggunakan legacy maka menggunakan `/boot`.
+
+  |   Partisi   | Tipe Partisi | Mount Point | New Filesystems |
+  | :---------: | :----------: | :---------: | :-------------: |
+  | `/dev/sda4` |    `F2fs`    |     `/`     |      `yes`      |
+  | `/dev/sda5` |    `F2fs`    |   `/home`   |      `yes`      |
 
 - **UEFI (gpt)**
 
-  |  Nama Disk  | Tipe Partisi | Mount Point | New Filesystems (Format) |
-  | :---------: | :----------: | :---------: | :----------------------: |
-  | `/dev/sda2` |    `Vfat`    | `/boot/efi` |           `no`           |
-  | `/dev/sda4` |    `Xfs`     |     `/`     |          `yes`           |
-  | `/dev/sda5` |    `Ext4`    |   `/home`   |          `yes`           |
+  Jika menggunakan UEFI maka menggunakan `/boot/efi`.
+
+  |   Partisi   | Tipe Partisi | Mount Point | New Filesystems |
+  | :---------: | :----------: | :---------: | :-------------: |
+  | `/dev/sda2` |    `Vfat`    | `/boot/efi` |    **`no`**     |
+  | `/dev/sda4` |    `F2fs`    |     `/`     |      `yes`      |
+  | `/dev/sda5` |    `F2fs`    |   `/home`   |      `yes`      |
 
 Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunakan SSD di mode UEFI.
 

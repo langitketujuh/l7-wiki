@@ -135,21 +135,21 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
   Jika menggunakan legacy, pastikan partisi boot sudah mengaktifkan tanda bintang `*` sebagai tanda bootable. Khusus untuk legacy saja.
 
-  |  Nama Disk  | Bootable | Jumlah |  Tipe   | Kondisi partisi |
-  | :---------: | :------: | :----: | :-----: | :-------------: |
-  | `/dev/sda1` |    *     | `512M` | `linux` |      Baru       |
-  | `/dev/sda2` |          | `40G`  | `linux` |      Baru       |
-  | `/dev/sda3` |          |  `~`   | `linux` |      Baru       |
+  |   Partisi   | Bootable | Jumlah |  Tipe              | Kondisi partisi |
+  | :---------: | :------: | :----: | :----------------: | :-------------: |
+  | `/dev/sda1` |    *     | `512M` | `BIOS boot`        |      Baru       |
+  | `/dev/sda2` |          | `40G`  | `Linux filesystem` |      Baru       |
+  | `/dev/sda3` |          |  `~`   | `Linux filesystem` |      Baru       |
 
 - **UEFI (gpt)**
 
   Jika menggunakan UEFI, maka langsung saja membuat partisinya seperti contoh berikut ini.
 
-  |  Nama Disk  | Jumlah |  Tipe   | Kondisi partisi |
-  | :---------: | :----: | :-----: | :-------------: |
-  | `/dev/sda1` | `512M` | `linux` |      Baru       |
-  | `/dev/sda2` | `40G`  | `linux` |      Baru       |
-  | `/dev/sda3` |  `~`   | `linux` |      Baru       |
+  |   Partisi   | Jumlah |  Tipe              | Kondisi partisi |
+  | :---------: | :----: | :----------------: | :-------------: |
+  | `/dev/sda1` | `512M` | `EFI Boot`         |      Baru       |
+  | `/dev/sda2` | `40G`  | `Linux filesystem` |      Baru       |
+  | `/dev/sda3` |  `~`   | `Linux filesystem` |      Baru       |
 
   - Baru = Partisinya diformat
   - Lama = Partisinya tidak diformat
@@ -166,7 +166,7 @@ Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk ke
 
 > 🔔 **Tips**
 >
-> Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS`, `Btrfs` atau `Ext4`.
+> Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`/`Btrfs` sedangkan HDD menggunakan `XFS`/`Ext4`.
 
 Filesystem akan menentukan setiap partisi untuk digunakan dalam mountpoint hirarki sistem operasi. Umumnya terdiri dari 3 mountpoint, yaitu:
 
@@ -180,21 +180,21 @@ Berikut ini adalah contoh skema filesystem yang kami sarankan.
 
   Jika menggunakan legacy maka menggunakan `/boot`.
 
-  |  Nama Disk  | Tipe Partisi | Mount Point | New Filesystems (Format) |
-  | :---------: | :----------: | :---------: | :----------------------: |
-  | `/dev/sda1` |    `Vfat`    |   `/boot`   |          `yes`           |
-  | `/dev/sda2` |    `F2fs`    |     `/`     |          `yes`           |
-  | `/dev/sda3` |    `Ext4`    |   `/home`   |          `yes`           |
+  |   Partisi   | Tipe Partisi | Mount Point | New Filesystems |
+  | :---------: | :----------: | :---------: | :-------------: |
+  | `/dev/sda1` |    `Vfat`    |   `/boot`   |      `yes`      |
+  | `/dev/sda2` |    `F2fs`    |     `/`     |      `yes`      |
+  | `/dev/sda3` |    `Ext4`    |   `/home`   |      `yes`      |
 
 - **UEFI (gpt)**
 
   Jika menggunakan UEFI maka menggunakan `/boot/efi`.
 
-  |  Nama Disk  | Tipe Partisi | Mount Point | New Filesystems (Format) |
-  | :---------: | :----------: | :---------: | :----------------------: |
-  | `/dev/sda1` |    `Vfat`    | `/boot/efi` |          `yes`           |
-  | `/dev/sda2` |    `F2fs`    |     `/`     |          `yes`           |
-  | `/dev/sda3` |    `Ext4`    |   `/home`   |          `yes`           |
+  |   Partisi   | Tipe Partisi | Mount Point | New Filesystems |
+  | :---------: | :----------: | :---------: | :-------------: |
+  | `/dev/sda1` |    `Vfat`    | `/boot/efi` |      `yes`      |
+  | `/dev/sda2` |    `F2fs`    |     `/`     |      `yes`      |
+  | `/dev/sda3` |    `Ext4`    |   `/home`   |      `yes`      |
 
 Pada cuplikan gambar dibawah ini merupakan contoh skema partisi dengan menggunakan SSD di mode UEFI.
 

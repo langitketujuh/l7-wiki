@@ -12,26 +12,23 @@ Pemartisian sebaiknya menggunakan `cfdisk`. Sebagai contoh, disk yang akan dipas
 doas cfdisk /dev/sda
 ```
 
-Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perintah `new` dan `delete`. Kemudian atur partisi yang akan digunakan sesuai kebutuhan. Agar optimal penggunaan partisinya untuk instalasi satu sistem operasi sebaiknya menggunakan 3 jenis partisi, yaitu antara lain:
-
-> 🔔 **Tips**
->
-> Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`, sedangkan HDD menggunakan `XFS`, `Btrfs` atau `Ext4`.
+Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perintah `new` dan `delete`. Kemudian atur partisi yang akan digunakan sesuai kebutuhan.
 
 - **Legacy (dos/mbr)**
 
-  | **Tipe Partisi** | **Jumlah** | **Mount Point** |
-  | :--------------: | :--------: | :-------------: |
-  |      `Vfat`      |   `512M`   |     `/boot`     |
-  |      `F2fs`      |   `40G`    |       `/`       |
-  |      `F2fs`      |    `~`     |     `/home`     |
+  | **Partisi**           | **Ukuran** | **Tipe**                   |
+  | :-------------------: | :--------: | :------------------------: |
+  |      `/dev/sda1`      |   `512M`   |     `BIOS boot`            |
+  |      `/dev/sda2`      |   `40G`    |     `Linux filesystem`     |
+  |      `/dev/sda3`      |    `~`     |     `Linux filesystem`     |
 
 - **UEFI (gpt)**
 
-  | **Tipe Partisi** | **Jumlah** | **Mount Point** |
-  | :--------------: | :--------: | :-------------: |
-  |      `Vfat`      |   `512M`   |   `/boot/efi`   |
-  |      `F2fs`      |   `40G`    |       `/`       |
-  |      `F2fs`      |    `~`     |     `/home`     |
+  | **Partisi**           | **Ukuran** | **Tipe**                   |
+  | :-------------------: | :--------: | :------------------------: |
+  |      `/dev/sda1`      |   `512M`   |     `EFI System`           |
+  |      `/dev/sda2`      |   `40G`    |     `Linux filesystem`     |
+  |      `/dev/sda3`      |    `~`     |     `Linux filesystem`     |
+
 
 Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.
