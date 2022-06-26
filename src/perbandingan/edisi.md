@@ -25,7 +25,6 @@ Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
 | Inkscape pengolah vektor.                | **√** | **√**  |
 | KDE-Connect sinkron perangkat.           | **√** | **√**  |
 | Libreoffice perangkat lunak perkantoran. | **√** | **√**  |
-| PipeWire Audio Server.                   | **√** | **√**  |
 | V4l2loopback Virtual kamera.             | **√** | **√**  |
 | Akses ISO terbaru.                       |   -   | **√**  |
 | Audacity pengolah audio.                 |   -   | **√**  |
@@ -40,6 +39,8 @@ Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
 | Goxel 3D voxel editor.                   |   -   | **√**  |
 | Google Fonts untuk proyek komersil.      |   -   | **√**  |
 | HandBrake Media transkoder.              |   -   | **√**  |
+| Hugin panorama editor.                   |   -   | **√**  |
+| DisplayCAL kalibrasi warna.              |   -   | **√**  |
 | Kdenlive pengolah video.                 |   -   | **√**  |
 | Kid3 audio tagger.                       |   -   | **√**  |
 | Krita digital painting.                  |   -   | **√**  |
@@ -48,8 +49,9 @@ Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
 | MKVToolnix editor dan pengolah mkv.      |   -   | **√**  |
 | OBS Perekam desktop dan streaming.       |   -   | **√**  |
 | OpenToonz Animasi Raster 2D.             |   -   | **√**  |
-| Plugin GMIC Qt Gimp dan Krita.           |   -   | **√**  |
+| GMIC-qt Plugin Gimp dan Krita.           |   -   | **√**  |
 | Produksi Audio dengan Ardour.            |   -   | **√**  |
 | Rawtherapee pengolah foto raw.           |   -   | **√**  |
-| Scribus Publisher.                       |   -   | **√**  |
+| Screenkey Screencast monitor.            |   -   | **√**  |
+| Scribus desain tata letak.               |   -   | **√**  |
 | Synfigstudio Animasi Vector 2D.          |   -   | **√**  |
