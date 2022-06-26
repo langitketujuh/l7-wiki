@@ -6,9 +6,7 @@
 
 ## Wayland
 
-[Wayland] sebagai sesi desktop utama di LangitKetujuh, namun masih menyediakan sesi X11. Kelebihan dari wayland, sesi desktop lebih modern, performa lebih cepat dan lebih aman dalam memberikan akses perizinan portal desktop.
-
-Dikarenakan wayland masih baru diterapkan di distribusi linux, beberapa perangkat lunak masih belum kompatibel dengan wayland. Seperti perekam desktop SSR, screen share dengan zoom, dan display konfigurasi tablet. Solusi untuk mengatasi kurangnya fitur wayland kami sarankan untuk kembali menggunakan X11.
+[Wayland] merupakan sesi desktop lebih modern dari X11, performa lebih cepat dan lebih aman dalam memberikan akses perizinan portal desktop. Dikarenakan wayland masih baru diterapkan di distribusi linux, beberapa perangkat lunak masih belum kompatibel dengan wayland. Seperti perekam desktop SSR, screen share dengan zoom, dan display konfigurasi tablet. Solusi untuk mengatasi kurangnya fitur wayland kami sarankan untuk kembali menggunakan X11.
 
 ## Mengganti sesi desktop
 

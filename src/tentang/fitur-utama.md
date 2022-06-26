@@ -3,9 +3,6 @@
 ## KDE Plasma
 Lingkungan destop yang ringan, mudah, dan handal. Didukung dengan KDE perangkat lunak seperti Krita, Kdenlive dan KDE Connect. KDE Plasma sangat mudah disarankan untuk pemula.
 
-## Wayland
-Protokol komunikasi yang lebih sederhana, modern dan aman. Menjadi sesi utama dan pengganti X11 display server.
-
 ## XBPS
 Paket manajer yang ringan dan cepat. Serta dukungan perangkat lunak yang stabil dan terbarukan (rilis bergulir).
 
