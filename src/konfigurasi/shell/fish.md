@@ -17,7 +17,7 @@ Untuk menghentikan proses, tekan enter di konsolenya.
 ## Memasang ulang konfigurasi
 
 ```
-get -Sy l7-fish-shell
+get -y l7-fish-shell
 ```
 
 Pasang konfigurasi tambahannya.

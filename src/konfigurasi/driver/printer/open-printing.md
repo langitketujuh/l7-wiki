@@ -9,7 +9,7 @@ get void-repo-nonfree
 ```
 
 ```sh
-get -S foomatic-db-nonfree
+get foomatic-db-nonfree
 ```
 
 Langkah selanjutnya konfigurasi printer di pengaturan sistem.

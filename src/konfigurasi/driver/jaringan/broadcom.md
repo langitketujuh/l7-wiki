@@ -19,7 +19,7 @@ get void-repo-nonfree
 Pasang driver broadcom dkms.
 
 ```sh
-get -S broadcom-wl-dkms
+get broadcom-wl-dkms
 ```
 
 Kemudian reboot.

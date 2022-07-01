@@ -9,7 +9,7 @@ get void-repo-nonfree
 Meskipun tersedia driver untuk linux, tidak semua tipe printer berhasil untuk mencetak. Canon hanya merilis driver linux beberapa tipe tertentu saja, tidak semua jenis tipe.
 
 ```sh
-get -S cnijfilter2
+get cnijfilter2
 ```
 
 Langkah selanjutnya konfigurasi printer di pengaturan sistem.
