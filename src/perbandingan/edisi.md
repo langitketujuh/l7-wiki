@@ -1,8 +1,8 @@
 # Edisi
 
-## Lite
+## Home
 
-Pada dasarnya Edisi Lite digunakan untuk rumahan dan tidak difokuskan ke bidang desain grafis, sehingga perangkat lunaknya tidak banyak yang diikutsertakan. Edisi Lite dapat di unduh secara gratis di halaman [unduh OS](https://langitketujuh.id/os/unduh).
+Pada dasarnya Edisi Home digunakan untuk rumahan dan tidak difokuskan ke bidang desain grafis, sehingga perangkat lunaknya tidak banyak yang diikutsertakan. Edisi Home dapat di unduh secara gratis di halaman [unduh OS](https://langitketujuh.id/os/unduh).
 
 ## Studio
 
@@ -14,9 +14,9 @@ Mayoritas di indonesia penggunaan atas perangkat lunak ilegal masih cukup tinggi
 
 ## Perbandingan
 
-Berikut ini daftar perbandingan fitur setiap edisi Lite dan Studio.
+Berikut ini daftar perbandingan fitur setiap edisi Home dan Studio.
 
-| Fitur                                    | Lite  | Studio |
+| Fitur                                    | Home  | Studio |
 | :--------------------------------------- | :---: | :----: |
 | Dukungan pemasangan oleh tenaga ahli.    |   -   | **√**  |
 | Deteksi Printer HP dan Epson.            | **√** | **√**  |

@@ -40,7 +40,7 @@ Tersedia LibreOffice sebagai alat produktifitas yang komplit dan handal untuk ke
 Secara bawaan tampilan tema menggunakan versi gelap agar membuat nyaman dan menyehatkan mata untuk aktifitas yang lama.
 
 ## Perlengkapan desain (Studio)
-Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara lite dan studio? Pengguna dapat mengunjungi [tautan ini](../perbandingan/edisi.md).
+Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara home dan studio? Pengguna dapat mengunjungi [tautan ini](../perbandingan/edisi.md).
 
 ## Dukungan instalasi (Studio)
 Pengguna akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [layanan via Telegram](https://t.me/langitketujuh_bot) atau [surel](mailto:langitketujuh.id@pm.me).

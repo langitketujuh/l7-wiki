@@ -1,8 +1,8 @@
 # Spesifikasi minimal
 
-## Edisi Lite
+## Edisi Home
 
-Spesifikasi minimal untuk edisi lite tidak terlalu tinggi, sebab kebutuhannya yang umum dan tidak selalu digunakan untuk multimedia.
+Spesifikasi minimal untuk edisi home tidak terlalu tinggi, sebab kebutuhannya yang umum dan tidak selalu digunakan untuk multimedia.
 
 | Perangkat keras         | Minimal           | Disarankan                     |
 | :---------------------- | :---------------- | :----------------------------- |

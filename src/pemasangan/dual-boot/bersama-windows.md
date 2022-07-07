@@ -10,7 +10,7 @@ Gunakan KDE Partition, GParted, GNOME Disk, `cfdisk` atau alat pemartisi lainnya
 
 | Edisi       | Minimal | Disarankan |
 | :---------- | :------ | :--------- |
-| **Lite**    | 10 GiB  | 25 Gib     |
+| **Home**    | 10 GiB  | 25 Gib     |
 | **Studio**  | 20 GiB  | 40 Gib     |
 
 ```sh
