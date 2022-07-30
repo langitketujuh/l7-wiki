@@ -8,10 +8,10 @@ Pemasangan dual boot dengan windows adalah menjadikan LangitKetujuh akan menjadi
 
 Gunakan KDE Partition, GParted, GNOME Disk, `cfdisk` atau alat pemartisi lainnya. Lalu resize ruang partisi yang ada untuk digunakan partisi sistem LangitKetujuh.
 
-| Edisi       | Minimal | Disarankan |
-| :---------- | :------ | :--------- |
-| **Home**    | 10 GiB  | 25 Gib     |
-| **Studio**  | 20 GiB  | 40 Gib     |
+| Edisi      | Minimal | Disarankan |
+| :--------- | :------ | :--------- |
+| **Home**   | 10 GiB  | 25 Gib     |
+| **Studio** | 20 GiB  | 40 Gib     |
 
 ```sh
 lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL
@@ -172,18 +172,18 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
   Jika menggunakan legacy, pastikan partisi boot sudah mengaktifkan tanda bintang `*` sebagai tanda bootable. Khusus untuk legacy saja.
 
-  |   Partisi   | Bootable | Jumlah |  Tipe              | Kondisi partisi |
+  |   Partisi   | Bootable | Jumlah |        Tipe        | Kondisi partisi |
   | :---------: | :------: | :----: | :----------------: | :-------------: |
-  | `/dev/sda4` |    *     | `512M` | `BIOS boot`        |      Baru       |
+  | `/dev/sda4` |    *     | `512M` |    `BIOS boot`     |      Baru       |
   | `/dev/sda5` |          | `40G`  | `Linux filesystem` |      Baru       |
 
 - **UEFI (gpt)**
 
   Jika menggunakan UEFI, maka langsung saja membuat partisinya seperti contoh berikut ini.
 
-  |   Partisi   | Jumlah |  Tipe              | Kondisi partisi |
+  |   Partisi   | Jumlah |        Tipe        | Kondisi partisi |
   | :---------: | :----: | :----------------: | :-------------: |
-  | `/dev/sda2` | `512M` | `EFI Boot`         |      Lama       |
+  | `/dev/sda2` | `512M` |     `EFI Boot`     |      Lama       |
   | `/dev/sda4` | `40G`  | `Linux filesystem` |      Baru       |
   | `/dev/sda5` | `160G` | `Linux filesystem` |      Baru       |
 

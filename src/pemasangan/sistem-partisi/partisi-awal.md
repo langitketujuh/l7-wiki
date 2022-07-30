@@ -16,19 +16,19 @@ Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perinta
 
 - **Legacy (dos/mbr)**
 
-  | **Partisi**           | **Ukuran** | **Tipe**                   |
-  | :-------------------: | :--------: | :------------------------: |
-  |      `/dev/sda1`      |   `512M`   |     `BIOS boot`            |
-  |      `/dev/sda2`      |   `40G`    |     `Linux filesystem`     |
-  |      `/dev/sda3`      |    `~`     |     `Linux filesystem`     |
+  | **Partisi** | **Ukuran** |      **Tipe**      |
+  | :---------: | :--------: | :----------------: |
+  | `/dev/sda1` |   `512M`   |    `BIOS boot`     |
+  | `/dev/sda2` |   `40G`    | `Linux filesystem` |
+  | `/dev/sda3` |    `~`     | `Linux filesystem` |
 
 - **UEFI (gpt)**
 
-  | **Partisi**           | **Ukuran** | **Tipe**                   |
-  | :-------------------: | :--------: | :------------------------: |
-  |      `/dev/sda1`      |   `512M`   |     `EFI System`           |
-  |      `/dev/sda2`      |   `40G`    |     `Linux filesystem`     |
-  |      `/dev/sda3`      |    `~`     |     `Linux filesystem`     |
+  | **Partisi** | **Ukuran** |      **Tipe**      |
+  | :---------: | :--------: | :----------------: |
+  | `/dev/sda1` |   `512M`   |    `EFI System`    |
+  | `/dev/sda2` |   `40G`    | `Linux filesystem` |
+  | `/dev/sda3` |    `~`     | `Linux filesystem` |
 
 
 Jumlah gigabyte dari `/dev/sda3` bisa ditulis dari sisa kapasitas hardisk yang ada atau disesuaikan dengan kebutuhan saja. Jika sudah yakin, pilih `write` lalu masukkan `yes`. Kemudian pilih `quit` untuk keluar.

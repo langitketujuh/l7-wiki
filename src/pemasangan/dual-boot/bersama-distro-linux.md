@@ -12,10 +12,10 @@ Jika tidak mempunyai partisi `/home` maka pengguna membuat dua partisi baru, yai
 
 Gunakan KDE Partition, GParted, GNOME Disk, `cfdisk` atau alat pemartisi lainnya. Lalu resize ruang partisi yang ada untuk digunakan partisi sistem LangitKetujuh.
 
-| Edisi       | Minimal | Disarankan |
-| :---------- | :------ | :--------- |
-| **Home**    | 10 GiB  | 25 Gib     |
-| **Studio**  | 20 GiB  | 40 Gib     |
+| Edisi      | Minimal | Disarankan |
+| :--------- | :------ | :--------- |
+| **Home**   | 10 GiB  | 25 Gib     |
+| **Studio** | 20 GiB  | 40 Gib     |
 
 Berikut ini adalah contoh skema partisi di dalam disk yang sudah memiliki partisi **/boot**, **/**, dan **/home**. Sehingga perlu partisi **/** baru.
 
@@ -181,9 +181,9 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
   Jika menggunakan legacy, pastikan partisi boot sudah mengaktifkan tanda bintang `*` sebagai tanda bootable. Khusus untuk legacy saja.
 
-  |   Partisi   | Bootable | Jumlah |  Tipe              | Kondisi partisi |
+  |   Partisi   | Bootable | Jumlah |        Tipe        | Kondisi partisi |
   | :---------: | :------: | :----: | :----------------: | :-------------: |
-  | `/dev/sda1` |    *     | `512M` | `BIOS boot`        |      Lama       |
+  | `/dev/sda1` |    *     | `512M` |    `BIOS boot`     |      Lama       |
   | `/dev/sda3` |          | `40G`  | `Linux filesystem` |      Lama       |
   | `/dev/sda4` |          |  `~`   | `Linux filesystem` |      Baru       |
 
@@ -191,9 +191,9 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
   Jika menggunakan UEFI, maka langsung saja membuat partisinya seperti contoh berikut ini.
 
-  |   Partisi   | Jumlah |  Tipe              | Kondisi partisi |
+  |   Partisi   | Jumlah |        Tipe        | Kondisi partisi |
   | :---------: | :----: | :----------------: | :-------------: |
-  | `/dev/sda1` | `512M` | `EFI Boot`         |      Lama       |
+  | `/dev/sda1` | `512M` |     `EFI Boot`     |      Lama       |
   | `/dev/sda3` | `40G`  | `Linux filesystem` |      Lama       |
   | `/dev/sda4` |  `~`   | `Linux filesystem` |      Baru       |
 

@@ -135,9 +135,9 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
   Jika menggunakan legacy, pastikan partisi boot sudah mengaktifkan tanda bintang `*` sebagai tanda bootable. Khusus untuk legacy saja.
 
-  |   Partisi   | Bootable | Jumlah |  Tipe              | Kondisi partisi |
+  |   Partisi   | Bootable | Jumlah |        Tipe        | Kondisi partisi |
   | :---------: | :------: | :----: | :----------------: | :-------------: |
-  | `/dev/sda1` |    *     | `512M` | `BIOS boot`        |      Baru       |
+  | `/dev/sda1` |    *     | `512M` |    `BIOS boot`     |      Baru       |
   | `/dev/sda2` |          | `40G`  | `Linux filesystem` |      Baru       |
   | `/dev/sda3` |          |  `~`   | `Linux filesystem` |      Lama       |
 
@@ -145,9 +145,9 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
   Jika menggunakan UEFI, maka langsung saja membuat partisinya seperti contoh berikut ini.
 
-  |   Partisi   | Jumlah |  Tipe              | Kondisi partisi |
+  |   Partisi   | Jumlah |        Tipe        | Kondisi partisi |
   | :---------: | :----: | :----------------: | :-------------: |
-  | `/dev/sda1` | `512M` | `EFI Boot`         |      Baru       |
+  | `/dev/sda1` | `512M` |     `EFI Boot`     |      Baru       |
   | `/dev/sda2` | `40G`  | `Linux filesystem` |      Baru       |
   | `/dev/sda3` |  `~`   | `Linux filesystem` |      Lama       |
 
