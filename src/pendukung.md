@@ -13,6 +13,7 @@
 - Acep Rahmat.
 - Adam Rizky Pratama.
 - Ade Deri.
+- Adi Jatnika.
 - Adi.
 - Adie Halifa Muhara.
 - Adillah Ambre.
@@ -60,6 +61,7 @@
 - Bony Prabowo.
 - Budi Irawan.
 - Budi Suzaldi.
+- Buyung.
 - Cecep Wahidin.
 - Chairuddinsyah Harahap.
 - Dadan Mulyana.
@@ -140,6 +142,7 @@
 - Khairullah.
 - Kresna Kusuma Negara.
 - Kustiono.
+- Latif Sobri Alhamidi.
 - Linuxscoop.
 - M. Iqbal Bustam.
 - M. Naufal Pikri.
@@ -207,6 +210,7 @@
 - Risnandar H. Sahido.
 - Risqon Anjahiranda Adiputra.
 - Rizal Krisnawan.
+- Rizki Dwi Putranto.
 - Rizki Febrianto.
 - Rizki0404.
 - Rizky Arsyansyah Rinjani.
