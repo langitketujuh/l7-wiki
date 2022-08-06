@@ -210,9 +210,9 @@
 - Risnandar H. Sahido.
 - Risqon Anjahiranda Adiputra.
 - Rizal Krisnawan.
+- Rizki Aprianto.
 - Rizki Dwi Putranto.
 - Rizki Febrianto.
-- Rizki0404.
 - Rizky Arsyansyah Rinjani.
 - Robby Hermawan.
 - Rohmana.
