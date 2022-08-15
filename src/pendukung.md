@@ -6,6 +6,7 @@
 - **Adi Setiawan**.
 - **Hendra Abu Zaid (Abu Zaid Tutorial)**.
 - **Endi Suwandi (Bisa Website)**.
+- Aan Triono.
 - Abdul Jalil.
 - Abinya Sufyan.
 - Abu Aqeelah.
@@ -142,6 +143,7 @@
 - Khairullah.
 - Kresna Kusuma Negara.
 - Kustiono.
+- Latif Ahmad Fatih.
 - Latif Sobri Alhamidi.
 - Linuxscoop.
 - M. Iqbal Bustam.
