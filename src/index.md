@@ -10,7 +10,7 @@ Kami telah mengoptimasi pemilihan sistem yang lebih baik dan menyesuaikan perang
 
 Sebagai pengembang dan kontributor, kami mengucapkan selamat kepada pengguna yang telah memilih dan menggunakan sistem operasi LangitKetujuh sebagai salah satu solusi dari aspek kebutuhan para pengguna perangkat lunak terbuka.
 
-* Telegram: [langitketujuhid](https://t.me/langitketujuhid)
+* Telegram: [langitketujuh_id](https://t.me/langitketujuh_id)
 * Instagram: [@langitketujuh.id](https://instagram.com/langitketujuh.id)
 * Facebook: [langitketujuh.id](https://fb.com/langitketujuh.id)
 

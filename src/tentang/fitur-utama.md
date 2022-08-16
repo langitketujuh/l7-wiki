@@ -43,4 +43,4 @@ Secara bawaan tampilan tema menggunakan versi gelap agar membuat nyaman dan meny
 Perangkat lunak untuk ilustrasi, animasi, digital painting, fotografi, game kreator dan bidang kreatif lainnya. Google fonts sudah masuk di dalamnya. Apa berbedaan antara home dan studio? Pengguna dapat mengunjungi [tautan ini](../perbandingan/edisi.md).
 
 ## Dukungan instalasi (Studio)
-Pengguna akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [layanan via Telegram](https://t.me/langitketujuh_bot) atau [surel](mailto:langitketujuh.id@pm.me).
+Pengguna akan dibantu untuk memasang OS hingga selesai oleh tenaga ahli. Hubungi kami melalui [layanan via Telegram](https://t.me/langitketujuh_cs) atau [surel](mailto:langitketujuh.id@proton.me).
