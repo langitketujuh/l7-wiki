@@ -201,6 +201,7 @@
 - Rahmad Arifin.
 - Rakha Ash Shadiq.
 - Rama Dwi Putro.
+- Redinetyas Prakasa.
 - Reska Anita Putri.
 - Rian Firmandes.
 - Ricki Julianto.
