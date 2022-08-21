@@ -1,9 +1,11 @@
 # Open Printing
 
-Dengan adanya [Open Printing], beberapa jenis printer dapat dipasang tanpa memerlukan driver dari vendor resmi. LangitKetujuh OS sudah memasang `cups-filters` dan `foomatic-db`. Open printing hanya mendukung jenis tipe printer yang modern.
+## Printer
+
+Dengan adanya [Open Printing], beberapa jenis printer dapat dipasang tanpa memerlukan driver dari vendor resmi. LangitKetujuh OS sudah memasang `cups-filters` dan driver `foomatic-db` sebagai database printer. Open printing hanya mendukung jenis tipe printer yang modern.
 
 <details>
-  <summary><i>Lihat daftar dukungan driver printer Open Printing</i></summary>
+  <summary><i>Lihat daftar driver Open Printing</i></summary>
 
     - Brother/BR2600CN_GPL
     - Brother/BR2700_2_GPL
@@ -12467,6 +12469,8 @@ Atau dapat dicek di tautan berikut ini:
 - [Open Printing]
 - [PWG Printer]
 
+## Printer nonfree
+
 Sedangkan untuk jenis printer legacy keluaran lama memerlukan `foomatic-db-nonfree`.
 
 ```sh
@@ -12474,7 +12478,7 @@ get void-repo-nonfree
 get foomatic-db-nonfree
 ```
 <details>
-  <summary><i>Lihat daftar dukungan driver printer Open Printing nonfree</i></summary>
+  <summary><i>Lihat daftar driver Open Printing nonfree</i></summary>
 
     - Dell/dl3100cn
     - Genicom/GN28PPM

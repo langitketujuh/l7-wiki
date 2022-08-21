@@ -1,4 +1,6 @@
-# HP Printer
+# HP
+
+## Printer
 
 Driver printer HP versi cli sudah terpasang secara otomatis, namun jika ingin memasang versi GUI maka ketik perintah berikut ini:
 
@@ -24,7 +26,7 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 * Isikan Nama dan deskripsi, atau biarkan saja sesuai bawaannya. Kemudian klik `Finish`.
 
 <details>
-  <summary><i>Lihat daftar dukungan driver printer HP</i></summary>
+  <summary><i>Lihat daftar driver HP</i></summary>
 
     - HP-Fax-hpcups
     - HP-Fax-hpijs
@@ -1292,3 +1294,7 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
     - hp-tango
 
 </details>
+
+Jika tipe printer tidak tersedia, kemungkinan tersedia dengan driver [Open Printing].
+
+[Open Printing]:open-printing.md

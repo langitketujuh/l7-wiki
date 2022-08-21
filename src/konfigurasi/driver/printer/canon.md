@@ -1,4 +1,6 @@
-# Canon Printer
+# Canon
+
+## Printer
 
 Driver Printer Canon hanya bisa dipasang untuk edisi glibc saja (i686 dan x86_64) karena proprietary. Serta membutuhkan repo tambahan [nonfree].
 
@@ -22,7 +24,7 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 * Isikan Nama dan deskripsi, atau biarkan saja sesuai bawaannya. Kemudian klik `Finish`.
 
 <details>
-  <summary><i>Lihat daftar dukungan driver printer Canon</i></summary>
+  <summary><i>Lihat daftar driver Canon</i></summary>
 
     - canone200
     - canone300
@@ -94,4 +96,7 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 
 </details>
 
+Jika tipe printer tidak tersedia, kemungkinan tersedia dengan driver [Open Printing].
+
+[Open Printing]:open-printing.md
 [nonfree]:../../server.html#repo-tambahan
