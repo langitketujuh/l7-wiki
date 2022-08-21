@@ -2,14 +2,16 @@
 
 Lokasi server tier 1 yang digunakan saat ini yaitu [repo-default.voidlinux.org](https://repo-default.voidlinux.org). Alasan menggunakan server ini agar sistem lebih terbaru dalam pembaruan versi dependensi. Sama halnya dengan voidlinux yang menggunakan server [repo-default.voidlinux.org](https://repo-default.voidlinux.org).
 
-Secara bawaan LangitKetujuh OS memasang `l7-repo` dengan total 2 server:
+Daftar repositori LangitKetujuh OS untuk `i686` dan `x86_64`:
 
 - <https://repo-default.voidlinux.org/current>
+- <https://repo-default.voidlinux.org/current/nonfree>
 - <https://al.quds.repo.langitketujuh.id/current>
 
-Jika menggunakan arsitektur `x86_64-musl` akan menggunakan repositori:
+Jika menggunakan arsitektur `x86_64-musl`:
 
 - <https://repo-default.voidlinux.org/current/musl>
+- <https://repo-default.voidlinux.org/current/musl/nonfree>
 - <https://al.quds.repo.langitketujuh.id/current/musl>
 
 ## Pengaturan
@@ -39,10 +41,13 @@ Cara mengecek daftar repo dapat dilakukan dengan `repo`. Keluaran yang dihasilka
 
 ```sh
 ➜  ~ repo
-12847 https://repo-default.voidlinux.org/current/musl (RSA signed)
+13048 https://repo-default.voidlinux.org/current (RSA signed)
       Signed-by: Void Linux
       4096 60:ae:0c:d6:f0:95:17:80:bc:93:46:7a:89:af:a3:2d
-   76 https://al.quds.repo.langitketujuh.id/current/musl (RSA signed)
+   52 https://repo-default.voidlinux.org/current/nonfree (RSA signed)
+      Signed-by: Void Linux
+      4096 60:ae:0c:d6:f0:95:17:80:bc:93:46:7a:89:af:a3:2d
+   86 https://al.quds.repo.langitketujuh.id/current (RSA signed)
       Signed-by: LangitKetujuh Linux
       4096 10:33:f2:1f:6f:9d:f8:0a:66:63:48:2b:de:83:50:b1
 ```
