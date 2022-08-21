@@ -12467,7 +12467,7 @@ Atau dapat dicek di tautan berikut ini:
 - [Open Printing]
 - [PWG Printer]
 
-Sedangkan beberapa printer legacy keluaran lama memerlukan `foomatic-db-nonfree` agar dapat dipasang.
+Sedangkan untuk jenis printer legacy keluaran lama memerlukan `foomatic-db-nonfree`.
 
 ```sh
 get void-repo-nonfree
