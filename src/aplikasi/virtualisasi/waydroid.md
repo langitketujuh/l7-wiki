@@ -32,7 +32,7 @@ Jalankan waydroid init untuk pertama kalinya. Pilih salah satu, vanilla atau gap
   Versi android ini tidak memiliki aplikasi google.
 
   ```sh
-  waydroid init
+  doas waydroid init
   ```
 
 - GAPPS
@@ -40,7 +40,7 @@ Jalankan waydroid init untuk pertama kalinya. Pilih salah satu, vanilla atau gap
   Jika ingin memasang waydroid dengan google apps, maka jalankan perintah berikut ini.
 
   ```sh
-  waydroid init -s GAPPS -f
+  doas waydroid init -s GAPPS -f
   ```
 
 ## Layanan kontainer waydroid
@@ -112,13 +112,13 @@ Kemudian ikuti panduan dibawah ini.
 ## Memasang _apk_ secara offline
 
 ```sh
-waydroid app install <aplikasi>.apk
+doas waydroid app install <aplikasi>.apk
 ```
 
 Sebagai contoh:
 
 ```sh
-waydroid app install Downloads/krita.apk
+doas waydroid app install Downloads/krita.apk
 ```
 
 [Waydroid]: https://waydro.id
