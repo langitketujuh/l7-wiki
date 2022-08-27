@@ -146,6 +146,7 @@
     - [Web Apps](./aplikasi/produktifitas/webapp-manager.md)
   - [Virtualisasi](./aplikasi/virtualisasi/index.md)
     - [Virt Manager](./aplikasi/virtualisasi/virt-manager.md)
+    - [Waydroid](./aplikasi/virtualisasi/waydroid.md)
   - [Video editor](./aplikasi/video/index.md)
     - [HandBrake](./aplikasi/video/handbrake.md)
     - [Kdenlive](./aplikasi/video/kdenlive.md)
