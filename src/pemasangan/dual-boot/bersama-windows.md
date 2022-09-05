@@ -183,7 +183,7 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
   |   Partisi   | Jumlah |        Tipe        | Kondisi partisi |
   | :---------: | :----: | :----------------: | :-------------: |
-  | `/dev/sda2` | `512M` |     `EFI Boot`     |      Lama       |
+  | `/dev/sda2` | `512M` |    `EFI System`    |      Lama       |
   | `/dev/sda4` | `40G`  | `Linux filesystem` |      Baru       |
   | `/dev/sda5` | `160G` | `Linux filesystem` |      Baru       |
 
