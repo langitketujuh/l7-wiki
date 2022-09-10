@@ -1,5 +1,7 @@
 # Kontact
 
+## Deskripsi
+
 [Kontact] merupakan perangkat lunak bebas untuk manajemen personal informasi (PIM) yang terintegrasi dengan perangkat lunak KDE lainnya. Seperti KMail, KAddressBook, KOrganizer, dan Agregrator. Tujuannya untuk memudahkan pengelolaan surel dan informasi kontak dalam satu jendela saja.
 
 ![KontactLangitKetujuh OS](../../media/image/kontact-langitketujuh-id-1.webp)
