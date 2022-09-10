@@ -13,7 +13,7 @@
 ## Cara memasang
 
 ```sh
-get {,l7-}ardour
+get ardour l7-ardour
 ```
 
 ## Dokumentasi

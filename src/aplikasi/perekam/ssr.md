@@ -24,7 +24,7 @@ Output:
 ## Cara memasang
 
 ```sh
-get {,l7-}ssr
+get obs l7-ssr
 ```
 
 [SSR]:https://www.maartenbaert.be/simplescreenrecorder/

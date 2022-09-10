@@ -9,7 +9,12 @@
 ## Cara memasang
 
 ```sh
-get {,l7-}blender
+get blender l7-blender
+```
+
+Gunakan pengaturan tambahan.
+
+```sh
 cp -rfv /etc/skel/.config/blender ~/.config/
 ```
 

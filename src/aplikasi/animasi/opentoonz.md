@@ -11,7 +11,7 @@ Meskipun berbasis raster, OpenToonz juga kompatibel dengan animasi vektor. Kode 
 ## Cara memasang
 
 ```sh
-get {,l7-}opentoonz
+get opentoonz l7-opentoonz
 ```
 
 ## Pengaturan tambahan

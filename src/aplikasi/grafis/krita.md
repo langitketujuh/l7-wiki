@@ -11,7 +11,12 @@
 ## Cara memasang
 
 ```sh
-get {,l7-}krita
+get krita l7-krita
+```
+
+Gunakan pengaturan tambahan.
+
+```sh
 cp -rfv /etc/skel/.config/kritarc ~/.config/
 ```
 

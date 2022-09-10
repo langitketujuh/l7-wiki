@@ -1,18 +1,20 @@
 # KeePassXC
 
+## Deskripsi
+
 [KeePassXC] merupakan perangkat lunak yang digunakan untuk menyimpan data dan kata sandi pengguna ketika menjelajahi dengan web browser. Benefitnya yaitu pengguna dapat menyimpan data sensitifnya sendiri tanpa disimpan di web browser. Dan basis data tersebut tentunya telah terenkripsi.
 
 ![KeePassXC LangitKetujuh OS](../../media/image/keepassxc-langitketujuh-id-1.webp)
 
 ## Cara memasang
 
-```
-get {,l7-}keepassxc
+```sh
+get keepassxc l7-keepassxc
 ```
 
-Gunakan konfigurasi tambahan.
+Gunakan pengaturan tambahan.
 
-```
+```sh
 cp -rfv /etc/skel/.config/keepassxc/ ~/.config/
 cp -ffv /etc/skel/.config/autostart/org.keepassxc.KeePassXC.desktop ~/.config/autostart/
 ```

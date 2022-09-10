@@ -9,7 +9,12 @@
 ## Cara memasang
 
 ```sh
-get {,l7-}kget
+get kget l7-kget
+```
+
+Gunakan pengaturan tambahan.
+
+```sh
 cp -fv /etc/skel/.config/kgetrc ~/.config/
 cp -fv /etc/skel/.config/autostart/org.kde.kget.desktop ~/.config/autostart/
 ```

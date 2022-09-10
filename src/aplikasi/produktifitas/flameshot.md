@@ -1,18 +1,20 @@
 # Flameshot
 
+## Deskripsi
+
 [Flameshot] merupakan perangkat lunak untuk mengambil gambar layar monitor dengan menambahkan fitur editing yang sederhana tetapi sangat efektif. Seperti menambahkan persegi, lingkaran, arah panah, garis, efek pixelate dan blur, upload ke penyedia gambar dan lain-lain.
 
 ![Flameshot LangitKetujuh OS](../../media/image/flameshot-langitketujuh-id-1.webp)
 
 ## Cara memasang
 
-```
-get {,l7-}flameshot
+```sh
+get flameshot l7-flameshot
 ```
 
-Gunakan konfigurasi tambahan.
+Gunakan pengaturan tambahan.
 
-```
+```sh
 mkdir -pv ~/.config/autostart/
 cp -rfv /etc/skel/.config/flameshot/ ~/.config/
 cp -rfv /etc/skel/.config/autostart/Flameshot.desktop ~/.config/autostart/

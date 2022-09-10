@@ -17,7 +17,12 @@ Voxel adalah singkatan dari "Volumetrix Pixel" yaitu setara dengan 3D dari pikse
 ## Cara memasang
 
 ```sh
-get {,l7-}goxel
+get goxel l7-goxel
+```
+
+Gunakan pengaturan tambahan.
+
+```sh
 cp -rfv /etc/skel/.config/goxel ~/.config/
 ```
 

@@ -9,7 +9,12 @@
 ## Cara memasang
 
 ```sh
-get {,l7-}inkscape
+get inkscape l7-inkscape
+```
+
+Gunakan pengaturan tambahan.
+
+```sh
 cp -rfv /etc/skel/.config/inkscape/ ~/.config/
 ```
 

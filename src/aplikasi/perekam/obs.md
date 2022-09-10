@@ -13,7 +13,12 @@ LangitKetujuh juga mengikutsertakan v4l2loopback untuk secara bawaan agar penggu
 ## Cara memasang
 
 ```sh
-get {,l7-}obs
+get obs l7-obs
+```
+
+Gunakan pengaturan tambahan.
+
+```sh
 cp -rfv /etc/skel/.config/obs-studio/ ~/.config/
 ```
 

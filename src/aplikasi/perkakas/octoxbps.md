@@ -11,7 +11,12 @@ Di LangitKetujuh sendiri dengan paket `l7-octoxbps` sudah menonaktifkan pencaria
 ## Cara memasang
 
 ```sh
-get {,l7-}octoxbps
+get octoxbps l7-octoxbps
+```
+
+Gunakan pengaturan tambahan.
+
+```sh
 cp -rfv /etc/skel/.config/octoxbps/ ~/.config/
 ```
 

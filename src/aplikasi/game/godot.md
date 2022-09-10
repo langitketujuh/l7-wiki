@@ -20,7 +20,12 @@ func _ready():
 ## Cara memasang
 
 ```sh
-get {,l7-}godot
+get godot l7-godot
+```
+
+Gunakan pengaturan tambahan.
+
+```sh
 cp -rfv /etc/skel/.config/godot/ ~/.config/
 ```
 

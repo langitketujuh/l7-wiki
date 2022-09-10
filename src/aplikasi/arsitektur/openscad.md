@@ -9,7 +9,12 @@
 ## Cara memasang
 
 ```sh
-get {,l7-}openscad
+get openscad l7-openscad
+```
+
+Gunakan pengaturan tambahan.
+
+```sh
 cp -rfv /etc/skel/.config/OpenSCAD ~/.config/
 ```
 
