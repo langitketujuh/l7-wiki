@@ -168,6 +168,10 @@ Dengan `cfdisk`, pengguna dapat mengatur partisinya seperti menambah partisi den
 
 Berikut ini adalah contoh skema partisi yang kami sarankan.
 
+  > ⚠️ **Peringatan**
+  >
+  > Pastikan untuk jenis partisi boot menggunakan tipe partisi `BIOS boot` untuk Legacy. Dan tipe `EFI System` untuk UEFI
+
 - **Legacy (dos/mbr)**
 
   Jika menggunakan legacy, pastikan partisi boot sudah mengaktifkan tanda bintang `*` sebagai tanda bootable. Khusus untuk legacy saja.
