@@ -35,11 +35,11 @@ update
 
 Pasang dengan menyesuaikan nomer versi driver kartu grafis.
 
-| **Perintah**    | **Versi**         |
-| :-------------- | :---------------- |
-| `get nvidia`    | 800 keatas        |
-| `get nvidia470` | 600 atau 700      |
-| `get nvidia390` | 400 atau 500      |
+| **Perintah**    | **Versi driver**   |
+| :-------------- | :----------------: |
+| `get nvidia`    | 510+               |
+| `get nvidia470` | 470+               |
+| `get nvidia390` | 390+               |
 
 Jika driver Nvidia yang digunakan termasuk driver [legacy gpu](https://www.nvidia.com/en-us/drivers/unix/legacy-gpu/) maka gunakan `nvidia390` atau `nvidia470`.
 
@@ -49,14 +49,14 @@ Lebih jelasnya pengguna dapat menggunakan [pencarian driver](https://www.nvidia.
 
 ![Nvidia Search LangitKetujuh OS](../../../media/image/nvidia-driver-langitketujuh-id-2.webp)
 
-Dari contoh diatas, Nvidia yang digunakan adalah `nvidia390` sebab menggunakan versi 500 (510.x.x). Hati-hati memilih dan memasang versi driver. Jika salah versi kemungkinannya akan blackscreen, tetapi masalah tersebut dapat diatasi dengan [chroot mode](../../chroot/index.md) dan menghapus drivernya.
+Dari contoh diatas, Nvidia yang digunakan adalah versi `510.47.03` sehingga cara memasangnya dengan `get nvidia` (diatas versi `510`). Hati-hati memilih dan memasang versi driver. Jika salah versi kemungkinannya akan blackscreen, tetapi masalah tersebut dapat diatasi dengan [chroot mode](../../chroot/index.md) dan menghapus drivernya nvidia.
 
 ## Blacklist nouveau
 
 Tambahkan baris dibawah ini.
 
 ```sh
-#blacklist nouveau
+blacklist nouveau
 ```
 Masukkan ke dalam berkas:
 
