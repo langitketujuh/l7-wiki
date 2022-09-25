@@ -13,6 +13,7 @@
 - Abu Hafidz.
 - Acep Rahmat.
 - Adam Rizky Pratama.
+- Addin Prasetyo.
 - Ade Deri.
 - Adi Jatnika.
 - Adi.
@@ -93,6 +94,7 @@
 - Fajar Dwi Saputro.
 - Fajar Sidik.
 - Faruq M.
+- Fauzi Ferdiansyah.
 - Fernanda Rizky Sanjaya.
 - Fery Ego Prasetyo.
 - Fitri Nur Azis.
@@ -155,6 +157,7 @@
 - Moh. Aden Bagus Prasetio.
 - Moh. Fatoni.
 - Moh. Yanuar Ramadhan.
+- Mohamad Bayu Safrin Taliki.
 - Mohammad Qowaidul Umam.
 - Mohammad Rizki Aiman.
 - Mohammad Shodiq.
@@ -212,6 +215,7 @@
 - Riky Arya Pratama Nugraha.
 - Risfan Yani.
 - Risnandar H. Sahido.
+- Risnandar.
 - Risqon Anjahiranda Adiputra.
 - Rizal Krisnawan.
 - Rizki Aprianto.
@@ -247,6 +251,7 @@
 - Tukiyo.
 - Tun Rahmat Reformasi.
 - Usman Abdullah.
+- Wahyu Widayat.
 - Wahyudin Sitorus.
 - Walfarid Hermawan Limbong.
 - Wanto Nugroho.
