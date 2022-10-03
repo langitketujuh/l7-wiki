@@ -114,6 +114,7 @@
 - Hanifan Azka.
 - Hartono Wijaya.
 - Hasan Sidik U.
+- Hasapriadi.
 - Hasdin Adi Saputra.
 - Hendra.
 - Heri Setiawan.
@@ -145,6 +146,7 @@
 - Khairullah.
 - Kresna Kusuma Negara.
 - Kustiono.
+- Langgeng Wiono.
 - Latif Ahmad Fatih.
 - Latif Sobri Alhamidi.
 - Linuxscoop.
@@ -169,6 +171,7 @@
 - Muhamad Rizki Ramadan.
 - Muhamad Solichin.
 - Muhammad Abdul Ghofur.
+- Muhammad Akhsan Alimuddin.
 - Muhammad Al Furqon.
 - Muhammad Arif Hidayat.
 - Muhammad Awaludin.
