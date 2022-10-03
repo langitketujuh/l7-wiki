@@ -170,7 +170,7 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
   > ⚠️ **Peringatan**
   >
-  > Pastikan untuk jenis partisi boot menggunakan tipe partisi `BIOS boot` untuk Legacy. Dan tipe `EFI System` untuk UEFI
+  > Pastikan untuk jenis partisi boot menggunakan tipe partisi `Linux filesystem` untuk Legacy. Dan tipe `EFI System` untuk UEFI
 
 - **Legacy (dos/mbr)**
 
@@ -178,7 +178,7 @@ Berikut ini adalah contoh skema partisi yang kami sarankan.
 
   |   Partisi   | Bootable | Jumlah |        Tipe        | Kondisi partisi |
   | :---------: | :------: | :----: | :----------------: | :-------------: |
-  | `/dev/sda4` |    *     | `512M` |    `BIOS boot`     |      Baru       |
+  | `/dev/sda4` |    *     | `512M` | `Linux filesystem` |      Baru       |
   | `/dev/sda5` |          | `40G`  | `Linux filesystem` |      Baru       |
 
 - **UEFI (gpt)**

@@ -18,7 +18,7 @@ Gunakan navigasi arah panah untuk melakukan eksekusi. Misalnya melakukan perinta
 
   | **Partisi** | **Ukuran** |      **Tipe**      |
   | :---------: | :--------: | :----------------: |
-  | `/dev/sda1` |   `512M`   |    `BIOS boot`     |
+  | `/dev/sda1` |   `512M`   | `Linux filesystem` |
   | `/dev/sda2` |   `40G`    | `Linux filesystem` |
   | `/dev/sda3` |    `~`     | `Linux filesystem` |
 
