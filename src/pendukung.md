@@ -150,6 +150,7 @@
 - Latif Ahmad Fatih.
 - Latif Sobri Alhamidi.
 - Linuxscoop.
+- M. Indra Dwi Cahyono.
 - M. Iqbal Bustam.
 - M. Naufal Pikri.
 - Makhsus.
@@ -183,6 +184,7 @@
 - Muhammad Nurramadhan.
 - Muhammad Rahmat Ramadhan.
 - Muhammad Rristiyanto.
+- Muhammad Syahrul Gunawan.
 - Muhammad Zainul Arofi.
 - Mulyaddin.
 - Muminin Ameer.
