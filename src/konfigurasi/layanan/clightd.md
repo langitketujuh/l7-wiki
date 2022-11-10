@@ -4,40 +4,42 @@ Clight untuk mengatur kecerahan layar secara otomatis menggunakan sensor webcam.
 
 Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus akan mempengaruhi kinerja `clight`. Jika bermasalah, fitur ini bisa dinonaktifkan.
 
+
 ## Cara memasang
 
-```sh
-get Clight Clightd
-```
+    ```sh
+    get Clight Clightd
+    ```
+## Penggunaan
 
-## Melihat status clightd
+- Melihat status clightd
 
-```sh
-rsv status Clightd
-```
+    ```sh
+    rsv status Clightd
+    ```
 
-## Mengaktifkan clightd
+- Mengaktifkan clightd
 
-Secara bawaan clightd sudah aktif
+    Secara bawaan clightd sudah aktif
 
-```sh
-rsv enable Clightd
-```
+    ```sh
+    rsv enable Clightd
+    ```
 
-## Menonaktifkan clightd
+- Menonaktifkan clightd
 
-```sh
-rsv disable Clightd
-```
+    ```sh
+    rsv disable Clightd
+    ```
 
-## Menjalankan ulang clightd
+- Menjalankan ulang clightd
 
-```sh
-rsv restart Clightd
-```
+    ```sh
+    rsv restart Clightd
+    ```
 
-## Menghapus clight dan clight daemon
+- Menghapus clight dan clight daemon
 
-```sh
-remove Clight Clightd
-```
+    ```sh
+    remove Clight Clightd
+    ```

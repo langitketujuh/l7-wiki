@@ -8,31 +8,33 @@ TLP sebagai manajemen baterai laptop agar penggunaannya lebih hemat dan efisien.
 get tlp tlp-rdw
 ```
 
-## Melihat status tlp
+## Penggunaan
 
-```sh
-rsv status tlp
-```
+- Melihat status tlp
 
-## Mengaktifkan tlp
+    ```sh
+    rsv status tlp
+    ```
 
-Secara bawaan tlp sudah aktif
+- Mengaktifkan tlp
 
-```sh
-rsv enable tlp
-```
+    Secara bawaan tlp sudah aktif
 
-## Menonaktifkan tlp
+    ```sh
+    rsv enable tlp
+    ```
 
-```sh
-rsv disable tlp
-```
+- Menonaktifkan tlp
 
-## Menjalankan ulang tlp
+    ```sh
+    rsv disable tlp
+    ```
 
-```sh
-rsv restart tlp
-```
+- Menjalankan ulang tlp
+
+    ```sh
+    rsv restart tlp
+    ```
 
 ## Menghapus tlp daemon
 

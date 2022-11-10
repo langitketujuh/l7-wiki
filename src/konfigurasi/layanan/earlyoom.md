@@ -10,31 +10,33 @@ Manfaat lainnya untuk menghindari mematikan mesin secara paksa ketika komputer t
 get earlyoom
 ```
 
-## Melihat status earlyoom
+## Penggunaan
 
-```sh
-rsv status earlyoom
-```
+- Melihat status earlyoom
 
-## Mengaktifkan earlyoom
+    ```sh
+    rsv status earlyoom
+    ```
 
-Secara bawaan earlyoom sudah aktif
+- Mengaktifkan earlyoom
 
-```sh
-rsv enable earlyoom
-```
+    Secara bawaan earlyoom sudah aktif
 
-## Menonaktifkan earlyoom
+    ```sh
+    rsv enable earlyoom
+    ```
 
-```sh
-rsv disable earlyoom
-```
+- Menonaktifkan earlyoom
 
-## Menjalankan ulang earlyoom
+    ```sh
+    rsv disable earlyoom
+    ```
 
-```sh
-rsv restart earlyoom
-```
+- Menjalankan ulang earlyoom
+
+    ```sh
+    rsv restart earlyoom
+    ```
 
 ## Menghapus earlyoom daemon
 

@@ -8,31 +8,33 @@ ZRAMEN untuk pengatur [zram](../../pemasangan/sistem-swap/zram.md), secara bawaa
 get zramen
 ```
 
-## Melihat status zramen
+## Penggunaan
 
-```sh
-rsv status zramen
-```
+- Melihat status zramen
 
-## Mengaktifkan zramen
+    ```sh
+    rsv status zramen
+    ```
 
-Secara bawaan zramen sudah aktif
+- Mengaktifkan zramen
 
-```sh
-rsv enable zramen
-```
+    Secara bawaan zramen sudah aktif
 
-## Menonaktifkan zramen
+    ```sh
+    rsv enable zramen
+    ```
 
-```sh
-rsv disable zramen
-```
+- Menonaktifkan zramen
 
-## Menjalankan ulang zramen
+    ```sh
+    rsv disable zramen
+    ```
 
-```sh
-rsv restart zramen
-```
+- Menjalankan ulang zramen
+
+    ```sh
+    rsv restart zramen
+    ```
 
 ## Menghapus zramen daemon
 
