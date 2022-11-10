@@ -6,38 +6,66 @@ Init merupakan daemon proses yang terus berjalan hingga sistem dimatikan. Sedang
 
 Runit menggunakan perkakas `sv` untuk mengontrol layanan. Seperti melihat status, mengaktifkan, menghapus, menghentikan dan menyalakan ulang layanan.
 
-Tetapi kami sarankan menggunakan `rsv` untuk mengontrol setiap layanan yang ada di sistem.
+Tetapi kami sarankan menggunakan [rsv] untuk mengontrol setiap layanan yang ada di sistem.
+
+## Cara memasang
+
+Buka konsole lalu jalankan perintah berikut.
 
 ```
 get rsv
 ```
 
-## Status layanan
+## Penggunaan `rsv`
+
+- Status layanan
+
+    ```sh
+    rsv list
+    ```
+
+    Layanan aktif.
+
+    ```sh
+    rsv list --enabled
+    ```
+
+- Mengaktifkan layanan
+
+    ```sh
+    rsv enable <layanan>
+    ```
+
+- Menonaktifkan layanan
+
+    ```sh
+    rsv disable <layanan>
+    ```
+
+- Memulai layanan
+
+    ```sh
+    rsv start <layanan>
+    ```
+
+- Menghentikan layanan
+
+    ```sh
+    rsv stop <layanan>
+    ```
+
+- Status layanan
+
+    ```sh
+    rsv status <layanan>
+    ```
+
+## Bantuan
+
+Selengkapnya tentang [rsv].
 
 ```sh
-rsv list
+rsv help
 ```
 
-Layanan yang aktif saja.
-
-```sh
-rsv list --enabled
-```
-
-## Mengaktifkan layanan
-
-```sh
-rsv enable namalayanan
-```
-
-## Menonaktifkan layanan
-
-```sh
-rsv disable namalayanan
-```
-
-## Status layanan
-
-```sh
-rsv status namalayanan
-```
+[rsv]:https://github.com/JojiiOfficial/rsv
