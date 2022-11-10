@@ -13,7 +13,7 @@ Tersedia libc modern yang mengutamakan efisiensi sumber daya. Render audio/video
 Berisi perangkat lunak [rilis bergulir](https://id.wikipedia.org/wiki/Rilis_bergulir) dengan versi stabil terbaru. Setiap rilis terbaru tidak diharuskan untuk memasang ulang, hanya memerlukan [pembaruan sistem](../konfigurasi/pembaruan.md) seperti biasanya secara otomatis menggunakan versi yang terbaru.
 
 ## Runit init
-Keamanan lebih baik. Menggunakan runit karena PID1 harus sederhana, minimalis, dan stabil. Tentunya bebas dari systemd. Dengan [runit init](../konfigurasi/layanan/sv.md) booting semakin cepat.
+Keamanan lebih baik. Menggunakan runit karena PID1 harus sederhana, minimalis, dan stabil. Tentunya bebas dari systemd. Dengan [runit init](../konfigurasi/layanan/rsv.md) booting semakin cepat.
 
 ## EarlyOOM
 Fitur ini memberikan keamanan kepada Motherboard dan Hardisk/SSD dengan menutup paksa jika ada perangkat lunak yang menggunakan resource yang berlebihan atau dengan batasan yang telah ditentukan.
