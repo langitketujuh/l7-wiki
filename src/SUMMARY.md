@@ -69,7 +69,7 @@
     - [Plasma pencarian](./konfigurasi/kde/plasma-pencarian.md)
     - [Sesi desktop](./konfigurasi/kde/sesi-desktop.md)
   - [Manajemen layanan](./konfigurasi/layanan/index.md)
-    - [Runit init](./konfigurasi/layanan/sv.md)
+    - [Runit init](./konfigurasi/layanan/rsv.md)
     #- [Clight](./konfigurasi/layanan/clightd.md)
     - [EarlyOOM](./konfigurasi/layanan/earlyoom.md)
     - [TLP](./konfigurasi/layanan/tlp.md)

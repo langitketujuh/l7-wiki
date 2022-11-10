@@ -19,19 +19,19 @@ doas sv status zramen
 Secara bawaan zramen sudah aktif
 
 ```sh
-doas ln -s /etc/sv/zramen /var/service/
+rsv enable zramen
 ```
 
 ## Menonaktifkan zramen
 
 ```sh
-doas rm /var/service/zramen
+rsv disable zramen
 ```
 
 ## Menjalankan ulang zramen
 
 ```sh
-doas sv restart zramen
+rsv restart zramen
 ```
 
 ## Menghapus zramen daemon

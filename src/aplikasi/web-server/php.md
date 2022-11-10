@@ -30,19 +30,13 @@ Kemudian simpan.
 ## Mengaktifkan layanan
 
 ```sh
-doas ln -s /etc/sv/php-fpm  /var/service/
+rsv enable php-fpm
 ```
 
 ## Cek layanan
 
 ```sh
-doas vsv
-```
-
-```sh
-   SERVICE              STATE   ENABLED   PID      COMMAND           TIME
- X php-fpm              down    true      ---      ---               3 seconds
-
+rsv list --enabled
 ```
 
 Biasanya layanan `php-fpm` akan error belum dapat berjalan, hal ini normal sebab pengaturan php-fpm di [Nginx] web server belum dikonfigurasi.

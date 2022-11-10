@@ -33,21 +33,15 @@ extension=mysqli
 ## Restart layanan
 
 ```sh
-doas sv restart php-fpm nginx
+rsv restart php-fpm nginx
 ```
 
 Cek layanan.
 
 ```sh
-doas vsv
+rsv list --enabled
 ```
 
-```sh
-   SERVICE              STATE   ENABLED   PID      COMMAND           TIME
- ✔ nginx                run     true      822      nginx: master pro 2 hours
- ✔ php-fpm              run     true      4693     php-fpm.conf)     2 hours
-
-```
 ## Halaman phpMyAdmin
 
 Pengguna dapat mengaksesnya lelalui <http://localhost/phpMyAdmin>

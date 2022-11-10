@@ -12,9 +12,9 @@ Secara bawaan LangitKetujuh menggunakan [PipeWire] sebagai audio servernya. Taha
 Nonaktifkan layanan audio server di sistem root. Sebab pemasangan ini akan berjalan atas pengguna.
 
 ```sh
-doas rm -v /var/service/pulseaudio
-doas rm -v /var/service/pipewire
-doas rm -v /var/service/pipewire-pulse
+rsv disable pulseaudio
+rsv disable pipewire
+rsv disable pipewire-pulse
 ```
 
 Menghapus PipeWire dan dependensinya.

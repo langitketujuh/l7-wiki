@@ -22,9 +22,9 @@ gstreamer1-pipewire l7-pipewire
 Nonaktifkan layanan audio server di sistem root. Sebab pemasangan ini akan berjalan atas pengguna.
 
 ```sh
-doas rm -v /var/service/pulseaudio
-doas rm -v /var/service/pipewire
-doas rm -v /var/service/pipewire-pulse
+rsv disable pulseaudio
+rsv disable pipewire
+rsv disable pipewire-pulse
 ```
 
 Hapus konfigurasi kustom dan autostart PulseAudio jika ada.

@@ -21,19 +21,19 @@ doas sv status earlyoom
 Secara bawaan earlyoom sudah aktif
 
 ```sh
-doas ln -s /etc/sv/earlyoom /var/service/
+rsv enable earlyoom
 ```
 
 ## Menonaktifkan earlyoom
 
 ```sh
-doas rm /var/service/earlyoom
+rsv disable earlyoom
 ```
 
 ## Menjalankan ulang earlyoom
 
 ```sh
-doas sv restart earlyoom
+rsv restart earlyoom
 ```
 
 ## Menghapus earlyoom daemon

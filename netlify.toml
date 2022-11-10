@@ -27,42 +27,6 @@ command = "curl -sL https://github.com/rust-lang/mdBook/releases/download/v0.4.2
   force = true
 
 [[redirects]]
-  from = "https://panduan.langitketujuh.id/aplikasi/fish-shell/"
-  to = "https://panduan.langitketujuh.id/perintah-dasar/manajemen-paket/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://panduan.langitketujuh.id/perintah-dasar/fish-shell/"
-  to = "https://panduan.langitketujuh.id/perintah-dasar/manajemen-paket/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://panduan.langitketujuh.id/aplikasi/vpsm/"
-  to = "https://panduan.langitketujuh.id/perintah-dasar/vpsm/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://panduan.langitketujuh.id/layanan/sv/"
-  to = "https://panduan.langitketujuh.id/perintah-dasar/sv/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://panduan.langitketujuh.id/cli/*"
-  to = "https://panduan.langitketujuh.id/perintah-dasar/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://panduan.langitketujuh.id/permasalahan/login.html"
-  to = "https://panduan.langitketujuh.id/permasalahan/user.html"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/*"
   to = "/404/"
   status = 404

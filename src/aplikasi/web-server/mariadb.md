@@ -21,19 +21,13 @@ doas usermod -a -G mysql $USER
 ## Aktifkan layanan
 
 ```sh
-doas ln -s /etc/sv/mysqld /var/service/
+rsv enable mysqld
 ```
 
 Cek layanan.
 
 ```sh
-doas vsv
-```
-
-```sh
-   SERVICE              STATE   ENABLED   PID      COMMAND           TIME
- ✔ mysqld               run     true      868      mysqld            2 hours
-
+rsv list --enabled
 ```
 
 ## Konfigurasi mysql

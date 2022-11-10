@@ -19,19 +19,19 @@ doas sv status tlp
 Secara bawaan tlp sudah aktif
 
 ```sh
-doas ln -s /etc/sv/tlp /var/service/
+rsv enable tlp
 ```
 
 ## Menonaktifkan tlp
 
 ```sh
-doas rm /var/service/tlp
+rsv disable tlp
 ```
 
 ## Menjalankan ulang tlp
 
 ```sh
-doas sv restart tlp
+rsv restart tlp
 ```
 
 ## Menghapus tlp daemon

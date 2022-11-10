@@ -27,26 +27,26 @@ modprobe kvm-amd    # untuk AMD CPUs
 ## Mengaktifkan layanan virtualisasi
 
 ```sh
-doas ln -s /etc/sv/libvirtd /var/service
-doas ln -s /etc/sv/virtlockd /var/service
-doas ln -s /etc/sv/virtlogd /var/service
+rsv enable libvirtd
+rsv enable virtlockd
+rsv enable virtlogd
 ```
 
-Gunakan vsv untuk melihat layanan yang berjalan.
+Gunakan rsv untuk melihat layanan yang berjalan.
 
 ```sh
-doas vsv status virt
+rsv status libvirtd
+rsv status virtlockd
+rsv status virtlogd
 ```
 
 Contoh keluarannya seperti berikut ini.
 
 ```sh
-➜  ~ doas vsv status virt
-
-   SERVICE              STATE   ENABLED   PID      COMMAND           TIME
- ✔ libvirtd             run     true      5079     libvirtd          22 seconds
- ✔ virtlockd            run     true      5217     virtlockd         16 seconds
- ✔ virtlogd             run     true      5232     virtlogd          10 seconds
+➜  ~ rsv status virt
+run: libvirtd: (pid 17454) 843s
+run: virtlockd: (pid 803) 19395s
+run: virtlogd: (pid 806) 19395s
 ```
 
 Pemasangan [Virtual Manager] sudah selesai.

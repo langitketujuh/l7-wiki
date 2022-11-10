@@ -21,19 +21,19 @@ doas sv status Clightd
 Secara bawaan clightd sudah aktif
 
 ```sh
-doas ln -s /etc/sv/Clightd /var/service/
+rsv enable Clightd
 ```
 
 ## Menonaktifkan clightd
 
 ```sh
-doas rm /var/service/Clightd
+rsv disable Clightd
 ```
 
 ## Menjalankan ulang clightd
 
 ```sh
-doas sv restart Clightd
+rsv restart Clightd
 ```
 
 ## Menghapus clight dan clight daemon

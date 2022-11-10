@@ -66,25 +66,19 @@ Kurang lebih pengaturan nginx.conf seperti dibawah ini. Hanya yang perlu menghap
 ## Aktifkan layanan
 
 ```sh
-doas ln -s /etc/sv/nginx /var/service/
+rsv enable nginx
 ```
 
 Restart juga layanan php-fpm
 
 ```sh
-doas sv restart php-fpm
+rsv restart php-fpm
 ```
 
 Cek status layanan
 
 ```sh
-doas vsv
-```
-
-```sh
-   SERVICE              STATE   ENABLED   PID      COMMAND           TIME
- ✔ nginx                run     true      822      nginx: master pro 1 hour
- ✔ php-fpm              run     true      3839     php-fpm.conf)     1 hour
+rsv list --enabled
 ```
 
 ## Halaman localhost

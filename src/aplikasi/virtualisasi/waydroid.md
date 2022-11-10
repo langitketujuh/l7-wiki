@@ -48,13 +48,13 @@ Jalankan waydroid init untuk pertama kalinya. Pilih salah satu, vanilla atau gap
 - Mengaktifkan layanan. Untuk pertama kalinya, jalankan layanan waydroid.
 
   ```sh
-  doas ln -s /etc/sv/waydroid-container /var/service/
+  rsv enable waydroid-container
   ```
 
 - Menonaktifkan layanan. Jika waydroid sudah tidak perlu diaktifkan, jalankan perintah ini.
 
   ```sh
-  doas rm /var/service/waydroid-container
+  rsv disable waydroid-container
   ```
 
 ## Menjalankan aplikasi
