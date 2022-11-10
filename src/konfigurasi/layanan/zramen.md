@@ -11,7 +11,7 @@ get zramen
 ## Melihat status zramen
 
 ```sh
-doas sv status zramen
+rsv status zramen
 ```
 
 ## Mengaktifkan zramen

@@ -11,7 +11,7 @@ get tlp tlp-rdw
 ## Melihat status tlp
 
 ```sh
-doas sv status tlp
+rsv status tlp
 ```
 
 ## Mengaktifkan tlp

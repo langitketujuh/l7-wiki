@@ -13,7 +13,7 @@ get Clight Clightd
 ## Melihat status clightd
 
 ```sh
-doas sv status Clightd
+rsv status Clightd
 ```
 
 ## Mengaktifkan clightd

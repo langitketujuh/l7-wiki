@@ -13,7 +13,7 @@ get earlyoom
 ## Melihat status earlyoom
 
 ```sh
-doas sv status earlyoom
+rsv status earlyoom
 ```
 
 ## Mengaktifkan earlyoom
