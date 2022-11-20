@@ -44,14 +44,26 @@ Beberapa perangkat lunak dibangun dengan `GTK+3` seperti inkscape dan GIMP. Tema
 
 ## Mengganti bahasa
 
+Multi bahasa hanya mendukung arsitektur glibc saja, yaitu `i686` dan `x86_64`. Jika menggunakan arsitektur `x86_64-musl` tidak dapat mengganti bahasa (default bahasa inggris `en_US`) karena tidak ada paket `glibc-locales` di repo musl.
+
 - Buka `System Settings`.
-- Pilh `Regional Settings` > Pilih `Languages`.
-- Klik `Add Languages`, tambahkan Bahasa yang diinginkan.
-- Klik bahasa yang dipilih, klik ikon `Promote to default`.
-- Klik `Apply`.
-- Efek pindah bahasa akan tampak setelah logout atau reboot.
+- Pilh `Regional Settings` > Pilih `Languages`, klik `Modify`.
 
 ![Change language Krunner](../../media/image/languages-langitketujuh-id.webp)
+
+- Klik `Add More`, tambahkan Bahasa yang diinginkan. Misalnya `Indonesia`.
+- Klik bahasa yang dipilih, klik ikon `Move to top` sehingga bahasa yang dipilih menjadi yang pertama.
+- Klik `Apply`.
+- Buka konsole, jalankan perintah:
+    ```
+    kate /etc/default/libc-locales
+    ```
+- Ganti dan hapus tanda pagar bahasa yang berkaitan. Misalnya bahasa indonesia `#id_ID.UTF-8 UTF-8` menjadi `id_ID.UTF-8 UTF-8`. Lalu simpan (Ctrl+s), masukkan kata sandi jika diperlukan.
+- Konfigurasi ulang dengan menjalankan:
+    ```
+    reconfigure -f glibc-locales
+    ```
+- Efek pindah bahasa akan tampak setelah logout atau reboot.
 
 ## Menambahkan layout bahasa
 
