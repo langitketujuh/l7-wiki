@@ -21,7 +21,7 @@ doas ln -s /usr/share/webapps/phpMyAdmin /usr/share/nginx/html/
 ## Konfigurasi php.ini
 
 ```sh
-doas vim /etc/php/php.ini
+kate /etc/php/php.ini
 ```
 
 Aktifkan ekstensi `mysqli` dengan menghapus titik koma `;` menjadi:

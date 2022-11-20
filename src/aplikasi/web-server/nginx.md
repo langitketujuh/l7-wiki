@@ -21,7 +21,7 @@ doas usermod -a -G http,nginx $USER
 ## Konfigurasi `nginx.conf`
 
 ```sh
-doas vim /etc/nginx/nginx.conf
+kate /etc/nginx/nginx.conf
 ```
 
 Tambahkan `index.php`, menjadi seperti ini:
@@ -92,7 +92,7 @@ Anda dapat mengakses halaman nginx di <http://localhost>.
 Untuk menguji web server dapat menjalankan php, buatlah skrip `info.php`.
 
 ```sh
-doas vim /usr/share/nginx/html/info.php
+kate /usr/share/nginx/html/info.php
 ```
 
 Isi dengan syntax berikut ini
