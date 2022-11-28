@@ -20,7 +20,7 @@ Pastikan layanan adb sudah aktif. Cek dengan perintah ini:
 rsv status adb
 ```
 
-Apabila bewarna hijau dengan label `run` maka adb sedang berjalan. Jika belum berjalan, maka aktifkan dengan perintah ini:
+Apabila sudah aktif, maka terdapat tanda `run:`. Jika belum aktif, maka jalankan perintah ini:
 
 ```sh
 rsv enable adb
