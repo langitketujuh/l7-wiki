@@ -82,6 +82,7 @@
 - Dimas Nirwan.
 - Dony Martino.
 - Dudy Herdiana.
+- Dwi Noviyanto.
 - Edwin Hikmaturrahman.
 - Edy Daryapto.
 - Eggi Chanda.
@@ -280,6 +281,7 @@
 - Yoga Pratama.
 - Yogi Tri Widodo.
 - Yudi Pratama.
+- Yudianto Hari Prasetyo.
 - Yunus Ahmad.
 - Yusuf Almalik Saputra, Md.
 - Yusuf Isna Hanif.
