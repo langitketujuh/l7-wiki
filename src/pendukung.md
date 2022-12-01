@@ -124,7 +124,6 @@
 - Hendra.
 - Heri Setiawan.
 - Heriyanto.
-- Heriyanto.
 - Hermawan.
 - Herru Pratomo.
 - Heru Santoso.
