@@ -11,7 +11,7 @@ Perintah dasar di Langitketujuh memanfaatkan fitur fungsi pada [fish-shell](../s
 | `get <pkg>`           | `get gimp`            | Memasang perangkat lunak.                       |
 | `search <pkg>`        | `search gimp`         | Mencari perangkat lunak berdasarkan basis data. |
 | `remove <pkg>`        | `remove gimp`         | Menghapus perangkat lunak.                      |
-| `info <pkg>`          | `info gimp`           | Informasi dari perangkat lunak yang terpasang.  |
+| `query <pkg>`         | `query gimp`          | Informasi dari perangkat lunak yang terpasang.  |
 | `list <pkg>`          | `list gimp`           | Daftar isi dari dependensi                      |
 | `deps <pkg>`          | `deps gimp`           | Melihat daftar dari dependensi paket.           |
 | `reconfigure <pkg>`   | `reconfigure gimp`    | Mengatur ulang konfigurasi paket yang terpasang.|
