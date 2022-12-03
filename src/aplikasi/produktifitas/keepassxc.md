@@ -16,7 +16,6 @@ Gunakan pengaturan tambahan.
 
 ```sh
 cp -rfv /etc/skel/.config/keepassxc/ ~/.config/
-cp -ffv /etc/skel/.config/autostart/org.keepassxc.KeePassXC.desktop ~/.config/autostart/
 ```
 
 Konfigurasi tersebut berisi pengaturan:

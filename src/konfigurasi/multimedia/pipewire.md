@@ -33,13 +33,6 @@ Hapus konfigurasi kustom dan autostart PulseAudio jika ada.
 doas rm -rv /etc/pipewire/pipewire.conf ~/.config/autostart/Pulseaudio*
 ```
 
-Salin autostart PipeWire agar berjalan saat komputer dinyalakan.
-
-```sh
-mkdir -pv ~/.config/autostart/
-cp -rfv /etc/skel/.config/autostart/PipeWire* ~/.config/autostart/
-```
-
 Kemudian logout atau reboot komputernya.
 
 Cek status PipeWire.

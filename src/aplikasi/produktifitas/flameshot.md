@@ -15,9 +15,7 @@ get flameshot l7-flameshot
 Gunakan pengaturan tambahan.
 
 ```sh
-mkdir -pv ~/.config/autostart/
 cp -rfv /etc/skel/.config/flameshot/ ~/.config/
-cp -rfv /etc/skel/.config/autostart/Flameshot.desktop ~/.config/autostart/
 ```
 
 Konfigurasi tersebut berisi pengaturan:

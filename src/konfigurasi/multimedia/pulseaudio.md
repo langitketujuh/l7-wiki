@@ -24,7 +24,7 @@ remove pipewire alsa-pipewire libjack-pipewire \
 gstreamer1-pipewire l7-pipewire
 ```
 
-Hapus autostart PipeWire.
+Hapus autostart PipeWire jika ada.
 
 ```sh
 rm -rfv ~/.config/autostart/PipeWire*
@@ -34,13 +34,6 @@ Selanjutnya memasang PulseAudio.
 
 ```sh
 get pulseaudio alsa-plugins-pulseaudio l7-pulseaudio
-```
-
-Pasang autostart PulseAudio.
-
-```sh
-mkdir -pv ~/.config/autostart/
-cp -rfv /etc/skel/.config/autostart/Pulseaudio* ~/.config/autostart/
 ```
 
 Kemudian logout atau reboot komputernya.

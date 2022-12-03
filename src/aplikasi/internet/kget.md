@@ -12,13 +12,6 @@
 get kget l7-kget
 ```
 
-Gunakan pengaturan tambahan.
-
-```sh
-cp -fv /etc/skel/.config/kgetrc ~/.config/
-cp -fv /etc/skel/.config/autostart/org.kde.kget.desktop ~/.config/autostart/
-```
-
 ## Pengaturan tambahan
 
 - Terintegrasi dengan kde plasma sehingga unduhan akan terlihat di bagian notifikasi panel bar.

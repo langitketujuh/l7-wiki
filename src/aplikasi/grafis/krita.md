@@ -14,12 +14,6 @@
 get krita l7-krita
 ```
 
-Gunakan pengaturan tambahan.
-
-```sh
-cp -rfv /etc/skel/.config/kritarc ~/.config/
-```
-
 Jika ingin menambahkan plugin Gmic Krita, bisa merujuk ke halaman [GMIC-Qt].
 
 ## Pengaturan tambahan

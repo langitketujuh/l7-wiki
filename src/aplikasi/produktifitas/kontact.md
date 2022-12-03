@@ -16,7 +16,6 @@ Pasang konfigurasi tambahan.
 
 ```
 get l7-kmail l7-korganizer l7-akregator
-cp -rfv /etc/skel/.config/{kmail2rc,korgacrc,akregatorrc} ~/.config/
 cp -rfv /etc/skel/.local/share/akregator/ ~/.local/share/
 ```
 
@@ -26,7 +25,7 @@ Konfigurasi tersebut yaitu menambahkan beberapa pengaturan dasar:
 - Mengaktifkan systray di panel.
 - Mode membaca email disebelah kanan.
 - Mengaktifkan **batal kirim** email selama 10 detik pertama.
-- Mengaktifkan autostart untuk KOrganizer.
+- Mengaktifkan autostart untuk Korganizer.
 - Memperbesar ukuran font untuk akregator.
 - Menambahkan daftar feed yang relevan.
 
