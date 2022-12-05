@@ -1,6 +1,14 @@
 # Verifikasi berkas
 
-Sebelum membuat bootable, disarankan untuk melakukan verifikasi berkas. Tujuannya untuk mengetahui berkas iso yang telah diunduh sudah aman atau tidak. LangitKetujuh telah menyediakan kode hash `SHA256` di [halaman verifikasi berkas](https://langitketujuh.id/os/verifikasi), pastikan kode hash yang di dalamnya sama seperti hasil keluaran hash.
+Sebelum membuat bootable dengan flashdisk, disarankan untuk melakukan verifikasi berkas dengan kode hash `MD5`, `SHA1`, atau `SHA256`. Tujuannya untuk mengetahui berkas iso yang telah diunduh sudah benar-benar aman.
+
+Caranya dengan memastikan kode hash yang ada di server sama seperti kode hash yang ada di iso yang telah diunduh. Kode hash dapat Anda lihat ketika mengklik **Unduh ISO** di [tautan halaman unduh](https://langitketujuh.id/os/download/) atau di tautan yang kami kirimkan melalui email untuk pengguna Studio.
+
+Sebagai contoh di salah satu kode hash iso LangitKetujuh:
+
+![LangitKetujuh Hash](../media/image/hash-langitketujuh-id.webp)
+
+Setelah Anda dapatkan kodenya, cocokkan dengan kode hash iso yang telah diunduh di komputer dengan aplikasi berikut ini.
 
 ## Windows
 
@@ -27,6 +35,6 @@ Jika menggunakan windows, gunakan perangkat lunak [Hash Tools](https://www.binar
   Pengguna dapat menggunakan perintah `sha256sum` di terminal.
 
   ```sh
-  cd lokasi/folder/iso/
+  cd ~/Downloads
   sha256sum langitketujuh*.iso
   ```
