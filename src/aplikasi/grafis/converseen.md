@@ -12,7 +12,7 @@ Penggunaannya juga sangat sederhana. Tambahkan gambar, ceklis gambar yang akan d
 
 ## Cara memasang
 
-```sh
+```
 get Converseen
 ```
 

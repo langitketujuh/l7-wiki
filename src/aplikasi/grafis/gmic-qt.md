@@ -8,7 +8,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get gmic
 ```
 
@@ -20,7 +20,7 @@ Plugin tambahan (opsional):
 
 Memasang plugin:
 
-```sh
+```
 get gmic-{krita,gimp,zart}
 ```
 

@@ -31,7 +31,7 @@ Repositori tambahan perlu dipasang jika memerlukan paket yang tidak ada di repo 
 
 Lalu perbarui repodata.
 
-```sh
+```
 update
 ```
 
@@ -39,7 +39,7 @@ update
 
 Cara mengecek daftar repo dapat dilakukan dengan `repo`. Keluaran yang dihasilkan akan terlihat seperti dibawah ini.
 
-```sh
+```
 ➜  ~ repo
 13048 https://repo-default.voidlinux.org/current (RSA signed)
       Signed-by: Void Linux

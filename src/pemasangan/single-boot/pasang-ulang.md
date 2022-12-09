@@ -14,7 +14,7 @@ Buka menu, pilih `Install to Disk`.
 
 Atau menggunakan `Konsole` di menu, kemudian ketik perintah berikut ini.
 
-```sh
+```
 doas langitketujuh-install
 ```
 Kata sandi: `langitketujuh`

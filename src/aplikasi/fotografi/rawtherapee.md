@@ -14,7 +14,7 @@ Pengoreksian pencahayaan dari [RawTherapee] ada beberapa macam, seperti Luminanc
 
 ## Cara memasang
 
-```sh
+```
 get rawtherapee
 ```
 

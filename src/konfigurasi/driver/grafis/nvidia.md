@@ -6,7 +6,7 @@
 
 Cek `driver` kartu grafisnya dengan inxi.
 
-```sh
+```
 inxi -G
 ```
 Misalnya `driver:nouveau` maka saat ini kartu grafis yang digunakan adalah nouveau.
@@ -17,19 +17,19 @@ Nvidia (Driver proprietary) hanya bisa dipasang oleh sistem [Glibc](../../../per
 
 Cara memasang Nvidia, periksa dahulu tipe Nvidia.
 
-```sh
+```
 inxi -G
 ```
 
 Pasang repositori [nonfree]. Sebab nvidia merupakan perangkat lunak proprietary (tidak terbuka).
 
-```sh
+```
 get void-repo-nonfree
 ```
 
 Lalu perbarui repodata.
 
-```sh
+```
 update
 ```
 
@@ -55,12 +55,12 @@ Dari contoh diatas, Nvidia yang digunakan adalah versi `510.47.03` sehingga cara
 
 Tambahkan baris dibawah ini.
 
-```sh
+```
 blacklist nouveau
 ```
 Masukkan ke dalam berkas:
 
-```sh
+```
 /etc/modprobe.d/nouveau_blacklist.conf
 /usr/lib/modprobe.d/nvidia.conf
 /usr/lib/modprobe.d/nvidia-dkms.conf

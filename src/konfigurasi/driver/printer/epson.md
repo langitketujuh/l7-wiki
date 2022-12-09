@@ -589,7 +589,7 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 
 Epson driver versi 2 hanya bisa dipasang menggunakan [vpsm].
 
-```sh
+```
 vpsmconf # konfigurasi vpsm
 vpsm i epson-inkjet-printer-escpr2
 ```
@@ -755,7 +755,7 @@ Jika tipe printer tidak tersedia, kemungkinan tersedia dengan driver [Open Print
 
 Driver Epson Scanner dipasang dengan cara:
 
-```sh
+```
 get imagescan iscan-data
 ```
 [VPSM]:../../paket/vpsm.md

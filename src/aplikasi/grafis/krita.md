@@ -10,7 +10,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get krita l7-krita
 ```
 

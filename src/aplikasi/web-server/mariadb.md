@@ -6,7 +6,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get mariadb
 ```
 
@@ -14,25 +14,25 @@ get mariadb
 
 Beri hak akses `mysql` untuk pengguna.
 
-```sh
+```
 doas usermod -a -G mysql $USER
 ```
 
 ## Aktifkan layanan
 
-```sh
+```
 doas rsv enable mysqld
 ```
 
 Cek layanan.
 
-```sh
+```
 doas rsv status mysqld
 ```
 
 ## Konfigurasi mysql
 
-```sh
+```
 doas mysql_secure_installation
 ```
 

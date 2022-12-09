@@ -6,19 +6,19 @@
 
 ## Cara memasang
 
-```sh
+```
 get droidcam l7-v4l2loopback
 ```
 
 Cek versi kernel linux yang digunakan.
 
-```sh
+```
 uname -r
 ```
 
 jika hasilnya `5.15.11_1` berarti menggunakan kernel `linux5.15` (diambil dari angka versi sebelum 2 titik). Lalu konfigurasi ulang kernel agar mengkompilasi ulang setiap modul.
 
-```sh
+```
 doas xbps-reconfigure -v linux5.15 -f
 ```
 
@@ -28,7 +28,7 @@ Kemudian reboot.
 
 Mengaktifkan audio di droidcam sepertinya tidak perlu karena biasanya sudah ada microphone untuk pengguna laptop, maka sebaiknya diabaikan saja. Tetapi jika menggunakan komputer yang tidak memiliki microphone dan ingin mengaktifkan audio di droidcam, maka aktifkan modul `snd-aloop`dengan cara sebagai berikut:
 
-```sh
+```
 echo "snd-aloop" | doas tee /etc/modules-load.d/snd-aloop.conf
 ```
 Kemudian reboot. Khusus pengguna `nvidia` terkadang mengaktifkan modul `snd-aloop` volume suaranya tidak berfungsi, tetapi untuk `intel` atau `amd` tidak ada masalah.

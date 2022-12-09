@@ -10,13 +10,13 @@ Hal menarik dari [Falkon] adalah memiliki pengelola sesi setiap pengguna sehingg
 
 ## Cara memasang
 
-```sh
+```
 get falkon l7-falkon
 ```
 
 Gunakan pengaturan tambahan.
 
-```sh
+```
 cp -fv /etc/skel/.config/falkon/ ~/.config/
 ```
 

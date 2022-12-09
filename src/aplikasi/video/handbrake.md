@@ -16,7 +16,7 @@ Beberapa keluaran codec yang dihasilkan dari HandBrake:
 
 ## Cara memasang
 
-```sh
+```
 get handbrake
 ```
 

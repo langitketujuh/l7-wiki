@@ -20,7 +20,7 @@ Kami menyarankan menggunakan tipe disk GPT agar dapat memiliki fitur lebih jika 
 
 Boot mode UEFI diharuskan menggunakan tipe disk `GPT`, sedangkan boot mode legacy diharuskan menggunakan tipe disk `DOS`. Jika disk yang akan digunakan adalah `sda` maka ketik:
 
-```sh
+```
 doas fdisk -l /dev/sda | grep type
 ```
 

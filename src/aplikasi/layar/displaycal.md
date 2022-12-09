@@ -12,7 +12,7 @@ DisplayCAL sangat berguna untuk kalibrasi layar yang sesuai dengan profil warna 
 
 ## Cara memasang
 
-```sh
+```
 get dispcalGUI
 ```
 

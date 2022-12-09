@@ -34,7 +34,7 @@ Jika menggunakan windows, gunakan perangkat lunak [Hash Tools](https://www.binar
 
   Pengguna dapat menggunakan perintah `sha256sum` di terminal.
 
-  ```sh
+  ```
   cd ~/Downloads
   sha256sum langitketujuh*.iso
   ```

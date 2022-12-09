@@ -18,13 +18,13 @@ Jika sudah terlanjur memasang LangitKetujuh OS atau windowsnya terlanjur dihapus
 
 Cek partisi yang bermasalah dan tidak bisa dimodifikasi.
 
-```sh
+```
 lsblk
 ```
 
 Contoh keluaran:
 
-```sh
+```
 NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 sda      8:0    0 119.2G  0 disk
 ├─sda1   8:1    0   512M  0 part
@@ -36,13 +36,13 @@ Jangan mengakses partisi yang akan ditangani dengan `ntfsfix`, pada bagian `MOUN
 
 Misalnya partisi yang bermasalah di `sda3`, unmount dahulu.
 
-```sh
+```
 udiskctl unmount -b /dev/sda3
 ```
 
 Jalankan ntfsfix dengan perintah ini.
 
-```sh
+```
 doas ntfsfix /dev/sda3
 ```
 
@@ -52,13 +52,13 @@ Cara ini khusus partisi linux seperti `ext4`, `btrfs`, dsb. Jika pengguna tidak 
 
 Cek partisi yang bermasalah dan tidak bisa dimodifikasi.
 
-```sh
+```
 lsblk
 ```
 
 Contoh keluaran:
 
-```sh
+```
 NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 sda      8:0    0 119.2G  0 disk
 ├─sda1   8:1    0   512M  0 part
@@ -68,13 +68,13 @@ sda      8:0    0 119.2G  0 disk
 
 Misalnya partisi yang bermasalah di `sda3`, mount dahulu.
 
-```sh
+```
 udiskctl mount -b /dev/sda3
 ```
 
 Cek lagi dengan `lsblk`.
 
-```sh
+```
 NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 sda      8:0    0 119.2G  0 disk
 ├─sda1   8:1    0   512M  0 part

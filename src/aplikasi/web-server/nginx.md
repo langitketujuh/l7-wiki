@@ -6,7 +6,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get nginx
 ```
 
@@ -14,31 +14,31 @@ get nginx
 
 Beri hak akses `nginx` untuk pengguna.
 
-```sh
+```
 doas usermod -a -G nginx $USER
 ```
 
 ## Konfigurasi `nginx.conf`
 
-```sh
+```
 kate /etc/nginx/nginx.conf
 ```
 
 Tambahkan `index.php`, menjadi seperti ini:
 
-```sh
+```
 index  index.html index.htm index.php;
 ```
 
 Hapus komentar di bagian pass the PHP scripts to FastCGI server, dan ganti `/scripts` menjadi `/usr/share/nginx/html`:
 
-```sh
+```
 fastcgi_param  SCRIPT_FILENAME  /usr/share/nginx/html$fastcgi_script_name;
 ```
 
 Kurang lebih pengaturan nginx.conf seperti dibawah ini. Hanya yang perlu menghapus tanda `#` pagar bagian `location ~ \.php$` dan mengganti 2 baris diatas. Tujuannya agar nginx dapat menjalankan skrip php melalui php-fpm.
 
-```sh
+```
     server {
         listen       80;
         server_name  localhost;
@@ -67,19 +67,19 @@ Setelah di konfigurasi, silakan `reboot` sistemnya agar efek perizinan grup dapa
 
 ## Aktifkan layanan
 
-```sh
+```
 doas rsv enable nginx
 ```
 
 Restart juga layanan php-fpm
 
-```sh
+```
 doas rsv restart php-fpm
 ```
 
 Cek status layanan
 
-```sh
+```
 doas rsv status php-fpm
 ```
 
@@ -93,13 +93,13 @@ Anda dapat mengakses halaman nginx di <http://localhost>.
 
 Untuk menguji web server dapat menjalankan php, buatlah skrip `info.php`.
 
-```sh
+```
 kate /usr/share/nginx/html/info.php
 ```
 
 Isi dengan syntax berikut ini
 
-```sh
+```
 <?php
   phpinfo();
 ?>
@@ -115,17 +115,17 @@ Pada umumnya untuk distribusi linux menggunakan apache sebagai web server. Tetap
 
 Agar lebih mudah mengakses direktori localhost, beri hak akses untuk pengguna.
 
-```sh
+```
 doas chown -R $USER:$USER /usr/share/nginx/html/
 ```
 
 Sebagai contoh membuat nama proyek `myapps`, `webapps`, `wordpress` atau proyek lain. Anda dapat membukanya di <http://localhost/myapps>, <http://localhost/webapps>, <http://localhost/wordpress> dan sebagainya.
 
-```sh
+```
 tree /usr/share/nginx/html/
 ```
 
-```sh
+```
 /usr/share/nginx/html/
 ├── 50x.html
 ├── index.html

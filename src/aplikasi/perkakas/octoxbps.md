@@ -10,13 +10,13 @@ Di LangitKetujuh sendiri dengan paket `l7-octoxbps` sudah menonaktifkan pencaria
 
 ## Cara memasang
 
-```sh
+```
 get octoxbps l7-octoxbps
 ```
 
 Gunakan pengaturan tambahan.
 
-```sh
+```
 cp -rfv /etc/skel/.config/octoxbps/ ~/.config/
 ```
 
@@ -38,7 +38,7 @@ Sedangkan cara penggunaannya sebagai berikut.
 
 Biasanya octoxbps memerlukan kata sandi untuk sinkronisasi. Hal ini dikarenakan octoxbps membutuhkan eksekusi `sh` dengan pengguna root. Dengan demikian, sebagai pengguna dalam kategori wheel (administrator) agar dapat menjalankan octoxbps tanpa kata sandi, maka berikan akses tanpa kata sandi untuk `sh` di sudoers dengan menjalankan perintah dibawah ini (sekali saja).
 
-```sh
+```
 doas sh -c "echo '%wheel ALL=(ALL) NOPASSWD: /bin/sh' >> /etc/sudoers"
 ```
 

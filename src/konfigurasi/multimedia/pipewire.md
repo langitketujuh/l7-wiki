@@ -8,20 +8,20 @@ PipeWire merupakan kerangka kerja multimedia tingkat rendah yang baru. Ini bertu
 
 Tahapan dibawah ini menjelaskan tentang proses penghapusan PulseAudio terlebih dahulu lalu memasang PipeWire.
 
-```sh
+```
 remove pulseaudio alsa-plugins-pulseaudio l7-pulseaudio
 ```
 
 Pasang PipeWire dan dependensi.
 
-```sh
+```
 get pipewire alsa-pipewire libjack-pipewire \
 gstreamer1-pipewire l7-pipewire
 ```
 
 Nonaktifkan layanan audio server di sistem root. Sebab pemasangan ini akan berjalan atas pengguna.
 
-```sh
+```
 doas rsv disable pulseaudio
 doas rsv disable pipewire
 doas rsv disable pipewire-pulse
@@ -29,7 +29,7 @@ doas rsv disable pipewire-pulse
 
 Hapus konfigurasi kustom dan autostart PulseAudio jika ada.
 
-```sh
+```
 doas rm -rv /etc/pipewire/pipewire.conf ~/.config/autostart/Pulseaudio*
 ```
 
@@ -37,7 +37,7 @@ Kemudian logout atau reboot komputernya.
 
 Cek status PipeWire.
 
-```sh
+```
 inxi -A
 ```
 

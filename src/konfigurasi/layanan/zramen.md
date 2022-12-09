@@ -4,7 +4,7 @@ ZRAMEN untuk pengatur [zram](../../pemasangan/sistem-swap/zram.md), secara bawaa
 
 ## Cara memasang
 
-```sh
+```
 get zramen
 ```
 
@@ -12,7 +12,7 @@ get zramen
 
 - Melihat status zramen
 
-    ```sh
+    ```
     doas rsv status zramen
     ```
 
@@ -20,24 +20,24 @@ get zramen
 
     Secara bawaan zramen sudah aktif
 
-    ```sh
+    ```
     doas rsv enable zramen
     ```
 
 - Menonaktifkan zramen
 
-    ```sh
+    ```
     doas rsv disable zramen
     ```
 
 - Menjalankan ulang zramen
 
-    ```sh
+    ```
     doas rsv restart zramen
     ```
 
 ## Menghapus zramen daemon
 
-```sh
+```
 remove zramen
 ```

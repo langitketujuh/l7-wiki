@@ -11,7 +11,7 @@ Secara bawaan LangitKetujuh menggunakan [PipeWire] sebagai audio servernya. Taha
 
 Nonaktifkan layanan audio server di sistem root. Sebab pemasangan ini akan berjalan atas pengguna.
 
-```sh
+```
 doas rsv disable pulseaudio
 doas rsv disable pipewire
 doas rsv disable pipewire-pulse
@@ -19,20 +19,20 @@ doas rsv disable pipewire-pulse
 
 Menghapus PipeWire dan dependensinya.
 
-```sh
+```
 remove pipewire alsa-pipewire libjack-pipewire \
 gstreamer1-pipewire l7-pipewire
 ```
 
 Hapus autostart PipeWire jika ada.
 
-```sh
+```
 rm -rfv ~/.config/autostart/PipeWire*
 ```
 
 Selanjutnya memasang PulseAudio.
 
-```sh
+```
 get pulseaudio alsa-plugins-pulseaudio l7-pulseaudio
 ```
 
@@ -40,7 +40,7 @@ Kemudian logout atau reboot komputernya.
 
 Cek status PulseAudio.
 
-```sh
+```
 inxi -A
 ```
 

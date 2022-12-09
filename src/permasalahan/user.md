@@ -16,7 +16,7 @@ Pastikan masih ingat kata sandi `root` nya. Ini penting, karena akan masuk ke da
 
 Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+` menjadi `Fn+Ctrl+Alt+F2`.
 
-```sh
+```
 Username: root
 Password: (kata sandi yang sudah dibuat ketika memasang os)
 ```
@@ -31,7 +31,7 @@ Jika sudah masuk `root` dengan TTY maka akan terlihat tanda pagar root `root@hos
 
 Setelah berhasil masuk ke `root`, maka buatlah pengguna baru dengan cara:
 
-```sh
+```
 l7-tools --user
 ```
 

@@ -10,7 +10,7 @@
 
 Cara memasangnya buka di konsole atau melalui [OctoXBPS].
 
-```sh
+```
 get webapp-manager
 ```
 

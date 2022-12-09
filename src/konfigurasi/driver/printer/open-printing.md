@@ -12473,7 +12473,7 @@ Atau dapat dicek di tautan berikut ini:
 
 Sedangkan untuk jenis printer legacy keluaran lama memerlukan `foomatic-db-nonfree`.
 
-```sh
+```
 get void-repo-nonfree
 get foomatic-db-nonfree
 ```

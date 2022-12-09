@@ -14,7 +14,7 @@ Dukungan 110 perangkat lebih, dukungan 900 format RAW, dan fitur lainnya, [digiK
 
 ## Cara memasang
 
-```sh
+```
 get digikam
 ```
 

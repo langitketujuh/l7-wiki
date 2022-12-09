@@ -19,13 +19,13 @@ Gunakan KDE Partition, GParted, GNOME Disk, `cfdisk` atau alat pemartisi lainnya
 
 Berikut ini adalah contoh skema partisi di dalam disk yang sudah memiliki partisi **/boot**, **/**, dan **/home**. Sehingga perlu partisi **/** baru.
 
-```sh
+```
 lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL,MOUNTPOINT
 ```
 
 - Skema partisi lama.
 
-  ```sh
+  ```
   NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT
   sda    disk           498G
   ├─sda1 part vfat    512MiB
@@ -35,7 +35,7 @@ lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL,MOUNTPOINT
 
 - Skema partisi baru.
 
-  ```sh
+  ```
   NAME   TYPE FSTYPE    SIZE LABEL MOUNTPOINT
   sda    disk           498G
   ├─sda1 part vfat    512MiB
@@ -56,7 +56,7 @@ Buka menu, pilih `Install to Disk`.
 
 Atau menggunakan `Konsole` di menu, kemudian ketik perintah berikut ini.
 
-```sh
+```
 doas langitketujuh-install
 ```
 Kata sandi: `langitketujuh`
@@ -332,6 +332,6 @@ Untuk menampilkan distribusi GNU/Linux lain di grub menu dapat dilakukan dengan 
 
 Cara lainnya dengan menjalankan perintah dibawah ini di konsole.
 
-```sh
+```
 doas l7-tools --patch
 ```

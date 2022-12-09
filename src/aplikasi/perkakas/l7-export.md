@@ -64,7 +64,7 @@ Catatan: L7 Export akan berjalan di ubuntu dengan inkscape diatas versi 1.0.
 - Buka Konsole (terminal emulator) di direktori yang sama. Dengan cara klik kanan, klik "Open Terminal Here"
 - Masukkan perintah dibawah ini
 
-```sh
+```
 l7-export namaberkas.svg namaID
 ```
 

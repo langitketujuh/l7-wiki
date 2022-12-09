@@ -12,7 +12,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get ardour l7-ardour
 ```
 

@@ -6,13 +6,13 @@ Driver printer HP versi cli sudah terpasang secara otomatis, namun jika ingin me
 
 Menghapus versi cli.
 
-```sh
+```
 remove hplip
 ```
 
 Memasang versi gui.
 
-```sh
+```
 get hplip-gui
 ```
 

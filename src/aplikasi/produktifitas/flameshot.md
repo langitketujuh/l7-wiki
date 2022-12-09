@@ -8,13 +8,13 @@
 
 ## Cara memasang
 
-```sh
+```
 get flameshot l7-flameshot
 ```
 
 Gunakan pengaturan tambahan.
 
-```sh
+```
 cp -rfv /etc/skel/.config/flameshot/ ~/.config/
 ```
 

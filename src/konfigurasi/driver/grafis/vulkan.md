@@ -6,14 +6,14 @@ Vulkan secara bawaan belum terpasang untuk LangitKetujuh versi `20210921` dan se
 
   - AMD/ATI
 
-  ```sh
+  ```
   get Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
   libspa-vulkan mesa-vulkan-overlay-layer vkBasalt mesa-vulkan-radeon vkd3d amdvlk
   ```
 
   - Intel
 
-  ```sh
+  ```
   get Vulkan-Headers Vulkan-Tools Vulkan-ValidationLayers \
   libspa-vulkan mesa-vulkan-overlay-layer vkBasalt vulkan-loader mesa-vulkan-intel
   ```
@@ -22,7 +22,7 @@ Vulkan secara bawaan belum terpasang untuk LangitKetujuh versi `20210921` dan se
 
 Cek informasi vulkan dengan sistem saat ini.
 
-```sh
+```
 vulkaninfo
 ```
 
@@ -34,13 +34,13 @@ Pengguna juga dapat melihat informasi vulkan di `Info Center` > `Graphics` > `Vu
 
 Jika ingin menambahkan vulkan 32bit khusus untuk arsitektur `x86_64`, aktifkan dahulu repositori multilib `void-repo-multilib`.
 
-```sh
+```
 get void-repo-multilib
 ```
 
 Kemudian pasang mesa vulkan-loader dan mesa-vulkan 32bit.
 
-```sh
+```
 get vulkan-loader-32bit mesa-vulkan-intel-32bit \
 mesa-vulkan-radeon-32bit
 ```

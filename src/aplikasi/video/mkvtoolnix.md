@@ -8,7 +8,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get mkvtoolnix-gui
 ```
 

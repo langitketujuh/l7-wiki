@@ -24,7 +24,7 @@ Banyak plugin yang tersedia, seperti `abGate`, `calf`, `invada-studio-plugins`, 
 
 Carla tersedia di repositori dan dapat dipasang melalui [octoxbps] atau konsole.
 
-```sh
+```
 get Carla l7-carla
 ```
 

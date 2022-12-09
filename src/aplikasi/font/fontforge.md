@@ -10,7 +10,7 @@ FontForge mendukung semua format font yang umum seperti TrueType, Bitmap dan Pos
 
 ## Cara memasang
 
-```sh
+```
 get fontforge
 ```
 

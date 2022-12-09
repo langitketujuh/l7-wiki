@@ -4,7 +4,7 @@ TLP sebagai manajemen baterai laptop agar penggunaannya lebih hemat dan efisien.
 
 ## Cara memasang
 
-```sh
+```
 get tlp tlp-rdw
 ```
 
@@ -12,7 +12,7 @@ get tlp tlp-rdw
 
 - Melihat status tlp
 
-    ```sh
+    ```
     doas rsv status tlp
     ```
 
@@ -20,24 +20,24 @@ get tlp tlp-rdw
 
     Secara bawaan tlp sudah aktif
 
-    ```sh
+    ```
     doas rsv enable tlp
     ```
 
 - Menonaktifkan tlp
 
-    ```sh
+    ```
     doas rsv disable tlp
     ```
 
 - Menjalankan ulang tlp
 
-    ```sh
+    ```
     doas rsv restart tlp
     ```
 
 ## Menghapus tlp daemon
 
-```sh
+```
 remove tlp tlp-rdw
 ```

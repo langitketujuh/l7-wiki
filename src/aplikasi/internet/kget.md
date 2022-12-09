@@ -8,7 +8,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get kget l7-kget
 ```
 

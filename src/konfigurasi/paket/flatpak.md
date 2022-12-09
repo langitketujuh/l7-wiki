@@ -4,7 +4,7 @@
 
 Diharuskan menjalankan perintah ini saat pertama kali menggunakan flatpak atar tidak galat saat melakukan pemasangan aplikasi.
 
-```sh
+```
 flathub
 ```
 

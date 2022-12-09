@@ -2,7 +2,7 @@
 
 Cek kartu jaringan wifi dengan menjalankan konsole perintah ini.
 
-```sh
+```
 inxi -Nxxx
 ```
 
@@ -12,13 +12,13 @@ Untuk mengatasi hal tersebut, di dalam repositori voidlinux sudah menyediakan dr
 
 Pasang repositori [nonfree]. Sebab broadcom merupakan perangkat lunak proprietary (tidak terbuka).
 
-```sh
+```
 get void-repo-nonfree
 ```
 
 Pasang driver broadcom dkms.
 
-```sh
+```
 get broadcom-wl-dkms
 ```
 

@@ -6,7 +6,7 @@ Jika ketika memasang perangkat lunak dengan `get <pkg>` dan menemui error `in tr
 
 Solusinya dengan [memperbarui sistem operasi](../konfigurasi/pembaruan.md) atau dengan menjalankan:
 
-```sh
+```
 upgrade
 ```
 
@@ -16,13 +16,13 @@ Jika ketika memperbarui sistem mendapatkan pemberitahuan `ERROR: bluez '/etc/sv/
 
 Solusinya dengan menjalankan:
 
-```sh
+```
 doas rm -rf /etc/sv/bluetoothd/log/supervise
 ```
 
 Tujuannya untuk mengosongkan kembali log supervise bluetoothd yang lama. Kemudian ulangi [memperbarui sistem operasi](../konfigurasi/pembaruan.md) atau dengan menjalankan:
 
-```sh
+```
 upgrade
 ```
 
@@ -32,6 +32,6 @@ Jika ada pemberitahuan yang mirip seperti ini `xxxxxxx-x.x_1: broken, unresolvab
 
 Solusinya dengan [memperbarui sistem operasi](../konfigurasi/pembaruan.md) atau dengan menjalankan:
 
-```sh
+```
 upgrade
 ```

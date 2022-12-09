@@ -6,7 +6,7 @@ Manfaat lainnya untuk menghindari mematikan mesin secara paksa ketika komputer t
 
 ## Cara memasang
 
-```sh
+```
 get earlyoom
 ```
 
@@ -14,7 +14,7 @@ get earlyoom
 
 - Melihat status earlyoom
 
-    ```sh
+    ```
     doas rsv status earlyoom
     ```
 
@@ -22,24 +22,24 @@ get earlyoom
 
     Secara bawaan earlyoom sudah aktif
 
-    ```sh
+    ```
     doas rsv enable earlyoom
     ```
 
 - Menonaktifkan earlyoom
 
-    ```sh
+    ```
     doas rsv disable earlyoom
     ```
 
 - Menjalankan ulang earlyoom
 
-    ```sh
+    ```
     doas rsv restart earlyoom
     ```
 
 ## Menghapus earlyoom daemon
 
-```sh
+```
 remove earlyoom
 ```

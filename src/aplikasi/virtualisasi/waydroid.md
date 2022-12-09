@@ -8,7 +8,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get waydroid python3-pyclip
 ```
 
@@ -16,7 +16,7 @@ get waydroid python3-pyclip
 
 Dikarenakan LangitKetujuh mengaktifkan layanan `ufw`, maka perlu memberikan akses untuk port yang dibutuhkan waydroid.
 
-```sh
+```
 doas ufw allow 67
 doas ufw allow 53
 doas ufw default allow FORWARD
@@ -31,7 +31,7 @@ Jalankan waydroid init untuk pertama kalinya. Pilih salah satu, vanilla atau gap
 
   Versi android ini tidak memiliki aplikasi google.
 
-  ```sh
+  ```
   doas waydroid init
   ```
 
@@ -39,7 +39,7 @@ Jalankan waydroid init untuk pertama kalinya. Pilih salah satu, vanilla atau gap
 
   Jika ingin memasang waydroid dengan google apps, maka jalankan perintah berikut ini.
 
-  ```sh
+  ```
   doas waydroid init -s GAPPS -f
   ```
 
@@ -47,13 +47,13 @@ Jalankan waydroid init untuk pertama kalinya. Pilih salah satu, vanilla atau gap
 
 - Mengaktifkan layanan. Untuk pertama kalinya, jalankan layanan waydroid.
 
-  ```sh
+  ```
   doas rsv enable waydroid-container
   ```
 
 - Menonaktifkan layanan. Jika waydroid sudah tidak perlu diaktifkan, jalankan perintah ini.
 
-  ```sh
+  ```
   doas rsv disable waydroid-container
   ```
 
@@ -79,17 +79,17 @@ Kemudian ikuti panduan dibawah ini.
 
 - Dapatkan id perangkat dengan menjalankan waydroid shell di konsole.
 
-  ```sh
+  ```
   doas waydroid shell
   ```
 
-  ```sh
+  ```
   ANDROID_RUNTIME_ROOT=/apex/com.android.runtime ANDROID_DATA=/data ANDROID_TZDATA_ROOT=/system/usr/share/zoneinfo ANDROID_I18N_ROOT=/apex/com.android.i18n sqlite3 /data/data/com.google.android.gsf/databases/gservices.db "select * from main where name = \"android_id\";"; exit
   ```
 
   Hasil keluaran berupa id perangkat seperti dibawah ini:
 
-  ```sh
+  ```
   android_id|4456297304XXXXXXXXX
   ```
 
@@ -103,7 +103,7 @@ Kemudian ikuti panduan dibawah ini.
 
 - Tutup sesi waydroid.
 
-  ```sh
+  ```
   waydroid session stop
   ```
 
@@ -111,13 +111,13 @@ Kemudian ikuti panduan dibawah ini.
 
 ## Memasang _apk_ secara offline
 
-```sh
+```
 doas waydroid app install <aplikasi>.apk
 ```
 
 Sebagai contoh:
 
-```sh
+```
 doas waydroid app install Downloads/krita.apk
 ```
 

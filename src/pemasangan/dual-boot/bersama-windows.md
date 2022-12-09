@@ -13,13 +13,13 @@ Gunakan KDE Partition, GParted, GNOME Disk, `cfdisk` atau alat pemartisi lainnya
 | **Home**   | 10 GiB  | 25 Gib     |
 | **Studio** | 20 GiB  | 40 Gib     |
 
-```sh
+```
 lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL
 ```
 
 - Skema partisi lama.
 
-  ```sh
+  ```
   NAME   TYPE FSTYPE    SIZE LABEL
   sda    disk           498G
   ├─sda1 part ntfs       50M System Reserved
@@ -29,7 +29,7 @@ lsblk -o NAME,TYPE,FSTYPE,SIZE,LABEL
 
 - Skema partisi baru. Pemartisian dengan Disk Management Windows dengan menambahkan partisi baru `40G` dan `160G`.
 
-  ```sh
+  ```
   NAME   TYPE FSTYPE    SIZE LABEL
   sda    disk           498G
   ├─sda1 part ntfs       50M System Reserved
@@ -51,7 +51,7 @@ Buka menu, pilih `Install to Disk`.
 
 Atau menggunakan `Konsole` di menu, kemudian ketik perintah berikut ini.
 
-```sh
+```
 doas langitketujuh-install
 ```
 Kata sandi: `langitketujuh`
@@ -320,6 +320,6 @@ Untuk menampilkan Windows di grub menu dapat dilakukan dengan cara [memperbarui 
 
 Cara lainnya dengan menjalankan perintah dibawah ini di konsole.
 
-```sh
+```
 doas l7-tools --patch
 ```

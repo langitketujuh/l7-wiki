@@ -19,13 +19,13 @@ Adapun profil CMYK yang didukung adalah sebagai berikut:
 
 ### LangitKetujuh OS
 
-  ```sh
+  ```
   get ccc
   ```
 
 ### GNU/Linux lain
 
-  ```sh
+  ```
   git clone https://gitlab.com/langitketujuh/ccc
   cd ccc
   sudo make install
@@ -35,13 +35,13 @@ Adapun profil CMYK yang didukung adalah sebagai berikut:
 
 Sebagai contoh jika ingin merubah `rgb.png` (sebagai input) ke `cmyk.jpg` (sebagai output), maka perintah yang digunakan adalah:
 
-  ```sh
+  ```
   ccc -i rgb.png -o cmyk.jpg
   ```
 
 Jika ingin menggunakan profil CMYK lainnya bisa menggunakan parameter `-p`, secara bawaan bernilai `1` untuk profil Ghostscript. Pengguna dapat memilih jenis profil 1-4 sesuai profil yang tersedia. Misalnya memilih profil `2` untuk Krita (Chemical proof):
 
-  ```sh
+  ```
   ccc -i rgb.png -o cmyk.jpg -p 2
   ```
 

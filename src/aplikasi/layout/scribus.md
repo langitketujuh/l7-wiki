@@ -15,13 +15,13 @@ Secara bawaan, [Scribus] di sistem operasi LangitKetujuh sudah terpasang ghostsc
 
 ## Cara memasang
 
-```sh
+```
 get scribus l7-scribus
 ```
 
 Gunakan pengaturan tambahan.
 
-```sh
+```
 cp -rfv /etc/skel/.config/scribus/ ~/.config/
 ```
 

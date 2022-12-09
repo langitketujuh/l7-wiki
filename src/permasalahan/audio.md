@@ -10,13 +10,13 @@ Jika masih menggunakan PulseAudio, kami sarankan juga untuk segera mengganti ke 
 
 Periksa modul snd-aloop aktif atau tidaknya.
 
-```sh
+```
 cat /etc/modules-load.d/snd-aloop.conf
 ```
 
 Jika hasilnya kosong atau `#snd-aloop` dengan tanda pagar maka modulnya sudah tidak aktif, tetapi jika keluarannya `snd-aloop` maka modulnya aktif. Untuk menonaktifkannya, hapus konfigurasi modul snd-aloop dengan menjalankan perintah dibawah ini.
 
-```sh
+```
 doas rm /etc/modules-load.d/snd-aloop.conf
 ```
 
@@ -32,7 +32,7 @@ Biasanya bluetooth tidak otomatis menerima audio dari komputer untuk pertama kal
 
 Kendala lainnya yaitu bluetooth tidak berhasil disambungkan. Solusinya dengan memasang `libspa-bluetooth` dan menambahkan grup pengguna ke bluetooth.
 
-```sh
+```
 get libspa-bluetooth
 doas usermod -aG bluetooth $USER
 ```
@@ -45,7 +45,7 @@ Selanjutnya, hapus daftar speaker/headset yang sebelumnya sudah pernah tersambun
 
 Hentikan sementara dan aktifkan kembali layanan bluetoothd dengan menjalankan:
 
-```sh
+```
 doas sv stop bluetoothd; sleep 3; doas sv start bluetoothd
 ```
 
@@ -63,7 +63,7 @@ Ada beberapa faktor jika terjadi demikian, diantaranya:
 - Komputer belum tersambung dengan headset atau speaker, solusinya cek perangkatnya tersambung ke port usb atau tidak.
 - Perangkat audio yang tidak didukung oleh kernel linux, solusinya ganti kernel sebelumnya atau memasang kernel lts (cara ini belum tentu berhasil, tergantung dari sound card).
   - Pasang kernel lts.
-  ```sh
+  ```
   get linux-lts{,-headers}
   ```
   - Nyalakan ulang komputer. Pilih `Advanced Option`. Pilih versi kernel linux lts, misalnya `linux5.10`.

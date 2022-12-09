@@ -10,7 +10,7 @@ Kami menyarankan menggunakan ekstensi `ogg`, sebab legal dan bebas dari pembatas
 
 ## Cara memasang
 
-```sh
+```
 get soundkonverter
 ```
 

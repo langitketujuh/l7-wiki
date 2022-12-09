@@ -6,13 +6,13 @@ Setelah reboot kemudian masuk ke Live USB, selanjutnya periksa jenis boot mode y
 
 Cara memeriksa boot mode yaitu dengan mengetik perintah ini di `konsole`.
 
-```sh
+```
 efibootmgr
 ```
 
 Jika hasilnya ada keluaran daftar EFI `Boot0000`, `Boot9999`, dan seterusnya. Maka boot mode sudah benar dengan menggunakan boot UEFI.
 
-```sh
+```
 ➜  ~ efibootmgr
 Timeout: 0 seconds
 BootOrder: 0000,9999
@@ -29,12 +29,12 @@ Kami menyarankan jika sistem bios mendukung UEFI maka gunakanlah UEFI, karena UE
 
 Periksa boot mode di `konsole`.
 
-```sh
+```
 efibootmgr
 ```
 
 Jika hasilnya ada keluaran seperti dibawah ini, maka bootmode menggunakan mode legacy dan itu sudah benar.
 
-```sh
+```
 EFI variables are not supported on this system
 ```

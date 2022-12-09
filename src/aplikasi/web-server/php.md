@@ -6,7 +6,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get php php-apache php-cgi php-fpm php-gd php-mysql php-embed php-intl php-snmp
 ```
 
@@ -14,7 +14,7 @@ get php php-apache php-cgi php-fpm php-gd php-mysql php-embed php-intl php-snmp
 
 Anda dapat menggunakan teks editor lain seperti `nano` jika tidak familiar dengan `vim`.
 
-```sh
+```
 kate /etc/php/php-fpm.d/www.conf
 ```
 
@@ -30,13 +30,13 @@ Pemasangan [Nginx] akan dipasang di panduan berikutnya.
 
 ## Mengaktifkan layanan
 
-```sh
+```
 doas rsv enable php-fpm
 ```
 
 ## Cek layanan
 
-```sh
+```
 doas rsv status php-fpm
 ```
 

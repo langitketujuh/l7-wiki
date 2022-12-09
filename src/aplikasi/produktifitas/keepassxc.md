@@ -8,13 +8,13 @@
 
 ## Cara memasang
 
-```sh
+```
 get keepassxc l7-keepassxc
 ```
 
 Gunakan pengaturan tambahan.
 
-```sh
+```
 cp -rfv /etc/skel/.config/keepassxc/ ~/.config/
 ```
 

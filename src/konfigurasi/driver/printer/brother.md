@@ -4,7 +4,7 @@
 
 Pasang Driver printer brother.
 
-```sh
+```
 get brother-brlaser
 ```
 
@@ -64,7 +64,7 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 
 Beberapa driver dibawah ini hanya tersedia di glibc saja dan membutuhkan repo tambahan [nonfree]. Sebab beberapa driver Brother merupakan perangkat lunak proprietary (tidak terbuka).
 
-```sh
+```
 get void-repo-nonfree
 ```
 

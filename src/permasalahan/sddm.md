@@ -10,7 +10,7 @@ Ini terjadi ketika terjadi perubahan sesi login dan saat update dengan ukuran ya
 
 Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+` menjadi `Fn+Ctrl+Alt+F2`.
 
-```sh
+```
 Username: pengguna
 Password: (kata sandi)
 ```
@@ -38,7 +38,7 @@ Penyebab utamanya karena pembaruan belum selesai, sehingga harus dilanjutkan pro
 
 Tekan `Ctrl+Alt+F2` untuk masuk ke mode TTY2. Jika menggunakan vendor Lenovo, biasanya menambahkan tombol kombinasi `Fn+` menjadi `Fn+Ctrl+Alt+F2`.
 
-```sh
+```
 Username: pengguna
 Password: (kata sandi)
 ```

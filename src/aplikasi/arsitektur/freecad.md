@@ -12,7 +12,7 @@ Perangkat lunak [FreeCAD] merupakan perangkat lunak desain parametrik (ukuran te
 
 ## Cara memasang
 
-```sh
+```
 get freecad
 ```
 

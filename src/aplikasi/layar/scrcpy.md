@@ -8,7 +8,7 @@ Screen Copy atau yang lebih dikenal dengan [scrcpy] berguna untuk melihat dan me
 
 ## Cara memasang
 
-```sh
+```
 get android-udev-rules android-tools scrcpy
 ```
 
@@ -16,13 +16,13 @@ get android-udev-rules android-tools scrcpy
 
 Pastikan layanan adb sudah aktif. Cek dengan perintah ini:
 
-```sh
+```
 doas rsv status adb
 ```
 
 Apabila sudah aktif, maka terdapat tanda `run:`. Jika belum aktif, maka jalankan perintah ini:
 
-```sh
+```
 doas rsv enable adb
 ```
 

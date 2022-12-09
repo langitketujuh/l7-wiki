@@ -23,7 +23,7 @@ Output:
 
 ## Cara memasang
 
-```sh
+```
 get obs l7-ssr
 ```
 

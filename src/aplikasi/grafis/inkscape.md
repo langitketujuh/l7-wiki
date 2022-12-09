@@ -8,13 +8,13 @@
 
 ## Cara memasang
 
-```sh
+```
 get inkscape l7-inkscape
 ```
 
 Gunakan pengaturan tambahan.
 
-```sh
+```
 cp -rfv /etc/skel/.config/inkscape/ ~/.config/
 ```
 
@@ -27,7 +27,7 @@ Plugin tambahan (opsional):
 
 Memasang plugin:
 
-```sh
+```
 get \
 inkscape-{generate-palette,inx-pathops,multicalendar,nextgenerator}
 ```

@@ -7,14 +7,14 @@ Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus a
 
 ## Cara memasang
 
-    ```sh
+    ```
     get Clight Clightd
     ```
 ## Penggunaan
 
 - Melihat status clightd
 
-    ```sh
+    ```
     doas rsv status Clightd
     ```
 
@@ -22,24 +22,24 @@ Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus a
 
     Secara bawaan clightd sudah aktif
 
-    ```sh
+    ```
     doas rsv enable Clightd
     ```
 
 - Menonaktifkan clightd
 
-    ```sh
+    ```
     doas rsv disable Clightd
     ```
 
 - Menjalankan ulang clightd
 
-    ```sh
+    ```
     doas rsv restart Clightd
     ```
 
 - Menghapus clight dan clight daemon
 
-    ```sh
+    ```
     remove Clight Clightd
     ```

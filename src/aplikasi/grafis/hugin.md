@@ -12,7 +12,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get hugin
 ```
 
