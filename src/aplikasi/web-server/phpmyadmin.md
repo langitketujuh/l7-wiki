@@ -6,7 +6,7 @@
 
 ## Cara memasang
 
-```sh
+```
 get phpMyAdmin
 ```
 
@@ -14,31 +14,32 @@ get phpMyAdmin
 
 Agar dapat diakses, pindahkan jalur phpMyAdmin ke nginx dengan symlink.
 
-```sh
+```
 doas ln -s /usr/share/webapps/phpMyAdmin /usr/share/nginx/html/
 ```
 
 ## Konfigurasi php.ini
 
-```sh
+```
 kate /etc/php/php.ini
 ```
 
 Aktifkan ekstensi `mysqli` dengan menghapus titik koma `;` menjadi:
 
-```sh
+```
 extension=mysqli
 ```
 
 ## Restart layanan
 
-```sh
-doas rsv restart php-fpm nginx
+```
+doas rsv restart php-fpm
+doas rsv restart nginx
 ```
 
 Cek semua layanan.
 
-```sh
+```
 doas rsv list --enabled
 ```
 
