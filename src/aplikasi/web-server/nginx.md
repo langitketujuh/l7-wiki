@@ -20,23 +20,27 @@ doas usermod -a -G nginx $USER
 
 ## Konfigurasi `nginx.conf`
 
+Buka konfigurasi `nginx.conf`.
+
 ```
 kate /etc/nginx/nginx.conf
 ```
 
-Tambahkan `index.php`, menjadi seperti ini:
+1. Tambahkan `index.php`, menjadi seperti ini:
 
-```
-index  index.html index.htm index.php;
-```
+    ```
+    index  index.html index.htm index.php;
+    ```
 
-Hapus komentar di bagian pass the PHP scripts to FastCGI server, dan ganti `/scripts` menjadi `/usr/share/nginx/html`:
+2. Hapus komentar tanda pagar `#` di bagian pass the PHP scripts to FastCGI server agar nginx dapat menjalankan skrip php melalui php-fpm.
 
-```
-fastcgi_param  SCRIPT_FILENAME  /usr/share/nginx/html$fastcgi_script_name;
-```
+3. ganti `/scripts` menjadi `/usr/share/nginx/html`.
 
-Kurang lebih pengaturan nginx.conf seperti dibawah ini. Hanya yang perlu menghapus tanda `#` pagar bagian `location ~ \.php$` dan mengganti 2 baris diatas. Tujuannya agar nginx dapat menjalankan skrip php melalui php-fpm.
+    ```
+    fastcgi_param  SCRIPT_FILENAME  /usr/share/nginx/html$fastcgi_script_name;
+    ```
+
+Kurang lebih pengaturan nginx.conf seperti dibawah ini.
 
 ```
     server {
