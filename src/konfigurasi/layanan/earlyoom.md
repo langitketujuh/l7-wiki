@@ -15,7 +15,7 @@ get earlyoom
 - Melihat status earlyoom
 
     ```sh
-    rsv status earlyoom
+    doas rsv status earlyoom
     ```
 
 - Mengaktifkan earlyoom
@@ -23,19 +23,19 @@ get earlyoom
     Secara bawaan earlyoom sudah aktif
 
     ```sh
-    rsv enable earlyoom
+    doas rsv enable earlyoom
     ```
 
 - Menonaktifkan earlyoom
 
     ```sh
-    rsv disable earlyoom
+    doas rsv disable earlyoom
     ```
 
 - Menjalankan ulang earlyoom
 
     ```sh
-    rsv restart earlyoom
+    doas rsv restart earlyoom
     ```
 
 ## Menghapus earlyoom daemon

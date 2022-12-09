@@ -13,7 +13,7 @@ get zramen
 - Melihat status zramen
 
     ```sh
-    rsv status zramen
+    doas rsv status zramen
     ```
 
 - Mengaktifkan zramen
@@ -21,19 +21,19 @@ get zramen
     Secara bawaan zramen sudah aktif
 
     ```sh
-    rsv enable zramen
+    doas rsv enable zramen
     ```
 
 - Menonaktifkan zramen
 
     ```sh
-    rsv disable zramen
+    doas rsv disable zramen
     ```
 
 - Menjalankan ulang zramen
 
     ```sh
-    rsv restart zramen
+    doas rsv restart zramen
     ```
 
 ## Menghapus zramen daemon

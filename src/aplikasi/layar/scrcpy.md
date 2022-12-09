@@ -17,13 +17,13 @@ get android-udev-rules android-tools scrcpy
 Pastikan layanan adb sudah aktif. Cek dengan perintah ini:
 
 ```sh
-rsv status adb
+doas rsv status adb
 ```
 
 Apabila sudah aktif, maka terdapat tanda `run:`. Jika belum aktif, maka jalankan perintah ini:
 
 ```sh
-rsv enable adb
+doas rsv enable adb
 ```
 
 ## Aktifkan usb debug di android smartphone

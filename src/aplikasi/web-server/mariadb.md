@@ -21,13 +21,13 @@ doas usermod -a -G mysql $USER
 ## Aktifkan layanan
 
 ```sh
-rsv enable mysqld
+doas rsv enable mysqld
 ```
 
 Cek layanan.
 
 ```sh
-rsv list --enabled
+doas rsv status mysqld
 ```
 
 ## Konfigurasi mysql

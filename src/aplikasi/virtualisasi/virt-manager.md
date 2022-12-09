@@ -27,23 +27,23 @@ modprobe kvm-amd    # untuk AMD CPUs
 ## Mengaktifkan layanan virtualisasi
 
 ```sh
-rsv enable libvirtd
-rsv enable virtlockd
-rsv enable virtlogd
+doas rsv enable libvirtd
+doas rsv enable virtlockd
+doas rsv enable virtlogd
 ```
 
 Gunakan rsv untuk melihat layanan yang berjalan.
 
 ```sh
-rsv status libvirtd
-rsv status virtlockd
-rsv status virtlogd
+doas rsv status libvirtd
+doas rsv status virtlockd
+doas rsv status virtlogd
 ```
 
 Contoh keluarannya seperti berikut ini.
 
 ```sh
-➜  ~ rsv status virt
+➜  ~ doas rsv status virt
 run: libvirtd: (pid 17454) 843s
 run: virtlockd: (pid 803) 19395s
 run: virtlogd: (pid 806) 19395s

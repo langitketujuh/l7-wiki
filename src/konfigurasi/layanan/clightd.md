@@ -15,7 +15,7 @@ Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus a
 - Melihat status clightd
 
     ```sh
-    rsv status Clightd
+    doas rsv status Clightd
     ```
 
 - Mengaktifkan clightd
@@ -23,19 +23,19 @@ Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus a
     Secara bawaan clightd sudah aktif
 
     ```sh
-    rsv enable Clightd
+    doas rsv enable Clightd
     ```
 
 - Menonaktifkan clightd
 
     ```sh
-    rsv disable Clightd
+    doas rsv disable Clightd
     ```
 
 - Menjalankan ulang clightd
 
     ```sh
-    rsv restart Clightd
+    doas rsv restart Clightd
     ```
 
 - Menghapus clight dan clight daemon

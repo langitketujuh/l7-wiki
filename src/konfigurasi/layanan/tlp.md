@@ -13,7 +13,7 @@ get tlp tlp-rdw
 - Melihat status tlp
 
     ```sh
-    rsv status tlp
+    doas rsv status tlp
     ```
 
 - Mengaktifkan tlp
@@ -21,19 +21,19 @@ get tlp tlp-rdw
     Secara bawaan tlp sudah aktif
 
     ```sh
-    rsv enable tlp
+    doas rsv enable tlp
     ```
 
 - Menonaktifkan tlp
 
     ```sh
-    rsv disable tlp
+    doas rsv disable tlp
     ```
 
 - Menjalankan ulang tlp
 
     ```sh
-    rsv restart tlp
+    doas rsv restart tlp
     ```
 
 ## Menghapus tlp daemon
