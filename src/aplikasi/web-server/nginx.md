@@ -12,10 +12,10 @@ get nginx
 
 ## Hak akses
 
-Beri hak akses `http` dan `nginx` untuk pengguna.
+Beri hak akses `nginx` untuk pengguna.
 
 ```sh
-doas usermod -a -G http,nginx $USER
+doas usermod -a -G nginx $USER
 ```
 
 ## Konfigurasi `nginx.conf`
@@ -63,22 +63,24 @@ Kurang lebih pengaturan nginx.conf seperti dibawah ini. Hanya yang perlu menghap
     }
 ```
 
+Setelah di konfigurasi, silakan `reboot` sistemnya agar efek perizinan grup dapat bekerja.
+
 ## Aktifkan layanan
 
 ```sh
-rsv enable nginx
+doas rsv enable nginx
 ```
 
 Restart juga layanan php-fpm
 
 ```sh
-rsv restart php-fpm
+doas rsv restart php-fpm
 ```
 
 Cek status layanan
 
 ```sh
-rsv list --enabled
+doas rsv status php-fpm
 ```
 
 ## Halaman localhost

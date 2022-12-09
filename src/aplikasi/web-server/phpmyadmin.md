@@ -33,13 +33,13 @@ extension=mysqli
 ## Restart layanan
 
 ```sh
-rsv restart php-fpm nginx
+doas rsv restart php-fpm nginx
 ```
 
-Cek layanan.
+Cek semua layanan.
 
 ```sh
-rsv list --enabled
+doas rsv list --enabled
 ```
 
 ## Halaman phpMyAdmin

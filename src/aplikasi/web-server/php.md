@@ -18,28 +18,29 @@ Anda dapat menggunakan teks editor lain seperti `nano` jika tidak familiar denga
 kate /etc/php/php-fpm.d/www.conf
 ```
 
-Ganti pengguna `http` dengan pengguna saat ini. Nama pengguna dapat dicek dengan perintah `whoami`. Pada contoh kali ini menggunakan user `l7`.
+Ganti nama pengguna (user) yaitu `http` dengan nama pengguna saat ini. Nama pengguna dapat dicek dengan perintah `whoami`. Pada contoh kali ini menggunakan user `anon`.
 
 ```
-user = l7       # ganti dengan user saat ini
-group = http
+user = anon       # ganti http dengan user saat ini (whoami)
+group = nginx     # ganti http dengan grup nginx
 ```
 
 Kemudian simpan.
+Pemasangan [Nginx] akan dipasang di panduan berikutnya.
 
 ## Mengaktifkan layanan
 
 ```sh
-rsv enable php-fpm
+doas rsv enable php-fpm
 ```
 
 ## Cek layanan
 
 ```sh
-rsv list --enabled
+doas rsv status php-fpm
 ```
 
-Biasanya layanan `php-fpm` akan error belum dapat berjalan, hal ini normal sebab pengaturan php-fpm di [Nginx] web server belum dikonfigurasi.
+Biasanya layanan `php-fpm` akan error (down) belum dapat berjalan, hal ini normal sebab pengaturan php-fpm di [Nginx] web server belum dikonfigurasi.
 
 [PHP]:https://www.php.net/
 [Nginx]:nginx.md

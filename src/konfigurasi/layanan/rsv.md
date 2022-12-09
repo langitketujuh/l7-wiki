@@ -20,44 +20,51 @@ get rsv
 
 - Status layanan
 
+    Layanan tertentu.
+
     ```sh
-    rsv list
+    doas rsv status <layanan>
     ```
 
-    Layanan aktif.
+    Semua layanan
+    ```sh
+    doas rsv list
+    ```
+
+    Layanan aktif saja.
 
     ```sh
-    rsv list --enabled
+    doas rsv list --enabled
     ```
 
 - Mengaktifkan layanan
 
     ```sh
-    rsv enable <layanan>
+    doas rsv enable <layanan>
     ```
 
 - Menonaktifkan layanan
 
     ```sh
-    rsv disable <layanan>
+    doas rsv disable <layanan>
     ```
 
 - Memulai layanan
 
     ```sh
-    rsv start <layanan>
+    doas rsv start <layanan>
     ```
 
 - Menghentikan layanan
 
     ```sh
-    rsv stop <layanan>
+    doas rsv stop <layanan>
     ```
 
 - Status layanan
 
     ```sh
-    rsv status <layanan>
+    doas rsv status <layanan>
     ```
 
 ## Bantuan
