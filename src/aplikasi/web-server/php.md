@@ -12,7 +12,7 @@ get php php-apache php-cgi php-fpm php-gd php-mysql php-embed php-intl php-snmp
 
 ## Konfigurasi php-fpm
 
-Anda dapat menggunakan teks editor lain seperti `nano` jika tidak familiar dengan `vim`.
+Selain `kate`, pengguna juga dapat menggunakan `nano` atau `vim`.
 
 ```
 kate /etc/php/php-fpm.d/www.conf
