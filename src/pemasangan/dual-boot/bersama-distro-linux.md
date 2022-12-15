@@ -63,7 +63,7 @@ Kata sandi: `langitketujuh`
 
 ![LangitKetujuh Install](../../media/image/install-splash.webp)
 
-Tekan `Enter` untuk melanjutkan ke pemasangan. Pengguna akan melihat langkah demi langkah tahapan yang harus diselesaikan. Seperti `Keyboard`, `Network`, `Source`, `Hostname` hingga ke `Install`.
+Tekan `Enter` untuk melanjutkan ke pemasangan. Pengguna akan melihat langkah demi langkah tahapan yang harus diselesaikan. Seperti `Keyboard`, `Network`, `Hostname` hingga ke `Install`.
 
 ![LangitKetujuh Install](../../media/image/install-step.webp)
 
@@ -76,12 +76,6 @@ Pilih `us` untuk jenis papan ketik qwerty.
 ### Network
 
 Lewati tahap ini karena pemasangan sebaiknya dilakukan secara offline. Jika terlanjur terklik, pilih `Back` untuk kembali.
-
-### Source
-
-Pilih `Local` untuk pemasangan offline agar lebih cepat prosesnya.
-
-![LangitKetujuh Install](../../media/image/install-source.webp)
 
 ### Hostname
 
