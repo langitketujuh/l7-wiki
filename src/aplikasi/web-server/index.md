@@ -7,7 +7,7 @@ Digunakan untuk keperluan back-end development dengan pendekatan open source. Ko
 - [MariaDB], sebagai sistem basis data.
 - [phpMyAdmin], sistem basis data berbasis web.
 
-Pada panduan perintah di web server ini menggunakan `kate` sebagai teks editor yang digunakan di KDE Plasma. Anda dapat menggantinya menggunakan `nano`, `vi`, `vim`, `hx` (helix) atau teks editor lainnya yang lebih mendukung.
+Pada panduan perintah di web server ini menggunakan `nano` sebagai terminal teks editor. Anda dapat menggantinya menggunakan `vi`, `vim`, `hx` (helix) atau teks editor lainnya yang lebih mendukung.
 
 [Nginx]:nginx.md
 [PHP]:php.md

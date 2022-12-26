@@ -12,29 +12,54 @@ get php php-apache php-cgi php-fpm php-gd php-mysql php-embed php-intl php-snmp
 
 ## Konfigurasi php-fpm
 
-Selain `kate`, pengguna juga dapat menggunakan `nano` atau `vim`.
+Selain `nano`, pengguna juga dapat menggunakan `vim` atau `hx`.
 
 ```
-kate /etc/php/php-fpm.d/www.conf
+doas nano /etc/php/php-fpm.d/www.conf
 ```
 
-Ganti nama pengguna (user) yaitu `http` dengan nama pengguna saat ini. Nama pengguna dapat dicek dengan perintah `whoami`. Pada contoh kali ini menggunakan user `anon`.
+Ganti nama pengguna `http` dengan nama pengguna saat ini, nama pengguna dapat dicek dengan perintah `whoami`. Pada contoh kali ini menggunakan user `anon`.  Dan ganti juga nama group `http` menjadi `nginx`.
 
 ```
-user = anon       # ganti http dengan user saat ini (whoami)
-group = nginx     # ganti http dengan grup nginx
+user = anon
+group = nginx
 ```
 
 Kemudian simpan.
-Pemasangan [Nginx] akan dipasang di panduan berikutnya.
 
-## Mengaktifkan layanan
+## Konfigurasi php.ini
+
+```
+doas nano /etc/php/php.ini
+```
+
+Ganti `memory_limit = 128M` menjadi `-1` agar tidak ada batasan memori.
+
+```
+memory_limit = -1
+```
+
+Aktifkan beberapa ekstensi dengan menghapus titik koma `;`, ganti nilai `M`, dan `Off` menjadi `On`.
+
+```
+extension=mysqli
+extension=pdo_mysql
+display_errors = On
+post_max_size = 2048M
+upload_max_filesize = 1024M
+```
+
+Simpan dan keluar. (Ctrl+x, Y, Enter)
+
+## Layanan php-fpm
+
+Aktifkan layanan php-fpm
 
 ```
 doas rsv enable php-fpm
 ```
 
-## Cek layanan
+Cek layanan
 
 ```
 doas rsv status php-fpm

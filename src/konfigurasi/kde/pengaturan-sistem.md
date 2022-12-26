@@ -56,7 +56,7 @@ Multi bahasa hanya mendukung arsitektur glibc saja, yaitu `i686` dan `x86_64`. J
 - Klik `Apply`.
 - Buka konsole, jalankan perintah:
     ```
-    kate /etc/default/libc-locales
+    doas nano /etc/default/libc-locales
     ```
 - Ganti dan hapus tanda pagar bahasa yang berkaitan. Misalnya bahasa indonesia `#id_ID.UTF-8 UTF-8` menjadi `id_ID.UTF-8 UTF-8`. Lalu simpan (Ctrl+s), masukkan kata sandi jika diperlukan.
 - Konfigurasi ulang dengan menjalankan:

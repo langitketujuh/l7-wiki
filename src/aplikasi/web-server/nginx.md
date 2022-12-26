@@ -23,22 +23,26 @@ doas usermod -a -G nginx $USER
 Buka konfigurasi `nginx.conf`.
 
 ```
-kate /etc/nginx/nginx.conf
+doas nano /etc/nginx/nginx.conf
 ```
 
-1. Tambahkan `index.php`, menjadi seperti ini:
+* Tambahkan `index.php`, menjadi seperti ini:
 
     ```
     index  index.html index.htm index.php;
     ```
 
-2. Hapus komentar tanda pagar `#` di bagian pass the PHP scripts to FastCGI server agar nginx dapat menjalankan skrip php melalui php-fpm.
+* Hapus komentar tanda pagar `#` di bagian fungsi `location ~ \.php$` agar nginx dapat menjalankan skrip php melalui php-fpm.
 
-3. ganti `/scripts` menjadi `/usr/share/nginx/html`.
+* Ganti `/scripts` menjadi `/usr/share/nginx/html`.
 
     ```
     fastcgi_param  SCRIPT_FILENAME  /usr/share/nginx/html$fastcgi_script_name;
     ```
+
+* Tambahkan `fastcgi_read_timeout 900` dan `fastcgi_read_timeout 900` agar dapat melakukan proses impor/ekspor dengan waktu yang lebih lama (15 menit).
+
+* Simpan dan keluar. (Ctrl+x, Y, Enter)
 
 Kurang lebih pengaturan nginx.conf seperti dibawah ini.
 
@@ -62,6 +66,8 @@ Kurang lebih pengaturan nginx.conf seperti dibawah ini.
             fastcgi_pass   127.0.0.1:9000;
             fastcgi_index  index.php;
             fastcgi_param  SCRIPT_FILENAME  /usr/share/nginx/html$fastcgi_script_name;
+            fastcgi_read_timeout 900;
+            fastcgi_send_timeout 900;
             include        fastcgi_params;
         }
     }
@@ -70,6 +76,8 @@ Kurang lebih pengaturan nginx.conf seperti dibawah ini.
 Setelah di konfigurasi, silakan `reboot` sistemnya agar efek perizinan grup dapat bekerja.
 
 ## Aktifkan layanan
+
+Aktifkan layanan nginx
 
 ```
 doas rsv enable nginx
@@ -84,6 +92,7 @@ doas rsv restart php-fpm
 Cek status layanan
 
 ```
+doas rsv status nginx
 doas rsv status php-fpm
 ```
 
@@ -98,7 +107,7 @@ Anda dapat mengakses halaman nginx di <http://localhost>.
 Untuk menguji web server dapat menjalankan php, buatlah skrip `info.php`.
 
 ```
-kate /usr/share/nginx/html/info.php
+doas nano /usr/share/nginx/html/info.php
 ```
 
 Isi dengan syntax berikut ini
