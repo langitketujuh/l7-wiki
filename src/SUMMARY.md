@@ -138,7 +138,7 @@
     - [L7 Tools](./aplikasi/perkakas/l7-tools.md)
     - [L7 Export](./aplikasi/perkakas/l7-export.md)
     - [OctoXBPS](./aplikasi/perkakas/octoxbps.md)
-    #- [XDEB](./aplikasi/perkakas/xdeb.md)
+    - [XDEB](./aplikasi/perkakas/xdeb.md)
   - [Produktifitas](./aplikasi/produktifitas/index.md)
     - [Flameshot](./aplikasi/produktifitas/flameshot.md)
     - [KeePassXC](./aplikasi/produktifitas/keepassxc.md)
