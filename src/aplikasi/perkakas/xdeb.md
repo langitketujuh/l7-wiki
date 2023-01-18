@@ -15,23 +15,23 @@ XDEB sendiri hanya bisa dipasang untuk arsitektur [x86_64](../../perbandingan/ar
 
 ## Penggunaan
 
-Adapun tahapan mengkonversi berkas deb ke xbps sebagai berikut:
-- Buat direktori (folder) baru dengan nama `XBPS` (sebagai contoh).
-- Pindahkan berkas `.deb` yang diinginkan ke direktori tersebut, lalu masuk ke `XBPS`.
+Adapun tahapan mengonversi berkas deb ke xbps sebagai berikut:
+- Buat direktori (folder) baru dengan nama `MyDeb` (sebagai contoh).
+- Pindahkan berkas `.deb` yang diinginkan ke direktori tersebut, lalu masuk ke `MyDeb`.
 - Klik kanan `Open Terminal Here` untuk membuka terminal di direktori saat ini.
 - Kemudian konversi berkas deb.
   ```
-  xdeb -Sed aplikasi-1.2.deb
+  xdeb -Sed aplikasi-x.x.deb
   ```
-- Setelah berhasil konversi ada petunjuk nama paket di akhir baris, misalnya `aplikasi-1.2_1`. Kemudian pasang perangkat lunak tersebut.
+- Setelah berhasil konversi ada petunjuk nama paket di akhir baris, misalnya `aplikasi-x.x_x.xbps`. Kemudian pasang perangkat lunak tersebut.
   ```
-  get -R binpkgs aplikasi-1.2_1
+  get -R binpkgs aplikasi
   ```
 - Proses pemasangan telah selesai.
 
 ## Menghapus aplikasi deb
 
-Seperti perintah menghapus biasanya di LangitKetujuh yang menggunakan `remove`.
+Perintah menghapus di LangitKetujuh yang seperti biasanya menggunakan `remove`.
 
 ```
 remove aplikasi
