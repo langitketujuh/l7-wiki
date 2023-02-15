@@ -99,4 +99,4 @@ Langkah selanjutnya konfigurasi printer di pengaturan sistem.
 Jika tipe printer tidak tersedia, kemungkinan tersedia dengan driver [Open Printing].
 
 [Open Printing]:open-printing.md
-[nonfree]:../../server.html#repo-tambahan
+[nonfree]:../../server/index.html#repo-tambahan

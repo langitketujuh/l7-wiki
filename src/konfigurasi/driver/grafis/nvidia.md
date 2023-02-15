@@ -66,4 +66,4 @@ Masukkan ke dalam berkas:
 /usr/lib/modprobe.d/nvidia-dkms.conf
 ```
 
-[nonfree]:../../server.html#repo-tambahan
+[nonfree]:../../server/index.html#repo-tambahan

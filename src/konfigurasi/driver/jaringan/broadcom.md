@@ -26,4 +26,4 @@ Kemudian reboot.
 
 Kemungkinan masalah lainnya yaitu meskipun sudah terdeteksi, terkadang Broadcom sulit untuk menyambungkan ke jaringan. Jadi sebisa mungkin untuk menyambungkan dan putuskan jaringan (connect/disconnect) untuk beberapa kali sampai benar-benar tersambung.
 
-[nonfree]:../../server.html#repo-tambahan
+[nonfree]:../../server/index.html#repo-tambahan

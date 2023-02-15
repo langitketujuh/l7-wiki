@@ -78,4 +78,4 @@ Selanjutnya pasang driver Brother printer/scanner.
 | `get brother-dcp197c-lpr`         | LPR driver for the brother DCP-197C printer/scanner          |
 
 [Open Printing]:open-printing.md
-[nonfree]:../../server.html#repo-tambahan
+[nonfree]:../../server/index.html#repo-tambahan
