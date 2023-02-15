@@ -84,7 +84,7 @@
     - [PipeWire](./konfigurasi/multimedia/pipewire.md)
     - [PulseAudio](./konfigurasi/multimedia/pulseaudio.md)
   - [Pembaruan sistem](./konfigurasi/pembaruan.md)
-  - [Server repositori](./konfigurasi/server.md)
+  - [Server repositori](./konfigurasi/server/index.md)
   - [Shell](./konfigurasi/shell/index.md)
     - [Fish shell](./konfigurasi/shell/fish.md)
   - [Sistem tanggal](./konfigurasi/tanggal/index.md)
