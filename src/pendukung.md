@@ -66,6 +66,7 @@
 - Budi Irawan.
 - Budi Suzaldi.
 - Buyung.
+- Chandra Handika.
 - Cecep Wahidin.
 - Chairuddinsyah Harahap.
 - Dadan Mulyana.
@@ -78,6 +79,7 @@
 - Devrian Anwar.
 - Dian Lentera Buana.
 - Dias Fahmi.
+- Didik Prastiyanto.
 - Dimas Bagus Nirwandhani.
 - Dimas Nirwan.
 - Dony Martino.
@@ -156,6 +158,7 @@
 - Langgeng Wiono.
 - Latif Ahmad Fatih.
 - Latif Sobri Alhamidi.
+- Luyao Tian.
 - Linuxscoop.
 - M Indra Dwi Cahyono.
 - M. Indra Dwi Cahyono.
@@ -186,6 +189,7 @@
 - Muhammad Al Furqon.
 - Muhammad Arif Hidayat.
 - Muhammad Awaludin.
+- Muhammad Erlangga.
 - Muhammad Farid H.
 - Muhammad Firqi Arianto.
 - Muhammad Hasan.
@@ -213,6 +217,7 @@
 - Nurmah Greafika.
 - Nurul Efendi.
 - Oky Tjahjawiguna.
+- Omi Gusty Rifani.
 - Persada TV.
 - Pradipto E.H.
 - Pratama.
@@ -265,6 +270,7 @@
 - Teguh Ryt12.
 - Teuku Fauzan.
 - Tohir.
+- Toni Fajar Saputra.
 - Tukiyo.
 - Tun Rahmat Reformasi.
 - Usman Abdullah.
