@@ -1,6 +1,4 @@
-<video autoplay loop muted playsinline poster="media/video/langitketujuh-preview.webp" style="position: relative; width: 100%; height: auto; border:0;" >
-  <source src="media/video/langitketujuh-preview.webm" type="video/webm">
-</video>
+![LangitKetujuh Preview](media/image/fullscreenpreview.webp)
 
 # LangitKetujuh OS
 
