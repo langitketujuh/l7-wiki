@@ -1,10 +1,18 @@
 # Boot mode
 
-## UEFI
+## Melalui installer
 
 Setelah reboot kemudian masuk ke Live USB, selanjutnya periksa jenis boot mode yang digunakan saat ini. Jika menggunakan UEFI maka pastikan masuk kedalam mode UEFI. Dan sebaliknya, jika menggunakan legacy maka pastikan masuk kedalam mode legacy.
 
-Cara memeriksa boot mode yaitu dengan mengetik perintah ini di `konsole`.
+Pada dasarnya di installer LangitKetujuh sudah tersedia pendeteksi boot mode yang digunakan. Baik boot mode `UEFI` maupun `Legacy`. Sebagai contoh bootmode `UEFI` akan tampil seperti ini.
+
+![LangitKetujuh Bootmode](../../media/image/install-bootmode-installer.webp)
+
+## Melalui konsole
+
+### UEFI
+
+Selain menggunakan installer, cara lain memeriksa boot mode dengan mengetik perintah ini di `konsole`.
 
 ```
 efibootmgr
@@ -25,7 +33,7 @@ Namun jika hasil keluarannya `EFI variables are not supported on this system.` m
 
 Kami menyarankan jika sistem bios mendukung UEFI maka gunakanlah UEFI, karena UEFI lebih modern dari Legacy. Tetapi jika LangitKetujuh tidak mendukung sistem UEFI, maka boleh menggunakan mode legacy. Tetapi diharuskan mengkonversi tipe disk GPT ke MBR agar mendukung legacy (_cara konversi ada di [halaman ini](../sistem-partisi/konversi.html#merubah-gpt-ke-mbr-tanpa-format)_).
 
-## Legacy
+### Legacy
 
 Periksa boot mode di `konsole`.
 
