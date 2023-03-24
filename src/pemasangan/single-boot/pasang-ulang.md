@@ -21,6 +21,10 @@ Kata sandi: `langitketujuh`
 
 ![LangitKetujuh Install](../../media/image/install-splash.webp)
 
+> ⚠️ **Peringatan**
+>
+> Pastikan sudah sesuai dengan jenis boot mode yang digunakan. Jika menggunakan UEFI maka installer menunjukkan "UEFI systems". Dan sebaliknya jika menggunakan Legacy maka installer menampilkan "Legacy systems".
+
 Tekan `Enter` untuk melanjutkan ke pemasangan. Pengguna akan melihat langkah demi langkah tahapan yang harus diselesaikan. Seperti `Keyboard`, `Network`, `Hostname` hingga ke `Install`.
 
 ![LangitKetujuh Install](../../media/image/install-step.webp)
