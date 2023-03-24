@@ -215,6 +215,10 @@ Jika sudah yakin, pilih `write` lalu ketik `yes`. Kemudian pilih `quit` untuk ke
 >
 > Khusus SSD untuk bagian partisi root disarankan menggunakan `F2fs`/`Btrfs` sedangkan HDD menggunakan `XFS`/`Ext4`.
 
+Setiap kali membuat mount point terhadap suatu partisi maka akan muncul pesan peringatan seperti ini.
+
+![LangitKetujuh Install](../../media/image/install-filesystem-type-mount-point.webp)
+
 Filesystem akan menentukan setiap partisi untuk digunakan dalam mountpoint hirarki sistem operasi. Umumnya terdiri dari 3 mountpoint, yaitu:
 
   1. `/boot` atau `/boot/efi`
