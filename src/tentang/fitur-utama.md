@@ -30,6 +30,9 @@ RAM virtual terkompresi dengan tingkat I/O disk yang rendah dan penambahan ruang
 ## Plasma Vault
 Solusi enkripsi yang terintegrasi dengan plasma untuk menyimpan direktori berkas rahasia dengan berbagai format.
 
+## Kernel LTS
+Opsi tambahan dengan kernel LTS (Long Term Support) yang stabil, pembaruan minor, perbaikan keamanan dan dukungan yang lebih lama.
+
 ## Komunitas
 Berbagi inspirasi, gotong royong dan bertujuan untuk mensosialisasikan perangkat lunak terbuka.
 
