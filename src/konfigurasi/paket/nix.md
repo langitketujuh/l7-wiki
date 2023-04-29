@@ -65,7 +65,7 @@ nupdate
 Sebagai contoh:
 
 * Memasang inkscape: `nget nixpkgs.inkscape`
-* Menghapus inkscape: `nget inkscape`
+* Menghapus inkscape: `nremove inkscape`
 
 **Tips:** Penggunaan `nsearch` akan memerlukan penggunaan ram yang cukup besar, lebih baik mencari aplikasi nix dari situs pencarian <https://search.nixos.org> agar lebih cepat.
 
