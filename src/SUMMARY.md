@@ -72,6 +72,7 @@
     - [XBPS](./konfigurasi/paket/xbps.md)
     - [VPSM](./konfigurasi/paket/vpsm.md)
     - [Flatpak](./konfigurasi/paket/flatpak.md)
+    - [Nix](./konfigurasi/paket/nix.md)
     - [Snap](./konfigurasi/paket/snap.md)
     - [AppImage](./konfigurasi/paket/appimage.md)
   - [Manajemen layanan](./konfigurasi/layanan/index.md)
