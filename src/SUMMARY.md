@@ -68,6 +68,7 @@
     - [Pengaturan sistem](./konfigurasi/kde/pengaturan-sistem.md)
     - [Plasma pencarian](./konfigurasi/kde/plasma-pencarian.md)
     - [Sesi desktop](./konfigurasi/kde/sesi-desktop.md)
+  - [Kernel Linux](./konfigurasi/kernel/index.md)
   - [Manajemen paket](./konfigurasi/paket/index.md)
     - [XBPS](./konfigurasi/paket/xbps.md)
     - [VPSM](./konfigurasi/paket/vpsm.md)
