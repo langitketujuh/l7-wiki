@@ -17,7 +17,7 @@ Perintah dasar di Langitketujuh memanfaatkan fitur fungsi pada [fish-shell](../s
 | `reconfigure <pkg>`   | `reconfigure gimp`    | Mengatur ulang konfigurasi paket yang terpasang.|
 | `autoclean`           |                       | Menghapus cache dependensi kedaluwarsa.         |
 | `disk`                |                       | Melihat struktur sistem partisi.                |
-| `list    `            |                       | Melihat daftar repository.                      |
+| `list`                |                       | Melihat daftar repository.                      |
 | `ll`                  |                       | Melihat daftar direktori dan berkas.            |
 
 Perintah yang membutuhkan argumen `<pkg>` seperti `get`,`search`,`remove`, dll sudah terdapat autokomplit dengan menekan tab. Sehingga akan memudahkan mencari paket yang akan dikehendaki.
