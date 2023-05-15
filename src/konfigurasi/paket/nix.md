@@ -55,6 +55,7 @@ nupdate
 | Perintah               |  Fungsi                                              |
 | :--------------------- |  :-------------------------------------------------- |
 | `nupdate`              |  Memperbarui basis data repositori nix.              |
+| `nupgrade`             |  Memperbarui perangkat lunak dan dependensi nix.     |
 | `nget nixpkgs.<pkg>`   |  Memasang perangkat lunak dari nix.                  |
 | `nsearch <pkg>`        |  Mencari perangkat lunak berdasarkan basis data nix. |
 | `nremove <pkg>`        |  Menghapus perangkat lunak dari nix.                 |
