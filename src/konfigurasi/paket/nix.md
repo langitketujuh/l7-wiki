@@ -56,7 +56,7 @@ nupdate
 | :--------------------- |  :-------------------------------------------------- |
 | `nupdate`              |  Memperbarui basis data repositori nix.              |
 | `nupgrade`             |  Memperbarui perangkat lunak dan dependensi nix.     |
-| `nget nixpkgs.<pkg>`   |  Memasang perangkat lunak dari nix.                  |
+| `nget <pkg>`           |  Memasang perangkat lunak dari nix.                  |
 | `nsearch <pkg>`        |  Mencari perangkat lunak berdasarkan basis data nix. |
 | `nremove <pkg>`        |  Menghapus perangkat lunak dari nix.                 |
 | `nquery`               |  Informasi dari sistem dengan nix.                   |
@@ -65,10 +65,13 @@ nupdate
 
 Sebagai contoh:
 
-* Memasang inkscape: `nget nixpkgs.inkscape`
+* Memasang inkscape: `nget inkscape`
 * Menghapus inkscape: `nremove inkscape`
 
-**Tips:** Penggunaan `nsearch` akan memerlukan penggunaan ram yang cukup besar, lebih baik mencari aplikasi nix dari situs pencarian <https://search.nixos.org> agar lebih cepat.
+Terkadang beberapa paket memiliki perbedaan nama ketika dihapus. Misalnya `nget neofetch` ketika dipasang, tetapi saat menghapus paket dengan `nremove neofetch` tidak akan berhasil karena nama paketnya adalah `neofetch-unstable`.
+Sehingga cara yang benar menghapus paket tersebut yaitu dengan `nremove neofetch-unstable`.
+
+Penggunaan `nsearch` akan memerlukan penggunaan ram yang cukup besar, lebih baik mencari aplikasi nix dari situs pencarian <https://search.nixos.org> agar lebih cepat.
 
 ## Mengaktifkan paket unfree
 
