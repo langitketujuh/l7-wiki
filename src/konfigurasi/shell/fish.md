@@ -7,11 +7,12 @@ LangitKetujuh untuk pengguna normal secara bawaan menggunakan `fish-shell` sebag
 Beberapa singkatan yang digunakan di LangitKetujuh OS.
 
 | Perintah              | Fungsi                                          |
+| --------------------- | ----------------------------------------------- |
 | `disk`                | Melihat struktur sistem partisi.                |
 | `list`                | Melihat daftar repository.                      |
 | `ll`                  | Melihat daftar direktori dan berkas.            |
 
-## Konfigurasi dengan web
+## Konfigurasi fish
 
 Fitur menarik dari fish-shell yaitu terdapat pengaturan berbasis web. Seperti mengatur warna tema, fungsi, singkatan, melihat perintah yang pernah diketik sebelumnya (history). Jalankan perintah dibawah ini untuk membuka konfigurasi melalui web.
 
