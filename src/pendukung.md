@@ -28,6 +28,8 @@
 - Agus Zakariya.
 - Ahmad Hermawan Ertyanto.
 - Ahmad Khoufa Ma'Ashi.
+- Ahmad Nursalim.
+- Ahmad Syahril G.
 - Ahmad Yoga.
 - Akip Ridwan.
 - Alfan Zulkarnain.
@@ -59,6 +61,8 @@
 - Bagus Mahendra Efendi.
 - Bairy Tri Saputra Pamungkas.
 - Bayu Anggoro.
+- Bayu Palangka Saputra.
+- Bayu Rizkie.
 - Bayu Tri Susilo.
 - Bilal Barnabas.
 - Bima Mulyanto.
@@ -66,9 +70,9 @@
 - Budi Irawan.
 - Budi Suzaldi.
 - Buyung.
-- Chandra Handika.
 - Cecep Wahidin.
 - Chairuddinsyah Harahap.
+- Chandra Handika.
 - Dadan Mulyana.
 - Dani Abdullah.
 - Darussalam.
@@ -85,6 +89,7 @@
 - Dony Martino.
 - Dudy Herdiana.
 - Dwi Noviyanto.
+- Dwi Winarno.
 - Edwin Hikmaturrahman.
 - Edy Daryapto.
 - Eggi Chanda.
@@ -99,6 +104,7 @@
 - Fahrul Ibnu Ahmad.
 - Faisal Rosady.
 - Fajar Dwi Saputro.
+- Fajar Rianto.
 - Fajar Sidik.
 - Faruq M.
 - Fauzi Ferdiansyah.
@@ -151,6 +157,7 @@
 - Jimmy Gunawan.
 - Johan Fanani.
 - Jumaludin Salam.
+- Kartiko Damarjati.
 - Khairil Alkudus.
 - Khairul Arief Rahman.
 - Khairullah.
@@ -159,8 +166,8 @@
 - Langgeng Wiono.
 - Latif Ahmad Fatih.
 - Latif Sobri Alhamidi.
-- Luyao Tian.
 - Linuxscoop.
+- Luyao Tian.
 - M Indra Dwi Cahyono.
 - M. Indra Dwi Cahyono.
 - M. Iqbal Bustam.
@@ -219,6 +226,7 @@
 - Nurul Efendi.
 - Oky Tjahjawiguna.
 - Omi Gusty Rifani.
+- Pangky Moanda.
 - Persada TV.
 - Pradipto E.H.
 - Pratama.
