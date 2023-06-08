@@ -38,10 +38,10 @@ Ada 2 kanal yang tersedia, pilih satu kanal saja. Kami menyarankan memilih yang 
     doas nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     ```
 
-2. Kanal poin rilis. Berupa nomer rilis nixos yang stabil, misalnya `22.11`.
+2. Kanal poin rilis. Berupa nomer rilis nixos yang stabil, misalnya `23.05`.
 
     ```
-    doas nix-channel --add https://nixos.org/channels/nixos-22.11 nixpkgs
+    doas nix-channel --add https://nixos.org/channels/nixos-23.05 nixpkgs
     ```
 
 Kemudian perbarui repositori nix.

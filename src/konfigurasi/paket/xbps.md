@@ -2,23 +2,22 @@
 
 ## Perintah dasar
 
-Perintah dasar di Langitketujuh memanfaatkan fitur fungsi pada [fish-shell](../shell/fish.md) untuk mempercepat menyingkat perintah yang sebenarnya. Misalnya, ketika mengetik `update` pada dasarnya menjalankan perintah `doas xbps-install -S`. Jika berjalan diatas user root akan menjalankan `xbps-install -S` saja tanpa doas. Demikian pula perintah lainnya yang seperti dibawah ini.
+XBPS merupakan paket manager utama yang digunakan oleh Langitketujuh OS, sebagaimana voidlinux yang juga menggunakan XBPS. Sebelum menggunakan paket manager lainnya seperti [vpsm](vpsm.md), [flatpak](flatpak.md) atau [nix](nix.md), kami sarankan untuk menggunakan `xbps` terlebih dahulu.
+
+Perintah dasar `xbps` di Langitketujuh memanfaatkan fitur fungsi pada [fish-shell](../shell/fish.md) untuk mempercepat menyingkat perintah yang sebenarnya. Beberapa perintah sudah menyesuaikan jika terdeteksi sebagai root atau pengguna biasa yang memerlukan tambahan `doas`.
 
 | Perintah              | Contoh                | Fungsi                                          |
 | :-------------------- | :-------------------- | :---------------------------------------------- |
 | `update`              |                       | Memperbarui basis data repositori.              |
 | `upgrade`             |                       | Memperbarui perangkat lunak dan dependensi.     |
 | `get <pkg>`           | `get gimp`            | Memasang perangkat lunak.                       |
-| `search <pkg>`        | `search gimp`         | Mencari perangkat lunak berdasarkan basis data. |
+| `search <string>`     | `search gimp`         | Mencari perangkat lunak berdasarkan basis data. |
 | `remove <pkg>`        | `remove gimp`         | Menghapus perangkat lunak.                      |
 | `query <pkg>`         | `query gimp`          | Informasi dari perangkat lunak yang terpasang.  |
-| `list <pkg>`          | `list gimp`           | Daftar isi dari dependensi                      |
+| `list <pkg>`          | `list gimp`           | Daftar isi dari dependensi.                     |
 | `deps <pkg>`          | `deps gimp`           | Melihat daftar dari dependensi paket.           |
 | `reconfigure <pkg>`   | `reconfigure gimp`    | Mengatur ulang konfigurasi paket yang terpasang.|
 | `autoclean`           |                       | Menghapus cache dependensi kedaluwarsa.         |
-| `disk`                |                       | Melihat struktur sistem partisi.                |
-| `list`                |                       | Melihat daftar repository.                      |
-| `ll`                  |                       | Melihat daftar direktori dan berkas.            |
 
 Perintah yang membutuhkan argumen `<pkg>` seperti `get`,`search`,`remove`, dll sudah terdapat autokomplit dengan menekan tab. Sehingga akan memudahkan mencari paket yang akan dikehendaki.
 

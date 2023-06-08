@@ -1,52 +1,59 @@
 # Flatpak sanboxing
 
-## Konfigurasi flathub
+[Flatpak](https://www.flatpak.org/) merupakan salah satu independen proyek paket manager universal yang dapat digunakan oleh hampir berbagai distribusi linux.
 
-Diharuskan menjalankan perintah ini saat pertama kali menggunakan flatpak atar tidak galat saat melakukan pemasangan aplikasi.
+## Perintah dasar
 
-```
-flathub
-```
+Perintah dasar `flatpak` dibawah ini sudah dikonfigurasi lebih mudah dengan fungsi fish-shell.
+
+| Perintah              | Contoh                | Fungsi                                                  |
+| :-------------------- | :-------------------- | :------------------------------------------------------ |
+| `fupgrade`            |                       | Memperbarui perangkat lunak dari repo flathub.          |
+| `fget <pkg>`          | `fget gimp`           | Memasang perangkat lunak dari flatpak.                  |
+| `fsearch <pkg>`       | `fsearch gimp`        | Mencari perangkat lunak berdasarkan basis data flathub. |
+| `fremove <pkg>`       | `fremove gimp`        | Menghapus perangkat lunak dari flatpak.                 |
 
 ## Memasang perangkat lunak
 
-Pasanglah perangkat lunak yang dibutuhkan. Ketik `y` untuk melanjutkan pemasangan perangkat lunak. Perangkat lunak lainnya bisa didapatkan di [website resmi flathub](https://flathub.org/).
+Pasanglah perangkat lunak yang dibutuhkan. Ketik `y` atau langsung `enter` untuk melanjutkan pemasangan perangkat lunak. Jika ada pilihan jenis perangkat lunak pilih nomer berdasarkan perangkat lunak yang diinginkan, pilih nomer `[0-9]`.
 
 | Perangkat lunak   | Perintah memasang                                               |
-| :---------------- | :-------------------------------------------------------------- |
-| Blender           | `flatpak install flathub org.blender.Blender`                   |
-| Brave browser     | `flatpak install flathub com.brave.Browser`                     |
-| Discord           | `flatpak install flathub com.discordapp.Discord`                |
-| Draw.io           | `flatpak install flathub com.jgraph.drawio.desktop`             |
-| Enve              | `flatpak install flathub io.github.maurycyliebner.enve`         |
-| Figma for Linux   | `flatpak install flathub io.github.Figma_Linux.figma_linux`     |
-| Gravit Designer   | `flatpak install flathub io.designer.GravitDesigner`            |
-| Inkscape          | `flatpak install flathub org.inkscape.Inkscape`                 |
-| Jitsi             | `flatpak install flathub org.jitsi.jitsi-meet`                  |
-| LeoCAD            | `flatpak install flathub org.leocad.LeoCAD`                     |
-| LibreSprite       | `flatpak install flathub com.github.libresprite.LibreSprite`    |
-| Mendeley Desktop  | `flatpak install flathub com.elsevier.MendeleyDesktop`          |
-| MeshLab           | `flatpak install flathub net.meshlab.MeshLab`                   |
-| Microsoft Teams   | `flatpak install flathub com.microsoft.Teams`                   |
-| Minecraft         | `flatpak install flathub com.mojang.Minecraft`                  |
-| Natron            | `flatpak install flathub fr.natron.Natron`                      |
-| NextCloud Desktop | `flatpak install flathub com.nextcloud.desktopclient.nextcloud` |
-| Olive Editor      | `flatpak install flathub org.olivevideoeditor.Olive`            |
-| Only Office       | `flatpak install flathub org.onlyoffice.desktopeditors`         |
-| Photophea         | `flatpak install flathub com.github.vikdevelop.photopea_app`    |
-| Qgis Desktop      | `flatpak install flathub org.qgis.qgis`                         |
-| Rocket.Chat       | `flatpak install flathub chat.rocket.RocketChat`                |
-| Signal Desktop    | `flatpak install flathub org.signal.Signal`                     |
-| Slack Desktop     | `flatpak install flathub com.slack.Slack`                       |
-| SparkleShare      | `flatpak install flathub org.sparkleshare.SparkleShare`         |
-| Spotify           | `flatpak install flathub com.spotify.Client`                    |
-| Steam             | `flatpak install flathub com.valvesoftware.Steam`               |
-| VScodium          | `flatpak install flathub com.vscodium.codium`                   |
-| WPS Office        | `flatpak install flathub com.wps.Office`                        |
-| WhatsApps QT      | `flatpak install flathub io.bit3.WhatsAppQT`                    |
-| Zoom              | `flatpak install flathub us.zoom.Zoom`                          |
-| Zotero            | `flatpak install flathub org.zotero.Zoter`                      |
-| Zulip Desktop     | `flatpak install flathub org.zulip.Zulip`                       |
+| :---------------- | :--------------------- |
+| Blender           | `fget blender`         |
+| Brave browser     | `fget brave`           |
+| Discord           | `fget discord`         |
+| Draw.io           | `fget drawio`          |
+| Enve              | `fget enve`            |
+| Figma for Linux   | `fget figma`           |
+| Gravit Designer   | `fget gravitdesigner`  |
+| Inkscape          | `fget inkscape`        |
+| Jitsi             | `fget jitsi`           |
+| LeoCAD            | `fget leocad`          |
+| LibreSprite       | `fget libresprite`     |
+| Mendeley Desktop  | `fget mendeleydesktop` |
+| MeshLab           | `fget meshlab`         |
+| Microsoft Teams   | `fget teams`           |
+| Minecraft         | `fget minecraft`       |
+| Natron            | `fget natron`          |
+| NextCloud Desktop | `fget nextcloud`       |
+| Olive Editor      | `fget olive`           |
+| Only Office       | `fget onlyoffice`      |
+| Photophea         | `fget photopea_app`    |
+| Qgis Desktop      | `fget qgis`            |
+| Rocket.Chat       | `fget rocketchat`      |
+| Signal Desktop    | `fget signal`          |
+| Slack Desktop     | `fget slack`           |
+| SparkleShare      | `fget sparkleshare`    |
+| Spotify           | `fget spotify`         |
+| Steam             | `fget steam`           |
+| VScodium          | `fget codium`          |
+| WPS Office        | `fget wps`             |
+| WhatsApps QT      | `fget whatsappqt`      |
+| Zoom              | `fget zoom`            |
+| Zotero            | `fget zotero`          |
+| Zulip Desktop     | `fget zulip`           |
+
+Perangkat lunak lainnya bisa didapatkan di [website resmi flathub](https://flathub.org/).
 
 ## Menu tidak tampil
 
