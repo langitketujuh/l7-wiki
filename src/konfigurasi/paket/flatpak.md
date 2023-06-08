@@ -17,7 +17,7 @@ Perintah dasar `flatpak` dibawah ini sudah dikonfigurasi lebih mudah dengan fung
 
 ## Memasang perangkat lunak
 
-Pasanglah perangkat lunak yang dibutuhkan. Ketik `y` atau langsung `enter` untuk melanjutkan pemasangan perangkat lunak. Jika ada pilihan jenis perangkat lunak pilih nomer berdasarkan perangkat lunak yang diinginkan, pilih nomer `[0-9]`.
+Pasanglah perangkat lunak yang dibutuhkan. Ketik `y` atau langsung `enter` untuk melanjutkan pemasangan perangkat lunak. Jika ada pilihan jenis perangkat lunak pilih nomer `[0-9]` berdasarkan perangkat lunak yang diinginkan.
 
 | Perangkat lunak   | Perintah memasang                                               |
 | :---------------- | :--------------------- |
