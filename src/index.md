@@ -11,6 +11,7 @@ Sebagai pengembang dan kontributor, kami mengucapkan selamat kepada pengguna yan
 * Telegram: [langitketujuh_id](https://t.me/langitketujuh_id)
 * Instagram: [@langitketujuh.id](https://instagram.com/langitketujuh.id)
 * Facebook: [langitketujuh.id](https://fb.com/langitketujuh.id)
+* Lainnya: [Ikuti kami!](https://follow.langitketujuh.id)
 
 Komunitas:
 * Telegram: [@langitketujuh_os](https://t.me/langitketujuh_os)
