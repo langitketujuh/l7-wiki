@@ -1,5 +1,7 @@
 # Flatpak sanboxing
 
+## Deskripsi
+
 [Flatpak](https://www.flatpak.org/) merupakan salah satu independen proyek paket manager universal yang dapat digunakan oleh hampir berbagai distribusi linux.
 
 ## Perintah dasar

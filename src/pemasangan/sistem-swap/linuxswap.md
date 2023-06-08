@@ -1,5 +1,7 @@
 # Linux swap
 
+## Deskripsi
+
 Sistem tradisional linux swap dengan membuat partisi khusus swap sangat tidak disarankan. Alasannya sebagai berikut:
 
 * Memperlambat kinerja Hardisk.

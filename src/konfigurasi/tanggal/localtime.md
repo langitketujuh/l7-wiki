@@ -1,5 +1,7 @@
 # Localtime
 
+## Deskripsi
+
 Pengaturan waktu di LangitKetujuh menggunakan `UTC`. Sedangkan Windows menggunakan RTC atau yang disebut dengan `localtime`. Jika dualboot dengan windows, akan terjadi konflik pengaturan tanggal dan waktu di sistem operasi LangitKetujuh.
 
 Untuk mengatasi konflik, yaitu dengan menyamakan semua sistem waktu `HARDWARECLOCK` menggunakan `localtime`. Solusi termudahnya dengan menjalankan perintah dibawah ini.

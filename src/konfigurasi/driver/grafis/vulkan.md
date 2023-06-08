@@ -1,5 +1,11 @@
 # Vulkan API
 
+## Deskripsi
+
+Vulkan adalah tipe grafis dengan overhead rendah, lintas platform API, standar terbuka untuk grafik 3D dan komputasi 3D. Vulkan menargetkan aplikasi grafis 3D secara waktu nyata atau real-time berkinerja tinggi, seperti permainan video dan media interaktif.
+
+Berbeda dengan OpenGL dan Direct3D 11 API yang lebih lama, Vulkan dimaksudkan untuk menawarkan kinerja yang lebih tinggi dan penggunaan CPU dan GPU yang lebih seimbang.
+
 ## Pemasangan
 
 Vulkan secara bawaan belum terpasang untuk LangitKetujuh versi `20210921` dan sebelumnya, sedangkan versi di selanjutnya sudah terpasang otomatis.

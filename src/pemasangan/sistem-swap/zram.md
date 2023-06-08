@@ -1,5 +1,7 @@
 # ZRAM
 
+## Deskripsi
+
 ZRAM (sebelumnya dikenal dengan _compcache_) adalah salah satu fitur dari modul kernel yang bertujuan untuk menggunakan ruang sisa RAM sebagai memori cache terkompresi. Sehingga swap dapat berjalan dengan RAM yang terkompresi dan tidak mengurangi ruang disk. Secara bawaan di LangitKetujuh, ZRAM sudah aktif dengan tambahan porsi 25% dari RAM fisik.
 
 | **Ram fisik** | **ZRAM (25%)** | **Memori total** |

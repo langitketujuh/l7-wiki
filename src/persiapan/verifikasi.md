@@ -1,5 +1,7 @@
 # Verifikasi berkas
 
+## Deskripsi
+
 Sebelum membuat bootable dengan flashdisk, disarankan untuk melakukan verifikasi berkas dengan kode hash `MD5`, `SHA1`, atau `SHA256`. Tujuannya untuk mengetahui berkas iso yang telah diunduh sudah benar-benar aman.
 
 Caranya dengan memastikan kode hash yang ada di server sama seperti kode hash yang ada di iso yang telah diunduh. Kode hash dapat Anda lihat ketika mengklik **Unduh ISO** di [tautan halaman unduh](https://langitketujuh.id/os/download/) atau di tautan yang kami kirimkan melalui email untuk pengguna Studio.

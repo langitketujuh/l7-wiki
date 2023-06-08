@@ -1,5 +1,7 @@
 # Clight
 
+## Deskripsi
+
 Clight untuk mengatur kecerahan layar secara otomatis menggunakan sensor webcam.
 
 Biasanya laptop dengan baterai yang _drop_ dan webcam yang tidak terlalu bagus akan mempengaruhi kinerja `clight`. Jika bermasalah, fitur ini bisa dinonaktifkan.

@@ -1,6 +1,6 @@
 # Chroot mode
 
-## Pengertian chroot
+## Deskripsi
 
 `chroot` merupakan perkakas linux untuk memodifikasi direktori root atau sistem. Melakukan pengendalian dan masuk kedalam sistem root. Sesuai namanya `chroot` yaitu `change root` untuk merubah direktori root dari partisi tertentu.
 

@@ -1,5 +1,7 @@
 # Runit init
 
+## Deskripsi
+
 Init merupakan daemon proses yang terus berjalan hingga sistem dimatikan. Sedangkan [Runit](http://smarden.org/runit/) sendiri merupakan salah satu manajemen init pengganti [systemd](https://systemd.io/). Proses booting runit terlihat saat pertama kali menyalakan komputer.
 
 ![Runit LangitKetujuh OS](../../media/image/runit-langitketujuh-id.webp)

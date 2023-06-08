@@ -1,5 +1,9 @@
 # NVIDIA
 
+## Deskripsi
+
+Beberapa driver Nvidia menggunakan `nouveau` dan driver nonfree Nvidia.
+
 ## Nouveau
 
 `nouveau` (Open Source Nvidia Driver) di maintenance oleh komunitas dengan dokumentasi yang disediakan oleh Nvidia. Secara bawaan sistem LangitKetujuh sudah memasang driver nouveau.

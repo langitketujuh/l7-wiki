@@ -1,4 +1,3 @@
-
 # Partisi terkunci
 
 Ada 3 kemungkinan faktor partisi tidak bisa ditulis atau di modifikasi.

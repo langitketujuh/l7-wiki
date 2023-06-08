@@ -1,5 +1,7 @@
 # Akun pengguna
 
+## Nama pengguna dan sandi
+
 Ada dua pengguna ketika memasuki liveusb LangitKetujuh, yaitu pengguna `anon` dan `root`.
 
 - Untuk pengguna normal.

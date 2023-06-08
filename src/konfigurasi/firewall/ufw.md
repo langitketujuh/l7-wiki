@@ -1,5 +1,7 @@
 # Uncomplicated Firewall (UFW)
 
+## Deskripsi
+
 `UFW` adalah kepanjangan dari Uncomplicated Firewall sebuah perangkat lunak front-end dari iptables yang ringan, powerful dan sangat mudah digunakan untuk mengatur firewall. UFW ini adalah front-end dari iptables (pengaturan Firewall tingkat lanjut). Jadi dengan kata lain ketika pengguna mengatur firewall dengan UFW maka sama saja mengatur firewall di iptables.
 
 ## Mengaktifkan UFW

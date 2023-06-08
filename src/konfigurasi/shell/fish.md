@@ -1,5 +1,7 @@
 # Fish shell
 
+## Deskripsi
+
 LangitKetujuh untuk pengguna normal secara bawaan menggunakan `fish-shell` sebagai shell utamanya. Tetapi bisa juga menggunakan shell lain seperti bash, ion, zsh dan sebagainya. Periksa shell yang digunakan dengan `echo $SHELL`. Cek ketersediaan shell yang ada di sistem dengan `chsh -l`.
 
 ## Singkatan

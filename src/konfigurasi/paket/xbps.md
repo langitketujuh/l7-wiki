@@ -1,8 +1,10 @@
 # XBPS paket manajer
 
-## Perintah dasar
+## Deskripsi
 
 XBPS merupakan paket manager utama yang digunakan oleh Langitketujuh OS, sebagaimana voidlinux yang juga menggunakan XBPS. Sebelum menggunakan paket manager lainnya seperti [vpsm](vpsm.md), [flatpak](flatpak.md) atau [nix](nix.md), kami sarankan untuk menggunakan `xbps` terlebih dahulu.
+
+## Perintah dasar
 
 Perintah dasar `xbps` di Langitketujuh memanfaatkan fitur fungsi pada [fish-shell](../shell/fish.md) untuk mempercepat menyingkat perintah yang sebenarnya. Beberapa perintah sudah menyesuaikan jika terdeteksi sebagai root atau pengguna biasa yang memerlukan tambahan `doas`.
 
