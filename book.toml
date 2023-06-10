@@ -3,19 +3,19 @@ authors = ["Hervy Qurrotul Ainur Rozi"]
 language = "id"
 multilingual = false
 src = "src"
-title = "Panduan LangitKetujuh OS"
-description = "Panduan dan tutorial menggunakan LangitKetujuh GNU/Linux."
+title = "Wikipedia LangitKetujuh OS"
+description = "Panduan dan tutorial menggunakan LangitKetujuh OS"
 
 [build]
-build-dir = "docs"
+build-dir = "wiki"
 create-missing = false
 
 [output.html]
 theme = "src/theme"
 default-theme = "light"
 preferred-dark-theme = "coal"
-git-repository-url= "https://gitlab.com/langitketujuh/l7-docs"
-edit-url-template = "https://gitlab.com/langitketujuh/l7-docs/-/blob/master/{path}"
+git-repository-url= "https://gitlab.com/langitketujuh/l7-wiki"
+edit-url-template = "https://gitlab.com/langitketujuh/l7-wiki/-/blob/master/{path}"
 git-repository-icon= "fa-gitlab"
 mathjax-support = true
 input-404 = "404.md"

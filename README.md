@@ -1,6 +1,6 @@
 # Halaman Panduan
 
-Kunjungi <https://panduan.langitketujuh.id>.
+Kunjungi <https://wiki.langitketujuh.id>.
 
 ## Memasang dependensi
 

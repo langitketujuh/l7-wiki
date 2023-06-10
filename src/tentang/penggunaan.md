@@ -2,9 +2,9 @@
 
 ## Menu ikon
 
-![Menu panduan LangitKetujuh](../media/image/icon-docs-langitketujuh-id.webp)
+![Menu wiki LangitKetujuh](../media/image/icon-docs-langitketujuh-id.webp)
 
-Didalam panduan ini memiliki menu ikon. Fungsi dari ikon-ikon tersebut antara lain:
+Di dalam wiki ini memiliki menu ikon. Fungsi dari ikon-ikon tersebut antara lain:
 
 1. Membuka atau menutup sidebar tabel dari konten.
 2. Mengganti tema tampilan.

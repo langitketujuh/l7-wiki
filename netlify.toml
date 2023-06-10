@@ -18,14 +18,14 @@ curl -sL https://github.com/rust-lang/mdBook/releases/download/v0.4.21/mdbook-v0
     Cache-Control = "public, max-age=31536000"
 
 [[redirects]]
-  from = "https://panduan-langitketujuh.netlify.app/*"
-  to = "https://panduan.langitketujuh.id/:splat"
+  from = "https://wiki-langitketujuh.netlify.app/*"
+  to = "https://wiki.langitketujuh.id/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "http://panduan-langitketujuh.netlify.app/*"
-  to = "https://panduan.langitketujuh.id/:splat"
+  from = "http://wiki-langitketujuh.netlify.app/*"
+  to = "https://wiki.langitketujuh.id/:splat"
   status = 301
   force = true
 
