@@ -4,7 +4,7 @@
 
 [VPSM](https://github.com/sineto/vpsm/) (Void-Packages Sources Management) pada umumnya digunakan untuk memasang perangkat lunak tidak bebas saja, jika perangkat lunak yang dimaksud ada di dalam repo utama maka sebaiknya jangan pakai `vpsm` tetapi gunakanlah [xbps](xbps.md). Cek perangkat lunaknya dengan `search <pkg>`. Jika tersedia, gunakan `get <pkg>` untuk memasangnya.
 
-`vpsm` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu perangkat lunak, baik yang free maupun yang tidak bebas restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang perangkat lunak sesuai panduan di [void-packages](https://github.com/void-linux/void-packages/blob/master/README.md).
+`vpsm` merupakan wrapper xbps-src agar lebih ringkas memasang atau kompil suatu perangkat lunak, baik yang free maupun yang tidak bebas restricted. Hal ini cukup mudah menggunakan vpsm dari pada memasang perangkat lunak sesuai dokumentasi di [void-packages](https://github.com/void-linux/void-packages/blob/master/README.md).
 
 ## Perintah dasar
 
