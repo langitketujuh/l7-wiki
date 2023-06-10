@@ -1,6 +1,7 @@
-book
-docs
-public
 *.kate-swp
 *.swp
 *.tar.gz
+book
+docs
+public
+wiki
