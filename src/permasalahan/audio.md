@@ -1,4 +1,4 @@
-# Audio hilang
+# Masalah Audio
 
 ## Memasang ulang PipeWire audio server
 

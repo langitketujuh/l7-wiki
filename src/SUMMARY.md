@@ -165,12 +165,12 @@
   - [Windows](./aplikasi/windows/index.md)
     - [WineHQ](./aplikasi/windows/winehq.md)
 - [Permasalahan](./permasalahan/index.md)
-  - [Akun pengguna](./permasalahan/user.md)
-  - [Audio hilang](./permasalahan/audio.md)
-  - [Masalah SDDM](./permasalahan/sddm.md)
-  - [Masalah XBPS](./permasalahan/xbps.md)
-  - [Masalah VPSM](./permasalahan/vpsm.md)
-  - [Partisi terkunci](./permasalahan/partisi.md)
+  - [Pengguna](./permasalahan/user.md)
+  - [Audio ](./permasalahan/audio.md)
+  - [SDDM](./permasalahan/sddm.md)
+  - [XBPS](./permasalahan/xbps.md)
+  - [VPSM](./permasalahan/vpsm.md)
+  - [Partisi](./permasalahan/partisi.md)
 
 ---
 - [Para pendukung](./pendukung.md)
