@@ -6,13 +6,13 @@ Daftar repositori LangitKetujuh OS untuk `x86_64`:
 
 - <https://repo-default.voidlinux.org/current>
 - <https://repo-default.voidlinux.org/current/nonfree>
-- <https://al.quds.repo.langitketujuh.id/current>
+- <https://repo-fatih.langitketujuh.id/current>
 
 Jika menggunakan arsitektur `x86_64-musl`:
 
 - <https://repo-default.voidlinux.org/current/musl>
 - <https://repo-default.voidlinux.org/current/musl/nonfree>
-- <https://al.quds.repo.langitketujuh.id/current/musl>
+- <https://repo-fatih.langitketujuh.id/current/musl>
 
 ## Cek alamat repositori
 
@@ -23,13 +23,13 @@ repo
 ```
 
 ```
-13048 https://repo-default.voidlinux.org/current (RSA signed)
+13673 https://repo-default.voidlinux.org/current (RSA signed)
       Signed-by: Void Linux
       4096 60:ae:0c:d6:f0:95:17:80:bc:93:46:7a:89:af:a3:2d
-   52 https://repo-default.voidlinux.org/current/nonfree (RSA signed)
+   59 https://repo-default.voidlinux.org/current/nonfree (RSA signed)
       Signed-by: Void Linux
       4096 60:ae:0c:d6:f0:95:17:80:bc:93:46:7a:89:af:a3:2d
-   86 https://al.quds.repo.langitketujuh.id/current (RSA signed)
+  108 https://repo-fatih.langitketujuh.id/current (RSA signed)
       Signed-by: LangitKetujuh Linux
       4096 10:33:f2:1f:6f:9d:f8:0a:66:63:48:2b:de:83:50:b1
 ```
