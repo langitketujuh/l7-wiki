@@ -12,10 +12,10 @@ get php php-apache php-cgi php-fpm php-gd php-mysql php-embed php-intl php-snmp
 
 ## Konfigurasi php-fpm
 
-Selain `nano`, pengguna juga dapat menggunakan `vim` atau `hx`.
+Selain `nano`, pengguna juga dapat menggunakan `vim` atau `hx`. Sebagai contoh versi PHP yang digunakan pada saat ini 8.2.
 
 ```
-doas nano /etc/php/php-fpm.d/www.conf
+doas nano /etc/php8.2/php-fpm.d/www.conf
 ```
 
 Ganti nama pengguna `http` dengan nama pengguna saat ini, nama pengguna dapat dicek dengan perintah `whoami`. Pada contoh kali ini menggunakan user `anon`.  Dan ganti juga nama group `http` menjadi `nginx`.
@@ -30,7 +30,7 @@ Kemudian simpan.
 ## Konfigurasi php.ini
 
 ```
-doas nano /etc/php/php.ini
+doas nano /etc/php8.2/php.ini
 ```
 
 Ganti `memory_limit = 128M` menjadi `-1` agar tidak ada batasan memori.
@@ -53,19 +53,19 @@ Simpan dan keluar. (Ctrl+x, Y, Enter)
 
 ## Layanan php-fpm
 
-Aktifkan layanan php-fpm
+Aktifkan layanan php-fpm di versi 8.2.
 
 ```
-doas rsv enable php-fpm
+doas rsv enable php-fpm8.2
 ```
 
 Cek layanan
 
 ```
-doas rsv status php-fpm
+doas rsv status php-fpm8.2
 ```
 
-Biasanya layanan `php-fpm` akan error (down) belum dapat berjalan, hal ini normal sebab pengaturan php-fpm di [Nginx] web server belum dikonfigurasi.
+Biasanya layanan `php-fpm8.2` akan error (down) belum dapat berjalan, hal ini normal sebab pengaturan php-fpm8.2 di [Nginx] web server belum dikonfigurasi.
 
 [PHP]:https://www.php.net/
 [Nginx]:nginx.md

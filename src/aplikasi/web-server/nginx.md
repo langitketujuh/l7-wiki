@@ -83,17 +83,17 @@ Aktifkan layanan nginx
 doas rsv enable nginx
 ```
 
-Restart juga layanan php-fpm
+Restart juga layanan php-fpm, sebagai contoh versi 8.2.
 
 ```
-doas rsv restart php-fpm
+doas rsv restart php-fpm8.2
 ```
 
 Cek status layanan
 
 ```
 doas rsv status nginx
-doas rsv status php-fpm
+doas rsv status php-fpm8.2
 ```
 
 ## Halaman localhost
