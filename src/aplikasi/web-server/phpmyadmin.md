@@ -22,14 +22,18 @@ doas ln -s /usr/share/webapps/phpMyAdmin /usr/share/nginx/html/phpmyadmin
 
 ```
 doas rsv restart nginx
-doas rsv restart php-fpm8.2
+```
+
+Restart juga layanan php-fpm8.3. _([lihat versi php-fpm](php.html#cek-versi-php-fpm))_
+```
+doas rsv restart php-fpm8.3
 ```
 
 Cek semua layanan.
 
 ```
 doas rsv status nginx
-doas rsv status php-fpm8.2
+doas rsv status php-fpm8.3
 ```
 
 ## Konfigurasi kode rahasia blowfish
