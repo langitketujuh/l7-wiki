@@ -77,23 +77,23 @@ Setelah di konfigurasi, silakan `reboot` sistemnya agar efek perizinan grup dapa
 
 ## Aktifkan layanan
 
-Aktifkan layanan nginx
+Aktifkan layanan nginx.
 
 ```
 doas rsv enable nginx
 ```
 
-Restart juga layanan php-fpm, sebagai contoh versi 8.2.
+Restart juga layanan php-fpm8.3. _([lihat versi php-fpm](php.html#cek-versi-php-fpm))_
 
 ```
-doas rsv restart php-fpm8.2
+doas rsv restart php-fpm8.3
 ```
 
-Cek status layanan
+Cek status layanan.
 
 ```
 doas rsv status nginx
-doas rsv status php-fpm8.2
+doas rsv status php-fpm8.3
 ```
 
 ## Halaman localhost
