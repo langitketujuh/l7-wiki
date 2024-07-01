@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-XBPS merupakan paket manager utama yang digunakan oleh Langitketujuh OS, sebagaimana voidlinux yang juga menggunakan XBPS. Sebelum menggunakan paket manager lainnya seperti [vpsm](vpsm.md), [flatpak](flatpak.md) atau [nix](nix.md), kami sarankan untuk menggunakan `xbps` terlebih dahulu.
+XBPS merupakan paket manager utama yang digunakan oleh Langitketujuh OS, sebagaimana voidlinux yang juga menggunakan XBPS. Sebelum menggunakan paket manager lainnya seperti [flatpak](flatpak.md) atau [nix](nix.md), kami sarankan untuk menggunakan `xbps` terlebih dahulu.
 
 ## Perintah dasar
 

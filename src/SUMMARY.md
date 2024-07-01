@@ -71,7 +71,6 @@
   - [Kernel Linux](./konfigurasi/kernel/index.md)
   - [Manajemen paket](./konfigurasi/paket/index.md)
     - [XBPS](./konfigurasi/paket/xbps.md)
-    - [VPSM](./konfigurasi/paket/vpsm.md)
     - [Flatpak](./konfigurasi/paket/flatpak.md)
     - [Nix](./konfigurasi/paket/nix.md)
     - [Snap](./konfigurasi/paket/snap.md)
@@ -169,7 +168,6 @@
   - [Audio ](./permasalahan/audio.md)
   - [SDDM](./permasalahan/sddm.md)
   - [XBPS](./permasalahan/xbps.md)
-  - [VPSM](./permasalahan/vpsm.md)
   - [Partisi](./permasalahan/partisi.md)
 
 ---

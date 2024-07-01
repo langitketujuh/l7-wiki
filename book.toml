@@ -3,7 +3,7 @@ authors = ["Hervy Qurrotul Ainur Rozi"]
 language = "id"
 multilingual = false
 src = "src"
-title = "Wikipedia LangitKetujuh OS"
+title = "Wiki LangitKetujuh OS"
 description = "Panduan dan tutorial menggunakan LangitKetujuh OS"
 
 [build]
